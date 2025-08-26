@@ -1,40 +1,42 @@
-name: Update auto streams
+name: Auto Update FanCode Streams
 
 on:
   schedule:
-    - cron: "*/5 * * * *"   # har 5 min
-  workflow_dispatch:        # manual Run button
-
-permissions:
-  contents: write
+    - cron: "*/5 * * * *"   # हर 5 मिनट पर
+  workflow_dispatch:        # Manual run का option भी रहेगा
 
 jobs:
   update:
     runs-on: ubuntu-latest
+
     steps:
-      - name: Checkout
-        uses: actions/checkout@v4
-        with:
-          fetch-depth: 0
+      - name: Checkout repo
+        uses: actions/checkout@v3
 
-      - name: Setup Python
-        uses: actions/setup-python@v5
+      - name: Set up Python
+        uses: actions/setup-python@v4
         with:
-          python-version: "3.11"
+          python-version: '3.x'
 
-      - name: Fetch source JSONs
+      - name: Install dependencies
         run: |
-          curl -fsSL https://allinonereborn.fun/fc178/fancode.json -o fancode1.json || true
-          curl -fsSL https://raw.githubusercontent.com/drmlive/fancode-live-events/main/fancode.json -o fancode2.json || true
-          # SonyLiv ko tumhara transform.py khud URL se fetch karta hai; yeh line optional hai:
-          # curl -fsSL https://raw.githubusercontent.com/drmlive/sliv-live-events/main/sonyliv.json -o sonyliv.json || true
-           curl -s https://raw.githubusercontent.com/Jitendraunatti/fancode/refs/heads/main/data/fancode.json -o fancode3.json   # ✅ new one
-      - name: Run transformer
-        run: python3 transform.py
+          python -m pip install --upgrade pip
+          # अगर requirements.txt है तो uncomment करो
+          # pip install -r requirements.txt
 
-      - name: Commit & push if changed
-        uses: stefanzweifel/git-auto-commit-action@v5
-        with:
-          commit_message: "Auto update auto_update_all_streams.json"
-          file_pattern: live_stream/auto_update_all_streams.json
-          branch: main
+      - name: Download FanCode sources
+        run: |
+          curl -s https://allinonereborn.fun/fc178/fancode.json -o fancode1.json
+          curl -s https://raw.githubusercontent.com/drmlive/fancode-live-events/main/fancode.json -o fancode2.json
+          curl -s https://raw.githubusercontent.com/Jitendraunatti/fancode/refs/heads/main/data/fancode.json -o fancode3.json
+
+      - name: Run update script
+        run: python update.py
+
+      - name: Commit and push changes
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add live_stream/auto_update_all_streams.json
+          git commit -m "Auto update: $(date '+%Y-%m-%d %H:%M:%S')" || echo "No changes to commit"
+          git push
