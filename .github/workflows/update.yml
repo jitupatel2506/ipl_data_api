@@ -28,7 +28,6 @@ jobs:
         run: |
           curl -s https://allinonereborn.fun/fc178/fancode.json -o fancode1.json
           curl -s https://raw.githubusercontent.com/drmlive/fancode-live-events/main/fancode.json -o fancode2.json
-          curl -s https://raw.githubusercontent.com/Jitendraunatti/fancode/refs/heads/main/data/fancode.json -o fancode3.json
 
       - name: Run update script
         run: python update.py
