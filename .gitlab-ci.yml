@@ -1,0 +1,19 @@
+stages:
+  - update
+
+update_json:
+  stage: update
+  image: python:3.9
+  script:
+    - apt-get update -qq && apt-get install -y git curl
+    # ✅ Download both JSON sources
+    - curl -s https://allinonereborn.fun/fc178/fancode.json -o fancode1.json
+    - curl -s https://raw.githubusercontent.com/drmlive/fancode-live-events/main/fancode.json -o fancode2.json
+    # ✅ Run transformer
+    - python3 transform.py
+    # ✅ Git setup & push changes
+    - git config --global user.email "bot@gitlab.com"
+    - git config --global user.name "Auto Bot"
+    - git add live_stream/auto_update_all_streams.json
+    - git commit -m "Auto update auto_update_all_streams.json from fancode sources" || echo "No changes"
+    - git push https://oauth2:${GITLAB_TOKEN}@gitlab.com/appzombies/ipl_data_api.git HEAD:main
