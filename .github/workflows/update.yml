@@ -28,7 +28,7 @@ jobs:
           curl -fsSL https://raw.githubusercontent.com/drmlive/fancode-live-events/main/fancode.json -o fancode2.json || true
           # SonyLiv ko tumhara transform.py khud URL se fetch karta hai; yeh line optional hai:
           # curl -fsSL https://raw.githubusercontent.com/drmlive/sliv-live-events/main/sonyliv.json -o sonyliv.json || true
-
+           curl -s https://raw.githubusercontent.com/Jitendraunatti/fancode/refs/heads/main/data/fancode.json -o fancode3.json   # ✅ new one
       - name: Run transformer
         run: python3 transform.py
 
