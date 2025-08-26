@@ -2,8 +2,8 @@ name: Update auto streams
 
 on:
   schedule:
-    - cron: "*/5 * * * *"   # har 5 min
-  workflow_dispatch:        # manual Run button
+    - cron: "*/5 * * * *"   # हर 5 मिनट
+  workflow_dispatch:        # Manual Run button
 
 permissions:
   contents: write
@@ -17,7 +17,7 @@ jobs:
         with:
           fetch-depth: 0
 
-      - name: Setup Python
+      - name: Set up Python
         uses: actions/setup-python@v5
         with:
           python-version: "3.11"
@@ -26,15 +26,15 @@ jobs:
         run: |
           curl -fsSL https://allinonereborn.fun/fc178/fancode.json -o fancode1.json || true
           curl -fsSL https://raw.githubusercontent.com/drmlive/fancode-live-events/main/fancode.json -o fancode2.json || true
-          # SonyLiv ko tumhara transform.py khud URL se fetch karta hai; yeh line optional hai:
-          # curl -fsSL https://raw.githubusercontent.com/drmlive/sliv-live-events/main/sonyliv.json -o sonyliv.json || true
+          # Agar aur source ho to yahan add kar sakte ho
 
       - name: Run update script
         run: python transform.py
 
-      - name: Commit & push if changed
-        uses: stefanzweifel/git-auto-commit-action@v5
-        with:
-          commit_message: "Auto update auto_update_all_streams.json"
-          file_pattern: live_stream/auto_update_all_streams.json
-          branch: main
+      - name: Commit and push changes
+        run: |
+          git config user.name github-actions
+          git config user.email github-actions@github.com
+          git add -A
+          git commit -m "Auto update streams [skip ci]" || echo "No changes to commit"
+          git push
