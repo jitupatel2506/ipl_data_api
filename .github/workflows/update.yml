@@ -29,8 +29,8 @@ jobs:
           # SonyLiv ko tumhara transform.py khud URL se fetch karta hai; yeh line optional hai:
           # curl -fsSL https://raw.githubusercontent.com/drmlive/sliv-live-events/main/sonyliv.json -o sonyliv.json || true
 
-      - name: Run transformer
-        run: python3 transform.py
+      - name: Run update script
+        run: python transform.py
 
       - name: Commit & push if changed
         uses: stefanzweifel/git-auto-commit-action@v5
