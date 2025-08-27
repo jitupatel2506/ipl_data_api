@@ -36,5 +36,5 @@ jobs:
           git config user.name github-actions
           git config user.email github-actions@github.com
           git add -A
-          git commit -m "Auto update streams [skip ci]" || echo "No changes to commit"
+          git commit -m "Auto update streams [Author Bot]" || echo "No changes to commit"
           git push
