@@ -2,7 +2,7 @@ name: Update auto streams
 
 on:
   schedule:
-    - cron: "*/5 * * * *"   # हर 5 मिनट
+    - cron: "* * * * *"   # हर 5 मिनट
   workflow_dispatch:        # Manual Run button
 
 permissions:
