@@ -241,6 +241,43 @@ def load_manual_items():
             print(f"⚠️ Error loading manual file {MANUAL_FILE}: {e}")
     return []
 
+def shorten_name(title: str, tournament: str) -> str:
+    """
+    Team names ko short karega aur tournament ko initials + year me convert karega.
+    Example:
+    "Adani Trivandrum Royals vs Calicut Globstars", "Kerala Cricket League, 2025"
+    -> "ATR vs CG - KCL 2025"
+    """
+
+    if not title:
+        return tournament
+
+    # --- Teams Shorten ---
+    teams = re.split(r"\s+vs\s+", title, flags=re.IGNORECASE)  # safe split
+    teams = [t.strip() for t in teams if t.strip()]  # empty remove
+    short_teams = []
+
+    for team in teams:
+        words = team.split()
+        if len(words) == 1:
+            # Single word team -> first 3 letters
+            short_teams.append(words[0][:3].upper())
+        else:
+            # Multi-word team -> initials, max 3 chars
+            initials = "".join(w[0].upper() for w in words if w)
+            short_teams.append(initials[:3])
+
+    short_title = " vs ".join(short_teams)
+
+    # --- Tournament Shorten ---
+    year_match = re.search(r"\b(20\d{2})\b", tournament)
+    year = year_match.group(1) if year_match else ""
+
+    words = tournament.replace(",", "").split()
+    initials = "".join(w[0].upper() for w in words if not w.isdigit())
+    short_tournament = f"{initials} {year}".strip()
+
+    return f"{short_title} - {short_tournament}"
 
 def main():
     manual_items = load_manual_items()
@@ -307,6 +344,7 @@ def main():
 
 if __name__ == "__main__":
     main()
+
 
 
 
