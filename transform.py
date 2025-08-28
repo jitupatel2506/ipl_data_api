@@ -141,9 +141,6 @@ def pick_stream_url(m):
         m.get("dai_url"),
         m.get("daiUrl"),
         m.get("stream_url"),
-        m.get("src"),
-        m.get("srcUrl"),
-        m.get("url"),
     ]
     for c in candidates:
         if not c:
@@ -307,3 +304,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
