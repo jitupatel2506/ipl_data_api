@@ -227,6 +227,18 @@ def normalize_match(m, idx, channel_number=600):
         "match_id": match_id or str(channel_number + idx),  # keep match_id for dedupe
     }
 
+
+def load_manual_items():
+    if os.path.exists(MANUAL_FILE):
+        try:
+            with open(MANUAL_FILE, "r", encoding="utf-8") as f:
+                data = json.load(f)
+                if isinstance(data, list):
+                    return data
+        except Exception as e:
+            print(f"⚠️ Error loading manual file {MANUAL_FILE}: {e}")
+    return []
+
 def shorten_name(title: str, tournament: str) -> str:
     """
     Team names ko short karega aur tournament ko initials + year me convert karega.
@@ -265,18 +277,6 @@ def shorten_name(title: str, tournament: str) -> str:
 
     return f"{short_title} - {short_tournament}"
 
-def load_manual_items():
-    if os.path.exists(MANUAL_FILE):
-        try:
-            with open(MANUAL_FILE, "r", encoding="utf-8") as f:
-                data = json.load(f)
-                if isinstance(data, list):
-                    return data
-        except Exception as e:
-            print(f"⚠️ Error loading manual file {MANUAL_FILE}: {e}")
-    return []
-
-    
 def main():
     manual_items = load_manual_items()
     print("ℹ️ Manual items loaded:", len(manual_items))
@@ -342,6 +342,7 @@ def main():
 
 if __name__ == "__main__":
     main()
+
 
 
 
