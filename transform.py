@@ -89,7 +89,7 @@ def load_sonyliv_matches():
                 continue
 
             title = m.get("event_name") or "Unknown Match"
-            stream_url = m.get('dai_url')
+            stream_url = m.get('video_url')
             thumbnail = m.get("src") or "https://i.ibb.co/ygQ6gT3/sonyliv.png"
 
             item = {
@@ -304,6 +304,7 @@ def main():
 
 if __name__ == "__main__":
     main()
+
 
 
 
