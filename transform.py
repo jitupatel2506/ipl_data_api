@@ -90,6 +90,8 @@ def load_sonyliv_matches():
 
             title = m.get("event_name") or "Unknown Match"
             stream_url = m.get('video_url')
+            if "sonymtmnew" in stream_url and not stream_url.startswith("https://mini.allinonereborn.online/events/stream_proxy.php?url="):
+        stream_url = "https://mini.allinonereborn.online/events/stream_proxy.php?url=" + stream_url
             thumbnail = m.get("src") or "https://i.ibb.co/ygQ6gT3/sonyliv.png"
 
             item = {
@@ -141,6 +143,7 @@ def pick_stream_url(m):
         m.get("dai_url"),
         m.get("daiUrl"),
         m.get("stream_url"),
+        m.get("video_url"),
     ]
     for c in candidates:
         if not c:
@@ -182,7 +185,7 @@ def normalize_match(m, idx, channel_number=600):
         return None
 
     # Proxy wrap if fancode
-    if "fancode.com" or "sonymtmnew" in stream_url and not stream_url.startswith("https://mini.allinonereborn.online/events/stream_proxy.php?url="):
+    if "fancode.com" in stream_url and not stream_url.startswith("https://mini.allinonereborn.online/events/stream_proxy.php?url="):
         stream_url = "https://mini.allinonereborn.online/events/stream_proxy.php?url=" + stream_url
                    
     # Detect language
