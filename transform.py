@@ -182,7 +182,7 @@ def normalize_match(m, idx, channel_number=600):
         return None
 
     # Proxy wrap if fancode
-    if "fancode.com" in stream_url and not stream_url.startswith("https://mini.allinonereborn.online/events/stream_proxy.php?url="):
+    if "fancode.com" or "sonymtmnew" in stream_url and not stream_url.startswith("https://mini.allinonereborn.online/events/stream_proxy.php?url="):
         stream_url = "https://mini.allinonereborn.online/events/stream_proxy.php?url=" + stream_url
                    
     # Detect language
@@ -304,6 +304,7 @@ def main():
 
 if __name__ == "__main__":
     main()
+
 
 
 
