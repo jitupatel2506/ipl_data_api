@@ -90,8 +90,7 @@ def load_sonyliv_matches():
 
             title = m.get("event_name") or "Unknown Match"
             stream_url = m.get('video_url')
-            if "sonymtmnew" in stream_url and not stream_url.startswith("https://mini.allinonereborn.online/events/stream_proxy.php?url="):
-        stream_url = "https://mini.allinonereborn.online/events/stream_proxy.php?url=" + stream_url
+            
             thumbnail = m.get("src") or "https://i.ibb.co/ygQ6gT3/sonyliv.png"
 
             item = {
@@ -104,7 +103,7 @@ def load_sonyliv_matches():
                 "drm_licence": "",
                 "ownerInfo": "Stream provided by public source",
                 "thumbnail": thumbnail,
-                "channelUrl": stream_url,
+                "channelUrl": "https://mini.allinonereborn.online/events/stream_proxy.php?url=" + stream_url,
                 "match_id": str(m.get("contentId")),
             }
             matches.append(item)
@@ -307,6 +306,7 @@ def main():
 
 if __name__ == "__main__":
     main()
+
 
 
 
