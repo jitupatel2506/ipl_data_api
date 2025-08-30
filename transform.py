@@ -11,7 +11,7 @@ OUTPUT_FILE = "live_stream/auto_update_all_streams.json"
 MANUAL_FILE = "live_stream/all_streams.json"
 # Local filenames (CI will download these via curl)
 LOCAL_FILES = ["fancode1.json", "fancode2.json", "fancode3.json"]
-
+CRICHD_SELECTED_URL = "https://raw.githubusercontent.com/jitupatel2506/crichd-auto-fetch/refs/heads/main/crichd-auto-fetch/auto_crichd_selected_api.json"
 # Remote fallback URLs (used only if local files missing)
 FANCODE_URLS = [
     "https://allinonereborn.fun/fc/fancode.json",
@@ -228,6 +228,14 @@ def normalize_match(m, idx, channel_number=600):
     }
 
 
+
+def load_crichd_selected_items():
+    data = fetch_json_url(CRICHD_SELECTED_URL)
+    if isinstance(data, list):
+        print(f"ℹ️ Crichd selected items fetched: {len(data)}")
+        return data
+    return []
+    
 def load_manual_items():
     if os.path.exists(MANUAL_FILE):
         try:
@@ -242,7 +250,8 @@ def load_manual_items():
 def main():
     manual_items = load_manual_items()
     print("ℹ️ Manual items loaded:", len(manual_items))
-
+    crichd_selected_items = load_crichd_selected_items()   # ✅ new
+    
     matches_all = load_json_sources()
     print(f"ℹ️ Total matches fetched from FanCode: {len(matches_all)}")
 
@@ -288,7 +297,7 @@ def main():
 
     print("ℹ️ Auto items prepared:", len(auto_items))
 
-    final_output = manual_items + auto_items
+    final_output = manual_items + crichd_selected_items + auto_items
     final_output = list(reversed(final_output))
 
     os.makedirs(os.path.dirname(OUTPUT_FILE) or ".", exist_ok=True)
@@ -304,16 +313,6 @@ def main():
 
 if __name__ == "__main__":
     main()
-
-
-
-
-
-
-
-
-
-
 
 
 
