@@ -9,7 +9,7 @@ from datetime import datetime  # ✅ Added for time formatting
 # File paths
 OUTPUT_FILE = "live_stream/auto_update_all_streams.json"
 MANUAL_FILE = "live_stream/all_streams.json"
-CRICHD_FILE = "https://raw.githubusercontent.com/jitupatel2506/crichd-auto-fetch/refs/heads/main/crichd-auto-fetch/auto_crichd_selected_api.json"
+CRICHD_FILE = "crichd-auto-fetch/refs/heads/main/crichd-auto-fetch/auto_crichd_selected_api.json"
 # Local filenames (CI will download these via curl)
 LOCAL_FILES = ["fancode1.json", "fancode2.json", "fancode3.json"]
 
@@ -318,6 +318,7 @@ def main():
 
 if __name__ == "__main__":
     main()
+
 
 
 
