@@ -9,7 +9,7 @@ from datetime import datetime  # ✅ Added for time formatting
 # File paths
 OUTPUT_FILE = "live_stream/auto_update_all_streams.json"
 MANUAL_FILE = "live_stream/all_streams.json"
-
+CRICHD_FILE = "https://raw.githubusercontent.com/jitupatel2506/crichd-auto-fetch/refs/heads/main/crichd-auto-fetch/auto_crichd_selected_api.json"
 # Local filenames (CI will download these via curl)
 LOCAL_FILES = ["fancode1.json", "fancode2.json", "fancode3.json"]
 
@@ -239,10 +239,22 @@ def load_manual_items():
         except Exception as e:
             print(f"⚠️ Error loading manual file {MANUAL_FILE}: {e}")
     return []
+def load_crichd_items():
+    if os.path.exists(CRICHD_FILE):
+        try:
+            with open(CRICHD_FILE, "r", encoding="utf-8") as f:
+                data = json.load(f)
+                if isinstance(data, list):
+                    return data
+        except Exception as e:
+            print(f"⚠️ Error loading manual file {CRICHD_FILE}: {e}")
+    return []
 
 
 def main():
     manual_items = load_manual_items()
+    crichd_items = load_crichd_items()
+    manual_items = manual_items + crichd_items
     print("ℹ️ Manual items loaded:", len(manual_items))
 
     matches_all = load_json_sources()
@@ -306,6 +318,7 @@ def main():
 
 if __name__ == "__main__":
     main()
+
 
 
 
