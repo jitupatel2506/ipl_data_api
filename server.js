@@ -16,7 +16,10 @@ app.get("/stream_proxy", async (req, res) => {
       }
     });
 
-    res.set("Content-Type", response.headers.get("content-type"));
+    // Forward content type
+    res.set("Content-Type", response.headers.get("content-type") || "application/vnd.apple.mpegurl");
+
+    // Pipe stream
     response.body.pipe(res);
   } catch (err) {
     res.status(500).send("Proxy error: " + err.message);
@@ -24,4 +27,4 @@ app.get("/stream_proxy", async (req, res) => {
 });
 
 const PORT = process.env.PORT || 3000;
-app.listen(PORT, () => console.log(`Proxy running on port ${PORT}`));
+app.listen(PORT, () => console.log(`✅ Proxy running on port ${PORT}`));
