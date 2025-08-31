@@ -102,7 +102,7 @@ def load_sonyliv_matches():
                 "drm_licence": "",
                 "ownerInfo": "Stream provided by public source",
                 "thumbnail": thumbnail,
-                "channelUrl": "https://mini.allinonereborn.online/events/stream_proxy.php?url=" + stream_url,
+                "channelUrl": stream_url,
                 "match_id": str(m.get("contentId")),
             }
             matches.append(item)
@@ -313,6 +313,7 @@ def main():
 
 if __name__ == "__main__":
     main()
+
 
 
 
