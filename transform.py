@@ -148,11 +148,12 @@ def pick_stream_url(m):
             continue
         c_str = str(c).strip()
         if c_str:
-            # ✅ replace index.m3u8 → 720p.m3u8
-            if c_str.endswith("index.m3u8"):
+            # ✅ Only modify if from fdlive.fancode.com AND endswith index.m3u8
+            if "fdlive.fancode.com" in c_str and c_str.endswith("index.m3u8"):
                 c_str = c_str.replace("index.m3u8", "720p.m3u8")
             return c_str
     return ""
+
 
 
 # ✅ Start time normalization function
@@ -316,6 +317,7 @@ def main():
 
 if __name__ == "__main__":
     main()
+
 
 
 
