@@ -213,7 +213,7 @@ def normalize_match(m, idx, channel_number=600):
     thumbnail = (
         m.get("src")
         or m.get("image")
-        or "https://gitlab.com/appzombies/ipl_data_api/-/raw/main/cricket_league_vectors/all_live_streaming.png"
+        or "https://gitlab.com/ranginfotech89/ipl_data_api/-/raw/main/stream_categories/cricket_league_vectors/all_live_streaming_worldwide.png"
     )
     return {
         "channelNumber": channel_num,
