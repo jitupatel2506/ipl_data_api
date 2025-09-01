@@ -148,13 +148,8 @@ def pick_stream_url(m):
             continue
         c_str = str(c).strip()
         if c_str:
-            # ✅ Only modify if from fdlive.fancode.com AND endswith index.m3u8
-            if "fdlive.fancode.com" in c_str and c_str.endswith("index.m3u8"):
-                c_str = c_str.replace("index.m3u8", "720p.m3u8")
             return c_str
     return ""
-
-
 
 # ✅ Start time normalization function
 def normalize_start_time(raw: str) -> str:
@@ -187,8 +182,8 @@ def normalize_match(m, idx, channel_number=600):
         return None
 
     # Proxy wrap if fancode
-    if "fdlive.fancode.com" in stream_url and not stream_url.startswith("https://mini.allinonereborn.online/events/stream_proxy.php?url="):
-        stream_url = "https://mini.allinonereborn.online/events/stream_proxy.php?url=" + stream_url
+    #if "fdlive.fancode.com" in stream_url and not stream_url.startswith("https://mini.allinonereborn.online/events/stream_proxy.php?url="):
+    #    stream_url = "https://mini.allinonereborn.online/events/stream_proxy.php?url=" + stream_url
                    
     # Detect language
     lang = detect_language_from_url(stream_url)
@@ -317,6 +312,7 @@ def main():
 
 if __name__ == "__main__":
     main()
+
 
 
 
