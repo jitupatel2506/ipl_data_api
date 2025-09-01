@@ -7,10 +7,10 @@ from urllib.error import URLError, HTTPError
 from datetime import datetime  # ✅ Added for time formatting
 
 # File paths
-OUTPUT_FILE = "live_stream/auto_update_all_streams.json"
+OUTPUT_FILE = "live_stream/auto_worldwide_update_all_streams.json"
 MANUAL_FILE = "live_stream/all_streams.json"
 # Local filenames (CI will download these via curl)
-LOCAL_FILES = ["fancode1.json", "fancode2.json"]
+LOCAL_FILES = ["ww_fancode1.json", "ww_fancode2.json"]
 CRICHD_SELECTED_URL = "https://raw.githubusercontent.com/jitupatel2506/crichd-auto-fetch/refs/heads/main/crichd-auto-fetch/auto_crichd_selected_api.json"
 # Remote fallback URLs (used only if local files missing)
 FANCODE_URLS = [
