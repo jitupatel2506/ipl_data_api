@@ -245,11 +245,13 @@ def load_manual_items():
             with open(MANUAL_FILE, "r", encoding="utf-8") as f:
                 data = json.load(f)
                 if isinstance(data, list):
+                    # ✅ Override thumbnail for all manual items
+                    for item in data:
+                        item["thumbnail"] = "https://gitlab.com/ranginfotech89/ipl_data_api/-/raw/main/stream_categories/cricket_league_vectors/all_live_streaming_worldwide.png"
                     return data
         except Exception as e:
             print(f"⚠️ Error loading manual file {MANUAL_FILE}: {e}")
     return []
-
 def main():
     manual_items = load_manual_items()
     print("ℹ️ Manual items loaded:", len(manual_items))
