@@ -188,6 +188,9 @@ def normalize_match(m, idx, channel_number=600):
     # Proxy wrap if fancode
     if "fdlive.fancode.com" in stream_url and not stream_url.startswith("https://mini.allinonereborn.online/events/stream_proxy.php?url="):
         stream_url = "https://mini.allinonereborn.online/events/stream_proxy.php?url=" + stream_url
+
+    if "sonypartnersdaimenew.akamaized.net" in stream_url and not stream_url.startswith("https://mini.allinonereborn.online/events/stream_proxy.php?url="):
+        stream_url = "https://mini.allinonereborn.online/events/stream_proxy.php?url=" + stream_url
                    
     # Detect language
     lang = detect_language_from_url(stream_url)
