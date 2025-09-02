@@ -167,6 +167,38 @@ def normalize_start_time(raw: str) -> str:
         return raw  # fallback if format not matched
 
 
+def build_match_title(m):
+    """
+    Build a clean title like: 'IND vs SA - Asia Cup 2025'
+    """
+    team1 = (m.get("team_1") or m.get("team1") or m.get("homeTeam") or "").strip()
+    team2 = (m.get("team_2") or m.get("team2") or m.get("awayTeam") or "").strip()
+    title = (m.get("title") or m.get("match_name") or "").strip()
+
+    # If title already has "vs", prefer that
+    if not title:
+        if team1 and team2:
+            title = f"{team1} vs {team2}"
+        else:
+            title = "Unknown Match"
+
+    # Tournament / competition / event info
+    competition = (
+        m.get("competition") or
+        m.get("tournament") or
+        m.get("league") or
+        m.get("competition_name") or
+        m.get("event_category") or
+        ""
+    ).strip()
+
+    if competition:
+        # Avoid duplicate if already inside title
+        if competition.lower() not in title.lower():
+            title = f"{title} - {competition}"
+
+    return title
+
 def normalize_match(m, idx, channel_number=600):
     title = (m.get("title") or m.get("match_name") or "").strip()
     if not title:
@@ -222,7 +254,7 @@ def normalize_match(m, idx, channel_number=600):
         "drm_licence": "",
         "ownerInfo": "Stream provided by public source",
         "thumbnail": thumbnail,
-        "channelUrl": stream_url.strip(),
+        "channelName": title.strip(), 
         "match_id": match_id or str(channel_number + idx),  # keep match_id for dedupe
     }
 
@@ -245,6 +277,7 @@ def load_manual_items():
         except Exception as e:
             print(f"⚠️ Error loading manual file {MANUAL_FILE}: {e}")
     return []
+    
 
 def main():
     manual_items = load_manual_items()
@@ -312,6 +345,7 @@ def main():
 
 if __name__ == "__main__":
     main()
+
 
 
 
