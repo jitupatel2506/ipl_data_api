@@ -167,7 +167,6 @@ def normalize_start_time(raw: str) -> str:
         return raw  # fallback if format not matched
 
 
-
 def normalize_match(m, idx, channel_number=600):
     title = (m.get("title") or m.get("match_name") or "").strip()
     if not title:
@@ -223,7 +222,7 @@ def normalize_match(m, idx, channel_number=600):
         "drm_licence": "",
         "ownerInfo": "Stream provided by public source",
         "thumbnail": thumbnail,
-        "channelName": stream_url.strip(), 
+        "channelUrl": stream_url.strip(),
         "match_id": match_id or str(channel_number + idx),  # keep match_id for dedupe
     }
 
@@ -246,7 +245,6 @@ def load_manual_items():
         except Exception as e:
             print(f"⚠️ Error loading manual file {MANUAL_FILE}: {e}")
     return []
-    
 
 def main():
     manual_items = load_manual_items()
