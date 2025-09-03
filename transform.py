@@ -323,7 +323,7 @@ def main():
     auto_items = priority_items + other_items
 
     final_output = manual_items + crichd_selected_items + auto_items
-
+    final_output = list(reversed(final_output))
     os.makedirs(os.path.dirname(OUTPUT_FILE) or ".", exist_ok=True)
     try:
         with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
@@ -337,3 +337,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
