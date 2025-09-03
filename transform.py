@@ -106,6 +106,12 @@ def load_sonyliv_matches():
                 "channelUrl": stream_url,
                 "match_id": str(m.get("contentId")),
             }
+            # ✅ Add Kabaddi/Football suffix
+            if "kabaddi" in category and "kabaddi" not in item["channelName"].lower():
+                item["channelName"] += " - Kabaddi"
+            if "football" in category and "football" not in item["channelName"].lower():
+                item["channelName"] += " - Football"
+
             matches.append(item)
 
     print(f"ℹ️ SonyLiv matches fetched: {len(matches)}")
@@ -152,29 +158,8 @@ def pick_stream_url(m):
             return c_str
     return ""
 
-# ✅ Start time normalization function
-def normalize_start_time(raw: str) -> str:
-    """
-    Input:  "07:30:00 PM 27-08-2025"
-    Output: "2025-08-27 07:30 PM"
-    """
-    if not raw:
-        return ""
-    raw = raw.strip()
-    try:
-        dt = datetime.strptime(raw, "%I:%M:%S %p %d-%m-%Y")
-        return dt.strftime("%Y-%m-%d %I:%M %p")
-    except Exception:
-        return raw  # fallback if format not matched
-
 
 def shorten_name(title: str, tournament: str) -> str:
-    """
-    Short team names and tournament into compact form.
-    Example:
-    "Adani Trivandrum Royals vs Calicut Globstars", "Kerala Cricket League, 2025"
-    -> "ATR vs CG - KCL 2025"
-    """
     if not title:
         return tournament or "Unknown"
 
@@ -223,20 +208,18 @@ def normalize_match(m, idx, channel_number=600):
     if not stream_url:
         return None
 
-    # ✅ Shorten name apply karo
     short_title = shorten_name(title, tournament)
 
-    # Detect language
     lang = detect_language_from_url(stream_url)
     if lang and lang.lower() != "english":
         short_title = f"{short_title} - {lang}"
 
-    # Kabaddi handling
     category = (m.get("category") or m.get("event_category") or "").lower()
     if "kabaddi" in category and "kabaddi" not in short_title.lower():
         short_title = f"{short_title} - Kabaddi"
+    if "football" in category and "football" not in short_title.lower():
+        short_title = f"{short_title} - Football"
 
-    # Channel number
     match_id = m.get("match_id") or m.get("id") or m.get("matchId")
     if match_id:
         try:
@@ -246,7 +229,6 @@ def normalize_match(m, idx, channel_number=600):
     else:
         channel_num = channel_number + idx
 
-    # Thumbnail
     thumbnail = (
         m.get("src")
         or m.get("image")
@@ -257,7 +239,7 @@ def normalize_match(m, idx, channel_number=600):
         "channelNumber": channel_num,
         "linkType": "app",
         "platform": "FanCode",
-        "channelName": short_title.strip(),   # 👈 Ab short title aa raha hoga
+        "channelName": short_title.strip(),
         "subText": "Live Streaming Now",
         "startTime": "",
         "drm_licence": "",
@@ -274,7 +256,8 @@ def load_crichd_selected_items():
         print(f"ℹ️ Crichd selected items fetched: {len(data)}")
         return data
     return []
-    
+
+
 def load_manual_items():
     if os.path.exists(MANUAL_FILE):
         try:
@@ -286,21 +269,21 @@ def load_manual_items():
             print(f"⚠️ Error loading manual file {MANUAL_FILE}: {e}")
     return []
 
+
 def main():
     manual_items = load_manual_items()
     print("ℹ️ Manual items loaded:", len(manual_items))
-    crichd_selected_items = load_crichd_selected_items()   # ✅ new
+    crichd_selected_items = load_crichd_selected_items()
     
     matches_all = load_json_sources()
     print(f"ℹ️ Total matches fetched from FanCode: {len(matches_all)}")
 
     sonyliv_matches = load_sonyliv_matches()
 
-    seen = {}  # match_id -> set(languages)
+    seen = {}
     auto_items = []
     added = 0
 
-    # FanCode normalize
     for m in matches_all:
         status = str(m.get("status") or "").strip().lower()
         category = str(m.get("category") or m.get("event_category") or "").strip().lower()
@@ -331,13 +314,15 @@ def main():
             auto_items.append(item)
             added += 1
 
-    # SonyLiv add directly (already filtered live matches)
     auto_items.extend(sonyliv_matches)
-
     print("ℹ️ Auto items prepared:", len(auto_items))
 
+    # ✅ Football & Kabaddi ko top pe le aao
+    priority_items = [m for m in auto_items if "Football" in m["channelName"] or "Kabaddi" in m["channelName"]]
+    other_items = [m for m in auto_items if m not in priority_items]
+    auto_items = priority_items + other_items
+
     final_output = manual_items + crichd_selected_items + auto_items
-    final_output = list(reversed(final_output))
 
     os.makedirs(os.path.dirname(OUTPUT_FILE) or ".", exist_ok=True)
     try:
@@ -352,7 +337,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-
-
-
-
