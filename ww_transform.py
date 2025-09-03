@@ -8,15 +8,16 @@ from urllib.error import URLError, HTTPError
 from datetime import datetime  # ✅ Added for time formatting
 
 # File paths
-OUTPUT_FILE = "live_stream/auto_worldwide_update_all_streams.json"
+OUTPUT_FILE = "live_stream/auto_update_all_streams.json"
 MANUAL_FILE = "live_stream/all_streams.json"
 # Local filenames (CI will download these via curl)
-LOCAL_FILES = ["ww_fancode1.json", "ww_fancode2.json"]
+LOCAL_FILES = ["fancode1.json", "fancode2.json", "fancode3.json"]
 CRICHD_SELECTED_URL = "https://raw.githubusercontent.com/jitupatel2506/crichd-auto-fetch/refs/heads/main/crichd-auto-fetch/auto_crichd_selected_api.json"
 # Remote fallback URLs (used only if local files missing)
 FANCODE_URLS = [
     "https://allinonereborn.fun/fc/fancode.json",
     "https://raw.githubusercontent.com/drmlive/fancode-live-events/main/fancode.json",
+    "https://raw.githubusercontent.com/Jitendraunatti/fancode/refs/heads/main/data/fancode.json",
 ]
 
 # ✅ New SonyLiv JSON URL
@@ -102,7 +103,7 @@ def load_sonyliv_matches():
                 "drm_licence": "",
                 "ownerInfo": "Stream provided by public source",
                 "thumbnail": thumbnail,
-                "channelUrl": "https://mini.allinonereborn.online/events/stream_proxy.php?url="+stream_url,
+                "channelUrl": stream_url,
                 "match_id": str(m.get("contentId")),
             }
             matches.append(item)
@@ -148,13 +149,8 @@ def pick_stream_url(m):
             continue
         c_str = str(c).strip()
         if c_str:
-            # ✅ Only modify if from fdlive.fancode.com AND endswith index.m3u8
-            if "fdlive.fancode.com" in c_str and c_str.endswith("index.m3u8"):
-                c_str = c_str.replace("index.m3u8", "720p.m3u8")
             return c_str
     return ""
-
-
 
 # ✅ Start time normalization function
 def normalize_start_time(raw: str) -> str:
@@ -170,6 +166,7 @@ def normalize_start_time(raw: str) -> str:
         return dt.strftime("%Y-%m-%d %I:%M %p")
     except Exception:
         return raw  # fallback if format not matched
+
 
 def shorten_name(title: str, tournament: str) -> str:
     """
@@ -273,29 +270,24 @@ def normalize_match(m, idx, channel_number=600):
     }
 
 
-
 def load_crichd_selected_items():
     data = fetch_json_url(CRICHD_SELECTED_URL)
     if isinstance(data, list):
         print(f"ℹ️ Crichd selected items fetched: {len(data)}")
-        # ✅ Override thumbnail for all crichd selected items
-        for item in data:
-            item["thumbnail"] = "https://gitlab.com/ranginfotech89/ipl_data_api/-/raw/main/stream_categories/cricket_league_vectors/all_live_streaming_worldwide.png"
         return data
     return []
+    
 def load_manual_items():
     if os.path.exists(MANUAL_FILE):
         try:
             with open(MANUAL_FILE, "r", encoding="utf-8") as f:
                 data = json.load(f)
                 if isinstance(data, list):
-                    # ✅ Override thumbnail for all manual items
-                    for item in data:
-                        item["thumbnail"] = "https://gitlab.com/ranginfotech89/ipl_data_api/-/raw/main/stream_categories/cricket_league_vectors/all_live_streaming_worldwide.png"
                     return data
         except Exception as e:
             print(f"⚠️ Error loading manual file {MANUAL_FILE}: {e}")
     return []
+
 def main():
     manual_items = load_manual_items()
     print("ℹ️ Manual items loaded:", len(manual_items))
@@ -362,13 +354,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-
-
-
-
-
-
-
-
-
-
