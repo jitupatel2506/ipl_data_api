@@ -2,6 +2,7 @@
 import json
 import os
 import sys
+import re
 from urllib.request import urlopen, Request
 from urllib.error import URLError, HTTPError
 from datetime import datetime  # ✅ Added for time formatting
@@ -167,8 +168,46 @@ def normalize_start_time(raw: str) -> str:
         return raw  # fallback if format not matched
 
 
+def shorten_name(title: str, tournament: str) -> str:
+    """
+    Team names ko short karega aur tournament ko initials + year me convert karega.
+    Example:
+    "Adani Trivandrum Royals vs Calicut Globstars", "Kerala Cricket League, 2025"
+    -> "ATR vs CG - KCL 2025"
+    """
+    if not title:
+        return tournament or "Unknown"
+
+    # --- Teams Shorten ---
+    teams = re.split(r"\s+vs\s+", title, flags=re.IGNORECASE)
+    teams = [t.strip() for t in teams if t.strip()]
+    short_teams = []
+
+    for team in teams:
+        words = team.split()
+        if len(words) == 1:
+            short_teams.append(words[0][:3].upper())
+        else:
+            initials = "".join(w[0].upper() for w in words if w)
+            short_teams.append(initials[:3])
+
+    short_title = " vs ".join(short_teams)
+
+    # --- Tournament Shorten ---
+    year_match = re.search(r"\b(20\d{2})\b", tournament or "")
+    year = year_match.group(1) if year_match else ""
+
+    words = (tournament or "").replace(",", "").split()
+    initials = "".join(w[0].upper() for w in words if not w.isdigit())
+    short_tournament = f"{initials} {year}".strip()
+
+    return f"{short_title} - {short_tournament}".strip()
+
+
 def normalize_match(m, idx, channel_number=600):
     title = (m.get("title") or m.get("match_name") or "").strip()
+    tournament = (m.get("tournament") or m.get("competition") or "").strip()
+
     if not title:
         t1 = (m.get("team_1") or m.get("team1") or "").strip()
         t2 = (m.get("team_2") or m.get("team2") or "").strip()
@@ -181,19 +220,18 @@ def normalize_match(m, idx, channel_number=600):
     if not stream_url:
         return None
 
-    # Proxy wrap if fancode
-    #if "fdlive.fancode.com" in stream_url and not stream_url.startswith("https://mini.allinonereborn.online/events/stream_proxy.php?url="):
-    #    stream_url = "https://mini.allinonereborn.online/events/stream_proxy.php?url=" + stream_url
-                   
+    # ✅ Shorten name apply karo
+    short_title = shorten_name(title, tournament)
+
     # Detect language
     lang = detect_language_from_url(stream_url)
     if lang and lang.lower() != "english":
-        title = f"{title} - {lang}"
+        short_title = f"{short_title} - {lang}"
 
     # Kabaddi handling
     category = (m.get("category") or m.get("event_category") or "").lower()
-    if "kabaddi" in category and "kabaddi" not in title.lower():
-        title = f"{title} - Kabaddi"
+    if "kabaddi" in category and "kabaddi" not in short_title.lower():
+        short_title = f"{short_title} - Kabaddi"
 
     # Channel number
     match_id = m.get("match_id") or m.get("id") or m.get("matchId")
@@ -205,27 +243,26 @@ def normalize_match(m, idx, channel_number=600):
     else:
         channel_num = channel_number + idx
 
-    # ✅ Thumbnail priority
+    # Thumbnail
     thumbnail = (
         m.get("src")
         or m.get("image")
         or "https://gitlab.com/ranginfotech89/ipl_data_api/-/raw/main/stream_categories/cricket_league_vectors/all_live_streaming_inonly.png"
     )
+
     return {
         "channelNumber": channel_num,
         "linkType": "app",
         "platform": "FanCode",
-        "channelName": title.strip(),
+        "channelName": short_title.strip(),   # 👈 Ab short title aa raha hoga
         "subText": "Live Streaming Now",
-        "startTime":"",
-        #"startTime": normalize_start_time(m.get("startTime", "") or m.get("start_time", "")),  # ✅ Updated
+        "startTime": "",
         "drm_licence": "",
         "ownerInfo": "Stream provided by public source",
         "thumbnail": thumbnail,
         "channelUrl": stream_url.strip(),
-        "match_id": match_id or str(channel_number + idx),  # keep match_id for dedupe
+        "match_id": match_id or str(channel_number + idx),
     }
-
 
 
 def load_crichd_selected_items():
@@ -312,3 +349,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
