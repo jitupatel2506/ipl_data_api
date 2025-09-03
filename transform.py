@@ -8,7 +8,7 @@ from urllib.error import URLError, HTTPError
 from datetime import datetime  # ✅ Added for time formatting
 
 # File paths
-OUTPUT_FILE = "live_stream/auto_update_all_streams.json"
+OUTPUT_FILE = "live_stream/auto_worldwide_update_all_streams.json"
 MANUAL_FILE = "live_stream/all_streams.json"
 # Local filenames (CI will download these via curl)
 LOCAL_FILES = ["fancode1.json", "fancode2.json", "fancode3.json"]
@@ -349,4 +349,5 @@ def main():
 
 if __name__ == "__main__":
     main()
+
 
