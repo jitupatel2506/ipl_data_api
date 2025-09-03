@@ -85,7 +85,7 @@ def load_sonyliv_matches():
             # ✅ Filter only live cricket/football/hockey
             if not is_live:
                 continue
-            if category not in ["cricket", "football", "hockey"]:
+            if category not in ["cricket", "football", "hockey", "kabaddi"]:
                 continue
 
             title = m.get("event_name") or "Unknown Match"
@@ -105,6 +105,7 @@ def load_sonyliv_matches():
                 "thumbnail": thumbnail,
                 "channelUrl": "https://mini.allinonereborn.online/events/stream_proxy.php?url=" + stream_url,
                 "match_id": str(m.get("contentId")),
+                "category": category,
             }
             matches.append(item)
 
@@ -151,6 +152,7 @@ def pick_stream_url(m):
         if c_str:
             return c_str
     return ""
+
 
 # ✅ Start time normalization function
 def normalize_start_time(raw: str) -> str:
@@ -240,10 +242,12 @@ def normalize_match(m, idx, channel_number=600):
     if lang and lang.lower() != "english":
         short_title = f"{short_title} - {lang}"
 
-    # Kabaddi handling
+    # ✅ Category handling
     category = (m.get("category") or m.get("event_category") or "").lower()
     if "kabaddi" in category and "kabaddi" not in short_title.lower():
         short_title = f"{short_title} - Kabaddi"
+    if "football" in category and "football" not in short_title.lower():
+        short_title = f"{short_title} - Football"
 
     # Channel number
     match_id = m.get("match_id") or m.get("id") or m.get("matchId")
@@ -266,7 +270,7 @@ def normalize_match(m, idx, channel_number=600):
         "channelNumber": channel_num,
         "linkType": "app",
         "platform": "FanCode",
-        "channelName": short_title.strip(),   # 👈 Ab short title aa raha hoga
+        "channelName": short_title.strip(),
         "subText": "Live Streaming Now",
         "startTime": "",
         "drm_licence": "",
@@ -274,6 +278,7 @@ def normalize_match(m, idx, channel_number=600):
         "thumbnail": thumbnail,
         "channelUrl": stream_url.strip(),
         "match_id": match_id or str(channel_number + idx),
+        "category": category,
     }
 
 
@@ -286,6 +291,8 @@ def load_crichd_selected_items():
             item["thumbnail"] = "https://gitlab.com/ranginfotech89/ipl_data_api/-/raw/main/stream_categories/cricket_league_vectors/all_live_streaming_worldwide.png"
         return data
     return []
+
+
 def load_manual_items():
     if os.path.exists(MANUAL_FILE):
         try:
@@ -299,6 +306,7 @@ def load_manual_items():
         except Exception as e:
             print(f"⚠️ Error loading manual file {MANUAL_FILE}: {e}")
     return []
+
 
 def main():
     manual_items = load_manual_items()
@@ -347,6 +355,15 @@ def main():
 
     # SonyLiv add directly (already filtered live matches)
     auto_items.extend(sonyliv_matches)
+
+    # ✅ Sorting: Football/Kabaddi on top
+    def sort_priority(item):
+        cat = item.get("category", "").lower()
+        if "football" in cat or "kabaddi" in cat:
+            return 0
+        return 1
+
+    auto_items = sorted(auto_items, key=sort_priority)
 
     print("ℹ️ Auto items prepared:", len(auto_items))
 
