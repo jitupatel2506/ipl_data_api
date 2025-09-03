@@ -170,6 +170,40 @@ def normalize_start_time(raw: str) -> str:
     except Exception:
         return raw  # fallback if format not matched
 
+def shorten_name(title: str, tournament: str) -> str:
+    """
+    Team names ko short karega aur tournament ko initials + year me convert karega.
+    Example:
+    "Adani Trivandrum Royals vs Calicut Globstars", "Kerala Cricket League, 2025"
+    -> "ATR vs CG - KCL 2025"
+    """
+    if not title:
+        return tournament or "Unknown"
+
+    # --- Teams Shorten ---
+    teams = re.split(r"\s+vs\s+", title, flags=re.IGNORECASE)
+    teams = [t.strip() for t in teams if t.strip()]
+    short_teams = []
+
+    for team in teams:
+        words = team.split()
+        if len(words) == 1:
+            short_teams.append(words[0][:3].upper())
+        else:
+            initials = "".join(w[0].upper() for w in words if w)
+            short_teams.append(initials[:3])
+
+    short_title = " vs ".join(short_teams)
+
+    # --- Tournament Shorten ---
+    year_match = re.search(r"\b(20\d{2})\b", tournament or "")
+    year = year_match.group(1) if year_match else ""
+
+    words = (tournament or "").replace(",", "").split()
+    initials = "".join(w[0].upper() for w in words if not w.isdigit())
+    short_tournament = f"{initials} {year}".strip()
+
+    return f"{short_title} - {short_tournament}".strip()
 
 def normalize_match(m, idx, channel_number=600):
     title = (m.get("title") or m.get("match_name") or "").strip()
@@ -180,11 +214,13 @@ def normalize_match(m, idx, channel_number=600):
             title = f"{t1} vs {t2}"
     if not title:
         title = "Unknown Match"
-
+    
     stream_url = pick_stream_url(m)
     if not stream_url:
         return None
-
+    # ✅ Shorten name apply karo
+    short_title = shorten_name(title, tournament)
+    
     # Proxy wrap if fancode
     if "fdlive.fancode.com" in stream_url and not stream_url.startswith("https://mini.allinonereborn.online/events/stream_proxy.php?url="):
         stream_url = "https://mini.allinonereborn.online/events/stream_proxy.php?url=" + stream_url
