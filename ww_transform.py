@@ -218,8 +218,7 @@ def normalize_match(m, idx, channel_number=600):
     stream_url = pick_stream_url(m)
     if not stream_url:
         return None
-    # ✅ Shorten name apply karo
-    short_title = shorten_name(title, tournament)
+    
     
     # Proxy wrap if fancode
     if "fdlive.fancode.com" in stream_url and not stream_url.startswith("https://mini.allinonereborn.online/events/stream_proxy.php?url="):
