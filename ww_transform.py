@@ -214,19 +214,17 @@ def normalize_match(m, idx, channel_number=600):
             title = f"{t1} vs {t2}"
     if not title:
         title = "Unknown Match"
-    
+
     stream_url = pick_stream_url(m)
     if not stream_url:
         return None
-    
-    
-    # Proxy wrap if fancode
+
+    # Proxy wrap
     if "fdlive.fancode.com" in stream_url and not stream_url.startswith("https://mini.allinonereborn.online/events/stream_proxy.php?url="):
         stream_url = "https://mini.allinonereborn.online/events/stream_proxy.php?url=" + stream_url
-
     if "sonypartnersdaimenew.akamaized.net" in stream_url and not stream_url.startswith("https://mini.allinonereborn.online/events/stream_proxy.php?url="):
         stream_url = "https://mini.allinonereborn.online/events/stream_proxy.php?url=" + stream_url
-                   
+
     # Detect language
     lang = detect_language_from_url(stream_url)
     if lang and lang.lower() != "english":
@@ -236,6 +234,10 @@ def normalize_match(m, idx, channel_number=600):
     category = (m.get("category") or m.get("event_category") or "").lower()
     if "kabaddi" in category and "kabaddi" not in title.lower():
         title = f"{title} - Kabaddi"
+
+    # ✅ Short title apply
+    tournament = m.get("tournament") or m.get("competition") or m.get("event_category") or ""
+    short_title = shorten_name(title, tournament)
 
     # Channel number
     match_id = m.get("match_id") or m.get("id") or m.get("matchId")
@@ -247,27 +249,26 @@ def normalize_match(m, idx, channel_number=600):
     else:
         channel_num = channel_number + idx
 
-    # ✅ Thumbnail priority
+    # Thumbnail priority
     thumbnail = (
         m.get("src")
         or m.get("image")
         or "https://gitlab.com/ranginfotech89/ipl_data_api/-/raw/main/stream_categories/cricket_league_vectors/all_live_streaming_worldwide.png"
     )
+
     return {
         "channelNumber": channel_num,
         "linkType": "app",
         "platform": "FanCode",
-        "channelName": title.strip(),
+        "channelName": short_title.strip(),  # ✅ shortened name used here
         "subText": "Live Streaming Now",
-        "startTime":"",
-        #"startTime": normalize_start_time(m.get("startTime", "") or m.get("start_time", "")),  # ✅ Updated
+        "startTime": "",
         "drm_licence": "",
         "ownerInfo": "Stream provided by public source",
         "thumbnail": thumbnail,
         "channelUrl": stream_url.strip(),
-        "match_id": match_id or str(channel_number + idx),  # keep match_id for dedupe
+        "match_id": match_id or str(channel_number + idx),
     }
-
 
 
 def load_crichd_selected_items():
