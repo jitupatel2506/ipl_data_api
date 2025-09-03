@@ -206,8 +206,11 @@ def shorten_name(title: str, tournament: str) -> str:
 
     return f"{short_title} - {short_tournament}".strip()
 
+
 def normalize_match(m, idx, channel_number=600):
     title = (m.get("title") or m.get("match_name") or "").strip()
+    tournament = (m.get("tournament") or m.get("competition") or "").strip()
+
     if not title:
         t1 = (m.get("team_1") or m.get("team1") or "").strip()
         t2 = (m.get("team_2") or m.get("team2") or "").strip()
@@ -219,26 +222,24 @@ def normalize_match(m, idx, channel_number=600):
     stream_url = pick_stream_url(m)
     if not stream_url:
         return None
-
     # Proxy wrap
     if "fdlive.fancode.com" in stream_url and not stream_url.startswith("https://mini.allinonereborn.online/events/stream_proxy.php?url="):
         stream_url = "https://mini.allinonereborn.online/events/stream_proxy.php?url=" + stream_url
     if "sonypartnersdaimenew.akamaized.net" in stream_url and not stream_url.startswith("https://mini.allinonereborn.online/events/stream_proxy.php?url="):
         stream_url = "https://mini.allinonereborn.online/events/stream_proxy.php?url=" + stream_url
 
+    # ✅ Shorten name apply karo
+    short_title = shorten_name(title, tournament)
+
     # Detect language
     lang = detect_language_from_url(stream_url)
     if lang and lang.lower() != "english":
-        title = f"{title} - {lang}"
+        short_title = f"{short_title} - {lang}"
 
     # Kabaddi handling
     category = (m.get("category") or m.get("event_category") or "").lower()
-    if "kabaddi" in category and "kabaddi" not in title.lower():
-        title = f"{title} - Kabaddi"
-
-    # ✅ Short title apply
-    tournament = m.get("tournament") or m.get("competition") or m.get("event_category") or ""
-    short_title = shorten_name(title, tournament)
+    if "kabaddi" in category and "kabaddi" not in short_title.lower():
+        short_title = f"{short_title} - Kabaddi"
 
     # Channel number
     match_id = m.get("match_id") or m.get("id") or m.get("matchId")
@@ -250,18 +251,18 @@ def normalize_match(m, idx, channel_number=600):
     else:
         channel_num = channel_number + idx
 
-    # Thumbnail priority
+    # Thumbnail
     thumbnail = (
         m.get("src")
         or m.get("image")
-        or "https://gitlab.com/ranginfotech89/ipl_data_api/-/raw/main/stream_categories/cricket_league_vectors/all_live_streaming_worldwide.png"
+        or "https://gitlab.com/ranginfotech89/ipl_data_api/-/raw/main/stream_categories/cricket_league_vectors/all_live_streaming_inonly.png"
     )
 
     return {
         "channelNumber": channel_num,
         "linkType": "app",
         "platform": "FanCode",
-        "channelName": short_title.strip(),  # ✅ shortened name used here
+        "channelName": short_title.strip(),   # 👈 Ab short title aa raha hoga
         "subText": "Live Streaming Now",
         "startTime": "",
         "drm_licence": "",
@@ -270,6 +271,7 @@ def normalize_match(m, idx, channel_number=600):
         "channelUrl": stream_url.strip(),
         "match_id": match_id or str(channel_number + idx),
     }
+
 
 
 def load_crichd_selected_items():
