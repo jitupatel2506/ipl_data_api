@@ -170,7 +170,7 @@ def normalize_start_time(raw: str) -> str:
 
 def shorten_name(title: str, tournament: str) -> str:
     """
-    Shorten team names and tournament into compact form.
+    Short team names and tournament into compact form.
     Example:
     "Adani Trivandrum Royals vs Calicut Globstars", "Kerala Cricket League, 2025"
     -> "ATR vs CG - KCL 2025"
@@ -180,19 +180,18 @@ def shorten_name(title: str, tournament: str) -> str:
 
     # --- Teams Shorten ---
     teams = re.split(r"\s+vs\s+", title, flags=re.IGNORECASE)
-    teams = [t.strip() for t in teams if t.strip()]
     short_teams = []
 
     for team in teams:
-        clean_team = re.sub(r"[^A-Za-z0-9\s]", "", team)  # remove symbols/brackets
+        clean_team = re.sub(r"[^A-Za-z0-9\s]", "", team)  # remove brackets/symbols
         words = clean_team.split()
 
         if len(words) == 1:
-            short_teams.append(words[0][:3].upper())
+            short_teams.append(words[0][:3].upper())  # Mumbai -> MUM
         elif len(words) == 2:
-            short_teams.append(words[0][0].upper() + words[1][0].upper())  # 2 words -> 2 initials
+            short_teams.append(words[0][0].upper() + words[1][:2].upper())  # Gujarat Warriors -> GW
         else:
-            short_teams.append("".join(w[0].upper() for w in words)[:3])  # 3+ words -> first 3 letters
+            short_teams.append("".join("".join(words))[:3].upper())  # Adani Trivandrum Royals -> ATR
 
     short_title = " vs ".join(short_teams)
 
@@ -202,7 +201,7 @@ def shorten_name(title: str, tournament: str) -> str:
     year = year_match.group(1) if year_match else ""
 
     words = clean_tournament.replace(",", "").split()
-    initials = "".join(w[0].upper() for w in words if not w.isdigit())[:4]  # max 4 chars
+    initials = "".join(w[0].upper() for w in words if not w.isdigit())[:4]
     short_tournament = f"{initials} {year}".strip()
 
     return f"{short_title} - {short_tournament}".strip()
