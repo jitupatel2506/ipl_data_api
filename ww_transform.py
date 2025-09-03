@@ -223,10 +223,10 @@ def normalize_match(m, idx, channel_number=600):
     if "fdlive.fancode.com" in stream_url and not stream_url.startswith("https://mini.allinonereborn.online/events/stream_proxy.php?url="):
         stream_url = "https://mini.allinonereborn.online/events/stream_proxy.php?url=" + stream_url
    
-    else if "akamaized.net" in stream_url and not stream_url.startswith("https://mini.allinonereborn.online/events/stream_proxy.php?url="):
+    if "akamaized.net" in stream_url and not stream_url.startswith("https://mini.allinonereborn.online/events/stream_proxy.php?url="):
         stream_url = "https://mini.allinonereborn.online/events/stream_proxy.php?url=" + stream_url
    
-    else if "liveakmt-m-lr.slivcdn.com" in stream_url and not stream_url.startswith("https://mini.allinonereborn.online/events/stream_proxy.php?url="):
+    if "slivcdn.com" in stream_url and not stream_url.startswith("https://mini.allinonereborn.online/events/stream_proxy.php?url="):
         stream_url = "https://mini.allinonereborn.online/events/stream_proxy.php?url=" + stream_url
 
     # ✅ Shorten name apply karo
