@@ -278,15 +278,20 @@ def load_crichd_selected_items():
     data = fetch_json_url(CRICHD_SELECTED_URL)
     if isinstance(data, list):
         print(f"ℹ️ Crichd selected items fetched: {len(data)}")
+        # ✅ Override thumbnail for all crichd selected items
+        for item in data:
+            item["thumbnail"] = "https://gitlab.com/ranginfotech89/ipl_data_api/-/raw/main/stream_categories/cricket_league_vectors/all_live_streaming_worldwide.png"
         return data
     return []
-    
 def load_manual_items():
     if os.path.exists(MANUAL_FILE):
         try:
             with open(MANUAL_FILE, "r", encoding="utf-8") as f:
                 data = json.load(f)
                 if isinstance(data, list):
+                    # ✅ Override thumbnail for all manual items
+                    for item in data:
+                        item["thumbnail"] = "https://gitlab.com/ranginfotech89/ipl_data_api/-/raw/main/stream_categories/cricket_league_vectors/all_live_streaming_worldwide.png"
                     return data
         except Exception as e:
             print(f"⚠️ Error loading manual file {MANUAL_FILE}: {e}")
