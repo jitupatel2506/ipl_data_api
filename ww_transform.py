@@ -184,20 +184,21 @@ def shorten_name(title: str, tournament: str) -> str:
     short_teams = []
 
     for team in teams:
-        words = team.split()
+        words = re.sub(r"[^A-Za-z0-9\s]", "", team).split()  # remove symbols
         if len(words) == 1:
             short_teams.append(words[0][:3].upper())
         else:
             initials = "".join(w[0].upper() for w in words if w)
-            short_teams.append(initials[:3])
+            short_teams.append(initials[:3])  # max 3 chars
 
     short_title = " vs ".join(short_teams)
 
     # --- Tournament Shorten ---
-    year_match = re.search(r"\b(20\d{2})\b", tournament or "")
+    clean_tournament = re.sub(r"[^A-Za-z0-9\s]", "", tournament or "")  # remove special chars
+    year_match = re.search(r"\b(20\d{2})\b", clean_tournament)
     year = year_match.group(1) if year_match else ""
 
-    words = (tournament or "").replace(",", "").split()
+    words = clean_tournament.replace(",", "").split()
     initials = "".join(w[0].upper() for w in words if not w.isdigit())
     short_tournament = f"{initials} {year}".strip()
 
