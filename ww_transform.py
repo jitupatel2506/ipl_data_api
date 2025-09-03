@@ -170,7 +170,7 @@ def normalize_start_time(raw: str) -> str:
 
 def shorten_name(title: str, tournament: str) -> str:
     """
-    Team names ko short karega aur tournament ko initials + year me convert karega.
+    Shorten team names and tournament into compact form.
     Example:
     "Adani Trivandrum Royals vs Calicut Globstars", "Kerala Cricket League, 2025"
     -> "ATR vs CG - KCL 2025"
@@ -184,22 +184,25 @@ def shorten_name(title: str, tournament: str) -> str:
     short_teams = []
 
     for team in teams:
-        words = re.sub(r"[^A-Za-z0-9\s]", "", team).split()  # remove symbols
+        clean_team = re.sub(r"[^A-Za-z0-9\s]", "", team)  # remove symbols/brackets
+        words = clean_team.split()
+
         if len(words) == 1:
             short_teams.append(words[0][:3].upper())
+        elif len(words) == 2:
+            short_teams.append(words[0][0].upper() + words[1][0].upper())  # 2 words -> 2 initials
         else:
-            initials = "".join(w[0].upper() for w in words if w)
-            short_teams.append(initials[:3])  # max 3 chars
+            short_teams.append("".join(w[0].upper() for w in words)[:3])  # 3+ words -> first 3 letters
 
     short_title = " vs ".join(short_teams)
 
     # --- Tournament Shorten ---
-    clean_tournament = re.sub(r"[^A-Za-z0-9\s]", "", tournament or "")  # remove special chars
+    clean_tournament = re.sub(r"[^A-Za-z0-9\s]", "", tournament or "")
     year_match = re.search(r"\b(20\d{2})\b", clean_tournament)
     year = year_match.group(1) if year_match else ""
 
     words = clean_tournament.replace(",", "").split()
-    initials = "".join(w[0].upper() for w in words if not w.isdigit())
+    initials = "".join(w[0].upper() for w in words if not w.isdigit())[:4]  # max 4 chars
     short_tournament = f"{initials} {year}".strip()
 
     return f"{short_title} - {short_tournament}".strip()
