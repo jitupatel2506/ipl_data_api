@@ -170,7 +170,7 @@ def normalize_start_time(raw: str) -> str:
 
 def shorten_name(title: str, tournament: str) -> str:
     """
-    Team names ko short karega aur tournament ko initials + year me convert karega.
+    Short team names and tournament into compact form.
     Example:
     "Adani Trivandrum Royals vs Calicut Globstars", "Kerala Cricket League, 2025"
     -> "ATR vs CG - KCL 2025"
@@ -180,25 +180,28 @@ def shorten_name(title: str, tournament: str) -> str:
 
     # --- Teams Shorten ---
     teams = re.split(r"\s+vs\s+", title, flags=re.IGNORECASE)
-    teams = [t.strip() for t in teams if t.strip()]
     short_teams = []
 
     for team in teams:
-        words = team.split()
+        clean_team = re.sub(r"[^A-Za-z0-9\s]", "", team)  # remove brackets/symbols
+        words = clean_team.split()
+
         if len(words) == 1:
-            short_teams.append(words[0][:3].upper())
+            short_teams.append(words[0][:3].upper())  # Mumbai -> MUM
+        elif len(words) == 2:
+            short_teams.append(words[0][0].upper() + words[1][:2].upper())  # Gujarat Warriors -> GW
         else:
-            initials = "".join(w[0].upper() for w in words if w)
-            short_teams.append(initials[:3])
+            short_teams.append("".join("".join(words))[:3].upper())  # Adani Trivandrum Royals -> ATR
 
     short_title = " vs ".join(short_teams)
 
     # --- Tournament Shorten ---
-    year_match = re.search(r"\b(20\d{2})\b", tournament or "")
+    clean_tournament = re.sub(r"[^A-Za-z0-9\s]", "", tournament or "")
+    year_match = re.search(r"\b(20\d{2})\b", clean_tournament)
     year = year_match.group(1) if year_match else ""
 
-    words = (tournament or "").replace(",", "").split()
-    initials = "".join(w[0].upper() for w in words if not w.isdigit())
+    words = clean_tournament.replace(",", "").split()
+    initials = "".join(w[0].upper() for w in words if not w.isdigit())[:4]
     short_tournament = f"{initials} {year}".strip()
 
     return f"{short_title} - {short_tournament}".strip()
@@ -349,6 +352,7 @@ def main():
 
 if __name__ == "__main__":
     main()
+
 
 
 
