@@ -174,8 +174,8 @@ def shorten_name(title: str, tournament: str) -> str:
     """
     Short team names and tournament into compact form.
     Example:
-    "Adani Trivandrum Royals vs Calicut Globstars", "Kerala Cricket League, 2025"
-    -> "ATR vs CG - KCL 2025"
+    "Alleppey Ripples vs Aries Kollam Sailors", "Kerala Cricket League, 2025"
+    -> "AR vs AKS - KCL 2025"
     """
     if not title:
         return tournament or "Unknown"
@@ -185,15 +185,21 @@ def shorten_name(title: str, tournament: str) -> str:
     short_teams = []
 
     for team in teams:
-        clean_team = re.sub(r"[^A-Za-z0-9\s]", "", team)  # remove brackets/symbols
+        clean_team = re.sub(r"[^A-Za-z0-9\s]", "", team)
         words = clean_team.split()
 
         if len(words) == 1:
-            short_teams.append(words[0][:3].upper())  # Mumbai -> MUM
+            short_teams.append(words[0][:3].upper())
+
         elif len(words) == 2:
-            short_teams.append(words[0][0].upper() + words[1][:2].upper())  # Gujarat Warriors -> GW
+            w1, w2 = words
+            if len(w2) >= 5:  # long word -> only first letter
+                short_teams.append(w1[0].upper() + w2[0].upper())
+            else:  # short word -> take 2 letters
+                short_teams.append(w1[0].upper() + w2[:2].upper())
+
         else:
-            short_teams.append("".join("".join(words))[:3].upper())  # Adani Trivandrum Royals -> ATR
+            short_teams.append("".join(w[0].upper() for w in words[:3]))
 
     short_title = " vs ".join(short_teams)
 
@@ -207,6 +213,7 @@ def shorten_name(title: str, tournament: str) -> str:
     short_tournament = f"{initials} {year}".strip()
 
     return f"{short_title} - {short_tournament}".strip()
+
 
 
 def normalize_match(m, idx, channel_number=600):
