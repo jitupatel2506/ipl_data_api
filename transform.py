@@ -160,6 +160,12 @@ def pick_stream_url(m):
 
 
 def shorten_name(title: str, tournament: str) -> str:
+    """
+    Short team names and tournament into compact form.
+    Example:
+    "Adani Trivandrum Royals vs Calicut Globstars", "Kerala Cricket League, 2025"
+    -> "ATR vs CG - KCL 2025"
+    """
     if not title:
         return tournament or "Unknown"
 
@@ -337,4 +343,5 @@ def main():
 
 if __name__ == "__main__":
     main()
+
 
