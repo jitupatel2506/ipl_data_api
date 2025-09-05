@@ -169,7 +169,14 @@ def normalize_start_time(raw: str) -> str:
     except Exception:
         return raw  # fallback if format not matched
 
-
+def clean_title(title: str) -> str:
+    if not title:
+        return ""
+    title = title.strip()
+    if title.endswith("-"):
+        title = title[:-1].strip()
+    return title
+    
 def shorten_name(title: str, tournament: str) -> str:
     """
     Short team names and tournament into compact form.
@@ -217,7 +224,7 @@ def shorten_name(title: str, tournament: str) -> str:
 
 
 def normalize_match(m, idx, channel_number=600):
-    title = (m.get("title") or m.get("match_name") or "").strip()
+    title = ((m.get("title", "")) or (m.get("match_name")) or "").strip()
     tournament = (m.get("tournament") or m.get("competition") or "").strip()
 
     if not title:
@@ -256,6 +263,7 @@ def normalize_match(m, idx, channel_number=600):
     if "football" in category and "football" not in short_title.lower():
         short_title = f"{short_title} - Football"
 
+     short_title = clean_title(short_title)
     # Channel number
     match_id = m.get("match_id") or m.get("id") or m.get("matchId")
     if match_id:
@@ -288,6 +296,53 @@ def normalize_match(m, idx, channel_number=600):
         "category": category,
     }
 
+def normalize_fancode3_match(m, idx, channel_number=700):
+    title = (m.get("title", "Unknown Match")).strip()
+    start_time = m.get("startTime", "").strip()
+    image = m.get("image") or "https://i.ibb.co/ygQ6gT3/default.png"
+    stream_url = m.get("adfree_stream", "").strip()
+    match_id = str(m.get("match_id") or channel_number + idx)
+
+    if not stream_url:
+        return None
+    # Proxy wrap
+    if "fdlive.fancode.com" in stream_url and not stream_url.startswith("https://mini.allinonereborn.online/events/stream_proxy.php?url="):
+        stream_url = "https://mini.allinonereborn.online/events/stream_proxy.php?url=" + stream_url
+   
+    if "akamaized.net" in stream_url and not stream_url.startswith("https://mini.allinonereborn.online/events/stream_proxy.php?url="):
+        stream_url = "https://mini.allinonereborn.online/events/stream_proxy.php?url=" + stream_url
+   
+    if "slivcdn.com" in stream_url and not stream_url.startswith("https://mini.allinonereborn.online/events/stream_proxy.php?url="):
+        stream_url = "https://mini.allinonereborn.online/events/stream_proxy.php?url=" + stream_url
+
+    return {
+        "channelNumber": channel_number + idx,
+        "linkType": "app",
+        "platform": "FanCode",
+        "channelName": clean_title(title),
+        "subText": "Live Streaming Now",
+        "startTime": start_time,
+        "drm_licence": "",
+        "ownerInfo": "Stream provided by public source",
+        "thumbnail": image,
+        "channelUrl": stream_url,
+        "match_id": match_id,
+    }
+
+
+def merge_fancode3_matches(auto_items, fancode3_matches):
+    existing = {item["match_id"]: item for item in auto_items}
+    for idx, m in enumerate(fancode3_matches, start=1):
+        item = normalize_fancode3_match(m, idx)
+        if not item:
+            continue
+        match_id = item["match_id"]
+        if match_id in existing:
+            existing[match_id].update(item)
+        else:
+            existing[match_id] = item
+    return list(existing.values())
+    
 
 def load_crichd_selected_items():
     data = fetch_json_url(CRICHD_SELECTED_URL)
