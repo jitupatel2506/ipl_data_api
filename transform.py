@@ -216,7 +216,7 @@ def shorten_name(title: str, tournament: str) -> str:
     return f"{short_title} - {short_tournament}".strip()
 
 
-def clean_title(title: str) -> str:
+def (title: str) -> str:
     if not title:
         return ""
     title = title.strip()
@@ -227,7 +227,7 @@ def clean_title(title: str) -> str:
 
 
 def normalize_match(m, idx, channel_number=600):
-    title = clean_title(m.get("title", "")) or m.get("match_name") or "").strip()
+    title = ((m.get("title", "")) or (m.get("match_name")) or "").strip()
     tournament = (m.get("tournament") or m.get("competition") or "").strip()
 
     if not title:
@@ -283,7 +283,7 @@ def normalize_match(m, idx, channel_number=600):
         "match_id": match_id or str(channel_number + idx),
     }
 def normalize_fancode3_match(m, idx, channel_number=700):
-    title = clean_title(m.get("title", "Unknown Match")).strip()
+    title = (m.get("title", "Unknown Match")).strip()
     start_time = m.get("startTime", "").strip()
     image = m.get("image") or "https://i.ibb.co/ygQ6gT3/default.png"
     stream_url = m.get("adfree_stream", "").strip()
@@ -420,6 +420,7 @@ def main():
 
 if __name__ == "__main__":
     main()
+
 
 
 
