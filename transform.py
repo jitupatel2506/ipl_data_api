@@ -5,22 +5,22 @@ import sys
 import re
 from urllib.request import urlopen, Request
 from urllib.error import URLError, HTTPError
-from datetime import datetime  # ✅ Added for time formatting
+from datetime import datetime  # ✅ For time formatting
 
 # File paths
 OUTPUT_FILE = "live_stream/auto_update_all_streams.json"
 MANUAL_FILE = "live_stream/all_streams.json"
-# Local filenames (CI will download these via curl)
 LOCAL_FILES = ["fancode1.json", "fancode2.json", "fancode3.json"]
+
 CRICHD_SELECTED_URL = "https://raw.githubusercontent.com/jitupatel2506/crichd-auto-fetch/refs/heads/main/crichd-auto-fetch/auto_crichd_selected_api.json"
-# Remote fallback URLs (used only if local files missing)
+
 FANCODE_URLS = [
     "https://allinonereborn.fun/fc/fancode.json",
     "https://raw.githubusercontent.com/drmlive/fancode-live-events/main/fancode.json",
     "https://raw.githubusercontent.com/jitendra-unatti/fancode/refs/heads/main/data/fancode.json",
 ]
 
-# ✅ New SonyLiv JSON URL
+# ✅ SonyLiv JSON URL
 SONYLIV_URL = "https://raw.githubusercontent.com/drmlive/sliv-live-events/main/sonyliv.json"
 
 
@@ -69,22 +69,18 @@ def load_json_sources():
             continue
 
         if isinstance(data, dict):
-            # ✅ Normal format
             if "matches" in data:
                 matches += data.get("matches", [])
             else:
-                # ✅ Single match object case
                 matches.append(data)
 
         elif isinstance(data, list):
-            # ✅ Already a list of matches
             matches += data
 
     return matches
 
 
 def load_sonyliv_matches():
-    """Fetch and normalize matches from SonyLiv JSON"""
     matches = []
     data = fetch_json_url(SONYLIV_URL)
     if isinstance(data, dict):
@@ -93,15 +89,13 @@ def load_sonyliv_matches():
             category = (m.get("event_category") or "").lower()
             is_live = m.get("isLive", False)
 
-            # ✅ Filter only live cricket/football/hockey
             if not is_live:
                 continue
             if category not in ["cricket", "football", "hockey"]:
                 continue
 
             title = m.get("event_name") or "Unknown Match"
-            stream_url = m.get('video_url')
-            
+            stream_url = m.get("video_url")
             thumbnail = m.get("src") or "https://i.ibb.co/ygQ6gT3/sonyliv.png"
 
             item = {
@@ -117,7 +111,6 @@ def load_sonyliv_matches():
                 "channelUrl": stream_url,
                 "match_id": str(m.get("contentId")),
             }
-            # ✅ Add Kabaddi/Football suffix
             if "kabaddi" in category and "kabaddi" not in item["channelName"].lower():
                 item["channelName"] += " - Kabaddi"
             if "football" in category and "football" not in item["channelName"].lower():
@@ -156,7 +149,7 @@ def pick_stream_url(m):
     candidates = [
         m.get("India"),
         m.get("adfree_url"),
-        m.get("adfree_stream"),   # ✅ new
+        m.get("adfree_stream"),
         m.get("dai_url"),
         m.get("daiUrl"),
         m.get("stream_url"),
@@ -172,16 +165,9 @@ def pick_stream_url(m):
 
 
 def shorten_name(title: str, tournament: str) -> str:
-    """
-    Short team names and tournament into compact form.
-    Example:
-    "Alleppey Ripples vs Aries Kollam Sailors", "Kerala Cricket League, 2025"
-    -> "AR vs AKS - KCL 2025"
-    """
     if not title:
         return tournament or "Unknown"
 
-    # --- Teams Shorten ---
     teams = re.split(r"\s+vs\s+", title, flags=re.IGNORECASE)
     short_teams = []
 
@@ -191,20 +177,17 @@ def shorten_name(title: str, tournament: str) -> str:
 
         if len(words) == 1:
             short_teams.append(words[0][:3].upper())
-
         elif len(words) == 2:
             w1, w2 = words
-            if len(w2) >= 5:  # long word -> only first letter
+            if len(w2) >= 5:
                 short_teams.append(w1[0].upper() + w2[0].upper())
-            else:  # short word -> take 2 letters
+            else:
                 short_teams.append(w1[0].upper() + w2[:2].upper())
-
         else:
             short_teams.append("".join(w[0].upper() for w in words[:3]))
 
     short_title = " vs ".join(short_teams)
 
-    # --- Tournament Shorten ---
     clean_tournament = re.sub(r"[^A-Za-z0-9\s]", "", tournament or "")
     year_match = re.search(r"\b(20\d{2})\b", clean_tournament)
     year = year_match.group(1) if year_match else ""
@@ -216,11 +199,10 @@ def shorten_name(title: str, tournament: str) -> str:
     return f"{short_title} - {short_tournament}".strip()
 
 
-def (title: str) -> str:
+def clean_title(title: str) -> str:
     if not title:
         return ""
     title = title.strip()
-    # ✅ Agar end me sirf "-" ho to hata do
     if title.endswith("-"):
         title = title[:-1].strip()
     return title
@@ -243,7 +225,6 @@ def normalize_match(m, idx, channel_number=600):
         return None
 
     short_title = shorten_name(title, tournament)
-
     lang = detect_language_from_url(stream_url)
     if lang and lang.lower() != "english":
         short_title = f"{short_title} - {lang}"
@@ -253,6 +234,8 @@ def normalize_match(m, idx, channel_number=600):
         short_title = f"{short_title} - Kabaddi"
     if "football" in category and "football" not in short_title.lower():
         short_title = f"{short_title} - Football"
+
+    short_title = clean_title(short_title)
 
     match_id = m.get("match_id") or m.get("id") or m.get("matchId")
     if match_id:
@@ -282,6 +265,8 @@ def normalize_match(m, idx, channel_number=600):
         "channelUrl": stream_url.strip(),
         "match_id": match_id or str(channel_number + idx),
     }
+
+
 def normalize_fancode3_match(m, idx, channel_number=700):
     title = (m.get("title", "Unknown Match")).strip()
     start_time = m.get("startTime", "").strip()
@@ -296,7 +281,7 @@ def normalize_fancode3_match(m, idx, channel_number=700):
         "channelNumber": channel_number + idx,
         "linkType": "app",
         "platform": "FanCode",
-        "channelName": title,
+        "channelName": clean_title(title),
         "subText": "Live Streaming Now",
         "startTime": start_time,
         "drm_licence": "",
@@ -306,25 +291,21 @@ def normalize_fancode3_match(m, idx, channel_number=700):
         "match_id": match_id,
     }
 
-def merge_fancode3_matches(auto_items, fancode3_matches):
-    """Merge fancode3 matches into auto_items, avoiding duplicates by match_id"""
-    existing = {item["match_id"]: item for item in auto_items}
 
+def merge_fancode3_matches(auto_items, fancode3_matches):
+    existing = {item["match_id"]: item for item in auto_items}
     for idx, m in enumerate(fancode3_matches, start=1):
         item = normalize_fancode3_match(m, idx)
         if not item:
             continue
-
         match_id = item["match_id"]
         if match_id in existing:
-            # ✅ Replace existing entry with fancode3 version
             existing[match_id].update(item)
         else:
             existing[match_id] = item
-
-    # Return merged list
     return list(existing.values())
-    
+
+
 def load_crichd_selected_items():
     data = fetch_json_url(CRICHD_SELECTED_URL)
     if isinstance(data, list):
@@ -349,7 +330,7 @@ def main():
     manual_items = load_manual_items()
     print("ℹ️ Manual items loaded:", len(manual_items))
     crichd_selected_items = load_crichd_selected_items()
-    
+
     matches_all = load_json_sources()
     print(f"ℹ️ Total matches fetched from FanCode: {len(matches_all)}")
 
@@ -389,10 +370,8 @@ def main():
             auto_items.append(item)
             added += 1
 
-    # ✅ Merge SonyLIV matches
     auto_items.extend(sonyliv_matches)
 
-    # ✅ Merge FanCode3 matches
     fancode3_raw = fetch_json_url(FANCODE_URLS[2]) if len(FANCODE_URLS) > 2 else []
     if isinstance(fancode3_raw, list):
         auto_items = merge_fancode3_matches(auto_items, fancode3_raw)
@@ -400,14 +379,13 @@ def main():
 
     print("ℹ️ Auto items prepared:", len(auto_items))
 
-    # ✅ Football & Kabaddi ko top pe le aao
     priority_items = [m for m in auto_items if "Football" in m["channelName"] or "Kabaddi" in m["channelName"]]
     other_items = [m for m in auto_items if m not in priority_items]
     auto_items = priority_items + other_items
 
-    # ✅ Final merge
     final_output = manual_items + crichd_selected_items + auto_items
     final_output = list(reversed(final_output))
+
     os.makedirs(os.path.dirname(OUTPUT_FILE) or ".", exist_ok=True)
     try:
         with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
@@ -418,15 +396,6 @@ def main():
         print("❌ Failed to write output file:", e)
         sys.exit(2)
 
+
 if __name__ == "__main__":
     main()
-
-
-
-
-
-
-
-
-
-
