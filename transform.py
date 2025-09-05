@@ -49,7 +49,6 @@ def fetch_json_url(url, timeout=10):
 
 
 def load_json_sources():
-    """Load matches from either local files (preferred) or remote URLs as fallback"""
     matches = []
     found_local = False
 
@@ -66,8 +65,20 @@ def load_json_sources():
     print("ℹ️ No local files found; fetching from FanCode remote URLs.")
     for url in FANCODE_URLS:
         data = fetch_json_url(url)
+        if not data:
+            continue
+
         if isinstance(data, dict):
-            matches += data.get("matches", []) or []
+            # ✅ Normal format
+            if "matches" in data:
+                matches += data.get("matches", [])
+            else:
+                # ✅ Single match object case
+                matches.append(data)
+
+        elif isinstance(data, list):
+            # ✅ Already a list of matches
+            matches += data
 
     return matches
 
@@ -352,6 +363,7 @@ def main():
 
 if __name__ == "__main__":
     main()
+
 
 
 
