@@ -275,7 +275,25 @@ def normalize_match(m, idx, channel_number=600):
         "match_id": match_id or str(channel_number + idx),
     }
 
+def merge_fancode3_matches(auto_items, fancode3_matches):
+    """Merge fancode3 matches into auto_items, avoiding duplicates by match_id"""
+    existing = {item["match_id"]: item for item in auto_items}
 
+    for idx, m in enumerate(fancode3_matches, start=1):
+        item = normalize_fancode3_match(m, idx)
+        if not item:
+            continue
+
+        match_id = item["match_id"]
+        if match_id in existing:
+            # ✅ Replace existing entry with fancode3 version
+            existing[match_id].update(item)
+        else:
+            existing[match_id] = item
+
+    # Return merged list
+    return list(existing.values())
+    
 def load_crichd_selected_items():
     data = fetch_json_url(CRICHD_SELECTED_URL)
     if isinstance(data, list):
@@ -340,7 +358,15 @@ def main():
             auto_items.append(item)
             added += 1
 
+    # ✅ Merge SonyLIV matches
     auto_items.extend(sonyliv_matches)
+
+    # ✅ Merge FanCode3 matches
+    fancode3_raw = fetch_json_url(FANCODE_URLS[2]) if len(FANCODE_URLS) > 2 else []
+    if isinstance(fancode3_raw, list):
+        auto_items = merge_fancode3_matches(auto_items, fancode3_raw)
+        print(f"ℹ️ After merging FanCode3 matches: {len(auto_items)}")
+
     print("ℹ️ Auto items prepared:", len(auto_items))
 
     # ✅ Football & Kabaddi ko top pe le aao
@@ -348,6 +374,7 @@ def main():
     other_items = [m for m in auto_items if m not in priority_items]
     auto_items = priority_items + other_items
 
+    # ✅ Final merge
     final_output = manual_items + crichd_selected_items + auto_items
     final_output = list(reversed(final_output))
     os.makedirs(os.path.dirname(OUTPUT_FILE) or ".", exist_ok=True)
@@ -359,7 +386,6 @@ def main():
     except Exception as e:
         print("❌ Failed to write output file:", e)
         sys.exit(2)
-
 
 if __name__ == "__main__":
     main()
