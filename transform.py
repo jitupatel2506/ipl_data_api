@@ -17,7 +17,7 @@ CRICHD_SELECTED_URL = "https://raw.githubusercontent.com/jitupatel2506/crichd-au
 FANCODE_URLS = [
     "https://allinonereborn.fun/fc/fancode.json",
     "https://raw.githubusercontent.com/drmlive/fancode-live-events/main/fancode.json",
-    "https://raw.githubusercontent.com/Jitendraunatti/fancode/refs/heads/main/data/fancode.json",
+    "https://raw.githubusercontent.com/jitendra-unatti/fancode/refs/heads/main/data/fancode.json",
 ]
 
 # ✅ New SonyLiv JSON URL
@@ -351,6 +351,7 @@ def main():
 
 if __name__ == "__main__":
     main()
+
 
 
 
