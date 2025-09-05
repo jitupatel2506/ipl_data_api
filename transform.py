@@ -216,10 +216,19 @@ def shorten_name(title: str, tournament: str) -> str:
     return f"{short_title} - {short_tournament}".strip()
 
 
+def clean_title(title: str) -> str:
+    if not title:
+        return ""
+    title = title.strip()
+    # ✅ Agar end me sirf "-" ho to hata do
+    if title.endswith("-"):
+        title = title[:-1].strip()
+    return title
 
 
 def normalize_match(m, idx, channel_number=600):
     title = (m.get("title") or m.get("match_name") or "").strip()
+    item["title"] = clean_title(item.get("title", ""))
     tournament = (m.get("tournament") or m.get("competition") or "").strip()
 
     if not title:
@@ -273,6 +282,30 @@ def normalize_match(m, idx, channel_number=600):
         "thumbnail": thumbnail,
         "channelUrl": stream_url.strip(),
         "match_id": match_id or str(channel_number + idx),
+    }
+def normalize_fancode3_match(m, idx, channel_number=700):
+    title = m.get("title", "Unknown Match").strip()
+    item["title"] = clean_title(item.get("title", ""))
+    start_time = m.get("startTime", "").strip()
+    image = m.get("image") or "https://i.ibb.co/ygQ6gT3/default.png"
+    stream_url = m.get("adfree_stream", "").strip()
+    match_id = str(m.get("match_id") or channel_number + idx)
+
+    if not stream_url:
+        return None
+
+    return {
+        "channelNumber": channel_number + idx,
+        "linkType": "app",
+        "platform": "FanCode",
+        "channelName": title,
+        "subText": "Live Streaming Now",
+        "startTime": start_time,
+        "drm_licence": "",
+        "ownerInfo": "Stream provided by public source",
+        "thumbnail": image,
+        "channelUrl": stream_url,
+        "match_id": match_id,
     }
 
 def merge_fancode3_matches(auto_items, fancode3_matches):
@@ -389,6 +422,7 @@ def main():
 
 if __name__ == "__main__":
     main()
+
 
 
 
