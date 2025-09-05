@@ -145,6 +145,7 @@ def pick_stream_url(m):
     candidates = [
         m.get("India"),
         m.get("adfree_url"),
+        m.get("adfree_stream"),   # ✅ new
         m.get("dai_url"),
         m.get("daiUrl"),
         m.get("stream_url"),
@@ -351,6 +352,7 @@ def main():
 
 if __name__ == "__main__":
     main()
+
 
 
 
