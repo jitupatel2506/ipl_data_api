@@ -169,13 +169,6 @@ def normalize_start_time(raw: str) -> str:
     except Exception:
         return raw  # fallback if format not matched
 
-def clean_title(title: str) -> str:
-    if not title:
-        return ""
-    title = title.strip()
-    if title.endswith("-"):
-        title = title[:-1].strip()
-    return title
     
 def shorten_name(title: str, tournament: str) -> str:
     """
@@ -221,6 +214,13 @@ def shorten_name(title: str, tournament: str) -> str:
 
     return f"{short_title} - {short_tournament}".strip()
 
+def clean_title(title: str) -> str:
+    if not title:
+        return ""
+    title = title.strip()
+    if title.endswith("-"):
+        title = title[:-1].strip()
+    return title
 
 
 def normalize_match(m, idx, channel_number=600):
@@ -251,6 +251,8 @@ def normalize_match(m, idx, channel_number=600):
     # ✅ Shorten name apply karo
     short_title = shorten_name(title, tournament)
 
+    short_title = clean_title(short_title)
+
     # Detect language
     lang = detect_language_from_url(stream_url)
     if lang and lang.lower() != "english":
@@ -263,7 +265,6 @@ def normalize_match(m, idx, channel_number=600):
     if "football" in category and "football" not in short_title.lower():
         short_title = f"{short_title} - Football"
 
-     short_title = clean_title(short_title)
     # Channel number
     match_id = m.get("match_id") or m.get("id") or m.get("matchId")
     if match_id:
