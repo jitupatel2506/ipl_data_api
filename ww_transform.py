@@ -103,7 +103,8 @@ def load_sonyliv_matches():
                 "drm_licence": "",
                 "ownerInfo": "Stream provided by public source",
                 "thumbnail": thumbnail,
-                "channelUrl": "https://mini.allinonereborn.online/events/stream_proxy.php?url=" + stream_url,
+                "channelUrl": stream_url,
+               # "https://mini.allinonereborn.online/events/stream_proxy.php?url=" + 
                 "match_id": str(m.get("contentId")),
                 "category": category,
             }
@@ -239,14 +240,14 @@ def normalize_match(m, idx, channel_number=600):
     if not stream_url:
         return None
     # Proxy wrap
-    if "fdlive.fancode.com" in stream_url and not stream_url.startswith("https://mini.allinonereborn.online/events/stream_proxy.php?url="):
-        stream_url = "https://mini.allinonereborn.online/events/stream_proxy.php?url=" + stream_url
+ #   if "fdlive.fancode.com" in stream_url and not stream_url.startswith("https://mini.allinonereborn.online/events/stream_proxy.php?url="):
+ #       stream_url = "https://mini.allinonereborn.online/events/stream_proxy.php?url=" + stream_url
    
-    if "akamaized.net" in stream_url and not stream_url.startswith("https://mini.allinonereborn.online/events/stream_proxy.php?url="):
-        stream_url = "https://mini.allinonereborn.online/events/stream_proxy.php?url=" + stream_url
+ #   if "akamaized.net" in stream_url and not stream_url.startswith("https://mini.allinonereborn.online/events/stream_proxy.php?url="):
+ #       stream_url = "https://mini.allinonereborn.online/events/stream_proxy.php?url=" + stream_url
    
-    if "slivcdn.com" in stream_url and not stream_url.startswith("https://mini.allinonereborn.online/events/stream_proxy.php?url="):
-        stream_url = "https://mini.allinonereborn.online/events/stream_proxy.php?url=" + stream_url
+ #   if "slivcdn.com" in stream_url and not stream_url.startswith("https://mini.allinonereborn.online/events/stream_proxy.php?url="):
+ #       stream_url = "https://mini.allinonereborn.online/events/stream_proxy.php?url=" + stream_url
 
     # ✅ Shorten name apply karo
     short_title = shorten_name(title, tournament)
