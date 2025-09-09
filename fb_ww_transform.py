@@ -12,7 +12,7 @@ OUTPUT_FILE = "live_stream/auto_worldwide_football.json"
 MANUAL_FILE = "https://gitlab.com/ranginfotech89/ipl_data_api/-/raw/main/stream_categories/live_stream/football_streaming.json"
 # Local filenames (CI will download these via curl)
 LOCAL_FILES = ["football1.json", "football2.json", "football3.json"]
-CRICHD_SELECTED_URL = "https://raw.githubusercontent.com/jitupatel2506/crichd-auto-fetch/refs/heads/main/crichd-auto-fetch/auto_crichd_selected_api.json"
+CRICHD_SELECTED_URL = "https://gitlab.com/ranginfotech89/ipl_data_api/-/raw/main/stream_categories/live_stream/football_streaming.json"
 # Remote fallback URLs (used only if local files missing)
 FANCODE_URLS = [
     "https://allinonereborn.fun/fc/fancode.json",
@@ -340,7 +340,7 @@ def main():
 
     print("ℹ️ Auto items prepared:", len(auto_items))
 
-    final_output = manual_items + auto_items
+    final_output = manual_items + crichd_selected_items + auto_items
     final_output = list(reversed(final_output))
 
     os.makedirs(os.path.dirname(OUTPUT_FILE) or ".", exist_ok=True)
