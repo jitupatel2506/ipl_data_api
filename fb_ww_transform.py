@@ -9,7 +9,7 @@ from datetime import datetime  # ✅ Added for time formatting
 
 # File paths
 OUTPUT_FILE = "live_stream/auto_worldwide_football.json"
-MANUAL_FILE = "live_stream/all_streams_worldwide.json"
+MANUAL_FILE = "https://gitlab.com/ranginfotech89/ipl_data_api/-/raw/main/stream_categories/live_stream/football_streaming.json"
 # Local filenames (CI will download these via curl)
 LOCAL_FILES = ["football1.json", "football2.json"]
 CRICHD_SELECTED_URL = "https://gitlab.com/ranginfotech89/ipl_data_api/-/raw/main/stream_categories/live_stream/football_streaming.json"
@@ -271,7 +271,7 @@ def load_crichd_selected_items():
     if isinstance(data, list):
         print(f"ℹ️ Crichd selected items fetched: {len(data)}")
         for item in data:
-            item["thumbnail"] = "https://gitlab.com/ranginfotech89/ipl_data_api/-/raw/main/stream_categories/cricket_league_vectors/all_live_streaming_worldwide.png"
+            item["thumbnail"] = "https://gitlab.com/ranginfotech89/ipl_data_api/-/raw/main/stream_categories/cricket_league_vectors/football_new.png"
         return item
     return []
 
@@ -283,7 +283,7 @@ def load_manual_items():
                 data = json.load(f)
                 if isinstance(data, list):
                     for item in data:
-                        item["thumbnail"] = "https://gitlab.com/ranginfotech89/ipl_data_api/-/raw/main/stream_categories/cricket_league_vectors/all_live_streaming_worldwide.png"
+                        item["thumbnail"] = "https://gitlab.com/ranginfotech89/ipl_data_api/-/raw/main/stream_categories/cricket_league_vectors/football_new.png"
                     return data
         except Exception as e:
             print(f"⚠️ Error loading manual file {MANUAL_FILE}: {e}")
@@ -340,7 +340,7 @@ def main():
 
     print("ℹ️ Auto items prepared:", len(auto_items))
     
-    final_output = manual_items + crichd_selected_items + auto_items
+    final_output = manual_items + auto_items
     final_output = list(reversed(final_output))
 
     os.makedirs(os.path.dirname(OUTPUT_FILE) or ".", exist_ok=True)
