@@ -9,7 +9,7 @@ from datetime import datetime  # ✅ Added for time formatting
 
 # File paths
 OUTPUT_FILE = "live_stream/auto_worldwide_football.json"
-MANUAL_FILE = "https://gitlab.com/ranginfotech89/ipl_data_api/-/raw/main/stream_categories/live_stream/football_streaming.json"
+MANUAL_FILE = "live_stream/all_streams_worldwide.json"
 # Local filenames (CI will download these via curl)
 LOCAL_FILES = ["football1.json", "football2.json", "football3.json"]
 CRICHD_SELECTED_URL = "https://gitlab.com/ranginfotech89/ipl_data_api/-/raw/main/stream_categories/live_stream/football_streaming.json"
