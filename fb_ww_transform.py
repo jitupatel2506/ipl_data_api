@@ -11,7 +11,7 @@ from datetime import datetime  # ✅ Added for time formatting
 OUTPUT_FILE = "live_stream/auto_worldwide_football.json"
 MANUAL_FILE = "live_stream/all_streams_worldwide.json"
 # Local filenames (CI will download these via curl)
-LOCAL_FILES = ["football1.json", "football2.json", "football3.json"]
+LOCAL_FILES = ["football1.json", "football2.json"]
 CRICHD_SELECTED_URL = "https://gitlab.com/ranginfotech89/ipl_data_api/-/raw/main/stream_categories/live_stream/football_streaming.json"
 # Remote fallback URLs (used only if local files missing)
 FANCODE_URLS = [
@@ -339,7 +339,7 @@ def main():
     auto_items = sorted(auto_items, key=lambda x: 0 if "football" in x.get("category", "").lower() else 1)
 
     print("ℹ️ Auto items prepared:", len(auto_items))
-
+    
     final_output = manual_items + crichd_selected_items + auto_items
     final_output = list(reversed(final_output))
 
