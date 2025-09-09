@@ -277,6 +277,17 @@ def load_crichd_selected_items():
 
 
 def load_manual_items():
+    # ✅ If MANUAL_FILE is a remote URL
+    if MANUAL_FILE.startswith("http://") or MANUAL_FILE.startswith("https://"):
+        data = fetch_json_url(MANUAL_FILE)
+        if isinstance(data, list):
+            for item in data:
+                item["thumbnail"] = "https://gitlab.com/ranginfotech89/ipl_data_api/-/raw/main/stream_categories/cricket_league_vectors/football_new.png"
+            print(f"ℹ️ Manual items fetched from remote: {len(data)}")
+            return data
+        return []
+
+    # ✅ If MANUAL_FILE is a local path
     if os.path.exists(MANUAL_FILE):
         try:
             with open(MANUAL_FILE, "r", encoding="utf-8") as f:
@@ -284,6 +295,7 @@ def load_manual_items():
                 if isinstance(data, list):
                     for item in data:
                         item["thumbnail"] = "https://gitlab.com/ranginfotech89/ipl_data_api/-/raw/main/stream_categories/cricket_league_vectors/football_new.png"
+                    print(f"ℹ️ Manual items loaded from local: {len(data)}")
                     return data
         except Exception as e:
             print(f"⚠️ Error loading manual file {MANUAL_FILE}: {e}")
