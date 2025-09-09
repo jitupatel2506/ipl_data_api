@@ -431,7 +431,7 @@ def main():
 
     print("ℹ️ Auto items prepared:", len(auto_items))
 
-    final_output = manual_items + crichd_selected_items + auto_items
+    final_output = manual_items + auto_items
     final_output = list(reversed(final_output))
 
     os.makedirs(os.path.dirname(OUTPUT_FILE) or ".", exist_ok=True)
