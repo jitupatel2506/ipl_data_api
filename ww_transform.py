@@ -103,8 +103,12 @@ def load_sonyliv_matches():
                 "drm_licence": "",
                 "ownerInfo": "Stream provided by public source",
                 "thumbnail": thumbnail,
-                "channelUrl": stream_url,
-               # "https://mini.allinonereborn.online/events/stream_proxy.php?url=" + 
+                
+                # Proxy wrap  <--------------------------------------------------------------Fancode WorldWide Change from here-------------------------------------------------->
+                "channelUrl": "https://allinonereborn.fun/fan-code11/play.php?url=" + stream_url,
+                # Proxy wrap  <--------------------------------------------------------------Fancode WorldWide Change from here-------------------------------------------------->
+                
+                # "https://allinonereborn.fun/fan-code11/play.php?url=" + 
                 "match_id": str(m.get("contentId")),
                 "category": category,
             }
@@ -239,16 +243,25 @@ def normalize_match(m, idx, channel_number=600):
     stream_url = pick_stream_url(m)
     if not stream_url:
         return None
-    # Proxy wrap
- #   if "fdlive.fancode.com" in stream_url and not stream_url.startswith("https://mini.allinonereborn.online/events/stream_proxy.php?url="):
- #       stream_url = "https://mini.allinonereborn.online/events/stream_proxy.php?url=" + stream_url
-   
- #   if "akamaized.net" in stream_url and not stream_url.startswith("https://mini.allinonereborn.online/events/stream_proxy.php?url="):
- #       stream_url = "https://mini.allinonereborn.online/events/stream_proxy.php?url=" + stream_url
-   
- #   if "slivcdn.com" in stream_url and not stream_url.startswith("https://mini.allinonereborn.online/events/stream_proxy.php?url="):
- #       stream_url = "https://mini.allinonereborn.online/events/stream_proxy.php?url=" + stream_url
 
+    
+    # Proxy wrap  <--------------------------------------------------------------Fancode WorldWide Change from here-------------------------------------------------->
+    if "fdlive.fancode.com" in stream_url and not stream_url.startswith("https://allinonereborn.fun/fan-code11/play.php?url="):
+        stream_url = "https://allinonereborn.fun/fan-code11/play.php?url=" + stream_url
+   
+    if "akamaized.net" in stream_url and not stream_url.startswith("https://allinonereborn.fun/fan-code11/play.php?url="):
+        stream_url = "https://allinonereborn.fun/fan-code11/play.php?url=" + stream_url
+   
+    if "slivcdn.com" in stream_url and not stream_url.startswith("https://allinonereborn.fun/fan-code11/play.php?url="):
+        stream_url = "https://allinonereborn.fun/fan-code11/play.php?url=" + stream_url
+
+    if "cloudfront.net" in stream_url and not stream_url.startswith("https://allinonereborn.fun/fan-code11/play.php?url="):
+        stream_url = "https://allinonereborn.fun/fan-code11/play.php?url=" + stream_url
+    # Proxy wrap  <--------------------------------------------------------------Fancode WorldWide Change from here-------------------------------------------------->
+
+
+
+    
     # ✅ Shorten name apply karo
     short_title = shorten_name(title, tournament)
 
