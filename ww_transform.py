@@ -246,7 +246,7 @@ def normalize_match(m, idx, channel_number=600):
 
     
     # Proxy wrap  <--------------------------------------------------------------Fancode WorldWide Change from here-------------------------------------------------->
-    if "fdlive.fancode.com" in stream_url and not stream_url.startswith("https://allinonereborn.fun/fan-code11/play.php?url="):
+    if "fancode.com" in stream_url and not stream_url.startswith("https://allinonereborn.fun/fan-code11/play.php?url="):
         stream_url = "https://allinonereborn.fun/fan-code11/play.php?url=" + stream_url
    
     if "akamaized.net" in stream_url and not stream_url.startswith("https://allinonereborn.fun/fan-code11/play.php?url="):
@@ -321,7 +321,7 @@ def normalize_fancode3_match(m, idx, channel_number=700):
     if not stream_url:
         return None
     # Proxy wrap  <--------------------------------------------------------------Fancode WorldWide Change from here-------------------------------------------------->
-    if "fdlive.fancode.com" in stream_url and not stream_url.startswith("https://allinonereborn.fun/fan-code11/play.php?url="):
+    if "fancode.com" in stream_url and not stream_url.startswith("https://allinonereborn.fun/fan-code11/play.php?url="):
         stream_url = "https://allinonereborn.fun/fan-code11/play.php?url=" + stream_url
    
     if "akamaized.net" in stream_url and not stream_url.startswith("https://allinonereborn.fun/fan-code11/play.php?url="):
