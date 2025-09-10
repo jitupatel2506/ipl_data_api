@@ -320,15 +320,20 @@ def normalize_fancode3_match(m, idx, channel_number=700):
 
     if not stream_url:
         return None
-    # Proxy wrap
-    if "fdlive.fancode.com" in stream_url and not stream_url.startswith("https://mini.allinonereborn.online/events/stream_proxy.php?url="):
-        stream_url = "https://mini.allinonereborn.online/events/stream_proxy.php?url=" + stream_url
+    # Proxy wrap  <--------------------------------------------------------------Fancode WorldWide Change from here-------------------------------------------------->
+    if "fdlive.fancode.com" in stream_url and not stream_url.startswith("https://allinonereborn.fun/fan-code11/play.php?url="):
+        stream_url = "https://allinonereborn.fun/fan-code11/play.php?url=" + stream_url
    
-    if "akamaized.net" in stream_url and not stream_url.startswith("https://mini.allinonereborn.online/events/stream_proxy.php?url="):
-        stream_url = "https://mini.allinonereborn.online/events/stream_proxy.php?url=" + stream_url
+    if "akamaized.net" in stream_url and not stream_url.startswith("https://allinonereborn.fun/fan-code11/play.php?url="):
+        stream_url = "https://allinonereborn.fun/fan-code11/play.php?url=" + stream_url
    
-    if "slivcdn.com" in stream_url and not stream_url.startswith("https://mini.allinonereborn.online/events/stream_proxy.php?url="):
-        stream_url = "https://mini.allinonereborn.online/events/stream_proxy.php?url=" + stream_url
+    if "slivcdn.com" in stream_url and not stream_url.startswith("https://allinonereborn.fun/fan-code11/play.php?url="):
+        stream_url = "https://allinonereborn.fun/fan-code11/play.php?url=" + stream_url
+
+    if "cloudfront.net" in stream_url and not stream_url.startswith("https://allinonereborn.fun/fan-code11/play.php?url="):
+        stream_url = "https://allinonereborn.fun/fan-code11/play.php?url=" + stream_url
+    # Proxy wrap  <--------------------------------------------------------------Fancode WorldWide Change from here-------------------------------------------------->
+
 
     return {
         "channelNumber": channel_number + idx,
