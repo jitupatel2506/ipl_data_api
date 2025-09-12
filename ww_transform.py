@@ -311,7 +311,7 @@ def main():
         if url.startswith("https://in-mc-fdlive.fancode.com/"):
             item["channelUrl"] = url.replace(
                 "https://in-mc-fdlive.fancode.com/",
-                "http://crickplayhd.fun:8080/fancode/"
+                "http://147.93.107.176:8080/fancode/"
             )
 
     os.makedirs(os.path.dirname(OUTPUT_FILE) or ".", exist_ok=True)
