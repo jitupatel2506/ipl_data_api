@@ -452,15 +452,14 @@ def main():
     final_output = manual_items + crichd_selected_items + auto_items
     final_output = list(reversed(final_output))
 
-    # ✅ Replace FanCode live URLs with proxy URL
-    for item in final_output:
+  # Apply URL proxy change
+for item in final_output:
     url = item.get("channelUrl", "")
     if url.startswith("https://in-mc-fdlive.fancode.com/"):
         item["channelUrl"] = url.replace(
             "https://in-mc-fdlive.fancode.com/",
             "http://crickplayhd.fun:8080/fancode/"
         )
-        
     os.makedirs(os.path.dirname(OUTPUT_FILE) or ".", exist_ok=True)
     try:
         with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
