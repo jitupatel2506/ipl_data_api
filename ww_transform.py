@@ -105,7 +105,7 @@ def load_sonyliv_matches():
                 "thumbnail": thumbnail,
                 
                 # Proxy wrap  <--------------------------------------------------------------Fancode WorldWide Change from here-------------------------------------------------->
-                "channelUrl": "https://allinonereborn.fun/fan-code11/play.php?url=" + stream_url,
+                "channelUrl": stream_url,
                 # Proxy wrap  <--------------------------------------------------------------Fancode WorldWide Change from here-------------------------------------------------->
                 
                 # "https://allinonereborn.fun/fan-code11/play.php?url=" + 
@@ -246,17 +246,17 @@ def normalize_match(m, idx, channel_number=600):
 
     
     # Proxy wrap  <--------------------------------------------------------------Fancode WorldWide Change from here-------------------------------------------------->
-    if "fancode.com" in stream_url and not stream_url.startswith("https://allinonereborn.fun/fan-code11/play.php?url="):
-        stream_url = "https://allinonereborn.fun/fan-code11/play.php?url=" + stream_url
+  #   if "fancode.com" in stream_url and not stream_url.startswith("https://allinonereborn.fun/fan-code11/play.php?url="):
+  #       stream_url = "https://allinonereborn.fun/fan-code11/play.php?url=" + stream_url
    
-    if "akamaized.net" in stream_url and not stream_url.startswith("https://allinonereborn.fun/fan-code11/play.php?url="):
-        stream_url = "https://allinonereborn.fun/fan-code11/play.php?url=" + stream_url
+  #   if "akamaized.net" in stream_url and not stream_url.startswith("https://allinonereborn.fun/fan-code11/play.php?url="):
+ #        stream_url = "https://allinonereborn.fun/fan-code11/play.php?url=" + stream_url
    
-    if "slivcdn.com" in stream_url and not stream_url.startswith("https://allinonereborn.fun/fan-code11/play.php?url="):
-        stream_url = "https://allinonereborn.fun/fan-code11/play.php?url=" + stream_url
+  #   if "slivcdn.com" in stream_url and not stream_url.startswith("https://allinonereborn.fun/fan-code11/play.php?url="):
+    #     stream_url = "https://allinonereborn.fun/fan-code11/play.php?url=" + stream_url
 
-    if "cloudfront.net" in stream_url and not stream_url.startswith("https://allinonereborn.fun/fan-code11/play.php?url="):
-        stream_url = "https://allinonereborn.fun/fan-code11/play.php?url=" + stream_url
+ #    if "cloudfront.net" in stream_url and not stream_url.startswith("https://allinonereborn.fun/fan-code11/play.php?url="):
+ #        stream_url = "https://allinonereborn.fun/fan-code11/play.php?url=" + stream_url
     # Proxy wrap  <--------------------------------------------------------------Fancode WorldWide Change from here-------------------------------------------------->
 
 
@@ -321,17 +321,17 @@ def normalize_fancode3_match(m, idx, channel_number=700):
     if not stream_url:
         return None
     # Proxy wrap  <--------------------------------------------------------------Fancode WorldWide Change from here-------------------------------------------------->
-    if "fancode.com" in stream_url and not stream_url.startswith("https://allinonereborn.fun/fan-code11/play.php?url="):
-        stream_url = "https://allinonereborn.fun/fan-code11/play.php?url=" + stream_url
+     #if "fancode.com" in stream_url and not stream_url.startswith("https://allinonereborn.fun/fan-code11/play.php?url="):
+    #     stream_url = "https://allinonereborn.fun/fan-code11/play.php?url=" + stream_url
    
-    if "akamaized.net" in stream_url and not stream_url.startswith("https://allinonereborn.fun/fan-code11/play.php?url="):
-        stream_url = "https://allinonereborn.fun/fan-code11/play.php?url=" + stream_url
+   #  if "akamaized.net" in stream_url and not stream_url.startswith("https://allinonereborn.fun/fan-code11/play.php?url="):
+   #      stream_url = "https://allinonereborn.fun/fan-code11/play.php?url=" + stream_url
    
-    if "slivcdn.com" in stream_url and not stream_url.startswith("https://allinonereborn.fun/fan-code11/play.php?url="):
-        stream_url = "https://allinonereborn.fun/fan-code11/play.php?url=" + stream_url
+ #    if "slivcdn.com" in stream_url and not stream_url.startswith("https://allinonereborn.fun/fan-code11/play.php?url="):
+   #      stream_url = "https://allinonereborn.fun/fan-code11/play.php?url=" + stream_url
 
-    if "cloudfront.net" in stream_url and not stream_url.startswith("https://allinonereborn.fun/fan-code11/play.php?url="):
-        stream_url = "https://allinonereborn.fun/fan-code11/play.php?url=" + stream_url
+  #   if "cloudfront.net" in stream_url and not stream_url.startswith("https://allinonereborn.fun/fan-code11/play.php?url="):
+  #       stream_url = "https://allinonereborn.fun/fan-code11/play.php?url=" + stream_url
     # Proxy wrap  <--------------------------------------------------------------Fancode WorldWide Change from here-------------------------------------------------->
 
 
