@@ -146,8 +146,8 @@ def detect_language_from_url(url: str) -> str:
 
 
 def pick_stream_url(m):
+    # Prioritize actual streaming URLs
     candidates = [
-        m.get("India"),
         m.get("adfree_url"),
         m.get("adfree_stream"),
         m.get("dai_url"),
@@ -155,11 +155,19 @@ def pick_stream_url(m):
         m.get("stream_url"),
         m.get("video_url"),
     ]
+    
+    # Also check nested STREAMING_CDN if available
+    if isinstance(m.get("STREAMING_CDN"), dict):
+        cdn = m["STREAMING_CDN"]
+        for key in ["Primary_Playback_URL", "fancode_cdn", "dai_google_cdn"]:
+            if cdn.get(key):
+                candidates.append(cdn[key])
+    
     for c in candidates:
         if not c:
             continue
         c_str = str(c).strip()
-        if c_str:
+        if c_str and "http" in c_str:
             return c_str
     return ""
 
@@ -399,3 +407,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
