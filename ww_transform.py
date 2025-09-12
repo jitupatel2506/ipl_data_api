@@ -33,37 +33,46 @@ def read_local_json(path):
 
 def fetch_json_url(url, timeout=10):
     try:
-        req = Request(url, headers={"User-Agent": "Mozilla/5.0"})
+        req = Request(url, headers={
+            "User-Agent": "Mozilla/5.0",
+            "Accept": "application/json",
+        })
         with urlopen(req, timeout=timeout) as resp:
-            raw = resp.read()
-            return json.loads(raw.decode("utf-8", errors="ignore"))
-    except HTTPError as e:
-        print(f"⚠️ HTTP error fetching {url}: {e.code} {e.reason}")
-    except URLError as e:
-        print(f"⚠️ URL error fetching {url}: {e.reason}")
+            raw = resp.read().decode("utf-8")
+            data = json.loads(raw)
+
+            if isinstance(data, dict) and "matches" in data:
+                return data["matches"]
+            elif isinstance(data, list):
+                return data
+            else:
+                print(f"⚠️ Unexpected JSON structure from {url}")
+                return []
     except Exception as e:
-        print(f"⚠️ Error fetching/parsing {url}: {e}")
-    return None
+        print(f"⚠️ Error fetching {url}: {e}")
+        return []
 
 def load_json_sources():
-    """Load matches from either local files (preferred) or remote URLs as fallback"""
     matches = []
-    found_local = False
+
+    # Try local files first
     for lf in LOCAL_FILES:
         if os.path.exists(lf):
             data = read_local_json(lf)
             if isinstance(data, dict):
                 matches += data.get("matches", []) or []
-                found_local = True
-    if found_local:
-        print("ℹ️ Loaded matches from local files:", [f for f in LOCAL_FILES if os.path.exists(f)])
+            elif isinstance(data, list):
+                matches += data
+    if matches:
+        print("ℹ️ Loaded matches from local files.")
         return matches
 
-    print("ℹ️ No local files found; fetching from FanCode remote URLs.")
+    # Fetch remote URLs if local files not found
+    print("ℹ️ Fetching matches from FanCode remote URLs.")
     for url in FANCODE_URLS:
-        data = fetch_json_url(url)
-        if isinstance(data, dict):
-            matches += data.get("matches", []) or []
+        matches += fetch_json_url(url)
+
+    print(f"ℹ️ Total matches fetched: {len(matches)}")
     return matches
 
 def load_sonyliv_matches():
