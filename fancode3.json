@@ -1,14 +1,14 @@
 {
     "Author": "DOCTOR_STRANGE",
     "name": "FanCode Live Matches API",
-    "last_updated": "11:05:15 PM 13-09-2025",
+    "last_updated": "11:12:20 PM 13-09-2025",
     "headers": {
         "User-Agent": "ReactNativeVideo/7.19.1 (Linux;Android/13) AndroidXMedia3/1.1.1",
         "Referer": "https://fancode.com/"
     },
     "total_matches": 39,
-    "live_matches": 5,
-    "upcoming_matches": 34,
+    "live_matches": 6,
+    "upcoming_matches": 33,
     "matches": [
         {
             "category": "Cricket",
@@ -68,11 +68,11 @@
                     "color": "#164fad",
                     "cricketScore": [
                         {
-                            "runs": 108,
-                            "overs": "10.2",
-                            "balls": "62",
+                            "runs": 117,
+                            "overs": "11.5",
+                            "balls": "71",
                             "status": "IN_PROGRESS",
-                            "wickets": 1
+                            "wickets": 2
                         }
                     ],
                     "kabaddiScore": null,
@@ -156,9 +156,9 @@
                     "color": "#b01018",
                     "cricketScore": [
                         {
-                            "runs": 84,
-                            "overs": "9.3",
-                            "balls": "57",
+                            "runs": 102,
+                            "overs": "10.3",
+                            "balls": "63",
                             "status": "IN_PROGRESS",
                             "wickets": 1
                         }
@@ -244,9 +244,9 @@
                     "color": "#b01018",
                     "cricketScore": [
                         {
-                            "runs": 84,
-                            "overs": "9.3",
-                            "balls": "57",
+                            "runs": 102,
+                            "overs": "10.3",
+                            "balls": "63",
                             "status": "IN_PROGRESS",
                             "wickets": 1
                         }
@@ -420,18 +420,18 @@
         },
         {
             "category": "Cricket",
-            "title": "Somerset Vs Hampshire",
+            "title": "Hampshire Vs Somerset",
             "tournament": "Vitality Blast T20, 2025",
             "match_id": 136730,
-            "status": "NOT_STARTED",
-            "streamingStatus": "NOT_STARTED",
+            "status": "LIVE",
+            "streamingStatus": "STARTED",
             "startTime": "13 September 2025 11:15 PM",
             "startDate": "01 January 1970 05:30 AM",
             "image": "https://www.fancode.com/skillup-uploads/cms-media/125948_5207_SOM_HAM_fc-Web.jpg",
             "image_cdn": {
                 "TATAPLAY": "https://images.fancode.com/aig/match/v1/136730_CASACARDS_PARTNER_16_9_1920_1080.png",
                 "APP": "https://www.fancode.com/skillup-uploads/cms-media/125948_5207_SOM_HAM_fc-Web.jpg",
-                "PLAYBACK": null,
+                "PLAYBACK": "https://www.fancode.com/skillup-uploads/cms-media/125948_5207_SOM_HAM_fc-Web.jpg",
                 "LOGO": "https://fancode.com/skillup-uploads/prod-images/2024/05/Vitality-Blast-Tour-Logo.png",
                 "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/Cricket_Fallback_Old_match-card.jpg",
                 "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/125948_5207_SOM_HAM_fc-Web.jpg",
@@ -439,6 +439,33 @@
                 "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/136730_CASACARDS_PARTNER_16_9_1920_1080.png"
             },
             "teams": [
+                {
+                    "name": "Hampshire",
+                    "shortName": "HAM",
+                    "flag": {
+                        "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-HAMP@2x.png"
+                    },
+                    "isWinner": null,
+                    "color": "#9b7614",
+                    "cricketScore": [
+                        {
+                            "runs": 0,
+                            "overs": "0",
+                            "balls": "0",
+                            "status": "IN_PROGRESS",
+                            "wickets": 0
+                        }
+                    ],
+                    "kabaddiScore": null,
+                    "footballScore": null,
+                    "basketBallScore": null,
+                    "hockeyScore": null,
+                    "status": {
+                        "cricket": {
+                            "isBatting": true
+                        }
+                    }
+                },
                 {
                     "name": "Somerset",
                     "shortName": "SOM",
@@ -457,33 +484,18 @@
                             "isBatting": false
                         }
                     }
-                },
-                {
-                    "name": "Hampshire",
-                    "shortName": "HAM",
-                    "flag": {
-                        "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-HAMP@2x.png"
-                    },
-                    "isWinner": null,
-                    "color": "#9b7614",
-                    "cricketScore": [],
-                    "kabaddiScore": null,
-                    "footballScore": null,
-                    "basketBallScore": null,
-                    "hockeyScore": null,
-                    "status": {
-                        "cricket": {
-                            "isBatting": false
-                        }
-                    }
                 }
             ],
-            "language": "BLOODY_SWEET",
-            "adfree_stream": null,
-            "dai_stream": null,
+            "language": "ENGLISH",
+            "adfree_stream": "https://sonydaimenew.akamaized.net/hls/live/2022320/DAI16VB25/master.m3u8?hdnea=exp=1757809801~acl=/*~id=80278556632706791491720689689145~hmac=4974a31dc8e9721b7a0d88be71a94e660f8e6f0b82288386129a47f933a8b655",
+            "dai_stream": "https://dai.google.com/linear/hls/event/2wNKn5gLSaqxNWiqsz7-vQ/master.m3u8",
             "STREAMING_CDN": {
-                "language": "BLOODY_SWEET",
-                "Primary_Playback_URL": null
+                "Primary_Playback_URL": "https://sonydaimenew.akamaized.net/hls/live/2022320/DAI16VB25/master.m3u8?hdnea=exp=1757809801~acl=/*~id=80278556632706791491720689689145~hmac=4974a31dc8e9721b7a0d88be71a94e660f8e6f0b82288386129a47f933a8b655",
+                "fancode_cdn": "Unavailable",
+                "dai_google_cdn": "https://dai.google.com/linear/hls/event/2wNKn5gLSaqxNWiqsz7-vQ/master.m3u8",
+                "cloudfront_cdn": "Unavailable",
+                "sony_cdn": "https://sonydaimenew.akamaized.net/hls/live/2022320/DAI16VB25/master.m3u8?hdnea=exp=1757809801~acl=/*~id=80278556632706791491720689689145~hmac=4974a31dc8e9721b7a0d88be71a94e660f8e6f0b82288386129a47f933a8b655",
+                "language": "ENGLISH"
             }
         },
         {
