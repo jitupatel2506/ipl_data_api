@@ -265,7 +265,7 @@ def normalize_match(m, idx, channel_number=600):
         "linkType": "app",
         "platform": "FanCode",
         "channelName": short_title.strip(),
-        "subText": "Live Streaming Now",
+        "subText": "Live tv guide",
         "startTime": "",
         "drm_licence": "",
         "ownerInfo": "Stream provided by public source",
@@ -290,7 +290,7 @@ def normalize_fancode3_match(m, idx, channel_number=700):
         "linkType": "app",
         "platform": "FanCode",
         "channelName": clean_title(title),
-        "subText": "Live Streaming Now",
+        "subText": "Live tv guide",
         "startTime": start_time,
         "drm_licence": "",
         "ownerInfo": "Stream provided by public source",
@@ -407,5 +407,6 @@ def main():
 
 if __name__ == "__main__":
     main()
+
 
 
