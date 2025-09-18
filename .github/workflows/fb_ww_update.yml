@@ -1,11 +1,11 @@
 name: Football Worldwide update auto streams
 
-on:
-  schedule:
-    - cron: "* * * * *"   # हर 5 मिनट
-  workflow_dispatch:        # Manual Run button
+#on:
+#  schedule:
+#    - cron: "* * * * *"   # हर 5 मिनट
+#  workflow_dispatch:        # Manual Run button
 
-permissions:
+#permissions:
   contents: write
 
 jobs:
