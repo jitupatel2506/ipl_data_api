@@ -81,6 +81,7 @@ def load_json_sources():
 
 
 def load_sonyliv_matches():
+    """Fetch and normalize matches from SonyLiv JSON with safe contentId parsing"""
     matches = []
     data = fetch_json_url(SONYLIV_URL)
     if isinstance(data, dict):
@@ -98,8 +99,16 @@ def load_sonyliv_matches():
             stream_url = m.get("video_url")
             thumbnail = m.get("src") or "https://i.ibb.co/ygQ6gT3/sonyliv.png"
 
+            # ✅ FIX: safely convert contentId to int or fallback to 900
+            raw_content_id = str(m.get("contentId", ""))
+            if raw_content_id.isdigit():
+                channel_number = int(raw_content_id)
+            else:
+                digits = re.search(r"\d+", raw_content_id)
+                channel_number = int(digits.group()) if digits else 900
+
             item = {
-                "channelNumber": int(m.get("contentId", 0)) or 900,
+                "channelNumber": channel_number,
                 "linkType": "app",
                 "platform": "SonyLiv",
                 "channelName": title.strip(),
@@ -109,7 +118,7 @@ def load_sonyliv_matches():
                 "ownerInfo": "Stream provided by public source",
                 "thumbnail": thumbnail,
                 "channelUrl": stream_url,
-                "match_id": str(m.get("contentId")),
+                "match_id": raw_content_id or str(channel_number),
             }
             if "kabaddi" in category and "kabaddi" not in item["channelName"].lower():
                 item["channelName"] += " - Kabaddi"
@@ -155,14 +164,14 @@ def pick_stream_url(m):
         m.get("stream_url"),
         m.get("video_url"),
     ]
-    
+
     # Also check nested STREAMING_CDN if available
     if isinstance(m.get("STREAMING_CDN"), dict):
         cdn = m["STREAMING_CDN"]
         for key in ["Primary_Playback_URL", "fancode_cdn", "dai_google_cdn"]:
             if cdn.get(key):
                 candidates.append(cdn[key])
-    
+
     for c in candidates:
         if not c:
             continue
@@ -407,6 +416,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-
-
-
