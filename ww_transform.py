@@ -93,7 +93,7 @@ def load_sonyliv_matches():
                 "ownerInfo": "Stream provided by public source",
                 "thumbnail": thumbnail,
                 "channelUrl": stream_url,
-                "match_id": str(m.get("contentId")),
+                "match_id": raw_content_id or str(channel_number),
                 "category": category,
             }
             matches.append(item)
@@ -231,7 +231,7 @@ def normalize_match(m, idx, channel_number=600):
         "ownerInfo": "Stream provided by public source",
         "thumbnail": thumbnail,
         "channelUrl": stream_url.strip(),
-        "match_id": match_id or str(channel_number + idx),
+         "match_id": raw_content_id or str(channel_number),
         "category": category,
     }
 
