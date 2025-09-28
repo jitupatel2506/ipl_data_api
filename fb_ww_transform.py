@@ -20,7 +20,7 @@ FANCODE_URLS = [
     "https://raw.githubusercontent.com/jitendra-unatti/fancode/refs/heads/main/data/fancode.json",
 ]
 
-# ✅ New SonyLiv JSON URL
+# ✅ SonyLiv JSON URL
 SONYLIV_URL = "https://raw.githubusercontent.com/drmlive/sliv-live-events/main/sonyliv.json"
 
 
@@ -92,8 +92,16 @@ def load_sonyliv_matches():
             stream_url = m.get('video_url')
             thumbnail = m.get("src") or "https://i.ibb.co/ygQ6gT3/sonyliv.png"
 
+            # ✅ FIX: safely convert contentId to int or fallback to 900
+            raw_content_id = str(m.get("contentId", ""))
+            if raw_content_id.isdigit():
+                channel_number = int(raw_content_id)
+            else:
+                digits = re.search(r"\d+", raw_content_id)
+                channel_number = int(digits.group()) if digits else 900
+
             item = {
-                "channelNumber": int(m.get("contentId", 0)) or 900,
+                "channelNumber": channel_number,
                 "linkType": "app",
                 "platform": "SonyLiv",
                 "channelName": title.strip(),
@@ -103,7 +111,7 @@ def load_sonyliv_matches():
                 "ownerInfo": "Stream provided by public source",
                 "thumbnail": thumbnail,
                 "channelUrl": stream_url,
-                "match_id": str(m.get("contentId")),
+                "match_id": raw_content_id or str(channel_number),
                 "category": category,
             }
             matches.append(item)
@@ -153,7 +161,6 @@ def pick_stream_url(m):
     return ""
 
 
-# ✅ Start time normalization function
 def normalize_start_time(raw: str) -> str:
     if not raw:
         return ""
@@ -232,7 +239,7 @@ def normalize_match(m, idx, channel_number=600):
         short_title = f"{short_title} - {lang}"
 
     category = (m.get("category") or m.get("event_category") or "").lower()
-    if category != "football":   # ✅ Only football allowed
+    if category != "football":
         return None
 
     match_id = m.get("match_id") or m.get("id") or m.get("matchId")
@@ -277,7 +284,6 @@ def load_crichd_selected_items():
 
 
 def load_manual_items():
-    # ✅ If MANUAL_FILE is a remote URL
     if MANUAL_FILE.startswith("http://") or MANUAL_FILE.startswith("https://"):
         data = fetch_json_url(MANUAL_FILE)
         if isinstance(data, list):
@@ -287,7 +293,6 @@ def load_manual_items():
             return data
         return []
 
-    # ✅ If MANUAL_FILE is a local path
     if os.path.exists(MANUAL_FILE):
         try:
             with open(MANUAL_FILE, "r", encoding="utf-8") as f:
@@ -322,7 +327,7 @@ def main():
 
         if "live" not in status:
             continue
-        if category != "football":   # ✅ Only football
+        if category != "football":
             continue
 
         item = normalize_match(m, added + 1)
@@ -351,11 +356,10 @@ def main():
     auto_items = sorted(auto_items, key=lambda x: 0 if "football" in x.get("category", "").lower() else 1)
 
     print("ℹ️ Auto items prepared:", len(auto_items))
-    
+
     final_output = manual_items + auto_items
     final_output = list(reversed(final_output))
-    
-    # ✅ Replace FanCode URLs with proxy
+
     for item in final_output:
         url = item.get("channelUrl", "")
         if url.startswith("https://in-mc-fdlive.fancode.com/"):
