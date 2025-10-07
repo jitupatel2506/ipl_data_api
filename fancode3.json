@@ -1,7 +1,7 @@
 {
     "Author": "DOCTOR_STRANGE",
     "name": "FanCode Live Matches API",
-    "last_updated": "12:44:40 AM 08-10-2025",
+    "last_updated": "12:51:41 AM 08-10-2025",
     "headers": {
         "User-Agent": "ReactNativeVideo/7.19.1 (Linux;Android/13) AndroidXMedia3/1.1.1",
         "Referer": "https://fancode.com/"
@@ -42,8 +42,14 @@
                     "cricketScore": null,
                     "kabaddiScore": null,
                     "footballScore": {
-                        "points": 1,
+                        "points": 2,
                         "goals": [
+                            {
+                                "id": "152399",
+                                "shortName": "E Pajor",
+                                "isOwnGoal": false,
+                                "goalTime": "12'"
+                            },
                             {
                                 "id": "17936",
                                 "shortName": "A Putellas",
@@ -296,11 +302,11 @@
                     "color": "#2279a4",
                     "cricketScore": [
                         {
-                            "runs": 65,
-                            "overs": "10",
-                            "balls": "60",
+                            "runs": 141,
+                            "overs": "18.4",
+                            "balls": "112",
                             "status": "IN_PROGRESS",
-                            "wickets": 4
+                            "wickets": 10
                         }
                     ],
                     "kabaddiScore": null,
