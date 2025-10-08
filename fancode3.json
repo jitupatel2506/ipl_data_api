@@ -1,7 +1,7 @@
 {
   "Author": "DOCTOR_STRANGE",
   "name": "FanCode Live Matches API",
-  "last_updated": "09:21:01 PM 08-10-2025",
+  "last_updated": "09:35:01 PM 08-10-2025",
   "headers": {
     "User-Agent": "ReactNativeVideo/7.19.1 (Linux;Android/13) AndroidXMedia3/1.1.1",
     "Referer": "https://fancode.com/"
@@ -44,7 +44,7 @@
               "runs": 221,
               "overs": "48.5",
               "balls": "293",
-              "status": "IN_PROGRESS",
+              "status": "COMPLETED",
               "wickets": 10
             }
           ],
@@ -54,7 +54,7 @@
           "hockeyScore": null,
           "status": {
             "cricket": {
-              "isBatting": true
+              "isBatting": false
             }
           }
         },
@@ -66,14 +66,22 @@
           },
           "isWinner": null,
           "color": "#2f5ddf",
-          "cricketScore": [],
+          "cricketScore": [
+            {
+              "runs": 0,
+              "overs": "0.1",
+              "balls": "1",
+              "status": "IN_PROGRESS",
+              "wickets": 0
+            }
+          ],
           "kabaddiScore": null,
           "footballScore": null,
           "basketBallScore": null,
           "hockeyScore": null,
           "status": {
             "cricket": {
-              "isBatting": false
+              "isBatting": true
             }
           }
         }
@@ -209,9 +217,9 @@
           "color": "#0f266e",
           "cricketScore": [
             {
-              "runs": 63,
-              "overs": "11.4",
-              "balls": "70",
+              "runs": 86,
+              "overs": "16",
+              "balls": "96",
               "status": "IN_PROGRESS",
               "wickets": 4
             }
@@ -327,7 +335,7 @@
       "title": "Sierra Leone Vs Burkina Faso",
       "tournament": "CAF World Cup Qualifiers",
       "match_id": 137358,
-      "status": "NOT_STARTED",
+      "status": "LIVE",
       "streamingStatus": "STARTED",
       "startTime": "08 October 2025 09:30 PM",
       "startDate": "01 January 1970 05:30 AM",
@@ -356,11 +364,7 @@
           "footballScore": null,
           "basketBallScore": null,
           "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
+          "status": null
         },
         {
           "name": "Burkina Faso",
@@ -375,11 +379,7 @@
           "footballScore": null,
           "basketBallScore": null,
           "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
+          "status": null
         }
       ],
       "language": "ENGLISH",
