@@ -1,7 +1,7 @@
 {
   "Author": "DOCTOR_STRANGE",
   "name": "FanCode Live Matches API",
-  "last_updated": "04:42:01 AM 10-10-2025",
+  "last_updated": "04:49:00 AM 10-10-2025",
   "headers": {
     "User-Agent": "ReactNativeVideo/7.19.1 (Linux;Android/13) AndroidXMedia3/1.1.1",
     "Referer": "https://fancode.com/"
@@ -172,7 +172,7 @@
     },
     {
       "category": "Cricket",
-      "title": "Dallas Lonestars Cc Vs Chicago Cc",
+      "title": "Chicago Cc Vs Dallas Lonestars Cc",
       "tournament": "National Cricket T10 League, 2025",
       "match_id": 137303,
       "status": "LIVE",
@@ -192,25 +192,6 @@
       },
       "teams": [
         {
-          "name": "Dallas Lonestars CC",
-          "shortName": "DL",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-DLN@2x.png"
-          },
-          "isWinner": null,
-          "color": "#ec3051",
-          "cricketScore": [],
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        },
-        {
           "name": "Chicago CC",
           "shortName": "CHI",
           "flag": {
@@ -218,6 +199,33 @@
           },
           "isWinner": null,
           "color": "#0b9266",
+          "cricketScore": [
+            {
+              "runs": 0,
+              "overs": "0",
+              "balls": "0",
+              "status": "IN_PROGRESS",
+              "wickets": 0
+            }
+          ],
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": true
+            }
+          }
+        },
+        {
+          "name": "Dallas Lonestars CC",
+          "shortName": "DL",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-DLN@2x.png"
+          },
+          "isWinner": null,
+          "color": "#ec3051",
           "cricketScore": [],
           "kabaddiScore": null,
           "footballScore": null,
