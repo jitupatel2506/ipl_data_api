@@ -1,7 +1,7 @@
 {
   "Author": "DOCTOR_STRANGE",
   "name": "FanCode Live Matches API",
-  "last_updated": "08:42:01 AM 11-10-2025",
+  "last_updated": "09:00:00 AM 11-10-2025",
   "headers": {
     "User-Agent": "ReactNativeVideo/7.19.1 (Linux;Android/13) AndroidXMedia3/1.1.1",
     "Referer": "https://fancode.com/"
@@ -12,7 +12,7 @@
   "matches": [
     {
       "category": "Cricket",
-      "title": "Brampton Blitz Vs White Rock Warriors",
+      "title": "White Rock Warriors Vs Brampton Blitz",
       "tournament": "Canada Super 60, 2025",
       "match_id": 137429,
       "status": "LIVE",
@@ -32,25 +32,6 @@
       },
       "teams": [
         {
-          "name": "Brampton Blitz",
-          "shortName": "BBZ",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-BBZ@2x.png"
-          },
-          "isWinner": null,
-          "color": "#ff9747",
-          "cricketScore": [],
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        },
-        {
           "name": "White Rock Warriors",
           "shortName": "WRW",
           "flag": {
@@ -58,6 +39,33 @@
           },
           "isWinner": null,
           "color": "#18b1ed",
+          "cricketScore": [
+            {
+              "runs": 105,
+              "overs": "0",
+              "balls": "0",
+              "status": "IN_PROGRESS",
+              "wickets": 0
+            }
+          ],
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": true
+            }
+          }
+        },
+        {
+          "name": "Brampton Blitz",
+          "shortName": "BBZ",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-BBZ@2x.png"
+          },
+          "isWinner": null,
+          "color": "#ff9747",
           "cricketScore": [],
           "kabaddiScore": null,
           "footballScore": null,
