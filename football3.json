@@ -1,7 +1,7 @@
 {
   "Author": "DOCTOR_STRANGE",
   "name": "FanCode Live Matches API",
-  "last_updated": "01:07:00 AM 16-10-2025",
+  "last_updated": "01:14:01 AM 16-10-2025",
   "headers": {
     "User-Agent": "ReactNativeVideo/8.0.0 (Linux;Android/13) AndroidXMedia3/1.1.1",
     "Referer": "https://fancode.com/"
@@ -41,10 +41,10 @@
           "color": "#d94f55",
           "cricketScore": [
             {
-              "runs": 211,
-              "overs": "18.4",
-              "balls": "112",
-              "status": "IN_PROGRESS",
+              "runs": 232,
+              "overs": "20",
+              "balls": "120",
+              "status": "COMPLETED",
               "wickets": 5
             }
           ],
@@ -54,7 +54,7 @@
           "hockeyScore": null,
           "status": {
             "cricket": {
-              "isBatting": true
+              "isBatting": false
             }
           }
         },
@@ -66,14 +66,22 @@
           },
           "isWinner": null,
           "color": "#f64bce",
-          "cricketScore": [],
+          "cricketScore": [
+            {
+              "runs": 1,
+              "overs": "1",
+              "balls": "6",
+              "status": "IN_PROGRESS",
+              "wickets": 3
+            }
+          ],
           "kabaddiScore": null,
           "footballScore": null,
           "basketBallScore": null,
           "hockeyScore": null,
           "status": {
             "cricket": {
-              "isBatting": false
+              "isBatting": true
             }
           }
         }
@@ -144,8 +152,15 @@
           "cricketScore": null,
           "kabaddiScore": null,
           "footballScore": {
-            "points": 0,
-            "goals": []
+            "points": 1,
+            "goals": [
+              {
+                "id": "195829",
+                "shortName": "J Ravensbergen",
+                "isOwnGoal": false,
+                "goalTime": "39'"
+              }
+            ]
           },
           "basketBallScore": null,
           "hockeyScore": null,
@@ -200,8 +215,14 @@
           "cricketScore": null,
           "kabaddiScore": null,
           "footballScore": {
-            "points": 1,
+            "points": 2,
             "goals": [
+              {
+                "id": "156960",
+                "shortName": "J Kaneryd",
+                "isOwnGoal": false,
+                "goalTime": "39'"
+              },
               {
                 "id": "152494",
                 "shortName": "S Baltimore",
