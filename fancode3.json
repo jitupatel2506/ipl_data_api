@@ -1,7 +1,7 @@
 {
   "Author": "DOCTOR_STRANGE",
   "name": "FanCode Live Matches API",
-  "last_updated": "03:14:01 PM 16-10-2025",
+  "last_updated": "03:28:00 PM 16-10-2025",
   "headers": {
     "User-Agent": "ReactNativeVideo/8.0.0 (Linux;Android/13) AndroidXMedia3/1.1.1",
     "Referer": "https://fancode.com/"
@@ -84,7 +84,7 @@
     },
     {
       "category": "Cricket",
-      "title": "United Arab Emirates Vs Japan",
+      "title": "Japan Vs United Arab Emirates",
       "tournament": "ICC Men’s T20 World Cup Asia & EAP Qualifier, 2025",
       "match_id": 137191,
       "status": "NOT_STARTED",
@@ -104,25 +104,6 @@
       },
       "teams": [
         {
-          "name": "United Arab Emirates",
-          "shortName": "UAE",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-UAE@2x.png"
-          },
-          "isWinner": null,
-          "color": "#4fb319",
-          "cricketScore": [],
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        },
-        {
           "name": "Japan",
           "shortName": "JPN",
           "flag": {
@@ -130,6 +111,33 @@
           },
           "isWinner": null,
           "color": "#9a0009",
+          "cricketScore": [
+            {
+              "runs": 0,
+              "overs": "0",
+              "balls": "0",
+              "status": "IN_PROGRESS",
+              "wickets": 0
+            }
+          ],
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": true
+            }
+          }
+        },
+        {
+          "name": "United Arab Emirates",
+          "shortName": "UAE",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-UAE@2x.png"
+          },
+          "isWinner": null,
+          "color": "#4fb319",
           "cricketScore": [],
           "kabaddiScore": null,
           "footballScore": null,
