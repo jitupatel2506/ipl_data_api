@@ -1,7 +1,7 @@
 {
   "Author": "DOCTOR_STRANGE",
   "name": "FanCode Live Matches API",
-  "last_updated": "06:49:00 PM 30-10-2025",
+  "last_updated": "07:07:01 PM 30-10-2025",
   "headers": {
     "User-Agent": "ReactNativeVideo/8.0.0 (Linux;Android/13) AndroidXMedia3/1.1.1",
     "Referer": "https://fancode.com/"
@@ -80,7 +80,7 @@
     },
     {
       "category": "Cricket",
-      "title": "Ladakh Heros Vs Patnitop Warriors",
+      "title": "Patnitop Warriors Vs Ladakh Heros",
       "tournament": "Indian Heaven Premier League, 2025",
       "match_id": 137868,
       "status": "LIVE",
@@ -100,25 +100,6 @@
       },
       "teams": [
         {
-          "name": "Ladakh Heros",
-          "shortName": "LHH",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-LHH@2x.png"
-          },
-          "isWinner": null,
-          "color": "#0d673d",
-          "cricketScore": [],
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        },
-        {
           "name": "Patnitop Warriors",
           "shortName": "PTW",
           "flag": {
@@ -126,6 +107,33 @@
           },
           "isWinner": null,
           "color": "#193453",
+          "cricketScore": [
+            {
+              "runs": 0,
+              "overs": "0",
+              "balls": "0",
+              "status": "IN_PROGRESS",
+              "wickets": 0
+            }
+          ],
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": true
+            }
+          }
+        },
+        {
+          "name": "Ladakh Heros",
+          "shortName": "LHH",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-LHH@2x.png"
+          },
+          "isWinner": null,
+          "color": "#0d673d",
           "cricketScore": [],
           "kabaddiScore": null,
           "footballScore": null,
