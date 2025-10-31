@@ -1,7 +1,7 @@
 {
   "Author": "DOCTOR_STRANGE",
   "name": "FanCode Live Matches API",
-  "last_updated": "04:21:01 PM 31-10-2025",
+  "last_updated": "04:28:01 PM 31-10-2025",
   "headers": {
     "User-Agent": "ReactNativeVideo/8.0.0 (Linux;Android/13) AndroidXMedia3/1.1.1",
     "Referer": "https://fancode.com/"
@@ -12,7 +12,7 @@
   "matches": [
     {
       "category": "Cricket",
-      "title": "Kishtwar Giants Vs The Pulwama Titans",
+      "title": "The Pulwama Titans Vs Kishtwar Giants",
       "tournament": "Indian Heaven Premier League, 2025",
       "match_id": 137870,
       "status": "NOT_STARTED",
@@ -32,25 +32,6 @@
       },
       "teams": [
         {
-          "name": "Kishtwar Giants",
-          "shortName": "KIG",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-KIGI@2x.png"
-          },
-          "isWinner": null,
-          "color": "#f89d37",
-          "cricketScore": [],
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        },
-        {
           "name": "The Pulwama Titans",
           "shortName": "TPT",
           "flag": {
@@ -58,6 +39,33 @@
           },
           "isWinner": null,
           "color": "#ffa700",
+          "cricketScore": [
+            {
+              "runs": 0,
+              "overs": "0",
+              "balls": "0",
+              "status": "IN_PROGRESS",
+              "wickets": 0
+            }
+          ],
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": true
+            }
+          }
+        },
+        {
+          "name": "Kishtwar Giants",
+          "shortName": "KIG",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-KIGI@2x.png"
+          },
+          "isWinner": null,
+          "color": "#f89d37",
           "cricketScore": [],
           "kabaddiScore": null,
           "footballScore": null,
