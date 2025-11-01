@@ -1,7 +1,7 @@
 {
   "Author": "DOCTOR_STRANGE",
   "name": "FanCode Live Matches API",
-  "last_updated": "06:49:01 PM 01-11-2025",
+  "last_updated": "07:00:00 PM 01-11-2025",
   "headers": {
     "User-Agent": "ReactNativeVideo/8.0.0 (Linux;Android/13) AndroidXMedia3/1.1.1",
     "Referer": "https://fancode.com/"
@@ -42,8 +42,15 @@
           "cricketScore": null,
           "kabaddiScore": null,
           "footballScore": {
-            "points": 0,
-            "goals": []
+            "points": 1,
+            "goals": [
+              {
+                "id": "3726",
+                "shortName": "G Moreno",
+                "isOwnGoal": false,
+                "goalTime": "22'"
+              }
+            ]
           },
           "basketBallScore": null,
           "hockeyScore": null,
@@ -101,7 +108,7 @@
       "image_cdn": {
         "TATAPLAY": "https://images.fancode.com/aig/match/v1/137254_CASACARDS_PARTNER_16_9_1920_1080.png",
         "APP": "https://www.fancode.com/skillup-uploads/cms-media/01_Nepal-vs-USA.jpg",
-        "PLAYBACK": "https://www.fancode.com/skillup-uploads/cms-media/01_Nepal-vs-USA.jpg",
+        "PLAYBACK": null,
         "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/ICC-CWC-League-2,-2023-27-(16th-July)-Tour-Logo-(1).png",
         "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/Cricket_Fallback_Old_match-card.jpg",
         "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/01_Nepal-vs-USA.jpg",
@@ -115,7 +122,7 @@
           "flag": {
             "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-NEP@2x.png"
           },
-          "isWinner": null,
+          "isWinner": false,
           "color": "#0f266e",
           "cricketScore": [
             {
@@ -142,13 +149,13 @@
           "flag": {
             "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-USA@2x.png"
           },
-          "isWinner": null,
+          "isWinner": true,
           "color": "#132f86",
           "cricketScore": [
             {
-              "runs": 257,
-              "overs": "48.1",
-              "balls": "289",
+              "runs": 273,
+              "overs": "49",
+              "balls": "294",
               "status": "IN_PROGRESS",
               "wickets": 6
             }
