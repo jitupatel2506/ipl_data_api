@@ -1,7 +1,7 @@
 {
   "Author": "DOCTOR_STRANGE",
   "name": "FanCode Live Matches API",
-  "last_updated": "01:56:00 PM 13-11-2025",
+  "last_updated": "02:07:01 PM 13-11-2025",
   "headers": {
     "User-Agent": "ReactNativeVideo/8.0.0 (Linux;Android/13) AndroidXMedia3/1.1.1",
     "Referer": "https://fancode.com/"
@@ -18,7 +18,7 @@
       "status": "LIVE",
       "streamingStatus": "STARTED",
       "startTime": "11 November 2025 09:00 AM",
-      "startDate": "13 November 2025 09:00 AM",
+      "startDate": "14 November 2025 09:00 AM",
       "image": "https://www.fancode.com/skillup-uploads/cms-media/BAN-vs-IRE_old-match-card.png",
       "image_cdn": {
         "TATAPLAY": "https://images.fancode.com/aig/match/v1/138237_CASACARDS_PARTNER_16_9_1920_1080.png",
@@ -68,11 +68,11 @@
           "color": "#397b46",
           "cricketScore": [
             {
-              "runs": 575,
-              "overs": "138",
+              "runs": 582,
+              "overs": "140",
               "balls": "0",
               "status": "IN_PROGRESS",
-              "wickets": 7
+              "wickets": 8
             }
           ],
           "kabaddiScore": null,
@@ -220,7 +220,7 @@
           "flag": {
             "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-MYN@2x.png"
           },
-          "isWinner": null,
+          "isWinner": false,
           "color": "#1b4604",
           "cricketScore": [
             {
@@ -247,13 +247,13 @@
           "flag": {
             "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-INDA@2x.png"
           },
-          "isWinner": null,
+          "isWinner": true,
           "color": "#dc3f31",
           "cricketScore": [
             {
-              "runs": 76,
-              "overs": "9",
-              "balls": "54",
+              "runs": 79,
+              "overs": "9.2",
+              "balls": "56",
               "status": "IN_PROGRESS",
               "wickets": 0
             }
@@ -286,7 +286,7 @@
       "title": "Melbourne City Women Vs Lion City Sailors",
       "tournament": "AFC Women's Champions League 2025-26",
       "match_id": 137946,
-      "status": "NOT_STARTED",
+      "status": "LIVE",
       "streamingStatus": "STARTED",
       "startTime": "13 November 2025 01:30 PM",
       "startDate": "01 January 1970 05:30 AM",
@@ -315,11 +315,7 @@
           "footballScore": null,
           "basketBallScore": null,
           "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
+          "status": null
         },
         {
           "name": "Lion City Sailors",
@@ -334,11 +330,7 @@
           "footballScore": null,
           "basketBallScore": null,
           "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
+          "status": null
         }
       ],
       "language": "ENGLISH",
