@@ -1,7 +1,7 @@
 {
   "Author": "DOCTOR_STRANGE",
   "name": "FanCode Live Matches API",
-  "last_updated": "08:49:02 AM 14-11-2025",
+  "last_updated": "09:21:01 AM 14-11-2025",
   "headers": {
     "User-Agent": "ReactNativeVideo/8.0.0 (Linux;Android/13) AndroidXMedia3/1.1.1",
     "Referer": "https://fancode.com/"
@@ -48,8 +48,8 @@
               "wickets": 10
             },
             {
-              "runs": 86,
-              "overs": "29",
+              "runs": 116,
+              "overs": "33.5",
               "balls": "0",
               "status": "IN_PROGRESS",
               "wickets": 5
@@ -94,12 +94,12 @@
         }
       ],
       "language": "ENGLISH",
-      "adfree_stream": "https://video.twimg.com/amplify_video/1869037412439261184/pl/th-SCwIUMtNo-PsU.m3u8",
-      "dai_stream": "https://dai.google.com/linear/hls/event/7fm4pds-Q5m-lkicBlZbhQ/master.m3u8",
+      "adfree_stream": "https://in-mc-fdlive.fancode.com/mumbai/138237_english_hls_3626c1011428485_1ta-di_h264/index.m3u8",
+      "dai_stream": "https://dai.google.com/linear/hls/event/5DSEinQnRp6qtDoM9xJZuQ/master.m3u8",
       "STREAMING_CDN": {
-        "Primary_Playback_URL": "https://video.twimg.com/amplify_video/1869037412439261184/pl/th-SCwIUMtNo-PsU.m3u8",
-        "fancode_cdn": "Unavailable",
-        "dai_google_cdn": "https://dai.google.com/linear/hls/event/7fm4pds-Q5m-lkicBlZbhQ/master.m3u8",
+        "Primary_Playback_URL": "https://in-mc-fdlive.fancode.com/mumbai/138237_english_hls_3626c1011428485_1ta-di_h264/index.m3u8",
+        "fancode_cdn": "https://in-mc-fdlive.fancode.com/mumbai/138237_english_hls_3626c1011428485_1ta-di_h264/index.m3u8",
+        "dai_google_cdn": "https://dai.google.com/linear/hls/event/5DSEinQnRp6qtDoM9xJZuQ/master.m3u8",
         "cloudfront_cdn": "Unavailable",
         "sony_cdn": "Unavailable",
         "language": "ENGLISH"
@@ -146,7 +146,7 @@
               "runs": 203,
               "overs": "58.3",
               "balls": "0",
-              "status": "IN_PROGRESS",
+              "status": "COMPLETED",
               "wickets": 10
             }
           ],
@@ -156,7 +156,7 @@
           "hockeyScore": null,
           "status": {
             "cricket": {
-              "isBatting": true
+              "isBatting": false
             }
           }
         },
@@ -175,6 +175,13 @@
               "balls": "0",
               "status": "DECLARED",
               "wickets": 7
+            },
+            {
+              "runs": 35,
+              "overs": "12.4",
+              "balls": "0",
+              "status": "IN_PROGRESS",
+              "wickets": 0
             }
           ],
           "kabaddiScore": null,
@@ -183,7 +190,7 @@
           "hockeyScore": null,
           "status": {
             "cricket": {
-              "isBatting": false
+              "isBatting": true
             }
           }
         }
@@ -234,7 +241,7 @@
               "runs": 180,
               "overs": "20",
               "balls": "120",
-              "status": "IN_PROGRESS",
+              "status": "COMPLETED",
               "wickets": 5
             }
           ],
@@ -244,7 +251,7 @@
           "hockeyScore": null,
           "status": {
             "cricket": {
-              "isBatting": true
+              "isBatting": false
             }
           }
         },
@@ -256,14 +263,22 @@
           },
           "isWinner": null,
           "color": "#B8142D",
-          "cricketScore": [],
+          "cricketScore": [
+            {
+              "runs": 28,
+              "overs": "7.4",
+              "balls": "46",
+              "status": "IN_PROGRESS",
+              "wickets": 3
+            }
+          ],
           "kabaddiScore": null,
           "footballScore": null,
           "basketBallScore": null,
           "hockeyScore": null,
           "status": {
             "cricket": {
-              "isBatting": false
+              "isBatting": true
             }
           }
         }
