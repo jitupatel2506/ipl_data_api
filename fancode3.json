@@ -1,73 +1,93 @@
 {
   "Author": "DOCTOR_STRANGE",
   "name": "FanCode Live Matches API",
-  "last_updated": "03:21:00 PM 17-11-2025",
+  "last_updated": "03:42:01 PM 17-11-2025",
   "headers": {
     "User-Agent": "ReactNativeVideo/8.0.0 (Linux;Android/13) AndroidXMedia3/1.1.1",
     "Referer": "https://fancode.com/"
   },
   "total_matches": 38,
-  "live_matches": 2,
-  "upcoming_matches": 36,
+  "live_matches": 3,
+  "upcoming_matches": 35,
   "matches": [
     {
-      "category": "Football",
-      "title": "Bam Khatoon Fc Vs East Bengal",
-      "tournament": "AFC Women's Champions League 2025-26",
-      "match_id": 137948,
-      "status": "COMPLETED",
-      "streamingStatus": "COMPLETED",
-      "startTime": "17 November 2025 12:30 PM",
+      "category": "Cricket",
+      "title": "Janakpur Bolts Vs Kathmandu Gurkhas",
+      "tournament": "Nepal Premier League, 2025",
+      "match_id": 138293,
+      "status": "LIVE",
+      "streamingStatus": "STARTED",
+      "startTime": "17 November 2025 03:45 PM",
       "startDate": "01 January 1970 05:30 AM",
-      "image": "https://www.fancode.com/skillup-uploads/cms-media/137948_5744_BKFC_EBFC_fc-web_1763103330908.jpg",
+      "image": "https://www.fancode.com/skillup-uploads/cms-media/NPL_Janakpur-Bolts_vs_Kathmandu-Gurkhas_Old_match-card_02.jpg",
       "image_cdn": {
-        "TATAPLAY": "https://images.fancode.com/aig/match/v1/137948_CASACARDS_PARTNER_16_9_1920_1080.png",
-        "APP": "https://www.fancode.com/skillup-uploads/cms-media/137948_5744_BKFC_EBFC_fc-web_1763103330908.jpg",
-        "PLAYBACK": null,
-        "LOGO": "https://fancode.com/skillup-uploads/prod-images/2023/12/Tour-Placeholder.png",
-        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/Football_Fallback_Old_match-card.jpg",
-        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/137948_5744_BKFC_EBFC_fc-web_1763103330908.jpg",
-        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/137948_5744_BKFC_EBFC_fc-app_1763103322389.jpg",
-        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/137948_CASACARDS_PARTNER_16_9_1920_1080.png"
+        "TATAPLAY": "https://images.fancode.com/aig/match/v1/138293_CASACARDS_PARTNER_16_9_1920_1080.png",
+        "APP": "https://www.fancode.com/skillup-uploads/cms-media/NPL_Janakpur-Bolts_vs_Kathmandu-Gurkhas_Old_match-card_02.jpg",
+        "PLAYBACK": "https://www.fancode.com/skillup-uploads/cms-media/NPL_Janakpur-Bolts_vs_Kathmandu-Gurkhas_Old_match-card_02.jpg",
+        "LOGO": "https://fancode.com/skillup-uploads/prod-images/2024/11/NPL_Ncell-Tour-Logo.png",
+        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/Cricket_Fallback_Old_match-card.jpg",
+        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/NPL_Janakpur-Bolts_vs_Kathmandu-Gurkhas_Old_match-card_02.jpg",
+        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/NPL_Janakpur-Bolts_vs_Kathmandu-Gurkhas_Sporty_match-card_02.jpg",
+        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/138293_CASACARDS_PARTNER_16_9_1920_1080.png"
       },
       "teams": [
         {
-          "name": "Bam Khatoon FC",
-          "shortName": "BKFC",
+          "name": "Janakpur Bolts",
+          "shortName": "JKB",
           "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-BKFC@2x.png"
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-JKB@2x.png"
           },
           "isWinner": null,
-          "color": "#bb1016",
-          "cricketScore": null,
+          "color": "#1d2b68",
+          "cricketScore": [
+            {
+              "runs": 0,
+              "overs": "0",
+              "balls": "0",
+              "status": "IN_PROGRESS",
+              "wickets": 0
+            }
+          ],
           "kabaddiScore": null,
           "footballScore": null,
           "basketBallScore": null,
           "hockeyScore": null,
-          "status": null
+          "status": {
+            "cricket": {
+              "isBatting": true
+            }
+          }
         },
         {
-          "name": "East Bengal",
-          "shortName": "EBFC",
+          "name": "Kathmandu Gurkhas",
+          "shortName": "KMG",
           "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-EBFC@2x.png"
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-KMG@2x.png"
           },
           "isWinner": null,
-          "color": "#f3a42d",
-          "cricketScore": null,
+          "color": "#a1800e",
+          "cricketScore": [],
           "kabaddiScore": null,
           "footballScore": null,
           "basketBallScore": null,
           "hockeyScore": null,
-          "status": null
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
         }
       ],
-      "language": "BLOODY_SWEET",
-      "adfree_stream": null,
-      "dai_stream": null,
+      "language": "ENGLISH",
+      "adfree_stream": "https://in-mc-fdlive.fancode.com/mumbai/138293_english_hls_fd44d488d616019_1ta-di_h264/index.m3u8",
+      "dai_stream": "https://dai.google.com/linear/hls/event/lcz7ptK4QRyuHOYLhpit6w/master.m3u8",
       "STREAMING_CDN": {
-        "language": "BLOODY_SWEET",
-        "Primary_Playback_URL": null
+        "Primary_Playback_URL": "https://in-mc-fdlive.fancode.com/mumbai/138293_english_hls_fd44d488d616019_1ta-di_h264/index.m3u8",
+        "fancode_cdn": "https://in-mc-fdlive.fancode.com/mumbai/138293_english_hls_fd44d488d616019_1ta-di_h264/index.m3u8",
+        "dai_google_cdn": "https://dai.google.com/linear/hls/event/lcz7ptK4QRyuHOYLhpit6w/master.m3u8",
+        "cloudfront_cdn": "Unavailable",
+        "sony_cdn": "Unavailable",
+        "language": "ENGLISH"
       }
     },
     {
@@ -101,11 +121,11 @@
           "color": "#c5190b",
           "cricketScore": [
             {
-              "runs": 11,
-              "overs": "2.5",
-              "balls": "17",
+              "runs": 43,
+              "overs": "8.2",
+              "balls": "50",
               "status": "IN_PROGRESS",
-              "wickets": 2
+              "wickets": 3
             }
           ],
           "kabaddiScore": null,
@@ -219,62 +239,54 @@
       }
     },
     {
-      "category": "Cricket",
-      "title": "Janakpur Bolts Vs Kathmandu Gurkhas",
-      "tournament": "Nepal Premier League, 2025",
-      "match_id": 138293,
+      "category": "Football",
+      "title": "Wuhan Jiangda Women Vs Pfc Nasaf",
+      "tournament": "AFC Women's Champions League 2025-26",
+      "match_id": 137949,
       "status": "NOT_STARTED",
       "streamingStatus": "NOT_STARTED",
-      "startTime": "17 November 2025 03:45 PM",
+      "startTime": "17 November 2025 04:30 PM",
       "startDate": "01 January 1970 05:30 AM",
-      "image": "https://www.fancode.com/skillup-uploads/cms-media/NPL_Janakpur-Bolts_vs_Kathmandu-Gurkhas_Old_match-card_02.jpg",
+      "image": "https://www.fancode.com/skillup-uploads/cms-media/137949_5744_WJ-W_NAS-W_fc-web_1763103330280.jpg",
       "image_cdn": {
-        "TATAPLAY": "https://images.fancode.com/aig/match/v1/138293_CASACARDS_PARTNER_16_9_1920_1080.png",
-        "APP": "https://www.fancode.com/skillup-uploads/cms-media/NPL_Janakpur-Bolts_vs_Kathmandu-Gurkhas_Old_match-card_02.jpg",
+        "TATAPLAY": "https://images.fancode.com/aig/match/v1/137949_CASACARDS_PARTNER_16_9_1920_1080.png",
+        "APP": "https://www.fancode.com/skillup-uploads/cms-media/137949_5744_WJ-W_NAS-W_fc-web_1763103330280.jpg",
         "PLAYBACK": null,
-        "LOGO": "https://fancode.com/skillup-uploads/prod-images/2024/11/NPL_Ncell-Tour-Logo.png",
-        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/Cricket_Fallback_Old_match-card.jpg",
-        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/NPL_Janakpur-Bolts_vs_Kathmandu-Gurkhas_Old_match-card_02.jpg",
-        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/NPL_Janakpur-Bolts_vs_Kathmandu-Gurkhas_Sporty_match-card_02.jpg",
-        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/138293_CASACARDS_PARTNER_16_9_1920_1080.png"
+        "LOGO": "https://fancode.com/skillup-uploads/prod-images/2023/12/Tour-Placeholder.png",
+        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/Football_Fallback_Old_match-card.jpg",
+        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/137949_5744_WJ-W_NAS-W_fc-web_1763103330280.jpg",
+        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/137949_5744_WJ-W_NAS-W_fc-app_1763103323055.jpg",
+        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/137949_CASACARDS_PARTNER_16_9_1920_1080.png"
       },
       "teams": [
         {
-          "name": "Janakpur Bolts",
-          "shortName": "JKB",
+          "name": "Wuhan Jiangda Women",
+          "shortName": "WJ-W",
           "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-JKB@2x.png"
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-WJW@2x.png"
           },
           "isWinner": null,
-          "color": "#1d2b68",
-          "cricketScore": [
-            {
-              "runs": 0,
-              "overs": "0",
-              "balls": "0",
-              "status": "IN_PROGRESS",
-              "wickets": 0
-            }
-          ],
+          "color": "#089bc5",
+          "cricketScore": null,
           "kabaddiScore": null,
           "footballScore": null,
           "basketBallScore": null,
           "hockeyScore": null,
           "status": {
             "cricket": {
-              "isBatting": true
+              "isBatting": false
             }
           }
         },
         {
-          "name": "Kathmandu Gurkhas",
-          "shortName": "KMG",
+          "name": "PFC Nasaf",
+          "shortName": "NAS-W",
           "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-KMG@2x.png"
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/DEF-FT1@2x.png"
           },
           "isWinner": null,
-          "color": "#a1800e",
-          "cricketScore": [],
+          "color": "#FF0000",
+          "cricketScore": null,
           "kabaddiScore": null,
           "footballScore": null,
           "basketBallScore": null,
@@ -431,35 +443,35 @@
       }
     },
     {
-      "category": "Football",
-      "title": "Wuhan Jiangda Women Vs Pfc Nasaf",
-      "tournament": "AFC Women's Champions League 2025-26",
-      "match_id": 137949,
+      "category": "Cricket",
+      "title": "Chitwan Rhinos Vs Karnali Yaks",
+      "tournament": "Nepal Premier League, 2025",
+      "match_id": 138294,
       "status": "NOT_STARTED",
       "streamingStatus": "NOT_STARTED",
-      "startTime": "17 November 2025 04:30 PM",
+      "startTime": "18 November 2025 11:30 AM",
       "startDate": "01 January 1970 05:30 AM",
-      "image": "https://www.fancode.com/skillup-uploads/cms-media/137949_5744_WJ-W_NAS-W_fc-web_1763103330280.jpg",
+      "image": "https://www.fancode.com/skillup-uploads/cms-media/NPL_Chitwan-Rhinos_vs_Karnali-Yaks_Old_match-card_02.jpg",
       "image_cdn": {
-        "TATAPLAY": "https://images.fancode.com/aig/match/v1/137949_CASACARDS_PARTNER_16_9_1920_1080.png",
-        "APP": "https://www.fancode.com/skillup-uploads/cms-media/137949_5744_WJ-W_NAS-W_fc-web_1763103330280.jpg",
+        "TATAPLAY": "https://images.fancode.com/aig/match/v1/138294_CASACARDS_PARTNER_16_9_1920_1080.png",
+        "APP": "https://www.fancode.com/skillup-uploads/cms-media/NPL_Chitwan-Rhinos_vs_Karnali-Yaks_Old_match-card_02.jpg",
         "PLAYBACK": null,
-        "LOGO": "https://fancode.com/skillup-uploads/prod-images/2023/12/Tour-Placeholder.png",
-        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/Football_Fallback_Old_match-card.jpg",
-        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/137949_5744_WJ-W_NAS-W_fc-web_1763103330280.jpg",
-        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/137949_5744_WJ-W_NAS-W_fc-app_1763103323055.jpg",
-        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/137949_CASACARDS_PARTNER_16_9_1920_1080.png"
+        "LOGO": "https://fancode.com/skillup-uploads/prod-images/2024/11/NPL_Ncell-Tour-Logo.png",
+        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/Cricket_Fallback_Old_match-card.jpg",
+        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/NPL_Chitwan-Rhinos_vs_Karnali-Yaks_Old_match-card_02.jpg",
+        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/NPL_Chitwan-Rhinos_vs_Karnali-Yaks_Sporty_match-card_02.jpg",
+        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/138294_CASACARDS_PARTNER_16_9_1920_1080.png"
       },
       "teams": [
         {
-          "name": "Wuhan Jiangda Women",
-          "shortName": "WJ-W",
+          "name": "Chitwan Rhinos",
+          "shortName": "CWR",
           "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-WJW@2x.png"
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-CWR@2x.png"
           },
           "isWinner": null,
-          "color": "#089bc5",
-          "cricketScore": null,
+          "color": "#d66c18",
+          "cricketScore": [],
           "kabaddiScore": null,
           "footballScore": null,
           "basketBallScore": null,
@@ -471,14 +483,14 @@
           }
         },
         {
-          "name": "PFC Nasaf",
-          "shortName": "NAS-W",
+          "name": "Karnali Yaks",
+          "shortName": "KNY",
           "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/DEF-FT1@2x.png"
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-KNYN@2x.png"
           },
           "isWinner": null,
-          "color": "#FF0000",
-          "cricketScore": null,
+          "color": "#1583ab",
+          "cricketScore": [],
           "kabaddiScore": null,
           "footballScore": null,
           "basketBallScore": null,
@@ -568,34 +580,34 @@
     },
     {
       "category": "Cricket",
-      "title": "Chitwan Rhinos Vs Karnali Yaks",
-      "tournament": "Nepal Premier League, 2025",
-      "match_id": 138294,
+      "title": "Quetta Qavalry Vs Northern Warriors",
+      "tournament": "Abu Dhabi T10, 2025",
+      "match_id": 138203,
       "status": "NOT_STARTED",
       "streamingStatus": "NOT_STARTED",
-      "startTime": "18 November 2025 11:30 AM",
+      "startTime": "18 November 2025 07:15 PM",
       "startDate": "01 January 1970 05:30 AM",
-      "image": "https://www.fancode.com/skillup-uploads/cms-media/NPL_Chitwan-Rhinos_vs_Karnali-Yaks_Old_match-card_02.jpg",
+      "image": "https://www.fancode.com/skillup-uploads/cms-media/138203_5763_QQY_NW_fc-web.png",
       "image_cdn": {
-        "TATAPLAY": "https://images.fancode.com/aig/match/v1/138294_CASACARDS_PARTNER_16_9_1920_1080.png",
-        "APP": "https://www.fancode.com/skillup-uploads/cms-media/NPL_Chitwan-Rhinos_vs_Karnali-Yaks_Old_match-card_02.jpg",
+        "TATAPLAY": "https://images.fancode.com/aig/match/v1/138203_CASACARDS_PARTNER_16_9_1920_1080.png",
+        "APP": "https://www.fancode.com/skillup-uploads/cms-media/138203_5763_QQY_NW_fc-web.png",
         "PLAYBACK": null,
-        "LOGO": "https://fancode.com/skillup-uploads/prod-images/2024/11/NPL_Ncell-Tour-Logo.png",
+        "LOGO": "https://fancode.com/skillup-uploads/prod-images/2024/11/Abu-Dhabi-T10-2024-Tour-Logo.png",
         "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/Cricket_Fallback_Old_match-card.jpg",
-        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/NPL_Chitwan-Rhinos_vs_Karnali-Yaks_Old_match-card_02.jpg",
-        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/NPL_Chitwan-Rhinos_vs_Karnali-Yaks_Sporty_match-card_02.jpg",
-        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/138294_CASACARDS_PARTNER_16_9_1920_1080.png"
+        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/138203_5763_QQY_NW_fc-web.png",
+        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/138203_5763_QQY_NW_fc-App.png",
+        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/138203_CASACARDS_PARTNER_16_9_1920_1080.png"
       },
       "teams": [
         {
-          "name": "Chitwan Rhinos",
-          "shortName": "CWR",
+          "name": "Quetta Qavalry",
+          "shortName": "QQY",
           "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-CWR@2x.png"
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-QQY@2x.png"
           },
           "isWinner": null,
-          "color": "#d66c18",
-          "cricketScore": [],
+          "color": "#371A82",
+          "cricketScore": null,
           "kabaddiScore": null,
           "footballScore": null,
           "basketBallScore": null,
@@ -607,14 +619,14 @@
           }
         },
         {
-          "name": "Karnali Yaks",
-          "shortName": "KNY",
+          "name": "Northern Warriors",
+          "shortName": "NW",
           "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-KNYN@2x.png"
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/NOR-CR3@2x.png"
           },
           "isWinner": null,
-          "color": "#1583ab",
-          "cricketScore": [],
+          "color": "#E1D544",
+          "cricketScore": null,
           "kabaddiScore": null,
           "footballScore": null,
           "basketBallScore": null,
@@ -682,74 +694,6 @@
           },
           "isWinner": null,
           "color": "#dd3737",
-          "cricketScore": null,
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        }
-      ],
-      "language": "BLOODY_SWEET",
-      "adfree_stream": null,
-      "dai_stream": null,
-      "STREAMING_CDN": {
-        "language": "BLOODY_SWEET",
-        "Primary_Playback_URL": null
-      }
-    },
-    {
-      "category": "Cricket",
-      "title": "Quetta Qavalry Vs Northern Warriors",
-      "tournament": "Abu Dhabi T10, 2025",
-      "match_id": 138203,
-      "status": "NOT_STARTED",
-      "streamingStatus": "NOT_STARTED",
-      "startTime": "18 November 2025 07:15 PM",
-      "startDate": "01 January 1970 05:30 AM",
-      "image": "https://www.fancode.com/skillup-uploads/cms-media/138203_5763_QQY_NW_fc-web.png",
-      "image_cdn": {
-        "TATAPLAY": "https://images.fancode.com/aig/match/v1/138203_CASACARDS_PARTNER_16_9_1920_1080.png",
-        "APP": "https://www.fancode.com/skillup-uploads/cms-media/138203_5763_QQY_NW_fc-web.png",
-        "PLAYBACK": null,
-        "LOGO": "https://fancode.com/skillup-uploads/prod-images/2024/11/Abu-Dhabi-T10-2024-Tour-Logo.png",
-        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/Cricket_Fallback_Old_match-card.jpg",
-        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/138203_5763_QQY_NW_fc-web.png",
-        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/138203_5763_QQY_NW_fc-App.png",
-        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/138203_CASACARDS_PARTNER_16_9_1920_1080.png"
-      },
-      "teams": [
-        {
-          "name": "Quetta Qavalry",
-          "shortName": "QQY",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-QQY@2x.png"
-          },
-          "isWinner": null,
-          "color": "#371A82",
-          "cricketScore": null,
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        },
-        {
-          "name": "Northern Warriors",
-          "shortName": "NW",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/NOR-CR3@2x.png"
-          },
-          "isWinner": null,
-          "color": "#E1D544",
           "cricketScore": null,
           "kabaddiScore": null,
           "footballScore": null,
@@ -886,6 +830,74 @@
           },
           "isWinner": null,
           "color": "#DA4E33",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        }
+      ],
+      "language": "BLOODY_SWEET",
+      "adfree_stream": null,
+      "dai_stream": null,
+      "STREAMING_CDN": {
+        "language": "BLOODY_SWEET",
+        "Primary_Playback_URL": null
+      }
+    },
+    {
+      "category": "Football",
+      "title": "Bangladesh Vs India",
+      "tournament": "AFC Asia Cup Qualifiers",
+      "match_id": 137370,
+      "status": "NOT_STARTED",
+      "streamingStatus": "NOT_STARTED",
+      "startTime": "18 November 2025 07:30 PM",
+      "startDate": "01 January 1970 05:30 AM",
+      "image": "https://www.fancode.com/skillup-uploads/cms-media/AFC-Asia-Cup-Qualifiers--old-.png",
+      "image_cdn": {
+        "TATAPLAY": "https://images.fancode.com/aig/match/v1/137370_CASACARDS_PARTNER_16_9_1920_1080.png",
+        "APP": "https://www.fancode.com/skillup-uploads/cms-media/AFC-Asia-Cup-Qualifiers--old-.png",
+        "PLAYBACK": null,
+        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/AFC-Asian-Cup.png",
+        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/Football_Fallback_Old_match-card.jpg",
+        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/AFC-Asia-Cup-Qualifiers--old-.png",
+        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/AFC-Asia-Cup-Qualifiers--sporty-.png",
+        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/137370_CASACARDS_PARTNER_16_9_1920_1080.png"
+      },
+      "teams": [
+        {
+          "name": "Bangladesh",
+          "shortName": "BAN",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-BAN@2x.png"
+          },
+          "isWinner": null,
+          "color": "#348342",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        },
+        {
+          "name": "India",
+          "shortName": "IND",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-IND@2x.png"
+          },
+          "isWinner": null,
+          "color": "#0f60de",
           "cricketScore": null,
           "kabaddiScore": null,
           "footballScore": null,
@@ -1076,74 +1088,6 @@
     },
     {
       "category": "Football",
-      "title": "Bangladesh Vs India",
-      "tournament": "AFC Asia Cup Qualifiers",
-      "match_id": 137370,
-      "status": "NOT_STARTED",
-      "streamingStatus": "NOT_STARTED",
-      "startTime": "18 November 2025 07:30 PM",
-      "startDate": "01 January 1970 05:30 AM",
-      "image": "https://www.fancode.com/skillup-uploads/cms-media/AFC-Asia-Cup-Qualifiers--old-.png",
-      "image_cdn": {
-        "TATAPLAY": "https://images.fancode.com/aig/match/v1/137370_CASACARDS_PARTNER_16_9_1920_1080.png",
-        "APP": "https://www.fancode.com/skillup-uploads/cms-media/AFC-Asia-Cup-Qualifiers--old-.png",
-        "PLAYBACK": null,
-        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/AFC-Asian-Cup.png",
-        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/Football_Fallback_Old_match-card.jpg",
-        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/AFC-Asia-Cup-Qualifiers--old-.png",
-        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/AFC-Asia-Cup-Qualifiers--sporty-.png",
-        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/137370_CASACARDS_PARTNER_16_9_1920_1080.png"
-      },
-      "teams": [
-        {
-          "name": "Bangladesh",
-          "shortName": "BAN",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-BAN@2x.png"
-          },
-          "isWinner": null,
-          "color": "#348342",
-          "cricketScore": null,
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        },
-        {
-          "name": "India",
-          "shortName": "IND",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-IND@2x.png"
-          },
-          "isWinner": null,
-          "color": "#0f60de",
-          "cricketScore": null,
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        }
-      ],
-      "language": "BLOODY_SWEET",
-      "adfree_stream": null,
-      "dai_stream": null,
-      "STREAMING_CDN": {
-        "language": "BLOODY_SWEET",
-        "Primary_Playback_URL": null
-      }
-    },
-    {
-      "category": "Football",
       "title": "Iraq Vs United Arab Emirates",
       "tournament": "FIFA World Cup Asian Qualifiers",
       "match_id": 138102,
@@ -1280,74 +1224,6 @@
     },
     {
       "category": "Cricket",
-      "title": "Indonesia Vs Bahrain",
-      "tournament": "Bahrain tour of Indonesia, 2025",
-      "match_id": 138009,
-      "status": "NOT_STARTED",
-      "streamingStatus": "NOT_STARTED",
-      "startTime": "19 November 2025 07:00 AM",
-      "startDate": "01 January 1970 05:30 AM",
-      "image": "https://images.fancode.com/aig/match/v1/138009_CASACARDS_APP.png",
-      "image_cdn": {
-        "TATAPLAY": "https://images.fancode.com/aig/match/v1/138009_CASACARDS_PARTNER_16_9_1920_1080.png",
-        "APP": "https://images.fancode.com/aig/match/v1/138009_CASACARDS_APP.png",
-        "PLAYBACK": null,
-        "LOGO": "https://fancode.com/skillup-uploads/prod-images/2023/12/Tour-Placeholder.png",
-        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/Cricket_Fallback_Old_match-card.jpg",
-        "BG_IMAGE": "https://images.fancode.com/aig/match/v1/138009_CASACARDS_APP.png",
-        "SPORT_BY_IMAGE": "https://images.fancode.com/aig/match/v1/138009_CASACARDS_SPORTY_APP.png",
-        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/138009_CASACARDS_PARTNER_16_9_1920_1080.png"
-      },
-      "teams": [
-        {
-          "name": "Indonesia",
-          "shortName": "INA",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-INDA@2x.png"
-          },
-          "isWinner": null,
-          "color": "#dc3f31",
-          "cricketScore": null,
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        },
-        {
-          "name": "Bahrain",
-          "shortName": "BAH",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-BAH@2x.png"
-          },
-          "isWinner": null,
-          "color": "#ff5142",
-          "cricketScore": null,
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        }
-      ],
-      "language": "BLOODY_SWEET",
-      "adfree_stream": null,
-      "dai_stream": null,
-      "STREAMING_CDN": {
-        "language": "BLOODY_SWEET",
-        "Primary_Playback_URL": null
-      }
-    },
-    {
-      "category": "Cricket",
       "title": "Bangladesh Vs Ireland",
       "tournament": "Ireland tour of Bangladesh, 2025",
       "match_id": 138238,
@@ -1394,6 +1270,74 @@
           },
           "isWinner": null,
           "color": "#ba6a15",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        }
+      ],
+      "language": "BLOODY_SWEET",
+      "adfree_stream": null,
+      "dai_stream": null,
+      "STREAMING_CDN": {
+        "language": "BLOODY_SWEET",
+        "Primary_Playback_URL": null
+      }
+    },
+    {
+      "category": "Cricket",
+      "title": "Indonesia Vs Bahrain",
+      "tournament": "Bahrain tour of Indonesia, 2025",
+      "match_id": 138009,
+      "status": "NOT_STARTED",
+      "streamingStatus": "NOT_STARTED",
+      "startTime": "19 November 2025 07:00 AM",
+      "startDate": "01 January 1970 05:30 AM",
+      "image": "https://images.fancode.com/aig/match/v1/138009_CASACARDS_APP.png",
+      "image_cdn": {
+        "TATAPLAY": "https://images.fancode.com/aig/match/v1/138009_CASACARDS_PARTNER_16_9_1920_1080.png",
+        "APP": "https://images.fancode.com/aig/match/v1/138009_CASACARDS_APP.png",
+        "PLAYBACK": null,
+        "LOGO": "https://fancode.com/skillup-uploads/prod-images/2023/12/Tour-Placeholder.png",
+        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/Cricket_Fallback_Old_match-card.jpg",
+        "BG_IMAGE": "https://images.fancode.com/aig/match/v1/138009_CASACARDS_APP.png",
+        "SPORT_BY_IMAGE": "https://images.fancode.com/aig/match/v1/138009_CASACARDS_SPORTY_APP.png",
+        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/138009_CASACARDS_PARTNER_16_9_1920_1080.png"
+      },
+      "teams": [
+        {
+          "name": "Indonesia",
+          "shortName": "INA",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-INDA@2x.png"
+          },
+          "isWinner": null,
+          "color": "#dc3f31",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        },
+        {
+          "name": "Bahrain",
+          "shortName": "BAH",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-BAH@2x.png"
+          },
+          "isWinner": null,
+          "color": "#ff5142",
           "cricketScore": null,
           "kabaddiScore": null,
           "footballScore": null,
@@ -2618,6 +2562,74 @@
           },
           "isWinner": null,
           "color": "#0071c9",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        }
+      ],
+      "language": "BLOODY_SWEET",
+      "adfree_stream": null,
+      "dai_stream": null,
+      "STREAMING_CDN": {
+        "language": "BLOODY_SWEET",
+        "Primary_Playback_URL": null
+      }
+    },
+    {
+      "category": "Cricket",
+      "title": "Papua New Guinea Women Vs United Arab Emirates Women",
+      "tournament": "ICC Women's Emerging Nations Trophy, 2025",
+      "match_id": 138086,
+      "status": "NOT_STARTED",
+      "streamingStatus": "NOT_STARTED",
+      "startTime": "20 November 2025 08:00 AM",
+      "startDate": "01 January 1970 05:30 AM",
+      "image": "https://www.fancode.com/skillup-uploads/cms-media/Cricket_Fallback_Old_match-card.jpg",
+      "image_cdn": {
+        "TATAPLAY": "https://images.fancode.com/aig/match/v1/138086_CASACARDS_PARTNER_16_9_1920_1080.png",
+        "APP": "https://www.fancode.com/skillup-uploads/cms-media/Cricket_Fallback_Old_match-card.jpg",
+        "PLAYBACK": null,
+        "LOGO": "https://fancode.com/skillup-uploads/prod-images/2023/12/Tour-Placeholder.png",
+        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/Cricket_Fallback_Old_match-card.jpg",
+        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/Cricket_Fallback_Old_match-card.jpg",
+        "SPORT_BY_IMAGE": "https://fancode.com/skillup-uploads/prod-images/2023/08/FC_Sports_Default_cricket.jpg",
+        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/138086_CASACARDS_PARTNER_16_9_1920_1080.png"
+      },
+      "teams": [
+        {
+          "name": "Papua New Guinea Women",
+          "shortName": "PN-W",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-PNG@2x.png"
+          },
+          "isWinner": null,
+          "color": "#eb5160",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        },
+        {
+          "name": "United Arab Emirates Women",
+          "shortName": "UAE-W",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-UAE@2x.png"
+          },
+          "isWinner": null,
+          "color": "#91a39f",
           "cricketScore": null,
           "kabaddiScore": null,
           "footballScore": null,
