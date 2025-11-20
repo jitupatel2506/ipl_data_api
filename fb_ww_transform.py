@@ -362,9 +362,9 @@ def main():
 
       for item in final_output:
         url = item.get("channelUrl", "")
-        if url.startswith("https://in-mc-flive.fancode.com/"):
+        if url.startswith("https://in-mc-fdlive.fancode.com/"):
             item["channelUrl"] = url.replace(
-                "https://in-mc-flive.fancode.com/",
+                "https://in-mc-fdlive.fancode.com/",
                 "https://in-mc-pdlive.fancode.com/"  
             )
             #"http://147.93.107.176:8080/fancode/"
