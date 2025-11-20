@@ -360,14 +360,7 @@ def main():
     final_output = manual_items + auto_items
     final_output = list(reversed(final_output))
 
-      for item in final_output:
-        url = item.get("channelUrl", "")
-        if url.startswith("https://in-mc-fdlive.fancode.com/"):
-            item["channelUrl"] = url.replace(
-                "https://in-mc-fdlive.fancode.com/",
-                "https://in-mc-pdlive.fancode.com/"  
-            )
-            #"http://147.93.107.176:8080/fancode/"
+      
     os.makedirs(os.path.dirname(OUTPUT_FILE) or ".", exist_ok=True)
     try:
         with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
