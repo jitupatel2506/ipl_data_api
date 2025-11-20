@@ -1,7 +1,7 @@
 {
   "Author": "DOCTOR_STRANGE",
   "name": "FanCode Live Matches API",
-  "last_updated": "10:42:01 AM 20-11-2025",
+  "last_updated": "10:56:00 AM 20-11-2025",
   "headers": {
     "User-Agent": "ReactNativeVideo/8.0.0 (Linux;Android/13) AndroidXMedia3/1.1.1",
     "Referer": "https://fancode.com/"
@@ -41,8 +41,8 @@
           "color": "#397b46",
           "cricketScore": [
             {
-              "runs": 378,
-              "overs": "115.5",
+              "runs": 385,
+              "overs": "118.3",
               "balls": "0",
               "status": "IN_PROGRESS",
               "wickets": 5
@@ -92,94 +92,6 @@
     },
     {
       "category": "Cricket",
-      "title": "Papua New Guinea Women Vs United Arab Emirates Women",
-      "tournament": "ICC Women's Emerging Nations Trophy, 2025",
-      "match_id": 138086,
-      "status": "LIVE",
-      "streamingStatus": "STARTED",
-      "startTime": "20 November 2025 07:30 AM",
-      "startDate": "01 January 1970 05:30 AM",
-      "image": "https://www.fancode.com/skillup-uploads/cms-media/138086_5758_PN-W_UAE-W_FC-Web.jpg",
-      "image_cdn": {
-        "TATAPLAY": "https://images.fancode.com/aig/match/v1/138086_CASACARDS_PARTNER_16_9_1920_1080.png",
-        "APP": "https://www.fancode.com/skillup-uploads/cms-media/138086_5758_PN-W_UAE-W_FC-Web.jpg",
-        "PLAYBACK": "https://www.fancode.com/skillup-uploads/cms-media/138086_5758_PN-W_UAE-W_FC-Web.jpg",
-        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/ICC-Women's.png",
-        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/Cricket_Fallback_Old_match-card.jpg",
-        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/138086_5758_PN-W_UAE-W_FC-Web.jpg",
-        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/138086_5758_PN-W_UAE-W_FC-App.jpg",
-        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/138086_CASACARDS_PARTNER_16_9_1920_1080.png"
-      },
-      "teams": [
-        {
-          "name": "Papua New Guinea Women",
-          "shortName": "PN-W",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-PNG@2x.png"
-          },
-          "isWinner": null,
-          "color": "#eb5160",
-          "cricketScore": [
-            {
-              "runs": 94,
-              "overs": "20",
-              "balls": "120",
-              "status": "COMPLETED",
-              "wickets": 5
-            }
-          ],
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        },
-        {
-          "name": "United Arab Emirates Women",
-          "shortName": "UAE-W",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-UAE@2x.png"
-          },
-          "isWinner": null,
-          "color": "#91a39f",
-          "cricketScore": [
-            {
-              "runs": 90,
-              "overs": "14.2",
-              "balls": "86",
-              "status": "IN_PROGRESS",
-              "wickets": 2
-            }
-          ],
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": true
-            }
-          }
-        }
-      ],
-      "language": "ENGLISH",
-      "adfree_stream": "https://in-mc-fdlive.fancode.com/mumbai/138086_english_hls_602fbb0b881981_1ta-di_h264/index.m3u8",
-      "dai_stream": "https://dai.google.com/linear/hls/event/5mafuxbUR9OiPkv6lftiKQ/master.m3u8",
-      "STREAMING_CDN": {
-        "Primary_Playback_URL": "https://in-mc-fdlive.fancode.com/mumbai/138086_english_hls_602fbb0b881981_1ta-di_h264/index.m3u8",
-        "fancode_cdn": "https://in-mc-fdlive.fancode.com/mumbai/138086_english_hls_602fbb0b881981_1ta-di_h264/index.m3u8",
-        "dai_google_cdn": "https://dai.google.com/linear/hls/event/5mafuxbUR9OiPkv6lftiKQ/master.m3u8",
-        "cloudfront_cdn": "Unavailable",
-        "sony_cdn": "Unavailable",
-        "language": "ENGLISH"
-      }
-    },
-    {
-      "category": "Cricket",
       "title": "Thailand Women Vs Netherlands Women",
       "tournament": "ICC Women's Emerging Nations Trophy, 2025",
       "match_id": 138073,
@@ -205,7 +117,7 @@
           "flag": {
             "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-THL@2x.png"
           },
-          "isWinner": null,
+          "isWinner": true,
           "color": "#16369a",
           "cricketScore": [
             {
@@ -232,15 +144,15 @@
           "flag": {
             "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-NED@2x.png"
           },
-          "isWinner": null,
+          "isWinner": false,
           "color": "#2c5ab3",
           "cricketScore": [
             {
-              "runs": 75,
-              "overs": "16.1",
-              "balls": "97",
+              "runs": 94,
+              "overs": "18.5",
+              "balls": "113",
               "status": "IN_PROGRESS",
-              "wickets": 7
+              "wickets": 10
             }
           ],
           "kabaddiScore": null,
@@ -261,6 +173,94 @@
         "Primary_Playback_URL": "https://in-mc-fdlive.fancode.com/mumbai/138073_english_hls_07d50909df94591_1ta-di_h264/index.m3u8",
         "fancode_cdn": "https://in-mc-fdlive.fancode.com/mumbai/138073_english_hls_07d50909df94591_1ta-di_h264/index.m3u8",
         "dai_google_cdn": "https://dai.google.com/linear/hls/event/Epz4nU-mRfGPEW8v3r4nYA/master.m3u8",
+        "cloudfront_cdn": "Unavailable",
+        "sony_cdn": "Unavailable",
+        "language": "ENGLISH"
+      }
+    },
+    {
+      "category": "Cricket",
+      "title": "Papua New Guinea Women Vs United Arab Emirates Women",
+      "tournament": "ICC Women's Emerging Nations Trophy, 2025",
+      "match_id": 138086,
+      "status": "COMPLETED",
+      "streamingStatus": "STARTED",
+      "startTime": "20 November 2025 07:30 AM",
+      "startDate": "01 January 1970 05:30 AM",
+      "image": "https://www.fancode.com/skillup-uploads/cms-media/138086_5758_PN-W_UAE-W_FC-Web.jpg",
+      "image_cdn": {
+        "TATAPLAY": "https://images.fancode.com/aig/match/v1/138086_CASACARDS_PARTNER_16_9_1920_1080.png",
+        "APP": "https://www.fancode.com/skillup-uploads/cms-media/138086_5758_PN-W_UAE-W_FC-Web.jpg",
+        "PLAYBACK": "https://www.fancode.com/skillup-uploads/cms-media/138086_5758_PN-W_UAE-W_FC-Web.jpg",
+        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/ICC-Women's.png",
+        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/Cricket_Fallback_Old_match-card.jpg",
+        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/138086_5758_PN-W_UAE-W_FC-Web.jpg",
+        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/138086_5758_PN-W_UAE-W_FC-App.jpg",
+        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/138086_CASACARDS_PARTNER_16_9_1920_1080.png"
+      },
+      "teams": [
+        {
+          "name": "Papua New Guinea Women",
+          "shortName": "PN-W",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-PNG@2x.png"
+          },
+          "isWinner": false,
+          "color": "#eb5160",
+          "cricketScore": [
+            {
+              "runs": 94,
+              "overs": "20",
+              "balls": "120",
+              "status": "COMPLETED",
+              "wickets": 5
+            }
+          ],
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        },
+        {
+          "name": "United Arab Emirates Women",
+          "shortName": "UAE-W",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-UAE@2x.png"
+          },
+          "isWinner": true,
+          "color": "#91a39f",
+          "cricketScore": [
+            {
+              "runs": 95,
+              "overs": "15.2",
+              "balls": "93",
+              "status": "IN_PROGRESS",
+              "wickets": 2
+            }
+          ],
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": true
+            }
+          }
+        }
+      ],
+      "language": "ENGLISH",
+      "adfree_stream": "https://in-mc-fdlive.fancode.com/mumbai/138086_english_hls_602fbb0b881981_1ta-di_h264/index.m3u8",
+      "dai_stream": "https://dai.google.com/linear/hls/event/5mafuxbUR9OiPkv6lftiKQ/master.m3u8",
+      "STREAMING_CDN": {
+        "Primary_Playback_URL": "https://in-mc-fdlive.fancode.com/mumbai/138086_english_hls_602fbb0b881981_1ta-di_h264/index.m3u8",
+        "fancode_cdn": "https://in-mc-fdlive.fancode.com/mumbai/138086_english_hls_602fbb0b881981_1ta-di_h264/index.m3u8",
+        "dai_google_cdn": "https://dai.google.com/linear/hls/event/5mafuxbUR9OiPkv6lftiKQ/master.m3u8",
         "cloudfront_cdn": "Unavailable",
         "sony_cdn": "Unavailable",
         "language": "ENGLISH"
@@ -594,6 +594,90 @@
           "status": {
             "cricket": {
               "isBatting": false
+            }
+          }
+        }
+      ],
+      "language": "BLOODY_SWEET",
+      "adfree_stream": null,
+      "dai_stream": null,
+      "STREAMING_CDN": {
+        "language": "BLOODY_SWEET",
+        "Primary_Playback_URL": null
+      }
+    },
+    {
+      "category": "Cricket",
+      "title": "England Under 19 Vs West Indies Under 19",
+      "tournament": "England Under-19 tour of West Indies, 2025",
+      "match_id": 138042,
+      "status": "COMPLETED",
+      "streamingStatus": "COMPLETED",
+      "startTime": "19 November 2025 06:30 PM",
+      "startDate": "01 January 1970 05:30 AM",
+      "image": "https://www.fancode.com/skillup-uploads/cms-media/eng_wi_old_match-card_2.jpg",
+      "image_cdn": {
+        "TATAPLAY": "https://images.fancode.com/aig/match/v1/138042_CASACARDS_PARTNER_16_9_1920_1080.png",
+        "APP": "https://www.fancode.com/skillup-uploads/cms-media/eng_wi_old_match-card_2.jpg",
+        "PLAYBACK": null,
+        "LOGO": "https://fancode.com/skillup-uploads/prod-images/2019/11/default-tour-logo.png",
+        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/Cricket_Fallback_Old_match-card.jpg",
+        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/eng_wi_old_match-card_2.jpg",
+        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/eng_wi_sporty_match_card.png",
+        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/138042_CASACARDS_PARTNER_16_9_1920_1080.png"
+      },
+      "teams": [
+        {
+          "name": "England Under-19",
+          "shortName": "EN-U19",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-ENG@2x.png"
+          },
+          "isWinner": false,
+          "color": "#143898",
+          "cricketScore": [
+            {
+              "runs": 160,
+              "overs": "31.4",
+              "balls": "190",
+              "status": "COMPLETED",
+              "wickets": 5
+            }
+          ],
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        },
+        {
+          "name": "West Indies Under-19",
+          "shortName": "WI-U19",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-WIN@2x.png"
+          },
+          "isWinner": true,
+          "color": "#c9618c",
+          "cricketScore": [
+            {
+              "runs": 192,
+              "overs": "30.1",
+              "balls": "181",
+              "status": "IN_PROGRESS",
+              "wickets": 4
+            }
+          ],
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": true
             }
           }
         }
@@ -2654,74 +2738,6 @@
           },
           "isWinner": null,
           "color": "#123456",
-          "cricketScore": null,
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        }
-      ],
-      "language": "BLOODY_SWEET",
-      "adfree_stream": null,
-      "dai_stream": null,
-      "STREAMING_CDN": {
-        "language": "BLOODY_SWEET",
-        "Primary_Playback_URL": null
-      }
-    },
-    {
-      "category": "Cricket",
-      "title": "Pakistan Shaheens Vs Sri Lanka A",
-      "tournament": "ACC Asia Cup Rising Stars 2025",
-      "match_id": 138255,
-      "status": "NOT_STARTED",
-      "streamingStatus": "NOT_STARTED",
-      "startTime": "21 November 2025 08:00 PM",
-      "startDate": "01 January 1970 05:30 AM",
-      "image": "https://www.fancode.com/skillup-uploads/cms-media/Cricket_Fallback_Old_match-card.jpg",
-      "image_cdn": {
-        "TATAPLAY": "https://images.fancode.com/aig/match/v1/138255_CASACARDS_PARTNER_16_9_1920_1080.png",
-        "APP": "https://www.fancode.com/skillup-uploads/cms-media/Cricket_Fallback_Old_match-card.jpg",
-        "PLAYBACK": null,
-        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/ACC-Rising-Stars-2025-Tour-Logo.png",
-        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/Cricket_Fallback_Old_match-card.jpg",
-        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/Cricket_Fallback_Old_match-card.jpg",
-        "SPORT_BY_IMAGE": "https://fancode.com/skillup-uploads/prod-images/2023/08/FC_Sports_Default_cricket.jpg",
-        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/138255_CASACARDS_PARTNER_16_9_1920_1080.png"
-      },
-      "teams": [
-        {
-          "name": "Pakistan Shaheens",
-          "shortName": "PKS",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-PKS@2x.png"
-          },
-          "isWinner": null,
-          "color": "#d8a918",
-          "cricketScore": null,
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        },
-        {
-          "name": "Sri Lanka A",
-          "shortName": "SL-A",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-SRL@2x.png"
-          },
-          "isWinner": null,
-          "color": "#164fad",
           "cricketScore": null,
           "kabaddiScore": null,
           "footballScore": null,
