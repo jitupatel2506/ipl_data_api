@@ -1,7 +1,7 @@
 {
   "Author": "DOCTOR_STRANGE",
   "name": "FanCode Live Matches API",
-  "last_updated": "01:21:03 PM 23-11-2025",
+  "last_updated": "02:00:00 PM 23-11-2025",
   "headers": {
     "User-Agent": "ReactNativeVideo/8.0.0 (Linux;Android/13) AndroidXMedia3/1.1.1",
     "Referer": "https://fancode.com/"
@@ -15,7 +15,7 @@
       "title": "India Vs Korea",
       "tournament": "Sultan Azlan Shah Cup",
       "match_id": 138411,
-      "status": "NOT_STARTED",
+      "status": "LIVE",
       "streamingStatus": "STARTED",
       "startTime": "23 November 2025 01:30 PM",
       "startDate": "01 January 1970 05:30 AM",
@@ -43,7 +43,9 @@
           "kabaddiScore": null,
           "footballScore": null,
           "basketBallScore": null,
-          "hockeyScore": null,
+          "hockeyScore": {
+            "points": null
+          },
           "status": {
             "cricket": {
               "isBatting": false
@@ -62,7 +64,9 @@
           "kabaddiScore": null,
           "footballScore": null,
           "basketBallScore": null,
-          "hockeyScore": null,
+          "hockeyScore": {
+            "points": null
+          },
           "status": {
             "cricket": {
               "isBatting": false
@@ -87,10 +91,10 @@
       "title": "Bangladesh Vs Ireland",
       "tournament": "Ireland tour of Bangladesh, 2025",
       "match_id": 138238,
-      "status": "LIVE",
+      "status": "COMPLETED",
       "streamingStatus": "STARTED",
       "startTime": "19 November 2025 09:00 AM",
-      "startDate": "23 November 2025 09:00 AM",
+      "startDate": "01 January 1970 05:30 AM",
       "image": "https://www.fancode.com/skillup-uploads/cms-media/BAN-vs-IRE_old-match-card.png",
       "image_cdn": {
         "TATAPLAY": "https://images.fancode.com/aig/match/v1/138238_CASACARDS_PARTNER_16_9_1920_1080.png",
@@ -109,7 +113,7 @@
           "flag": {
             "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-BAN@2x.png"
           },
-          "isWinner": null,
+          "isWinner": true,
           "color": "#397b46",
           "cricketScore": [
             {
@@ -143,7 +147,7 @@
           "flag": {
             "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-IRE@2x.png"
           },
-          "isWinner": null,
+          "isWinner": false,
           "color": "#ba6a15",
           "cricketScore": [
             {
@@ -155,10 +159,10 @@
             },
             {
               "runs": 291,
-              "overs": "113.2",
+              "overs": "113.3",
               "balls": "0",
               "status": "IN_PROGRESS",
-              "wickets": 9
+              "wickets": 10
             }
           ],
           "kabaddiScore": null,
@@ -182,74 +186,6 @@
         "cloudfront_cdn": "Unavailable",
         "sony_cdn": "Unavailable",
         "language": "ENGLISH"
-      }
-    },
-    {
-      "category": "Formula 1",
-      "title": "Race",
-      "tournament": "F1 HEINEKEN LAS VEGAS GRAND PRIX 2025",
-      "match_id": 118490,
-      "status": "COMPLETED",
-      "streamingStatus": "COMPLETED",
-      "startTime": "23 November 2025 09:30 AM",
-      "startDate": "01 January 1970 05:30 AM",
-      "image": "https://www.fancode.com/skillup-uploads/cms-media/F1_LAS_Vegas_Old_match-card.png",
-      "image_cdn": {
-        "TATAPLAY": "https://images.fancode.com/aig/match/v1/118490_CASACARDS_PARTNER_16_9_1920_1080.png",
-        "APP": "https://www.fancode.com/skillup-uploads/cms-media/F1_LAS_Vegas_Old_match-card.png",
-        "PLAYBACK": null,
-        "LOGO": "https://fancode.com/skillup-uploads/prod-images/2024/03/R22-United-States-GP-Tour-Logo.png",
-        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Formula1-1440-x-360.png",
-        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/F1_LAS_Vegas_Old_match-card.png",
-        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/F1_Las-Vegas_Sporty_Race_3.png",
-        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/118490_CASACARDS_PARTNER_16_9_1920_1080.png"
-      },
-      "teams": [
-        {
-          "name": "Race",
-          "shortName": "RC",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/f1-flags/FC-FR5@2x.png"
-          },
-          "isWinner": null,
-          "color": "#EE0000",
-          "cricketScore": null,
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        },
-        {
-          "name": "United States of America",
-          "shortName": "United States of America",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/f1-flags/FC-LOT@2x.png"
-          },
-          "isWinner": null,
-          "color": "#141414",
-          "cricketScore": null,
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        }
-      ],
-      "language": "BLOODY_SWEET",
-      "adfree_stream": null,
-      "dai_stream": null,
-      "STREAMING_CDN": {
-        "language": "BLOODY_SWEET",
-        "Primary_Playback_URL": null
       }
     },
     {
@@ -283,11 +219,11 @@
           "color": "#16369a",
           "cricketScore": [
             {
-              "runs": 66,
-              "overs": "14.3",
-              "balls": "87",
-              "status": "IN_PROGRESS",
-              "wickets": 5
+              "runs": 115,
+              "overs": "20",
+              "balls": "120",
+              "status": "COMPLETED",
+              "wickets": 6
             }
           ],
           "kabaddiScore": null,
@@ -296,7 +232,7 @@
           "hockeyScore": null,
           "status": {
             "cricket": {
-              "isBatting": true
+              "isBatting": false
             }
           }
         },
@@ -308,14 +244,22 @@
           },
           "isWinner": null,
           "color": "#112c80",
-          "cricketScore": [],
+          "cricketScore": [
+            {
+              "runs": 11,
+              "overs": "1.5",
+              "balls": "11",
+              "status": "IN_PROGRESS",
+              "wickets": 2
+            }
+          ],
           "kabaddiScore": null,
           "footballScore": null,
           "basketBallScore": null,
           "hockeyScore": null,
           "status": {
             "cricket": {
-              "isBatting": false
+              "isBatting": true
             }
           }
         }
@@ -363,11 +307,11 @@
           "color": "#91a39f",
           "cricketScore": [
             {
-              "runs": 61,
-              "overs": "13.5",
-              "balls": "83",
-              "status": "IN_PROGRESS",
-              "wickets": 6
+              "runs": 93,
+              "overs": "20",
+              "balls": "120",
+              "status": "COMPLETED",
+              "wickets": 8
             }
           ],
           "kabaddiScore": null,
@@ -376,7 +320,7 @@
           "hockeyScore": null,
           "status": {
             "cricket": {
-              "isBatting": true
+              "isBatting": false
             }
           }
         },
@@ -388,14 +332,22 @@
           },
           "isWinner": null,
           "color": "#4d94d6",
-          "cricketScore": [],
+          "cricketScore": [
+            {
+              "runs": 4,
+              "overs": "0.4",
+              "balls": "4",
+              "status": "IN_PROGRESS",
+              "wickets": 0
+            }
+          ],
           "kabaddiScore": null,
           "footballScore": null,
           "basketBallScore": null,
           "hockeyScore": null,
           "status": {
             "cricket": {
-              "isBatting": false
+              "isBatting": true
             }
           }
         }
@@ -443,11 +395,11 @@
           "color": "#6fc9ff",
           "cricketScore": [
             {
-              "runs": 145,
-              "overs": "51",
+              "runs": 171,
+              "overs": "60.2",
               "balls": "0",
               "status": "IN_PROGRESS",
-              "wickets": 5
+              "wickets": 7
             }
           ],
           "kabaddiScore": null,
@@ -550,8 +502,8 @@
           "color": "#ffd500",
           "cricketScore": [
             {
-              "runs": 169,
-              "overs": "50",
+              "runs": 208,
+              "overs": "63",
               "balls": "0",
               "status": "IN_PROGRESS",
               "wickets": 2
@@ -2089,74 +2041,6 @@
       }
     },
     {
-      "category": "Golf",
-      "title": "World Feed   Day 4",
-      "tournament": "The RSM Classic",
-      "match_id": 138275,
-      "status": "NOT_STARTED",
-      "streamingStatus": "NOT_STARTED",
-      "startTime": "23 November 2025 11:30 PM",
-      "startDate": "01 January 1970 05:30 AM",
-      "image": "https://www.fancode.com/skillup-uploads/cms-media/The-RSM-Classic--old-match-card.png",
-      "image_cdn": {
-        "TATAPLAY": "https://images.fancode.com/aig/match/v1/138275_CASACARDS_PARTNER_16_9_1920_1080.png",
-        "APP": "https://www.fancode.com/skillup-uploads/cms-media/The-RSM-Classic--old-match-card.png",
-        "PLAYBACK": null,
-        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/RSM-Classic-Tour--&-Team-Logo.png",
-        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/Golf_Fallback_Old_match-card.jpg",
-        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/The-RSM-Classic--old-match-card.png",
-        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/The-RSM-Classic--Sporty-match-card.png",
-        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/138275_CASACARDS_PARTNER_16_9_1920_1080.png"
-      },
-      "teams": [
-        {
-          "name": "World Feed - Day 4",
-          "shortName": "World Feed - Day 4",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/gl-flags/FC-PGA@2x.png"
-          },
-          "isWinner": null,
-          "color": "#FF0000",
-          "cricketScore": null,
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        },
-        {
-          "name": "Sea Island Golf Club",
-          "shortName": "Sea Island Golf Club",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/gl-flags/FC-LOC@2x.png"
-          },
-          "isWinner": null,
-          "color": "#141414",
-          "cricketScore": null,
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        }
-      ],
-      "language": "BLOODY_SWEET",
-      "adfree_stream": null,
-      "dai_stream": null,
-      "STREAMING_CDN": {
-        "language": "BLOODY_SWEET",
-        "Primary_Playback_URL": null
-      }
-    },
-    {
       "category": "Hockey",
       "title": "Belgium Vs India",
       "tournament": "Sultan Azlan Shah Cup",
@@ -2204,6 +2088,74 @@
           },
           "isWinner": null,
           "color": "#0f60de",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        }
+      ],
+      "language": "BLOODY_SWEET",
+      "adfree_stream": null,
+      "dai_stream": null,
+      "STREAMING_CDN": {
+        "language": "BLOODY_SWEET",
+        "Primary_Playback_URL": null
+      }
+    },
+    {
+      "category": "Golf",
+      "title": "World Feed   Day 4",
+      "tournament": "The RSM Classic",
+      "match_id": 138275,
+      "status": "NOT_STARTED",
+      "streamingStatus": "NOT_STARTED",
+      "startTime": "23 November 2025 11:30 PM",
+      "startDate": "01 January 1970 05:30 AM",
+      "image": "https://www.fancode.com/skillup-uploads/cms-media/The-RSM-Classic--old-match-card.png",
+      "image_cdn": {
+        "TATAPLAY": "https://images.fancode.com/aig/match/v1/138275_CASACARDS_PARTNER_16_9_1920_1080.png",
+        "APP": "https://www.fancode.com/skillup-uploads/cms-media/The-RSM-Classic--old-match-card.png",
+        "PLAYBACK": null,
+        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/RSM-Classic-Tour--&-Team-Logo.png",
+        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/Golf_Fallback_Old_match-card.jpg",
+        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/The-RSM-Classic--old-match-card.png",
+        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/The-RSM-Classic--Sporty-match-card.png",
+        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/138275_CASACARDS_PARTNER_16_9_1920_1080.png"
+      },
+      "teams": [
+        {
+          "name": "World Feed - Day 4",
+          "shortName": "World Feed - Day 4",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/gl-flags/FC-PGA@2x.png"
+          },
+          "isWinner": null,
+          "color": "#FF0000",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        },
+        {
+          "name": "Sea Island Golf Club",
+          "shortName": "Sea Island Golf Club",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/gl-flags/FC-LOC@2x.png"
+          },
+          "isWinner": null,
+          "color": "#141414",
           "cricketScore": null,
           "kabaddiScore": null,
           "footballScore": null,
@@ -2728,6 +2680,74 @@
           },
           "isWinner": null,
           "color": "#00334d",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        }
+      ],
+      "language": "BLOODY_SWEET",
+      "adfree_stream": null,
+      "dai_stream": null,
+      "STREAMING_CDN": {
+        "language": "BLOODY_SWEET",
+        "Primary_Playback_URL": null
+      }
+    },
+    {
+      "category": "Football",
+      "title": "Shabab Al Ahli Vs Al Gharafa",
+      "tournament": "AFC Champions League Elite 2025-26",
+      "match_id": 136068,
+      "status": "NOT_STARTED",
+      "streamingStatus": "NOT_STARTED",
+      "startTime": "24 November 2025 09:30 PM",
+      "startDate": "01 January 1970 05:30 AM",
+      "image": "https://www.fancode.com/skillup-uploads/cms-media/136068_5647_SAA_AGH_fc-Web.jpg",
+      "image_cdn": {
+        "TATAPLAY": "https://images.fancode.com/aig/match/v1/136068_CASACARDS_PARTNER_16_9_1920_1080.png",
+        "APP": "https://www.fancode.com/skillup-uploads/cms-media/136068_5647_SAA_AGH_fc-Web.jpg",
+        "PLAYBACK": null,
+        "LOGO": "https://fancode.com/skillup-uploads/prod-images/2024/09/AFC-Champions-League-Elite.png",
+        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/Football_Fallback_Old_match-card.jpg",
+        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/136068_5647_SAA_AGH_fc-Web.jpg",
+        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/136068_5647_SAA_AGH_fc-App.jpg",
+        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/136068_CASACARDS_PARTNER_16_9_1920_1080.png"
+      },
+      "teams": [
+        {
+          "name": "Shabab Al Ahli",
+          "shortName": "SAA",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-SAA@2x.png"
+          },
+          "isWinner": null,
+          "color": "#C593D6",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        },
+        {
+          "name": "Al Gharafa",
+          "shortName": "AGH",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-AGH@2x.png"
+          },
+          "isWinner": null,
+          "color": "#11E186",
           "cricketScore": null,
           "kabaddiScore": null,
           "footballScore": null,
