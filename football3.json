@@ -1,7 +1,7 @@
 {
   "Author": "DOCTOR_STRANGE",
   "name": "FanCode Live Matches API",
-  "last_updated": "08:49:03 PM 23-11-2025",
+  "last_updated": "09:00:02 PM 23-11-2025",
   "headers": {
     "User-Agent": "ReactNativeVideo/8.0.0 (Linux;Android/13) AndroidXMedia3/1.1.1",
     "Referer": "https://fancode.com/"
@@ -144,11 +144,11 @@
           "color": "#803816",
           "cricketScore": [
             {
-              "runs": 49,
-              "overs": "5.2",
-              "balls": "33",
+              "runs": 71,
+              "overs": "7.4",
+              "balls": "46",
               "status": "IN_PROGRESS",
-              "wickets": 3
+              "wickets": 6
             }
           ],
           "kabaddiScore": null,
@@ -205,11 +205,11 @@
           "color": "#d8a918",
           "cricketScore": [
             {
-              "runs": 63,
-              "overs": "10.1",
-              "balls": "61",
+              "runs": 73,
+              "overs": "13.1",
+              "balls": "79",
               "status": "IN_PROGRESS",
-              "wickets": 4
+              "wickets": 5
             }
           ],
           "kabaddiScore": null,
@@ -285,10 +285,17 @@
           "color": "#19a661",
           "cricketScore": null,
           "kabaddiScore": null,
-          "footballScore": null,
+          "footballScore": {
+            "points": 0,
+            "goals": []
+          },
           "basketBallScore": null,
           "hockeyScore": null,
-          "status": null
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
         },
         {
           "name": "Girona FC",
@@ -300,10 +307,17 @@
           "color": "#fbc573",
           "cricketScore": null,
           "kabaddiScore": null,
-          "footballScore": null,
+          "footballScore": {
+            "points": 0,
+            "goals": []
+          },
           "basketBallScore": null,
           "hockeyScore": null,
-          "status": null
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
         }
       ],
       "language": "ENGLISH",
