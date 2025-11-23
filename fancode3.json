@@ -1,7 +1,7 @@
 {
   "Author": "DOCTOR_STRANGE",
   "name": "FanCode Live Matches API",
-  "last_updated": "05:21:01 AM 24-11-2025",
+  "last_updated": "05:28:01 AM 24-11-2025",
   "headers": {
     "User-Agent": "ReactNativeVideo/8.0.0 (Linux;Android/13) AndroidXMedia3/1.1.1",
     "Referer": "https://fancode.com/"
@@ -10,6 +10,94 @@
   "live_matches": 3,
   "upcoming_matches": 35,
   "matches": [
+    {
+      "category": "Cricket",
+      "title": "New South Wales Vs Tasmania",
+      "tournament": "Sheffield Shield, 2025-26",
+      "match_id": 134026,
+      "status": "LIVE",
+      "streamingStatus": "STARTED",
+      "startTime": "22 November 2025 05:00 AM",
+      "startDate": "24 November 2025 05:00 AM",
+      "image": "https://www.fancode.com/skillup-uploads/cms-media/134026_5609_NSW_TAS_fc-Web.jpg",
+      "image_cdn": {
+        "TATAPLAY": "https://images.fancode.com/aig/match/v1/134026_CASACARDS_PARTNER_16_9_1920_1080.png",
+        "APP": "https://www.fancode.com/skillup-uploads/cms-media/134026_5609_NSW_TAS_fc-Web.jpg",
+        "PLAYBACK": "https://www.fancode.com/skillup-uploads/cms-media/134026_5609_NSW_TAS_fc-Web.jpg",
+        "LOGO": "https://fancode.com/skillup-uploads/prod-images/2024/11/Sheffleld-Shield.png",
+        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/Cricket_Fallback_Old_match-card.jpg",
+        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/134026_5609_NSW_TAS_fc-Web.jpg",
+        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/134026_5609_NSW_TAS_fc-App_1760687268113.jpg",
+        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/134026_CASACARDS_PARTNER_16_9_1920_1080.png"
+      },
+      "teams": [
+        {
+          "name": "New South Wales",
+          "shortName": "NSW",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-NSW@2x.png"
+          },
+          "isWinner": null,
+          "color": "#0088e7",
+          "cricketScore": [
+            {
+              "runs": 391,
+              "overs": "100.4",
+              "balls": "0",
+              "status": "DECLARED",
+              "wickets": 9
+            }
+          ],
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        },
+        {
+          "name": "Tasmania",
+          "shortName": "TAS",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-TAS@2x.png"
+          },
+          "isWinner": null,
+          "color": "#007e1e",
+          "cricketScore": [
+            {
+              "runs": 239,
+              "overs": "73.1",
+              "balls": "0",
+              "status": "IN_PROGRESS",
+              "wickets": 2
+            }
+          ],
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": true
+            }
+          }
+        }
+      ],
+      "language": "ENGLISH",
+      "adfree_stream": "https://in-mc-fdlive.fancode.com/linear/hls/pb/event/IjqlXMDLRwK0gMXR5T5EqA/stream/6b2400e8-5761-43af-852b-ad0a813b8f94:TPE/master.m3u8?hdnea=exp=1763965802~acl=/*~id=7a7de14636e4327c5e51290b614d9273-1763922600396~hmac=3cf695cc3f717ec09b301e7a3ef18e5e2f13edfcd5c162479710219a2ca4db3c",
+      "dai_stream": "https://dai.google.com/linear/hls/event/IjqlXMDLRwK0gMXR5T5EqA/master.m3u8",
+      "STREAMING_CDN": {
+        "Primary_Playback_URL": "https://in-mc-fdlive.fancode.com/linear/hls/pb/event/IjqlXMDLRwK0gMXR5T5EqA/stream/6b2400e8-5761-43af-852b-ad0a813b8f94:TPE/master.m3u8?hdnea=exp=1763965802~acl=/*~id=7a7de14636e4327c5e51290b614d9273-1763922600396~hmac=3cf695cc3f717ec09b301e7a3ef18e5e2f13edfcd5c162479710219a2ca4db3c",
+        "fancode_cdn": "https://in-mc-fdlive.fancode.com/linear/hls/pb/event/IjqlXMDLRwK0gMXR5T5EqA/stream/6b2400e8-5761-43af-852b-ad0a813b8f94:TPE/master.m3u8?hdnea=exp=1763965802~acl=/*~id=7a7de14636e4327c5e51290b614d9273-1763922600396~hmac=3cf695cc3f717ec09b301e7a3ef18e5e2f13edfcd5c162479710219a2ca4db3c",
+        "dai_google_cdn": "https://dai.google.com/linear/hls/event/IjqlXMDLRwK0gMXR5T5EqA/master.m3u8",
+        "cloudfront_cdn": "Unavailable",
+        "sony_cdn": "Unavailable",
+        "language": "ENGLISH"
+      }
+    },
     {
       "category": "Cricket",
       "title": "Trinidad & Tobago Red Force Vs Guyana Harpy Eagles",
@@ -77,94 +165,6 @@
         "Primary_Playback_URL": "https://in-mc-fdlive.fancode.com/mumbai/138052_english_hls_b89cc9c69828531_1ta-di_h264/index.m3u8",
         "fancode_cdn": "https://in-mc-fdlive.fancode.com/mumbai/138052_english_hls_b89cc9c69828531_1ta-di_h264/index.m3u8",
         "dai_google_cdn": "https://dai.google.com/linear/hls/event/yF5lRWVBRdKiCbS04NbL9g/master.m3u8",
-        "cloudfront_cdn": "Unavailable",
-        "sony_cdn": "Unavailable",
-        "language": "ENGLISH"
-      }
-    },
-    {
-      "category": "Cricket",
-      "title": "New South Wales Vs Tasmania",
-      "tournament": "Sheffield Shield, 2025-26",
-      "match_id": 134026,
-      "status": "LIVE",
-      "streamingStatus": "STARTED",
-      "startTime": "22 November 2025 05:00 AM",
-      "startDate": "24 November 2025 05:00 AM",
-      "image": "https://www.fancode.com/skillup-uploads/cms-media/134026_5609_NSW_TAS_fc-Web.jpg",
-      "image_cdn": {
-        "TATAPLAY": "https://images.fancode.com/aig/match/v1/134026_CASACARDS_PARTNER_16_9_1920_1080.png",
-        "APP": "https://www.fancode.com/skillup-uploads/cms-media/134026_5609_NSW_TAS_fc-Web.jpg",
-        "PLAYBACK": "https://www.fancode.com/skillup-uploads/cms-media/134026_5609_NSW_TAS_fc-Web.jpg",
-        "LOGO": "https://fancode.com/skillup-uploads/prod-images/2024/11/Sheffleld-Shield.png",
-        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/Cricket_Fallback_Old_match-card.jpg",
-        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/134026_5609_NSW_TAS_fc-Web.jpg",
-        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/134026_5609_NSW_TAS_fc-App_1760687268113.jpg",
-        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/134026_CASACARDS_PARTNER_16_9_1920_1080.png"
-      },
-      "teams": [
-        {
-          "name": "New South Wales",
-          "shortName": "NSW",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-NSW@2x.png"
-          },
-          "isWinner": null,
-          "color": "#0088e7",
-          "cricketScore": [
-            {
-              "runs": 391,
-              "overs": "100.4",
-              "balls": "0",
-              "status": "DECLARED",
-              "wickets": 9
-            }
-          ],
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        },
-        {
-          "name": "Tasmania",
-          "shortName": "TAS",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-TAS@2x.png"
-          },
-          "isWinner": null,
-          "color": "#007e1e",
-          "cricketScore": [
-            {
-              "runs": 196,
-              "overs": "58",
-              "balls": "0",
-              "status": "IN_PROGRESS",
-              "wickets": 2
-            }
-          ],
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": true
-            }
-          }
-        }
-      ],
-      "language": "ENGLISH",
-      "adfree_stream": "https://in-mc-fdlive.fancode.com/linear/hls/pb/event/IjqlXMDLRwK0gMXR5T5EqA/stream/6b2400e8-5761-43af-852b-ad0a813b8f94:TPE/master.m3u8?hdnea=exp=1763965802~acl=/*~id=7a7de14636e4327c5e51290b614d9273-1763922600396~hmac=3cf695cc3f717ec09b301e7a3ef18e5e2f13edfcd5c162479710219a2ca4db3c",
-      "dai_stream": "https://dai.google.com/linear/hls/event/IjqlXMDLRwK0gMXR5T5EqA/master.m3u8",
-      "STREAMING_CDN": {
-        "Primary_Playback_URL": "https://in-mc-fdlive.fancode.com/linear/hls/pb/event/IjqlXMDLRwK0gMXR5T5EqA/stream/6b2400e8-5761-43af-852b-ad0a813b8f94:TPE/master.m3u8?hdnea=exp=1763965802~acl=/*~id=7a7de14636e4327c5e51290b614d9273-1763922600396~hmac=3cf695cc3f717ec09b301e7a3ef18e5e2f13edfcd5c162479710219a2ca4db3c",
-        "fancode_cdn": "https://in-mc-fdlive.fancode.com/linear/hls/pb/event/IjqlXMDLRwK0gMXR5T5EqA/stream/6b2400e8-5761-43af-852b-ad0a813b8f94:TPE/master.m3u8?hdnea=exp=1763965802~acl=/*~id=7a7de14636e4327c5e51290b614d9273-1763922600396~hmac=3cf695cc3f717ec09b301e7a3ef18e5e2f13edfcd5c162479710219a2ca4db3c",
-        "dai_google_cdn": "https://dai.google.com/linear/hls/event/IjqlXMDLRwK0gMXR5T5EqA/master.m3u8",
         "cloudfront_cdn": "Unavailable",
         "sony_cdn": "Unavailable",
         "language": "ENGLISH"
