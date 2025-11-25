@@ -1,14 +1,14 @@
 {
   "Author": "DOCTOR_STRANGE",
   "name": "FanCode Live Matches API",
-  "last_updated": "05:49:01 PM 25-11-2025",
+  "last_updated": "06:14:00 PM 25-11-2025",
   "headers": {
     "User-Agent": "ReactNativeVideo/8.0.0 (Linux;Android/13) AndroidXMedia3/1.1.1",
     "Referer": "https://fancode.com/"
   },
   "total_matches": 38,
-  "live_matches": 5,
-  "upcoming_matches": 33,
+  "live_matches": 3,
+  "upcoming_matches": 35,
   "matches": [
     {
       "category": "Cricket",
@@ -41,11 +41,11 @@
           "color": "#a1800e",
           "cricketScore": [
             {
-              "runs": 78,
-              "overs": "13",
-              "balls": "78",
-              "status": "IN_PROGRESS",
-              "wickets": 5
+              "runs": 157,
+              "overs": "20",
+              "balls": "120",
+              "status": "COMPLETED",
+              "wickets": 8
             }
           ],
           "kabaddiScore": null,
@@ -54,7 +54,7 @@
           "hockeyScore": null,
           "status": {
             "cricket": {
-              "isBatting": true
+              "isBatting": false
             }
           }
         },
@@ -66,14 +66,22 @@
           },
           "isWinner": null,
           "color": "#c88518",
-          "cricketScore": [],
+          "cricketScore": [
+            {
+              "runs": 46,
+              "overs": "5",
+              "balls": "30",
+              "status": "IN_PROGRESS",
+              "wickets": 3
+            }
+          ],
           "kabaddiScore": null,
           "footballScore": null,
           "basketBallScore": null,
           "hockeyScore": null,
           "status": {
             "cricket": {
-              "isBatting": false
+              "isBatting": true
             }
           }
         }
@@ -156,134 +164,6 @@
       "STREAMING_CDN": {
         "language": "BLOODY_SWEET",
         "Primary_Playback_URL": null
-      }
-    },
-    {
-      "category": "Football",
-      "title": "Shanghai Port Vs Seoul",
-      "tournament": "AFC Champions League Elite 2025-26",
-      "match_id": 136021,
-      "status": "LIVE",
-      "streamingStatus": "STARTED",
-      "startTime": "25 November 2025 03:30 PM",
-      "startDate": "01 January 1970 05:30 AM",
-      "image": "https://www.fancode.com/skillup-uploads/cms-media/136021_5647_SHG_SE_fc-Web.jpg",
-      "image_cdn": {
-        "TATAPLAY": "https://images.fancode.com/aig/match/v1/136021_CASACARDS_PARTNER_16_9_1920_1080.png",
-        "APP": "https://www.fancode.com/skillup-uploads/cms-media/136021_5647_SHG_SE_fc-Web.jpg",
-        "PLAYBACK": "https://www.fancode.com/skillup-uploads/cms-media/136021_5647_SHG_SE_fc-Web.jpg",
-        "LOGO": "https://fancode.com/skillup-uploads/prod-images/2024/09/AFC-Champions-League-Elite.png",
-        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/Football_Fallback_Old_match-card.jpg",
-        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/136021_5647_SHG_SE_fc-Web.jpg",
-        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/136021_5647_SHG_SE_fc-App.jpg",
-        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/136021_CASACARDS_PARTNER_16_9_1920_1080.png"
-      },
-      "teams": [
-        {
-          "name": "Shanghai Port",
-          "shortName": "SHG",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-SHANGP@2x.png"
-          },
-          "isWinner": null,
-          "color": "#121c3d",
-          "cricketScore": null,
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": null
-        },
-        {
-          "name": "Seoul",
-          "shortName": "SE",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-SE@2x.png"
-          },
-          "isWinner": null,
-          "color": "#FFB741",
-          "cricketScore": null,
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": null
-        }
-      ],
-      "language": "ENGLISH",
-      "adfree_stream": "https://in-mc-fdlive.fancode.com/mumbai/136021_english_hls_a1fc38e9fc17429_1ta-di_h264/index.m3u8",
-      "dai_stream": "https://dai.google.com/linear/hls/event/LKtvmTH6TeahsfwWlXcq0g/master.m3u8",
-      "STREAMING_CDN": {
-        "Primary_Playback_URL": "https://in-mc-fdlive.fancode.com/mumbai/136021_english_hls_a1fc38e9fc17429_1ta-di_h264/index.m3u8",
-        "fancode_cdn": "https://in-mc-fdlive.fancode.com/mumbai/136021_english_hls_a1fc38e9fc17429_1ta-di_h264/index.m3u8",
-        "dai_google_cdn": "https://dai.google.com/linear/hls/event/LKtvmTH6TeahsfwWlXcq0g/master.m3u8",
-        "cloudfront_cdn": "Unavailable",
-        "sony_cdn": "Unavailable",
-        "language": "ENGLISH"
-      }
-    },
-    {
-      "category": "Football",
-      "title": "Gangwon Vs Machida Zelvia",
-      "tournament": "AFC Champions League Elite 2025-26",
-      "match_id": 136020,
-      "status": "LIVE",
-      "streamingStatus": "STARTED",
-      "startTime": "25 November 2025 03:30 PM",
-      "startDate": "01 January 1970 05:30 AM",
-      "image": "https://www.fancode.com/skillup-uploads/cms-media/136020_5647_GW_MZ_fc-Web.jpg",
-      "image_cdn": {
-        "TATAPLAY": "https://images.fancode.com/aig/match/v1/136020_CASACARDS_PARTNER_16_9_1920_1080.png",
-        "APP": "https://www.fancode.com/skillup-uploads/cms-media/136020_5647_GW_MZ_fc-Web.jpg",
-        "PLAYBACK": "https://www.fancode.com/skillup-uploads/cms-media/136020_5647_GW_MZ_fc-Web.jpg",
-        "LOGO": "https://fancode.com/skillup-uploads/prod-images/2024/09/AFC-Champions-League-Elite.png",
-        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/Football_Fallback_Old_match-card.jpg",
-        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/136020_5647_GW_MZ_fc-Web.jpg",
-        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/136020_5647_GW_MZ_fc-App.jpg",
-        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/136020_CASACARDS_PARTNER_16_9_1920_1080.png"
-      },
-      "teams": [
-        {
-          "name": "Gangwon",
-          "shortName": "GW",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/DEF-FT1@2x.png"
-          },
-          "isWinner": null,
-          "color": "#FF0000",
-          "cricketScore": null,
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": null
-        },
-        {
-          "name": "Machida Zelvia",
-          "shortName": "MZ",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-MZ@2x.png"
-          },
-          "isWinner": null,
-          "color": "#248eff",
-          "cricketScore": null,
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": null
-        }
-      ],
-      "language": "ENGLISH",
-      "adfree_stream": "https://in-mc-fdlive.fancode.com/mumbai/136020_english_hls_245e839f8050488_1ta-di_h264/index.m3u8",
-      "dai_stream": "https://dai.google.com/linear/hls/event/pKJqXWW4RQmHERuF5X7vWg/master.m3u8",
-      "STREAMING_CDN": {
-        "Primary_Playback_URL": "https://in-mc-fdlive.fancode.com/mumbai/136020_english_hls_245e839f8050488_1ta-di_h264/index.m3u8",
-        "fancode_cdn": "https://in-mc-fdlive.fancode.com/mumbai/136020_english_hls_245e839f8050488_1ta-di_h264/index.m3u8",
-        "dai_google_cdn": "https://dai.google.com/linear/hls/event/pKJqXWW4RQmHERuF5X7vWg/master.m3u8",
-        "cloudfront_cdn": "Unavailable",
-        "sony_cdn": "Unavailable",
-        "language": "ENGLISH"
       }
     },
     {
@@ -1235,74 +1115,6 @@
       }
     },
     {
-      "category": "Hockey",
-      "title": "Canada Vs New Zealand",
-      "tournament": "Sultan Azlan Shah Cup",
-      "match_id": 138417,
-      "status": "NOT_STARTED",
-      "streamingStatus": "NOT_STARTED",
-      "startTime": "26 November 2025 11:30 AM",
-      "startDate": "01 January 1970 05:30 AM",
-      "image": "https://www.fancode.com/skillup-uploads/cms-media/138417_5777_CAN_NZ_fc-Web.jpg",
-      "image_cdn": {
-        "TATAPLAY": "https://images.fancode.com/aig/match/v1/138417_CASACARDS_PARTNER_16_9_1920_1080.png",
-        "APP": "https://www.fancode.com/skillup-uploads/cms-media/138417_5777_CAN_NZ_fc-Web.jpg",
-        "PLAYBACK": null,
-        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/Sultan-Azlan-Shah-Cup.png",
-        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Hockey-1440-x-360.jpg",
-        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/138417_5777_CAN_NZ_fc-Web.jpg",
-        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/138417_5777_CAN_NZ_fc-App.jpg",
-        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/138417_CASACARDS_PARTNER_16_9_1920_1080.png"
-      },
-      "teams": [
-        {
-          "name": "Canada",
-          "shortName": "CAN",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/hk-flags/CAN-HK1@2x.png"
-          },
-          "isWinner": null,
-          "color": "#ff5555",
-          "cricketScore": null,
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        },
-        {
-          "name": "New Zealand",
-          "shortName": "NZ",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/hk-flags/FC-NZC@2x.png"
-          },
-          "isWinner": null,
-          "color": "#1d2c6b",
-          "cricketScore": null,
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        }
-      ],
-      "language": "BLOODY_SWEET",
-      "adfree_stream": null,
-      "dai_stream": null,
-      "STREAMING_CDN": {
-        "language": "BLOODY_SWEET",
-        "Primary_Playback_URL": null
-      }
-    },
-    {
       "category": "Cricket",
       "title": "Deccan Gladiators Vs Ajman Titans",
       "tournament": "Abu Dhabi T10, 2025",
@@ -1350,6 +1162,74 @@
           },
           "isWinner": null,
           "color": "#a87446",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        }
+      ],
+      "language": "BLOODY_SWEET",
+      "adfree_stream": null,
+      "dai_stream": null,
+      "STREAMING_CDN": {
+        "language": "BLOODY_SWEET",
+        "Primary_Playback_URL": null
+      }
+    },
+    {
+      "category": "Hockey",
+      "title": "Canada Vs New Zealand",
+      "tournament": "Sultan Azlan Shah Cup",
+      "match_id": 138417,
+      "status": "NOT_STARTED",
+      "streamingStatus": "NOT_STARTED",
+      "startTime": "26 November 2025 11:30 AM",
+      "startDate": "01 January 1970 05:30 AM",
+      "image": "https://www.fancode.com/skillup-uploads/cms-media/138417_5777_CAN_NZ_fc-Web.jpg",
+      "image_cdn": {
+        "TATAPLAY": "https://images.fancode.com/aig/match/v1/138417_CASACARDS_PARTNER_16_9_1920_1080.png",
+        "APP": "https://www.fancode.com/skillup-uploads/cms-media/138417_5777_CAN_NZ_fc-Web.jpg",
+        "PLAYBACK": null,
+        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/Sultan-Azlan-Shah-Cup.png",
+        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Hockey-1440-x-360.jpg",
+        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/138417_5777_CAN_NZ_fc-Web.jpg",
+        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/138417_5777_CAN_NZ_fc-App.jpg",
+        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/138417_CASACARDS_PARTNER_16_9_1920_1080.png"
+      },
+      "teams": [
+        {
+          "name": "Canada",
+          "shortName": "CAN",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/hk-flags/CAN-HK1@2x.png"
+          },
+          "isWinner": null,
+          "color": "#ff5555",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        },
+        {
+          "name": "New Zealand",
+          "shortName": "NZ",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/hk-flags/FC-NZC@2x.png"
+          },
+          "isWinner": null,
+          "color": "#1d2c6b",
           "cricketScore": null,
           "kabaddiScore": null,
           "footballScore": null,
@@ -2574,6 +2454,142 @@
           },
           "isWinner": null,
           "color": "#ff5555",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        }
+      ],
+      "language": "BLOODY_SWEET",
+      "adfree_stream": null,
+      "dai_stream": null,
+      "STREAMING_CDN": {
+        "language": "BLOODY_SWEET",
+        "Primary_Playback_URL": null
+      }
+    },
+    {
+      "category": "Hockey",
+      "title": "India Vs New Zealand",
+      "tournament": "Sultan Azlan Shah Cup",
+      "match_id": 138421,
+      "status": "NOT_STARTED",
+      "streamingStatus": "NOT_STARTED",
+      "startTime": "27 November 2025 01:30 PM",
+      "startDate": "01 January 1970 05:30 AM",
+      "image": "https://www.fancode.com/skillup-uploads/cms-media/138421_5777_IND_NZ_fc-Web.jpg",
+      "image_cdn": {
+        "TATAPLAY": "https://images.fancode.com/aig/match/v1/138421_CASACARDS_PARTNER_16_9_1920_1080.png",
+        "APP": "https://www.fancode.com/skillup-uploads/cms-media/138421_5777_IND_NZ_fc-Web.jpg",
+        "PLAYBACK": null,
+        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/Sultan-Azlan-Shah-Cup.png",
+        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Hockey-1440-x-360.jpg",
+        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/138421_5777_IND_NZ_fc-Web.jpg",
+        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/138421_5777_IND_NZ_fc-App.jpg",
+        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/138421_CASACARDS_PARTNER_16_9_1920_1080.png"
+      },
+      "teams": [
+        {
+          "name": "India",
+          "shortName": "IND",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/hk-flags/FC-INDA@2x.png"
+          },
+          "isWinner": null,
+          "color": "#0f60de",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        },
+        {
+          "name": "New Zealand",
+          "shortName": "NZ",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/hk-flags/FC-NZC@2x.png"
+          },
+          "isWinner": null,
+          "color": "#1d2c6b",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        }
+      ],
+      "language": "BLOODY_SWEET",
+      "adfree_stream": null,
+      "dai_stream": null,
+      "STREAMING_CDN": {
+        "language": "BLOODY_SWEET",
+        "Primary_Playback_URL": null
+      }
+    },
+    {
+      "category": "Football",
+      "title": "Macarthur Vs Wofoo Tai Po",
+      "tournament": "AFC Champions League Two 2025-26",
+      "match_id": 136147,
+      "status": "NOT_STARTED",
+      "streamingStatus": "NOT_STARTED",
+      "startTime": "27 November 2025 01:15 PM",
+      "startDate": "01 January 1970 05:30 AM",
+      "image": "https://www.fancode.com/skillup-uploads/cms-media/136147_5648_MAC_WTP_fc-Web_1758118382695.jpg",
+      "image_cdn": {
+        "TATAPLAY": "https://images.fancode.com/aig/match/v1/136147_CASACARDS_PARTNER_16_9_1920_1080.png",
+        "APP": "https://www.fancode.com/skillup-uploads/cms-media/136147_5648_MAC_WTP_fc-Web_1758118382695.jpg",
+        "PLAYBACK": null,
+        "LOGO": "https://fancode.com/skillup-uploads/prod-images/2024/09/AFC-Champions-League-Two.png",
+        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/Football_Fallback_Old_match-card.jpg",
+        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/136147_5648_MAC_WTP_fc-Web_1758118382695.jpg",
+        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/136147_5648_MAC_WTP_fc-App_1758118411566.jpg",
+        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/136147_CASACARDS_PARTNER_16_9_1920_1080.png"
+      },
+      "teams": [
+        {
+          "name": "Macarthur",
+          "shortName": "MAC",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-MACA@2x.png"
+          },
+          "isWinner": null,
+          "color": "#000000",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        },
+        {
+          "name": "Wofoo Tai Po",
+          "shortName": "WTP",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-WTP@2x.png"
+          },
+          "isWinner": null,
+          "color": "#044f26",
           "cricketScore": null,
           "kabaddiScore": null,
           "footballScore": null,
