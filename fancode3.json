@@ -1,14 +1,14 @@
 {
   "Author": "DOCTOR_STRANGE",
   "name": "FanCode Live Matches API",
-  "last_updated": "06:49:01 PM 27-11-2025",
+  "last_updated": "07:07:01 PM 27-11-2025",
   "headers": {
     "User-Agent": "ReactNativeVideo/8.3.0 (Linux;Android/13) AndroidXMedia3/1.1.1",
     "Referer": "https://fancode.com/"
   },
   "total_matches": 38,
-  "live_matches": 9,
-  "upcoming_matches": 29,
+  "live_matches": 10,
+  "upcoming_matches": 28,
   "matches": [
     {
       "category": "Cricket",
@@ -68,11 +68,18 @@
           "color": "#2166a7",
           "cricketScore": [
             {
-              "runs": 87,
-              "overs": "8.5",
-              "balls": "53",
-              "status": "IN_PROGRESS",
+              "runs": 104,
+              "overs": "10",
+              "balls": "60",
+              "status": "COMPLETED",
               "wickets": 4
+            },
+            {
+              "runs": 12,
+              "overs": "1",
+              "balls": "6",
+              "status": "IN_PROGRESS",
+              "wickets": 0
             }
           ],
           "kabaddiScore": null,
@@ -129,11 +136,11 @@
           "color": "#ba6a15",
           "cricketScore": [
             {
-              "runs": 143,
-              "overs": "16.4",
-              "balls": "100",
+              "runs": 181,
+              "overs": "20",
+              "balls": "120",
               "status": "IN_PROGRESS",
-              "wickets": 3
+              "wickets": 4
             }
           ],
           "kabaddiScore": null,
@@ -180,6 +187,78 @@
     },
     {
       "category": "Cricket",
+      "title": "Uae Bulls Vs Aspin Stallions",
+      "tournament": "Abu Dhabi T10, 2025",
+      "match_id": 138226,
+      "status": "LIVE",
+      "streamingStatus": "STARTED",
+      "startTime": "27 November 2025 07:15 PM",
+      "startDate": "01 January 1970 05:30 AM",
+      "image": "https://www.fancode.com/skillup-uploads/cms-media/138226_5763_DB_AST_fc-web_1763729430464.png",
+      "image_cdn": {
+        "TATAPLAY": "https://images.fancode.com/aig/match/v1/138226_CASACARDS_PARTNER_16_9_1920_1080.png",
+        "APP": "https://www.fancode.com/skillup-uploads/cms-media/138226_5763_DB_AST_fc-web_1763729430464.png",
+        "PLAYBACK": "https://www.fancode.com/skillup-uploads/cms-media/138226_5763_DB_AST_fc-web_1763729430464.png",
+        "LOGO": "https://fancode.com/skillup-uploads/prod-images/2024/11/Abu-Dhabi-T10-2024-Tour-Logo.png",
+        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/Cricket_Fallback_Old_match-card.jpg",
+        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/138226_5763_DB_AST_fc-web_1763729430464.png",
+        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/138226_5763_DB_AST_fc-App_1763728569552.png",
+        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/138226_CASACARDS_PARTNER_16_9_1920_1080.png"
+      },
+      "teams": [
+        {
+          "name": "UAE Bulls",
+          "shortName": "UAB",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-UAB@2x.png"
+          },
+          "isWinner": null,
+          "color": "#DA4E33",
+          "cricketScore": [],
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        },
+        {
+          "name": "Aspin Stallions",
+          "shortName": "AST",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-ASTA@2x.png"
+          },
+          "isWinner": null,
+          "color": "#803816",
+          "cricketScore": [],
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        }
+      ],
+      "language": "ENGLISH",
+      "adfree_stream": "https://in-mc-fdlive.fancode.com/mumbai/138226_english_hls_de3799bfc873865_1ta-di_h264/index.m3u8",
+      "dai_stream": "https://dai.google.com/linear/hls/event/Ufi4YVJtRNOCZMK4scHNyg/master.m3u8",
+      "STREAMING_CDN": {
+        "Primary_Playback_URL": "https://in-mc-fdlive.fancode.com/mumbai/138226_english_hls_de3799bfc873865_1ta-di_h264/index.m3u8",
+        "fancode_cdn": "https://in-mc-fdlive.fancode.com/mumbai/138226_english_hls_de3799bfc873865_1ta-di_h264/index.m3u8",
+        "dai_google_cdn": "https://dai.google.com/linear/hls/event/Ufi4YVJtRNOCZMK4scHNyg/master.m3u8",
+        "cloudfront_cdn": "Unavailable",
+        "sony_cdn": "Unavailable",
+        "language": "ENGLISH"
+      }
+    },
+    {
+      "category": "Cricket",
       "title": "Pokhara Avengers Vs Janakpur Bolts",
       "tournament": "Nepal Premier League, 2025",
       "match_id": 138306,
@@ -205,7 +284,7 @@
           "flag": {
             "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-PKA@2x.png"
           },
-          "isWinner": null,
+          "isWinner": true,
           "color": "#dd3737",
           "cricketScore": [
             {
@@ -232,13 +311,13 @@
           "flag": {
             "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-JKB@2x.png"
           },
-          "isWinner": null,
+          "isWinner": false,
           "color": "#1d2b68",
           "cricketScore": [
             {
-              "runs": 101,
-              "overs": "17",
-              "balls": "102",
+              "runs": 130,
+              "overs": "20",
+              "balls": "120",
               "status": "IN_PROGRESS",
               "wickets": 8
             }
@@ -608,74 +687,6 @@
         "cloudfront_cdn": "Unavailable",
         "sony_cdn": "Unavailable",
         "language": "ENGLISH"
-      }
-    },
-    {
-      "category": "Cricket",
-      "title": "Uae Bulls Vs Aspin Stallions",
-      "tournament": "Abu Dhabi T10, 2025",
-      "match_id": 138226,
-      "status": "NOT_STARTED",
-      "streamingStatus": "NOT_STARTED",
-      "startTime": "27 November 2025 07:15 PM",
-      "startDate": "01 January 1970 05:30 AM",
-      "image": "https://www.fancode.com/skillup-uploads/cms-media/138226_5763_DB_AST_fc-web_1763729430464.png",
-      "image_cdn": {
-        "TATAPLAY": "https://images.fancode.com/aig/match/v1/138226_CASACARDS_PARTNER_16_9_1920_1080.png",
-        "APP": "https://www.fancode.com/skillup-uploads/cms-media/138226_5763_DB_AST_fc-web_1763729430464.png",
-        "PLAYBACK": null,
-        "LOGO": "https://fancode.com/skillup-uploads/prod-images/2024/11/Abu-Dhabi-T10-2024-Tour-Logo.png",
-        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/Cricket_Fallback_Old_match-card.jpg",
-        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/138226_5763_DB_AST_fc-web_1763729430464.png",
-        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/138226_5763_DB_AST_fc-App_1763728569552.png",
-        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/138226_CASACARDS_PARTNER_16_9_1920_1080.png"
-      },
-      "teams": [
-        {
-          "name": "UAE Bulls",
-          "shortName": "UAB",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-UAB@2x.png"
-          },
-          "isWinner": null,
-          "color": "#DA4E33",
-          "cricketScore": [],
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        },
-        {
-          "name": "Aspin Stallions",
-          "shortName": "AST",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-ASTA@2x.png"
-          },
-          "isWinner": null,
-          "color": "#803816",
-          "cricketScore": [],
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        }
-      ],
-      "language": "BLOODY_SWEET",
-      "adfree_stream": null,
-      "dai_stream": null,
-      "STREAMING_CDN": {
-        "language": "BLOODY_SWEET",
-        "Primary_Playback_URL": null
       }
     },
     {
@@ -1771,43 +1782,35 @@
       }
     },
     {
-      "category": "Cricket",
-      "title": "Northern Warriors Vs Uae Bulls",
-      "tournament": "Abu Dhabi T10, 2025",
-      "match_id": 138222,
-      "status": "COMPLETED",
-      "streamingStatus": "COMPLETED",
-      "startTime": "26 November 2025 05:00 PM",
+      "category": "Football",
+      "title": "Al Ahli Saudi Fc Vs Al Qadsiah Fc",
+      "tournament": "Saudi Kings Cup 2025-2026",
+      "match_id": 138026,
+      "status": "NOT_STARTED",
+      "streamingStatus": "NOT_STARTED",
+      "startTime": "28 November 2025 11:00 PM",
       "startDate": "01 January 1970 05:30 AM",
-      "image": "https://www.fancode.com/skillup-uploads/cms-media/138222_5763_DB_NW_fc-web_1763728590096.png",
+      "image": "https://www.fancode.com/skillup-uploads/cms-media/Football_Fallback_Old_match-card.jpg",
       "image_cdn": {
-        "TATAPLAY": "https://images.fancode.com/aig/match/v1/138222_CASACARDS_PARTNER_16_9_1920_1080.png",
-        "APP": "https://www.fancode.com/skillup-uploads/cms-media/138222_5763_DB_NW_fc-web_1763728590096.png",
+        "TATAPLAY": "https://images.fancode.com/aig/match/v1/138026_CASACARDS_PARTNER_16_9_1920_1080.png",
+        "APP": "https://www.fancode.com/skillup-uploads/cms-media/Football_Fallback_Old_match-card.jpg",
         "PLAYBACK": null,
-        "LOGO": "https://fancode.com/skillup-uploads/prod-images/2024/11/Abu-Dhabi-T10-2024-Tour-Logo.png",
-        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/Cricket_Fallback_Old_match-card.jpg",
-        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/138222_5763_DB_NW_fc-web_1763728590096.png",
-        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/138222_5763_DB_NW_fc-App_1763728569512.png",
-        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/138222_CASACARDS_PARTNER_16_9_1920_1080.png"
+        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/King's-Cup-Tour-Logo.png",
+        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/Football_Fallback_Old_match-card.jpg",
+        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/Football_Fallback_Old_match-card.jpg",
+        "SPORT_BY_IMAGE": "https://fancode.com/skillup-uploads/prod-images/2023/08/FC_Sports_Default_Football.jpg",
+        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/138026_CASACARDS_PARTNER_16_9_1920_1080.png"
       },
       "teams": [
         {
-          "name": "Northern Warriors",
-          "shortName": "NW",
+          "name": "Al-Ahli Saudi FC",
+          "shortName": "AAS",
           "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/NOR-CR3@2x.png"
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-AAS@2x.png"
           },
-          "isWinner": true,
-          "color": "#E1D544",
-          "cricketScore": [
-            {
-              "runs": 138,
-              "overs": "10",
-              "balls": "60",
-              "status": "COMPLETED",
-              "wickets": 1
-            }
-          ],
+          "isWinner": null,
+          "color": "#19ca84",
+          "cricketScore": null,
           "kabaddiScore": null,
           "footballScore": null,
           "basketBallScore": null,
@@ -1819,29 +1822,21 @@
           }
         },
         {
-          "name": "UAE Bulls",
-          "shortName": "UAB",
+          "name": "Al-Qadsiah FC",
+          "shortName": "ALQ",
           "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-UAB@2x.png"
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-QAD@2x.png"
           },
-          "isWinner": false,
-          "color": "#DA4E33",
-          "cricketScore": [
-            {
-              "runs": 103,
-              "overs": "10",
-              "balls": "60",
-              "status": "IN_PROGRESS",
-              "wickets": 7
-            }
-          ],
+          "isWinner": null,
+          "color": "#857700",
+          "cricketScore": null,
           "kabaddiScore": null,
           "footballScore": null,
           "basketBallScore": null,
           "hockeyScore": null,
           "status": {
             "cricket": {
-              "isBatting": true
+              "isBatting": false
             }
           }
         }
@@ -2010,74 +2005,6 @@
           "status": {
             "cricket": {
               "isBatting": true
-            }
-          }
-        }
-      ],
-      "language": "BLOODY_SWEET",
-      "adfree_stream": null,
-      "dai_stream": null,
-      "STREAMING_CDN": {
-        "language": "BLOODY_SWEET",
-        "Primary_Playback_URL": null
-      }
-    },
-    {
-      "category": "Football",
-      "title": "Al Ahli Saudi Fc Vs Al Qadsiah Fc",
-      "tournament": "Saudi Kings Cup 2025-2026",
-      "match_id": 138026,
-      "status": "NOT_STARTED",
-      "streamingStatus": "NOT_STARTED",
-      "startTime": "28 November 2025 11:00 PM",
-      "startDate": "01 January 1970 05:30 AM",
-      "image": "https://www.fancode.com/skillup-uploads/cms-media/Football_Fallback_Old_match-card.jpg",
-      "image_cdn": {
-        "TATAPLAY": "https://images.fancode.com/aig/match/v1/138026_CASACARDS_PARTNER_16_9_1920_1080.png",
-        "APP": "https://www.fancode.com/skillup-uploads/cms-media/Football_Fallback_Old_match-card.jpg",
-        "PLAYBACK": null,
-        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/King's-Cup-Tour-Logo.png",
-        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/Football_Fallback_Old_match-card.jpg",
-        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/Football_Fallback_Old_match-card.jpg",
-        "SPORT_BY_IMAGE": "https://fancode.com/skillup-uploads/prod-images/2023/08/FC_Sports_Default_Football.jpg",
-        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/138026_CASACARDS_PARTNER_16_9_1920_1080.png"
-      },
-      "teams": [
-        {
-          "name": "Al-Ahli Saudi FC",
-          "shortName": "AAS",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-AAS@2x.png"
-          },
-          "isWinner": null,
-          "color": "#19ca84",
-          "cricketScore": null,
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        },
-        {
-          "name": "Al-Qadsiah FC",
-          "shortName": "ALQ",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-QAD@2x.png"
-          },
-          "isWinner": null,
-          "color": "#857700",
-          "cricketScore": null,
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
             }
           }
         }
@@ -2363,6 +2290,74 @@
       }
     },
     {
+      "category": "Formula 1",
+      "title": "Practice 1",
+      "tournament": "F1 QATAR AIRWAYS QATAR GRAND PRIX 2025",
+      "match_id": 118491,
+      "status": "NOT_STARTED",
+      "streamingStatus": "NOT_STARTED",
+      "startTime": "28 November 2025 07:00 PM",
+      "startDate": "01 January 1970 05:30 AM",
+      "image": "https://www.fancode.com/skillup-uploads/cms-media/F1-QATAR-AIRWAYS-QATAR-GRAND-PRIX-2025-old-match-card.png",
+      "image_cdn": {
+        "TATAPLAY": "https://images.fancode.com/aig/match/v1/118491_CASACARDS_PARTNER_16_9_1920_1080.png",
+        "APP": "https://www.fancode.com/skillup-uploads/cms-media/F1-QATAR-AIRWAYS-QATAR-GRAND-PRIX-2025-old-match-card.png",
+        "PLAYBACK": null,
+        "LOGO": "https://fancode.com/skillup-uploads/prod-images/2024/03/R23-Qatar-GP-Tour-Logo.png",
+        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Formula1-1440-x-360.png",
+        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/F1-QATAR-AIRWAYS-QATAR-GRAND-PRIX-2025-old-match-card.png",
+        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/F1-QATAR-AIRWAYS-practice-1-.png",
+        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/118491_CASACARDS_PARTNER_16_9_1920_1080.png"
+      },
+      "teams": [
+        {
+          "name": "Practice 1",
+          "shortName": "P1",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/f1-flags/FC-FR5@2x.png"
+          },
+          "isWinner": null,
+          "color": "#EE0000",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        },
+        {
+          "name": "Qatar",
+          "shortName": "Qatar",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/f1-flags/FC-LOT@2x.png"
+          },
+          "isWinner": null,
+          "color": "#141414",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        }
+      ],
+      "language": "BLOODY_SWEET",
+      "adfree_stream": null,
+      "dai_stream": null,
+      "STREAMING_CDN": {
+        "language": "BLOODY_SWEET",
+        "Primary_Playback_URL": null
+      }
+    },
+    {
       "category": "Cricket",
       "title": "Thailand Vs Bahrain",
       "tournament": "Mini SEA Games Men's T20, 2025",
@@ -2507,74 +2502,6 @@
       }
     },
     {
-      "category": "Formula 1",
-      "title": "Practice 1",
-      "tournament": "F1 QATAR AIRWAYS QATAR GRAND PRIX 2025",
-      "match_id": 118491,
-      "status": "NOT_STARTED",
-      "streamingStatus": "NOT_STARTED",
-      "startTime": "28 November 2025 07:00 PM",
-      "startDate": "01 January 1970 05:30 AM",
-      "image": "https://www.fancode.com/skillup-uploads/cms-media/F1-QATAR-AIRWAYS-QATAR-GRAND-PRIX-2025-old-match-card.png",
-      "image_cdn": {
-        "TATAPLAY": "https://images.fancode.com/aig/match/v1/118491_CASACARDS_PARTNER_16_9_1920_1080.png",
-        "APP": "https://www.fancode.com/skillup-uploads/cms-media/F1-QATAR-AIRWAYS-QATAR-GRAND-PRIX-2025-old-match-card.png",
-        "PLAYBACK": null,
-        "LOGO": "https://fancode.com/skillup-uploads/prod-images/2024/03/R23-Qatar-GP-Tour-Logo.png",
-        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Formula1-1440-x-360.png",
-        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/F1-QATAR-AIRWAYS-QATAR-GRAND-PRIX-2025-old-match-card.png",
-        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/F1-QATAR-AIRWAYS-practice-1-.png",
-        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/118491_CASACARDS_PARTNER_16_9_1920_1080.png"
-      },
-      "teams": [
-        {
-          "name": "Practice 1",
-          "shortName": "P1",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/f1-flags/FC-FR5@2x.png"
-          },
-          "isWinner": null,
-          "color": "#EE0000",
-          "cricketScore": null,
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        },
-        {
-          "name": "Qatar",
-          "shortName": "Qatar",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/f1-flags/FC-LOT@2x.png"
-          },
-          "isWinner": null,
-          "color": "#141414",
-          "cricketScore": null,
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        }
-      ],
-      "language": "BLOODY_SWEET",
-      "adfree_stream": null,
-      "dai_stream": null,
-      "STREAMING_CDN": {
-        "language": "BLOODY_SWEET",
-        "Primary_Playback_URL": null
-      }
-    },
-    {
       "category": "Football",
       "title": "Sporting De Gijón Vs Andorra",
       "tournament": "LALIGA Hypermotion 2025-26",
@@ -2690,6 +2617,74 @@
           },
           "isWinner": null,
           "color": "#123456",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        }
+      ],
+      "language": "BLOODY_SWEET",
+      "adfree_stream": null,
+      "dai_stream": null,
+      "STREAMING_CDN": {
+        "language": "BLOODY_SWEET",
+        "Primary_Playback_URL": null
+      }
+    },
+    {
+      "category": "Formula 1",
+      "title": "Sprint Qualifying",
+      "tournament": "F1 QATAR AIRWAYS QATAR GRAND PRIX 2025",
+      "match_id": 118492,
+      "status": "NOT_STARTED",
+      "streamingStatus": "NOT_STARTED",
+      "startTime": "28 November 2025 11:00 PM",
+      "startDate": "01 January 1970 05:30 AM",
+      "image": "https://www.fancode.com/skillup-uploads/cms-media/F1-QATAR-AIRWAYS-QATAR-GRAND-PRIX-2025-old-match-card.png",
+      "image_cdn": {
+        "TATAPLAY": "https://images.fancode.com/aig/match/v1/118492_CASACARDS_PARTNER_16_9_1920_1080.png",
+        "APP": "https://www.fancode.com/skillup-uploads/cms-media/F1-QATAR-AIRWAYS-QATAR-GRAND-PRIX-2025-old-match-card.png",
+        "PLAYBACK": null,
+        "LOGO": "https://fancode.com/skillup-uploads/prod-images/2024/03/R23-Qatar-GP-Tour-Logo.png",
+        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Formula1-1440-x-360.png",
+        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/F1-QATAR-AIRWAYS-QATAR-GRAND-PRIX-2025-old-match-card.png",
+        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/F1-QATAR-AIRWAYS-Sprint-Qualifying-.png",
+        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/118492_CASACARDS_PARTNER_16_9_1920_1080.png"
+      },
+      "teams": [
+        {
+          "name": "Sprint Qualifying",
+          "shortName": "SS",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/f1-flags/FC-FR5@2x.png"
+          },
+          "isWinner": null,
+          "color": "#EE0000",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        },
+        {
+          "name": "Qatar",
+          "shortName": "Qatar",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/f1-flags/FC-LOT@2x.png"
+          },
+          "isWinner": null,
+          "color": "#141414",
           "cricketScore": null,
           "kabaddiScore": null,
           "footballScore": null,
