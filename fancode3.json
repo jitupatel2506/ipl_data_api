@@ -1,7 +1,7 @@
 {
   "Author": "DOCTOR_STRANGE",
   "name": "FanCode Live Matches API",
-  "last_updated": "02:14:01 AM 02-12-2025",
+  "last_updated": "02:21:03 AM 02-12-2025",
   "headers": {
     "User-Agent": "ReactNativeVideo/8.3.0 (Linux;Android/13) AndroidXMedia3/1.1.1",
     "Referer": "https://fancode.com/"
@@ -108,7 +108,7 @@
       "image_cdn": {
         "TATAPLAY": "https://images.fancode.com/aig/match/v1/138043_CASACARDS_PARTNER_16_9_1920_1080.png",
         "APP": "https://www.fancode.com/skillup-uploads/cms-media/eng_wi_old_match-card_2.jpg",
-        "PLAYBACK": "https://www.fancode.com/skillup-uploads/cms-media/eng_wi_old_match-card_2.jpg",
+        "PLAYBACK": null,
         "LOGO": "https://fancode.com/skillup-uploads/prod-images/2019/11/default-tour-logo.png",
         "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/Cricket_Fallback_Old_match-card.jpg",
         "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/eng_wi_old_match-card_2.jpg",
@@ -122,7 +122,7 @@
           "flag": {
             "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-WIN@2x.png"
           },
-          "isWinner": null,
+          "isWinner": true,
           "color": "#c9618c",
           "cricketScore": [
             {
@@ -149,15 +149,15 @@
           "flag": {
             "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-ENG@2x.png"
           },
-          "isWinner": null,
+          "isWinner": false,
           "color": "#143898",
           "cricketScore": [
             {
-              "runs": 150,
-              "overs": "42",
-              "balls": "252",
+              "runs": 154,
+              "overs": "44.1",
+              "balls": "265",
               "status": "IN_PROGRESS",
-              "wickets": 8
+              "wickets": 10
             }
           ],
           "kabaddiScore": null,
@@ -215,8 +215,14 @@
           "cricketScore": null,
           "kabaddiScore": null,
           "footballScore": {
-            "points": 1,
+            "points": 2,
             "goals": [
+              {
+                "id": "21464",
+                "shortName": "D Gray",
+                "isOwnGoal": false,
+                "goalTime": "43'"
+              },
               {
                 "id": "31537",
                 "shortName": "P Seung-ho",
