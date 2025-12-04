@@ -1,7 +1,7 @@
 {
   "Author": "DOCTOR_STRANGE",
   "name": "FanCode Live Matches API",
-  "last_updated": "07:28:01 AM 04-12-2025",
+  "last_updated": "08:49:01 AM 04-12-2025",
   "headers": {
     "User-Agent": "ReactNativeVideo/8.3.0 (Linux;Android/13) AndroidXMedia3/1.1.1",
     "Referer": "https://fancode.com/"
@@ -18,7 +18,7 @@
       "status": "LIVE",
       "streamingStatus": "STARTED",
       "startTime": "02 December 2025 03:30 AM",
-      "startDate": "04 December 2025 03:30 AM",
+      "startDate": "05 December 2025 03:30 AM",
       "image": "https://www.fancode.com/skillup-uploads/cms-media/NZ-vs-WI_Test_old.jpg",
       "image_cdn": {
         "TATAPLAY": "https://images.fancode.com/aig/match/v1/137696_CASACARDS_PARTNER_16_9_1920_1080.png",
@@ -48,8 +48,8 @@
               "wickets": 10
             },
             {
-              "runs": 176,
-              "overs": "49",
+              "runs": 256,
+              "overs": "64.3",
               "balls": "0",
               "status": "IN_PROGRESS",
               "wickets": 2
@@ -105,7 +105,7 @@
     },
     {
       "category": "Cricket",
-      "title": "Malaysia Women Vs Hong Kong, China Women",
+      "title": "Hong Kong, China Women Vs Malaysia Women",
       "tournament": "Hong Kong, China Women tour of Malaysia, 2025",
       "match_id": 138661,
       "status": "LIVE",
@@ -125,25 +125,6 @@
       },
       "teams": [
         {
-          "name": "Malaysia Women",
-          "shortName": "ML W",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-MALY@2x.png"
-          },
-          "isWinner": null,
-          "color": "#ffd800",
-          "cricketScore": [],
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        },
-        {
           "name": "Hong Kong, China Women",
           "shortName": "HK-W",
           "flag": {
@@ -151,6 +132,33 @@
           },
           "isWinner": null,
           "color": "#c5190b",
+          "cricketScore": [
+            {
+              "runs": 48,
+              "overs": "7",
+              "balls": "42",
+              "status": "IN_PROGRESS",
+              "wickets": 2
+            }
+          ],
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": true
+            }
+          }
+        },
+        {
+          "name": "Malaysia Women",
+          "shortName": "ML W",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-MALY@2x.png"
+          },
+          "isWinner": null,
+          "color": "#ffd800",
           "cricketScore": [],
           "kabaddiScore": null,
           "footballScore": null,
@@ -204,8 +212,8 @@
           "color": "#6fc9ff",
           "cricketScore": [
             {
-              "runs": 67,
-              "overs": "28.4",
+              "runs": 75,
+              "overs": "38",
               "balls": "0",
               "status": "IN_PROGRESS",
               "wickets": 3
