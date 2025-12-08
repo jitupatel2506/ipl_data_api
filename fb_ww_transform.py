@@ -278,8 +278,11 @@ def load_crichd_selected_items():
     if isinstance(data, list):
         print(f"ℹ️ Crichd selected items fetched: {len(data)}")
         for item in data:
-            item["thumbnail"] = "https://gitlab.com/ranginfotech89/ipl_data_api/-/raw/main/stream_categories/cricket_league_vectors/football_new.png"
-        return item
+            item["thumbnail"] = (
+                "https://gitlab.com/ranginfotech89/ipl_data_api/-/raw/main/"
+                "stream_categories/cricket_league_vectors/football_new.png"
+            )
+        return data   # ✅ Correct: return the whole list
     return []
 
 
