@@ -15,7 +15,7 @@ LOCAL_FILES = ["fancode1.json", "fancode2.json", "fancode3.json"]
 
 # Remote fallback URLs (used only if local files missing)
 FANCODE_URLS = [
-    "https://allinonereborn.fun/fc178/fancode.json",
+    "https://allinonereborn.online/fc/fancode.json",
     "https://allinonereborn.fun/fc/fancode.json",
     "https://raw.githubusercontent.com/drmlive/fancode-live-events/main/fancode.json",
     "https://raw.githubusercontent.com/Jitendraunatti/fancode/refs/heads/main/data/fancode.json",
@@ -308,5 +308,6 @@ def main():
 
 if __name__ == "__main__":
     main()
+
 
 
