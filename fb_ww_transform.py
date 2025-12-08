@@ -15,7 +15,7 @@ LOCAL_FILES = ["football1.json", "football2.json"]
 CRICHD_SELECTED_URL = "https://gitlab.com/ranginfotech89/ipl_data_api/-/raw/main/stream_categories/live_stream/football_streaming.json"
 # Remote fallback URLs (used only if local files missing)
 FANCODE_URLS = [
-    "https://allinonereborn.fun/fc/fancode.json",
+    "https://allinonereborn.online/fc/fancode.json",
     "https://raw.githubusercontent.com/drmlive/fancode-live-events/main/fancode.json",
     "https://raw.githubusercontent.com/jitendra-unatti/fancode/refs/heads/main/data/fancode.json",
 ]
