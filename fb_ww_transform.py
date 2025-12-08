@@ -328,7 +328,7 @@ def main():
         status = str(m.get("status") or "").strip().lower()
         category = str(m.get("category") or m.get("event_category") or "").strip().lower()
 
-        if "live" not in status:
+        if "upcoming" not in status:
             continue
         if category != "football":
             continue
