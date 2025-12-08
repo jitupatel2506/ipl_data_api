@@ -14,7 +14,7 @@ CRICHD_SELECTED_URL = (
     "https://raw.githubusercontent.com/jitupatel2506/crichd-auto-fetch/refs/heads/main/crichd-auto-fetch/auto_crichd_selected_api.json"
 )
 FANCODE_URLS = [
-    "https://allinonereborn.fun/fc/fancode.json",
+    "https://allinonereborn.online/fc/fancode.json",
     "https://raw.githubusercontent.com/drmlive/fancode-live-events/main/fancode.json",
     "https://raw.githubusercontent.com/jitendra-unatti/fancode/main/data/fancode.json",
 ]
