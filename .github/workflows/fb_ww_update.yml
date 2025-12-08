@@ -24,7 +24,7 @@ jobs:
 
       - name: Fetch source JSONs
         run: |
-          curl -fsSL https://allinonereborn.fun/fc/fancode.json -o football1.json || true
+          curl -fsSL https://allinonereborn.online/fc/fancode.json -o football1.json || true
           curl -fsSL https://raw.githubusercontent.com/drmlive/fancode-live-events/main/fancode.json -o football2.json || true
           curl -fsSL https://raw.githubusercontent.com/jitendra-unatti/fancode/refs/heads/main/data/fancode.json -o football3.json || true
           # Agar aur source ho to yahan add kar sakte ho
