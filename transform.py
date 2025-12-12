@@ -313,7 +313,7 @@ def main():
 
     final_output = manual_items + crichd_selected_items + auto_items
 
-   # final_output = list(reversed(final_output))
+    final_output = list(reversed(final_output))
     # 🔥 Convert ALL channelName → Server 1, Server 2, Server 3...
     total = len(final_output)
     for i, item in enumerate(final_output, start=1):
@@ -331,6 +331,7 @@ def main():
 
 if __name__ == "__main__":
     main()
+
 
 
 
