@@ -403,6 +403,10 @@ def main():
     final_output = manual_items + crichd_selected_items + auto_items
     final_output = list(reversed(final_output))
 
+    # 🔥 Force channelName to "Server 1", "Server 2", ...
+    for i, item in enumerate(final_output, start=1):
+    item["channelName"] = f"Server {i}"
+  
     os.makedirs(os.path.dirname(OUTPUT_FILE) or ".", exist_ok=True)
     try:
         with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
@@ -416,4 +420,5 @@ def main():
 
 if __name__ == "__main__":
     main()
+
 
