@@ -5,7 +5,7 @@ import sys
 import re
 from urllib.request import urlopen, Request
 from urllib.error import URLError, HTTPError
-from datetime import datetime  # ✅ For time formatting
+from datetime import datetime  # For time formatting
 
 # File paths
 OUTPUT_FILE = "live_stream/auto_update_all_streams.json"
@@ -20,7 +20,6 @@ FANCODE_URLS = [
     "https://raw.githubusercontent.com/jitendra-unatti/fancode/refs/heads/main/data/fancode.json",
 ]
 
-# ✅ SonyLiv JSON URL
 SONYLIV_URL = "https://raw.githubusercontent.com/drmlive/sliv-live-events/main/sonyliv.json"
 
 
@@ -28,8 +27,7 @@ def read_local_json(path):
     try:
         with open(path, "r", encoding="utf-8") as f:
             return json.load(f)
-    except Exception as e:
-        print(f"⚠️ Failed to read local {path}: {e}")
+    except Exception:
         return None
 
 
@@ -39,13 +37,8 @@ def fetch_json_url(url, timeout=10):
         with urlopen(req, timeout=timeout) as resp:
             raw = resp.read()
             return json.loads(raw.decode("utf-8", errors="ignore"))
-    except HTTPError as e:
-        print(f"⚠️ HTTP error fetching {url}: {e.code} {e.reason}")
-    except URLError as e:
-        print(f"⚠️ URL error fetching {url}: {e.reason}")
-    except Exception as e:
-        print(f"⚠️ Error fetching/parsing {url}: {e}")
-    return None
+    except:
+        return None
 
 
 def load_json_sources():
@@ -58,11 +51,10 @@ def load_json_sources():
             if isinstance(data, dict):
                 matches += data.get("matches", []) or []
                 found_local = True
+
     if found_local:
-        print("ℹ️ Loaded matches from local files:", [f for f in LOCAL_FILES if os.path.exists(f)])
         return matches
 
-    print("ℹ️ No local files found; fetching from FanCode remote URLs.")
     for url in FANCODE_URLS:
         data = fetch_json_url(url)
         if not data:
@@ -70,7 +62,7 @@ def load_json_sources():
 
         if isinstance(data, dict):
             if "matches" in data:
-                matches += data.get("matches", [])
+                matches += data["matches"]
             else:
                 matches.append(data)
 
@@ -81,7 +73,6 @@ def load_json_sources():
 
 
 def load_sonyliv_matches():
-    """Fetch and normalize matches from SonyLiv JSON with safe contentId parsing"""
     matches = []
     data = fetch_json_url(SONYLIV_URL)
     if isinstance(data, dict):
@@ -99,13 +90,9 @@ def load_sonyliv_matches():
             stream_url = m.get("video_url")
             thumbnail = m.get("src") or "https://i.ibb.co/ygQ6gT3/sonyliv.png"
 
-            # ✅ FIX: safely convert contentId to int or fallback to 900
             raw_content_id = str(m.get("contentId", ""))
-            if raw_content_id.isdigit():
-                channel_number = int(raw_content_id)
-            else:
-                digits = re.search(r"\d+", raw_content_id)
-                channel_number = int(digits.group()) if digits else 900
+            digits = re.search(r"\d+", raw_content_id)
+            channel_number = int(digits.group()) if digits else 900
 
             item = {
                 "channelNumber": channel_number,
@@ -120,14 +107,9 @@ def load_sonyliv_matches():
                 "channelUrl": stream_url,
                 "match_id": raw_content_id or str(channel_number),
             }
-            if "kabaddi" in category and "kabaddi" not in item["channelName"].lower():
-                item["channelName"] += " - Kabaddi"
-            if "football" in category and "football" not in item["channelName"].lower():
-                item["channelName"] += " - Football"
 
             matches.append(item)
 
-    print(f"ℹ️ SonyLiv matches fetched: {len(matches)}")
     return matches
 
 
@@ -143,7 +125,7 @@ def detect_language_from_url(url: str) -> str:
         "gujarati": "Gujarati",
         "punjabi": "Punjabi",
         "odia": "Odia",
-        "english": "English",  # skip appending
+        "english": "English",
     }
     if not url:
         return ""
@@ -155,7 +137,6 @@ def detect_language_from_url(url: str) -> str:
 
 
 def pick_stream_url(m):
-    # Prioritize actual streaming URLs
     candidates = [
         m.get("adfree_url"),
         m.get("adfree_stream"),
@@ -165,7 +146,6 @@ def pick_stream_url(m):
         m.get("video_url"),
     ]
 
-    # Also check nested STREAMING_CDN if available
     if isinstance(m.get("STREAMING_CDN"), dict):
         cdn = m["STREAMING_CDN"]
         for key in ["Primary_Playback_URL", "fancode_cdn", "dai_google_cdn"]:
@@ -181,59 +161,21 @@ def pick_stream_url(m):
     return ""
 
 
-def shorten_name(title: str, tournament: str) -> str:
-    if not title:
-        return tournament or "Unknown"
-
-    teams = re.split(r"\s+vs\s+", title, flags=re.IGNORECASE)
-    short_teams = []
-
-    for team in teams:
-        clean_team = re.sub(r"[^A-Za-z0-9\s]", "", team)
-        words = clean_team.split()
-
-        if len(words) == 1:
-            short_teams.append(words[0][:3].upper())
-        elif len(words) == 2:
-            w1, w2 = words
-            if len(w2) >= 5:
-                short_teams.append(w1[0].upper() + w2[0].upper())
-            else:
-                short_teams.append(w1[0].upper() + w2[:2].upper())
-        else:
-            short_teams.append("".join(w[0].upper() for w in words[:3]))
-
-    short_title = " vs ".join(short_teams)
-
-    clean_tournament = re.sub(r"[^A-Za-z0-9\s]", "", tournament or "")
-    year_match = re.search(r"\b(20\d{2})\b", clean_tournament)
-    year = year_match.group(1) if year_match else ""
-
-    words = clean_tournament.replace(",", "").split()
-    initials = "".join(w[0].upper() for w in words if not w.isdigit())[:4]
-    short_tournament = f"{initials} {year}".strip()
-
-    return f"{short_title} - {short_tournament}".strip()
-
-
 def clean_title(title: str) -> str:
     if not title:
         return ""
-    title = title.strip()
-    if title.endswith("-"):
-        title = title[:-1].strip()
-    return title
+    return title.strip().rstrip("-").strip()
 
 
 def normalize_match(m, idx, channel_number=600):
-    title = ((m.get("title", "")) or (m.get("match_name")) or "").strip()
-    tournament = (m.get("tournament") or m.get("competition") or "").strip()
+    title = ((m.get("title") or m.get("match_name") or "")).strip()
 
     if not title:
         t1 = (m.get("team_1") or m.get("team1") or "").strip()
         t2 = (m.get("team_2") or m.get("team2") or "").strip()
         if t1 and t2:
             title = f"{t1} vs {t2}"
+
     if not title:
         title = "Unknown Match"
 
@@ -241,26 +183,11 @@ def normalize_match(m, idx, channel_number=600):
     if not stream_url:
         return None
 
-    short_title = shorten_name(title, tournament)
-    lang = detect_language_from_url(stream_url)
-    if lang and lang.lower() != "english":
-        short_title = f"{short_title} - {lang}"
-
-    category = (m.get("category") or m.get("event_category") or "").lower()
-    if "kabaddi" in category and "kabaddi" not in short_title.lower():
-        short_title = f"{short_title} - Kabaddi"
-    if "football" in category and "football" not in short_title.lower():
-        short_title = f"{short_title} - Football"
-
-    short_title = clean_title(short_title)
-
     match_id = m.get("match_id") or m.get("id") or m.get("matchId")
-    if match_id:
-        try:
-            channel_num = int(match_id)
-        except ValueError:
-            channel_num = channel_number + idx
-    else:
+
+    try:
+        channel_num = int(match_id)
+    except:
         channel_num = channel_number + idx
 
     thumbnail = (
@@ -273,7 +200,7 @@ def normalize_match(m, idx, channel_number=600):
         "channelNumber": channel_num,
         "linkType": "app",
         "platform": "FanCode",
-        "channelName": short_title.strip(),
+        "channelName": clean_title(title),
         "subText": "Live tv guide",
         "startTime": "",
         "drm_licence": "",
@@ -325,10 +252,7 @@ def merge_fancode3_matches(auto_items, fancode3_matches):
 
 def load_crichd_selected_items():
     data = fetch_json_url(CRICHD_SELECTED_URL)
-    if isinstance(data, list):
-        print(f"ℹ️ Crichd selected items fetched: {len(data)}")
-        return data
-    return []
+    return data if isinstance(data, list) else []
 
 
 def load_manual_items():
@@ -336,21 +260,17 @@ def load_manual_items():
         try:
             with open(MANUAL_FILE, "r", encoding="utf-8") as f:
                 data = json.load(f)
-                if isinstance(data, list):
-                    return data
-        except Exception as e:
-            print(f"⚠️ Error loading manual file {MANUAL_FILE}: {e}")
+                return data if isinstance(data, list) else []
+        except:
+            return []
     return []
 
 
 def main():
     manual_items = load_manual_items()
-    print("ℹ️ Manual items loaded:", len(manual_items))
     crichd_selected_items = load_crichd_selected_items()
 
     matches_all = load_json_sources()
-    print(f"ℹ️ Total matches fetched from FanCode: {len(matches_all)}")
-
     sonyliv_matches = load_sonyliv_matches()
 
     seen = {}
@@ -358,8 +278,8 @@ def main():
     added = 0
 
     for m in matches_all:
-        status = str(m.get("status") or "").strip().lower()
-        category = str(m.get("category") or m.get("event_category") or "").strip().lower()
+        status = str(m.get("status") or "").lower()
+        category = str(m.get("category") or m.get("event_category") or "").lower()
 
         if "live" not in status:
             continue
@@ -371,55 +291,42 @@ def main():
             continue
 
         match_id = item.get("match_id")
-        lang = detect_language_from_url(item["channelUrl"]).lower() or "default"
 
         if match_id:
             if match_id not in seen:
-                seen[match_id] = {lang}
+                seen[match_id] = True
                 auto_items.append(item)
                 added += 1
-            else:
-                if lang not in seen[match_id]:
-                    seen[match_id].add(lang)
-                    auto_items.append(item)
-                    added += 1
         else:
             auto_items.append(item)
             added += 1
 
     auto_items.extend(sonyliv_matches)
 
-    fancode3_raw = fetch_json_url(FANCODE_URLS[2]) if len(FANCODE_URLS) > 2 else []
+    fancode3_raw = fetch_json_url(FANCODE_URLS[2])
     if isinstance(fancode3_raw, list):
         auto_items = merge_fancode3_matches(auto_items, fancode3_raw)
-        print(f"ℹ️ After merging FanCode3 matches: {len(auto_items)}")
-
-    print("ℹ️ Auto items prepared:", len(auto_items))
 
     priority_items = [m for m in auto_items if "Football" in m["channelName"] or "Kabaddi" in m["channelName"]]
     other_items = [m for m in auto_items if m not in priority_items]
     auto_items = priority_items + other_items
 
     final_output = manual_items + crichd_selected_items + auto_items
-final_output = list(reversed(final_output))
+    final_output = list(reversed(final_output))
 
-    # 🔥 Force channelName to Server 1, Server 2, ...
-for i, item in enumerate(final_output, start=1):
-    item["channelName"] = f"Server {i}"
+    # 🔥 Convert ALL channelName → Server 1, Server 2, Server 3...
+    for i, item in enumerate(final_output, start=1):
+        item["channelName"] = f"Server {i}"
 
-os.makedirs(os.path.dirname(OUTPUT_FILE) or ".", exist_ok=True)
-try:
-    with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
-        json.dump(final_output, f, indent=2, ensure_ascii=False)
-        print("✅ JSON updated:", OUTPUT_FILE)
-        print("Manual:", len(manual_items), "| Auto:", len(auto_items), "| Total:", len(final_output))
+    os.makedirs(os.path.dirname(OUTPUT_FILE) or ".", exist_ok=True)
+    try:
+        with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
+            json.dump(final_output, f, ensure_ascii=False, indent=2)
+        print("Updated:", OUTPUT_FILE)
     except Exception as e:
-        print("❌ Failed to write output file:", e)
+        print("Write error:", e)
         sys.exit(2)
 
 
 if __name__ == "__main__":
     main()
-
-
-
