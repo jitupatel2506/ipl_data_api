@@ -313,12 +313,14 @@ def main():
 
     final_output = manual_items + crichd_selected_items + auto_items
 
+    # 🔥 Reverse JSON items order
     final_output = list(reversed(final_output))
-    # 🔥 Convert ALL channelName → Server 1, Server 2, Server 3...
+
+    # 🔥 Assign channelName => Server X (reverse numbering)
     total = len(final_output)
     for i, item in enumerate(final_output, start=1):
-    item["channelName"] = f"Server {total - i + 1}"
-  
+        item["channelName"] = f"Server {total - i + 1}"
+
     os.makedirs(os.path.dirname(OUTPUT_FILE) or ".", exist_ok=True)
     try:
         with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
@@ -331,8 +333,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-
-
-
-
-
