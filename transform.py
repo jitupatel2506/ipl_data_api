@@ -401,16 +401,16 @@ def main():
     auto_items = priority_items + other_items
 
     final_output = manual_items + crichd_selected_items + auto_items
-    final_output = list(reversed(final_output))
+final_output = list(reversed(final_output))
 
-    # 🔥 Force channelName to "Server 1", "Server 2", ...
-    for i, item in enumerate(final_output, start=1):
+    # 🔥 Force channelName to Server 1, Server 2, ...
+for i, item in enumerate(final_output, start=1):
     item["channelName"] = f"Server {i}"
-  
-    os.makedirs(os.path.dirname(OUTPUT_FILE) or ".", exist_ok=True)
-    try:
-        with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
-            json.dump(final_output, f, indent=2, ensure_ascii=False)
+
+os.makedirs(os.path.dirname(OUTPUT_FILE) or ".", exist_ok=True)
+try:
+    with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
+        json.dump(final_output, f, indent=2, ensure_ascii=False)
         print("✅ JSON updated:", OUTPUT_FILE)
         print("Manual:", len(manual_items), "| Auto:", len(auto_items), "| Total:", len(final_output))
     except Exception as e:
@@ -420,5 +420,6 @@ def main():
 
 if __name__ == "__main__":
     main()
+
 
 
