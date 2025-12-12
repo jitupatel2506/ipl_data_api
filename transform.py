@@ -315,8 +315,9 @@ def main():
 
    # final_output = list(reversed(final_output))
     # 🔥 Convert ALL channelName → Server 1, Server 2, Server 3...
-    #for i, item in enumerate(final_output, start=1):
-   #     item["channelName"] = f"Server {i}"
+    total = len(final_output)
+    for i, item in enumerate(final_output, start=1):
+    item["channelName"] = f"Server {total - i + 1}"
   
     os.makedirs(os.path.dirname(OUTPUT_FILE) or ".", exist_ok=True)
     try:
@@ -330,6 +331,7 @@ def main():
 
 if __name__ == "__main__":
     main()
+
 
 
 
