@@ -1,7 +1,7 @@
 {
   "Author": "DOCTOR_STRANGE",
   "name": "FanCode Live Matches API",
-  "last_updated": "02:00:01 AM 17-12-2025",
+  "last_updated": "02:07:01 AM 17-12-2025",
   "headers": {
     "User-Agent": "ReactNativeVideo/8.4.0 (Linux;Android 13) AndroidXMedia3/1.1.1",
     "Referer": "https://fancode.com/"
@@ -247,7 +247,7 @@
     },
     {
       "category": "Football",
-      "title": "Guadalajara Vs Fc Barcelona",
+      "title": "Cd Guadalajara Vs Fc Barcelona",
       "tournament": "Copa del Rey, 2025-26",
       "match_id": 138896,
       "status": "LIVE",
@@ -267,19 +267,26 @@
       },
       "teams": [
         {
-          "name": "Guadalajara",
-          "shortName": "GUD",
+          "name": "CD Guadalajara",
+          "shortName": "GUA",
           "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-GUD@2x.png"
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/DEF-FT9@2x.png"
           },
           "isWinner": null,
           "color": "#9CF993",
           "cricketScore": null,
           "kabaddiScore": null,
-          "footballScore": null,
+          "footballScore": {
+            "points": 0,
+            "goals": []
+          },
           "basketBallScore": null,
           "hockeyScore": null,
-          "status": null
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
         },
         {
           "name": "FC Barcelona",
@@ -291,10 +298,17 @@
           "color": "#fee64e",
           "cricketScore": null,
           "kabaddiScore": null,
-          "footballScore": null,
+          "footballScore": {
+            "points": 0,
+            "goals": []
+          },
           "basketBallScore": null,
           "hockeyScore": null,
-          "status": null
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
         }
       ],
       "language": "ENGLISH",
