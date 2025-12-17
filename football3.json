@@ -1,111 +1,15 @@
 {
   "Author": "DOCTOR_STRANGE",
   "name": "FanCode Live Matches API",
-  "last_updated": "01:21:21 AM 18-12-2025",
+  "last_updated": "02:00:01 AM 18-12-2025",
   "headers": {
     "User-Agent": "ReactNativeVideo/8.4.0 (Linux;Android 13) AndroidXMedia3/1.1.1",
     "Referer": "https://fancode.com/"
   },
   "total_matches": 38,
-  "live_matches": 16,
-  "upcoming_matches": 22,
+  "live_matches": 15,
+  "upcoming_matches": 23,
   "matches": [
-    {
-      "category": "Football",
-      "title": "Cd Atletico Baleares Vs Atletico De Madrid",
-      "tournament": "Copa del Rey, 2025-26",
-      "match_id": 138900,
-      "status": "LIVE",
-      "streamingStatus": "STARTED",
-      "startTime": "17 December 2025 11:30 PM",
-      "startDate": "01 January 1970 05:30 AM",
-      "image": "https://www.fancode.com/skillup-uploads/cms-media/138900_5806_ABA_ATL_FC-Web.jpg",
-      "image_cdn": {
-        "TATAPLAY": "https://images.fancode.com/aig/match/v1/138900_CASACARDS_PARTNER_16_9_1920_1080.png",
-        "APP": "https://www.fancode.com/skillup-uploads/cms-media/138900_5806_ABA_ATL_FC-Web.jpg",
-        "PLAYBACK": "https://www.fancode.com/skillup-uploads/cms-media/138900_5806_ABA_ATL_FC-Web.jpg",
-        "LOGO": "https://fancode.com/skillup-uploads/prod-images/2024/12/Copa-Del-Rey-Tour-Logo.png",
-        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Football-old-copy.jpg",
-        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/138900_5806_ABA_ATL_FC-Web.jpg",
-        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/138900_5806_ABA_ATL_FC-App.jpg",
-        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/138900_CASACARDS_PARTNER_16_9_1920_1080.png"
-      },
-      "teams": [
-        {
-          "name": "CD Atletico Baleares",
-          "shortName": "ABA",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-ABA@2x.png"
-          },
-          "isWinner": null,
-          "color": "#C8A729",
-          "cricketScore": null,
-          "kabaddiScore": null,
-          "footballScore": {
-            "points": 1,
-            "goals": [
-              {
-                "id": "216281",
-                "shortName": "Gerardo",
-                "isOwnGoal": false,
-                "goalTime": "28'"
-              }
-            ]
-          },
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        },
-        {
-          "name": "Atletico de Madrid",
-          "shortName": "ATL",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-ATLH@2x.png"
-          },
-          "isWinner": null,
-          "color": "#ca2917",
-          "cricketScore": null,
-          "kabaddiScore": null,
-          "footballScore": {
-            "points": 2,
-            "goals": [
-              {
-                "id": "50257",
-                "shortName": "G Raspadori",
-                "isOwnGoal": false,
-                "goalTime": "20'"
-              },
-              {
-                "id": "1220",
-                "shortName": "A Griezmann",
-                "isOwnGoal": false,
-                "goalTime": "16'"
-              }
-            ]
-          },
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        }
-      ],
-      "language": "ENGLISH",
-      "STREAMING_CDN": {
-        "Primary_Playback_URL": "https://in-mc-fdlive.fancode.com/mumbai/138900_english_hls_23b747430214291_1ta-di_h264/index.m3u8",
-        "fancode_cdn": "https://in-mc-fdlive.fancode.com/mumbai/138900_english_hls_23b747430214291_1ta-di_h264/index.m3u8",
-        "dai_google_cdn": "https://dai.google.com/linear/hls/event/SDuvAzSWSx-Gfh05-6pJGQ/master.m3u8",
-        "cloudfront_cdn": "Unavailable",
-        "sony_cdn": "Unavailable",
-        "language": "ENGLISH"
-      }
-    },
     {
       "category": "Football",
       "title": "Manchester City Vs Brentford",
@@ -137,10 +41,17 @@
           "color": "#539fd7",
           "cricketScore": null,
           "kabaddiScore": null,
-          "footballScore": null,
+          "footballScore": {
+            "points": 0,
+            "goals": []
+          },
           "basketBallScore": null,
           "hockeyScore": null,
-          "status": null
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
         },
         {
           "name": "Brentford",
@@ -152,10 +63,17 @@
           "color": "#E4282B",
           "cricketScore": null,
           "kabaddiScore": null,
-          "footballScore": null,
+          "footballScore": {
+            "points": 0,
+            "goals": []
+          },
           "basketBallScore": null,
           "hockeyScore": null,
-          "status": null
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
         }
       ],
       "language": "ENGLISH",
@@ -173,7 +91,7 @@
       "title": "Club De Futbol Talavera De La Reina Vs Real Madrid",
       "tournament": "Copa del Rey, 2025-26",
       "match_id": 138905,
-      "status": "NOT_STARTED",
+      "status": "LIVE",
       "streamingStatus": "STARTED",
       "startTime": "18 December 2025 01:30 AM",
       "startDate": "01 January 1970 05:30 AM",
@@ -199,7 +117,10 @@
           "color": "#4D9B3A",
           "cricketScore": null,
           "kabaddiScore": null,
-          "footballScore": null,
+          "footballScore": {
+            "points": 0,
+            "goals": []
+          },
           "basketBallScore": null,
           "hockeyScore": null,
           "status": {
@@ -218,7 +139,10 @@
           "color": "#ffdf50",
           "cricketScore": null,
           "kabaddiScore": null,
-          "footballScore": null,
+          "footballScore": {
+            "points": 0,
+            "goals": []
+          },
           "basketBallScore": null,
           "hockeyScore": null,
           "status": {
@@ -243,7 +167,7 @@
       "title": "Paris Fc Women Vs Barcelona Women",
       "tournament": "UEFA Women's Champions League 2025-26",
       "match_id": 137606,
-      "status": "NOT_STARTED",
+      "status": "LIVE",
       "streamingStatus": "STARTED",
       "startTime": "18 December 2025 01:30 AM",
       "startDate": "01 January 1970 05:30 AM",
@@ -272,11 +196,7 @@
           "footballScore": null,
           "basketBallScore": null,
           "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
+          "status": null
         },
         {
           "name": "Barcelona Women",
@@ -291,11 +211,7 @@
           "footballScore": null,
           "basketBallScore": null,
           "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
+          "status": null
         }
       ],
       "language": "ENGLISH",
@@ -303,95 +219,6 @@
         "Primary_Playback_URL": "https://in-mc-fdlive.fancode.com/mumbai/137606_english_hls_46669f6d1119354_1ta-di_h264/index.m3u8",
         "fancode_cdn": "https://in-mc-fdlive.fancode.com/mumbai/137606_english_hls_46669f6d1119354_1ta-di_h264/index.m3u8",
         "dai_google_cdn": "https://dai.google.com/linear/hls/event/K5V6QEPATNmQoHuEMy0RxA/master.m3u8",
-        "cloudfront_cdn": "Unavailable",
-        "sony_cdn": "Unavailable",
-        "language": "ENGLISH"
-      }
-    },
-    {
-      "category": "Football",
-      "title": "Racing De Santander Vs Villarreal Cf",
-      "tournament": "Copa del Rey, 2025-26",
-      "match_id": 138903,
-      "status": "LIVE",
-      "streamingStatus": "STARTED",
-      "startTime": "17 December 2025 11:30 PM",
-      "startDate": "01 January 1970 05:30 AM",
-      "image": "https://www.fancode.com/skillup-uploads/cms-media/138903_5806_RAC_VIL_FC-Web-(1).jpg",
-      "image_cdn": {
-        "TATAPLAY": "https://images.fancode.com/aig/match/v1/138903_CASACARDS_PARTNER_16_9_1920_1080.png",
-        "APP": "https://www.fancode.com/skillup-uploads/cms-media/138903_5806_RAC_VIL_FC-Web-(1).jpg",
-        "PLAYBACK": "https://www.fancode.com/skillup-uploads/cms-media/138903_5806_RAC_VIL_FC-Web-(1).jpg",
-        "LOGO": "https://fancode.com/skillup-uploads/prod-images/2024/12/Copa-Del-Rey-Tour-Logo.png",
-        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Football-old-copy.jpg",
-        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/138903_5806_RAC_VIL_FC-Web-(1).jpg",
-        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/138903_5806_RAC_VIL_FC-App.jpg",
-        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/138903_CASACARDS_PARTNER_16_9_1920_1080.png"
-      },
-      "teams": [
-        {
-          "name": "Racing de Santander",
-          "shortName": "RAC",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-RAC@2x.png"
-          },
-          "isWinner": null,
-          "color": "#752009",
-          "cricketScore": null,
-          "kabaddiScore": null,
-          "footballScore": {
-            "points": 2,
-            "goals": [
-              {
-                "id": "157923",
-                "shortName": "JCA Gomez",
-                "isOwnGoal": false,
-                "goalTime": "28'"
-              },
-              {
-                "id": "157923",
-                "shortName": "JCA Gomez",
-                "isOwnGoal": false,
-                "goalTime": "7'"
-              }
-            ]
-          },
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        },
-        {
-          "name": "Villarreal CF",
-          "shortName": "VIL",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-VIL@2x.png"
-          },
-          "isWinner": null,
-          "color": "#ffc0cb",
-          "cricketScore": null,
-          "kabaddiScore": null,
-          "footballScore": {
-            "points": 0,
-            "goals": []
-          },
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        }
-      ],
-      "language": "ENGLISH",
-      "STREAMING_CDN": {
-        "Primary_Playback_URL": "https://in-mc-fdlive.fancode.com/mumbai/138903_english_hls_791799a3b399328_1ta-di_h264/index.m3u8",
-        "fancode_cdn": "https://in-mc-fdlive.fancode.com/mumbai/138903_english_hls_791799a3b399328_1ta-di_h264/index.m3u8",
-        "dai_google_cdn": "https://dai.google.com/linear/hls/event/768z-lMKTaSF2xi-q_dmsA/master.m3u8",
         "cloudfront_cdn": "Unavailable",
         "sony_cdn": "Unavailable",
         "language": "ENGLISH"
@@ -548,8 +375,15 @@
           "cricketScore": null,
           "kabaddiScore": null,
           "footballScore": {
-            "points": 0,
-            "goals": []
+            "points": 1,
+            "goals": [
+              {
+                "id": "191256",
+                "shortName": "Y Lago",
+                "isOwnGoal": false,
+                "goalTime": "64'"
+              }
+            ]
           },
           "basketBallScore": null,
           "hockeyScore": null,
@@ -572,80 +406,10 @@
     },
     {
       "category": "Football",
-      "title": "Bayern Munich Women Vs Valerenga Fotball Women",
-      "tournament": "UEFA Women's Champions League 2025-26",
-      "match_id": 137608,
-      "status": "NOT_STARTED",
-      "streamingStatus": "STARTED",
-      "startTime": "18 December 2025 01:30 AM",
-      "startDate": "01 January 1970 05:30 AM",
-      "image": "https://www.fancode.com/skillup-uploads/cms-media/137608_5720_BAY-W_VAL-W_fc-web.jpg",
-      "image_cdn": {
-        "TATAPLAY": "https://images.fancode.com/aig/match/v1/137608_CASACARDS_PARTNER_16_9_1920_1080.png",
-        "APP": "https://www.fancode.com/skillup-uploads/cms-media/137608_5720_BAY-W_VAL-W_fc-web.jpg",
-        "PLAYBACK": "https://www.fancode.com/skillup-uploads/cms-media/137608_5720_BAY-W_VAL-W_fc-web.jpg",
-        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/WHL.png",
-        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Football-old-copy.jpg",
-        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/137608_5720_BAY-W_VAL-W_fc-web.jpg",
-        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/137608_5720_BAY-W_VAL-W_fc-app.jpg",
-        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/137608_CASACARDS_PARTNER_16_9_1920_1080.png"
-      },
-      "teams": [
-        {
-          "name": "Bayern Munich Women",
-          "shortName": "BAY-W",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-BAYE@2x.png"
-          },
-          "isWinner": null,
-          "color": "#5c9dcd",
-          "cricketScore": null,
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        },
-        {
-          "name": "Valerenga Fotball Women",
-          "shortName": "VAL-W",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-VIF@2x.png"
-          },
-          "isWinner": null,
-          "color": "#ff000a",
-          "cricketScore": null,
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        }
-      ],
-      "language": "ENGLISH",
-      "STREAMING_CDN": {
-        "Primary_Playback_URL": "https://in-mc-fdlive.fancode.com/mumbai/137608_english_hls_86d6f994083421_1ta-di_h264/index.m3u8",
-        "fancode_cdn": "https://in-mc-fdlive.fancode.com/mumbai/137608_english_hls_86d6f994083421_1ta-di_h264/index.m3u8",
-        "dai_google_cdn": "https://dai.google.com/linear/hls/event/93fa2CT9Tf-rST80EKZqHA/master.m3u8",
-        "cloudfront_cdn": "Unavailable",
-        "sony_cdn": "Unavailable",
-        "language": "ENGLISH"
-      }
-    },
-    {
-      "category": "Football",
       "title": "Oud Heverlee Leuven Women Vs Arsenal Women",
       "tournament": "UEFA Women's Champions League 2025-26",
       "match_id": 137607,
-      "status": "NOT_STARTED",
+      "status": "LIVE",
       "streamingStatus": "STARTED",
       "startTime": "18 December 2025 01:30 AM",
       "startDate": "01 January 1970 05:30 AM",
@@ -671,7 +435,10 @@
           "color": "#35981b",
           "cricketScore": null,
           "kabaddiScore": null,
-          "footballScore": null,
+          "footballScore": {
+            "points": 0,
+            "goals": []
+          },
           "basketBallScore": null,
           "hockeyScore": null,
           "status": {
@@ -690,7 +457,17 @@
           "color": "#e64d53",
           "cricketScore": null,
           "kabaddiScore": null,
-          "footballScore": null,
+          "footballScore": {
+            "points": 1,
+            "goals": [
+              {
+                "id": "162724",
+                "shortName": "O Smith",
+                "isOwnGoal": false,
+                "goalTime": "18'"
+              }
+            ]
+          },
           "basketBallScore": null,
           "hockeyScore": null,
           "status": {
@@ -712,10 +489,335 @@
     },
     {
       "category": "Football",
+      "title": "Vfl Wolfsburg Women Vs Chelsea F.c. Women",
+      "tournament": "UEFA Women's Champions League 2025-26",
+      "match_id": 137601,
+      "status": "LIVE",
+      "streamingStatus": "STARTED",
+      "startTime": "18 December 2025 01:30 AM",
+      "startDate": "01 January 1970 05:30 AM",
+      "image": "https://www.fancode.com/skillup-uploads/cms-media/137601_5720_WOL-W_CHE-W_fc-web.jpg",
+      "image_cdn": {
+        "TATAPLAY": "https://images.fancode.com/aig/match/v1/137601_CASACARDS_PARTNER_16_9_1920_1080.png",
+        "APP": "https://www.fancode.com/skillup-uploads/cms-media/137601_5720_WOL-W_CHE-W_fc-web.jpg",
+        "PLAYBACK": "https://www.fancode.com/skillup-uploads/cms-media/137601_5720_WOL-W_CHE-W_fc-web.jpg",
+        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/WHL.png",
+        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Football-old-copy.jpg",
+        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/137601_5720_WOL-W_CHE-W_fc-web.jpg",
+        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/137601_5720_WOL-W_CHE-W_fc-app.jpg",
+        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/137601_CASACARDS_PARTNER_16_9_1920_1080.png"
+      },
+      "teams": [
+        {
+          "name": "VfL Wolfsburg Women",
+          "shortName": "WOL-W",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-WOLF@2x.png"
+          },
+          "isWinner": null,
+          "color": "#91ca6b",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": {
+            "points": 1,
+            "goals": [
+              {
+                "id": "18346",
+                "shortName": "A Popp",
+                "isOwnGoal": false,
+                "goalTime": "16'"
+              }
+            ]
+          },
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        },
+        {
+          "name": "Chelsea F.C. Women",
+          "shortName": "CHE-W",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-CHW@2x.png"
+          },
+          "isWinner": null,
+          "color": "#384dce",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": {
+            "points": 0,
+            "goals": []
+          },
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        }
+      ],
+      "language": "ENGLISH",
+      "STREAMING_CDN": {
+        "Primary_Playback_URL": "https://in-mc-fdlive.fancode.com/mumbai/137601_english_hls_79db915de086739_1ta-di_h264/index.m3u8",
+        "fancode_cdn": "https://in-mc-fdlive.fancode.com/mumbai/137601_english_hls_79db915de086739_1ta-di_h264/index.m3u8",
+        "dai_google_cdn": "https://dai.google.com/linear/hls/event/Flz9L0COTm-x2bUQyXHRYw/master.m3u8",
+        "cloudfront_cdn": "Unavailable",
+        "sony_cdn": "Unavailable",
+        "language": "ENGLISH"
+      }
+    },
+    {
+      "category": "Football",
+      "title": "Roma Women Vs Skn St. Polten Women",
+      "tournament": "UEFA Women's Champions League 2025-26",
+      "match_id": 137609,
+      "status": "LIVE",
+      "streamingStatus": "STARTED",
+      "startTime": "18 December 2025 01:30 AM",
+      "startDate": "01 January 1970 05:30 AM",
+      "image": "https://www.fancode.com/skillup-uploads/cms-media/137609_5720_ROM-W_POL-W_fc-web.jpg",
+      "image_cdn": {
+        "TATAPLAY": "https://images.fancode.com/aig/match/v1/137609_CASACARDS_PARTNER_16_9_1920_1080.png",
+        "APP": "https://www.fancode.com/skillup-uploads/cms-media/137609_5720_ROM-W_POL-W_fc-web.jpg",
+        "PLAYBACK": "https://www.fancode.com/skillup-uploads/cms-media/137609_5720_ROM-W_POL-W_fc-web.jpg",
+        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/WHL.png",
+        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Football-old-copy.jpg",
+        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/137609_5720_ROM-W_POL-W_fc-web.jpg",
+        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/137609_5720_ROM-W_POL-W_fc-app.jpg",
+        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/137609_CASACARDS_PARTNER_16_9_1920_1080.png"
+      },
+      "teams": [
+        {
+          "name": "Roma Women",
+          "shortName": "ROM-W",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-ROM@2x.png"
+          },
+          "isWinner": null,
+          "color": "#141414",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": {
+            "points": 1,
+            "goals": [
+              {
+                "id": "173843",
+                "shortName": "A Pilgrim",
+                "isOwnGoal": false,
+                "goalTime": "19'"
+              }
+            ]
+          },
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        },
+        {
+          "name": "SKN St. Polten Women",
+          "shortName": "POL-W",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-PWL@2x.png"
+          },
+          "isWinner": null,
+          "color": "#0071c9",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": {
+            "points": 0,
+            "goals": []
+          },
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        }
+      ],
+      "language": "ENGLISH",
+      "STREAMING_CDN": {
+        "Primary_Playback_URL": "https://in-mc-fdlive.fancode.com/mumbai/137609_english_hls_524c11abcf14914_1ta-di_h264/index.m3u8",
+        "fancode_cdn": "https://in-mc-fdlive.fancode.com/mumbai/137609_english_hls_524c11abcf14914_1ta-di_h264/index.m3u8",
+        "dai_google_cdn": "https://dai.google.com/linear/hls/event/Z9BORFccQdmP8D9PaCeeJA/master.m3u8",
+        "cloudfront_cdn": "Unavailable",
+        "sony_cdn": "Unavailable",
+        "language": "ENGLISH"
+      }
+    },
+    {
+      "category": "Football",
+      "title": "Deportivo Alaves Vs Sevilla Fc",
+      "tournament": "Copa del Rey, 2025-26",
+      "match_id": 138904,
+      "status": "LIVE",
+      "streamingStatus": "STARTED",
+      "startTime": "18 December 2025 01:30 AM",
+      "startDate": "01 January 1970 05:30 AM",
+      "image": "https://www.fancode.com/skillup-uploads/cms-media/138904_5806_ALA_SEV_FC-Web.jpg",
+      "image_cdn": {
+        "TATAPLAY": "https://images.fancode.com/aig/match/v1/138904_CASACARDS_PARTNER_16_9_1920_1080.png",
+        "APP": "https://www.fancode.com/skillup-uploads/cms-media/138904_5806_ALA_SEV_FC-Web.jpg",
+        "PLAYBACK": "https://www.fancode.com/skillup-uploads/cms-media/138904_5806_ALA_SEV_FC-Web.jpg",
+        "LOGO": "https://fancode.com/skillup-uploads/prod-images/2024/12/Copa-Del-Rey-Tour-Logo.png",
+        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Football-old-copy.jpg",
+        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/138904_5806_ALA_SEV_FC-Web.jpg",
+        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/138904_5806_ALA_SEV_FC-App.jpg",
+        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/138904_CASACARDS_PARTNER_16_9_1920_1080.png"
+      },
+      "teams": [
+        {
+          "name": "Deportivo Alaves",
+          "shortName": "ALA",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-ALA@2x.png"
+          },
+          "isWinner": null,
+          "color": "#537096",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": {
+            "points": 0,
+            "goals": []
+          },
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        },
+        {
+          "name": "Sevilla FC",
+          "shortName": "SEV",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-SVI@2x.png"
+          },
+          "isWinner": null,
+          "color": "#daa335",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": {
+            "points": 0,
+            "goals": []
+          },
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        }
+      ],
+      "language": "ENGLISH",
+      "STREAMING_CDN": {
+        "Primary_Playback_URL": "https://in-mc-fdlive.fancode.com/mumbai/138904_english_hls_8ebb8dd68c23453_1ta-di_h264/index.m3u8",
+        "fancode_cdn": "https://in-mc-fdlive.fancode.com/mumbai/138904_english_hls_8ebb8dd68c23453_1ta-di_h264/index.m3u8",
+        "dai_google_cdn": "https://dai.google.com/linear/hls/event/H_UZnNDcR36NGo68HpRgYQ/master.m3u8",
+        "cloudfront_cdn": "Unavailable",
+        "sony_cdn": "Unavailable",
+        "language": "ENGLISH"
+      }
+    },
+    {
+      "category": "Football",
+      "title": "Bayern Munich Women Vs Valerenga Fotball Women",
+      "tournament": "UEFA Women's Champions League 2025-26",
+      "match_id": 137608,
+      "status": "LIVE",
+      "streamingStatus": "STARTED",
+      "startTime": "18 December 2025 01:30 AM",
+      "startDate": "01 January 1970 05:30 AM",
+      "image": "https://www.fancode.com/skillup-uploads/cms-media/137608_5720_BAY-W_VAL-W_fc-web.jpg",
+      "image_cdn": {
+        "TATAPLAY": "https://images.fancode.com/aig/match/v1/137608_CASACARDS_PARTNER_16_9_1920_1080.png",
+        "APP": "https://www.fancode.com/skillup-uploads/cms-media/137608_5720_BAY-W_VAL-W_fc-web.jpg",
+        "PLAYBACK": "https://www.fancode.com/skillup-uploads/cms-media/137608_5720_BAY-W_VAL-W_fc-web.jpg",
+        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/WHL.png",
+        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Football-old-copy.jpg",
+        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/137608_5720_BAY-W_VAL-W_fc-web.jpg",
+        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/137608_5720_BAY-W_VAL-W_fc-app.jpg",
+        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/137608_CASACARDS_PARTNER_16_9_1920_1080.png"
+      },
+      "teams": [
+        {
+          "name": "Bayern Munich Women",
+          "shortName": "BAY-W",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-BAYE@2x.png"
+          },
+          "isWinner": null,
+          "color": "#5c9dcd",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": {
+            "points": 1,
+            "goals": [
+              {
+                "id": "164107",
+                "shortName": "M Tanikawa",
+                "isOwnGoal": false,
+                "goalTime": "2'"
+              }
+            ]
+          },
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        },
+        {
+          "name": "Valerenga Fotball Women",
+          "shortName": "VAL-W",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-VIF@2x.png"
+          },
+          "isWinner": null,
+          "color": "#ff000a",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": {
+            "points": 0,
+            "goals": []
+          },
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        }
+      ],
+      "language": "ENGLISH",
+      "STREAMING_CDN": {
+        "Primary_Playback_URL": "https://in-mc-fdlive.fancode.com/mumbai/137608_english_hls_86d6f994083421_1ta-di_h264/index.m3u8",
+        "fancode_cdn": "https://in-mc-fdlive.fancode.com/mumbai/137608_english_hls_86d6f994083421_1ta-di_h264/index.m3u8",
+        "dai_google_cdn": "https://dai.google.com/linear/hls/event/93fa2CT9Tf-rST80EKZqHA/master.m3u8",
+        "cloudfront_cdn": "Unavailable",
+        "sony_cdn": "Unavailable",
+        "language": "ENGLISH"
+      }
+    },
+    {
+      "category": "Football",
       "title": "Juventus Women Vs Manchester United Women",
       "tournament": "UEFA Women's Champions League 2025-26",
       "match_id": 137605,
-      "status": "NOT_STARTED",
+      "status": "LIVE",
       "streamingStatus": "STARTED",
       "startTime": "18 December 2025 01:30 AM",
       "startDate": "01 January 1970 05:30 AM",
@@ -741,7 +843,10 @@
           "color": "#4c4c4c",
           "cricketScore": null,
           "kabaddiScore": null,
-          "footballScore": null,
+          "footballScore": {
+            "points": 0,
+            "goals": []
+          },
           "basketBallScore": null,
           "hockeyScore": null,
           "status": {
@@ -760,7 +865,17 @@
           "color": "#bcae34",
           "cricketScore": null,
           "kabaddiScore": null,
-          "footballScore": null,
+          "footballScore": {
+            "points": 1,
+            "goals": [
+              {
+                "id": "152380",
+                "shortName": "J Park",
+                "isOwnGoal": false,
+                "goalTime": "18'"
+              }
+            ]
+          },
           "basketBallScore": null,
           "hockeyScore": null,
           "status": {
@@ -785,7 +900,7 @@
       "title": "Olympique Lyonnais Women Vs Club Atletico De Madrid Femenino",
       "tournament": "UEFA Women's Champions League 2025-26",
       "match_id": 137604,
-      "status": "NOT_STARTED",
+      "status": "LIVE",
       "streamingStatus": "STARTED",
       "startTime": "18 December 2025 01:30 AM",
       "startDate": "01 January 1970 05:30 AM",
@@ -855,7 +970,7 @@
       "title": "Benfica Women Vs Paris Fc Women",
       "tournament": "UEFA Women's Champions League 2025-26",
       "match_id": 137603,
-      "status": "NOT_STARTED",
+      "status": "LIVE",
       "streamingStatus": "STARTED",
       "startTime": "18 December 2025 01:30 AM",
       "startDate": "01 January 1970 05:30 AM",
@@ -881,7 +996,10 @@
           "color": "#FF0000",
           "cricketScore": null,
           "kabaddiScore": null,
-          "footballScore": null,
+          "footballScore": {
+            "points": 0,
+            "goals": []
+          },
           "basketBallScore": null,
           "hockeyScore": null,
           "status": {
@@ -900,7 +1018,17 @@
           "color": "#c2211f",
           "cricketScore": null,
           "kabaddiScore": null,
-          "footballScore": null,
+          "footballScore": {
+            "points": 1,
+            "goals": [
+              {
+                "id": "182491",
+                "shortName": "J Echegini",
+                "isOwnGoal": false,
+                "goalTime": "5'"
+              }
+            ]
+          },
           "basketBallScore": null,
           "hockeyScore": null,
           "status": {
@@ -925,7 +1053,7 @@
       "title": "Fc Twente Women Vs Real Madrid Women",
       "tournament": "UEFA Women's Champions League 2025-26",
       "match_id": 137602,
-      "status": "NOT_STARTED",
+      "status": "LIVE",
       "streamingStatus": "STARTED",
       "startTime": "18 December 2025 01:30 AM",
       "startDate": "01 January 1970 05:30 AM",
@@ -951,7 +1079,10 @@
           "color": "#ff5800",
           "cricketScore": null,
           "kabaddiScore": null,
-          "footballScore": null,
+          "footballScore": {
+            "points": 0,
+            "goals": []
+          },
           "basketBallScore": null,
           "hockeyScore": null,
           "status": {
@@ -970,7 +1101,10 @@
           "color": "#ffdf50",
           "cricketScore": null,
           "kabaddiScore": null,
-          "footballScore": null,
+          "footballScore": {
+            "points": 0,
+            "goals": []
+          },
           "basketBallScore": null,
           "hockeyScore": null,
           "status": {
@@ -992,36 +1126,39 @@
     },
     {
       "category": "Football",
-      "title": "Vfl Wolfsburg Women Vs Chelsea F.c. Women",
-      "tournament": "UEFA Women's Champions League 2025-26",
-      "match_id": 137601,
-      "status": "NOT_STARTED",
+      "title": "Newcastle United Vs Fulham",
+      "tournament": "Carabao Cup 2025-2026",
+      "match_id": 137986,
+      "status": "LIVE",
       "streamingStatus": "STARTED",
-      "startTime": "18 December 2025 01:30 AM",
+      "startTime": "18 December 2025 01:45 AM",
       "startDate": "01 January 1970 05:30 AM",
-      "image": "https://www.fancode.com/skillup-uploads/cms-media/137601_5720_WOL-W_CHE-W_fc-web.jpg",
+      "image": "https://www.fancode.com/skillup-uploads/cms-media/01_Newcastle-United-vs-Fulham-(1).jpg",
       "image_cdn": {
-        "TATAPLAY": "https://images.fancode.com/aig/match/v1/137601_CASACARDS_PARTNER_16_9_1920_1080.png",
-        "APP": "https://www.fancode.com/skillup-uploads/cms-media/137601_5720_WOL-W_CHE-W_fc-web.jpg",
-        "PLAYBACK": "https://www.fancode.com/skillup-uploads/cms-media/137601_5720_WOL-W_CHE-W_fc-web.jpg",
-        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/WHL.png",
+        "TATAPLAY": "https://images.fancode.com/aig/match/v1/137986_CASACARDS_PARTNER_16_9_1920_1080.png",
+        "APP": "https://www.fancode.com/skillup-uploads/cms-media/01_Newcastle-United-vs-Fulham-(1).jpg",
+        "PLAYBACK": "https://www.fancode.com/skillup-uploads/cms-media/01_Newcastle-United-vs-Fulham-(1).jpg",
+        "LOGO": "https://fancode.com/skillup-uploads/prod-images/2024/08/Carabao_Cup.png",
         "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Football-old-copy.jpg",
-        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/137601_5720_WOL-W_CHE-W_fc-web.jpg",
-        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/137601_5720_WOL-W_CHE-W_fc-app.jpg",
-        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/137601_CASACARDS_PARTNER_16_9_1920_1080.png"
+        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/01_Newcastle-United-vs-Fulham-(1).jpg",
+        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/01_Newcastle-United-vs-Fulham.jpg",
+        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/137986_CASACARDS_PARTNER_16_9_1920_1080.png"
       },
       "teams": [
         {
-          "name": "VfL Wolfsburg Women",
-          "shortName": "WOL-W",
+          "name": "Newcastle United",
+          "shortName": "NEW",
           "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-WOLF@2x.png"
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-NEW@2x.png"
           },
           "isWinner": null,
-          "color": "#91ca6b",
+          "color": "#d15f6a",
           "cricketScore": null,
           "kabaddiScore": null,
-          "footballScore": null,
+          "footballScore": {
+            "points": 0,
+            "goals": []
+          },
           "basketBallScore": null,
           "hockeyScore": null,
           "status": {
@@ -1031,16 +1168,19 @@
           }
         },
         {
-          "name": "Chelsea F.C. Women",
-          "shortName": "CHE-W",
+          "name": "Fulham",
+          "shortName": "FUL",
           "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-CHW@2x.png"
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-FUL@2x.png"
           },
           "isWinner": null,
-          "color": "#384dce",
+          "color": "#bf514d",
           "cricketScore": null,
           "kabaddiScore": null,
-          "footballScore": null,
+          "footballScore": {
+            "points": 0,
+            "goals": []
+          },
           "basketBallScore": null,
           "hockeyScore": null,
           "status": {
@@ -1052,149 +1192,9 @@
       ],
       "language": "ENGLISH",
       "STREAMING_CDN": {
-        "Primary_Playback_URL": "https://in-mc-fdlive.fancode.com/mumbai/137601_english_hls_79db915de086739_1ta-di_h264/index.m3u8",
-        "fancode_cdn": "https://in-mc-fdlive.fancode.com/mumbai/137601_english_hls_79db915de086739_1ta-di_h264/index.m3u8",
-        "dai_google_cdn": "https://dai.google.com/linear/hls/event/Flz9L0COTm-x2bUQyXHRYw/master.m3u8",
-        "cloudfront_cdn": "Unavailable",
-        "sony_cdn": "Unavailable",
-        "language": "ENGLISH"
-      }
-    },
-    {
-      "category": "Football",
-      "title": "Roma Women Vs Skn St. Polten Women",
-      "tournament": "UEFA Women's Champions League 2025-26",
-      "match_id": 137609,
-      "status": "NOT_STARTED",
-      "streamingStatus": "STARTED",
-      "startTime": "18 December 2025 01:30 AM",
-      "startDate": "01 January 1970 05:30 AM",
-      "image": "https://www.fancode.com/skillup-uploads/cms-media/137609_5720_ROM-W_POL-W_fc-web.jpg",
-      "image_cdn": {
-        "TATAPLAY": "https://images.fancode.com/aig/match/v1/137609_CASACARDS_PARTNER_16_9_1920_1080.png",
-        "APP": "https://www.fancode.com/skillup-uploads/cms-media/137609_5720_ROM-W_POL-W_fc-web.jpg",
-        "PLAYBACK": "https://www.fancode.com/skillup-uploads/cms-media/137609_5720_ROM-W_POL-W_fc-web.jpg",
-        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/WHL.png",
-        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Football-old-copy.jpg",
-        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/137609_5720_ROM-W_POL-W_fc-web.jpg",
-        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/137609_5720_ROM-W_POL-W_fc-app.jpg",
-        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/137609_CASACARDS_PARTNER_16_9_1920_1080.png"
-      },
-      "teams": [
-        {
-          "name": "Roma Women",
-          "shortName": "ROM-W",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-ROM@2x.png"
-          },
-          "isWinner": null,
-          "color": "#141414",
-          "cricketScore": null,
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        },
-        {
-          "name": "SKN St. Polten Women",
-          "shortName": "POL-W",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-PWL@2x.png"
-          },
-          "isWinner": null,
-          "color": "#0071c9",
-          "cricketScore": null,
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        }
-      ],
-      "language": "ENGLISH",
-      "STREAMING_CDN": {
-        "Primary_Playback_URL": "https://in-mc-fdlive.fancode.com/mumbai/137609_english_hls_524c11abcf14914_1ta-di_h264/index.m3u8",
-        "fancode_cdn": "https://in-mc-fdlive.fancode.com/mumbai/137609_english_hls_524c11abcf14914_1ta-di_h264/index.m3u8",
-        "dai_google_cdn": "https://dai.google.com/linear/hls/event/Z9BORFccQdmP8D9PaCeeJA/master.m3u8",
-        "cloudfront_cdn": "Unavailable",
-        "sony_cdn": "Unavailable",
-        "language": "ENGLISH"
-      }
-    },
-    {
-      "category": "Football",
-      "title": "Deportivo Alaves Vs Sevilla Fc",
-      "tournament": "Copa del Rey, 2025-26",
-      "match_id": 138904,
-      "status": "NOT_STARTED",
-      "streamingStatus": "STARTED",
-      "startTime": "18 December 2025 01:30 AM",
-      "startDate": "01 January 1970 05:30 AM",
-      "image": "https://www.fancode.com/skillup-uploads/cms-media/138904_5806_ALA_SEV_FC-Web.jpg",
-      "image_cdn": {
-        "TATAPLAY": "https://images.fancode.com/aig/match/v1/138904_CASACARDS_PARTNER_16_9_1920_1080.png",
-        "APP": "https://www.fancode.com/skillup-uploads/cms-media/138904_5806_ALA_SEV_FC-Web.jpg",
-        "PLAYBACK": "https://www.fancode.com/skillup-uploads/cms-media/138904_5806_ALA_SEV_FC-Web.jpg",
-        "LOGO": "https://fancode.com/skillup-uploads/prod-images/2024/12/Copa-Del-Rey-Tour-Logo.png",
-        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Football-old-copy.jpg",
-        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/138904_5806_ALA_SEV_FC-Web.jpg",
-        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/138904_5806_ALA_SEV_FC-App.jpg",
-        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/138904_CASACARDS_PARTNER_16_9_1920_1080.png"
-      },
-      "teams": [
-        {
-          "name": "Deportivo Alaves",
-          "shortName": "ALA",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-ALA@2x.png"
-          },
-          "isWinner": null,
-          "color": "#537096",
-          "cricketScore": null,
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        },
-        {
-          "name": "Sevilla FC",
-          "shortName": "SEV",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-SVI@2x.png"
-          },
-          "isWinner": null,
-          "color": "#daa335",
-          "cricketScore": null,
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        }
-      ],
-      "language": "ENGLISH",
-      "STREAMING_CDN": {
-        "Primary_Playback_URL": "https://in-mc-fdlive.fancode.com/mumbai/138904_english_hls_8ebb8dd68c23453_1ta-di_h264/index.m3u8",
-        "fancode_cdn": "https://in-mc-fdlive.fancode.com/mumbai/138904_english_hls_8ebb8dd68c23453_1ta-di_h264/index.m3u8",
-        "dai_google_cdn": "https://dai.google.com/linear/hls/event/H_UZnNDcR36NGo68HpRgYQ/master.m3u8",
+        "Primary_Playback_URL": "https://in-mc-fdlive.fancode.com/mumbai/137986_english_hls_85a9c60f4743757_1ta-di_h264/index.m3u8",
+        "fancode_cdn": "https://in-mc-fdlive.fancode.com/mumbai/137986_english_hls_85a9c60f4743757_1ta-di_h264/index.m3u8",
+        "dai_google_cdn": "https://dai.google.com/linear/hls/event/sqxQOZ0RR1OG80f6abtlfA/master.m3u8",
         "cloudfront_cdn": "Unavailable",
         "sony_cdn": "Unavailable",
         "language": "ENGLISH"
@@ -1380,72 +1380,6 @@
           },
           "isWinner": false,
           "color": "#2b73d3",
-          "cricketScore": null,
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        }
-      ],
-      "language": "BLOODY_SWEET",
-      "STREAMING_CDN": {
-        "language": "BLOODY_SWEET",
-        "Primary_Playback_URL": null
-      }
-    },
-    {
-      "category": "Football",
-      "title": "Newcastle United Vs Fulham",
-      "tournament": "Carabao Cup 2025-2026",
-      "match_id": 137986,
-      "status": "NOT_STARTED",
-      "streamingStatus": "NOT_STARTED",
-      "startTime": "18 December 2025 01:45 AM",
-      "startDate": "01 January 1970 05:30 AM",
-      "image": "https://www.fancode.com/skillup-uploads/cms-media/01_Newcastle-United-vs-Fulham-(1).jpg",
-      "image_cdn": {
-        "TATAPLAY": "https://images.fancode.com/aig/match/v1/137986_CASACARDS_PARTNER_16_9_1920_1080.png",
-        "APP": "https://www.fancode.com/skillup-uploads/cms-media/01_Newcastle-United-vs-Fulham-(1).jpg",
-        "PLAYBACK": null,
-        "LOGO": "https://fancode.com/skillup-uploads/prod-images/2024/08/Carabao_Cup.png",
-        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Football-old-copy.jpg",
-        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/01_Newcastle-United-vs-Fulham-(1).jpg",
-        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/01_Newcastle-United-vs-Fulham.jpg",
-        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/137986_CASACARDS_PARTNER_16_9_1920_1080.png"
-      },
-      "teams": [
-        {
-          "name": "Newcastle United",
-          "shortName": "NEW",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-NEW@2x.png"
-          },
-          "isWinner": null,
-          "color": "#d15f6a",
-          "cricketScore": null,
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        },
-        {
-          "name": "Fulham",
-          "shortName": "FUL",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-FUL@2x.png"
-          },
-          "isWinner": null,
-          "color": "#bf514d",
           "cricketScore": null,
           "kabaddiScore": null,
           "footballScore": null,
@@ -2125,6 +2059,72 @@
       }
     },
     {
+      "category": "Team Tennis",
+      "title": "Game Changers Falcons Vs Vb Realty Hawks",
+      "tournament": "World Tennis League 2025",
+      "match_id": 138828,
+      "status": "NOT_STARTED",
+      "streamingStatus": "NOT_STARTED",
+      "startTime": "18 December 2025 07:00 PM",
+      "startDate": "01 January 1970 05:30 AM",
+      "image": "https://www.fancode.com/skillup-uploads/cms-media/138828_5803_GCF_VBR_fc-web.jpg",
+      "image_cdn": {
+        "TATAPLAY": "https://images.fancode.com/aig/match/v1/138828_CASACARDS_PARTNER_16_9_1920_1080.png",
+        "APP": "https://www.fancode.com/skillup-uploads/cms-media/138828_5803_GCF_VBR_fc-web.jpg",
+        "PLAYBACK": null,
+        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/WTL-Tour-Logo.png",
+        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Default_Tennis-old.jpg",
+        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/138828_5803_GCF_VBR_fc-web.jpg",
+        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/138828_5803_GCF_VBR_fc-app.jpg",
+        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/138828_CASACARDS_PARTNER_16_9_1920_1080.png"
+      },
+      "teams": [
+        {
+          "name": "Game Changers Falcons",
+          "shortName": "GCF",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/teamtenis-flags/FC-GCF@2x.png"
+          },
+          "isWinner": null,
+          "color": "#B8142D",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        },
+        {
+          "name": "VB Realty Hawks",
+          "shortName": "VBR",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/teamtenis-flags/FC-VBR@2x.png"
+          },
+          "isWinner": null,
+          "color": "#B8142D",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        }
+      ],
+      "language": "BLOODY_SWEET",
+      "STREAMING_CDN": {
+        "language": "BLOODY_SWEET",
+        "Primary_Playback_URL": null
+      }
+    },
+    {
       "category": "Cricket",
       "title": "Mi Emirates Vs Dubai Capitals",
       "tournament": "DP World ILT20 2025-26",
@@ -2196,72 +2196,6 @@
           "status": {
             "cricket": {
               "isBatting": true
-            }
-          }
-        }
-      ],
-      "language": "BLOODY_SWEET",
-      "STREAMING_CDN": {
-        "language": "BLOODY_SWEET",
-        "Primary_Playback_URL": null
-      }
-    },
-    {
-      "category": "Team Tennis",
-      "title": "Game Changers Falcons Vs Vb Realty Hawks",
-      "tournament": "World Tennis League 2025",
-      "match_id": 138828,
-      "status": "NOT_STARTED",
-      "streamingStatus": "NOT_STARTED",
-      "startTime": "18 December 2025 07:00 PM",
-      "startDate": "01 January 1970 05:30 AM",
-      "image": "https://www.fancode.com/skillup-uploads/cms-media/138828_5803_GCF_VBR_fc-web.jpg",
-      "image_cdn": {
-        "TATAPLAY": "https://images.fancode.com/aig/match/v1/138828_CASACARDS_PARTNER_16_9_1920_1080.png",
-        "APP": "https://www.fancode.com/skillup-uploads/cms-media/138828_5803_GCF_VBR_fc-web.jpg",
-        "PLAYBACK": null,
-        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/WTL-Tour-Logo.png",
-        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Default_Tennis-old.jpg",
-        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/138828_5803_GCF_VBR_fc-web.jpg",
-        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/138828_5803_GCF_VBR_fc-app.jpg",
-        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/138828_CASACARDS_PARTNER_16_9_1920_1080.png"
-      },
-      "teams": [
-        {
-          "name": "Game Changers Falcons",
-          "shortName": "GCF",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/teamtenis-flags/FC-GCF@2x.png"
-          },
-          "isWinner": null,
-          "color": "#B8142D",
-          "cricketScore": null,
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        },
-        {
-          "name": "VB Realty Hawks",
-          "shortName": "VBR",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/teamtenis-flags/FC-VBR@2x.png"
-          },
-          "isWinner": null,
-          "color": "#B8142D",
-          "cricketScore": null,
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
             }
           }
         }
@@ -2650,6 +2584,138 @@
           },
           "isWinner": null,
           "color": "#141414",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        }
+      ],
+      "language": "BLOODY_SWEET",
+      "STREAMING_CDN": {
+        "language": "BLOODY_SWEET",
+        "Primary_Playback_URL": null
+      }
+    },
+    {
+      "category": "Team Tennis",
+      "title": "Aos Eagles Vs Vb Realty Hawks",
+      "tournament": "World Tennis League 2025",
+      "match_id": 138829,
+      "status": "NOT_STARTED",
+      "streamingStatus": "NOT_STARTED",
+      "startTime": "19 December 2025 03:00 PM",
+      "startDate": "01 January 1970 05:30 AM",
+      "image": "https://www.fancode.com/skillup-uploads/cms-media/138829_5803_AOS_VBR_fc-web.jpg",
+      "image_cdn": {
+        "TATAPLAY": "https://images.fancode.com/aig/match/v1/138829_CASACARDS_PARTNER_16_9_1920_1080.png",
+        "APP": "https://www.fancode.com/skillup-uploads/cms-media/138829_5803_AOS_VBR_fc-web.jpg",
+        "PLAYBACK": null,
+        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/WTL-Tour-Logo.png",
+        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Default_Tennis-old.jpg",
+        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/138829_5803_AOS_VBR_fc-web.jpg",
+        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/138829_5803_AOS_VBR_fc-app.jpg",
+        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/138829_CASACARDS_PARTNER_16_9_1920_1080.png"
+      },
+      "teams": [
+        {
+          "name": "AOS Eagles",
+          "shortName": "AOS",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/teamtenis-flags/FC-AOS@2x.png"
+          },
+          "isWinner": null,
+          "color": "#B8142D",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        },
+        {
+          "name": "VB Realty Hawks",
+          "shortName": "VBR",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/teamtenis-flags/FC-VBR@2x.png"
+          },
+          "isWinner": null,
+          "color": "#B8142D",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        }
+      ],
+      "language": "BLOODY_SWEET",
+      "STREAMING_CDN": {
+        "language": "BLOODY_SWEET",
+        "Primary_Playback_URL": null
+      }
+    },
+    {
+      "category": "Cricket",
+      "title": "Tbc Vs Tbc",
+      "tournament": "GCC Women's T20I Championship, 2025",
+      "match_id": 138727,
+      "status": "NOT_STARTED",
+      "streamingStatus": "NOT_STARTED",
+      "startTime": "19 December 2025 08:00 PM",
+      "startDate": "01 January 1970 05:30 AM",
+      "image": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_cricket-old.jpg",
+      "image_cdn": {
+        "TATAPLAY": "https://images.fancode.com/aig/match/v1/138727_CASACARDS_PARTNER_16_9_1920_1080.png",
+        "APP": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_cricket-old.jpg",
+        "PLAYBACK": null,
+        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/GCC-Championship---Logo-Oman-2025.png",
+        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_cricket-old.jpg",
+        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_cricket-old.jpg",
+        "SPORT_BY_IMAGE": "https://fancode.com/skillup-uploads/prod-images/2023/08/FC_Sports_Default_cricket.jpg",
+        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/138727_CASACARDS_PARTNER_16_9_1920_1080.png"
+      },
+      "teams": [
+        {
+          "name": "TBC",
+          "shortName": "TBC",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/TBC-CR1@2x.png"
+          },
+          "isWinner": null,
+          "color": "#dcdcdc",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        },
+        {
+          "name": "TBC",
+          "shortName": "TBC",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/TBC-CR1@2x.png"
+          },
+          "isWinner": null,
+          "color": "#dcdcdc",
           "cricketScore": null,
           "kabaddiScore": null,
           "footballScore": null,
