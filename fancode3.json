@@ -1,7 +1,7 @@
 {
   "Author": "DOCTOR_STRANGE",
   "name": "FanCode Live Matches API",
-  "last_updated": "10:56:01 PM 20-12-2025",
+  "last_updated": "11:00:01 PM 20-12-2025",
   "headers": {
     "User-Agent": "ReactNativeVideo/8.4.0 (Linux;Android 13) AndroidXMedia3/1.1.1",
     "Referer": "https://fancode.com/"
@@ -103,7 +103,7 @@
           "flag": {
             "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-SWR@2x.png"
           },
-          "isWinner": null,
+          "isWinner": false,
           "color": "#d93025",
           "cricketScore": [
             {
@@ -130,15 +130,15 @@
           "flag": {
             "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-DVDD@2x.png"
           },
-          "isWinner": null,
+          "isWinner": true,
           "color": "#c0242b",
           "cricketScore": [
             {
-              "runs": 88,
-              "overs": "13.2",
-              "balls": "80",
+              "runs": 91,
+              "overs": "13.5",
+              "balls": "83",
               "status": "IN_PROGRESS",
-              "wickets": 5
+              "wickets": 6
             }
           ],
           "kabaddiScore": null,
@@ -167,7 +167,7 @@
       "title": "Ca Osasuna Vs Deportivo Alaves",
       "tournament": "LALIGA 2025-26",
       "match_id": 130991,
-      "status": "NOT_STARTED",
+      "status": "LIVE",
       "streamingStatus": "STARTED",
       "startTime": "20 December 2025 11:00 PM",
       "startDate": "01 January 1970 05:30 AM",
@@ -196,11 +196,7 @@
           "footballScore": null,
           "basketBallScore": null,
           "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
+          "status": null
         },
         {
           "name": "Deportivo Alaves",
@@ -215,11 +211,7 @@
           "footballScore": null,
           "basketBallScore": null,
           "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
+          "status": null
         }
       ],
       "language": "ENGLISH",
