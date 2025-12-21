@@ -1,7 +1,7 @@
 {
   "Author": "DOCTOR_STRANGE",
   "name": "FanCode Live Matches API",
-  "last_updated": "12:35:03 AM 22-12-2025",
+  "last_updated": "12:49:01 AM 22-12-2025",
   "headers": {
     "User-Agent": "ReactNativeVideo/8.4.0 (Linux;Android 13) AndroidXMedia3/1.1.1",
     "Referer": "https://fancode.com/"
@@ -127,8 +127,20 @@
           "cricketScore": null,
           "kabaddiScore": null,
           "footballScore": {
-            "points": 1,
+            "points": 3,
             "goals": [
+              {
+                "id": "69883",
+                "shortName": "G Valera",
+                "isOwnGoal": false,
+                "goalTime": "70'"
+              },
+              {
+                "id": "164232",
+                "shortName": "A Rodriguez",
+                "isOwnGoal": false,
+                "goalTime": "67'"
+              },
               {
                 "id": "181246",
                 "shortName": "H Fort",
@@ -183,7 +195,7 @@
       "title": "Morocco Vs Comoros",
       "tournament": "Africa Cup of Nations 2025-26",
       "match_id": 138336,
-      "status": "NOT_STARTED",
+      "status": "LIVE",
       "streamingStatus": "STARTED",
       "startTime": "22 December 2025 12:30 AM",
       "startDate": "01 January 1970 05:30 AM",
@@ -212,11 +224,7 @@
           "footballScore": null,
           "basketBallScore": null,
           "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
+          "status": null
         },
         {
           "name": "Comoros",
@@ -231,11 +239,7 @@
           "footballScore": null,
           "basketBallScore": null,
           "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
+          "status": null
         }
       ],
       "language": "ENGLISH",
