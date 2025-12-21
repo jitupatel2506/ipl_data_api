@@ -1,7 +1,7 @@
 {
   "Author": "DOCTOR_STRANGE",
   "name": "FanCode Live Matches API",
-  "last_updated": "07:07:01 PM 21-12-2025",
+  "last_updated": "07:14:02 PM 21-12-2025",
   "headers": {
     "User-Agent": "ReactNativeVideo/8.4.0 (Linux;Android 13) AndroidXMedia3/1.1.1",
     "Referer": "https://fancode.com/"
@@ -100,7 +100,7 @@
       "title": "Gulf Giants Vs Dubai Capitals",
       "tournament": "DP World ILT20 2025-26",
       "match_id": 138645,
-      "status": "LIVE",
+      "status": "COMPLETED",
       "streamingStatus": "STARTED",
       "startTime": "21 December 2025 03:30 PM",
       "startDate": "01 January 1970 05:30 AM",
@@ -122,7 +122,7 @@
           "flag": {
             "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-GGDD@2x.png"
           },
-          "isWinner": null,
+          "isWinner": false,
           "color": "#75650d",
           "cricketScore": [
             {
@@ -149,13 +149,13 @@
           "flag": {
             "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-DCDP@2x.png"
           },
-          "isWinner": null,
+          "isWinner": true,
           "color": "#bd8a16",
           "cricketScore": [
             {
-              "runs": 152,
-              "overs": "19",
-              "balls": "115",
+              "runs": 162,
+              "overs": "19.2",
+              "balls": "116",
               "status": "IN_PROGRESS",
               "wickets": 4
             }
@@ -235,8 +235,14 @@
           "cricketScore": null,
           "kabaddiScore": null,
           "footballScore": {
-            "points": 1,
+            "points": 2,
             "goals": [
+              {
+                "id": "34095",
+                "shortName": "C Gallagher",
+                "isOwnGoal": false,
+                "goalTime": "38'"
+              },
               {
                 "id": "1387",
                 "shortName": "Koke",
