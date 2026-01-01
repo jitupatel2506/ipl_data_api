@@ -1,7 +1,7 @@
 {
   "Author": "DOCTOR_STRANGE",
   "name": "FanCode Live Matches API",
-  "last_updated": "09:49:02 PM 01-01-2026",
+  "last_updated": "09:59:01 PM 01-01-2026",
   "headers": {
     "User-Agent": "ReactNativeVideo/8.4.0 (Linux;Android 13) AndroidXMedia3/1.1.1",
     "Referer": "https://fancode.com/"
@@ -37,7 +37,7 @@
           "flag": {
             "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-RAW@2x.png"
           },
-          "isWinner": null,
+          "isWinner": true,
           "color": "#fdcb83",
           "cricketScore": [
             {
@@ -48,9 +48,9 @@
               "wickets": 8
             },
             {
-              "runs": 0,
-              "overs": "0.0",
-              "balls": "0",
+              "runs": 10,
+              "overs": "0.3",
+              "balls": "3",
               "status": "IN_PROGRESS",
               "wickets": 0
             }
@@ -71,7 +71,7 @@
           "flag": {
             "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-RANG@2x.png"
           },
-          "isWinner": null,
+          "isWinner": false,
           "color": "#42b7e8",
           "cricketScore": [
             {
@@ -145,7 +145,7 @@
               "runs": 158,
               "overs": "20",
               "balls": "120",
-              "status": "IN_PROGRESS",
+              "status": "COMPLETED",
               "wickets": 7
             }
           ],
@@ -155,7 +155,7 @@
           "hockeyScore": null,
           "status": {
             "cricket": {
-              "isBatting": true
+              "isBatting": false
             }
           }
         },
@@ -167,14 +167,22 @@
           },
           "isWinner": null,
           "color": "#bd8a16",
-          "cricketScore": [],
+          "cricketScore": [
+            {
+              "runs": 0,
+              "overs": "0",
+              "balls": "0",
+              "status": "IN_PROGRESS",
+              "wickets": 0
+            }
+          ],
           "kabaddiScore": null,
           "footballScore": null,
           "basketBallScore": null,
           "hockeyScore": null,
           "status": {
             "cricket": {
-              "isBatting": false
+              "isBatting": true
             }
           }
         }
