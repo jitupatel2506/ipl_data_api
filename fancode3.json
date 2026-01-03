@@ -1,7 +1,7 @@
 {
   "Author": "DOCTOR_STRANGE",
   "name": "FanCode Live Matches API",
-  "last_updated": "08:42:01 PM 03-01-2026",
+  "last_updated": "08:49:01 PM 03-01-2026",
   "headers": {
     "User-Agent": "ReactNativeVideo/8.4.0 (Linux;Android 13) AndroidXMedia3/1.1.1",
     "Referer": "https://fancode.com/"
@@ -86,7 +86,7 @@
       "title": "Ca Osasuna Vs Athletic Club",
       "tournament": "LALIGA 2025-26",
       "match_id": 131000,
-      "status": "NOT_STARTED",
+      "status": "LIVE",
       "streamingStatus": "STARTED",
       "startTime": "03 January 2026 08:45 PM",
       "startDate": "01 January 1970 05:30 AM",
@@ -112,7 +112,10 @@
           "color": "#F2DC85",
           "cricketScore": null,
           "kabaddiScore": null,
-          "footballScore": null,
+          "footballScore": {
+            "points": 0,
+            "goals": []
+          },
           "basketBallScore": null,
           "hockeyScore": null,
           "status": {
@@ -131,7 +134,10 @@
           "color": "#ff674d",
           "cricketScore": null,
           "kabaddiScore": null,
-          "footballScore": null,
+          "footballScore": {
+            "points": 0,
+            "goals": []
+          },
           "basketBallScore": null,
           "hockeyScore": null,
           "status": {
