@@ -1,7 +1,7 @@
 {
   "Author": "DOCTOR_STRANGE",
   "name": "FanCode Live Matches API",
-  "last_updated": "01:42:01 AM 07-01-2026",
+  "last_updated": "01:49:03 AM 07-01-2026",
   "headers": {
     "User-Agent": "ReactNativeVideo/8.4.0 (Linux;Android 13) AndroidXMedia3/1.1.1",
     "Referer": "https://fancode.com/"
@@ -12,10 +12,100 @@
   "matches": [
     {
       "category": "Football",
+      "title": "Ivory Coast Vs Burkina Faso",
+      "tournament": "Africa Cup of Nations 2025-26",
+      "match_id": 138382,
+      "status": "LIVE",
+      "streamingStatus": "STARTED",
+      "startTime": "07 January 2026 12:30 AM",
+      "startDate": "01 January 1970 05:30 AM",
+      "image": "https://www.fancode.com/skillup-uploads/cms-media/Ivory-Coast-vs-Burkina-Faso_fc-web.jpg",
+      "image_cdn": {
+        "TATAPLAY": "https://images.fancode.com/aig/match/v1/138382_CASACARDS_PARTNER_16_9_1920_1080.png",
+        "APP": "https://www.fancode.com/skillup-uploads/cms-media/Ivory-Coast-vs-Burkina-Faso_fc-web.jpg",
+        "PLAYBACK": "https://www.fancode.com/skillup-uploads/cms-media/Ivory-Coast-vs-Burkina-Faso_fc-web.jpg",
+        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/Afcon-Tour.png",
+        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Football-old-copy.jpg",
+        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/Ivory-Coast-vs-Burkina-Faso_fc-web.jpg",
+        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/Ivory-Coast-vs-Burkina-Faso_fc-app.jpg",
+        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/138382_CASACARDS_PARTNER_16_9_1920_1080.png"
+      },
+      "teams": [
+        {
+          "name": "Ivory Coast",
+          "shortName": "IVC",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-IVR@2x.png"
+          },
+          "isWinner": null,
+          "color": "#e07d15",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": {
+            "points": 2,
+            "goals": [
+              {
+                "id": "198385",
+                "shortName": "Y Diomande",
+                "isOwnGoal": false,
+                "goalTime": "32'"
+              },
+              {
+                "id": "69006",
+                "shortName": "A Traore",
+                "isOwnGoal": false,
+                "goalTime": "20'"
+              }
+            ]
+          },
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        },
+        {
+          "name": "Burkina Faso",
+          "shortName": "BRK",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-BURK@2x.png"
+          },
+          "isWinner": null,
+          "color": "#008512",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": {
+            "points": 0,
+            "goals": []
+          },
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        }
+      ],
+      "language": "ENGLISH",
+      "STREAMING_CDN": {
+        "Primary_Playback_URL": "https://in-mc-fdlive.fancode.com/mumbai/138382_english_hls_0ed4026f7a8462_1ta-di_h264/index.m3u8",
+        "fancode_cdn": "https://in-mc-fdlive.fancode.com/mumbai/138382_english_hls_0ed4026f7a8462_1ta-di_h264/index.m3u8",
+        "fancode_bd_cdn": "https://bd-mc-fdlive.fancode.com/mumbai/138382_english_hls_0ed4026f7a8462_1ta-di_h264/index.m3u8",
+        "dai_google_cdn": "https://dai.google.com/linear/hls/event/_FjSDe0vQYmIoGi3IsxMCg/master.m3u8",
+        "cloudfront_cdn": "Unavailable",
+        "sony_cdn": "Unavailable",
+        "language": "ENGLISH"
+      }
+    },
+    {
+      "category": "Football",
       "title": "Granada Vs Rayo Vallecano",
       "tournament": "Copa del Rey, 2025-26",
       "match_id": 138909,
-      "status": "LIVE",
+      "status": "COMPLETED",
       "streamingStatus": "STARTED",
       "startTime": "06 January 2026 11:30 PM",
       "startDate": "01 January 1970 05:30 AM",
@@ -108,96 +198,6 @@
         "fancode_cdn": "https://in-mc-fdlive.fancode.com/mumbai/138909_english_hls_a06e4ac05a52513_1ta-di_h264/index.m3u8",
         "fancode_bd_cdn": "https://bd-mc-fdlive.fancode.com/mumbai/138909_english_hls_a06e4ac05a52513_1ta-di_h264/index.m3u8",
         "dai_google_cdn": "https://dai.google.com/linear/hls/event/dwrwINh-SgCgUNe-KQNEpg/master.m3u8",
-        "cloudfront_cdn": "Unavailable",
-        "sony_cdn": "Unavailable",
-        "language": "ENGLISH"
-      }
-    },
-    {
-      "category": "Football",
-      "title": "Ivory Coast Vs Burkina Faso",
-      "tournament": "Africa Cup of Nations 2025-26",
-      "match_id": 138382,
-      "status": "LIVE",
-      "streamingStatus": "STARTED",
-      "startTime": "07 January 2026 12:30 AM",
-      "startDate": "01 January 1970 05:30 AM",
-      "image": "https://www.fancode.com/skillup-uploads/cms-media/Ivory-Coast-vs-Burkina-Faso_fc-web.jpg",
-      "image_cdn": {
-        "TATAPLAY": "https://images.fancode.com/aig/match/v1/138382_CASACARDS_PARTNER_16_9_1920_1080.png",
-        "APP": "https://www.fancode.com/skillup-uploads/cms-media/Ivory-Coast-vs-Burkina-Faso_fc-web.jpg",
-        "PLAYBACK": "https://www.fancode.com/skillup-uploads/cms-media/Ivory-Coast-vs-Burkina-Faso_fc-web.jpg",
-        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/Afcon-Tour.png",
-        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Football-old-copy.jpg",
-        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/Ivory-Coast-vs-Burkina-Faso_fc-web.jpg",
-        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/Ivory-Coast-vs-Burkina-Faso_fc-app.jpg",
-        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/138382_CASACARDS_PARTNER_16_9_1920_1080.png"
-      },
-      "teams": [
-        {
-          "name": "Ivory Coast",
-          "shortName": "IVC",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-IVR@2x.png"
-          },
-          "isWinner": null,
-          "color": "#e07d15",
-          "cricketScore": null,
-          "kabaddiScore": null,
-          "footballScore": {
-            "points": 2,
-            "goals": [
-              {
-                "id": "198385",
-                "shortName": "Y Diomande",
-                "isOwnGoal": false,
-                "goalTime": "32'"
-              },
-              {
-                "id": "69006",
-                "shortName": "A Traore",
-                "isOwnGoal": false,
-                "goalTime": "20'"
-              }
-            ]
-          },
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        },
-        {
-          "name": "Burkina Faso",
-          "shortName": "BRK",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-BURK@2x.png"
-          },
-          "isWinner": null,
-          "color": "#008512",
-          "cricketScore": null,
-          "kabaddiScore": null,
-          "footballScore": {
-            "points": 0,
-            "goals": []
-          },
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        }
-      ],
-      "language": "ENGLISH",
-      "STREAMING_CDN": {
-        "Primary_Playback_URL": "https://in-mc-fdlive.fancode.com/mumbai/138382_english_hls_0ed4026f7a8462_1ta-di_h264/index.m3u8",
-        "fancode_cdn": "https://in-mc-fdlive.fancode.com/mumbai/138382_english_hls_0ed4026f7a8462_1ta-di_h264/index.m3u8",
-        "fancode_bd_cdn": "https://bd-mc-fdlive.fancode.com/mumbai/138382_english_hls_0ed4026f7a8462_1ta-di_h264/index.m3u8",
-        "dai_google_cdn": "https://dai.google.com/linear/hls/event/_FjSDe0vQYmIoGi3IsxMCg/master.m3u8",
         "cloudfront_cdn": "Unavailable",
         "sony_cdn": "Unavailable",
         "language": "ENGLISH"
@@ -930,6 +930,72 @@
       }
     },
     {
+      "category": "Cricket",
+      "title": "Act Meteors Vs Victoria Women",
+      "tournament": "Women's National Cricket League, 2025-26",
+      "match_id": 133964,
+      "status": "NOT_STARTED",
+      "streamingStatus": "NOT_STARTED",
+      "startTime": "08 January 2026 04:30 AM",
+      "startDate": "01 January 1970 05:30 AM",
+      "image": "https://www.fancode.com/skillup-uploads/cms-media/Women's-National-Cricket-League_old_v1_1758034980139.jpg",
+      "image_cdn": {
+        "TATAPLAY": "https://images.fancode.com/aig/match/v1/133964_CASACARDS_PARTNER_16_9_1920_1080.png",
+        "APP": "https://www.fancode.com/skillup-uploads/cms-media/Women's-National-Cricket-League_old_v1_1758034980139.jpg",
+        "PLAYBACK": null,
+        "LOGO": "https://fancode.com/skillup-uploads/prod-images/2024/11/WNCL-1.png",
+        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_cricket-old.jpg",
+        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/Women's-National-Cricket-League_old_v1_1758034980139.jpg",
+        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/Women's-National-Cricket-League_Sporty_v1_1758034980128.jpg",
+        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/133964_CASACARDS_PARTNER_16_9_1920_1080.png"
+      },
+      "teams": [
+        {
+          "name": "ACT Meteors",
+          "shortName": "ACTM",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-ACTM@2x.png"
+          },
+          "isWinner": null,
+          "color": "#006ba6",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        },
+        {
+          "name": "Victoria Women",
+          "shortName": "VCTW",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-VCT@2x.png"
+          },
+          "isWinner": null,
+          "color": "#00226a",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        }
+      ],
+      "language": "BLOODY_SWEET",
+      "STREAMING_CDN": {
+        "language": "BLOODY_SWEET",
+        "Primary_Playback_URL": null
+      }
+    },
+    {
       "category": "Golf",
       "title": "The Bay Vs Atlanta",
       "tournament": "TGL Season 2",
@@ -1043,72 +1109,6 @@
           },
           "isWinner": null,
           "color": "#FF0000",
-          "cricketScore": null,
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        }
-      ],
-      "language": "BLOODY_SWEET",
-      "STREAMING_CDN": {
-        "language": "BLOODY_SWEET",
-        "Primary_Playback_URL": null
-      }
-    },
-    {
-      "category": "Cricket",
-      "title": "Act Meteors Vs Victoria Women",
-      "tournament": "Women's National Cricket League, 2025-26",
-      "match_id": 133964,
-      "status": "NOT_STARTED",
-      "streamingStatus": "NOT_STARTED",
-      "startTime": "08 January 2026 04:30 AM",
-      "startDate": "01 January 1970 05:30 AM",
-      "image": "https://www.fancode.com/skillup-uploads/cms-media/Women's-National-Cricket-League_old_v1_1758034980139.jpg",
-      "image_cdn": {
-        "TATAPLAY": "https://images.fancode.com/aig/match/v1/133964_CASACARDS_PARTNER_16_9_1920_1080.png",
-        "APP": "https://www.fancode.com/skillup-uploads/cms-media/Women's-National-Cricket-League_old_v1_1758034980139.jpg",
-        "PLAYBACK": null,
-        "LOGO": "https://fancode.com/skillup-uploads/prod-images/2024/11/WNCL-1.png",
-        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_cricket-old.jpg",
-        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/Women's-National-Cricket-League_old_v1_1758034980139.jpg",
-        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/Women's-National-Cricket-League_Sporty_v1_1758034980128.jpg",
-        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/133964_CASACARDS_PARTNER_16_9_1920_1080.png"
-      },
-      "teams": [
-        {
-          "name": "ACT Meteors",
-          "shortName": "ACTM",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-ACTM@2x.png"
-          },
-          "isWinner": null,
-          "color": "#006ba6",
-          "cricketScore": null,
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        },
-        {
-          "name": "Victoria Women",
-          "shortName": "VCTW",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-VCT@2x.png"
-          },
-          "isWinner": null,
-          "color": "#00226a",
           "cricketScore": null,
           "kabaddiScore": null,
           "footballScore": null,
