@@ -1,7 +1,7 @@
 {
   "Author": "DOCTOR_STRANGE",
   "name": "FanCode Live Matches API",
-  "last_updated": "10:56:01 PM 10-01-2026",
+  "last_updated": "11:07:01 PM 10-01-2026",
   "headers": {
     "User-Agent": "ReactNativeVideo/8.4.0 (Linux;Android 13) AndroidXMedia3/1.1.1",
     "Referer": "https://fancode.com/"
@@ -176,7 +176,7 @@
       "title": "Girona Fc Vs Ca Osasuna",
       "tournament": "LALIGA 2025-26",
       "match_id": 131019,
-      "status": "NOT_STARTED",
+      "status": "LIVE",
       "streamingStatus": "STARTED",
       "startTime": "10 January 2026 11:00 PM",
       "startDate": "01 January 1970 05:30 AM",
@@ -202,7 +202,10 @@
           "color": "#fbc573",
           "cricketScore": null,
           "kabaddiScore": null,
-          "footballScore": null,
+          "footballScore": {
+            "points": 0,
+            "goals": []
+          },
           "basketBallScore": null,
           "hockeyScore": null,
           "status": {
@@ -221,7 +224,10 @@
           "color": "#F2DC85",
           "cricketScore": null,
           "kabaddiScore": null,
-          "footballScore": null,
+          "footballScore": {
+            "points": 0,
+            "goals": []
+          },
           "basketBallScore": null,
           "hockeyScore": null,
           "status": {
@@ -310,7 +316,7 @@
       "title": "Las Palmas Vs Deportivo La Coruna",
       "tournament": "LALIGA Hypermotion 2025-26",
       "match_id": 139248,
-      "status": "NOT_STARTED",
+      "status": "LIVE",
       "streamingStatus": "STARTED",
       "startTime": "10 January 2026 11:00 PM",
       "startDate": "01 January 1970 05:30 AM",
@@ -339,11 +345,7 @@
           "footballScore": null,
           "basketBallScore": null,
           "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
+          "status": null
         },
         {
           "name": "Deportivo La Coruna",
@@ -358,11 +360,7 @@
           "footballScore": null,
           "basketBallScore": null,
           "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
+          "status": null
         }
       ],
       "language": "ENGLISH",
