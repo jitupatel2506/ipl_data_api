@@ -1,14 +1,14 @@
 {
   "Author": "DOCTOR_STRANGE",
   "name": "FanCode Live Matches API",
-  "last_updated": "12:35:01 AM 15-01-2026",
+  "last_updated": "01:00:01 AM 15-01-2026",
   "headers": {
     "User-Agent": "ReactNativeVideo/8.4.0 (Linux;Android 13) AndroidXMedia3/1.1.1",
     "Referer": "https://fancode.com/"
   },
   "total_matches": 38,
-  "live_matches": 2,
-  "upcoming_matches": 36,
+  "live_matches": 1,
+  "upcoming_matches": 37,
   "matches": [
     {
       "category": "Football",
@@ -42,8 +42,15 @@
           "cricketScore": null,
           "kabaddiScore": null,
           "footballScore": {
-            "points": 0,
-            "goals": []
+            "points": 1,
+            "goals": [
+              {
+                "id": "175375",
+                "shortName": "Z Hawsawi",
+                "isOwnGoal": false,
+                "goalTime": "62'"
+              }
+            ]
           },
           "basketBallScore": null,
           "hockeyScore": null,
@@ -89,90 +96,6 @@
         "fancode_cdn": "https://in-mc-fdlive.fancode.com/mumbai/139359_english_hls_7a1b5dc1bf4570_1ta-di_h264/index.m3u8",
         "fancode_bd_cdn": "https://bd-mc-fdlive.fancode.com/mumbai/139359_english_hls_7a1b5dc1bf4570_1ta-di_h264/index.m3u8",
         "dai_google_cdn": "https://dai.google.com/linear/hls/event/nA4nPRFISaqJXadcMHUrVQ/master.m3u8",
-        "cloudfront_cdn": "Unavailable",
-        "sony_cdn": "Unavailable",
-        "language": "ENGLISH"
-      }
-    },
-    {
-      "category": "Football",
-      "title": "Senegal Vs Egypt",
-      "tournament": "Africa Cup of Nations 2025-26",
-      "match_id": 138391,
-      "status": "COMPLETED",
-      "streamingStatus": "STARTED",
-      "startTime": "14 January 2026 10:30 PM",
-      "startDate": "01 January 1970 05:30 AM",
-      "image": "https://www.fancode.com/skillup-uploads/cms-media/Senegal-vs-Egypt_fc-web.jpg",
-      "image_cdn": {
-        "TATAPLAY": "https://images.fancode.com/aig/match/v1/138391_CASACARDS_PARTNER_16_9_1920_1080.png",
-        "APP": "https://www.fancode.com/skillup-uploads/cms-media/Senegal-vs-Egypt_fc-web.jpg",
-        "PLAYBACK": "https://www.fancode.com/skillup-uploads/cms-media/Senegal-vs-Egypt_fc-web.jpg",
-        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/Afcon-Tour.png",
-        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Football-old-copy.jpg",
-        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/Senegal-vs-Egypt_fc-web.jpg",
-        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/Senegal-vs-Egypt_fc-app.jpg",
-        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/138391_CASACARDS_PARTNER_16_9_1920_1080.png"
-      },
-      "teams": [
-        {
-          "name": "Senegal",
-          "shortName": "SEN",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-SENEG@2x.png"
-          },
-          "isWinner": null,
-          "color": "#3a8347",
-          "cricketScore": null,
-          "kabaddiScore": null,
-          "footballScore": {
-            "points": 1,
-            "goals": [
-              {
-                "id": "5662",
-                "shortName": "S Mane",
-                "isOwnGoal": false,
-                "goalTime": "78'"
-              }
-            ]
-          },
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        },
-        {
-          "name": "Egypt",
-          "shortName": "EGY",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-EGYP@2x.png"
-          },
-          "isWinner": null,
-          "color": "#b99530",
-          "cricketScore": null,
-          "kabaddiScore": null,
-          "footballScore": {
-            "points": 0,
-            "goals": []
-          },
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        }
-      ],
-      "language": "ENGLISH",
-      "STREAMING_CDN": {
-        "Primary_Playback_URL": "https://in-mc-fdlive.fancode.com/mumbai/138391_english_hls_468a4aabcc41921_1ta-di_h264/index.m3u8",
-        "fancode_cdn": "https://in-mc-fdlive.fancode.com/mumbai/138391_english_hls_468a4aabcc41921_1ta-di_h264/index.m3u8",
-        "fancode_bd_cdn": "https://bd-mc-fdlive.fancode.com/mumbai/138391_english_hls_468a4aabcc41921_1ta-di_h264/index.m3u8",
-        "dai_google_cdn": "https://dai.google.com/linear/hls/event/7sDgJuNARMuckhwD2-D-fA/master.m3u8",
         "cloudfront_cdn": "Unavailable",
         "sony_cdn": "Unavailable",
         "language": "ENGLISH"
@@ -1235,6 +1158,72 @@
       }
     },
     {
+      "category": "Cricket",
+      "title": "Central Hinds Vs Auckland Hearts",
+      "tournament": "Women's Super Smash, 2025-26",
+      "match_id": 138783,
+      "status": "NOT_STARTED",
+      "streamingStatus": "NOT_STARTED",
+      "startTime": "16 January 2026 06:40 AM",
+      "startDate": "01 January 1970 05:30 AM",
+      "image": "https://www.fancode.com/skillup-uploads/cms-media/138783_5801_CH-W_AH-W_fc-web_1766596522088.jpg",
+      "image_cdn": {
+        "TATAPLAY": "https://images.fancode.com/aig/match/v1/138783_CASACARDS_PARTNER_16_9_1920_1080.png",
+        "APP": "https://www.fancode.com/skillup-uploads/cms-media/138783_5801_CH-W_AH-W_fc-web_1766596522088.jpg",
+        "PLAYBACK": null,
+        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/Super-Smash-Tour-Logo.png",
+        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_cricket-old.jpg",
+        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/138783_5801_CH-W_AH-W_fc-web_1766596522088.jpg",
+        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/138783_5801_CH-W_AH-W_fc-app_1766596319137.jpg",
+        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/138783_CASACARDS_PARTNER_16_9_1920_1080.png"
+      },
+      "teams": [
+        {
+          "name": "Central Hinds",
+          "shortName": "CH-W",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-CHIW@2x.png"
+          },
+          "isWinner": null,
+          "color": "#14693C",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        },
+        {
+          "name": "Auckland Hearts",
+          "shortName": "AH-W",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-AUHW@2x.png"
+          },
+          "isWinner": null,
+          "color": "#221469",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        }
+      ],
+      "language": "BLOODY_SWEET",
+      "STREAMING_CDN": {
+        "language": "BLOODY_SWEET",
+        "Primary_Playback_URL": null
+      }
+    },
+    {
       "category": "Tennis",
       "title": "Atp 250   Asb Classic",
       "tournament": "ATP 250 - Auckland Open",
@@ -1414,72 +1403,6 @@
           },
           "isWinner": null,
           "color": "#FF0000",
-          "cricketScore": null,
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        }
-      ],
-      "language": "BLOODY_SWEET",
-      "STREAMING_CDN": {
-        "language": "BLOODY_SWEET",
-        "Primary_Playback_URL": null
-      }
-    },
-    {
-      "category": "Cricket",
-      "title": "Central Hinds Vs Auckland Hearts",
-      "tournament": "Women's Super Smash, 2025-26",
-      "match_id": 138783,
-      "status": "NOT_STARTED",
-      "streamingStatus": "NOT_STARTED",
-      "startTime": "16 January 2026 06:40 AM",
-      "startDate": "01 January 1970 05:30 AM",
-      "image": "https://www.fancode.com/skillup-uploads/cms-media/138783_5801_CH-W_AH-W_fc-web_1766596522088.jpg",
-      "image_cdn": {
-        "TATAPLAY": "https://images.fancode.com/aig/match/v1/138783_CASACARDS_PARTNER_16_9_1920_1080.png",
-        "APP": "https://www.fancode.com/skillup-uploads/cms-media/138783_5801_CH-W_AH-W_fc-web_1766596522088.jpg",
-        "PLAYBACK": null,
-        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/Super-Smash-Tour-Logo.png",
-        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_cricket-old.jpg",
-        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/138783_5801_CH-W_AH-W_fc-web_1766596522088.jpg",
-        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/138783_5801_CH-W_AH-W_fc-app_1766596319137.jpg",
-        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/138783_CASACARDS_PARTNER_16_9_1920_1080.png"
-      },
-      "teams": [
-        {
-          "name": "Central Hinds",
-          "shortName": "CH-W",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-CHIW@2x.png"
-          },
-          "isWinner": null,
-          "color": "#14693C",
-          "cricketScore": null,
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        },
-        {
-          "name": "Auckland Hearts",
-          "shortName": "AH-W",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-AUHW@2x.png"
-          },
-          "isWinner": null,
-          "color": "#221469",
           "cricketScore": null,
           "kabaddiScore": null,
           "footballScore": null,
@@ -2568,6 +2491,72 @@
           },
           "isWinner": null,
           "color": "#A0A0D0",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        }
+      ],
+      "language": "BLOODY_SWEET",
+      "STREAMING_CDN": {
+        "language": "BLOODY_SWEET",
+        "Primary_Playback_URL": null
+      }
+    },
+    {
+      "category": "Football",
+      "title": "Rcd Espanyol Vs Girona Fc",
+      "tournament": "LALIGA 2025-26",
+      "match_id": 131029,
+      "status": "NOT_STARTED",
+      "streamingStatus": "NOT_STARTED",
+      "startTime": "17 January 2026 01:30 AM",
+      "startDate": "01 January 1970 05:30 AM",
+      "image": "https://www.fancode.com/skillup-uploads/cms-media/131029_5427_ESL_GIR_fc-Web_1768307626387.png",
+      "image_cdn": {
+        "TATAPLAY": "https://images.fancode.com/aig/match/v1/131029_CASACARDS_PARTNER_16_9_1920_1080.png",
+        "APP": "https://www.fancode.com/skillup-uploads/cms-media/131029_5427_ESL_GIR_fc-Web_1768307626387.png",
+        "PLAYBACK": null,
+        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/LALIGA-2025-26-Tour.png",
+        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Football-old-copy.jpg",
+        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/131029_5427_ESL_GIR_fc-Web_1768307626387.png",
+        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/131029_5427_ESL_GIR_fc-App_1768307626382.png",
+        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/131029_CASACARDS_PARTNER_16_9_1920_1080.png"
+      },
+      "teams": [
+        {
+          "name": "RCD Espanyol",
+          "shortName": "ESL",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-ESL@2x.png"
+          },
+          "isWinner": null,
+          "color": "#fff3db",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        },
+        {
+          "name": "Girona FC",
+          "shortName": "GIR",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/GIR-FT1@2x.png"
+          },
+          "isWinner": null,
+          "color": "#fbc573",
           "cricketScore": null,
           "kabaddiScore": null,
           "footballScore": null,
