@@ -1,7 +1,7 @@
 {
   "Author": "DOCTOR_STRANGE",
   "name": "FanCode Live Matches API",
-  "last_updated": "08:35:01 AM 20-01-2026",
+  "last_updated": "08:42:01 AM 20-01-2026",
   "headers": {
     "User-Agent": "ReactNativeVideo/8.4.0 (Linux;Android 13) AndroidXMedia3/1.1.1",
     "Referer": "https://fancode.com/"
@@ -189,7 +189,7 @@
       "title": "Zimbabwe Women Vs Thailand Women",
       "tournament": "ICC Women's T20 World Cup Global Qualifier, 2026",
       "match_id": 139223,
-      "status": "NOT_STARTED",
+      "status": "LIVE",
       "streamingStatus": "STARTED",
       "startTime": "20 January 2026 08:45 AM",
       "startDate": "01 January 1970 05:30 AM",
@@ -257,10 +257,10 @@
     },
     {
       "category": "Cricket",
-      "title": "Papua New Guinea Women Vs Bangladesh Women",
+      "title": "Bangladesh Women Vs Papua New Guinea Women",
       "tournament": "ICC Women's T20 World Cup Global Qualifier, 2026",
       "match_id": 139222,
-      "status": "NOT_STARTED",
+      "status": "LIVE",
       "streamingStatus": "STARTED",
       "startTime": "20 January 2026 08:45 AM",
       "startDate": "01 January 1970 05:30 AM",
@@ -277,25 +277,6 @@
       },
       "teams": [
         {
-          "name": "Papua New Guinea Women",
-          "shortName": "PN-W",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-PNG@2x.png"
-          },
-          "isWinner": null,
-          "color": "#eb5160",
-          "cricketScore": [],
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        },
-        {
           "name": "Bangladesh Women",
           "shortName": "BD-W",
           "flag": {
@@ -303,6 +284,33 @@
           },
           "isWinner": null,
           "color": "#397b46",
+          "cricketScore": [
+            {
+              "runs": 0,
+              "overs": "0",
+              "balls": "0",
+              "status": "IN_PROGRESS",
+              "wickets": 0
+            }
+          ],
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": true
+            }
+          }
+        },
+        {
+          "name": "Papua New Guinea Women",
+          "shortName": "PN-W",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-PNG@2x.png"
+          },
+          "isWinner": null,
+          "color": "#eb5160",
           "cricketScore": [],
           "kabaddiScore": null,
           "footballScore": null,
