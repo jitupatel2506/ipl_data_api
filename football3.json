@@ -1,102 +1,15 @@
 {
   "Author": "DOCTOR_STRANGE",
   "name": "FanCode Live Matches API",
-  "last_updated": "10:00:01 PM 24-01-2026",
+  "last_updated": "10:21:01 PM 24-01-2026",
   "headers": {
     "User-Agent": "ReactNativeVideo/8.4.0 (Linux;Android 13) AndroidXMedia3/1.1.1",
     "Referer": "https://fancode.com/"
   },
   "total_matches": 38,
-  "live_matches": 5,
-  "upcoming_matches": 33,
+  "live_matches": 4,
+  "upcoming_matches": 34,
   "matches": [
-    {
-      "category": "Cricket",
-      "title": "Sri Lanka Vs England",
-      "tournament": "England tour of Sri Lanka, 2026",
-      "match_id": 139290,
-      "status": "COMPLETED",
-      "streamingStatus": "STARTED",
-      "startTime": "24 January 2026 02:30 PM",
-      "startDate": "01 January 1970 05:30 AM",
-      "image": "https://www.fancode.com/skillup-uploads/cms-media/Mini-Match-Card-(1080x810)-(3).png",
-      "image_cdn": {
-        "TATAPLAY": "https://images.fancode.com/aig/match/v1/139290_CASACARDS_PARTNER_16_9_1920_1080.png",
-        "APP": "https://www.fancode.com/skillup-uploads/cms-media/Mini-Match-Card-(1080x810)-(3).png",
-        "PLAYBACK": "https://www.fancode.com/skillup-uploads/cms-media/Mini-Match-Card-(1080x810)-(3).png",
-        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/SL-vs-ENG.png",
-        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_cricket-old.jpg",
-        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/Mini-Match-Card-(1080x810)-(3).png",
-        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/Old-Sporty-(1080x1440)-(3).png",
-        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/139290_CASACARDS_PARTNER_16_9_1920_1080.png"
-      },
-      "teams": [
-        {
-          "name": "Sri Lanka",
-          "shortName": "SL",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-SRL@2x.png"
-          },
-          "isWinner": false,
-          "color": "#164fad",
-          "cricketScore": [
-            {
-              "runs": 219,
-              "overs": "49.3",
-              "balls": "297",
-              "status": "COMPLETED",
-              "wickets": 10
-            }
-          ],
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        },
-        {
-          "name": "England",
-          "shortName": "ENG",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-ENG@2x.png"
-          },
-          "isWinner": true,
-          "color": "#3c9ae8",
-          "cricketScore": [
-            {
-              "runs": 223,
-              "overs": "46.2",
-              "balls": "278",
-              "status": "IN_PROGRESS",
-              "wickets": 5
-            }
-          ],
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": true
-            }
-          }
-        }
-      ],
-      "language": "ENGLISH",
-      "STREAMING_CDN": {
-        "Primary_Playback_URL": "https://sonypartnersdaimenew.akamaized.net/hls/live/2018457/DAI35ME-ENGVSSL/master.m3u8?hdnea=exp=1769279402~acl=/*~id=1a10c11687675ead2791efb9f2f82039-1769236200124~hmac=67e2f8e5a095f6177f3ab7c3986169909c3fc56efb8db26e0e7ce9a8f4b8631e",
-        "fancode_cdn": "Unavailable",
-        "fancode_bd_cdn": null,
-        "dai_google_cdn": "https://dai.google.com/linear/hls/event/HynNobMPSu6nQCgpxsK0lQ/master.m3u8",
-        "cloudfront_cdn": "Unavailable",
-        "sony_cdn": "https://sonypartnersdaimenew.akamaized.net/hls/live/2018457/DAI35ME-ENGVSSL/master.m3u8?hdnea=exp=1769279402~acl=/*~id=1a10c11687675ead2791efb9f2f82039-1769236200124~hmac=67e2f8e5a095f6177f3ab7c3986169909c3fc56efb8db26e0e7ce9a8f4b8631e",
-        "language": "ENGLISH"
-      }
-    },
     {
       "category": "Football",
       "title": "Hull City Vs Swansea City A.f.c.",
@@ -226,8 +139,14 @@
           "cricketScore": null,
           "kabaddiScore": null,
           "footballScore": {
-            "points": 1,
+            "points": 2,
             "goals": [
+              {
+                "id": "21441",
+                "shortName": "E Comert",
+                "isOwnGoal": false,
+                "goalTime": "59'"
+              },
               {
                 "id": "34535",
                 "shortName": "H Duro",
@@ -255,8 +174,15 @@
           "cricketScore": null,
           "kabaddiScore": null,
           "footballScore": {
-            "points": 0,
-            "goals": []
+            "points": 1,
+            "goals": [
+              {
+                "id": "156600",
+                "shortName": "R Terrats",
+                "isOwnGoal": false,
+                "goalTime": "54'"
+              }
+            ]
           },
           "basketBallScore": null,
           "hockeyScore": null,
@@ -1734,6 +1660,72 @@
     },
     {
       "category": "Cricket",
+      "title": "Auckland Hearts Vs Central Hinds",
+      "tournament": "Women's Super Smash, 2025-26",
+      "match_id": 138792,
+      "status": "NOT_STARTED",
+      "streamingStatus": "NOT_STARTED",
+      "startTime": "26 January 2026 05:10 AM",
+      "startDate": "01 January 1970 05:30 AM",
+      "image": "https://www.fancode.com/skillup-uploads/cms-media/138792_5801_AH-W_CH-W_fc-web_1766596522097.jpg",
+      "image_cdn": {
+        "TATAPLAY": "https://images.fancode.com/aig/match/v1/138792_CASACARDS_PARTNER_16_9_1920_1080.png",
+        "APP": "https://www.fancode.com/skillup-uploads/cms-media/138792_5801_AH-W_CH-W_fc-web_1766596522097.jpg",
+        "PLAYBACK": null,
+        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/Super-Smash-Tour-Logo.png",
+        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_cricket-old.jpg",
+        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/138792_5801_AH-W_CH-W_fc-web_1766596522097.jpg",
+        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/138792_5801_AH-W_CH-W_fc-app_1766596319071.jpg",
+        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/138792_CASACARDS_PARTNER_16_9_1920_1080.png"
+      },
+      "teams": [
+        {
+          "name": "Auckland Hearts",
+          "shortName": "AH-W",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-AUHW@2x.png"
+          },
+          "isWinner": null,
+          "color": "#221469",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        },
+        {
+          "name": "Central Hinds",
+          "shortName": "CH-W",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-CHIW@2x.png"
+          },
+          "isWinner": null,
+          "color": "#14693C",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        }
+      ],
+      "language": "BLOODY_SWEET",
+      "STREAMING_CDN": {
+        "language": "BLOODY_SWEET",
+        "Primary_Playback_URL": null
+      }
+    },
+    {
+      "category": "Cricket",
       "title": "Central Hinds Vs Otago Sparks",
       "tournament": "Women's Super Smash, 2025-26",
       "match_id": 138790,
@@ -1898,34 +1890,42 @@
     },
     {
       "category": "Cricket",
-      "title": "Auckland Hearts Vs Central Hinds",
-      "tournament": "Women's Super Smash, 2025-26",
-      "match_id": 138792,
-      "status": "NOT_STARTED",
-      "streamingStatus": "NOT_STARTED",
-      "startTime": "26 January 2026 05:10 AM",
+      "title": "Sri Lanka Vs England",
+      "tournament": "England tour of Sri Lanka, 2026",
+      "match_id": 139290,
+      "status": "COMPLETED",
+      "streamingStatus": "COMPLETED",
+      "startTime": "24 January 2026 02:30 PM",
       "startDate": "01 January 1970 05:30 AM",
-      "image": "https://www.fancode.com/skillup-uploads/cms-media/138792_5801_AH-W_CH-W_fc-web_1766596522097.jpg",
+      "image": "https://www.fancode.com/skillup-uploads/cms-media/Mini-Match-Card-(1080x810)-(3).png",
       "image_cdn": {
-        "TATAPLAY": "https://images.fancode.com/aig/match/v1/138792_CASACARDS_PARTNER_16_9_1920_1080.png",
-        "APP": "https://www.fancode.com/skillup-uploads/cms-media/138792_5801_AH-W_CH-W_fc-web_1766596522097.jpg",
+        "TATAPLAY": "https://images.fancode.com/aig/match/v1/139290_CASACARDS_PARTNER_16_9_1920_1080.png",
+        "APP": "https://www.fancode.com/skillup-uploads/cms-media/Mini-Match-Card-(1080x810)-(3).png",
         "PLAYBACK": null,
-        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/Super-Smash-Tour-Logo.png",
+        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/SL-vs-ENG.png",
         "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_cricket-old.jpg",
-        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/138792_5801_AH-W_CH-W_fc-web_1766596522097.jpg",
-        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/138792_5801_AH-W_CH-W_fc-app_1766596319071.jpg",
-        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/138792_CASACARDS_PARTNER_16_9_1920_1080.png"
+        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/Mini-Match-Card-(1080x810)-(3).png",
+        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/Old-Sporty-(1080x1440)-(3).png",
+        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/139290_CASACARDS_PARTNER_16_9_1920_1080.png"
       },
       "teams": [
         {
-          "name": "Auckland Hearts",
-          "shortName": "AH-W",
+          "name": "Sri Lanka",
+          "shortName": "SL",
           "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-AUHW@2x.png"
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-SRL@2x.png"
           },
-          "isWinner": null,
-          "color": "#221469",
-          "cricketScore": null,
+          "isWinner": false,
+          "color": "#164fad",
+          "cricketScore": [
+            {
+              "runs": 219,
+              "overs": "49.3",
+              "balls": "297",
+              "status": "COMPLETED",
+              "wickets": 10
+            }
+          ],
           "kabaddiScore": null,
           "footballScore": null,
           "basketBallScore": null,
@@ -1937,21 +1937,29 @@
           }
         },
         {
-          "name": "Central Hinds",
-          "shortName": "CH-W",
+          "name": "England",
+          "shortName": "ENG",
           "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-CHIW@2x.png"
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-ENG@2x.png"
           },
-          "isWinner": null,
-          "color": "#14693C",
-          "cricketScore": null,
+          "isWinner": true,
+          "color": "#3c9ae8",
+          "cricketScore": [
+            {
+              "runs": 223,
+              "overs": "46.2",
+              "balls": "278",
+              "status": "IN_PROGRESS",
+              "wickets": 5
+            }
+          ],
           "kabaddiScore": null,
           "footballScore": null,
           "basketBallScore": null,
           "hockeyScore": null,
           "status": {
             "cricket": {
-              "isBatting": false
+              "isBatting": true
             }
           }
         }
