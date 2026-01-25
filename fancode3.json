@@ -1,7 +1,7 @@
 {
   "Author": "DOCTOR_STRANGE",
   "name": "FanCode Live Matches API",
-  "last_updated": "08:49:01 AM 25-01-2026",
+  "last_updated": "08:56:01 AM 25-01-2026",
   "headers": {
     "User-Agent": "ReactNativeVideo/8.4.0 (Linux;Android 13) AndroidXMedia3/1.1.1",
     "Referer": "https://fancode.com/"
@@ -12,7 +12,7 @@
   "matches": [
     {
       "category": "Cricket",
-      "title": "Canterbury Vs Northern Districts",
+      "title": "Northern Districts Vs Canterbury",
       "tournament": "Super Smash, 2025-26",
       "match_id": 138759,
       "status": "LIVE",
@@ -32,25 +32,6 @@
       },
       "teams": [
         {
-          "name": "Canterbury",
-          "shortName": "CTB",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-KING@2x.png"
-          },
-          "isWinner": null,
-          "color": "#DE3018",
-          "cricketScore": [],
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        },
-        {
           "name": "Northern Districts",
           "shortName": "ND",
           "flag": {
@@ -58,6 +39,33 @@
           },
           "isWinner": null,
           "color": "#bcbcbc",
+          "cricketScore": [
+            {
+              "runs": 0,
+              "overs": "0",
+              "balls": "0",
+              "status": "IN_PROGRESS",
+              "wickets": 0
+            }
+          ],
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": true
+            }
+          }
+        },
+        {
+          "name": "Canterbury",
+          "shortName": "CTB",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-KING@2x.png"
+          },
+          "isWinner": null,
+          "color": "#DE3018",
           "cricketScore": [],
           "kabaddiScore": null,
           "footballScore": null,
@@ -770,7 +778,7 @@
           },
           "isWinner": null,
           "color": "#0A129E",
-          "cricketScore": null,
+          "cricketScore": [],
           "kabaddiScore": null,
           "footballScore": null,
           "basketBallScore": null,
@@ -789,7 +797,7 @@
           },
           "isWinner": null,
           "color": "#03684A",
-          "cricketScore": null,
+          "cricketScore": [],
           "kabaddiScore": null,
           "footballScore": null,
           "basketBallScore": null,
