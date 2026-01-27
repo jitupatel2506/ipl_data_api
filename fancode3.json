@@ -1,7 +1,7 @@
 {
   "Author": "DOCTOR_STRANGE",
   "name": "FanCode Live Matches API",
-  "last_updated": "11:21:01 PM 27-01-2026",
+  "last_updated": "11:28:01 PM 27-01-2026",
   "headers": {
     "User-Agent": "ReactNativeVideo/8.4.0 (Linux;Android 13) AndroidXMedia3/1.1.1",
     "Referer": "https://fancode.com/"
@@ -367,7 +367,7 @@
     },
     {
       "category": "Cricket",
-      "title": "Ajman Vs Emirates Red",
+      "title": "Emirates Red Vs Ajman",
       "tournament": "Emirates D10, 2026",
       "match_id": 139590,
       "status": "LIVE",
@@ -387,25 +387,6 @@
       },
       "teams": [
         {
-          "name": "Ajman",
-          "shortName": "AJM",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-AJMN@2x.png"
-          },
-          "isWinner": null,
-          "color": "#c83ca3",
-          "cricketScore": [],
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        },
-        {
           "name": "Emirates Red",
           "shortName": "EMR",
           "flag": {
@@ -413,6 +394,33 @@
           },
           "isWinner": null,
           "color": "#A91118",
+          "cricketScore": [
+            {
+              "runs": 0,
+              "overs": "0",
+              "balls": "0",
+              "status": "IN_PROGRESS",
+              "wickets": 0
+            }
+          ],
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": true
+            }
+          }
+        },
+        {
+          "name": "Ajman",
+          "shortName": "AJM",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-AJMN@2x.png"
+          },
+          "isWinner": null,
+          "color": "#c83ca3",
           "cricketScore": [],
           "kabaddiScore": null,
           "footballScore": null,
