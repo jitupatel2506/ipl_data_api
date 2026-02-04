@@ -1,7 +1,7 @@
 {
   "Author": "DOCTOR_STRANGE",
   "name": "FanCode Live Matches API",
-  "last_updated": "12:56:01 PM 04-02-2026",
+  "last_updated": "01:21:01 PM 04-02-2026",
   "headers": {
     "User-Agent": "ReactNativeVideo/8.4.0 (Linux;Android 13) AndroidXMedia3/1.1.1",
     "Referer": "https://fancode.com/"
@@ -68,9 +68,9 @@
           "color": "#006ba6",
           "cricketScore": [
             {
-              "runs": 28,
-              "overs": "3",
-              "balls": "18",
+              "runs": 96,
+              "overs": "14",
+              "balls": "84",
               "status": "IN_PROGRESS",
               "wickets": 0
             }
@@ -1724,7 +1724,7 @@
     },
     {
       "category": "Cricket",
-      "title": "England Vs Sri Lanka",
+      "title": "Sri Lanka Vs England",
       "tournament": "England tour of Sri Lanka, 2026",
       "match_id": 139294,
       "status": "COMPLETED",
@@ -1743,6 +1743,33 @@
         "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/139294_CASACARDS_PARTNER_16_9_1920_1080.png"
       },
       "teams": [
+        {
+          "name": "Sri Lanka",
+          "shortName": "SL",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-SRL@2x.png"
+          },
+          "isWinner": false,
+          "color": "#164fad",
+          "cricketScore": [
+            {
+              "runs": 116,
+              "overs": "19.3",
+              "balls": "117",
+              "status": "IN_PROGRESS",
+              "wickets": 10
+            }
+          ],
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        },
         {
           "name": "England",
           "shortName": "ENG",
@@ -1767,33 +1794,6 @@
           "status": {
             "cricket": {
               "isBatting": false
-            }
-          }
-        },
-        {
-          "name": "Sri Lanka",
-          "shortName": "SL",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-SRL@2x.png"
-          },
-          "isWinner": false,
-          "color": "#164fad",
-          "cricketScore": [
-            {
-              "runs": 116,
-              "overs": "19.3",
-              "balls": "117",
-              "status": "IN_PROGRESS",
-              "wickets": 10
-            }
-          ],
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": true
             }
           }
         }
@@ -2283,72 +2283,6 @@
       }
     },
     {
-      "category": "Futsal",
-      "title": "Indonesia Vs Japan",
-      "tournament": "AFC Futsal Asian Cup, 2026",
-      "match_id": 139910,
-      "status": "NOT_STARTED",
-      "streamingStatus": "NOT_STARTED",
-      "startTime": "05 February 2026 05:30 PM",
-      "startDate": "01 January 1970 05:30 AM",
-      "image": "https://www.fancode.com/skillup-uploads/cms-media/Mini-Match-Card-(1080x810)-(2)_1769333142206.png",
-      "image_cdn": {
-        "TATAPLAY": "https://images.fancode.com/aig/match/v1/139910_CASACARDS_PARTNER_16_9_1920_1080.png",
-        "APP": "https://www.fancode.com/skillup-uploads/cms-media/Mini-Match-Card-(1080x810)-(2)_1769333142206.png",
-        "PLAYBACK": null,
-        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/AFC-Fustsal-Asian-Cup,-Indonesia,-2026.png",
-        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Futsal-old-copy.jpg",
-        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/Mini-Match-Card-(1080x810)-(2)_1769333142206.png",
-        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/Old-Sporty-(1080x1440)-(2)_1769333142199.png",
-        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/139910_CASACARDS_PARTNER_16_9_1920_1080.png"
-      },
-      "teams": [
-        {
-          "name": "Indonesia",
-          "shortName": "INA",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/fs-flags/FC-INA@2x.png"
-          },
-          "isWinner": null,
-          "color": "#8e8e8e",
-          "cricketScore": null,
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        },
-        {
-          "name": "Japan",
-          "shortName": "JPN",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/fs-flags/FC-JPN@2x.png"
-          },
-          "isWinner": null,
-          "color": "#d04c6c",
-          "cricketScore": null,
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        }
-      ],
-      "language": "BLOODY_SWEET",
-      "STREAMING_CDN": {
-        "language": "BLOODY_SWEET",
-        "Primary_Playback_URL": null
-      }
-    },
-    {
       "category": "Football",
       "title": "Al Okhdood Club Vs Al Hilal Sfc",
       "tournament": "Roshn Saudi League 2025-2026",
@@ -2396,6 +2330,72 @@
           },
           "isWinner": null,
           "color": "#031537",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        }
+      ],
+      "language": "BLOODY_SWEET",
+      "STREAMING_CDN": {
+        "language": "BLOODY_SWEET",
+        "Primary_Playback_URL": null
+      }
+    },
+    {
+      "category": "Futsal",
+      "title": "Indonesia Vs Japan",
+      "tournament": "AFC Futsal Asian Cup, 2026",
+      "match_id": 139910,
+      "status": "NOT_STARTED",
+      "streamingStatus": "NOT_STARTED",
+      "startTime": "05 February 2026 05:30 PM",
+      "startDate": "01 January 1970 05:30 AM",
+      "image": "https://www.fancode.com/skillup-uploads/cms-media/Mini-Match-Card-(1080x810)-(2)_1769333142206.png",
+      "image_cdn": {
+        "TATAPLAY": "https://images.fancode.com/aig/match/v1/139910_CASACARDS_PARTNER_16_9_1920_1080.png",
+        "APP": "https://www.fancode.com/skillup-uploads/cms-media/Mini-Match-Card-(1080x810)-(2)_1769333142206.png",
+        "PLAYBACK": null,
+        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/AFC-Fustsal-Asian-Cup,-Indonesia,-2026.png",
+        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Futsal-old-copy.jpg",
+        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/Mini-Match-Card-(1080x810)-(2)_1769333142206.png",
+        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/Old-Sporty-(1080x1440)-(2)_1769333142199.png",
+        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/139910_CASACARDS_PARTNER_16_9_1920_1080.png"
+      },
+      "teams": [
+        {
+          "name": "Indonesia",
+          "shortName": "INA",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/fs-flags/FC-INA@2x.png"
+          },
+          "isWinner": null,
+          "color": "#8e8e8e",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        },
+        {
+          "name": "Japan",
+          "shortName": "JPN",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/fs-flags/FC-JPN@2x.png"
+          },
+          "isWinner": null,
+          "color": "#d04c6c",
           "cricketScore": null,
           "kabaddiScore": null,
           "footballScore": null,
