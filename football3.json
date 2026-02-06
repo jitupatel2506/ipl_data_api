@@ -1,14 +1,14 @@
 {
   "Author": "DOCTOR_STRANGE",
   "name": "FanCode Live Matches API",
-  "last_updated": "12:00:01 PM 06-02-2026",
+  "last_updated": "01:00:01 PM 06-02-2026",
   "headers": {
     "User-Agent": "ReactNativeVideo/8.4.0 (Linux;Android 13) AndroidXMedia3/1.1.1",
     "Referer": "https://fancode.com/"
   },
   "total_matches": 38,
-  "live_matches": 6,
-  "upcoming_matches": 32,
+  "live_matches": 4,
+  "upcoming_matches": 34,
   "matches": [
     {
       "category": "Cricket",
@@ -44,7 +44,7 @@
               "runs": 295,
               "overs": "50",
               "balls": "300",
-              "status": "IN_PROGRESS",
+              "status": "COMPLETED",
               "wickets": 9
             }
           ],
@@ -54,7 +54,7 @@
           "hockeyScore": null,
           "status": {
             "cricket": {
-              "isBatting": true
+              "isBatting": false
             }
           }
         },
@@ -66,14 +66,22 @@
           },
           "isWinner": null,
           "color": "#007e1e",
-          "cricketScore": [],
+          "cricketScore": [
+            {
+              "runs": 24,
+              "overs": "3",
+              "balls": "18",
+              "status": "IN_PROGRESS",
+              "wickets": 0
+            }
+          ],
           "kabaddiScore": null,
           "footballScore": null,
           "basketBallScore": null,
           "hockeyScore": null,
           "status": {
             "cricket": {
-              "isBatting": false
+              "isBatting": true
             }
           }
         }
@@ -91,201 +99,13 @@
     },
     {
       "category": "Cricket",
-      "title": "Queensland Vs Victoria",
-      "tournament": "Sheffield Shield, 2025-26",
-      "match_id": 134033,
-      "status": "LIVE",
-      "streamingStatus": "STARTED",
-      "startTime": "05 February 2026 05:00 AM",
-      "startDate": "07 February 2026 05:00 AM",
-      "image": "https://www.fancode.com/skillup-uploads/cms-media/134033_5609_VCT_QUN_fc-Web.jpg",
-      "image_cdn": {
-        "TATAPLAY": "https://images.fancode.com/aig/match/v1/134033_CASACARDS_PARTNER_16_9_1920_1080.png",
-        "APP": "https://www.fancode.com/skillup-uploads/cms-media/134033_5609_VCT_QUN_fc-Web.jpg",
-        "PLAYBACK": "https://www.fancode.com/skillup-uploads/cms-media/134033_5609_VCT_QUN_fc-Web.jpg",
-        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/Sheffield-Shield-Tour-Logo.png",
-        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_cricket-old.jpg",
-        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/134033_5609_VCT_QUN_fc-Web.jpg",
-        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/134033_5609_VCT_QUN_fc-App_1760687268114.jpg",
-        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/134033_CASACARDS_PARTNER_16_9_1920_1080.png"
-      },
-      "teams": [
-        {
-          "name": "Queensland",
-          "shortName": "QUN",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-QUN@2x.png"
-          },
-          "isWinner": null,
-          "color": "#ffd500",
-          "cricketScore": [
-            {
-              "runs": 149,
-              "overs": "60",
-              "balls": "0",
-              "status": "COMPLETED",
-              "wickets": 10
-            },
-            {
-              "runs": 143,
-              "overs": "51",
-              "balls": "0",
-              "status": "IN_PROGRESS",
-              "wickets": 5
-            }
-          ],
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": true
-            }
-          }
-        },
-        {
-          "name": "Victoria",
-          "shortName": "VCT",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-VCT@2x.png"
-          },
-          "isWinner": null,
-          "color": "#00226a",
-          "cricketScore": [
-            {
-              "runs": 144,
-              "overs": "57.2",
-              "balls": "0",
-              "status": "COMPLETED",
-              "wickets": 10
-            }
-          ],
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        }
-      ],
-      "language": "ENGLISH",
-      "STREAMING_CDN": {
-        "Primary_Playback_URL": "https://in-mc-fdlive.fancode.com/mumbai/134033_english_hls_2b9895c52794405_1ta-di_h264/index.m3u8",
-        "fancode_cdn": "https://in-mc-fdlive.fancode.com/mumbai/134033_english_hls_2b9895c52794405_1ta-di_h264/index.m3u8",
-        "fancode_bd_cdn": "https://bd-mc-fdlive.fancode.com/mumbai/134033_english_hls_2b9895c52794405_1ta-di_h264/index.m3u8",
-        "dai_google_cdn": "https://dai.google.com/linear/hls/event/BNOWc2jKTVWlyPZ_27JIvA/master.m3u8",
-        "cloudfront_cdn": "Unavailable",
-        "sony_cdn": "Unavailable",
-        "language": "ENGLISH"
-      }
-    },
-    {
-      "category": "Cricket",
-      "title": "New South Wales Vs South Australia",
-      "tournament": "Sheffield Shield, 2025-26",
-      "match_id": 134032,
-      "status": "LIVE",
-      "streamingStatus": "STARTED",
-      "startTime": "05 February 2026 05:00 AM",
-      "startDate": "07 February 2026 05:00 AM",
-      "image": "https://www.fancode.com/skillup-uploads/cms-media/134032_5609_NSW_SAU_fc-Web.jpg",
-      "image_cdn": {
-        "TATAPLAY": "https://images.fancode.com/aig/match/v1/134032_CASACARDS_PARTNER_16_9_1920_1080.png",
-        "APP": "https://www.fancode.com/skillup-uploads/cms-media/134032_5609_NSW_SAU_fc-Web.jpg",
-        "PLAYBACK": "https://www.fancode.com/skillup-uploads/cms-media/134032_5609_NSW_SAU_fc-Web.jpg",
-        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/Sheffield-Shield-Tour-Logo.png",
-        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_cricket-old.jpg",
-        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/134032_5609_NSW_SAU_fc-Web.jpg",
-        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/134032_5609_NSW_SAU_fc-App_1760687268146.jpg",
-        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/134032_CASACARDS_PARTNER_16_9_1920_1080.png"
-      },
-      "teams": [
-        {
-          "name": "New South Wales",
-          "shortName": "NSW",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-NSW@2x.png"
-          },
-          "isWinner": null,
-          "color": "#0088e7",
-          "cricketScore": [
-            {
-              "runs": 202,
-              "overs": "55.1",
-              "balls": "0",
-              "status": "COMPLETED",
-              "wickets": 10
-            },
-            {
-              "runs": 140,
-              "overs": "37.3",
-              "balls": "0",
-              "status": "IN_PROGRESS",
-              "wickets": 4
-            }
-          ],
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": true
-            }
-          }
-        },
-        {
-          "name": "South Australia",
-          "shortName": "SAU",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-SAUS@2x.png"
-          },
-          "isWinner": null,
-          "color": "#c50008",
-          "cricketScore": [
-            {
-              "runs": 197,
-              "overs": "62.5",
-              "balls": "0",
-              "status": "COMPLETED",
-              "wickets": 10
-            }
-          ],
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        }
-      ],
-      "language": "ENGLISH",
-      "STREAMING_CDN": {
-        "Primary_Playback_URL": "https://in-mc-fdlive.fancode.com/mumbai/134032_english_hls_046dbb137068339_1ta-di_h264/index.m3u8",
-        "fancode_cdn": "https://in-mc-fdlive.fancode.com/mumbai/134032_english_hls_046dbb137068339_1ta-di_h264/index.m3u8",
-        "fancode_bd_cdn": "https://bd-mc-fdlive.fancode.com/mumbai/134032_english_hls_046dbb137068339_1ta-di_h264/index.m3u8",
-        "dai_google_cdn": "https://dai.google.com/linear/hls/event/MJ9mMAxxSAyBdtTcXeF9vQ/master.m3u8",
-        "cloudfront_cdn": "Unavailable",
-        "sony_cdn": "Unavailable",
-        "language": "ENGLISH"
-      }
-    },
-    {
-      "category": "Cricket",
       "title": "Tasmania Vs Western Australia",
       "tournament": "Sheffield Shield, 2025-26",
       "match_id": 134034,
       "status": "LIVE",
       "streamingStatus": "STARTED",
       "startTime": "05 February 2026 08:00 AM",
-      "startDate": "06 February 2026 08:00 AM",
+      "startDate": "07 February 2026 08:00 AM",
       "image": "https://www.fancode.com/skillup-uploads/cms-media/134034_5609_WAU_TAS_fc-Web.jpg",
       "image_cdn": {
         "TATAPLAY": "https://images.fancode.com/aig/match/v1/134034_CASACARDS_PARTNER_16_9_1920_1080.png",
@@ -315,11 +135,11 @@
               "wickets": 10
             },
             {
-              "runs": 25,
-              "overs": "10",
+              "runs": 86,
+              "overs": "25",
               "balls": "0",
               "status": "IN_PROGRESS",
-              "wickets": 2
+              "wickets": 4
             }
           ],
           "kabaddiScore": null,
@@ -405,7 +225,11 @@
           "footballScore": null,
           "basketBallScore": null,
           "hockeyScore": null,
-          "status": null
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
         },
         {
           "name": "Melbourne Victory",
@@ -420,7 +244,11 @@
           "footballScore": null,
           "basketBallScore": null,
           "hockeyScore": null,
-          "status": null
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
         }
       ],
       "language": "ENGLISH",
@@ -884,6 +712,184 @@
           "isWinner": null,
           "color": "#144a89",
           "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        }
+      ],
+      "language": "BLOODY_SWEET",
+      "STREAMING_CDN": {
+        "language": "BLOODY_SWEET",
+        "Primary_Playback_URL": null
+      }
+    },
+    {
+      "category": "Cricket",
+      "title": "Queensland Vs Victoria",
+      "tournament": "Sheffield Shield, 2025-26",
+      "match_id": 134033,
+      "status": "LIVE",
+      "streamingStatus": "PAUSED",
+      "startTime": "05 February 2026 05:00 AM",
+      "startDate": "07 February 2026 05:00 AM",
+      "image": "https://www.fancode.com/skillup-uploads/cms-media/134033_5609_VCT_QUN_fc-Web.jpg",
+      "image_cdn": {
+        "TATAPLAY": "https://images.fancode.com/aig/match/v1/134033_CASACARDS_PARTNER_16_9_1920_1080.png",
+        "APP": "https://www.fancode.com/skillup-uploads/cms-media/134033_5609_VCT_QUN_fc-Web.jpg",
+        "PLAYBACK": null,
+        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/Sheffield-Shield-Tour-Logo.png",
+        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_cricket-old.jpg",
+        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/134033_5609_VCT_QUN_fc-Web.jpg",
+        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/134033_5609_VCT_QUN_fc-App_1760687268114.jpg",
+        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/134033_CASACARDS_PARTNER_16_9_1920_1080.png"
+      },
+      "teams": [
+        {
+          "name": "Queensland",
+          "shortName": "QUN",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-QUN@2x.png"
+          },
+          "isWinner": null,
+          "color": "#ffd500",
+          "cricketScore": [
+            {
+              "runs": 149,
+              "overs": "60",
+              "balls": "0",
+              "status": "COMPLETED",
+              "wickets": 10
+            },
+            {
+              "runs": 173,
+              "overs": "63",
+              "balls": "0",
+              "status": "IN_PROGRESS",
+              "wickets": 6
+            }
+          ],
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": true
+            }
+          }
+        },
+        {
+          "name": "Victoria",
+          "shortName": "VCT",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-VCT@2x.png"
+          },
+          "isWinner": null,
+          "color": "#00226a",
+          "cricketScore": [
+            {
+              "runs": 144,
+              "overs": "57.2",
+              "balls": "0",
+              "status": "COMPLETED",
+              "wickets": 10
+            }
+          ],
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        }
+      ],
+      "language": "BLOODY_SWEET",
+      "STREAMING_CDN": {
+        "language": "BLOODY_SWEET",
+        "Primary_Playback_URL": null
+      }
+    },
+    {
+      "category": "Cricket",
+      "title": "New South Wales Vs South Australia",
+      "tournament": "Sheffield Shield, 2025-26",
+      "match_id": 134032,
+      "status": "LIVE",
+      "streamingStatus": "PAUSED",
+      "startTime": "05 February 2026 05:00 AM",
+      "startDate": "07 February 2026 05:00 AM",
+      "image": "https://www.fancode.com/skillup-uploads/cms-media/134032_5609_NSW_SAU_fc-Web.jpg",
+      "image_cdn": {
+        "TATAPLAY": "https://images.fancode.com/aig/match/v1/134032_CASACARDS_PARTNER_16_9_1920_1080.png",
+        "APP": "https://www.fancode.com/skillup-uploads/cms-media/134032_5609_NSW_SAU_fc-Web.jpg",
+        "PLAYBACK": null,
+        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/Sheffield-Shield-Tour-Logo.png",
+        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_cricket-old.jpg",
+        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/134032_5609_NSW_SAU_fc-Web.jpg",
+        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/134032_5609_NSW_SAU_fc-App_1760687268146.jpg",
+        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/134032_CASACARDS_PARTNER_16_9_1920_1080.png"
+      },
+      "teams": [
+        {
+          "name": "New South Wales",
+          "shortName": "NSW",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-NSW@2x.png"
+          },
+          "isWinner": null,
+          "color": "#0088e7",
+          "cricketScore": [
+            {
+              "runs": 202,
+              "overs": "55.1",
+              "balls": "0",
+              "status": "COMPLETED",
+              "wickets": 10
+            },
+            {
+              "runs": 166,
+              "overs": "49",
+              "balls": "0",
+              "status": "IN_PROGRESS",
+              "wickets": 4
+            }
+          ],
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": true
+            }
+          }
+        },
+        {
+          "name": "South Australia",
+          "shortName": "SAU",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-SAUS@2x.png"
+          },
+          "isWinner": null,
+          "color": "#c50008",
+          "cricketScore": [
+            {
+              "runs": 197,
+              "overs": "62.5",
+              "balls": "0",
+              "status": "COMPLETED",
+              "wickets": 10
+            }
+          ],
           "kabaddiScore": null,
           "footballScore": null,
           "basketBallScore": null,
@@ -1718,10 +1724,10 @@
           "name": "Derby County Football Club",
           "shortName": "DER",
           "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-DERBC@2x.png"
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-DER@2x.png"
           },
           "isWinner": null,
-          "color": "#bdb526",
+          "color": "#B08A3C",
           "cricketScore": null,
           "kabaddiScore": null,
           "footballScore": null,
@@ -2487,7 +2493,7 @@
     },
     {
       "category": "Football",
-      "title": "Celtic Vs Dundee",
+      "title": "Celtic Vs Dundee United",
       "tournament": "Scottish Cup 2025-26",
       "match_id": 140292,
       "status": "NOT_STARTED",
@@ -2526,13 +2532,13 @@
           }
         },
         {
-          "name": "Dundee",
-          "shortName": "DN",
+          "name": "Dundee United",
+          "shortName": "DUN",
           "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/DEF-FT1@2x.png"
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-DUN@2x.png"
           },
           "isWinner": null,
-          "color": "#EE0000",
+          "color": "#ff5800",
           "cricketScore": null,
           "kabaddiScore": null,
           "footballScore": null,
