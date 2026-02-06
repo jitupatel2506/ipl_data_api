@@ -1,7 +1,7 @@
 {
   "Author": "DOCTOR_STRANGE",
   "name": "FanCode Live Matches API",
-  "last_updated": "11:56:01 AM 06-02-2026",
+  "last_updated": "12:35:03 PM 06-02-2026",
   "headers": {
     "User-Agent": "ReactNativeVideo/8.4.0 (Linux;Android 13) AndroidXMedia3/1.1.1",
     "Referer": "https://fancode.com/"
@@ -44,7 +44,7 @@
               "runs": 295,
               "overs": "50",
               "balls": "300",
-              "status": "IN_PROGRESS",
+              "status": "COMPLETED",
               "wickets": 9
             }
           ],
@@ -54,7 +54,7 @@
           "hockeyScore": null,
           "status": {
             "cricket": {
-              "isBatting": true
+              "isBatting": false
             }
           }
         },
@@ -66,14 +66,22 @@
           },
           "isWinner": null,
           "color": "#007e1e",
-          "cricketScore": [],
+          "cricketScore": [
+            {
+              "runs": 24,
+              "overs": "3",
+              "balls": "18",
+              "status": "IN_PROGRESS",
+              "wickets": 0
+            }
+          ],
           "kabaddiScore": null,
           "footballScore": null,
           "basketBallScore": null,
           "hockeyScore": null,
           "status": {
             "cricket": {
-              "isBatting": false
+              "isBatting": true
             }
           }
         }
@@ -127,11 +135,11 @@
               "wickets": 10
             },
             {
-              "runs": 143,
-              "overs": "51",
+              "runs": 171,
+              "overs": "60",
               "balls": "0",
               "status": "IN_PROGRESS",
-              "wickets": 5
+              "wickets": 6
             }
           ],
           "kabaddiScore": null,
@@ -221,8 +229,8 @@
               "wickets": 10
             },
             {
-              "runs": 117,
-              "overs": "34",
+              "runs": 163,
+              "overs": "46",
               "balls": "0",
               "status": "IN_PROGRESS",
               "wickets": 4
@@ -315,11 +323,11 @@
               "wickets": 10
             },
             {
-              "runs": 25,
-              "overs": "10",
+              "runs": 79,
+              "overs": "21",
               "balls": "0",
               "status": "IN_PROGRESS",
-              "wickets": 2
+              "wickets": 3
             }
           ],
           "kabaddiScore": null,
@@ -1718,7 +1726,7 @@
           "name": "Derby County Football Club",
           "shortName": "DER",
           "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-DERBC@2x.png"
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-DER@2x.png"
           },
           "isWinner": null,
           "color": "#bdb526",
@@ -2487,7 +2495,7 @@
     },
     {
       "category": "Football",
-      "title": "Celtic Vs Dundee",
+      "title": "Celtic Vs Dundee United",
       "tournament": "Scottish Cup 2025-26",
       "match_id": 140292,
       "status": "NOT_STARTED",
@@ -2526,13 +2534,13 @@
           }
         },
         {
-          "name": "Dundee",
-          "shortName": "DN",
+          "name": "Dundee United",
+          "shortName": "DUN",
           "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/DEF-FT1@2x.png"
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-DUN@2x.png"
           },
           "isWinner": null,
-          "color": "#EE0000",
+          "color": "#DCDCDC",
           "cricketScore": null,
           "kabaddiScore": null,
           "footballScore": null,
