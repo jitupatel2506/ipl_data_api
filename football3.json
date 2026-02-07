@@ -1,100 +1,21 @@
 {
   "Author": "DOCTOR_STRANGE",
   "name": "FanCode Live Matches API",
-  "last_updated": "08:21:07 PM 07-02-2026",
+  "last_updated": "09:00:02 PM 07-02-2026",
   "headers": {
     "User-Agent": "ReactNativeVideo/8.4.0 (Linux;Android 13) AndroidXMedia3/1.1.1",
     "Referer": "https://fancode.com/"
   },
   "total_matches": 40,
-  "live_matches": 5,
-  "upcoming_matches": 35,
+  "live_matches": 3,
+  "upcoming_matches": 37,
   "matches": [
-    {
-      "category": "Cricket",
-      "title": "Emirates Blues Vs Sharjah",
-      "tournament": "Emirates D10, 2026",
-      "match_id": 139626,
-      "status": "LIVE",
-      "streamingStatus": "STARTED",
-      "startTime": "07 February 2026 06:45 PM",
-      "startDate": "01 January 1970 05:30 AM",
-      "image": "https://www.fancode.com/skillup-uploads/cms-media/Emirates_web_opt2.jpg",
-      "image_cdn": {
-        "TATAPLAY": "https://images.fancode.com/aig/match/v1/139626_CASACARDS_PARTNER_16_9_1920_1080.png",
-        "APP": "https://www.fancode.com/skillup-uploads/cms-media/Emirates_web_opt2.jpg",
-        "PLAYBACK": "https://www.fancode.com/skillup-uploads/cms-media/Emirates_web_opt2.jpg",
-        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/Emirates-D10-Tournament-(1).png",
-        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_cricket-old.jpg",
-        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/Emirates_web_opt2.jpg",
-        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/Emirates_Old_Sporty_v2.jpg",
-        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/139626_CASACARDS_PARTNER_16_9_1920_1080.png"
-      },
-      "teams": [
-        {
-          "name": "Emirates Blues",
-          "shortName": "EMB",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-BLUE@2x.png"
-          },
-          "isWinner": null,
-          "color": "#62bfe9",
-          "cricketScore": [
-            {
-              "runs": 0,
-              "overs": "0",
-              "balls": "0",
-              "status": "IN_PROGRESS",
-              "wickets": 0
-            }
-          ],
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": true
-            }
-          }
-        },
-        {
-          "name": "Sharjah",
-          "shortName": "SHA",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-SHRJ@2x.png"
-          },
-          "isWinner": null,
-          "color": "#d94f55",
-          "cricketScore": [],
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        }
-      ],
-      "language": "ENGLISH",
-      "STREAMING_CDN": {
-        "Primary_Playback_URL": "https://in-mc-fdlive.fancode.com/mumbai/139626_english_hls_46cd5f63a564722_1ta-di_h264/index.m3u8",
-        "fancode_cdn": "https://in-mc-fdlive.fancode.com/mumbai/139626_english_hls_46cd5f63a564722_1ta-di_h264/index.m3u8",
-        "fancode_bd_cdn": "https://bd-mc-fdlive.fancode.com/mumbai/139626_english_hls_46cd5f63a564722_1ta-di_h264/index.m3u8",
-        "dai_google_cdn": "https://dai.google.com/linear/hls/event/kjpu5PwBSDWGe0u07ubhbA/master.m3u8",
-        "cloudfront_cdn": "Unavailable",
-        "sony_cdn": "Unavailable",
-        "language": "ENGLISH"
-      }
-    },
     {
       "category": "Football",
       "title": "Coventry City Football Club Vs Oxford United",
       "tournament": "EFL Championship 2025-26",
       "match_id": 139350,
-      "status": "NOT_STARTED",
+      "status": "LIVE",
       "streamingStatus": "STARTED",
       "startTime": "07 February 2026 08:30 PM",
       "startDate": "01 January 1970 05:30 AM",
@@ -120,7 +41,10 @@
           "color": "#199bbc",
           "cricketScore": null,
           "kabaddiScore": null,
-          "footballScore": null,
+          "footballScore": {
+            "points": 0,
+            "goals": []
+          },
           "basketBallScore": null,
           "hockeyScore": null,
           "status": {
@@ -139,7 +63,10 @@
           "color": "#ffd800",
           "cricketScore": null,
           "kabaddiScore": null,
-          "footballScore": null,
+          "footballScore": {
+            "points": 0,
+            "goals": []
+          },
           "basketBallScore": null,
           "hockeyScore": null,
           "status": {
@@ -165,7 +92,7 @@
       "title": "Fc Barcelona Vs Rcd Mallorca",
       "tournament": "LALIGA 2025-26",
       "match_id": 131059,
-      "status": "NOT_STARTED",
+      "status": "LIVE",
       "streamingStatus": "STARTED",
       "startTime": "07 February 2026 08:45 PM",
       "startDate": "01 January 1970 05:30 AM",
@@ -191,7 +118,10 @@
           "color": "#fee64e",
           "cricketScore": null,
           "kabaddiScore": null,
-          "footballScore": null,
+          "footballScore": {
+            "points": 0,
+            "goals": []
+          },
           "basketBallScore": null,
           "hockeyScore": null,
           "status": {
@@ -210,7 +140,10 @@
           "color": "#FBCCD1",
           "cricketScore": null,
           "kabaddiScore": null,
-          "footballScore": null,
+          "footballScore": {
+            "points": 0,
+            "goals": []
+          },
           "basketBallScore": null,
           "hockeyScore": null,
           "status": {
@@ -236,7 +169,7 @@
       "title": "Fc Barcelona Vs Rcd Mallorca",
       "tournament": "LALIGA 2025-26",
       "match_id": 131059,
-      "status": "NOT_STARTED",
+      "status": "LIVE",
       "streamingStatus": "STARTED",
       "startTime": "07 February 2026 08:45 PM",
       "startDate": "01 January 1970 05:30 AM",
@@ -262,7 +195,10 @@
           "color": "#fee64e",
           "cricketScore": null,
           "kabaddiScore": null,
-          "footballScore": null,
+          "footballScore": {
+            "points": 0,
+            "goals": []
+          },
           "basketBallScore": null,
           "hockeyScore": null,
           "status": {
@@ -281,7 +217,10 @@
           "color": "#FBCCD1",
           "cricketScore": null,
           "kabaddiScore": null,
-          "footballScore": null,
+          "footballScore": {
+            "points": 0,
+            "goals": []
+          },
           "basketBallScore": null,
           "hockeyScore": null,
           "status": {
@@ -307,7 +246,7 @@
       "title": "Fc Barcelona Vs Rcd Mallorca",
       "tournament": "LALIGA 2025-26",
       "match_id": 131059,
-      "status": "NOT_STARTED",
+      "status": "LIVE",
       "streamingStatus": "STARTED",
       "startTime": "07 February 2026 08:45 PM",
       "startDate": "01 January 1970 05:30 AM",
@@ -333,7 +272,10 @@
           "color": "#fee64e",
           "cricketScore": null,
           "kabaddiScore": null,
-          "footballScore": null,
+          "footballScore": {
+            "points": 0,
+            "goals": []
+          },
           "basketBallScore": null,
           "hockeyScore": null,
           "status": {
@@ -352,7 +294,10 @@
           "color": "#FBCCD1",
           "cricketScore": null,
           "kabaddiScore": null,
-          "footballScore": null,
+          "footballScore": {
+            "points": 0,
+            "goals": []
+          },
           "basketBallScore": null,
           "hockeyScore": null,
           "status": {
@@ -371,77 +316,6 @@
         "cloudfront_cdn": "Unavailable",
         "sony_cdn": "Unavailable",
         "language": "BENGALI"
-      }
-    },
-    {
-      "category": "Futsal",
-      "title": "Indonesia Vs Ir Iran",
-      "tournament": "AFC Futsal Asian Cup, 2026",
-      "match_id": 139911,
-      "status": "LIVE",
-      "streamingStatus": "STARTED",
-      "startTime": "07 February 2026 05:30 PM",
-      "startDate": "01 January 1970 05:30 AM",
-      "image": "https://www.fancode.com/skillup-uploads/cms-media/Mini-Match-Card-(1080x810)-(2)_1769333142206.png",
-      "image_cdn": {
-        "TATAPLAY": "https://images.fancode.com/aig/match/v1/139911_CASACARDS_PARTNER_16_9_1920_1080.png",
-        "APP": "https://www.fancode.com/skillup-uploads/cms-media/Mini-Match-Card-(1080x810)-(2)_1769333142206.png",
-        "PLAYBACK": "https://www.fancode.com/skillup-uploads/cms-media/Mini-Match-Card-(1080x810)-(2)_1769333142206.png",
-        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/AFC-Fustsal-Asian-Cup,-Indonesia,-2026.png",
-        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Futsal-old-copy.jpg",
-        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/Mini-Match-Card-(1080x810)-(2)_1769333142206.png",
-        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/Old-Sporty-(1080x1440)-(2)_1769333142199.png",
-        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/139911_CASACARDS_PARTNER_16_9_1920_1080.png"
-      },
-      "teams": [
-        {
-          "name": "Indonesia",
-          "shortName": "INA",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/fs-flags/FC-INA@2x.png"
-          },
-          "isWinner": null,
-          "color": "#8e8e8e",
-          "cricketScore": null,
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        },
-        {
-          "name": "IR Iran",
-          "shortName": "IRN",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/fs-flags/FC-IRN@2x.png"
-          },
-          "isWinner": null,
-          "color": "#e65e5e",
-          "cricketScore": null,
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        }
-      ],
-      "language": "ENGLISH",
-      "STREAMING_CDN": {
-        "Primary_Playback_URL": "https://in-mc-fdlive.fancode.com/mumbai/139911_english_hls_1ac8cc7f696053_1ta-di_h264/index.m3u8",
-        "fancode_cdn": "https://in-mc-fdlive.fancode.com/mumbai/139911_english_hls_1ac8cc7f696053_1ta-di_h264/index.m3u8",
-        "fancode_bd_cdn": "https://bd-mc-fdlive.fancode.com/mumbai/139911_english_hls_1ac8cc7f696053_1ta-di_h264/index.m3u8",
-        "dai_google_cdn": "https://dai.google.com/linear/hls/event/iDypTq31T1KUMz03Mr7jgg/master.m3u8",
-        "cloudfront_cdn": "Unavailable",
-        "sony_cdn": "Unavailable",
-        "language": "ENGLISH"
       }
     },
     {
@@ -1201,72 +1075,6 @@
     },
     {
       "category": "Football",
-      "title": "Adelaide United Vs Newcastle Jets",
-      "tournament": "A League 2025-26",
-      "match_id": 139425,
-      "status": "NOT_STARTED",
-      "streamingStatus": "NOT_STARTED",
-      "startTime": "08 February 2026 11:30 AM",
-      "startDate": "01 January 1970 05:30 AM",
-      "image": "https://images.fancode.com/aig/match/v1/139425_CASACARDS_APP.png",
-      "image_cdn": {
-        "TATAPLAY": "https://images.fancode.com/aig/match/v1/139425_CASACARDS_PARTNER_16_9_1920_1080.png",
-        "APP": "https://images.fancode.com/aig/match/v1/139425_CASACARDS_APP.png",
-        "PLAYBACK": null,
-        "LOGO": "https://fancode.com/skillup-uploads/prod-images/2024/10/A-League_Men-and-Women_Tour-Logo.png",
-        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Football-old-copy.jpg",
-        "BG_IMAGE": "https://images.fancode.com/aig/match/v1/139425_CASACARDS_APP.png",
-        "SPORT_BY_IMAGE": "https://images.fancode.com/aig/match/v1/139425_CASACARDS_SPORTY_APP.png",
-        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/139425_CASACARDS_PARTNER_16_9_1920_1080.png"
-      },
-      "teams": [
-        {
-          "name": "Adelaide United",
-          "shortName": "ADL",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-ADLA@2x.png"
-          },
-          "isWinner": null,
-          "color": "#ffc72c",
-          "cricketScore": null,
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        },
-        {
-          "name": "Newcastle Jets",
-          "shortName": "NJ",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-NJA@2x.png"
-          },
-          "isWinner": null,
-          "color": "#0a5a8c",
-          "cricketScore": null,
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        }
-      ],
-      "language": "BLOODY_SWEET",
-      "STREAMING_CDN": {
-        "language": "BLOODY_SWEET",
-        "Primary_Playback_URL": null
-      }
-    },
-    {
-      "category": "Football",
       "title": "Swansea City A.f.c. Vs Sheffield Wednesday F.c.",
       "tournament": "EFL Championship 2025-26",
       "match_id": 139351,
@@ -1577,6 +1385,138 @@
           },
           "isWinner": null,
           "color": "#7b194a",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        }
+      ],
+      "language": "BLOODY_SWEET",
+      "STREAMING_CDN": {
+        "language": "BLOODY_SWEET",
+        "Primary_Playback_URL": null
+      }
+    },
+    {
+      "category": "Golf",
+      "title": "Main Feed   Day 3",
+      "tournament": "WM Phoenix Open 2026",
+      "match_id": 140398,
+      "status": "NOT_STARTED",
+      "streamingStatus": "NOT_STARTED",
+      "startTime": "07 February 2026 10:00 PM",
+      "startDate": "01 January 1970 05:30 AM",
+      "image": "https://www.fancode.com/skillup-uploads/cms-media/WM-Phoenix-Open-2026_web-(1).jpg",
+      "image_cdn": {
+        "TATAPLAY": "https://images.fancode.com/aig/match/v1/140398_CASACARDS_PARTNER_16_9_1920_1080.png",
+        "APP": "https://www.fancode.com/skillup-uploads/cms-media/WM-Phoenix-Open-2026_web-(1).jpg",
+        "PLAYBACK": null,
+        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/WM-Phoenix-Open.png",
+        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Golf-old.jpg",
+        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/WM-Phoenix-Open-2026_web-(1).jpg",
+        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/WM-Phoenix-Open-2026_app-(1).jpg",
+        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/140398_CASACARDS_PARTNER_16_9_1920_1080.png"
+      },
+      "teams": [
+        {
+          "name": "Main Feed - Day 3",
+          "shortName": "Main Feed - Day 3",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/gl-flags/FC-PGA@2x.png"
+          },
+          "isWinner": null,
+          "color": "#141414",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        },
+        {
+          "name": "TPC Scottsdale",
+          "shortName": "TPC Scottsdale",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/gl-flags/FC-LOC@2x.png"
+          },
+          "isWinner": null,
+          "color": "#141414",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        }
+      ],
+      "language": "BLOODY_SWEET",
+      "STREAMING_CDN": {
+        "language": "BLOODY_SWEET",
+        "Primary_Playback_URL": null
+      }
+    },
+    {
+      "category": "Football",
+      "title": "Adelaide United Vs Newcastle Jets",
+      "tournament": "A League 2025-26",
+      "match_id": 139425,
+      "status": "NOT_STARTED",
+      "streamingStatus": "NOT_STARTED",
+      "startTime": "08 February 2026 11:30 AM",
+      "startDate": "01 January 1970 05:30 AM",
+      "image": "https://images.fancode.com/aig/match/v1/139425_CASACARDS_APP.png",
+      "image_cdn": {
+        "TATAPLAY": "https://images.fancode.com/aig/match/v1/139425_CASACARDS_PARTNER_16_9_1920_1080.png",
+        "APP": "https://images.fancode.com/aig/match/v1/139425_CASACARDS_APP.png",
+        "PLAYBACK": null,
+        "LOGO": "https://fancode.com/skillup-uploads/prod-images/2024/10/A-League_Men-and-Women_Tour-Logo.png",
+        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Football-old-copy.jpg",
+        "BG_IMAGE": "https://images.fancode.com/aig/match/v1/139425_CASACARDS_APP.png",
+        "SPORT_BY_IMAGE": "https://images.fancode.com/aig/match/v1/139425_CASACARDS_SPORTY_APP.png",
+        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/139425_CASACARDS_PARTNER_16_9_1920_1080.png"
+      },
+      "teams": [
+        {
+          "name": "Adelaide United",
+          "shortName": "ADL",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-ADLA@2x.png"
+          },
+          "isWinner": null,
+          "color": "#ffc72c",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        },
+        {
+          "name": "Newcastle Jets",
+          "shortName": "NJ",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-NJA@2x.png"
+          },
+          "isWinner": null,
+          "color": "#0a5a8c",
           "cricketScore": null,
           "kabaddiScore": null,
           "footballScore": null,
@@ -1926,34 +1866,34 @@
       }
     },
     {
-      "category": "Golf",
-      "title": "Main Feed   Day 3",
-      "tournament": "WM Phoenix Open 2026",
-      "match_id": 140398,
+      "category": "Football",
+      "title": "Atletico De Madrid Vs Real Betis",
+      "tournament": "LALIGA 2025-26",
+      "match_id": 131058,
       "status": "NOT_STARTED",
       "streamingStatus": "NOT_STARTED",
-      "startTime": "07 February 2026 10:00 PM",
+      "startTime": "08 February 2026 11:00 PM",
       "startDate": "01 January 1970 05:30 AM",
-      "image": "https://www.fancode.com/skillup-uploads/cms-media/WM-Phoenix-Open-2026_web-(1).jpg",
+      "image": "https://www.fancode.com/skillup-uploads/cms-media/131058_5427_ATL_RB_FC-Web.png",
       "image_cdn": {
-        "TATAPLAY": "https://images.fancode.com/aig/match/v1/140398_CASACARDS_PARTNER_16_9_1920_1080.png",
-        "APP": "https://www.fancode.com/skillup-uploads/cms-media/WM-Phoenix-Open-2026_web-(1).jpg",
+        "TATAPLAY": "https://images.fancode.com/aig/match/v1/131058_CASACARDS_PARTNER_16_9_1920_1080.png",
+        "APP": "https://www.fancode.com/skillup-uploads/cms-media/131058_5427_ATL_RB_FC-Web.png",
         "PLAYBACK": null,
-        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/WM-Phoenix-Open.png",
-        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Golf-old.jpg",
-        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/WM-Phoenix-Open-2026_web-(1).jpg",
-        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/WM-Phoenix-Open-2026_app-(1).jpg",
-        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/140398_CASACARDS_PARTNER_16_9_1920_1080.png"
+        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/LALIGA-2025-26-Tour.png",
+        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Football-old-copy.jpg",
+        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/131058_5427_ATL_RB_FC-Web.png",
+        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/131058_5427_ATL_RB_FC-App.png",
+        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/131058_CASACARDS_PARTNER_16_9_1920_1080.png"
       },
       "teams": [
         {
-          "name": "Main Feed - Day 3",
-          "shortName": "Main Feed - Day 3",
+          "name": "Atletico de Madrid",
+          "shortName": "ATL",
           "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/gl-flags/FC-PGA@2x.png"
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-ATLH@2x.png"
           },
           "isWinner": null,
-          "color": "#141414",
+          "color": "#ca2917",
           "cricketScore": null,
           "kabaddiScore": null,
           "footballScore": null,
@@ -1966,13 +1906,13 @@
           }
         },
         {
-          "name": "TPC Scottsdale",
-          "shortName": "TPC Scottsdale",
+          "name": "Real Betis",
+          "shortName": "RB",
           "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/gl-flags/FC-LOC@2x.png"
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-REALB@2x.png"
           },
           "isWinner": null,
-          "color": "#141414",
+          "color": "#19a661",
           "cricketScore": null,
           "kabaddiScore": null,
           "footballScore": null,
@@ -2171,72 +2111,6 @@
           },
           "isWinner": null,
           "color": "#141414",
-          "cricketScore": null,
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        }
-      ],
-      "language": "BLOODY_SWEET",
-      "STREAMING_CDN": {
-        "language": "BLOODY_SWEET",
-        "Primary_Playback_URL": null
-      }
-    },
-    {
-      "category": "Football",
-      "title": "Atletico De Madrid Vs Real Betis",
-      "tournament": "LALIGA 2025-26",
-      "match_id": 131058,
-      "status": "NOT_STARTED",
-      "streamingStatus": "NOT_STARTED",
-      "startTime": "08 February 2026 11:00 PM",
-      "startDate": "01 January 1970 05:30 AM",
-      "image": "https://www.fancode.com/skillup-uploads/cms-media/131058_5427_ATL_RB_FC-Web.png",
-      "image_cdn": {
-        "TATAPLAY": "https://images.fancode.com/aig/match/v1/131058_CASACARDS_PARTNER_16_9_1920_1080.png",
-        "APP": "https://www.fancode.com/skillup-uploads/cms-media/131058_5427_ATL_RB_FC-Web.png",
-        "PLAYBACK": null,
-        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/LALIGA-2025-26-Tour.png",
-        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Football-old-copy.jpg",
-        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/131058_5427_ATL_RB_FC-Web.png",
-        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/131058_5427_ATL_RB_FC-App.png",
-        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/131058_CASACARDS_PARTNER_16_9_1920_1080.png"
-      },
-      "teams": [
-        {
-          "name": "Atletico de Madrid",
-          "shortName": "ATL",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-ATLH@2x.png"
-          },
-          "isWinner": null,
-          "color": "#ca2917",
-          "cricketScore": null,
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        },
-        {
-          "name": "Real Betis",
-          "shortName": "RB",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-REALB@2x.png"
-          },
-          "isWinner": null,
-          "color": "#19a661",
           "cricketScore": null,
           "kabaddiScore": null,
           "footballScore": null,
@@ -2520,72 +2394,6 @@
       }
     },
     {
-      "category": "Football",
-      "title": "Rayo Vallecano Vs Real Oviedo",
-      "tournament": "LALIGA 2025-26",
-      "match_id": 131055,
-      "status": "ABANDONED",
-      "streamingStatus": "COMPLETED",
-      "startTime": "07 February 2026 06:30 PM",
-      "startDate": "01 January 1970 05:30 AM",
-      "image": "https://www.fancode.com/skillup-uploads/cms-media/131055_5427_RVL_RO_FC-Web.png",
-      "image_cdn": {
-        "TATAPLAY": "https://images.fancode.com/aig/match/v1/131055_CASACARDS_PARTNER_16_9_1920_1080.png",
-        "APP": "https://www.fancode.com/skillup-uploads/cms-media/131055_5427_RVL_RO_FC-Web.png",
-        "PLAYBACK": null,
-        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/LALIGA-2025-26-Tour.png",
-        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Football-old-copy.jpg",
-        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/131055_5427_RVL_RO_FC-Web.png",
-        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/131055_5427_RVL_RO_FC-App.png",
-        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/131055_CASACARDS_PARTNER_16_9_1920_1080.png"
-      },
-      "teams": [
-        {
-          "name": "Rayo Vallecano",
-          "shortName": "RVL",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-RAV@2x.png"
-          },
-          "isWinner": null,
-          "color": "#F77A1E",
-          "cricketScore": null,
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        },
-        {
-          "name": "Real Oviedo",
-          "shortName": "RO",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-RO@2x.png"
-          },
-          "isWinner": null,
-          "color": "#A71C10",
-          "cricketScore": null,
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        }
-      ],
-      "language": "BLOODY_SWEET",
-      "STREAMING_CDN": {
-        "language": "BLOODY_SWEET",
-        "Primary_Playback_URL": null
-      }
-    },
-    {
       "category": "Golf",
       "title": "Main Feed   Day 4",
       "tournament": "WM Phoenix Open 2026",
@@ -2643,6 +2451,64 @@
               "isBatting": false
             }
           }
+        }
+      ],
+      "language": "BLOODY_SWEET",
+      "STREAMING_CDN": {
+        "language": "BLOODY_SWEET",
+        "Primary_Playback_URL": null
+      }
+    },
+    {
+      "category": "Football",
+      "title": "Rayo Vallecano Vs Real Oviedo",
+      "tournament": "LALIGA 2025-26",
+      "match_id": 131055,
+      "status": "ABANDONED",
+      "streamingStatus": "COMPLETED",
+      "startTime": "07 February 2026 06:30 PM",
+      "startDate": "01 January 1970 05:30 AM",
+      "image": "https://www.fancode.com/skillup-uploads/cms-media/131055_5427_RVL_RO_FC-Web.png",
+      "image_cdn": {
+        "TATAPLAY": "https://images.fancode.com/aig/match/v1/131055_CASACARDS_PARTNER_16_9_1920_1080.png",
+        "APP": "https://www.fancode.com/skillup-uploads/cms-media/131055_5427_RVL_RO_FC-Web.png",
+        "PLAYBACK": null,
+        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/LALIGA-2025-26-Tour.png",
+        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Football-old-copy.jpg",
+        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/131055_5427_RVL_RO_FC-Web.png",
+        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/131055_5427_RVL_RO_FC-App.png",
+        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/131055_CASACARDS_PARTNER_16_9_1920_1080.png"
+      },
+      "teams": [
+        {
+          "name": "Rayo Vallecano",
+          "shortName": "RVL",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-RAV@2x.png"
+          },
+          "isWinner": null,
+          "color": "#F77A1E",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": null
+        },
+        {
+          "name": "Real Oviedo",
+          "shortName": "RO",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-RO@2x.png"
+          },
+          "isWinner": null,
+          "color": "#A71C10",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": null
         }
       ],
       "language": "BLOODY_SWEET",
@@ -2765,6 +2631,138 @@
           },
           "isWinner": null,
           "color": "#141414",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        }
+      ],
+      "language": "BLOODY_SWEET",
+      "STREAMING_CDN": {
+        "language": "BLOODY_SWEET",
+        "Primary_Playback_URL": null
+      }
+    },
+    {
+      "category": "Golf",
+      "title": "Featured Groups   Day 4",
+      "tournament": "WM Phoenix Open 2026",
+      "match_id": 140402,
+      "status": "NOT_STARTED",
+      "streamingStatus": "NOT_STARTED",
+      "startTime": "08 February 2026 10:30 PM",
+      "startDate": "01 January 1970 05:30 AM",
+      "image": "https://www.fancode.com/skillup-uploads/cms-media/WM-Phoenix-Open-2026_web-(1).jpg",
+      "image_cdn": {
+        "TATAPLAY": "https://images.fancode.com/aig/match/v1/140402_CASACARDS_PARTNER_16_9_1920_1080.png",
+        "APP": "https://www.fancode.com/skillup-uploads/cms-media/WM-Phoenix-Open-2026_web-(1).jpg",
+        "PLAYBACK": null,
+        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/WM-Phoenix-Open.png",
+        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Golf-old.jpg",
+        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/WM-Phoenix-Open-2026_web-(1).jpg",
+        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/WM-Phoenix-Open-2026_app-(1).jpg",
+        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/140402_CASACARDS_PARTNER_16_9_1920_1080.png"
+      },
+      "teams": [
+        {
+          "name": "Featured Groups - Day 4",
+          "shortName": "Featured Groups - Day 4",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/gl-flags/FC-PGA@2x.png"
+          },
+          "isWinner": null,
+          "color": "#141414",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        },
+        {
+          "name": "TPC Scottsdale",
+          "shortName": "TPC Scottsdale",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/gl-flags/FC-LOC@2x.png"
+          },
+          "isWinner": null,
+          "color": "#141414",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        }
+      ],
+      "language": "BLOODY_SWEET",
+      "STREAMING_CDN": {
+        "language": "BLOODY_SWEET",
+        "Primary_Playback_URL": null
+      }
+    },
+    {
+      "category": "Live Events",
+      "title": "Day 1",
+      "tournament": "Strikers Cup 2026",
+      "match_id": 140315,
+      "status": "NOT_STARTED",
+      "streamingStatus": "NOT_STARTED",
+      "startTime": "09 February 2026 08:30 AM",
+      "startDate": "01 January 1970 05:30 AM",
+      "image": "https://www.fancode.com/skillup-uploads/cms-media/Strikers-Cup-2026_fc-web.jpg",
+      "image_cdn": {
+        "TATAPLAY": "https://images.fancode.com/aig/match/v1/140315_CASACARDS_PARTNER_16_9_1920_1080.png",
+        "APP": "https://www.fancode.com/skillup-uploads/cms-media/Strikers-Cup-2026_fc-web.jpg",
+        "PLAYBACK": null,
+        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/Strikers-Cup.png",
+        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Live-Event-old.jpg",
+        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/Strikers-Cup-2026_fc-web.jpg",
+        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/Strikers-Cup-2026_fc-app.jpg",
+        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/140315_CASACARDS_PARTNER_16_9_1920_1080.png"
+      },
+      "teams": [
+        {
+          "name": "Day 1",
+          "shortName": "Day 1",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/le-flags/FC-SKC@2x.png"
+          },
+          "isWinner": null,
+          "color": "#FF0000",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        },
+        {
+          "name": "Delhi",
+          "shortName": "Delhi",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/le-flags/FC-LOC@2x.png"
+          },
+          "isWinner": null,
+          "color": "#FFFFFF",
           "cricketScore": null,
           "kabaddiScore": null,
           "footballScore": null,
