@@ -1,110 +1,72 @@
 {
   "Author": "DOCTOR_STRANGE",
   "name": "FanCode Live Matches API",
-  "last_updated": "02:52:31 PM 18-02-2026",
+  "last_updated": "03:52:35 PM 18-02-2026",
   "headers": {
     "User-Agent": "ReactNativeVideo/9.3.0 (Linux;Android 13) AndroidXMedia3/1.6.1",
     "Referer": "https://fancode.com/"
   },
   "total_matches": 38,
-  "live_matches": 4,
-  "upcoming_matches": 34,
+  "live_matches": 8,
+  "upcoming_matches": 30,
   "matches": [
     {
-      "category": "Cricket",
-      "title": "Victoria Vs Western Australia",
-      "tournament": "Sheffield Shield, 2025-26",
-      "match_id": 134036,
+      "category": "Football",
+      "title": "Melbourne City Vs Gangwon",
+      "tournament": "AFC Champions League Elite 2025-26",
+      "match_id": 136042,
       "status": "LIVE",
       "streamingStatus": "STARTED",
-      "startTime": "16 February 2026 08:00 AM",
-      "startDate": "19 February 2026 08:00 AM",
-      "image": "https://www.fancode.com/skillup-uploads/cms-media/134036_5609_WAU_VCT_fc-Web.jpg",
+      "startTime": "18 February 2026 03:30 PM",
+      "startDate": "01 January 1970 05:30 AM",
+      "image": "https://www.fancode.com/skillup-uploads/cms-media/29_Melbourne-City-vs-Gangwon_1770636939459.png",
       "image_cdn": {
-        "TATAPLAY": "https://images.fancode.com/aig/match/v1/134036_CASACARDS_PARTNER_16_9_1920_1080.png",
-        "APP": "https://www.fancode.com/skillup-uploads/cms-media/134036_5609_WAU_VCT_fc-Web.jpg",
-        "PLAYBACK": "https://www.fancode.com/skillup-uploads/cms-media/134036_5609_WAU_VCT_fc-Web.jpg",
-        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/Sheffield-Shield-Tour-Logo.png",
-        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_cricket-old.jpg",
-        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/134036_5609_WAU_VCT_fc-Web.jpg",
-        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/134036_5609_WAU_VCT_fc-App_1760687268133.jpg",
-        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/134036_CASACARDS_PARTNER_16_9_1920_1080.png"
+        "TATAPLAY": "https://images.fancode.com/aig/match/v1/136042_CASACARDS_PARTNER_16_9_1920_1080.png",
+        "APP": "https://www.fancode.com/skillup-uploads/cms-media/29_Melbourne-City-vs-Gangwon_1770636939459.png",
+        "PLAYBACK": "https://www.fancode.com/skillup-uploads/cms-media/29_Melbourne-City-vs-Gangwon_1770636939459.png",
+        "LOGO": "https://fancode.com/skillup-uploads/prod-images/2024/09/AFC-Champions-League-Elite.png",
+        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Football-old-copy.jpg",
+        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/29_Melbourne-City-vs-Gangwon_1770636939459.png",
+        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/29_Melbourne-City-vs-Gangwon.png",
+        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/136042_CASACARDS_PARTNER_16_9_1920_1080.png"
       },
       "team": [
         {
-          "name": "Victoria",
-          "shortName": "VCT",
+          "name": "Melbourne City",
+          "shortName": "MLC",
           "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-VCT@2x.png"
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-MLCA@2x.png"
           },
           "isWinner": null,
-          "color": "#00226a",
-          "cricketScore": [
-            {
-              "runs": 431,
-              "overs": "116.5",
-              "balls": "0",
-              "status": "DECLARED",
-              "wickets": 9
-            },
-            {
-              "runs": 274,
-              "overs": "59",
-              "balls": "0",
-              "status": "DECLARED",
-              "wickets": 4
-            }
-          ],
+          "color": "#72b4e7",
+          "cricketScore": null,
           "kabaddiScore": null,
           "footballScore": null,
           "basketBallScore": null,
           "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
+          "status": null
         },
         {
-          "name": "Western Australia",
-          "shortName": "WAU",
+          "name": "Gangwon",
+          "shortName": "GW",
           "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-WAU@2x.png"
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/DEF-FT1@2x.png"
           },
           "isWinner": null,
-          "color": "#6fc9ff",
-          "cricketScore": [
-            {
-              "runs": 238,
-              "overs": "80.2",
-              "balls": "0",
-              "status": "COMPLETED",
-              "wickets": 10
-            },
-            {
-              "runs": 8,
-              "overs": "4",
-              "balls": "0",
-              "status": "IN_PROGRESS",
-              "wickets": 1
-            }
-          ],
+          "color": "#FF0000",
+          "cricketScore": null,
           "kabaddiScore": null,
           "footballScore": null,
           "basketBallScore": null,
           "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": true
-            }
-          }
+          "status": null
         }
       ],
       "language": "ENGLISH",
       "STREAMING_CDN": {
-        "Primary_Playback_URL": "https://in-mc-flive.fancode.com/mumbai/134036_english_hls_ab6f47f920741_1ta-di_h264/index.m3u8",
-        "fancode_cdn": "https://in-mc-flive.fancode.com/mumbai/134036_english_hls_ab6f47f920741_1ta-di_h264/index.m3u8",
-        "fancode_bd_cdn": "https://bd-mc-flive.fancode.com/mumbai/134036_english_hls_ab6f47f920741_1ta-di_h264/index.m3u8",
+        "Primary_Playback_URL": "https://in-mc-flive.fancode.com/mumbai/136042_english_hls_85c9cd791911695_1ta-di_h264/index.m3u8",
+        "fancode_cdn": "https://in-mc-flive.fancode.com/mumbai/136042_english_hls_85c9cd791911695_1ta-di_h264/index.m3u8",
+        "fancode_bd_cdn": "https://bd-mc-flive.fancode.com/mumbai/136042_english_hls_85c9cd791911695_1ta-di_h264/index.m3u8",
         "dai_google_cdn": "Unavailable",
         "cloudfront_cdn": "Unavailable",
         "sony_cdn": "Unavailable",
@@ -112,8 +74,80 @@
       },
       "auto_streams": [
         {
-          "auto": "#EXTM3U\n#EXT-X-VERSION:3\n#EXT-X-STREAM-INF:BANDWIDTH=446936,AVERAGE-BANDWIDTH=446936,CODECS=\"avc1.42e015,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=426x240,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/134036_english_hls_ab6f47f920741_1ta-di_h264/240p.m3u8?hdntl=Expires=1771485776~_GO=Generated~acl=/mumbai/134036_english_hls_ab6f47f920741_1ta-di_h264/*~Signature=ATihZv529TMfKbyjifBoeoT3wfkkBPWc3n8OK86LcwQ3kIZ9_HTiVib5Pnw4oimVPWxrUI0LSX5Gn3PP9G1zb1C3tkEK\n#EXT-X-STREAM-INF:BANDWIDTH=702376,AVERAGE-BANDWIDTH=702376,CODECS=\"avc1.42e01e,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=640x360,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/134036_english_hls_ab6f47f920741_1ta-di_h264/360p.m3u8?hdntl=Expires=1771485776~_GO=Generated~acl=/mumbai/134036_english_hls_ab6f47f920741_1ta-di_h264/*~Signature=ATihZv529TMfKbyjifBoeoT3wfkkBPWc3n8OK86LcwQ3kIZ9_HTiVib5Pnw4oimVPWxrUI0LSX5Gn3PP9G1zb1C3tkEK\n#EXT-X-STREAM-INF:BANDWIDTH=1023224,AVERAGE-BANDWIDTH=1023224,CODECS=\"avc1.4d401e,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=854x480,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/134036_english_hls_ab6f47f920741_1ta-di_h264/480p.m3u8?hdntl=Expires=1771485776~_GO=Generated~acl=/mumbai/134036_english_hls_ab6f47f920741_1ta-di_h264/*~Signature=ATihZv529TMfKbyjifBoeoT3wfkkBPWc3n8OK86LcwQ3kIZ9_HTiVib5Pnw4oimVPWxrUI0LSX5Gn3PP9G1zb1C3tkEK\n#EXT-X-STREAM-INF:BANDWIDTH=1278664,AVERAGE-BANDWIDTH=1278664,CODECS=\"avc1.4d401f,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=960x540,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/134036_english_hls_ab6f47f920741_1ta-di_h264/540p.m3u8?hdntl=Expires=1771485776~_GO=Generated~acl=/mumbai/134036_english_hls_ab6f47f920741_1ta-di_h264/*~Signature=ATihZv529TMfKbyjifBoeoT3wfkkBPWc3n8OK86LcwQ3kIZ9_HTiVib5Pnw4oimVPWxrUI0LSX5Gn3PP9G1zb1C3tkEK\n#EXT-X-STREAM-INF:BANDWIDTH=1789512,AVERAGE-BANDWIDTH=1789512,CODECS=\"avc1.64001f,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1280x720,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/134036_english_hls_ab6f47f920741_1ta-di_h264/720p.m3u8?hdntl=Expires=1771485776~_GO=Generated~acl=/mumbai/134036_english_hls_ab6f47f920741_1ta-di_h264/*~Signature=ATihZv529TMfKbyjifBoeoT3wfkkBPWc3n8OK86LcwQ3kIZ9_HTiVib5Pnw4oimVPWxrUI0LSX5Gn3PP9G1zb1C3tkEK\n#EXT-X-STREAM-INF:BANDWIDTH=3322120,AVERAGE-BANDWIDTH=3322120,CODECS=\"avc1.640028,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1920x1080,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/134036_english_hls_ab6f47f920741_1ta-di_h264/1080p.m3u8?hdntl=Expires=1771485776~_GO=Generated~acl=/mumbai/134036_english_hls_ab6f47f920741_1ta-di_h264/*~Signature=ATihZv529TMfKbyjifBoeoT3wfkkBPWc3n8OK86LcwQ3kIZ9_HTiVib5Pnw4oimVPWxrUI0LSX5Gn3PP9G1zb1C3tkEK",
-          "cookie_valid": "1771485776",
+          "auto": "#EXTM3U\n#EXT-X-VERSION:3\n#EXT-X-STREAM-INF:BANDWIDTH=446936,AVERAGE-BANDWIDTH=446936,CODECS=\"avc1.42e015,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=426x240,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/136042_english_hls_85c9cd791911695_1ta-di_h264/240p.m3u8?hdntl=Expires=1771494453~_GO=Generated~acl=/mumbai/136042_english_hls_85c9cd791911695_1ta-di_h264/*~Signature=ATihZv54ZkZRdQe3LqMR1Mj9mIpq9vol6ac6Amx9SXX4W1xXfbaMmuGgwPhTHTYa2k88wnPFWP3jWPImhGyPDQTfQMsI\n#EXT-X-STREAM-INF:BANDWIDTH=702376,AVERAGE-BANDWIDTH=702376,CODECS=\"avc1.42e01e,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=640x360,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/136042_english_hls_85c9cd791911695_1ta-di_h264/360p.m3u8?hdntl=Expires=1771494453~_GO=Generated~acl=/mumbai/136042_english_hls_85c9cd791911695_1ta-di_h264/*~Signature=ATihZv54ZkZRdQe3LqMR1Mj9mIpq9vol6ac6Amx9SXX4W1xXfbaMmuGgwPhTHTYa2k88wnPFWP3jWPImhGyPDQTfQMsI\n#EXT-X-STREAM-INF:BANDWIDTH=1023224,AVERAGE-BANDWIDTH=1023224,CODECS=\"avc1.4d401e,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=854x480,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/136042_english_hls_85c9cd791911695_1ta-di_h264/480p.m3u8?hdntl=Expires=1771494453~_GO=Generated~acl=/mumbai/136042_english_hls_85c9cd791911695_1ta-di_h264/*~Signature=ATihZv54ZkZRdQe3LqMR1Mj9mIpq9vol6ac6Amx9SXX4W1xXfbaMmuGgwPhTHTYa2k88wnPFWP3jWPImhGyPDQTfQMsI\n#EXT-X-STREAM-INF:BANDWIDTH=1278664,AVERAGE-BANDWIDTH=1278664,CODECS=\"avc1.4d401f,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=960x540,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/136042_english_hls_85c9cd791911695_1ta-di_h264/540p.m3u8?hdntl=Expires=1771494453~_GO=Generated~acl=/mumbai/136042_english_hls_85c9cd791911695_1ta-di_h264/*~Signature=ATihZv54ZkZRdQe3LqMR1Mj9mIpq9vol6ac6Amx9SXX4W1xXfbaMmuGgwPhTHTYa2k88wnPFWP3jWPImhGyPDQTfQMsI\n#EXT-X-STREAM-INF:BANDWIDTH=1789512,AVERAGE-BANDWIDTH=1789512,CODECS=\"avc1.64001f,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1280x720,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/136042_english_hls_85c9cd791911695_1ta-di_h264/720p.m3u8?hdntl=Expires=1771494453~_GO=Generated~acl=/mumbai/136042_english_hls_85c9cd791911695_1ta-di_h264/*~Signature=ATihZv54ZkZRdQe3LqMR1Mj9mIpq9vol6ac6Amx9SXX4W1xXfbaMmuGgwPhTHTYa2k88wnPFWP3jWPImhGyPDQTfQMsI\n#EXT-X-STREAM-INF:BANDWIDTH=3322120,AVERAGE-BANDWIDTH=3322120,CODECS=\"avc1.640028,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1920x1080,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/136042_english_hls_85c9cd791911695_1ta-di_h264/1080p.m3u8?hdntl=Expires=1771494453~_GO=Generated~acl=/mumbai/136042_english_hls_85c9cd791911695_1ta-di_h264/*~Signature=ATihZv54ZkZRdQe3LqMR1Mj9mIpq9vol6ac6Amx9SXX4W1xXfbaMmuGgwPhTHTYa2k88wnPFWP3jWPImhGyPDQTfQMsI",
+          "cookie_valid": "1771494453",
+          "expire_date": "2026-02-19 15:17:33",
+          "language": "ENGLISH"
+        }
+      ]
+    },
+    {
+      "category": "Football",
+      "title": "Shanghai Port Vs Ulsan Hd",
+      "tournament": "AFC Champions League Elite 2025-26",
+      "match_id": 136041,
+      "status": "LIVE",
+      "streamingStatus": "STARTED",
+      "startTime": "18 February 2026 03:30 PM",
+      "startDate": "01 January 1970 05:30 AM",
+      "image": "https://www.fancode.com/skillup-uploads/cms-media/30_Shanghai-Port-vs-Ulsan-HD_1770636853402.png",
+      "image_cdn": {
+        "TATAPLAY": "https://images.fancode.com/aig/match/v1/136041_CASACARDS_PARTNER_16_9_1920_1080.png",
+        "APP": "https://www.fancode.com/skillup-uploads/cms-media/30_Shanghai-Port-vs-Ulsan-HD_1770636853402.png",
+        "PLAYBACK": "https://www.fancode.com/skillup-uploads/cms-media/30_Shanghai-Port-vs-Ulsan-HD_1770636853402.png",
+        "LOGO": "https://fancode.com/skillup-uploads/prod-images/2024/09/AFC-Champions-League-Elite.png",
+        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Football-old-copy.jpg",
+        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/30_Shanghai-Port-vs-Ulsan-HD_1770636853402.png",
+        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/30_Shanghai-Port-vs-Ulsan-HD.png",
+        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/136041_CASACARDS_PARTNER_16_9_1920_1080.png"
+      },
+      "team": [
+        {
+          "name": "Shanghai Port",
+          "shortName": "SHG",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-SHANGP@2x.png"
+          },
+          "isWinner": null,
+          "color": "#121c3d",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": null
+        },
+        {
+          "name": "Ulsan HD",
+          "shortName": "ULS",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-ULS@2x.png"
+          },
+          "isWinner": null,
+          "color": "#ad8d27",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": null
+        }
+      ],
+      "language": "ENGLISH",
+      "STREAMING_CDN": {
+        "Primary_Playback_URL": "https://in-mc-flive.fancode.com/mumbai/136041_english_hls_2a0f5f45d279567_1ta-di_h264/index.m3u8",
+        "fancode_cdn": "https://in-mc-flive.fancode.com/mumbai/136041_english_hls_2a0f5f45d279567_1ta-di_h264/index.m3u8",
+        "fancode_bd_cdn": "https://bd-mc-flive.fancode.com/mumbai/136041_english_hls_2a0f5f45d279567_1ta-di_h264/index.m3u8",
+        "dai_google_cdn": "Unavailable",
+        "cloudfront_cdn": "Unavailable",
+        "sony_cdn": "Unavailable",
+        "language": "ENGLISH"
+      },
+      "auto_streams": [
+        {
+          "auto": "#EXTM3U\n#EXT-X-VERSION:3\n#EXT-X-STREAM-INF:BANDWIDTH=446936,AVERAGE-BANDWIDTH=446936,CODECS=\"avc1.42e015,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=426x240,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/136041_english_hls_2a0f5f45d279567_1ta-di_h264/240p.m3u8?hdntl=Expires=1771494455~_GO=Generated~acl=/mumbai/136041_english_hls_2a0f5f45d279567_1ta-di_h264/*~Signature=ATihZv7oWW9EI_8_N-86Ga6V8FJsv1wvJ5Z0w3fWEuQR9uO4el7FGNYqN-7cxo9EAjIv7vn40YhpS7L8eTL3HggpYUUI\n#EXT-X-STREAM-INF:BANDWIDTH=702376,AVERAGE-BANDWIDTH=702376,CODECS=\"avc1.42e01e,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=640x360,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/136041_english_hls_2a0f5f45d279567_1ta-di_h264/360p.m3u8?hdntl=Expires=1771494455~_GO=Generated~acl=/mumbai/136041_english_hls_2a0f5f45d279567_1ta-di_h264/*~Signature=ATihZv7oWW9EI_8_N-86Ga6V8FJsv1wvJ5Z0w3fWEuQR9uO4el7FGNYqN-7cxo9EAjIv7vn40YhpS7L8eTL3HggpYUUI\n#EXT-X-STREAM-INF:BANDWIDTH=1023224,AVERAGE-BANDWIDTH=1023224,CODECS=\"avc1.4d401e,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=854x480,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/136041_english_hls_2a0f5f45d279567_1ta-di_h264/480p.m3u8?hdntl=Expires=1771494455~_GO=Generated~acl=/mumbai/136041_english_hls_2a0f5f45d279567_1ta-di_h264/*~Signature=ATihZv7oWW9EI_8_N-86Ga6V8FJsv1wvJ5Z0w3fWEuQR9uO4el7FGNYqN-7cxo9EAjIv7vn40YhpS7L8eTL3HggpYUUI\n#EXT-X-STREAM-INF:BANDWIDTH=1278664,AVERAGE-BANDWIDTH=1278664,CODECS=\"avc1.4d401f,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=960x540,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/136041_english_hls_2a0f5f45d279567_1ta-di_h264/540p.m3u8?hdntl=Expires=1771494455~_GO=Generated~acl=/mumbai/136041_english_hls_2a0f5f45d279567_1ta-di_h264/*~Signature=ATihZv7oWW9EI_8_N-86Ga6V8FJsv1wvJ5Z0w3fWEuQR9uO4el7FGNYqN-7cxo9EAjIv7vn40YhpS7L8eTL3HggpYUUI\n#EXT-X-STREAM-INF:BANDWIDTH=1789512,AVERAGE-BANDWIDTH=1789512,CODECS=\"avc1.64001f,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1280x720,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/136041_english_hls_2a0f5f45d279567_1ta-di_h264/720p.m3u8?hdntl=Expires=1771494455~_GO=Generated~acl=/mumbai/136041_english_hls_2a0f5f45d279567_1ta-di_h264/*~Signature=ATihZv7oWW9EI_8_N-86Ga6V8FJsv1wvJ5Z0w3fWEuQR9uO4el7FGNYqN-7cxo9EAjIv7vn40YhpS7L8eTL3HggpYUUI\n#EXT-X-STREAM-INF:BANDWIDTH=3322120,AVERAGE-BANDWIDTH=3322120,CODECS=\"avc1.640028,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1920x1080,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/136041_english_hls_2a0f5f45d279567_1ta-di_h264/1080p.m3u8?hdntl=Expires=1771494455~_GO=Generated~acl=/mumbai/136041_english_hls_2a0f5f45d279567_1ta-di_h264/*~Signature=ATihZv7oWW9EI_8_N-86Ga6V8FJsv1wvJ5Z0w3fWEuQR9uO4el7FGNYqN-7cxo9EAjIv7vn40YhpS7L8eTL3HggpYUUI",
+          "cookie_valid": "1771494455",
+          "expire_date": "2026-02-19 15:17:35",
           "language": "ENGLISH"
         }
       ]
@@ -156,11 +190,11 @@
               "wickets": 10
             },
             {
-              "runs": 197,
-              "overs": "47.3",
+              "runs": 229,
+              "overs": "61.4",
               "balls": "0",
               "status": "IN_PROGRESS",
-              "wickets": 2
+              "wickets": 5
             }
           ],
           "kabaddiScore": null,
@@ -377,34 +411,34 @@
       ]
     },
     {
-      "category": "Football",
-      "title": "Melbourne City Vs Gangwon",
-      "tournament": "AFC Champions League Elite 2025-26",
-      "match_id": 136042,
-      "status": "NOT_STARTED",
-      "streamingStatus": "NOT_STARTED",
-      "startTime": "18 February 2026 03:30 PM",
+      "category": "Tennis",
+      "title": "World Feed",
+      "tournament": "ATP 500 - Qatar ExxonMobil Open 2026",
+      "match_id": 140210,
+      "status": "LIVE",
+      "streamingStatus": "STARTED",
+      "startTime": "18 February 2026 04:00 PM",
       "startDate": "01 January 1970 05:30 AM",
-      "image": "https://www.fancode.com/skillup-uploads/cms-media/29_Melbourne-City-vs-Gangwon_1770636939459.png",
+      "image": "https://www.fancode.com/skillup-uploads/cms-media/Qatar-ExxonMobil-Open,ATP-500-Revised-old-match-card-_1771298305039.jpg",
       "image_cdn": {
-        "TATAPLAY": "https://images.fancode.com/aig/match/v1/136042_CASACARDS_PARTNER_16_9_1920_1080.png",
-        "APP": "https://www.fancode.com/skillup-uploads/cms-media/29_Melbourne-City-vs-Gangwon_1770636939459.png",
-        "PLAYBACK": null,
-        "LOGO": "https://fancode.com/skillup-uploads/prod-images/2024/09/AFC-Champions-League-Elite.png",
-        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Football-old-copy.jpg",
-        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/29_Melbourne-City-vs-Gangwon_1770636939459.png",
-        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/29_Melbourne-City-vs-Gangwon.png",
-        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/136042_CASACARDS_PARTNER_16_9_1920_1080.png"
+        "TATAPLAY": "https://images.fancode.com/aig/match/v1/140210_CASACARDS_PARTNER_16_9_1920_1080.png",
+        "APP": "https://www.fancode.com/skillup-uploads/cms-media/Qatar-ExxonMobil-Open,ATP-500-Revised-old-match-card-_1771298305039.jpg",
+        "PLAYBACK": "https://www.fancode.com/skillup-uploads/cms-media/Qatar-ExxonMobil-Open,ATP-500-Revised-old-match-card-_1771298305039.jpg",
+        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/ATP_Tour-&-Team-Logo.png",
+        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Default_Tennis-old.jpg",
+        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/Qatar-ExxonMobil-Open,ATP-500-Revised-old-match-card-_1771298305039.jpg",
+        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/Qatar-ExxonMobil-Open,ATP-500--revised-old-Sporty-_1771298305031.jpg",
+        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/140210_CASACARDS_PARTNER_16_9_1920_1080.png"
       },
       "team": [
         {
-          "name": "Melbourne City",
-          "shortName": "MLC",
+          "name": "World Feed",
+          "shortName": "World Feed",
           "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-MLCA@2x.png"
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/lawn-tennis-flags/FC-ATP@2x.png"
           },
           "isWinner": null,
-          "color": "#72b4e7",
+          "color": "#FF0000",
           "cricketScore": null,
           "kabaddiScore": null,
           "footballScore": null,
@@ -417,10 +451,10 @@
           }
         },
         {
-          "name": "Gangwon",
-          "shortName": "GW",
+          "name": "Doha, Qatar",
+          "shortName": "Doha, Qatar",
           "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/DEF-FT1@2x.png"
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/lawn-tennis-flags/FC-LOC@2x.png"
           },
           "isWinner": null,
           "color": "#FF0000",
@@ -436,42 +470,54 @@
           }
         }
       ],
-      "language": "BLOODY_SWEET",
+      "language": "ENGLISH",
       "STREAMING_CDN": {
-        "language": "BLOODY_SWEET",
-        "Primary_Playback_URL": null
+        "Primary_Playback_URL": "https://in-mc-flive.fancode.com/mumbai/140210_english_hls_9121eccdb618683_1ta-di_h264/index.m3u8?hdnea=exp=1771409673~acl=/mumbai/140210_english_hls_9121eccdb618683_1ta-di_h264/*~id=5c1a2d7b8f02d931_ee13e152-7622-41~data=5c1a2d7b8f02d931_free_420~hmac=3cabe74db4321850d8004a7788147456657816c5c366270d6e3b89a7fbe163d3&deviceId=5c1a2d7b8f02d931&advertiserId=7e42d87b-45cd-4cf6-b0ae-1fae68d9430&ft_type=c1&cust_params=app_version%3D6.15.0%26app_platform%3Dsportsguruand%26state%3DMaharashtra%26city%3DMumbai%26userId%3D%26match_id%3D140210%26match_format%3DSingles%26tour_id%3D5941%26tour_name%3DATP_500_-_Qatar_ExxonMobil_Open_2026%26sport%3Dlawn-tennis%26authorizationType%3DPAID&state=Maharashtra&city=Mumbai",
+        "fancode_cdn": "https://in-mc-flive.fancode.com/mumbai/140210_english_hls_9121eccdb618683_1ta-di_h264/index.m3u8?hdnea=exp=1771409673~acl=/mumbai/140210_english_hls_9121eccdb618683_1ta-di_h264/*~id=5c1a2d7b8f02d931_ee13e152-7622-41~data=5c1a2d7b8f02d931_free_420~hmac=3cabe74db4321850d8004a7788147456657816c5c366270d6e3b89a7fbe163d3&deviceId=5c1a2d7b8f02d931&advertiserId=7e42d87b-45cd-4cf6-b0ae-1fae68d9430&ft_type=c1&cust_params=app_version%3D6.15.0%26app_platform%3Dsportsguruand%26state%3DMaharashtra%26city%3DMumbai%26userId%3D%26match_id%3D140210%26match_format%3DSingles%26tour_id%3D5941%26tour_name%3DATP_500_-_Qatar_ExxonMobil_Open_2026%26sport%3Dlawn-tennis%26authorizationType%3DPAID&state=Maharashtra&city=Mumbai",
+        "fancode_bd_cdn": "https://bd-mc-flive.fancode.com/mumbai/140210_english_hls_9121eccdb618683_1ta-di_h264/index.m3u8?hdnea=exp=1771409673~acl=/mumbai/140210_english_hls_9121eccdb618683_1ta-di_h264/*~id=5c1a2d7b8f02d931_ee13e152-7622-41~data=5c1a2d7b8f02d931_free_420~hmac=3cabe74db4321850d8004a7788147456657816c5c366270d6e3b89a7fbe163d3&deviceId=5c1a2d7b8f02d931&advertiserId=7e42d87b-45cd-4cf6-b0ae-1fae68d9430&ft_type=c1&cust_params=app_version%3D6.15.0%26app_platform%3Dsportsguruand%26state%3DMaharashtra%26city%3DMumbai%26userId%3D%26match_id%3D140210%26match_format%3DSingles%26tour_id%3D5941%26tour_name%3DATP_500_-_Qatar_ExxonMobil_Open_2026%26sport%3Dlawn-tennis%26authorizationType%3DPAID&state=Maharashtra&city=Mumbai",
+        "dai_google_cdn": "Unavailable",
+        "cloudfront_cdn": "Unavailable",
+        "sony_cdn": "Unavailable",
+        "language": "ENGLISH"
       },
-      "auto_streams": null
+      "auto_streams": [
+        {
+          "auto": "",
+          "cookie_valid": null,
+          "expire_date": null,
+          "language": "ENGLISH"
+        }
+      ]
     },
     {
-      "category": "Football",
-      "title": "Shanghai Port Vs Ulsan Hd",
-      "tournament": "AFC Champions League Elite 2025-26",
-      "match_id": 136041,
-      "status": "NOT_STARTED",
-      "streamingStatus": "NOT_STARTED",
-      "startTime": "18 February 2026 03:30 PM",
+      "category": "Tennis",
+      "title": "Centre Court",
+      "tournament": "ATP 500 - Qatar ExxonMobil Open 2026",
+      "match_id": 140745,
+      "status": "LIVE",
+      "streamingStatus": "STARTED",
+      "startTime": "18 February 2026 04:00 PM",
       "startDate": "01 January 1970 05:30 AM",
-      "image": "https://www.fancode.com/skillup-uploads/cms-media/30_Shanghai-Port-vs-Ulsan-HD_1770636853402.png",
+      "image": "https://www.fancode.com/skillup-uploads/cms-media/Qatar-ExxonMobil-Open,ATP-500-Revised-old-match-card-_1771298305039.jpg",
       "image_cdn": {
-        "TATAPLAY": "https://images.fancode.com/aig/match/v1/136041_CASACARDS_PARTNER_16_9_1920_1080.png",
-        "APP": "https://www.fancode.com/skillup-uploads/cms-media/30_Shanghai-Port-vs-Ulsan-HD_1770636853402.png",
-        "PLAYBACK": null,
-        "LOGO": "https://fancode.com/skillup-uploads/prod-images/2024/09/AFC-Champions-League-Elite.png",
-        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Football-old-copy.jpg",
-        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/30_Shanghai-Port-vs-Ulsan-HD_1770636853402.png",
-        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/30_Shanghai-Port-vs-Ulsan-HD.png",
-        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/136041_CASACARDS_PARTNER_16_9_1920_1080.png"
+        "TATAPLAY": "https://images.fancode.com/aig/match/v1/140745_CASACARDS_PARTNER_16_9_1920_1080.png",
+        "APP": "https://www.fancode.com/skillup-uploads/cms-media/Qatar-ExxonMobil-Open,ATP-500-Revised-old-match-card-_1771298305039.jpg",
+        "PLAYBACK": "https://www.fancode.com/skillup-uploads/cms-media/Qatar-ExxonMobil-Open,ATP-500-Revised-old-match-card-_1771298305039.jpg",
+        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/ATP_Tour-&-Team-Logo.png",
+        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Default_Tennis-old.jpg",
+        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/Qatar-ExxonMobil-Open,ATP-500-Revised-old-match-card-_1771298305039.jpg",
+        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/Qatar-ExxonMobil-Open,ATP-500--revised-old-Sporty-_1771298305031.jpg",
+        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/140745_CASACARDS_PARTNER_16_9_1920_1080.png"
       },
       "team": [
         {
-          "name": "Shanghai Port",
-          "shortName": "SHG",
+          "name": "Centre Court",
+          "shortName": "Centre Court",
           "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-SHANGP@2x.png"
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/lawn-tennis-flags/FC-ATP@2x.png"
           },
           "isWinner": null,
-          "color": "#121c3d",
+          "color": "#FF0000",
           "cricketScore": null,
           "kabaddiScore": null,
           "footballScore": null,
@@ -484,13 +530,13 @@
           }
         },
         {
-          "name": "Ulsan HD",
-          "shortName": "ULS",
+          "name": "Doha, Qatar",
+          "shortName": "Doha, Qatar",
           "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-ULS@2x.png"
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/lawn-tennis-flags/FC-LOC@2x.png"
           },
           "isWinner": null,
-          "color": "#ad8d27",
+          "color": "#FF0000",
           "cricketScore": null,
           "kabaddiScore": null,
           "footballScore": null,
@@ -503,12 +549,103 @@
           }
         }
       ],
-      "language": "BLOODY_SWEET",
+      "language": "ENGLISH",
       "STREAMING_CDN": {
-        "language": "BLOODY_SWEET",
-        "Primary_Playback_URL": null
+        "Primary_Playback_URL": "https://in-mc-flive.fancode.com/mumbai/140745_english_hls_ebf6c65e0675571_1ta-di_h264/index.m3u8",
+        "fancode_cdn": "https://in-mc-flive.fancode.com/mumbai/140745_english_hls_ebf6c65e0675571_1ta-di_h264/index.m3u8",
+        "fancode_bd_cdn": "https://bd-mc-flive.fancode.com/mumbai/140745_english_hls_ebf6c65e0675571_1ta-di_h264/index.m3u8",
+        "dai_google_cdn": "Unavailable",
+        "cloudfront_cdn": "Unavailable",
+        "sony_cdn": "Unavailable",
+        "language": "ENGLISH"
       },
-      "auto_streams": null
+      "auto_streams": [
+        {
+          "auto": "#EXTM3U\n#EXT-X-VERSION:3\n#EXT-X-STREAM-INF:BANDWIDTH=446936,AVERAGE-BANDWIDTH=446936,CODECS=\"avc1.42e015,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=426x240,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/140745_english_hls_ebf6c65e0675571_1ta-di_h264/240p.m3u8?hdntl=Expires=1771496554~_GO=Generated~acl=/mumbai/140745_english_hls_ebf6c65e0675571_1ta-di_h264/*~Signature=ATihZv5fGpRPWTYwICLoMd47BksFodyczntFi4iY1XPsXIQu5xm2wXWDGFz2CvHgxodxxXMPeMxrWPv9KVcJEnLnBnkB\n#EXT-X-STREAM-INF:BANDWIDTH=702376,AVERAGE-BANDWIDTH=702376,CODECS=\"avc1.42e01e,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=640x360,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/140745_english_hls_ebf6c65e0675571_1ta-di_h264/360p.m3u8?hdntl=Expires=1771496554~_GO=Generated~acl=/mumbai/140745_english_hls_ebf6c65e0675571_1ta-di_h264/*~Signature=ATihZv5fGpRPWTYwICLoMd47BksFodyczntFi4iY1XPsXIQu5xm2wXWDGFz2CvHgxodxxXMPeMxrWPv9KVcJEnLnBnkB\n#EXT-X-STREAM-INF:BANDWIDTH=1023224,AVERAGE-BANDWIDTH=1023224,CODECS=\"avc1.4d401e,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=854x480,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/140745_english_hls_ebf6c65e0675571_1ta-di_h264/480p.m3u8?hdntl=Expires=1771496554~_GO=Generated~acl=/mumbai/140745_english_hls_ebf6c65e0675571_1ta-di_h264/*~Signature=ATihZv5fGpRPWTYwICLoMd47BksFodyczntFi4iY1XPsXIQu5xm2wXWDGFz2CvHgxodxxXMPeMxrWPv9KVcJEnLnBnkB\n#EXT-X-STREAM-INF:BANDWIDTH=1278664,AVERAGE-BANDWIDTH=1278664,CODECS=\"avc1.4d401f,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=960x540,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/140745_english_hls_ebf6c65e0675571_1ta-di_h264/540p.m3u8?hdntl=Expires=1771496554~_GO=Generated~acl=/mumbai/140745_english_hls_ebf6c65e0675571_1ta-di_h264/*~Signature=ATihZv5fGpRPWTYwICLoMd47BksFodyczntFi4iY1XPsXIQu5xm2wXWDGFz2CvHgxodxxXMPeMxrWPv9KVcJEnLnBnkB\n#EXT-X-STREAM-INF:BANDWIDTH=1789512,AVERAGE-BANDWIDTH=1789512,CODECS=\"avc1.64001f,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1280x720,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/140745_english_hls_ebf6c65e0675571_1ta-di_h264/720p.m3u8?hdntl=Expires=1771496554~_GO=Generated~acl=/mumbai/140745_english_hls_ebf6c65e0675571_1ta-di_h264/*~Signature=ATihZv5fGpRPWTYwICLoMd47BksFodyczntFi4iY1XPsXIQu5xm2wXWDGFz2CvHgxodxxXMPeMxrWPv9KVcJEnLnBnkB\n#EXT-X-STREAM-INF:BANDWIDTH=3322120,AVERAGE-BANDWIDTH=3322120,CODECS=\"avc1.640028,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1920x1080,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/140745_english_hls_ebf6c65e0675571_1ta-di_h264/1080p.m3u8?hdntl=Expires=1771496554~_GO=Generated~acl=/mumbai/140745_english_hls_ebf6c65e0675571_1ta-di_h264/*~Signature=ATihZv5fGpRPWTYwICLoMd47BksFodyczntFi4iY1XPsXIQu5xm2wXWDGFz2CvHgxodxxXMPeMxrWPv9KVcJEnLnBnkB",
+          "cookie_valid": "1771496554",
+          "expire_date": "2026-02-19 15:52:34",
+          "language": "ENGLISH"
+        }
+      ]
+    },
+    {
+      "category": "Tennis",
+      "title": "Grandstand 1",
+      "tournament": "ATP 500 - Qatar ExxonMobil Open 2026",
+      "match_id": 140744,
+      "status": "LIVE",
+      "streamingStatus": "STARTED",
+      "startTime": "18 February 2026 04:00 PM",
+      "startDate": "01 January 1970 05:30 AM",
+      "image": "https://www.fancode.com/skillup-uploads/cms-media/Qatar-ExxonMobil-Open,ATP-500-Revised-old-match-card-_1771298305039.jpg",
+      "image_cdn": {
+        "TATAPLAY": "https://images.fancode.com/aig/match/v1/140744_CASACARDS_PARTNER_16_9_1920_1080.png",
+        "APP": "https://www.fancode.com/skillup-uploads/cms-media/Qatar-ExxonMobil-Open,ATP-500-Revised-old-match-card-_1771298305039.jpg",
+        "PLAYBACK": "https://www.fancode.com/skillup-uploads/cms-media/Qatar-ExxonMobil-Open,ATP-500-Revised-old-match-card-_1771298305039.jpg",
+        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/ATP_Tour-&-Team-Logo.png",
+        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Default_Tennis-old.jpg",
+        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/Qatar-ExxonMobil-Open,ATP-500-Revised-old-match-card-_1771298305039.jpg",
+        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/Qatar-ExxonMobil-Open,ATP-500--revised-old-Sporty-_1771298305031.jpg",
+        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/140744_CASACARDS_PARTNER_16_9_1920_1080.png"
+      },
+      "team": [
+        {
+          "name": "Grandstand 1",
+          "shortName": "Grandstand 1",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/lawn-tennis-flags/FC-ATP@2x.png"
+          },
+          "isWinner": null,
+          "color": "#FF0000",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        },
+        {
+          "name": "Doha, Qatar",
+          "shortName": "Doha, Qatar",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/lawn-tennis-flags/FC-LOC@2x.png"
+          },
+          "isWinner": null,
+          "color": "#FF0000",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        }
+      ],
+      "language": "ENGLISH",
+      "STREAMING_CDN": {
+        "Primary_Playback_URL": "https://in-mc-flive.fancode.com/mumbai/140744_english_hls_c20d98980124459_1ta-di_h264/index.m3u8?hdnea=exp=1771409676~acl=/mumbai/140744_english_hls_c20d98980124459_1ta-di_h264/*~id=5c1a2d7b8f02d931_dc1f8441-2f4a-4c~data=5c1a2d7b8f02d931_free_420~hmac=2d77965537fc710660a55b1407a6a8b799c1f7679fbcd0a9e3385127e5eeb6c7&deviceId=5c1a2d7b8f02d931&advertiserId=7e42d87b-45cd-4cf6-b0ae-1fae68d9430&ft_type=c1&cust_params=app_version%3D6.15.0%26app_platform%3Dsportsguruand%26state%3DMaharashtra%26city%3DMumbai%26userId%3D%26match_id%3D140744%26match_format%3DSingles%26tour_id%3D5941%26tour_name%3DATP_500_-_Qatar_ExxonMobil_Open_2026%26sport%3Dlawn-tennis%26authorizationType%3DPAID&state=Maharashtra&city=Mumbai",
+        "fancode_cdn": "https://in-mc-flive.fancode.com/mumbai/140744_english_hls_c20d98980124459_1ta-di_h264/index.m3u8?hdnea=exp=1771409676~acl=/mumbai/140744_english_hls_c20d98980124459_1ta-di_h264/*~id=5c1a2d7b8f02d931_dc1f8441-2f4a-4c~data=5c1a2d7b8f02d931_free_420~hmac=2d77965537fc710660a55b1407a6a8b799c1f7679fbcd0a9e3385127e5eeb6c7&deviceId=5c1a2d7b8f02d931&advertiserId=7e42d87b-45cd-4cf6-b0ae-1fae68d9430&ft_type=c1&cust_params=app_version%3D6.15.0%26app_platform%3Dsportsguruand%26state%3DMaharashtra%26city%3DMumbai%26userId%3D%26match_id%3D140744%26match_format%3DSingles%26tour_id%3D5941%26tour_name%3DATP_500_-_Qatar_ExxonMobil_Open_2026%26sport%3Dlawn-tennis%26authorizationType%3DPAID&state=Maharashtra&city=Mumbai",
+        "fancode_bd_cdn": "https://bd-mc-flive.fancode.com/mumbai/140744_english_hls_c20d98980124459_1ta-di_h264/index.m3u8?hdnea=exp=1771409676~acl=/mumbai/140744_english_hls_c20d98980124459_1ta-di_h264/*~id=5c1a2d7b8f02d931_dc1f8441-2f4a-4c~data=5c1a2d7b8f02d931_free_420~hmac=2d77965537fc710660a55b1407a6a8b799c1f7679fbcd0a9e3385127e5eeb6c7&deviceId=5c1a2d7b8f02d931&advertiserId=7e42d87b-45cd-4cf6-b0ae-1fae68d9430&ft_type=c1&cust_params=app_version%3D6.15.0%26app_platform%3Dsportsguruand%26state%3DMaharashtra%26city%3DMumbai%26userId%3D%26match_id%3D140744%26match_format%3DSingles%26tour_id%3D5941%26tour_name%3DATP_500_-_Qatar_ExxonMobil_Open_2026%26sport%3Dlawn-tennis%26authorizationType%3DPAID&state=Maharashtra&city=Mumbai",
+        "dai_google_cdn": "Unavailable",
+        "cloudfront_cdn": "Unavailable",
+        "sony_cdn": "Unavailable",
+        "language": "ENGLISH"
+      },
+      "auto_streams": [
+        {
+          "auto": "",
+          "cookie_valid": null,
+          "expire_date": null,
+          "language": "ENGLISH"
+        }
+      ]
     },
     {
       "category": "Cricket",
@@ -767,6 +904,103 @@
           "status": {
             "cricket": {
               "isBatting": false
+            }
+          }
+        }
+      ],
+      "language": "BLOODY_SWEET",
+      "STREAMING_CDN": {
+        "language": "BLOODY_SWEET",
+        "Primary_Playback_URL": null
+      },
+      "auto_streams": null
+    },
+    {
+      "category": "Cricket",
+      "title": "Victoria Vs Western Australia",
+      "tournament": "Sheffield Shield, 2025-26",
+      "match_id": 134036,
+      "status": "LIVE",
+      "streamingStatus": "PAUSED",
+      "startTime": "16 February 2026 08:00 AM",
+      "startDate": "19 February 2026 08:00 AM",
+      "image": "https://www.fancode.com/skillup-uploads/cms-media/134036_5609_WAU_VCT_fc-Web.jpg",
+      "image_cdn": {
+        "TATAPLAY": "https://images.fancode.com/aig/match/v1/134036_CASACARDS_PARTNER_16_9_1920_1080.png",
+        "APP": "https://www.fancode.com/skillup-uploads/cms-media/134036_5609_WAU_VCT_fc-Web.jpg",
+        "PLAYBACK": null,
+        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/Sheffield-Shield-Tour-Logo.png",
+        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_cricket-old.jpg",
+        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/134036_5609_WAU_VCT_fc-Web.jpg",
+        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/134036_5609_WAU_VCT_fc-App_1760687268133.jpg",
+        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/134036_CASACARDS_PARTNER_16_9_1920_1080.png"
+      },
+      "team": [
+        {
+          "name": "Victoria",
+          "shortName": "VCT",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-VCT@2x.png"
+          },
+          "isWinner": null,
+          "color": "#00226a",
+          "cricketScore": [
+            {
+              "runs": 431,
+              "overs": "116.5",
+              "balls": "0",
+              "status": "DECLARED",
+              "wickets": 9
+            },
+            {
+              "runs": 274,
+              "overs": "59",
+              "balls": "0",
+              "status": "DECLARED",
+              "wickets": 4
+            }
+          ],
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        },
+        {
+          "name": "Western Australia",
+          "shortName": "WAU",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-WAU@2x.png"
+          },
+          "isWinner": null,
+          "color": "#6fc9ff",
+          "cricketScore": [
+            {
+              "runs": 238,
+              "overs": "80.2",
+              "balls": "0",
+              "status": "COMPLETED",
+              "wickets": 10
+            },
+            {
+              "runs": 26,
+              "overs": "14",
+              "balls": "0",
+              "status": "IN_PROGRESS",
+              "wickets": 2
+            }
+          ],
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": true
             }
           }
         }
@@ -1181,6 +1415,73 @@
       "auto_streams": null
     },
     {
+      "category": "Tennis",
+      "title": "Grandstand 2",
+      "tournament": "ATP 500 - Qatar ExxonMobil Open 2026",
+      "match_id": 140746,
+      "status": "NOT_STARTED",
+      "streamingStatus": "NOT_STARTED",
+      "startTime": "18 February 2026 04:30 PM",
+      "startDate": "01 January 1970 05:30 AM",
+      "image": "https://www.fancode.com/skillup-uploads/cms-media/Qatar-ExxonMobil-Open,ATP-500-Revised-old-match-card-_1771298305039.jpg",
+      "image_cdn": {
+        "TATAPLAY": "https://images.fancode.com/aig/match/v1/140746_CASACARDS_PARTNER_16_9_1920_1080.png",
+        "APP": "https://www.fancode.com/skillup-uploads/cms-media/Qatar-ExxonMobil-Open,ATP-500-Revised-old-match-card-_1771298305039.jpg",
+        "PLAYBACK": null,
+        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/ATP_Tour-&-Team-Logo.png",
+        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Default_Tennis-old.jpg",
+        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/Qatar-ExxonMobil-Open,ATP-500-Revised-old-match-card-_1771298305039.jpg",
+        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/Qatar-ExxonMobil-Open,ATP-500--revised-old-Sporty-_1771298305031.jpg",
+        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/140746_CASACARDS_PARTNER_16_9_1920_1080.png"
+      },
+      "team": [
+        {
+          "name": "Grandstand 2",
+          "shortName": "Grandstand 2",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/lawn-tennis-flags/FC-ATP@2x.png"
+          },
+          "isWinner": null,
+          "color": "#FF0000",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        },
+        {
+          "name": "Doha, Qatar",
+          "shortName": "Doha, Qatar",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/lawn-tennis-flags/FC-LOC@2x.png"
+          },
+          "isWinner": null,
+          "color": "#FF0000",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        }
+      ],
+      "language": "BLOODY_SWEET",
+      "STREAMING_CDN": {
+        "language": "BLOODY_SWEET",
+        "Primary_Playback_URL": null
+      },
+      "auto_streams": null
+    },
+    {
       "category": "Football",
       "title": "O&m Fc Vs Fc Cincinnati",
       "tournament": "CONCACAF Champions Cup 2026",
@@ -1382,34 +1683,34 @@
       "auto_streams": null
     },
     {
-      "category": "Tennis",
-      "title": "World Feed",
-      "tournament": "ATP 500 - Qatar ExxonMobil Open 2026",
-      "match_id": 140210,
+      "category": "Football",
+      "title": "Gamba Osaka Vs Pohang Steelers",
+      "tournament": "AFC Champions League Two 2025-26",
+      "match_id": 140067,
       "status": "NOT_STARTED",
       "streamingStatus": "NOT_STARTED",
-      "startTime": "18 February 2026 04:00 PM",
+      "startTime": "19 February 2026 03:30 PM",
       "startDate": "01 January 1970 05:30 AM",
-      "image": "https://www.fancode.com/skillup-uploads/cms-media/Qatar-ExxonMobil-Open,ATP-500-Revised-old-match-card-_1771298305039.jpg",
+      "image": "https://www.fancode.com/skillup-uploads/cms-media/140067_5648_OSK_PHG_FC-Web.jpg",
       "image_cdn": {
-        "TATAPLAY": "https://images.fancode.com/aig/match/v1/140210_CASACARDS_PARTNER_16_9_1920_1080.png",
-        "APP": "https://www.fancode.com/skillup-uploads/cms-media/Qatar-ExxonMobil-Open,ATP-500-Revised-old-match-card-_1771298305039.jpg",
+        "TATAPLAY": "https://images.fancode.com/aig/match/v1/140067_CASACARDS_PARTNER_16_9_1920_1080.png",
+        "APP": "https://www.fancode.com/skillup-uploads/cms-media/140067_5648_OSK_PHG_FC-Web.jpg",
         "PLAYBACK": null,
-        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/ATP_Tour-&-Team-Logo.png",
-        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Default_Tennis-old.jpg",
-        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/Qatar-ExxonMobil-Open,ATP-500-Revised-old-match-card-_1771298305039.jpg",
-        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/Qatar-ExxonMobil-Open,ATP-500--revised-old-Sporty-_1771298305031.jpg",
-        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/140210_CASACARDS_PARTNER_16_9_1920_1080.png"
+        "LOGO": "https://fancode.com/skillup-uploads/prod-images/2024/09/AFC-Champions-League-Two.png",
+        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Football-old-copy.jpg",
+        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/140067_5648_OSK_PHG_FC-Web.jpg",
+        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/140067_5648_OSK_PHG_FC-App.jpg",
+        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/140067_CASACARDS_PARTNER_16_9_1920_1080.png"
       },
       "team": [
         {
-          "name": "World Feed",
-          "shortName": "World Feed",
+          "name": "Gamba Osaka",
+          "shortName": "OSK",
           "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/lawn-tennis-flags/FC-ATP@2x.png"
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-GOS@2x.png"
           },
           "isWinner": null,
-          "color": "#FF0000",
+          "color": "#003f76",
           "cricketScore": null,
           "kabaddiScore": null,
           "footballScore": null,
@@ -1422,214 +1723,13 @@
           }
         },
         {
-          "name": "Doha, Qatar",
-          "shortName": "Doha, Qatar",
+          "name": "Pohang Steelers",
+          "shortName": "PHG",
           "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/lawn-tennis-flags/FC-LOC@2x.png"
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-POHAN@2x.png"
           },
           "isWinner": null,
-          "color": "#FF0000",
-          "cricketScore": null,
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        }
-      ],
-      "language": "BLOODY_SWEET",
-      "STREAMING_CDN": {
-        "language": "BLOODY_SWEET",
-        "Primary_Playback_URL": null
-      },
-      "auto_streams": null
-    },
-    {
-      "category": "Tennis",
-      "title": "Centre Court",
-      "tournament": "ATP 500 - Qatar ExxonMobil Open 2026",
-      "match_id": 140745,
-      "status": "NOT_STARTED",
-      "streamingStatus": "NOT_STARTED",
-      "startTime": "18 February 2026 04:00 PM",
-      "startDate": "01 January 1970 05:30 AM",
-      "image": "https://www.fancode.com/skillup-uploads/cms-media/Qatar-ExxonMobil-Open,ATP-500-Revised-old-match-card-_1771298305039.jpg",
-      "image_cdn": {
-        "TATAPLAY": "https://images.fancode.com/aig/match/v1/140745_CASACARDS_PARTNER_16_9_1920_1080.png",
-        "APP": "https://www.fancode.com/skillup-uploads/cms-media/Qatar-ExxonMobil-Open,ATP-500-Revised-old-match-card-_1771298305039.jpg",
-        "PLAYBACK": null,
-        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/ATP_Tour-&-Team-Logo.png",
-        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Default_Tennis-old.jpg",
-        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/Qatar-ExxonMobil-Open,ATP-500-Revised-old-match-card-_1771298305039.jpg",
-        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/Qatar-ExxonMobil-Open,ATP-500--revised-old-Sporty-_1771298305031.jpg",
-        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/140745_CASACARDS_PARTNER_16_9_1920_1080.png"
-      },
-      "team": [
-        {
-          "name": "Centre Court",
-          "shortName": "Centre Court",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/lawn-tennis-flags/FC-ATP@2x.png"
-          },
-          "isWinner": null,
-          "color": "#FF0000",
-          "cricketScore": null,
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        },
-        {
-          "name": "Doha, Qatar",
-          "shortName": "Doha, Qatar",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/lawn-tennis-flags/FC-LOC@2x.png"
-          },
-          "isWinner": null,
-          "color": "#FF0000",
-          "cricketScore": null,
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        }
-      ],
-      "language": "BLOODY_SWEET",
-      "STREAMING_CDN": {
-        "language": "BLOODY_SWEET",
-        "Primary_Playback_URL": null
-      },
-      "auto_streams": null
-    },
-    {
-      "category": "Tennis",
-      "title": "Grandstand 1",
-      "tournament": "ATP 500 - Qatar ExxonMobil Open 2026",
-      "match_id": 140744,
-      "status": "NOT_STARTED",
-      "streamingStatus": "NOT_STARTED",
-      "startTime": "18 February 2026 04:00 PM",
-      "startDate": "01 January 1970 05:30 AM",
-      "image": "https://www.fancode.com/skillup-uploads/cms-media/Qatar-ExxonMobil-Open,ATP-500-Revised-old-match-card-_1771298305039.jpg",
-      "image_cdn": {
-        "TATAPLAY": "https://images.fancode.com/aig/match/v1/140744_CASACARDS_PARTNER_16_9_1920_1080.png",
-        "APP": "https://www.fancode.com/skillup-uploads/cms-media/Qatar-ExxonMobil-Open,ATP-500-Revised-old-match-card-_1771298305039.jpg",
-        "PLAYBACK": null,
-        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/ATP_Tour-&-Team-Logo.png",
-        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Default_Tennis-old.jpg",
-        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/Qatar-ExxonMobil-Open,ATP-500-Revised-old-match-card-_1771298305039.jpg",
-        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/Qatar-ExxonMobil-Open,ATP-500--revised-old-Sporty-_1771298305031.jpg",
-        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/140744_CASACARDS_PARTNER_16_9_1920_1080.png"
-      },
-      "team": [
-        {
-          "name": "Grandstand 1",
-          "shortName": "Grandstand 1",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/lawn-tennis-flags/FC-ATP@2x.png"
-          },
-          "isWinner": null,
-          "color": "#FF0000",
-          "cricketScore": null,
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        },
-        {
-          "name": "Doha, Qatar",
-          "shortName": "Doha, Qatar",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/lawn-tennis-flags/FC-LOC@2x.png"
-          },
-          "isWinner": null,
-          "color": "#FF0000",
-          "cricketScore": null,
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        }
-      ],
-      "language": "BLOODY_SWEET",
-      "STREAMING_CDN": {
-        "language": "BLOODY_SWEET",
-        "Primary_Playback_URL": null
-      },
-      "auto_streams": null
-    },
-    {
-      "category": "Tennis",
-      "title": "Grandstand 2",
-      "tournament": "ATP 500 - Qatar ExxonMobil Open 2026",
-      "match_id": 140746,
-      "status": "NOT_STARTED",
-      "streamingStatus": "NOT_STARTED",
-      "startTime": "18 February 2026 04:30 PM",
-      "startDate": "01 January 1970 05:30 AM",
-      "image": "https://www.fancode.com/skillup-uploads/cms-media/Qatar-ExxonMobil-Open,ATP-500-Revised-old-match-card-_1771298305039.jpg",
-      "image_cdn": {
-        "TATAPLAY": "https://images.fancode.com/aig/match/v1/140746_CASACARDS_PARTNER_16_9_1920_1080.png",
-        "APP": "https://www.fancode.com/skillup-uploads/cms-media/Qatar-ExxonMobil-Open,ATP-500-Revised-old-match-card-_1771298305039.jpg",
-        "PLAYBACK": null,
-        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/ATP_Tour-&-Team-Logo.png",
-        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Default_Tennis-old.jpg",
-        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/Qatar-ExxonMobil-Open,ATP-500-Revised-old-match-card-_1771298305039.jpg",
-        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/Qatar-ExxonMobil-Open,ATP-500--revised-old-Sporty-_1771298305031.jpg",
-        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/140746_CASACARDS_PARTNER_16_9_1920_1080.png"
-      },
-      "team": [
-        {
-          "name": "Grandstand 2",
-          "shortName": "Grandstand 2",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/lawn-tennis-flags/FC-ATP@2x.png"
-          },
-          "isWinner": null,
-          "color": "#FF0000",
-          "cricketScore": null,
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        },
-        {
-          "name": "Doha, Qatar",
-          "shortName": "Doha, Qatar",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/lawn-tennis-flags/FC-LOC@2x.png"
-          },
-          "isWinner": null,
-          "color": "#FF0000",
+          "color": "#d78122",
           "cricketScore": null,
           "kabaddiScore": null,
           "footballScore": null,
@@ -1697,73 +1797,6 @@
           },
           "isWinner": null,
           "color": "#FF0000",
-          "cricketScore": null,
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        }
-      ],
-      "language": "BLOODY_SWEET",
-      "STREAMING_CDN": {
-        "language": "BLOODY_SWEET",
-        "Primary_Playback_URL": null
-      },
-      "auto_streams": null
-    },
-    {
-      "category": "Football",
-      "title": "Gamba Osaka Vs Pohang Steelers",
-      "tournament": "AFC Champions League Two 2025-26",
-      "match_id": 140067,
-      "status": "NOT_STARTED",
-      "streamingStatus": "NOT_STARTED",
-      "startTime": "19 February 2026 03:30 PM",
-      "startDate": "01 January 1970 05:30 AM",
-      "image": "https://www.fancode.com/skillup-uploads/cms-media/140067_5648_OSK_PHG_FC-Web.jpg",
-      "image_cdn": {
-        "TATAPLAY": "https://images.fancode.com/aig/match/v1/140067_CASACARDS_PARTNER_16_9_1920_1080.png",
-        "APP": "https://www.fancode.com/skillup-uploads/cms-media/140067_5648_OSK_PHG_FC-Web.jpg",
-        "PLAYBACK": null,
-        "LOGO": "https://fancode.com/skillup-uploads/prod-images/2024/09/AFC-Champions-League-Two.png",
-        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Football-old-copy.jpg",
-        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/140067_5648_OSK_PHG_FC-Web.jpg",
-        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/140067_5648_OSK_PHG_FC-App.jpg",
-        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/140067_CASACARDS_PARTNER_16_9_1920_1080.png"
-      },
-      "team": [
-        {
-          "name": "Gamba Osaka",
-          "shortName": "OSK",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-GOS@2x.png"
-          },
-          "isWinner": null,
-          "color": "#003f76",
-          "cricketScore": null,
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        },
-        {
-          "name": "Pohang Steelers",
-          "shortName": "PHG",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-POHAN@2x.png"
-          },
-          "isWinner": null,
-          "color": "#d78122",
           "cricketScore": null,
           "kabaddiScore": null,
           "footballScore": null,
