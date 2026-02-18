@@ -1,14 +1,14 @@
 {
   "Author": "DOCTOR_STRANGE",
   "name": "FanCode Live Matches API",
-  "last_updated": "11:02:31 PM 18-02-2026",
+  "last_updated": "11:37:31 PM 18-02-2026",
   "headers": {
     "User-Agent": "ReactNativeVideo/9.3.0 (Linux;Android 13) AndroidXMedia3/1.6.1",
     "Referer": "https://fancode.com/"
   },
   "total_matches": 38,
-  "live_matches": 6,
-  "upcoming_matches": 32,
+  "live_matches": 8,
+  "upcoming_matches": 30,
   "matches": [
     {
       "category": "Cricket",
@@ -94,7 +94,7 @@
       "title": "Real Madrid Women Vs Paris Fc Women",
       "tournament": "UEFA Women's Champions League 2025-26",
       "match_id": 140416,
-      "status": "NOT_STARTED",
+      "status": "LIVE",
       "streamingStatus": "STARTED",
       "startTime": "18 February 2026 11:15 PM",
       "startDate": "01 January 1970 05:30 AM",
@@ -102,7 +102,7 @@
       "image_cdn": {
         "TATAPLAY": "https://images.fancode.com/aig/match/v1/140416_CASACARDS_PARTNER_16_9_1920_1080.png",
         "APP": "https://images.fancode.com/aig/match/v1771397809085/140416_CASACARDS_APP.png",
-        "PLAYBACK": "https://images.fancode.com/aig/match/v1771397809085/140416_CASACARDS_APP.png",
+        "PLAYBACK": "",
         "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/WHL.png",
         "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Football-old-copy.jpg",
         "BG_IMAGE": "https://images.fancode.com/aig/match/v1771397809085/140416_CASACARDS_APP.png",
@@ -120,7 +120,10 @@
           "color": "#ffdf50",
           "cricketScore": null,
           "kabaddiScore": null,
-          "footballScore": null,
+          "footballScore": {
+            "points": 0,
+            "goals": []
+          },
           "basketBallScore": null,
           "hockeyScore": null,
           "status": {
@@ -139,6 +142,88 @@
           "color": "#c2211f",
           "cricketScore": null,
           "kabaddiScore": null,
+          "footballScore": {
+            "points": 0,
+            "goals": []
+          },
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        }
+      ],
+      "language": "ENGLISH",
+      "STREAMING_CDN": {
+        "Primary_Playback_URL": "https://in-mc-plive.fancode.com/mumbai/140416_english_hls_7acd59272850764_1ta-di_h264/index.m3u8",
+        "fancode_cdn": "https://in-mc-plive.fancode.com/mumbai/140416_english_hls_7acd59272850764_1ta-di_h264/index.m3u8",
+        "fancode_bd_cdn": "https://bd-mc-plive.fancode.com/mumbai/140416_english_hls_7acd59272850764_1ta-di_h264/index.m3u8",
+        "dai_google_cdn": "Unavailable",
+        "cloudfront_cdn": "Unavailable",
+        "sony_cdn": "Unavailable",
+        "language": "ENGLISH"
+      },
+      "auto_streams": [
+        {
+          "auto": "#EXTM3U\n#EXT-X-VERSION:3\n#EXT-X-STREAM-INF:BANDWIDTH=446936,AVERAGE-BANDWIDTH=446936,CODECS=\"avc1.42e015,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=426x240,FRAME-RATE=25.000\nhttps://in-mc-plive.fancode.com/mumbai/140416_english_hls_7acd59272850764_1ta-di_h264/240p.m3u8?hdntl=Expires=1771522658~_GO=Generated~acl=/mumbai/140416_english_hls_7acd59272850764_1ta-di_h264/*~Signature=ATihZv70FO_NZWWbYDQSU1yaDEf68kb0XqY9L_lJpmdkNiS-UKSRsDWuXmA2P0H47sNmcSQ16rmaHSP_y8haw5ii3WgO\n#EXT-X-STREAM-INF:BANDWIDTH=702376,AVERAGE-BANDWIDTH=702376,CODECS=\"avc1.42e01e,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=640x360,FRAME-RATE=25.000\nhttps://in-mc-plive.fancode.com/mumbai/140416_english_hls_7acd59272850764_1ta-di_h264/360p.m3u8?hdntl=Expires=1771522658~_GO=Generated~acl=/mumbai/140416_english_hls_7acd59272850764_1ta-di_h264/*~Signature=ATihZv70FO_NZWWbYDQSU1yaDEf68kb0XqY9L_lJpmdkNiS-UKSRsDWuXmA2P0H47sNmcSQ16rmaHSP_y8haw5ii3WgO\n#EXT-X-STREAM-INF:BANDWIDTH=1023224,AVERAGE-BANDWIDTH=1023224,CODECS=\"avc1.4d401e,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=854x480,FRAME-RATE=25.000\nhttps://in-mc-plive.fancode.com/mumbai/140416_english_hls_7acd59272850764_1ta-di_h264/480p.m3u8?hdntl=Expires=1771522658~_GO=Generated~acl=/mumbai/140416_english_hls_7acd59272850764_1ta-di_h264/*~Signature=ATihZv70FO_NZWWbYDQSU1yaDEf68kb0XqY9L_lJpmdkNiS-UKSRsDWuXmA2P0H47sNmcSQ16rmaHSP_y8haw5ii3WgO\n#EXT-X-STREAM-INF:BANDWIDTH=1278664,AVERAGE-BANDWIDTH=1278664,CODECS=\"avc1.4d401f,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=960x540,FRAME-RATE=25.000\nhttps://in-mc-plive.fancode.com/mumbai/140416_english_hls_7acd59272850764_1ta-di_h264/540p.m3u8?hdntl=Expires=1771522658~_GO=Generated~acl=/mumbai/140416_english_hls_7acd59272850764_1ta-di_h264/*~Signature=ATihZv70FO_NZWWbYDQSU1yaDEf68kb0XqY9L_lJpmdkNiS-UKSRsDWuXmA2P0H47sNmcSQ16rmaHSP_y8haw5ii3WgO\n#EXT-X-STREAM-INF:BANDWIDTH=1789512,AVERAGE-BANDWIDTH=1789512,CODECS=\"avc1.64001f,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1280x720,FRAME-RATE=25.000\nhttps://in-mc-plive.fancode.com/mumbai/140416_english_hls_7acd59272850764_1ta-di_h264/720p.m3u8?hdntl=Expires=1771522658~_GO=Generated~acl=/mumbai/140416_english_hls_7acd59272850764_1ta-di_h264/*~Signature=ATihZv70FO_NZWWbYDQSU1yaDEf68kb0XqY9L_lJpmdkNiS-UKSRsDWuXmA2P0H47sNmcSQ16rmaHSP_y8haw5ii3WgO\n#EXT-X-STREAM-INF:BANDWIDTH=3322120,AVERAGE-BANDWIDTH=3322120,CODECS=\"avc1.640028,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1920x1080,FRAME-RATE=25.000\nhttps://in-mc-plive.fancode.com/mumbai/140416_english_hls_7acd59272850764_1ta-di_h264/1080p.m3u8?hdntl=Expires=1771522658~_GO=Generated~acl=/mumbai/140416_english_hls_7acd59272850764_1ta-di_h264/*~Signature=ATihZv70FO_NZWWbYDQSU1yaDEf68kb0XqY9L_lJpmdkNiS-UKSRsDWuXmA2P0H47sNmcSQ16rmaHSP_y8haw5ii3WgO\n#EXT-X-STREAM-INF:BANDWIDTH=5408736,AVERAGE-BANDWIDTH=5408736,CODECS=\"avc1.64002a,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1920x1080,FRAME-RATE=50.000\nhttps://in-mc-plive.fancode.com/mumbai/140416_english_hls_7acd59272850764_1ta-di_h264/1080p5.m3u8?hdntl=Expires=1771522658~_GO=Generated~acl=/mumbai/140416_english_hls_7acd59272850764_1ta-di_h264/*~Signature=ATihZv70FO_NZWWbYDQSU1yaDEf68kb0XqY9L_lJpmdkNiS-UKSRsDWuXmA2P0H47sNmcSQ16rmaHSP_y8haw5ii3WgO",
+          "cookie_valid": "1771522658",
+          "expire_date": "2026-02-19 23:07:38",
+          "language": "ENGLISH"
+        }
+      ]
+    },
+    {
+      "category": "Football",
+      "title": "Al Nassr Fc Vs Fc Arkadag",
+      "tournament": "AFC Champions League Two 2025-26",
+      "match_id": 140065,
+      "status": "NOT_STARTED",
+      "streamingStatus": "STARTED",
+      "startTime": "18 February 2026 11:45 PM",
+      "startDate": "01 January 1970 05:30 AM",
+      "image": "https://www.fancode.com/skillup-uploads/cms-media/AFC--AL-Nassr-v-FK-Arkadag--old-match-card.jpg",
+      "image_cdn": {
+        "TATAPLAY": "https://images.fancode.com/aig/match/v1/140065_CASACARDS_PARTNER_16_9_1920_1080.png",
+        "APP": "https://www.fancode.com/skillup-uploads/cms-media/AFC--AL-Nassr-v-FK-Arkadag--old-match-card.jpg",
+        "PLAYBACK": "https://www.fancode.com/skillup-uploads/cms-media/AFC--AL-Nassr-v-FK-Arkadag--old-match-card.jpg",
+        "LOGO": "https://fancode.com/skillup-uploads/prod-images/2024/09/AFC-Champions-League-Two.png",
+        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Football-old-copy.jpg",
+        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/AFC--AL-Nassr-v-FK-Arkadag--old-match-card.jpg",
+        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/AFC--AL-Nassr-v-FK-Arkadag--Sporty.jpg",
+        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/140065_CASACARDS_PARTNER_16_9_1920_1080.png"
+      },
+      "team": [
+        {
+          "name": "Al-Nassr FC",
+          "shortName": "ANF",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-ANF@2x.png"
+          },
+          "isWinner": null,
+          "color": "#b6b64a",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        },
+        {
+          "name": "FC Arkadag",
+          "shortName": "ARK",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-ARK@2x.png"
+          },
+          "isWinner": null,
+          "color": "#10506F",
+          "cricketScore": null,
+          "kabaddiScore": null,
           "footballScore": null,
           "basketBallScore": null,
           "hockeyScore": null,
@@ -151,9 +236,9 @@
       ],
       "language": "ENGLISH",
       "STREAMING_CDN": {
-        "Primary_Playback_URL": "https://in-mc-flive.fancode.com/mumbai/140416_english_hls_7acd59272850764_1ta-di_h264/index.m3u8",
-        "fancode_cdn": "https://in-mc-flive.fancode.com/mumbai/140416_english_hls_7acd59272850764_1ta-di_h264/index.m3u8",
-        "fancode_bd_cdn": "https://bd-mc-flive.fancode.com/mumbai/140416_english_hls_7acd59272850764_1ta-di_h264/index.m3u8",
+        "Primary_Playback_URL": "https://in-mc-flive.fancode.com/mumbai/140065_english_hls_798f69479098734_1ta-di_h264/index.m3u8",
+        "fancode_cdn": "https://in-mc-flive.fancode.com/mumbai/140065_english_hls_798f69479098734_1ta-di_h264/index.m3u8",
+        "fancode_bd_cdn": "https://bd-mc-flive.fancode.com/mumbai/140065_english_hls_798f69479098734_1ta-di_h264/index.m3u8",
         "dai_google_cdn": "Unavailable",
         "cloudfront_cdn": "Unavailable",
         "sony_cdn": "Unavailable",
@@ -161,9 +246,88 @@
       },
       "auto_streams": [
         {
-          "auto": "#EXTM3U\n#EXT-X-VERSION:3\n#EXT-X-STREAM-INF:BANDWIDTH=446936,AVERAGE-BANDWIDTH=446936,CODECS=\"avc1.42e015,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=426x240,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/140416_english_hls_7acd59272850764_1ta-di_h264/240p.m3u8?hdntl=Expires=1771435985~_GO=Generated~acl=/mumbai/140416_english_hls_7acd59272850764_1ta-di_h264/*~Signature=ATihZv4RsqfIa22lZ580qmkLnRFode0t8uasXHUaZO_CKf82wo9ILjKHiKOmt2mcjP64GUnZUpzCmrTjhcbTiGiHS0gG\n#EXT-X-STREAM-INF:BANDWIDTH=702376,AVERAGE-BANDWIDTH=702376,CODECS=\"avc1.42e01e,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=640x360,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/140416_english_hls_7acd59272850764_1ta-di_h264/360p.m3u8?hdntl=Expires=1771435985~_GO=Generated~acl=/mumbai/140416_english_hls_7acd59272850764_1ta-di_h264/*~Signature=ATihZv4RsqfIa22lZ580qmkLnRFode0t8uasXHUaZO_CKf82wo9ILjKHiKOmt2mcjP64GUnZUpzCmrTjhcbTiGiHS0gG\n#EXT-X-STREAM-INF:BANDWIDTH=1023224,AVERAGE-BANDWIDTH=1023224,CODECS=\"avc1.4d401e,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=854x480,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/140416_english_hls_7acd59272850764_1ta-di_h264/480p.m3u8?hdntl=Expires=1771435985~_GO=Generated~acl=/mumbai/140416_english_hls_7acd59272850764_1ta-di_h264/*~Signature=ATihZv4RsqfIa22lZ580qmkLnRFode0t8uasXHUaZO_CKf82wo9ILjKHiKOmt2mcjP64GUnZUpzCmrTjhcbTiGiHS0gG\n#EXT-X-STREAM-INF:BANDWIDTH=1278664,AVERAGE-BANDWIDTH=1278664,CODECS=\"avc1.4d401f,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=960x540,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/140416_english_hls_7acd59272850764_1ta-di_h264/540p.m3u8?hdntl=Expires=1771435985~_GO=Generated~acl=/mumbai/140416_english_hls_7acd59272850764_1ta-di_h264/*~Signature=ATihZv4RsqfIa22lZ580qmkLnRFode0t8uasXHUaZO_CKf82wo9ILjKHiKOmt2mcjP64GUnZUpzCmrTjhcbTiGiHS0gG\n#EXT-X-STREAM-INF:BANDWIDTH=1789512,AVERAGE-BANDWIDTH=1789512,CODECS=\"avc1.64001f,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1280x720,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/140416_english_hls_7acd59272850764_1ta-di_h264/720p.m3u8?hdntl=Expires=1771435985~_GO=Generated~acl=/mumbai/140416_english_hls_7acd59272850764_1ta-di_h264/*~Signature=ATihZv4RsqfIa22lZ580qmkLnRFode0t8uasXHUaZO_CKf82wo9ILjKHiKOmt2mcjP64GUnZUpzCmrTjhcbTiGiHS0gG\n#EXT-X-STREAM-INF:BANDWIDTH=3322120,AVERAGE-BANDWIDTH=3322120,CODECS=\"avc1.640028,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1920x1080,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/140416_english_hls_7acd59272850764_1ta-di_h264/1080p.m3u8?hdntl=Expires=1771435985~_GO=Generated~acl=/mumbai/140416_english_hls_7acd59272850764_1ta-di_h264/*~Signature=ATihZv4RsqfIa22lZ580qmkLnRFode0t8uasXHUaZO_CKf82wo9ILjKHiKOmt2mcjP64GUnZUpzCmrTjhcbTiGiHS0gG\n#EXT-X-STREAM-INF:BANDWIDTH=5408736,AVERAGE-BANDWIDTH=5408736,CODECS=\"avc1.64002a,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1920x1080,FRAME-RATE=50.000\nhttps://in-mc-flive.fancode.com/mumbai/140416_english_hls_7acd59272850764_1ta-di_h264/1080p5.m3u8?hdntl=Expires=1771435985~_GO=Generated~acl=/mumbai/140416_english_hls_7acd59272850764_1ta-di_h264/*~Signature=ATihZv4RsqfIa22lZ580qmkLnRFode0t8uasXHUaZO_CKf82wo9ILjKHiKOmt2mcjP64GUnZUpzCmrTjhcbTiGiHS0gG",
-          "cookie_valid": "1771435985",
-          "expire_date": "2026-02-18 23:03:05",
+          "auto": "#EXTM3U\n#EXT-X-VERSION:3\n#EXT-X-STREAM-INF:BANDWIDTH=446936,AVERAGE-BANDWIDTH=446936,CODECS=\"avc1.42e015,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=426x240,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/140065_english_hls_798f69479098734_1ta-di_h264/240p.m3u8?hdntl=Expires=1771524154~_GO=Generated~acl=/mumbai/140065_english_hls_798f69479098734_1ta-di_h264/*~Signature=ATihZv7d3YghvDc9-Ld_4hVTmi2MX6RPQBoQ0a2HtMuQ-y1oAxzHLFjlZVVsdy1eufTwMOhmTsi5bd1j3VobQ_Qxx5kN\n#EXT-X-STREAM-INF:BANDWIDTH=702376,AVERAGE-BANDWIDTH=702376,CODECS=\"avc1.42e01e,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=640x360,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/140065_english_hls_798f69479098734_1ta-di_h264/360p.m3u8?hdntl=Expires=1771524154~_GO=Generated~acl=/mumbai/140065_english_hls_798f69479098734_1ta-di_h264/*~Signature=ATihZv7d3YghvDc9-Ld_4hVTmi2MX6RPQBoQ0a2HtMuQ-y1oAxzHLFjlZVVsdy1eufTwMOhmTsi5bd1j3VobQ_Qxx5kN\n#EXT-X-STREAM-INF:BANDWIDTH=1023224,AVERAGE-BANDWIDTH=1023224,CODECS=\"avc1.4d401e,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=854x480,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/140065_english_hls_798f69479098734_1ta-di_h264/480p.m3u8?hdntl=Expires=1771524154~_GO=Generated~acl=/mumbai/140065_english_hls_798f69479098734_1ta-di_h264/*~Signature=ATihZv7d3YghvDc9-Ld_4hVTmi2MX6RPQBoQ0a2HtMuQ-y1oAxzHLFjlZVVsdy1eufTwMOhmTsi5bd1j3VobQ_Qxx5kN\n#EXT-X-STREAM-INF:BANDWIDTH=1278664,AVERAGE-BANDWIDTH=1278664,CODECS=\"avc1.4d401f,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=960x540,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/140065_english_hls_798f69479098734_1ta-di_h264/540p.m3u8?hdntl=Expires=1771524154~_GO=Generated~acl=/mumbai/140065_english_hls_798f69479098734_1ta-di_h264/*~Signature=ATihZv7d3YghvDc9-Ld_4hVTmi2MX6RPQBoQ0a2HtMuQ-y1oAxzHLFjlZVVsdy1eufTwMOhmTsi5bd1j3VobQ_Qxx5kN\n#EXT-X-STREAM-INF:BANDWIDTH=1789512,AVERAGE-BANDWIDTH=1789512,CODECS=\"avc1.64001f,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1280x720,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/140065_english_hls_798f69479098734_1ta-di_h264/720p.m3u8?hdntl=Expires=1771524154~_GO=Generated~acl=/mumbai/140065_english_hls_798f69479098734_1ta-di_h264/*~Signature=ATihZv7d3YghvDc9-Ld_4hVTmi2MX6RPQBoQ0a2HtMuQ-y1oAxzHLFjlZVVsdy1eufTwMOhmTsi5bd1j3VobQ_Qxx5kN\n#EXT-X-STREAM-INF:BANDWIDTH=3322120,AVERAGE-BANDWIDTH=3322120,CODECS=\"avc1.640028,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1920x1080,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/140065_english_hls_798f69479098734_1ta-di_h264/1080p.m3u8?hdntl=Expires=1771524154~_GO=Generated~acl=/mumbai/140065_english_hls_798f69479098734_1ta-di_h264/*~Signature=ATihZv7d3YghvDc9-Ld_4hVTmi2MX6RPQBoQ0a2HtMuQ-y1oAxzHLFjlZVVsdy1eufTwMOhmTsi5bd1j3VobQ_Qxx5kN",
+          "cookie_valid": "1771524154",
+          "expire_date": "2026-02-19 23:32:34",
+          "language": "ENGLISH"
+        }
+      ]
+    },
+    {
+      "category": "Football",
+      "title": "Al Ahli (qat) Vs Sepahan",
+      "tournament": "AFC Champions League Two 2025-26",
+      "match_id": 140064,
+      "status": "NOT_STARTED",
+      "streamingStatus": "STARTED",
+      "startTime": "18 February 2026 11:45 PM",
+      "startDate": "01 January 1970 05:30 AM",
+      "image": "https://www.fancode.com/skillup-uploads/cms-media/140064_5648_ASC_SEP_FC-Web.jpg",
+      "image_cdn": {
+        "TATAPLAY": "https://images.fancode.com/aig/match/v1/140064_CASACARDS_PARTNER_16_9_1920_1080.png",
+        "APP": "https://www.fancode.com/skillup-uploads/cms-media/140064_5648_ASC_SEP_FC-Web.jpg",
+        "PLAYBACK": "https://www.fancode.com/skillup-uploads/cms-media/140064_5648_ASC_SEP_FC-Web.jpg",
+        "LOGO": "https://fancode.com/skillup-uploads/prod-images/2024/09/AFC-Champions-League-Two.png",
+        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Football-old-copy.jpg",
+        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/140064_5648_ASC_SEP_FC-Web.jpg",
+        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/140064_5648_ASC_SEP_FC-App.jpg",
+        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/140064_CASACARDS_PARTNER_16_9_1920_1080.png"
+      },
+      "team": [
+        {
+          "name": "Al Ahli (QAT)",
+          "shortName": "ASC",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-AHI@2x.png"
+          },
+          "isWinner": null,
+          "color": "#08a439",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        },
+        {
+          "name": "Sepahan",
+          "shortName": "SEP",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-SEPAH@2x.png"
+          },
+          "isWinner": null,
+          "color": "#c0a32f",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        }
+      ],
+      "language": "ENGLISH",
+      "STREAMING_CDN": {
+        "Primary_Playback_URL": "https://in-mc-flive.fancode.com/mumbai/140064_english_hls_b45cecf3f649700_1ta-di_h264/index.m3u8",
+        "fancode_cdn": "https://in-mc-flive.fancode.com/mumbai/140064_english_hls_b45cecf3f649700_1ta-di_h264/index.m3u8",
+        "fancode_bd_cdn": "https://bd-mc-flive.fancode.com/mumbai/140064_english_hls_b45cecf3f649700_1ta-di_h264/index.m3u8",
+        "dai_google_cdn": "Unavailable",
+        "cloudfront_cdn": "Unavailable",
+        "sony_cdn": "Unavailable",
+        "language": "ENGLISH"
+      },
+      "auto_streams": [
+        {
+          "auto": "#EXTM3U\n#EXT-X-VERSION:3\n#EXT-X-STREAM-INF:BANDWIDTH=446936,AVERAGE-BANDWIDTH=446936,CODECS=\"avc1.42e015,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=426x240,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/140064_english_hls_b45cecf3f649700_1ta-di_h264/240p.m3u8?hdntl=Expires=1771524156~_GO=Generated~acl=/mumbai/140064_english_hls_b45cecf3f649700_1ta-di_h264/*~Signature=ATihZv7-6L1zAE5HUrhic0XTtoy2VsCj6gdSLqkLzPXJ1-gZ6KTe675EVFL6OrWrLOqRf04ztFcv9aep122xm93epLoH\n#EXT-X-STREAM-INF:BANDWIDTH=702376,AVERAGE-BANDWIDTH=702376,CODECS=\"avc1.42e01e,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=640x360,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/140064_english_hls_b45cecf3f649700_1ta-di_h264/360p.m3u8?hdntl=Expires=1771524156~_GO=Generated~acl=/mumbai/140064_english_hls_b45cecf3f649700_1ta-di_h264/*~Signature=ATihZv7-6L1zAE5HUrhic0XTtoy2VsCj6gdSLqkLzPXJ1-gZ6KTe675EVFL6OrWrLOqRf04ztFcv9aep122xm93epLoH\n#EXT-X-STREAM-INF:BANDWIDTH=1023224,AVERAGE-BANDWIDTH=1023224,CODECS=\"avc1.4d401e,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=854x480,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/140064_english_hls_b45cecf3f649700_1ta-di_h264/480p.m3u8?hdntl=Expires=1771524156~_GO=Generated~acl=/mumbai/140064_english_hls_b45cecf3f649700_1ta-di_h264/*~Signature=ATihZv7-6L1zAE5HUrhic0XTtoy2VsCj6gdSLqkLzPXJ1-gZ6KTe675EVFL6OrWrLOqRf04ztFcv9aep122xm93epLoH\n#EXT-X-STREAM-INF:BANDWIDTH=1278664,AVERAGE-BANDWIDTH=1278664,CODECS=\"avc1.4d401f,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=960x540,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/140064_english_hls_b45cecf3f649700_1ta-di_h264/540p.m3u8?hdntl=Expires=1771524156~_GO=Generated~acl=/mumbai/140064_english_hls_b45cecf3f649700_1ta-di_h264/*~Signature=ATihZv7-6L1zAE5HUrhic0XTtoy2VsCj6gdSLqkLzPXJ1-gZ6KTe675EVFL6OrWrLOqRf04ztFcv9aep122xm93epLoH\n#EXT-X-STREAM-INF:BANDWIDTH=1789512,AVERAGE-BANDWIDTH=1789512,CODECS=\"avc1.64001f,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1280x720,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/140064_english_hls_b45cecf3f649700_1ta-di_h264/720p.m3u8?hdntl=Expires=1771524156~_GO=Generated~acl=/mumbai/140064_english_hls_b45cecf3f649700_1ta-di_h264/*~Signature=ATihZv7-6L1zAE5HUrhic0XTtoy2VsCj6gdSLqkLzPXJ1-gZ6KTe675EVFL6OrWrLOqRf04ztFcv9aep122xm93epLoH\n#EXT-X-STREAM-INF:BANDWIDTH=3322120,AVERAGE-BANDWIDTH=3322120,CODECS=\"avc1.640028,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1920x1080,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/140064_english_hls_b45cecf3f649700_1ta-di_h264/1080p.m3u8?hdntl=Expires=1771524156~_GO=Generated~acl=/mumbai/140064_english_hls_b45cecf3f649700_1ta-di_h264/*~Signature=ATihZv7-6L1zAE5HUrhic0XTtoy2VsCj6gdSLqkLzPXJ1-gZ6KTe675EVFL6OrWrLOqRf04ztFcv9aep122xm93epLoH",
+          "cookie_valid": "1771524156",
+          "expire_date": "2026-02-19 23:32:36",
           "language": "ENGLISH"
         }
       ]
@@ -483,140 +647,6 @@
           "language": "ENGLISH"
         }
       ]
-    },
-    {
-      "category": "Football",
-      "title": "Al Nassr Fc Vs Fc Arkadag",
-      "tournament": "AFC Champions League Two 2025-26",
-      "match_id": 140065,
-      "status": "NOT_STARTED",
-      "streamingStatus": "NOT_STARTED",
-      "startTime": "18 February 2026 11:45 PM",
-      "startDate": "01 January 1970 05:30 AM",
-      "image": "https://www.fancode.com/skillup-uploads/cms-media/AFC--AL-Nassr-v-FK-Arkadag--old-match-card.jpg",
-      "image_cdn": {
-        "TATAPLAY": "https://images.fancode.com/aig/match/v1/140065_CASACARDS_PARTNER_16_9_1920_1080.png",
-        "APP": "https://www.fancode.com/skillup-uploads/cms-media/AFC--AL-Nassr-v-FK-Arkadag--old-match-card.jpg",
-        "PLAYBACK": null,
-        "LOGO": "https://fancode.com/skillup-uploads/prod-images/2024/09/AFC-Champions-League-Two.png",
-        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Football-old-copy.jpg",
-        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/AFC--AL-Nassr-v-FK-Arkadag--old-match-card.jpg",
-        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/AFC--AL-Nassr-v-FK-Arkadag--Sporty.jpg",
-        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/140065_CASACARDS_PARTNER_16_9_1920_1080.png"
-      },
-      "team": [
-        {
-          "name": "Al-Nassr FC",
-          "shortName": "ANF",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-ANF@2x.png"
-          },
-          "isWinner": null,
-          "color": "#b6b64a",
-          "cricketScore": null,
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        },
-        {
-          "name": "FC Arkadag",
-          "shortName": "ARK",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-ARK@2x.png"
-          },
-          "isWinner": null,
-          "color": "#10506F",
-          "cricketScore": null,
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        }
-      ],
-      "language": "BLOODY_SWEET",
-      "STREAMING_CDN": {
-        "language": "BLOODY_SWEET",
-        "Primary_Playback_URL": null
-      },
-      "auto_streams": null
-    },
-    {
-      "category": "Football",
-      "title": "Al Ahli (qat) Vs Sepahan",
-      "tournament": "AFC Champions League Two 2025-26",
-      "match_id": 140064,
-      "status": "NOT_STARTED",
-      "streamingStatus": "NOT_STARTED",
-      "startTime": "18 February 2026 11:45 PM",
-      "startDate": "01 January 1970 05:30 AM",
-      "image": "https://www.fancode.com/skillup-uploads/cms-media/140064_5648_ASC_SEP_FC-Web.jpg",
-      "image_cdn": {
-        "TATAPLAY": "https://images.fancode.com/aig/match/v1/140064_CASACARDS_PARTNER_16_9_1920_1080.png",
-        "APP": "https://www.fancode.com/skillup-uploads/cms-media/140064_5648_ASC_SEP_FC-Web.jpg",
-        "PLAYBACK": null,
-        "LOGO": "https://fancode.com/skillup-uploads/prod-images/2024/09/AFC-Champions-League-Two.png",
-        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Football-old-copy.jpg",
-        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/140064_5648_ASC_SEP_FC-Web.jpg",
-        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/140064_5648_ASC_SEP_FC-App.jpg",
-        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/140064_CASACARDS_PARTNER_16_9_1920_1080.png"
-      },
-      "team": [
-        {
-          "name": "Al Ahli (QAT)",
-          "shortName": "ASC",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-AHI@2x.png"
-          },
-          "isWinner": null,
-          "color": "#08a439",
-          "cricketScore": null,
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        },
-        {
-          "name": "Sepahan",
-          "shortName": "SEP",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-SEPAH@2x.png"
-          },
-          "isWinner": null,
-          "color": "#c0a32f",
-          "cricketScore": null,
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        }
-      ],
-      "language": "BLOODY_SWEET",
-      "STREAMING_CDN": {
-        "language": "BLOODY_SWEET",
-        "Primary_Playback_URL": null
-      },
-      "auto_streams": null
     },
     {
       "category": "Football",
