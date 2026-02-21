@@ -1,7 +1,7 @@
 {
   "Author": "DOCTOR_STRANGE",
   "name": "FanCode Live Matches API",
-  "last_updated": "10:21:10 AM 21-02-2026",
+  "last_updated": "10:28:07 AM 21-02-2026",
   "headers": {
     "User-Agent": "ReactNativeVideo/9.3.0 (Linux;Android 13) AndroidXMedia3/1.6.1",
     "Referer": "https://fancode.com/"
@@ -68,9 +68,9 @@
           "color": "#007e1e",
           "cricketScore": [
             {
-              "runs": 148,
-              "overs": "30",
-              "balls": "180",
+              "runs": 155,
+              "overs": "32",
+              "balls": "192",
               "status": "IN_PROGRESS",
               "wickets": 5
             }
@@ -163,9 +163,9 @@
           "color": "#c50008",
           "cricketScore": [
             {
-              "runs": 54,
-              "overs": "9",
-              "balls": "54",
+              "runs": 58,
+              "overs": "10",
+              "balls": "60",
               "status": "IN_PROGRESS",
               "wickets": 1
             }
@@ -231,9 +231,9 @@
           "color": "#007e1e",
           "cricketScore": [
             {
-              "runs": 138,
-              "overs": "26",
-              "balls": "156",
+              "runs": 147,
+              "overs": "28",
+              "balls": "168",
               "status": "IN_PROGRESS",
               "wickets": 4
             }
@@ -321,7 +321,11 @@
           "footballScore": null,
           "basketBallScore": null,
           "hockeyScore": null,
-          "status": null
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
         },
         {
           "name": "Auckland",
@@ -336,7 +340,11 @@
           "footballScore": null,
           "basketBallScore": null,
           "hockeyScore": null,
-          "status": null
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
         }
       ],
       "language": "ENGLISH",
