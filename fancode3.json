@@ -1,7 +1,7 @@
 {
   "Author": "DOCTOR_STRANGE",
   "name": "FanCode Live Matches API",
-  "last_updated": "03:14:06 AM 25-02-2026",
+  "last_updated": "03:42:06 AM 25-02-2026",
   "headers": {
     "User-Agent": "ReactNativeVideo/9.3.0 (Linux;Android 13) AndroidXMedia3/1.6.1",
     "Referer": "https://fancode.com/"
@@ -11,11 +11,169 @@
   "upcoming_matches": 35,
   "matches": [
     {
+      "category": "Tennis",
+      "title": "Court Jaime Fillol",
+      "tournament": "ATP 250 - BCI Seguros Chile Open 2026",
+      "match_id": 140358,
+      "status": "LIVE",
+      "streamingStatus": "STARTED",
+      "startTime": "24 February 2026 09:30 PM",
+      "startDate": "01 January 1970 05:30 AM",
+      "image": "https://www.fancode.com/skillup-uploads/cms-media/BCI-Seguros-Chile-Open,-Clay,-ATP-250-old-.png",
+      "image_cdn": {
+        "TATAPLAY": "https://images.fancode.com/aig/match/v1/140358_CASACARDS_PARTNER_16_9_1920_1080.png",
+        "APP": "https://www.fancode.com/skillup-uploads/cms-media/BCI-Seguros-Chile-Open,-Clay,-ATP-250-old-.png",
+        "PLAYBACK": "https://www.fancode.com/skillup-uploads/cms-media/BCI-Seguros-Chile-Open,-Clay,-ATP-250-old-.png",
+        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/ATP_Tour-&-Team-Logo.png",
+        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Default_Tennis-old.jpg",
+        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/BCI-Seguros-Chile-Open,-Clay,-ATP-250-old-.png",
+        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/BCI-Seguros-Chile-Open,-Clay,-ATP-250-sporty-.png",
+        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/140358_CASACARDS_PARTNER_16_9_1920_1080.png"
+      },
+      "team": [
+        {
+          "name": "Court Jaime Fillol",
+          "shortName": "Court Jaime Fillol",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/lawn-tennis-flags/FC-ATP@2x.png"
+          },
+          "isWinner": null,
+          "color": "#FF0000",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        },
+        {
+          "name": "Santiago, Chile",
+          "shortName": "Santiago, Chile",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/lawn-tennis-flags/FC-LOC@2x.png"
+          },
+          "isWinner": null,
+          "color": "#FF0000",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        }
+      ],
+      "language": "ENGLISH",
+      "STREAMING_CDN": {
+        "Primary_Playback_URL": "https://in-mc-plive.fancode.com/mumbai/140358_english_hls_a2c84695d834528_1ta-di_h264/index.m3u8",
+        "fancode_cdn": "https://in-mc-plive.fancode.com/mumbai/140358_english_hls_a2c84695d834528_1ta-di_h264/index.m3u8",
+        "fancode_bd_cdn": "https://bd-mc-plive.fancode.com/mumbai/140358_english_hls_a2c84695d834528_1ta-di_h264/index.m3u8",
+        "dai_google_cdn": "Unavailable",
+        "cloudfront_cdn": "Unavailable",
+        "sony_cdn": "Unavailable",
+        "language": "ENGLISH"
+      },
+      "auto_streams": [
+        {
+          "auto": "#EXTM3U\n#EXT-X-VERSION:3\n#EXT-X-STREAM-INF:BANDWIDTH=446936,AVERAGE-BANDWIDTH=446936,CODECS=\"avc1.42e015,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=426x240,FRAME-RATE=25.000\nhttps://in-mc-plive.fancode.com/mumbai/140358_english_hls_a2c84695d834528_1ta-di_h264/240p.m3u8?hdntl=Expires=1772046121~_GO=Generated~acl=/mumbai/140358_english_hls_a2c84695d834528_1ta-di_h264/*~Signature=AScLvDviWrxc2tIlTNsY_ABCnDgiZrRNsL-hVwZp6il69rGBIdKWHiW9mfNKKkKnR5wXrs8AWwhQ0ZlhFJ8KqnQsoEID\n#EXT-X-STREAM-INF:BANDWIDTH=702376,AVERAGE-BANDWIDTH=702376,CODECS=\"avc1.42e01e,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=640x360,FRAME-RATE=25.000\nhttps://in-mc-plive.fancode.com/mumbai/140358_english_hls_a2c84695d834528_1ta-di_h264/360p.m3u8?hdntl=Expires=1772046121~_GO=Generated~acl=/mumbai/140358_english_hls_a2c84695d834528_1ta-di_h264/*~Signature=AScLvDviWrxc2tIlTNsY_ABCnDgiZrRNsL-hVwZp6il69rGBIdKWHiW9mfNKKkKnR5wXrs8AWwhQ0ZlhFJ8KqnQsoEID\n#EXT-X-STREAM-INF:BANDWIDTH=1023224,AVERAGE-BANDWIDTH=1023224,CODECS=\"avc1.4d401e,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=854x480,FRAME-RATE=25.000\nhttps://in-mc-plive.fancode.com/mumbai/140358_english_hls_a2c84695d834528_1ta-di_h264/480p.m3u8?hdntl=Expires=1772046121~_GO=Generated~acl=/mumbai/140358_english_hls_a2c84695d834528_1ta-di_h264/*~Signature=AScLvDviWrxc2tIlTNsY_ABCnDgiZrRNsL-hVwZp6il69rGBIdKWHiW9mfNKKkKnR5wXrs8AWwhQ0ZlhFJ8KqnQsoEID\n#EXT-X-STREAM-INF:BANDWIDTH=1278664,AVERAGE-BANDWIDTH=1278664,CODECS=\"avc1.4d401f,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=960x540,FRAME-RATE=25.000\nhttps://in-mc-plive.fancode.com/mumbai/140358_english_hls_a2c84695d834528_1ta-di_h264/540p.m3u8?hdntl=Expires=1772046121~_GO=Generated~acl=/mumbai/140358_english_hls_a2c84695d834528_1ta-di_h264/*~Signature=AScLvDviWrxc2tIlTNsY_ABCnDgiZrRNsL-hVwZp6il69rGBIdKWHiW9mfNKKkKnR5wXrs8AWwhQ0ZlhFJ8KqnQsoEID\n#EXT-X-STREAM-INF:BANDWIDTH=1789512,AVERAGE-BANDWIDTH=1789512,CODECS=\"avc1.64001f,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1280x720,FRAME-RATE=25.000\nhttps://in-mc-plive.fancode.com/mumbai/140358_english_hls_a2c84695d834528_1ta-di_h264/720p.m3u8?hdntl=Expires=1772046121~_GO=Generated~acl=/mumbai/140358_english_hls_a2c84695d834528_1ta-di_h264/*~Signature=AScLvDviWrxc2tIlTNsY_ABCnDgiZrRNsL-hVwZp6il69rGBIdKWHiW9mfNKKkKnR5wXrs8AWwhQ0ZlhFJ8KqnQsoEID\n#EXT-X-STREAM-INF:BANDWIDTH=3322120,AVERAGE-BANDWIDTH=3322120,CODECS=\"avc1.640028,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1920x1080,FRAME-RATE=25.000\nhttps://in-mc-plive.fancode.com/mumbai/140358_english_hls_a2c84695d834528_1ta-di_h264/1080p.m3u8?hdntl=Expires=1772046121~_GO=Generated~acl=/mumbai/140358_english_hls_a2c84695d834528_1ta-di_h264/*~Signature=AScLvDviWrxc2tIlTNsY_ABCnDgiZrRNsL-hVwZp6il69rGBIdKWHiW9mfNKKkKnR5wXrs8AWwhQ0ZlhFJ8KqnQsoEID",
+          "cookie_valid": "1772046121",
+          "expire_date": "Thursday, February 26, 2026, 12:32:01 AM",
+          "language": "ENGLISH"
+        }
+      ]
+    },
+    {
+      "category": "Golf",
+      "title": "New York Vs The Bay",
+      "tournament": "TGL Season 2",
+      "match_id": 139173,
+      "status": "LIVE",
+      "streamingStatus": "STARTED",
+      "startTime": "25 February 2026 03:30 AM",
+      "startDate": "01 January 1970 05:30 AM",
+      "image": "https://www.fancode.com/skillup-uploads/cms-media/TGL_Mini-Match-Card-(1080x810).png",
+      "image_cdn": {
+        "TATAPLAY": "https://images.fancode.com/aig/match/v1/139173_CASACARDS_PARTNER_16_9_1920_1080.png",
+        "APP": "https://www.fancode.com/skillup-uploads/cms-media/TGL_Mini-Match-Card-(1080x810).png",
+        "PLAYBACK": "https://www.fancode.com/skillup-uploads/cms-media/TGL_Mini-Match-Card-(1080x810).png",
+        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/TLG-Sofi_Tour-Logo.png",
+        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Golf-old.jpg",
+        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/TGL_Mini-Match-Card-(1080x810).png",
+        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/TGL_Old-Sporty-(1080x1440).png",
+        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/139173_CASACARDS_PARTNER_16_9_1920_1080.png"
+      },
+      "team": [
+        {
+          "name": "New York vs The Bay",
+          "shortName": "New York vs The Bay",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/gl-flags/FC-TGL@2x.png"
+          },
+          "isWinner": null,
+          "color": "#449AD3",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        },
+        {
+          "name": "Florida",
+          "shortName": "Florida",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/gl-flags/FC-LOC@2x.png"
+          },
+          "isWinner": null,
+          "color": "#141414",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        }
+      ],
+      "language": "ENGLISH",
+      "STREAMING_CDN": {
+        "Primary_Playback_URL": "https://dai.google.com/linear/hls/event/ZDNossZgSEO2d_Q5a0fFwg/master.m3u8",
+        "fancode_cdn": "Unavailable",
+        "fancode_bd_cdn": "Unavailable",
+        "dai_google_cdn": "https://dai.google.com/linear/hls/event/ZDNossZgSEO2d_Q5a0fFwg/master.m3u8",
+        "cloudfront_cdn": "Unavailable",
+        "sony_cdn": "Unavailable",
+        "language": "ENGLISH"
+      },
+      "auto_streams": [
+        {
+          "auto": false,
+          "cookie_valid": null,
+          "expire_date": null,
+          "language": "ENGLISH"
+        }
+      ]
+    },
+    {
       "category": "Football",
       "title": "Southampton F.c. Vs Queens Park Rangers F.c.",
       "tournament": "EFL Championship 2025-26",
       "match_id": 140126,
-      "status": "LIVE",
+      "status": "COMPLETED",
       "streamingStatus": "STARTED",
       "startTime": "25 February 2026 01:30 AM",
       "startDate": "01 January 1970 05:30 AM",
@@ -122,85 +280,6 @@
           "auto": "#EXTM3U\n#EXT-X-VERSION:3\n#EXT-X-STREAM-INF:BANDWIDTH=446936,AVERAGE-BANDWIDTH=446936,CODECS=\"avc1.42e015,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=426x240,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/140126_english_hls_c92a0008dd57131_1ta-di_h264/240p.m3u8?hdntl=Expires=1772048644~_GO=Generated~acl=/mumbai/140126_english_hls_c92a0008dd57131_1ta-di_h264/*~Signature=AScLvDtvO5Uv6J7JHe1uR9yrm9iTK_TLz7iRz3Fk4di65oFm-HW6y2IWbLcktUapaEU33iQay6EU_2gjencc4uizXaII\n#EXT-X-STREAM-INF:BANDWIDTH=702376,AVERAGE-BANDWIDTH=702376,CODECS=\"avc1.42e01e,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=640x360,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/140126_english_hls_c92a0008dd57131_1ta-di_h264/360p.m3u8?hdntl=Expires=1772048644~_GO=Generated~acl=/mumbai/140126_english_hls_c92a0008dd57131_1ta-di_h264/*~Signature=AScLvDtvO5Uv6J7JHe1uR9yrm9iTK_TLz7iRz3Fk4di65oFm-HW6y2IWbLcktUapaEU33iQay6EU_2gjencc4uizXaII\n#EXT-X-STREAM-INF:BANDWIDTH=1023224,AVERAGE-BANDWIDTH=1023224,CODECS=\"avc1.4d401e,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=854x480,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/140126_english_hls_c92a0008dd57131_1ta-di_h264/480p.m3u8?hdntl=Expires=1772048644~_GO=Generated~acl=/mumbai/140126_english_hls_c92a0008dd57131_1ta-di_h264/*~Signature=AScLvDtvO5Uv6J7JHe1uR9yrm9iTK_TLz7iRz3Fk4di65oFm-HW6y2IWbLcktUapaEU33iQay6EU_2gjencc4uizXaII\n#EXT-X-STREAM-INF:BANDWIDTH=1278664,AVERAGE-BANDWIDTH=1278664,CODECS=\"avc1.4d401f,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=960x540,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/140126_english_hls_c92a0008dd57131_1ta-di_h264/540p.m3u8?hdntl=Expires=1772048644~_GO=Generated~acl=/mumbai/140126_english_hls_c92a0008dd57131_1ta-di_h264/*~Signature=AScLvDtvO5Uv6J7JHe1uR9yrm9iTK_TLz7iRz3Fk4di65oFm-HW6y2IWbLcktUapaEU33iQay6EU_2gjencc4uizXaII\n#EXT-X-STREAM-INF:BANDWIDTH=1789512,AVERAGE-BANDWIDTH=1789512,CODECS=\"avc1.64001f,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1280x720,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/140126_english_hls_c92a0008dd57131_1ta-di_h264/720p.m3u8?hdntl=Expires=1772048644~_GO=Generated~acl=/mumbai/140126_english_hls_c92a0008dd57131_1ta-di_h264/*~Signature=AScLvDtvO5Uv6J7JHe1uR9yrm9iTK_TLz7iRz3Fk4di65oFm-HW6y2IWbLcktUapaEU33iQay6EU_2gjencc4uizXaII\n#EXT-X-STREAM-INF:BANDWIDTH=3322120,AVERAGE-BANDWIDTH=3322120,CODECS=\"avc1.640028,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1920x1080,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/140126_english_hls_c92a0008dd57131_1ta-di_h264/1080p.m3u8?hdntl=Expires=1772048644~_GO=Generated~acl=/mumbai/140126_english_hls_c92a0008dd57131_1ta-di_h264/*~Signature=AScLvDtvO5Uv6J7JHe1uR9yrm9iTK_TLz7iRz3Fk4di65oFm-HW6y2IWbLcktUapaEU33iQay6EU_2gjencc4uizXaII",
           "cookie_valid": "1772048644",
           "expire_date": "Thursday, February 26, 2026, 1:14:04 AM",
-          "language": "ENGLISH"
-        }
-      ]
-    },
-    {
-      "category": "Tennis",
-      "title": "Court Jaime Fillol",
-      "tournament": "ATP 250 - BCI Seguros Chile Open 2026",
-      "match_id": 140358,
-      "status": "LIVE",
-      "streamingStatus": "STARTED",
-      "startTime": "24 February 2026 09:30 PM",
-      "startDate": "01 January 1970 05:30 AM",
-      "image": "https://www.fancode.com/skillup-uploads/cms-media/BCI-Seguros-Chile-Open,-Clay,-ATP-250-old-.png",
-      "image_cdn": {
-        "TATAPLAY": "https://images.fancode.com/aig/match/v1/140358_CASACARDS_PARTNER_16_9_1920_1080.png",
-        "APP": "https://www.fancode.com/skillup-uploads/cms-media/BCI-Seguros-Chile-Open,-Clay,-ATP-250-old-.png",
-        "PLAYBACK": "https://www.fancode.com/skillup-uploads/cms-media/BCI-Seguros-Chile-Open,-Clay,-ATP-250-old-.png",
-        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/ATP_Tour-&-Team-Logo.png",
-        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Default_Tennis-old.jpg",
-        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/BCI-Seguros-Chile-Open,-Clay,-ATP-250-old-.png",
-        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/BCI-Seguros-Chile-Open,-Clay,-ATP-250-sporty-.png",
-        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/140358_CASACARDS_PARTNER_16_9_1920_1080.png"
-      },
-      "team": [
-        {
-          "name": "Court Jaime Fillol",
-          "shortName": "Court Jaime Fillol",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/lawn-tennis-flags/FC-ATP@2x.png"
-          },
-          "isWinner": null,
-          "color": "#FF0000",
-          "cricketScore": null,
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        },
-        {
-          "name": "Santiago, Chile",
-          "shortName": "Santiago, Chile",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/lawn-tennis-flags/FC-LOC@2x.png"
-          },
-          "isWinner": null,
-          "color": "#FF0000",
-          "cricketScore": null,
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        }
-      ],
-      "language": "ENGLISH",
-      "STREAMING_CDN": {
-        "Primary_Playback_URL": "https://in-mc-plive.fancode.com/mumbai/140358_english_hls_a2c84695d834528_1ta-di_h264/index.m3u8",
-        "fancode_cdn": "https://in-mc-plive.fancode.com/mumbai/140358_english_hls_a2c84695d834528_1ta-di_h264/index.m3u8",
-        "fancode_bd_cdn": "https://bd-mc-plive.fancode.com/mumbai/140358_english_hls_a2c84695d834528_1ta-di_h264/index.m3u8",
-        "dai_google_cdn": "Unavailable",
-        "cloudfront_cdn": "Unavailable",
-        "sony_cdn": "Unavailable",
-        "language": "ENGLISH"
-      },
-      "auto_streams": [
-        {
-          "auto": "#EXTM3U\n#EXT-X-VERSION:3\n#EXT-X-STREAM-INF:BANDWIDTH=446936,AVERAGE-BANDWIDTH=446936,CODECS=\"avc1.42e015,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=426x240,FRAME-RATE=25.000\nhttps://in-mc-plive.fancode.com/mumbai/140358_english_hls_a2c84695d834528_1ta-di_h264/240p.m3u8?hdntl=Expires=1772046121~_GO=Generated~acl=/mumbai/140358_english_hls_a2c84695d834528_1ta-di_h264/*~Signature=AScLvDviWrxc2tIlTNsY_ABCnDgiZrRNsL-hVwZp6il69rGBIdKWHiW9mfNKKkKnR5wXrs8AWwhQ0ZlhFJ8KqnQsoEID\n#EXT-X-STREAM-INF:BANDWIDTH=702376,AVERAGE-BANDWIDTH=702376,CODECS=\"avc1.42e01e,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=640x360,FRAME-RATE=25.000\nhttps://in-mc-plive.fancode.com/mumbai/140358_english_hls_a2c84695d834528_1ta-di_h264/360p.m3u8?hdntl=Expires=1772046121~_GO=Generated~acl=/mumbai/140358_english_hls_a2c84695d834528_1ta-di_h264/*~Signature=AScLvDviWrxc2tIlTNsY_ABCnDgiZrRNsL-hVwZp6il69rGBIdKWHiW9mfNKKkKnR5wXrs8AWwhQ0ZlhFJ8KqnQsoEID\n#EXT-X-STREAM-INF:BANDWIDTH=1023224,AVERAGE-BANDWIDTH=1023224,CODECS=\"avc1.4d401e,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=854x480,FRAME-RATE=25.000\nhttps://in-mc-plive.fancode.com/mumbai/140358_english_hls_a2c84695d834528_1ta-di_h264/480p.m3u8?hdntl=Expires=1772046121~_GO=Generated~acl=/mumbai/140358_english_hls_a2c84695d834528_1ta-di_h264/*~Signature=AScLvDviWrxc2tIlTNsY_ABCnDgiZrRNsL-hVwZp6il69rGBIdKWHiW9mfNKKkKnR5wXrs8AWwhQ0ZlhFJ8KqnQsoEID\n#EXT-X-STREAM-INF:BANDWIDTH=1278664,AVERAGE-BANDWIDTH=1278664,CODECS=\"avc1.4d401f,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=960x540,FRAME-RATE=25.000\nhttps://in-mc-plive.fancode.com/mumbai/140358_english_hls_a2c84695d834528_1ta-di_h264/540p.m3u8?hdntl=Expires=1772046121~_GO=Generated~acl=/mumbai/140358_english_hls_a2c84695d834528_1ta-di_h264/*~Signature=AScLvDviWrxc2tIlTNsY_ABCnDgiZrRNsL-hVwZp6il69rGBIdKWHiW9mfNKKkKnR5wXrs8AWwhQ0ZlhFJ8KqnQsoEID\n#EXT-X-STREAM-INF:BANDWIDTH=1789512,AVERAGE-BANDWIDTH=1789512,CODECS=\"avc1.64001f,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1280x720,FRAME-RATE=25.000\nhttps://in-mc-plive.fancode.com/mumbai/140358_english_hls_a2c84695d834528_1ta-di_h264/720p.m3u8?hdntl=Expires=1772046121~_GO=Generated~acl=/mumbai/140358_english_hls_a2c84695d834528_1ta-di_h264/*~Signature=AScLvDviWrxc2tIlTNsY_ABCnDgiZrRNsL-hVwZp6il69rGBIdKWHiW9mfNKKkKnR5wXrs8AWwhQ0ZlhFJ8KqnQsoEID\n#EXT-X-STREAM-INF:BANDWIDTH=3322120,AVERAGE-BANDWIDTH=3322120,CODECS=\"avc1.640028,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1920x1080,FRAME-RATE=25.000\nhttps://in-mc-plive.fancode.com/mumbai/140358_english_hls_a2c84695d834528_1ta-di_h264/1080p.m3u8?hdntl=Expires=1772046121~_GO=Generated~acl=/mumbai/140358_english_hls_a2c84695d834528_1ta-di_h264/*~Signature=AScLvDviWrxc2tIlTNsY_ABCnDgiZrRNsL-hVwZp6il69rGBIdKWHiW9mfNKKkKnR5wXrs8AWwhQ0ZlhFJ8KqnQsoEID",
-          "cookie_valid": "1772046121",
-          "expire_date": "Thursday, February 26, 2026, 12:32:01 AM",
           "language": "ENGLISH"
         }
       ]
@@ -740,85 +819,6 @@
         "Primary_Playback_URL": null
       },
       "auto_streams": null
-    },
-    {
-      "category": "Golf",
-      "title": "New York Vs The Bay",
-      "tournament": "TGL Season 2",
-      "match_id": 139173,
-      "status": "LIVE",
-      "streamingStatus": "STARTED",
-      "startTime": "25 February 2026 03:30 AM",
-      "startDate": "01 January 1970 05:30 AM",
-      "image": "https://www.fancode.com/skillup-uploads/cms-media/TGL_Mini-Match-Card-(1080x810).png",
-      "image_cdn": {
-        "TATAPLAY": "https://images.fancode.com/aig/match/v1/139173_CASACARDS_PARTNER_16_9_1920_1080.png",
-        "APP": "https://www.fancode.com/skillup-uploads/cms-media/TGL_Mini-Match-Card-(1080x810).png",
-        "PLAYBACK": "https://www.fancode.com/skillup-uploads/cms-media/TGL_Mini-Match-Card-(1080x810).png",
-        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/TLG-Sofi_Tour-Logo.png",
-        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Golf-old.jpg",
-        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/TGL_Mini-Match-Card-(1080x810).png",
-        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/TGL_Old-Sporty-(1080x1440).png",
-        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/139173_CASACARDS_PARTNER_16_9_1920_1080.png"
-      },
-      "team": [
-        {
-          "name": "New York vs The Bay",
-          "shortName": "New York vs The Bay",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/gl-flags/FC-TGL@2x.png"
-          },
-          "isWinner": null,
-          "color": "#449AD3",
-          "cricketScore": null,
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        },
-        {
-          "name": "Florida",
-          "shortName": "Florida",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/gl-flags/FC-LOC@2x.png"
-          },
-          "isWinner": null,
-          "color": "#141414",
-          "cricketScore": null,
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        }
-      ],
-      "language": "ENGLISH",
-      "STREAMING_CDN": {
-        "Primary_Playback_URL": "https://dai.google.com/linear/hls/event/ZDNossZgSEO2d_Q5a0fFwg/master.m3u8",
-        "fancode_cdn": "Unavailable",
-        "fancode_bd_cdn": "Unavailable",
-        "dai_google_cdn": "https://dai.google.com/linear/hls/event/ZDNossZgSEO2d_Q5a0fFwg/master.m3u8?deviceId=5c1a2d7b8f02d931&advertiserId=7e42d87b-45cd-4cf6-b0ae-1fae68d9430&ft_type=c1&cust_params=app_version%3D6.15.0%26app_platform%3Dsportsguruand%26state%3DBihar%26city%3DPatna%26userId%3D%26match_id%3D139173%26match_format%3DStroke_Play%26tour_id%3D5816%26tour_name%3DTGL_Season_2%26sport%3Dgolf%26authorizationType%3DPAID&state=Bihar&city=Patna",
-        "cloudfront_cdn": "Unavailable",
-        "sony_cdn": "Unavailable",
-        "language": "ENGLISH"
-      },
-      "auto_streams": [
-        {
-          "auto": false,
-          "cookie_valid": null,
-          "expire_date": null,
-          "language": "ENGLISH"
-        }
-      ]
     },
     {
       "category": "Football",
