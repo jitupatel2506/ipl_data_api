@@ -1,7 +1,7 @@
 {
   "Author": "DOCTOR_STRANGE",
   "name": "FanCode Live Matches API",
-  "last_updated": "07:21:04 AM 01-03-2026",
+  "last_updated": "07:49:02 AM 01-03-2026",
   "headers": {
     "User-Agent": "ReactNativeVideo/9.3.0 (Linux;Android 13) AndroidXMedia3/1.6.1",
     "Referer": "https://fancode.com/"
@@ -44,7 +44,7 @@
               "runs": 64,
               "overs": "20",
               "balls": "120",
-              "status": "IN_PROGRESS",
+              "status": "COMPLETED",
               "wickets": 9
             }
           ],
@@ -54,7 +54,7 @@
           "hockeyScore": null,
           "status": {
             "cricket": {
-              "isBatting": true
+              "isBatting": false
             }
           }
         },
@@ -66,14 +66,22 @@
           },
           "isWinner": null,
           "color": "#1d2c6b",
-          "cricketScore": [],
+          "cricketScore": [
+            {
+              "runs": 61,
+              "overs": "5",
+              "balls": "30",
+              "status": "IN_PROGRESS",
+              "wickets": 0
+            }
+          ],
           "kabaddiScore": null,
           "footballScore": null,
           "basketBallScore": null,
           "hockeyScore": null,
           "status": {
             "cricket": {
-              "isBatting": false
+              "isBatting": true
             }
           }
         }
@@ -102,7 +110,7 @@
       "title": "Wellington Phoenix Vs Sydney Fc",
       "tournament": "A League 2025-26",
       "match_id": 140905,
-      "status": "NOT_STARTED",
+      "status": "LIVE",
       "streamingStatus": "STARTED",
       "startTime": "01 March 2026 07:30 AM",
       "startDate": "01 January 1970 05:30 AM",
@@ -131,11 +139,7 @@
           "footballScore": null,
           "basketBallScore": null,
           "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
+          "status": null
         },
         {
           "name": "Sydney FC",
@@ -150,11 +154,7 @@
           "footballScore": null,
           "basketBallScore": null,
           "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
+          "status": null
         }
       ],
       "language": "ENGLISH",
@@ -871,73 +871,6 @@
       "auto_streams": null
     },
     {
-      "category": "Football",
-      "title": "Valencia Cf Vs Ca Osasuna",
-      "tournament": "LALIGA 2025-26",
-      "match_id": 131083,
-      "status": "NOT_STARTED",
-      "streamingStatus": "NOT_STARTED",
-      "startTime": "01 March 2026 08:45 PM",
-      "startDate": "01 January 1970 05:30 AM",
-      "image": "https://www.fancode.com/skillup-uploads/cms-media/131083_5427_VAL_OSN_FC-Web.png",
-      "image_cdn": {
-        "TATAPLAY": "https://images.fancode.com/aig/match/v1/131083_CASACARDS_PARTNER_16_9_1920_1080.png",
-        "APP": "https://www.fancode.com/skillup-uploads/cms-media/131083_5427_VAL_OSN_FC-Web.png",
-        "PLAYBACK": null,
-        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/LALIGA-2025-26-Tour.png",
-        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Football-old-copy.jpg",
-        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/131083_5427_VAL_OSN_FC-Web.png",
-        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/131083_5427_VAL_OSN_FC-App.png",
-        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/131083_CASACARDS_PARTNER_16_9_1920_1080.png"
-      },
-      "team": [
-        {
-          "name": "Valencia CF",
-          "shortName": "VAL",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-VAL@2x.png"
-          },
-          "isWinner": null,
-          "color": "#4F7DE5",
-          "cricketScore": null,
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        },
-        {
-          "name": "CA Osasuna",
-          "shortName": "OSN",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-OSN@2x.png"
-          },
-          "isWinner": null,
-          "color": "#F2DC85",
-          "cricketScore": null,
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        }
-      ],
-      "language": "BLOODY_SWEET",
-      "STREAMING_CDN": {
-        "language": "BLOODY_SWEET",
-        "Primary_Playback_URL": null
-      },
-      "auto_streams": null
-    },
-    {
       "category": "Cricket",
       "title": "Tbc Vs Tbc",
       "tournament": "Boland T20 Super League Finals 2026",
@@ -985,6 +918,73 @@
           },
           "isWinner": null,
           "color": "#dcdcdc",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        }
+      ],
+      "language": "BLOODY_SWEET",
+      "STREAMING_CDN": {
+        "language": "BLOODY_SWEET",
+        "Primary_Playback_URL": null
+      },
+      "auto_streams": null
+    },
+    {
+      "category": "Football",
+      "title": "Valencia Cf Vs Ca Osasuna",
+      "tournament": "LALIGA 2025-26",
+      "match_id": 131083,
+      "status": "NOT_STARTED",
+      "streamingStatus": "NOT_STARTED",
+      "startTime": "01 March 2026 08:45 PM",
+      "startDate": "01 January 1970 05:30 AM",
+      "image": "https://www.fancode.com/skillup-uploads/cms-media/131083_5427_VAL_OSN_FC-Web.png",
+      "image_cdn": {
+        "TATAPLAY": "https://images.fancode.com/aig/match/v1/131083_CASACARDS_PARTNER_16_9_1920_1080.png",
+        "APP": "https://www.fancode.com/skillup-uploads/cms-media/131083_5427_VAL_OSN_FC-Web.png",
+        "PLAYBACK": null,
+        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/LALIGA-2025-26-Tour.png",
+        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Football-old-copy.jpg",
+        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/131083_5427_VAL_OSN_FC-Web.png",
+        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/131083_5427_VAL_OSN_FC-App.png",
+        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/131083_CASACARDS_PARTNER_16_9_1920_1080.png"
+      },
+      "team": [
+        {
+          "name": "Valencia CF",
+          "shortName": "VAL",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-VAL@2x.png"
+          },
+          "isWinner": null,
+          "color": "#4F7DE5",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        },
+        {
+          "name": "CA Osasuna",
+          "shortName": "OSN",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-OSN@2x.png"
+          },
+          "isWinner": null,
+          "color": "#F2DC85",
           "cricketScore": null,
           "kabaddiScore": null,
           "footballScore": null,
@@ -1892,6 +1892,73 @@
       "auto_streams": null
     },
     {
+      "category": "Golf",
+      "title": "Jupiter Vs Boston",
+      "tournament": "TGL Season 2",
+      "match_id": 139175,
+      "status": "NOT_STARTED",
+      "streamingStatus": "NOT_STARTED",
+      "startTime": "02 March 2026 07:30 AM",
+      "startDate": "01 January 1970 05:30 AM",
+      "image": "https://www.fancode.com/skillup-uploads/cms-media/TGL_Mini-Match-Card-(1080x810).png",
+      "image_cdn": {
+        "TATAPLAY": "https://images.fancode.com/aig/match/v1/139175_CASACARDS_PARTNER_16_9_1920_1080.png",
+        "APP": "https://www.fancode.com/skillup-uploads/cms-media/TGL_Mini-Match-Card-(1080x810).png",
+        "PLAYBACK": null,
+        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/TLG-Sofi_Tour-Logo.png",
+        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Golf-old.jpg",
+        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/TGL_Mini-Match-Card-(1080x810).png",
+        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/TGL_Old-Sporty-(1080x1440).png",
+        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/139175_CASACARDS_PARTNER_16_9_1920_1080.png"
+      },
+      "team": [
+        {
+          "name": "Jupiter vs Boston",
+          "shortName": "Jupiter vs Boston",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/gl-flags/FC-TGL@2x.png"
+          },
+          "isWinner": null,
+          "color": "#449AD3",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        },
+        {
+          "name": "Florida",
+          "shortName": "Florida",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/gl-flags/FC-LOC@2x.png"
+          },
+          "isWinner": null,
+          "color": "#141414",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        }
+      ],
+      "language": "BLOODY_SWEET",
+      "STREAMING_CDN": {
+        "language": "BLOODY_SWEET",
+        "Primary_Playback_URL": null
+      },
+      "auto_streams": null
+    },
+    {
       "category": "Cricket",
       "title": "Hong Kong, China Vs Kuwait",
       "tournament": "Men's T20I Series 2026",
@@ -2006,73 +2073,6 @@
           },
           "isWinner": false,
           "color": "#d8a918",
-          "cricketScore": null,
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        }
-      ],
-      "language": "BLOODY_SWEET",
-      "STREAMING_CDN": {
-        "language": "BLOODY_SWEET",
-        "Primary_Playback_URL": null
-      },
-      "auto_streams": null
-    },
-    {
-      "category": "Golf",
-      "title": "Jupiter Vs Boston",
-      "tournament": "TGL Season 2",
-      "match_id": 139175,
-      "status": "NOT_STARTED",
-      "streamingStatus": "NOT_STARTED",
-      "startTime": "02 March 2026 07:30 AM",
-      "startDate": "01 January 1970 05:30 AM",
-      "image": "https://www.fancode.com/skillup-uploads/cms-media/TGL_Mini-Match-Card-(1080x810).png",
-      "image_cdn": {
-        "TATAPLAY": "https://images.fancode.com/aig/match/v1/139175_CASACARDS_PARTNER_16_9_1920_1080.png",
-        "APP": "https://www.fancode.com/skillup-uploads/cms-media/TGL_Mini-Match-Card-(1080x810).png",
-        "PLAYBACK": null,
-        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/TLG-Sofi_Tour-Logo.png",
-        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Golf-old.jpg",
-        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/TGL_Mini-Match-Card-(1080x810).png",
-        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/TGL_Old-Sporty-(1080x1440).png",
-        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/139175_CASACARDS_PARTNER_16_9_1920_1080.png"
-      },
-      "team": [
-        {
-          "name": "Jupiter vs Boston",
-          "shortName": "Jupiter vs Boston",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/gl-flags/FC-TGL@2x.png"
-          },
-          "isWinner": null,
-          "color": "#449AD3",
-          "cricketScore": null,
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        },
-        {
-          "name": "Florida",
-          "shortName": "Florida",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/gl-flags/FC-LOC@2x.png"
-          },
-          "isWinner": null,
-          "color": "#141414",
           "cricketScore": null,
           "kabaddiScore": null,
           "footballScore": null,
