@@ -1,7 +1,7 @@
 {
   "Author": "DOCTOR_STRANGE",
   "name": "FanCode Live Matches API",
-  "last_updated": "07:14:08 PM 01-03-2026",
+  "last_updated": "07:28:02 PM 01-03-2026",
   "headers": {
     "User-Agent": "ReactNativeVideo/9.3.0 (Linux;Android 13) AndroidXMedia3/1.6.1",
     "Referer": "https://fancode.com/"
@@ -121,8 +121,15 @@
           "cricketScore": null,
           "kabaddiScore": null,
           "footballScore": {
-            "points": 0,
-            "goals": []
+            "points": 1,
+            "goals": [
+              {
+                "id": "163698",
+                "shortName": "M Aguado",
+                "isOwnGoal": false,
+                "goalTime": "42'"
+              }
+            ]
           },
           "basketBallScore": null,
           "hockeyScore": null,
@@ -502,7 +509,7 @@
       "title": "Real Sociedad Vs Deportivo La Coruna",
       "tournament": "LALIGA Hypermotion 2025-26",
       "match_id": 140824,
-      "status": "NOT_STARTED",
+      "status": "LIVE",
       "streamingStatus": "STARTED",
       "startTime": "01 March 2026 06:30 PM",
       "startDate": "01 January 1970 05:30 AM",
@@ -531,11 +538,7 @@
           "footballScore": null,
           "basketBallScore": null,
           "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
+          "status": null
         },
         {
           "name": "Deportivo La Coruna",
@@ -550,11 +553,7 @@
           "footballScore": null,
           "basketBallScore": null,
           "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
+          "status": null
         }
       ],
       "language": "ENGLISH",
