@@ -1,7 +1,7 @@
 {
   "Author": "DOCTOR_STRANGE",
   "name": "FanCode Live Matches API",
-  "last_updated": "09:23:26 AM 08-03-2026",
+  "last_updated": "09:42:01 AM 08-03-2026",
   "headers": {
     "User-Agent": "ReactNativeVideo/9.3.0 (Linux;Android 13) AndroidXMedia3/1.6.1",
     "Referer": "https://fancode.com/"
@@ -10,6 +10,216 @@
   "live_matches": 12,
   "upcoming_matches": 28,
   "matches": [
+    {
+      "category": "Formula 1",
+      "title": "Race",
+      "tournament": "F1 QATAR AIRWAYS AUSTRALIAN GRAND PRIX 2026",
+      "match_id": 139365,
+      "status": "LIVE",
+      "streamingStatus": "STARTED",
+      "startTime": "08 March 2026 09:30 AM",
+      "startDate": "01 January 1970 05:30 AM",
+      "image": "https://www.fancode.com/skillup-uploads/cms-media/F1_Australia_web.jpg",
+      "image_cdn": {
+        "TATAPLAY": "https://images.fancode.com/aig/match/v1/139365_CASACARDS_PARTNER_16_9_1920_1080.png",
+        "APP": "https://www.fancode.com/skillup-uploads/cms-media/F1_Australia_web.jpg",
+        "PLAYBACK": "https://www.fancode.com/skillup-uploads/cms-media/F1_Australia_web.jpg",
+        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/Australia.jpg",
+        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Default_F1-racing.jpg",
+        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/F1_Australia_web.jpg",
+        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/F1_Australia_Old-sporty.jpg",
+        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/139365_CASACARDS_PARTNER_16_9_1920_1080.png"
+      },
+      "team": [
+        {
+          "name": "Race",
+          "shortName": "RC",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/f1-flags/FC-FR5@2x.png"
+          },
+          "isWinner": null,
+          "color": "#EE0000",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        },
+        {
+          "name": "Australia",
+          "shortName": "Australia",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/f1-flags/FC-LOT@2x.png"
+          },
+          "isWinner": null,
+          "color": "#141414",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        }
+      ],
+      "language": "ENGLISH",
+      "auto_streams": [
+        {
+          "auto": "#EXTM3U\n#EXT-X-VERSION:3\n#EXT-X-STREAM-INF:BANDWIDTH=414232,AVERAGE-BANDWIDTH=414232,CODECS=\"avc1.42e015,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=426x240,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/139365_english_hls_95cc02bb6011120_1ta-di_h264/240p.m3u8?hdntl=Expires=1773021493~_GO=Generated~acl=/mumbai/139365_english_hls_95cc02bb6011120_1ta-di_h264/*~Signature=AQQqLwRv6rE1NhU0qqOMTtrNYy8a-6fLxU0F2mokajZTAWma-KeHNfTBFVWPGPpDtYlQwl4e5CgcV40wK3i41O8RDMAD\n#EXT-X-STREAM-INF:BANDWIDTH=669672,AVERAGE-BANDWIDTH=669672,CODECS=\"avc1.42e01e,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=640x360,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/139365_english_hls_95cc02bb6011120_1ta-di_h264/360p.m3u8?hdntl=Expires=1773021493~_GO=Generated~acl=/mumbai/139365_english_hls_95cc02bb6011120_1ta-di_h264/*~Signature=AQQqLwRv6rE1NhU0qqOMTtrNYy8a-6fLxU0F2mokajZTAWma-KeHNfTBFVWPGPpDtYlQwl4e5CgcV40wK3i41O8RDMAD\n#EXT-X-STREAM-INF:BANDWIDTH=990520,AVERAGE-BANDWIDTH=990520,CODECS=\"avc1.4d401e,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=854x480,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/139365_english_hls_95cc02bb6011120_1ta-di_h264/480p.m3u8?hdntl=Expires=1773021493~_GO=Generated~acl=/mumbai/139365_english_hls_95cc02bb6011120_1ta-di_h264/*~Signature=AQQqLwRv6rE1NhU0qqOMTtrNYy8a-6fLxU0F2mokajZTAWma-KeHNfTBFVWPGPpDtYlQwl4e5CgcV40wK3i41O8RDMAD\n#EXT-X-STREAM-INF:BANDWIDTH=1245960,AVERAGE-BANDWIDTH=1245960,CODECS=\"avc1.4d401f,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=960x540,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/139365_english_hls_95cc02bb6011120_1ta-di_h264/540p.m3u8?hdntl=Expires=1773021493~_GO=Generated~acl=/mumbai/139365_english_hls_95cc02bb6011120_1ta-di_h264/*~Signature=AQQqLwRv6rE1NhU0qqOMTtrNYy8a-6fLxU0F2mokajZTAWma-KeHNfTBFVWPGPpDtYlQwl4e5CgcV40wK3i41O8RDMAD\n#EXT-X-STREAM-INF:BANDWIDTH=1756808,AVERAGE-BANDWIDTH=1756808,CODECS=\"avc1.64001f,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1280x720,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/139365_english_hls_95cc02bb6011120_1ta-di_h264/720p.m3u8?hdntl=Expires=1773021493~_GO=Generated~acl=/mumbai/139365_english_hls_95cc02bb6011120_1ta-di_h264/*~Signature=AQQqLwRv6rE1NhU0qqOMTtrNYy8a-6fLxU0F2mokajZTAWma-KeHNfTBFVWPGPpDtYlQwl4e5CgcV40wK3i41O8RDMAD\n#EXT-X-STREAM-INF:BANDWIDTH=3289416,AVERAGE-BANDWIDTH=3289416,CODECS=\"avc1.640028,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1920x1080,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/139365_english_hls_95cc02bb6011120_1ta-di_h264/1080p.m3u8?hdntl=Expires=1773021493~_GO=Generated~acl=/mumbai/139365_english_hls_95cc02bb6011120_1ta-di_h264/*~Signature=AQQqLwRv6rE1NhU0qqOMTtrNYy8a-6fLxU0F2mokajZTAWma-KeHNfTBFVWPGPpDtYlQwl4e5CgcV40wK3i41O8RDMAD\n#EXT-X-STREAM-INF:BANDWIDTH=5376032,AVERAGE-BANDWIDTH=5376032,CODECS=\"avc1.64002a,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1920x1080,FRAME-RATE=50.000\nhttps://in-mc-flive.fancode.com/mumbai/139365_english_hls_95cc02bb6011120_1ta-di_h264/1080p5.m3u8?hdntl=Expires=1773021493~_GO=Generated~acl=/mumbai/139365_english_hls_95cc02bb6011120_1ta-di_h264/*~Signature=AQQqLwRv6rE1NhU0qqOMTtrNYy8a-6fLxU0F2mokajZTAWma-KeHNfTBFVWPGPpDtYlQwl4e5CgcV40wK3i41O8RDMAD",
+          "cookie_valid": "1773021493",
+          "expire_date": "Monday, March 9, 2026, 7:28:13 AM",
+          "language": "ENGLISH"
+        }
+      ]
+    },
+    {
+      "category": "Formula 1",
+      "title": "Race",
+      "tournament": "F1 QATAR AIRWAYS AUSTRALIAN GRAND PRIX 2026",
+      "match_id": 139365,
+      "status": "LIVE",
+      "streamingStatus": "STARTED",
+      "startTime": "08 March 2026 09:30 AM",
+      "startDate": "01 January 1970 05:30 AM",
+      "image": "https://www.fancode.com/skillup-uploads/cms-media/F1_Australia_web.jpg",
+      "image_cdn": {
+        "TATAPLAY": "https://images.fancode.com/aig/match/v1/139365_CASACARDS_PARTNER_16_9_1920_1080.png",
+        "APP": "https://www.fancode.com/skillup-uploads/cms-media/F1_Australia_web.jpg",
+        "PLAYBACK": "https://www.fancode.com/skillup-uploads/cms-media/F1_Australia_web.jpg",
+        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/Australia.jpg",
+        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Default_F1-racing.jpg",
+        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/F1_Australia_web.jpg",
+        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/F1_Australia_Old-sporty.jpg",
+        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/139365_CASACARDS_PARTNER_16_9_1920_1080.png"
+      },
+      "team": [
+        {
+          "name": "Race",
+          "shortName": "RC",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/f1-flags/FC-FR5@2x.png"
+          },
+          "isWinner": null,
+          "color": "#EE0000",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        },
+        {
+          "name": "Australia",
+          "shortName": "Australia",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/f1-flags/FC-LOT@2x.png"
+          },
+          "isWinner": null,
+          "color": "#141414",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        }
+      ],
+      "language": "HINDI",
+      "auto_streams": [
+        {
+          "auto": "#EXTM3U\n#EXT-X-VERSION:3\n#EXT-X-STREAM-INF:BANDWIDTH=414232,AVERAGE-BANDWIDTH=414232,CODECS=\"avc1.42e015,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=426x240,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/139365_hindi_hls_37ac170b8953312_1ta-di_h264/240p.m3u8?hdntl=Expires=1773021494~_GO=Generated~acl=/mumbai/139365_hindi_hls_37ac170b8953312_1ta-di_h264/*~Signature=AQQqLwRwl8i7LQGaeN6eLBUhqkylDBL0UqY6XI5uGviRiGn8rpwaUIY8k7zWJgzzSvVtvHOKWRg4JFGXQtTdL62K6pcH\n#EXT-X-STREAM-INF:BANDWIDTH=669672,AVERAGE-BANDWIDTH=669672,CODECS=\"avc1.42e01e,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=640x360,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/139365_hindi_hls_37ac170b8953312_1ta-di_h264/360p.m3u8?hdntl=Expires=1773021494~_GO=Generated~acl=/mumbai/139365_hindi_hls_37ac170b8953312_1ta-di_h264/*~Signature=AQQqLwRwl8i7LQGaeN6eLBUhqkylDBL0UqY6XI5uGviRiGn8rpwaUIY8k7zWJgzzSvVtvHOKWRg4JFGXQtTdL62K6pcH\n#EXT-X-STREAM-INF:BANDWIDTH=990520,AVERAGE-BANDWIDTH=990520,CODECS=\"avc1.4d401e,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=854x480,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/139365_hindi_hls_37ac170b8953312_1ta-di_h264/480p.m3u8?hdntl=Expires=1773021494~_GO=Generated~acl=/mumbai/139365_hindi_hls_37ac170b8953312_1ta-di_h264/*~Signature=AQQqLwRwl8i7LQGaeN6eLBUhqkylDBL0UqY6XI5uGviRiGn8rpwaUIY8k7zWJgzzSvVtvHOKWRg4JFGXQtTdL62K6pcH\n#EXT-X-STREAM-INF:BANDWIDTH=1245960,AVERAGE-BANDWIDTH=1245960,CODECS=\"avc1.4d401f,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=960x540,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/139365_hindi_hls_37ac170b8953312_1ta-di_h264/540p.m3u8?hdntl=Expires=1773021494~_GO=Generated~acl=/mumbai/139365_hindi_hls_37ac170b8953312_1ta-di_h264/*~Signature=AQQqLwRwl8i7LQGaeN6eLBUhqkylDBL0UqY6XI5uGviRiGn8rpwaUIY8k7zWJgzzSvVtvHOKWRg4JFGXQtTdL62K6pcH\n#EXT-X-STREAM-INF:BANDWIDTH=1756808,AVERAGE-BANDWIDTH=1756808,CODECS=\"avc1.64001f,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1280x720,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/139365_hindi_hls_37ac170b8953312_1ta-di_h264/720p.m3u8?hdntl=Expires=1773021494~_GO=Generated~acl=/mumbai/139365_hindi_hls_37ac170b8953312_1ta-di_h264/*~Signature=AQQqLwRwl8i7LQGaeN6eLBUhqkylDBL0UqY6XI5uGviRiGn8rpwaUIY8k7zWJgzzSvVtvHOKWRg4JFGXQtTdL62K6pcH\n#EXT-X-STREAM-INF:BANDWIDTH=3289416,AVERAGE-BANDWIDTH=3289416,CODECS=\"avc1.640028,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1920x1080,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/139365_hindi_hls_37ac170b8953312_1ta-di_h264/1080p.m3u8?hdntl=Expires=1773021494~_GO=Generated~acl=/mumbai/139365_hindi_hls_37ac170b8953312_1ta-di_h264/*~Signature=AQQqLwRwl8i7LQGaeN6eLBUhqkylDBL0UqY6XI5uGviRiGn8rpwaUIY8k7zWJgzzSvVtvHOKWRg4JFGXQtTdL62K6pcH\n#EXT-X-STREAM-INF:BANDWIDTH=5376032,AVERAGE-BANDWIDTH=5376032,CODECS=\"avc1.64002a,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1920x1080,FRAME-RATE=50.000\nhttps://in-mc-flive.fancode.com/mumbai/139365_hindi_hls_37ac170b8953312_1ta-di_h264/1080p5.m3u8?hdntl=Expires=1773021494~_GO=Generated~acl=/mumbai/139365_hindi_hls_37ac170b8953312_1ta-di_h264/*~Signature=AQQqLwRwl8i7LQGaeN6eLBUhqkylDBL0UqY6XI5uGviRiGn8rpwaUIY8k7zWJgzzSvVtvHOKWRg4JFGXQtTdL62K6pcH",
+          "cookie_valid": "1773021494",
+          "expire_date": "Monday, March 9, 2026, 7:28:14 AM",
+          "language": "HINDI"
+        }
+      ]
+    },
+    {
+      "category": "Formula 1",
+      "title": "Race",
+      "tournament": "F1 QATAR AIRWAYS AUSTRALIAN GRAND PRIX 2026",
+      "match_id": 139365,
+      "status": "LIVE",
+      "streamingStatus": "STARTED",
+      "startTime": "08 March 2026 09:30 AM",
+      "startDate": "01 January 1970 05:30 AM",
+      "image": "https://www.fancode.com/skillup-uploads/cms-media/F1_Australia_web.jpg",
+      "image_cdn": {
+        "TATAPLAY": "https://images.fancode.com/aig/match/v1/139365_CASACARDS_PARTNER_16_9_1920_1080.png",
+        "APP": "https://www.fancode.com/skillup-uploads/cms-media/F1_Australia_web.jpg",
+        "PLAYBACK": "https://www.fancode.com/skillup-uploads/cms-media/F1_Australia_web.jpg",
+        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/Australia.jpg",
+        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Default_F1-racing.jpg",
+        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/F1_Australia_web.jpg",
+        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/F1_Australia_Old-sporty.jpg",
+        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/139365_CASACARDS_PARTNER_16_9_1920_1080.png"
+      },
+      "team": [
+        {
+          "name": "Race",
+          "shortName": "RC",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/f1-flags/FC-FR5@2x.png"
+          },
+          "isWinner": null,
+          "color": "#EE0000",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        },
+        {
+          "name": "Australia",
+          "shortName": "Australia",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/f1-flags/FC-LOT@2x.png"
+          },
+          "isWinner": null,
+          "color": "#141414",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        }
+      ],
+      "language": "TAMIL",
+      "auto_streams": [
+        {
+          "auto": "#EXTM3U\n#EXT-X-VERSION:3\n#EXT-X-STREAM-INF:BANDWIDTH=414232,AVERAGE-BANDWIDTH=414232,CODECS=\"avc1.42e015,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=426x240,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/139365_tamil_hls_eb1e6bbd7b10315_1ta-di_h264/240p.m3u8?hdntl=Expires=1773021495~_GO=Generated~acl=/mumbai/139365_tamil_hls_eb1e6bbd7b10315_1ta-di_h264/*~Signature=AQQqLwT9WkdZCK2Q-sSMFRlhJ1XPtL73BySgYvLX0wsYU6G7_1YnMDPiZXwMK6yvVr8k7z6cNEIzpvBABvaCeoPe8HsP\n#EXT-X-STREAM-INF:BANDWIDTH=669672,AVERAGE-BANDWIDTH=669672,CODECS=\"avc1.42e01e,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=640x360,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/139365_tamil_hls_eb1e6bbd7b10315_1ta-di_h264/360p.m3u8?hdntl=Expires=1773021495~_GO=Generated~acl=/mumbai/139365_tamil_hls_eb1e6bbd7b10315_1ta-di_h264/*~Signature=AQQqLwT9WkdZCK2Q-sSMFRlhJ1XPtL73BySgYvLX0wsYU6G7_1YnMDPiZXwMK6yvVr8k7z6cNEIzpvBABvaCeoPe8HsP\n#EXT-X-STREAM-INF:BANDWIDTH=990520,AVERAGE-BANDWIDTH=990520,CODECS=\"avc1.4d401e,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=854x480,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/139365_tamil_hls_eb1e6bbd7b10315_1ta-di_h264/480p.m3u8?hdntl=Expires=1773021495~_GO=Generated~acl=/mumbai/139365_tamil_hls_eb1e6bbd7b10315_1ta-di_h264/*~Signature=AQQqLwT9WkdZCK2Q-sSMFRlhJ1XPtL73BySgYvLX0wsYU6G7_1YnMDPiZXwMK6yvVr8k7z6cNEIzpvBABvaCeoPe8HsP\n#EXT-X-STREAM-INF:BANDWIDTH=1245960,AVERAGE-BANDWIDTH=1245960,CODECS=\"avc1.4d401f,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=960x540,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/139365_tamil_hls_eb1e6bbd7b10315_1ta-di_h264/540p.m3u8?hdntl=Expires=1773021495~_GO=Generated~acl=/mumbai/139365_tamil_hls_eb1e6bbd7b10315_1ta-di_h264/*~Signature=AQQqLwT9WkdZCK2Q-sSMFRlhJ1XPtL73BySgYvLX0wsYU6G7_1YnMDPiZXwMK6yvVr8k7z6cNEIzpvBABvaCeoPe8HsP\n#EXT-X-STREAM-INF:BANDWIDTH=1756808,AVERAGE-BANDWIDTH=1756808,CODECS=\"avc1.64001f,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1280x720,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/139365_tamil_hls_eb1e6bbd7b10315_1ta-di_h264/720p.m3u8?hdntl=Expires=1773021495~_GO=Generated~acl=/mumbai/139365_tamil_hls_eb1e6bbd7b10315_1ta-di_h264/*~Signature=AQQqLwT9WkdZCK2Q-sSMFRlhJ1XPtL73BySgYvLX0wsYU6G7_1YnMDPiZXwMK6yvVr8k7z6cNEIzpvBABvaCeoPe8HsP\n#EXT-X-STREAM-INF:BANDWIDTH=3289416,AVERAGE-BANDWIDTH=3289416,CODECS=\"avc1.640028,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1920x1080,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/139365_tamil_hls_eb1e6bbd7b10315_1ta-di_h264/1080p.m3u8?hdntl=Expires=1773021495~_GO=Generated~acl=/mumbai/139365_tamil_hls_eb1e6bbd7b10315_1ta-di_h264/*~Signature=AQQqLwT9WkdZCK2Q-sSMFRlhJ1XPtL73BySgYvLX0wsYU6G7_1YnMDPiZXwMK6yvVr8k7z6cNEIzpvBABvaCeoPe8HsP\n#EXT-X-STREAM-INF:BANDWIDTH=5376032,AVERAGE-BANDWIDTH=5376032,CODECS=\"avc1.64002a,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1920x1080,FRAME-RATE=50.000\nhttps://in-mc-flive.fancode.com/mumbai/139365_tamil_hls_eb1e6bbd7b10315_1ta-di_h264/1080p5.m3u8?hdntl=Expires=1773021495~_GO=Generated~acl=/mumbai/139365_tamil_hls_eb1e6bbd7b10315_1ta-di_h264/*~Signature=AQQqLwT9WkdZCK2Q-sSMFRlhJ1XPtL73BySgYvLX0wsYU6G7_1YnMDPiZXwMK6yvVr8k7z6cNEIzpvBABvaCeoPe8HsP",
+          "cookie_valid": "1773021495",
+          "expire_date": "Monday, March 9, 2026, 7:28:15 AM",
+          "language": "TAMIL"
+        }
+      ]
+    },
     {
       "category": "Cricket",
       "title": "Hong Kong Cricket Club Women Vs Lantau Cricket Club Women",
@@ -799,216 +1009,6 @@
           "cookie_valid": "1773017467",
           "expire_date": "Monday, March 9, 2026, 6:21:07 AM",
           "language": "ENGLISH"
-        }
-      ]
-    },
-    {
-      "category": "Formula 1",
-      "title": "Race",
-      "tournament": "F1 QATAR AIRWAYS AUSTRALIAN GRAND PRIX 2026",
-      "match_id": 139365,
-      "status": "LIVE",
-      "streamingStatus": "STARTED",
-      "startTime": "08 March 2026 09:30 AM",
-      "startDate": "01 January 1970 05:30 AM",
-      "image": "https://www.fancode.com/skillup-uploads/cms-media/F1_Australia_web.jpg",
-      "image_cdn": {
-        "TATAPLAY": "https://images.fancode.com/aig/match/v1/139365_CASACARDS_PARTNER_16_9_1920_1080.png",
-        "APP": "https://www.fancode.com/skillup-uploads/cms-media/F1_Australia_web.jpg",
-        "PLAYBACK": "https://www.fancode.com/skillup-uploads/cms-media/F1_Australia_web.jpg",
-        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/Australia.jpg",
-        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Default_F1-racing.jpg",
-        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/F1_Australia_web.jpg",
-        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/F1_Australia_Old-sporty.jpg",
-        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/139365_CASACARDS_PARTNER_16_9_1920_1080.png"
-      },
-      "team": [
-        {
-          "name": "Race",
-          "shortName": "RC",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/f1-flags/FC-FR5@2x.png"
-          },
-          "isWinner": null,
-          "color": "#EE0000",
-          "cricketScore": null,
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        },
-        {
-          "name": "Australia",
-          "shortName": "Australia",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/f1-flags/FC-LOT@2x.png"
-          },
-          "isWinner": null,
-          "color": "#141414",
-          "cricketScore": null,
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        }
-      ],
-      "language": "ENGLISH",
-      "auto_streams": [
-        {
-          "auto": "#EXTM3U\n#EXT-X-VERSION:3\n#EXT-X-STREAM-INF:BANDWIDTH=414232,AVERAGE-BANDWIDTH=414232,CODECS=\"avc1.42e015,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=426x240,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/139365_english_hls_95cc02bb6011120_1ta-di_h264/240p.m3u8?hdntl=Expires=1773021493~_GO=Generated~acl=/mumbai/139365_english_hls_95cc02bb6011120_1ta-di_h264/*~Signature=AQQqLwRv6rE1NhU0qqOMTtrNYy8a-6fLxU0F2mokajZTAWma-KeHNfTBFVWPGPpDtYlQwl4e5CgcV40wK3i41O8RDMAD\n#EXT-X-STREAM-INF:BANDWIDTH=669672,AVERAGE-BANDWIDTH=669672,CODECS=\"avc1.42e01e,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=640x360,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/139365_english_hls_95cc02bb6011120_1ta-di_h264/360p.m3u8?hdntl=Expires=1773021493~_GO=Generated~acl=/mumbai/139365_english_hls_95cc02bb6011120_1ta-di_h264/*~Signature=AQQqLwRv6rE1NhU0qqOMTtrNYy8a-6fLxU0F2mokajZTAWma-KeHNfTBFVWPGPpDtYlQwl4e5CgcV40wK3i41O8RDMAD\n#EXT-X-STREAM-INF:BANDWIDTH=990520,AVERAGE-BANDWIDTH=990520,CODECS=\"avc1.4d401e,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=854x480,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/139365_english_hls_95cc02bb6011120_1ta-di_h264/480p.m3u8?hdntl=Expires=1773021493~_GO=Generated~acl=/mumbai/139365_english_hls_95cc02bb6011120_1ta-di_h264/*~Signature=AQQqLwRv6rE1NhU0qqOMTtrNYy8a-6fLxU0F2mokajZTAWma-KeHNfTBFVWPGPpDtYlQwl4e5CgcV40wK3i41O8RDMAD\n#EXT-X-STREAM-INF:BANDWIDTH=1245960,AVERAGE-BANDWIDTH=1245960,CODECS=\"avc1.4d401f,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=960x540,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/139365_english_hls_95cc02bb6011120_1ta-di_h264/540p.m3u8?hdntl=Expires=1773021493~_GO=Generated~acl=/mumbai/139365_english_hls_95cc02bb6011120_1ta-di_h264/*~Signature=AQQqLwRv6rE1NhU0qqOMTtrNYy8a-6fLxU0F2mokajZTAWma-KeHNfTBFVWPGPpDtYlQwl4e5CgcV40wK3i41O8RDMAD\n#EXT-X-STREAM-INF:BANDWIDTH=1756808,AVERAGE-BANDWIDTH=1756808,CODECS=\"avc1.64001f,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1280x720,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/139365_english_hls_95cc02bb6011120_1ta-di_h264/720p.m3u8?hdntl=Expires=1773021493~_GO=Generated~acl=/mumbai/139365_english_hls_95cc02bb6011120_1ta-di_h264/*~Signature=AQQqLwRv6rE1NhU0qqOMTtrNYy8a-6fLxU0F2mokajZTAWma-KeHNfTBFVWPGPpDtYlQwl4e5CgcV40wK3i41O8RDMAD\n#EXT-X-STREAM-INF:BANDWIDTH=3289416,AVERAGE-BANDWIDTH=3289416,CODECS=\"avc1.640028,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1920x1080,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/139365_english_hls_95cc02bb6011120_1ta-di_h264/1080p.m3u8?hdntl=Expires=1773021493~_GO=Generated~acl=/mumbai/139365_english_hls_95cc02bb6011120_1ta-di_h264/*~Signature=AQQqLwRv6rE1NhU0qqOMTtrNYy8a-6fLxU0F2mokajZTAWma-KeHNfTBFVWPGPpDtYlQwl4e5CgcV40wK3i41O8RDMAD\n#EXT-X-STREAM-INF:BANDWIDTH=5376032,AVERAGE-BANDWIDTH=5376032,CODECS=\"avc1.64002a,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1920x1080,FRAME-RATE=50.000\nhttps://in-mc-flive.fancode.com/mumbai/139365_english_hls_95cc02bb6011120_1ta-di_h264/1080p5.m3u8?hdntl=Expires=1773021493~_GO=Generated~acl=/mumbai/139365_english_hls_95cc02bb6011120_1ta-di_h264/*~Signature=AQQqLwRv6rE1NhU0qqOMTtrNYy8a-6fLxU0F2mokajZTAWma-KeHNfTBFVWPGPpDtYlQwl4e5CgcV40wK3i41O8RDMAD",
-          "cookie_valid": "1773021493",
-          "expire_date": "Monday, March 9, 2026, 7:28:13 AM",
-          "language": "ENGLISH"
-        }
-      ]
-    },
-    {
-      "category": "Formula 1",
-      "title": "Race",
-      "tournament": "F1 QATAR AIRWAYS AUSTRALIAN GRAND PRIX 2026",
-      "match_id": 139365,
-      "status": "LIVE",
-      "streamingStatus": "STARTED",
-      "startTime": "08 March 2026 09:30 AM",
-      "startDate": "01 January 1970 05:30 AM",
-      "image": "https://www.fancode.com/skillup-uploads/cms-media/F1_Australia_web.jpg",
-      "image_cdn": {
-        "TATAPLAY": "https://images.fancode.com/aig/match/v1/139365_CASACARDS_PARTNER_16_9_1920_1080.png",
-        "APP": "https://www.fancode.com/skillup-uploads/cms-media/F1_Australia_web.jpg",
-        "PLAYBACK": "https://www.fancode.com/skillup-uploads/cms-media/F1_Australia_web.jpg",
-        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/Australia.jpg",
-        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Default_F1-racing.jpg",
-        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/F1_Australia_web.jpg",
-        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/F1_Australia_Old-sporty.jpg",
-        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/139365_CASACARDS_PARTNER_16_9_1920_1080.png"
-      },
-      "team": [
-        {
-          "name": "Race",
-          "shortName": "RC",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/f1-flags/FC-FR5@2x.png"
-          },
-          "isWinner": null,
-          "color": "#EE0000",
-          "cricketScore": null,
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        },
-        {
-          "name": "Australia",
-          "shortName": "Australia",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/f1-flags/FC-LOT@2x.png"
-          },
-          "isWinner": null,
-          "color": "#141414",
-          "cricketScore": null,
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        }
-      ],
-      "language": "HINDI",
-      "auto_streams": [
-        {
-          "auto": "#EXTM3U\n#EXT-X-VERSION:3\n#EXT-X-STREAM-INF:BANDWIDTH=414232,AVERAGE-BANDWIDTH=414232,CODECS=\"avc1.42e015,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=426x240,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/139365_hindi_hls_37ac170b8953312_1ta-di_h264/240p.m3u8?hdntl=Expires=1773021494~_GO=Generated~acl=/mumbai/139365_hindi_hls_37ac170b8953312_1ta-di_h264/*~Signature=AQQqLwRwl8i7LQGaeN6eLBUhqkylDBL0UqY6XI5uGviRiGn8rpwaUIY8k7zWJgzzSvVtvHOKWRg4JFGXQtTdL62K6pcH\n#EXT-X-STREAM-INF:BANDWIDTH=669672,AVERAGE-BANDWIDTH=669672,CODECS=\"avc1.42e01e,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=640x360,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/139365_hindi_hls_37ac170b8953312_1ta-di_h264/360p.m3u8?hdntl=Expires=1773021494~_GO=Generated~acl=/mumbai/139365_hindi_hls_37ac170b8953312_1ta-di_h264/*~Signature=AQQqLwRwl8i7LQGaeN6eLBUhqkylDBL0UqY6XI5uGviRiGn8rpwaUIY8k7zWJgzzSvVtvHOKWRg4JFGXQtTdL62K6pcH\n#EXT-X-STREAM-INF:BANDWIDTH=990520,AVERAGE-BANDWIDTH=990520,CODECS=\"avc1.4d401e,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=854x480,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/139365_hindi_hls_37ac170b8953312_1ta-di_h264/480p.m3u8?hdntl=Expires=1773021494~_GO=Generated~acl=/mumbai/139365_hindi_hls_37ac170b8953312_1ta-di_h264/*~Signature=AQQqLwRwl8i7LQGaeN6eLBUhqkylDBL0UqY6XI5uGviRiGn8rpwaUIY8k7zWJgzzSvVtvHOKWRg4JFGXQtTdL62K6pcH\n#EXT-X-STREAM-INF:BANDWIDTH=1245960,AVERAGE-BANDWIDTH=1245960,CODECS=\"avc1.4d401f,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=960x540,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/139365_hindi_hls_37ac170b8953312_1ta-di_h264/540p.m3u8?hdntl=Expires=1773021494~_GO=Generated~acl=/mumbai/139365_hindi_hls_37ac170b8953312_1ta-di_h264/*~Signature=AQQqLwRwl8i7LQGaeN6eLBUhqkylDBL0UqY6XI5uGviRiGn8rpwaUIY8k7zWJgzzSvVtvHOKWRg4JFGXQtTdL62K6pcH\n#EXT-X-STREAM-INF:BANDWIDTH=1756808,AVERAGE-BANDWIDTH=1756808,CODECS=\"avc1.64001f,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1280x720,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/139365_hindi_hls_37ac170b8953312_1ta-di_h264/720p.m3u8?hdntl=Expires=1773021494~_GO=Generated~acl=/mumbai/139365_hindi_hls_37ac170b8953312_1ta-di_h264/*~Signature=AQQqLwRwl8i7LQGaeN6eLBUhqkylDBL0UqY6XI5uGviRiGn8rpwaUIY8k7zWJgzzSvVtvHOKWRg4JFGXQtTdL62K6pcH\n#EXT-X-STREAM-INF:BANDWIDTH=3289416,AVERAGE-BANDWIDTH=3289416,CODECS=\"avc1.640028,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1920x1080,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/139365_hindi_hls_37ac170b8953312_1ta-di_h264/1080p.m3u8?hdntl=Expires=1773021494~_GO=Generated~acl=/mumbai/139365_hindi_hls_37ac170b8953312_1ta-di_h264/*~Signature=AQQqLwRwl8i7LQGaeN6eLBUhqkylDBL0UqY6XI5uGviRiGn8rpwaUIY8k7zWJgzzSvVtvHOKWRg4JFGXQtTdL62K6pcH\n#EXT-X-STREAM-INF:BANDWIDTH=5376032,AVERAGE-BANDWIDTH=5376032,CODECS=\"avc1.64002a,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1920x1080,FRAME-RATE=50.000\nhttps://in-mc-flive.fancode.com/mumbai/139365_hindi_hls_37ac170b8953312_1ta-di_h264/1080p5.m3u8?hdntl=Expires=1773021494~_GO=Generated~acl=/mumbai/139365_hindi_hls_37ac170b8953312_1ta-di_h264/*~Signature=AQQqLwRwl8i7LQGaeN6eLBUhqkylDBL0UqY6XI5uGviRiGn8rpwaUIY8k7zWJgzzSvVtvHOKWRg4JFGXQtTdL62K6pcH",
-          "cookie_valid": "1773021494",
-          "expire_date": "Monday, March 9, 2026, 7:28:14 AM",
-          "language": "HINDI"
-        }
-      ]
-    },
-    {
-      "category": "Formula 1",
-      "title": "Race",
-      "tournament": "F1 QATAR AIRWAYS AUSTRALIAN GRAND PRIX 2026",
-      "match_id": 139365,
-      "status": "LIVE",
-      "streamingStatus": "STARTED",
-      "startTime": "08 March 2026 09:30 AM",
-      "startDate": "01 January 1970 05:30 AM",
-      "image": "https://www.fancode.com/skillup-uploads/cms-media/F1_Australia_web.jpg",
-      "image_cdn": {
-        "TATAPLAY": "https://images.fancode.com/aig/match/v1/139365_CASACARDS_PARTNER_16_9_1920_1080.png",
-        "APP": "https://www.fancode.com/skillup-uploads/cms-media/F1_Australia_web.jpg",
-        "PLAYBACK": "https://www.fancode.com/skillup-uploads/cms-media/F1_Australia_web.jpg",
-        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/Australia.jpg",
-        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Default_F1-racing.jpg",
-        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/F1_Australia_web.jpg",
-        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/F1_Australia_Old-sporty.jpg",
-        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/139365_CASACARDS_PARTNER_16_9_1920_1080.png"
-      },
-      "team": [
-        {
-          "name": "Race",
-          "shortName": "RC",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/f1-flags/FC-FR5@2x.png"
-          },
-          "isWinner": null,
-          "color": "#EE0000",
-          "cricketScore": null,
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        },
-        {
-          "name": "Australia",
-          "shortName": "Australia",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/f1-flags/FC-LOT@2x.png"
-          },
-          "isWinner": null,
-          "color": "#141414",
-          "cricketScore": null,
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        }
-      ],
-      "language": "TAMIL",
-      "auto_streams": [
-        {
-          "auto": "#EXTM3U\n#EXT-X-VERSION:3\n#EXT-X-STREAM-INF:BANDWIDTH=414232,AVERAGE-BANDWIDTH=414232,CODECS=\"avc1.42e015,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=426x240,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/139365_tamil_hls_eb1e6bbd7b10315_1ta-di_h264/240p.m3u8?hdntl=Expires=1773021495~_GO=Generated~acl=/mumbai/139365_tamil_hls_eb1e6bbd7b10315_1ta-di_h264/*~Signature=AQQqLwT9WkdZCK2Q-sSMFRlhJ1XPtL73BySgYvLX0wsYU6G7_1YnMDPiZXwMK6yvVr8k7z6cNEIzpvBABvaCeoPe8HsP\n#EXT-X-STREAM-INF:BANDWIDTH=669672,AVERAGE-BANDWIDTH=669672,CODECS=\"avc1.42e01e,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=640x360,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/139365_tamil_hls_eb1e6bbd7b10315_1ta-di_h264/360p.m3u8?hdntl=Expires=1773021495~_GO=Generated~acl=/mumbai/139365_tamil_hls_eb1e6bbd7b10315_1ta-di_h264/*~Signature=AQQqLwT9WkdZCK2Q-sSMFRlhJ1XPtL73BySgYvLX0wsYU6G7_1YnMDPiZXwMK6yvVr8k7z6cNEIzpvBABvaCeoPe8HsP\n#EXT-X-STREAM-INF:BANDWIDTH=990520,AVERAGE-BANDWIDTH=990520,CODECS=\"avc1.4d401e,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=854x480,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/139365_tamil_hls_eb1e6bbd7b10315_1ta-di_h264/480p.m3u8?hdntl=Expires=1773021495~_GO=Generated~acl=/mumbai/139365_tamil_hls_eb1e6bbd7b10315_1ta-di_h264/*~Signature=AQQqLwT9WkdZCK2Q-sSMFRlhJ1XPtL73BySgYvLX0wsYU6G7_1YnMDPiZXwMK6yvVr8k7z6cNEIzpvBABvaCeoPe8HsP\n#EXT-X-STREAM-INF:BANDWIDTH=1245960,AVERAGE-BANDWIDTH=1245960,CODECS=\"avc1.4d401f,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=960x540,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/139365_tamil_hls_eb1e6bbd7b10315_1ta-di_h264/540p.m3u8?hdntl=Expires=1773021495~_GO=Generated~acl=/mumbai/139365_tamil_hls_eb1e6bbd7b10315_1ta-di_h264/*~Signature=AQQqLwT9WkdZCK2Q-sSMFRlhJ1XPtL73BySgYvLX0wsYU6G7_1YnMDPiZXwMK6yvVr8k7z6cNEIzpvBABvaCeoPe8HsP\n#EXT-X-STREAM-INF:BANDWIDTH=1756808,AVERAGE-BANDWIDTH=1756808,CODECS=\"avc1.64001f,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1280x720,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/139365_tamil_hls_eb1e6bbd7b10315_1ta-di_h264/720p.m3u8?hdntl=Expires=1773021495~_GO=Generated~acl=/mumbai/139365_tamil_hls_eb1e6bbd7b10315_1ta-di_h264/*~Signature=AQQqLwT9WkdZCK2Q-sSMFRlhJ1XPtL73BySgYvLX0wsYU6G7_1YnMDPiZXwMK6yvVr8k7z6cNEIzpvBABvaCeoPe8HsP\n#EXT-X-STREAM-INF:BANDWIDTH=3289416,AVERAGE-BANDWIDTH=3289416,CODECS=\"avc1.640028,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1920x1080,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/139365_tamil_hls_eb1e6bbd7b10315_1ta-di_h264/1080p.m3u8?hdntl=Expires=1773021495~_GO=Generated~acl=/mumbai/139365_tamil_hls_eb1e6bbd7b10315_1ta-di_h264/*~Signature=AQQqLwT9WkdZCK2Q-sSMFRlhJ1XPtL73BySgYvLX0wsYU6G7_1YnMDPiZXwMK6yvVr8k7z6cNEIzpvBABvaCeoPe8HsP\n#EXT-X-STREAM-INF:BANDWIDTH=5376032,AVERAGE-BANDWIDTH=5376032,CODECS=\"avc1.64002a,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1920x1080,FRAME-RATE=50.000\nhttps://in-mc-flive.fancode.com/mumbai/139365_tamil_hls_eb1e6bbd7b10315_1ta-di_h264/1080p5.m3u8?hdntl=Expires=1773021495~_GO=Generated~acl=/mumbai/139365_tamil_hls_eb1e6bbd7b10315_1ta-di_h264/*~Signature=AQQqLwT9WkdZCK2Q-sSMFRlhJ1XPtL73BySgYvLX0wsYU6G7_1YnMDPiZXwMK6yvVr8k7z6cNEIzpvBABvaCeoPe8HsP",
-          "cookie_valid": "1773021495",
-          "expire_date": "Monday, March 9, 2026, 7:28:15 AM",
-          "language": "TAMIL"
         }
       ]
     },
@@ -2112,7 +2112,7 @@
           },
           "isWinner": null,
           "color": "#c88730",
-          "cricketScore": null,
+          "cricketScore": [],
           "kabaddiScore": null,
           "footballScore": null,
           "basketBallScore": null,
@@ -2131,7 +2131,7 @@
           },
           "isWinner": null,
           "color": "#d19814",
-          "cricketScore": null,
+          "cricketScore": [],
           "kabaddiScore": null,
           "footballScore": null,
           "basketBallScore": null,
