@@ -1,14 +1,14 @@
 {
   "Author": "DOCTOR_STRANGE",
   "name": "FanCode Live Matches API",
-  "last_updated": "01:04:16 PM 09-03-2026",
+  "last_updated": "01:56:01 PM 09-03-2026",
   "headers": {
     "User-Agent": "ReactNativeVideo/9.3.0 (Linux;Android 13) AndroidXMedia3/1.6.1",
     "Referer": "https://fancode.com/"
   },
   "total_matches": 38,
-  "live_matches": 0,
-  "upcoming_matches": 38,
+  "live_matches": 1,
+  "upcoming_matches": 37,
   "matches": [
     {
       "category": "Cricket",
@@ -16,14 +16,14 @@
       "tournament": "Tillo Cup 2026",
       "match_id": 141260,
       "status": "NOT_STARTED",
-      "streamingStatus": "NOT_STARTED",
+      "streamingStatus": "STARTED",
       "startTime": "09 March 2026 01:30 PM",
       "startDate": "01 January 1970 05:30 AM",
       "image": "https://www.fancode.com/skillup-uploads/cms-media/Tillo-Cup-2026-old-card-.jpg",
       "image_cdn": {
         "TATAPLAY": "https://images.fancode.com/aig/match/v1/141260_CASACARDS_PARTNER_16_9_1920_1080.png",
         "APP": "https://www.fancode.com/skillup-uploads/cms-media/Tillo-Cup-2026-old-card-.jpg",
-        "PLAYBACK": null,
+        "PLAYBACK": "https://www.fancode.com/skillup-uploads/cms-media/Tillo-Cup-2026-old-card-.jpg",
         "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/Tillo-Cup.png",
         "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_cricket-old.jpg",
         "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/Tillo-Cup-2026-old-card-.jpg",
@@ -39,14 +39,22 @@
           },
           "isWinner": null,
           "color": "#0199c2",
-          "cricketScore": [],
+          "cricketScore": [
+            {
+              "runs": 0,
+              "overs": "0",
+              "balls": "0",
+              "status": "IN_PROGRESS",
+              "wickets": 0
+            }
+          ],
           "kabaddiScore": null,
           "footballScore": null,
           "basketBallScore": null,
           "hockeyScore": null,
           "status": {
             "cricket": {
-              "isBatting": false
+              "isBatting": true
             }
           }
         },
@@ -59,6 +67,139 @@
           "isWinner": null,
           "color": "#d05b3d",
           "cricketScore": [],
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        }
+      ],
+      "language": "ENGLISH",
+      "auto_streams": [
+        {
+          "auto": "#EXTM3U\n#EXT-X-VERSION:3\n#EXT-X-STREAM-INF:BANDWIDTH=446936,AVERAGE-BANDWIDTH=446936,CODECS=\"avc1.42e015,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=426x240,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/141260_english_hls_a68afe693847767_1ta-di_h264/240p.m3u8?hdntl=Expires=1773129067~_GO=Generated~acl=/mumbai/141260_english_hls_a68afe693847767_1ta-di_h264/*~Signature=AQQqLwSJQIl0YS--YUj7yPb0uIOacr_J-66_Nb2_pWXEW7gyWHG1ENdyImCdXUmpCbmQ8bvMn6ki3ynbKHrx69N6wBgD\n#EXT-X-STREAM-INF:BANDWIDTH=702376,AVERAGE-BANDWIDTH=702376,CODECS=\"avc1.42e01e,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=640x360,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/141260_english_hls_a68afe693847767_1ta-di_h264/360p.m3u8?hdntl=Expires=1773129067~_GO=Generated~acl=/mumbai/141260_english_hls_a68afe693847767_1ta-di_h264/*~Signature=AQQqLwSJQIl0YS--YUj7yPb0uIOacr_J-66_Nb2_pWXEW7gyWHG1ENdyImCdXUmpCbmQ8bvMn6ki3ynbKHrx69N6wBgD\n#EXT-X-STREAM-INF:BANDWIDTH=1023224,AVERAGE-BANDWIDTH=1023224,CODECS=\"avc1.4d401e,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=854x480,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/141260_english_hls_a68afe693847767_1ta-di_h264/480p.m3u8?hdntl=Expires=1773129067~_GO=Generated~acl=/mumbai/141260_english_hls_a68afe693847767_1ta-di_h264/*~Signature=AQQqLwSJQIl0YS--YUj7yPb0uIOacr_J-66_Nb2_pWXEW7gyWHG1ENdyImCdXUmpCbmQ8bvMn6ki3ynbKHrx69N6wBgD\n#EXT-X-STREAM-INF:BANDWIDTH=1278664,AVERAGE-BANDWIDTH=1278664,CODECS=\"avc1.4d401f,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=960x540,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/141260_english_hls_a68afe693847767_1ta-di_h264/540p.m3u8?hdntl=Expires=1773129067~_GO=Generated~acl=/mumbai/141260_english_hls_a68afe693847767_1ta-di_h264/*~Signature=AQQqLwSJQIl0YS--YUj7yPb0uIOacr_J-66_Nb2_pWXEW7gyWHG1ENdyImCdXUmpCbmQ8bvMn6ki3ynbKHrx69N6wBgD\n#EXT-X-STREAM-INF:BANDWIDTH=1789512,AVERAGE-BANDWIDTH=1789512,CODECS=\"avc1.64001f,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1280x720,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/141260_english_hls_a68afe693847767_1ta-di_h264/720p.m3u8?hdntl=Expires=1773129067~_GO=Generated~acl=/mumbai/141260_english_hls_a68afe693847767_1ta-di_h264/*~Signature=AQQqLwSJQIl0YS--YUj7yPb0uIOacr_J-66_Nb2_pWXEW7gyWHG1ENdyImCdXUmpCbmQ8bvMn6ki3ynbKHrx69N6wBgD\n#EXT-X-STREAM-INF:BANDWIDTH=3322120,AVERAGE-BANDWIDTH=3322120,CODECS=\"avc1.640028,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1920x1080,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/141260_english_hls_a68afe693847767_1ta-di_h264/1080p.m3u8?hdntl=Expires=1773129067~_GO=Generated~acl=/mumbai/141260_english_hls_a68afe693847767_1ta-di_h264/*~Signature=AQQqLwSJQIl0YS--YUj7yPb0uIOacr_J-66_Nb2_pWXEW7gyWHG1ENdyImCdXUmpCbmQ8bvMn6ki3ynbKHrx69N6wBgD",
+          "cookie_valid": "1773129067",
+          "expire_date": "Tuesday, March 10, 2026, 1:21:07 PM",
+          "language": "ENGLISH"
+        }
+      ]
+    },
+    {
+      "category": "Football",
+      "title": "Dpr Korea Women Vs China Pr Women",
+      "tournament": "AFC Women's Asian Cup, 2026",
+      "match_id": 140808,
+      "status": "NOT_STARTED",
+      "streamingStatus": "NOT_STARTED",
+      "startTime": "09 March 2026 02:30 PM",
+      "startDate": "01 January 1970 05:30 AM",
+      "image": "https://www.fancode.com/skillup-uploads/cms-media/140808_5979_NK-W_CHN-W_fc-Web_1772191702175.jpg",
+      "image_cdn": {
+        "TATAPLAY": "https://images.fancode.com/aig/match/v1/140808_CASACARDS_PARTNER_16_9_1920_1080.png",
+        "APP": "https://www.fancode.com/skillup-uploads/cms-media/140808_5979_NK-W_CHN-W_fc-Web_1772191702175.jpg",
+        "PLAYBACK": null,
+        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/AFC_1772615510258.png",
+        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Football-old-copy.jpg",
+        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/140808_5979_NK-W_CHN-W_fc-Web_1772191702175.jpg",
+        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/140808_5979_NK-W_CHN-W_fc-App.jpg",
+        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/140808_CASACARDS_PARTNER_16_9_1920_1080.png"
+      },
+      "team": [
+        {
+          "name": "DPR Korea Women",
+          "shortName": "NK-W",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-NK@2x.png"
+          },
+          "isWinner": null,
+          "color": "#39b11c",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        },
+        {
+          "name": "China PR Women",
+          "shortName": "CHN-W",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-CHN@2x.png"
+          },
+          "isWinner": null,
+          "color": "#FF2D0E",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        }
+      ],
+      "language": "BLOODY_SWEET",
+      "auto_streams": null
+    },
+    {
+      "category": "Football",
+      "title": "Bangladesh Women Vs Uzbekistan Women",
+      "tournament": "AFC Women's Asian Cup, 2026",
+      "match_id": 140809,
+      "status": "NOT_STARTED",
+      "streamingStatus": "NOT_STARTED",
+      "startTime": "09 March 2026 02:30 PM",
+      "startDate": "01 January 1970 05:30 AM",
+      "image": "https://www.fancode.com/skillup-uploads/cms-media/140809_5979_BDW_UB-W_fc-Web_1772191702984.jpg",
+      "image_cdn": {
+        "TATAPLAY": "https://images.fancode.com/aig/match/v1/140809_CASACARDS_PARTNER_16_9_1920_1080.png",
+        "APP": "https://www.fancode.com/skillup-uploads/cms-media/140809_5979_BDW_UB-W_fc-Web_1772191702984.jpg",
+        "PLAYBACK": null,
+        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/AFC_1772615510258.png",
+        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Football-old-copy.jpg",
+        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/140809_5979_BDW_UB-W_fc-Web_1772191702984.jpg",
+        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/140809_5979_BDW_UB-W_fc-App.jpg",
+        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/140809_CASACARDS_PARTNER_16_9_1920_1080.png"
+      },
+      "team": [
+        {
+          "name": "Bangladesh Women",
+          "shortName": "BDW",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-BAN@2x.png"
+          },
+          "isWinner": null,
+          "color": "#054466",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        },
+        {
+          "name": "Uzbekistan Women",
+          "shortName": "UB-W",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-UB@2x.png"
+          },
+          "isWinner": null,
+          "color": "#2a83e3",
+          "cricketScore": null,
           "kabaddiScore": null,
           "footballScore": null,
           "basketBallScore": null,
@@ -326,35 +467,35 @@
       "auto_streams": null
     },
     {
-      "category": "Football",
-      "title": "Dpr Korea Women Vs China Pr Women",
-      "tournament": "AFC Women's Asian Cup, 2026",
-      "match_id": 140808,
+      "category": "Cricket",
+      "title": "Vtca Nagpur Vs Ncc Odisha",
+      "tournament": "Tillo Cup 2026",
+      "match_id": 141261,
       "status": "NOT_STARTED",
       "streamingStatus": "NOT_STARTED",
-      "startTime": "09 March 2026 02:30 PM",
+      "startTime": "10 March 2026 09:30 AM",
       "startDate": "01 January 1970 05:30 AM",
-      "image": "https://www.fancode.com/skillup-uploads/cms-media/140808_5979_NK-W_CHN-W_fc-Web_1772191702175.jpg",
+      "image": "https://www.fancode.com/skillup-uploads/cms-media/Tillo-Cup-2026-old-card-.jpg",
       "image_cdn": {
-        "TATAPLAY": "https://images.fancode.com/aig/match/v1/140808_CASACARDS_PARTNER_16_9_1920_1080.png",
-        "APP": "https://www.fancode.com/skillup-uploads/cms-media/140808_5979_NK-W_CHN-W_fc-Web_1772191702175.jpg",
+        "TATAPLAY": "https://images.fancode.com/aig/match/v1/141261_CASACARDS_PARTNER_16_9_1920_1080.png",
+        "APP": "https://www.fancode.com/skillup-uploads/cms-media/Tillo-Cup-2026-old-card-.jpg",
         "PLAYBACK": null,
-        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/AFC_1772615510258.png",
-        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Football-old-copy.jpg",
-        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/140808_5979_NK-W_CHN-W_fc-Web_1772191702175.jpg",
-        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/140808_5979_NK-W_CHN-W_fc-App.jpg",
-        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/140808_CASACARDS_PARTNER_16_9_1920_1080.png"
+        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/Tillo-Cup.png",
+        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_cricket-old.jpg",
+        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/Tillo-Cup-2026-old-card-.jpg",
+        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/Tillo-Cup-2026-Sporty-.jpg",
+        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/141261_CASACARDS_PARTNER_16_9_1920_1080.png"
       },
       "team": [
         {
-          "name": "DPR Korea Women",
-          "shortName": "NK-W",
+          "name": "VTCA Nagpur",
+          "shortName": "VTC",
           "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-NK@2x.png"
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-VTC@2x.png"
           },
           "isWinner": null,
-          "color": "#39b11c",
-          "cricketScore": null,
+          "color": "#086fe2",
+          "cricketScore": [],
           "kabaddiScore": null,
           "footballScore": null,
           "basketBallScore": null,
@@ -366,77 +507,14 @@
           }
         },
         {
-          "name": "China PR Women",
-          "shortName": "CHN-W",
+          "name": "NCC Odisha",
+          "shortName": "NOD",
           "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-CHN@2x.png"
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-NOD@2x.png"
           },
           "isWinner": null,
-          "color": "#FF2D0E",
-          "cricketScore": null,
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        }
-      ],
-      "language": "BLOODY_SWEET",
-      "auto_streams": null
-    },
-    {
-      "category": "Football",
-      "title": "Bangladesh Women Vs Uzbekistan Women",
-      "tournament": "AFC Women's Asian Cup, 2026",
-      "match_id": 140809,
-      "status": "NOT_STARTED",
-      "streamingStatus": "NOT_STARTED",
-      "startTime": "09 March 2026 02:30 PM",
-      "startDate": "01 January 1970 05:30 AM",
-      "image": "https://www.fancode.com/skillup-uploads/cms-media/140809_5979_BDW_UB-W_fc-Web_1772191702984.jpg",
-      "image_cdn": {
-        "TATAPLAY": "https://images.fancode.com/aig/match/v1/140809_CASACARDS_PARTNER_16_9_1920_1080.png",
-        "APP": "https://www.fancode.com/skillup-uploads/cms-media/140809_5979_BDW_UB-W_fc-Web_1772191702984.jpg",
-        "PLAYBACK": null,
-        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/AFC_1772615510258.png",
-        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Football-old-copy.jpg",
-        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/140809_5979_BDW_UB-W_fc-Web_1772191702984.jpg",
-        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/140809_5979_BDW_UB-W_fc-App.jpg",
-        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/140809_CASACARDS_PARTNER_16_9_1920_1080.png"
-      },
-      "team": [
-        {
-          "name": "Bangladesh Women",
-          "shortName": "BDW",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-BAN@2x.png"
-          },
-          "isWinner": null,
-          "color": "#054466",
-          "cricketScore": null,
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        },
-        {
-          "name": "Uzbekistan Women",
-          "shortName": "UB-W",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-UB@2x.png"
-          },
-          "isWinner": null,
-          "color": "#2a83e3",
-          "cricketScore": null,
+          "color": "#064290",
+          "cricketScore": [],
           "kabaddiScore": null,
           "footballScore": null,
           "basketBallScore": null,
@@ -500,69 +578,6 @@
           "isWinner": null,
           "color": "#614800",
           "cricketScore": null,
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        }
-      ],
-      "language": "BLOODY_SWEET",
-      "auto_streams": null
-    },
-    {
-      "category": "Cricket",
-      "title": "Vtca Nagpur Vs Ncc Odisha",
-      "tournament": "Tillo Cup 2026",
-      "match_id": 141261,
-      "status": "NOT_STARTED",
-      "streamingStatus": "NOT_STARTED",
-      "startTime": "10 March 2026 09:30 AM",
-      "startDate": "01 January 1970 05:30 AM",
-      "image": "https://www.fancode.com/skillup-uploads/cms-media/Tillo-Cup-2026-old-card-.jpg",
-      "image_cdn": {
-        "TATAPLAY": "https://images.fancode.com/aig/match/v1/141261_CASACARDS_PARTNER_16_9_1920_1080.png",
-        "APP": "https://www.fancode.com/skillup-uploads/cms-media/Tillo-Cup-2026-old-card-.jpg",
-        "PLAYBACK": null,
-        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/Tillo-Cup.png",
-        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_cricket-old.jpg",
-        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/Tillo-Cup-2026-old-card-.jpg",
-        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/Tillo-Cup-2026-Sporty-.jpg",
-        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/141261_CASACARDS_PARTNER_16_9_1920_1080.png"
-      },
-      "team": [
-        {
-          "name": "VTCA Nagpur",
-          "shortName": "VTC",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-VTC@2x.png"
-          },
-          "isWinner": null,
-          "color": "#086fe2",
-          "cricketScore": [],
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        },
-        {
-          "name": "NCC Odisha",
-          "shortName": "NOD",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-NOD@2x.png"
-          },
-          "isWinner": null,
-          "color": "#064290",
-          "cricketScore": [],
           "kabaddiScore": null,
           "footballScore": null,
           "basketBallScore": null,
@@ -795,7 +810,7 @@
           },
           "isWinner": null,
           "color": "#b7544e",
-          "cricketScore": null,
+          "cricketScore": [],
           "kabaddiScore": null,
           "footballScore": null,
           "basketBallScore": null,
@@ -814,7 +829,7 @@
           },
           "isWinner": null,
           "color": "#1d1883",
-          "cricketScore": null,
+          "cricketScore": [],
           "kabaddiScore": null,
           "footballScore": null,
           "basketBallScore": null,
