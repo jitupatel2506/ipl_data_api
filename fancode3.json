@@ -1,14 +1,14 @@
 {
   "Author": "DOCTOR_STRANGE",
   "name": "FanCode Live Matches API",
-  "last_updated": "09:35:01 PM 09-03-2026",
+  "last_updated": "10:28:03 PM 09-03-2026",
   "headers": {
     "User-Agent": "ReactNativeVideo/9.3.0 (Linux;Android 13) AndroidXMedia3/1.6.1",
     "Referer": "https://fancode.com/"
   },
-  "total_matches": 41,
-  "live_matches": 2,
-  "upcoming_matches": 39,
+  "total_matches": 38,
+  "live_matches": 1,
+  "upcoming_matches": 37,
   "matches": [
     {
       "category": "Cricket",
@@ -44,7 +44,7 @@
               "runs": 129,
               "overs": "20",
               "balls": "120",
-              "status": "IN_PROGRESS",
+              "status": "COMPLETED",
               "wickets": 9
             }
           ],
@@ -54,7 +54,7 @@
           "hockeyScore": null,
           "status": {
             "cricket": {
-              "isBatting": true
+              "isBatting": false
             }
           }
         },
@@ -66,14 +66,22 @@
           },
           "isWinner": null,
           "color": "#FFFFFF",
-          "cricketScore": [],
+          "cricketScore": [
+            {
+              "runs": 70,
+              "overs": "10.4",
+              "balls": "64",
+              "status": "IN_PROGRESS",
+              "wickets": 3
+            }
+          ],
           "kabaddiScore": null,
           "footballScore": null,
           "basketBallScore": null,
           "hockeyScore": null,
           "status": {
             "cricket": {
-              "isBatting": false
+              "isBatting": true
             }
           }
         }
@@ -85,366 +93,6 @@
           "cookie_valid": "1773152345",
           "expire_date": "Tuesday, March 10, 2026, 7:49:05 PM",
           "language": "ENGLISH"
-        }
-      ]
-    },
-    {
-      "category": "Football",
-      "title": "Punjab Fc Vs Northeast United Fc",
-      "tournament": "ISL 2025-26",
-      "match_id": 140458,
-      "status": "COMPLETED",
-      "streamingStatus": "STARTED",
-      "startTime": "09 March 2026 07:30 PM",
-      "startDate": "01 January 1970 05:30 AM",
-      "image": "https://www.fancode.com/skillup-uploads/cms-media/140458_5956_PFC_NEUFC_FC-Web_1772450979384.jpg",
-      "image_cdn": {
-        "TATAPLAY": "https://images.fancode.com/aig/match/v1/140458_CASACARDS_PARTNER_16_9_1920_1080.png",
-        "APP": "https://www.fancode.com/skillup-uploads/cms-media/140458_5956_PFC_NEUFC_FC-Web_1772450979384.jpg",
-        "PLAYBACK": "https://www.fancode.com/skillup-uploads/cms-media/140458_5956_PFC_NEUFC_FC-Web_1772450979384.jpg",
-        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/ISL-Tour-Logo.png",
-        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Football-old-copy.jpg",
-        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/140458_5956_PFC_NEUFC_FC-Web_1772450979384.jpg",
-        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/140458_5956_PFC_NEUFC_FC-App_1772450967216.jpg",
-        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/140458_CASACARDS_PARTNER_16_9_1920_1080.png"
-      },
-      "team": [
-        {
-          "name": "Punjab FC",
-          "shortName": "PFC",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-PUNJ@2x.png"
-          },
-          "isWinner": null,
-          "color": "#959490",
-          "cricketScore": null,
-          "kabaddiScore": null,
-          "footballScore": {
-            "points": 1,
-            "goals": [
-              {
-                "id": "226831",
-                "shortName": "N Effiong",
-                "isOwnGoal": false,
-                "goalTime": "63'"
-              }
-            ]
-          },
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        },
-        {
-          "name": "NorthEast United FC",
-          "shortName": "NEUFC",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-NUFC@2x.png"
-          },
-          "isWinner": null,
-          "color": "#e97272",
-          "cricketScore": null,
-          "kabaddiScore": null,
-          "footballScore": {
-            "points": 1,
-            "goals": [
-              {
-                "id": "163619",
-                "shortName": "P Gogoi",
-                "isOwnGoal": false,
-                "goalTime": "60'"
-              }
-            ]
-          },
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        }
-      ],
-      "language": "ENGLISH",
-      "auto_streams": [
-        {
-          "auto": "#EXTM3U\n#EXT-X-VERSION:3\n#EXT-X-STREAM-INF:BANDWIDTH=414232,AVERAGE-BANDWIDTH=414232,CODECS=\"avc1.42e015,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=426x240,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/140458_english_hls_0c62e70bfd19984_1ta-di_h264/240p.m3u8?hdntl=Expires=1773150244~_GO=Generated~acl=/mumbai/140458_english_hls_0c62e70bfd19984_1ta-di_h264/*~Signature=AQQqLwSENz18HhAKBqgI5b96nxr_akBiHj43QhX3F7ATdQy0eianbzfLJGTT3BkS4DnO97AOm7-jkdvMcJEgXq_c184E\n#EXT-X-STREAM-INF:BANDWIDTH=669672,AVERAGE-BANDWIDTH=669672,CODECS=\"avc1.42e01e,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=640x360,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/140458_english_hls_0c62e70bfd19984_1ta-di_h264/360p.m3u8?hdntl=Expires=1773150244~_GO=Generated~acl=/mumbai/140458_english_hls_0c62e70bfd19984_1ta-di_h264/*~Signature=AQQqLwSENz18HhAKBqgI5b96nxr_akBiHj43QhX3F7ATdQy0eianbzfLJGTT3BkS4DnO97AOm7-jkdvMcJEgXq_c184E\n#EXT-X-STREAM-INF:BANDWIDTH=990520,AVERAGE-BANDWIDTH=990520,CODECS=\"avc1.4d401e,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=854x480,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/140458_english_hls_0c62e70bfd19984_1ta-di_h264/480p.m3u8?hdntl=Expires=1773150244~_GO=Generated~acl=/mumbai/140458_english_hls_0c62e70bfd19984_1ta-di_h264/*~Signature=AQQqLwSENz18HhAKBqgI5b96nxr_akBiHj43QhX3F7ATdQy0eianbzfLJGTT3BkS4DnO97AOm7-jkdvMcJEgXq_c184E\n#EXT-X-STREAM-INF:BANDWIDTH=1245960,AVERAGE-BANDWIDTH=1245960,CODECS=\"avc1.4d401f,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=960x540,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/140458_english_hls_0c62e70bfd19984_1ta-di_h264/540p.m3u8?hdntl=Expires=1773150244~_GO=Generated~acl=/mumbai/140458_english_hls_0c62e70bfd19984_1ta-di_h264/*~Signature=AQQqLwSENz18HhAKBqgI5b96nxr_akBiHj43QhX3F7ATdQy0eianbzfLJGTT3BkS4DnO97AOm7-jkdvMcJEgXq_c184E\n#EXT-X-STREAM-INF:BANDWIDTH=1756808,AVERAGE-BANDWIDTH=1756808,CODECS=\"avc1.64001f,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1280x720,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/140458_english_hls_0c62e70bfd19984_1ta-di_h264/720p.m3u8?hdntl=Expires=1773150244~_GO=Generated~acl=/mumbai/140458_english_hls_0c62e70bfd19984_1ta-di_h264/*~Signature=AQQqLwSENz18HhAKBqgI5b96nxr_akBiHj43QhX3F7ATdQy0eianbzfLJGTT3BkS4DnO97AOm7-jkdvMcJEgXq_c184E\n#EXT-X-STREAM-INF:BANDWIDTH=3289416,AVERAGE-BANDWIDTH=3289416,CODECS=\"avc1.640028,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1920x1080,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/140458_english_hls_0c62e70bfd19984_1ta-di_h264/1080p.m3u8?hdntl=Expires=1773150244~_GO=Generated~acl=/mumbai/140458_english_hls_0c62e70bfd19984_1ta-di_h264/*~Signature=AQQqLwSENz18HhAKBqgI5b96nxr_akBiHj43QhX3F7ATdQy0eianbzfLJGTT3BkS4DnO97AOm7-jkdvMcJEgXq_c184E\n#EXT-X-STREAM-INF:BANDWIDTH=5376032,AVERAGE-BANDWIDTH=5376032,CODECS=\"avc1.64002a,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1920x1080,FRAME-RATE=50.000\nhttps://in-mc-flive.fancode.com/mumbai/140458_english_hls_0c62e70bfd19984_1ta-di_h264/1080p5.m3u8?hdntl=Expires=1773150244~_GO=Generated~acl=/mumbai/140458_english_hls_0c62e70bfd19984_1ta-di_h264/*~Signature=AQQqLwSENz18HhAKBqgI5b96nxr_akBiHj43QhX3F7ATdQy0eianbzfLJGTT3BkS4DnO97AOm7-jkdvMcJEgXq_c184E",
-          "cookie_valid": "1773150244",
-          "expire_date": "Tuesday, March 10, 2026, 7:14:04 PM",
-          "language": "ENGLISH"
-        }
-      ]
-    },
-    {
-      "category": "Football",
-      "title": "Punjab Fc Vs Northeast United Fc",
-      "tournament": "ISL 2025-26",
-      "match_id": 140458,
-      "status": "COMPLETED",
-      "streamingStatus": "STARTED",
-      "startTime": "09 March 2026 07:30 PM",
-      "startDate": "01 January 1970 05:30 AM",
-      "image": "https://www.fancode.com/skillup-uploads/cms-media/140458_5956_PFC_NEUFC_FC-Web_1772450979384.jpg",
-      "image_cdn": {
-        "TATAPLAY": "https://images.fancode.com/aig/match/v1/140458_CASACARDS_PARTNER_16_9_1920_1080.png",
-        "APP": "https://www.fancode.com/skillup-uploads/cms-media/140458_5956_PFC_NEUFC_FC-Web_1772450979384.jpg",
-        "PLAYBACK": "https://www.fancode.com/skillup-uploads/cms-media/140458_5956_PFC_NEUFC_FC-Web_1772450979384.jpg",
-        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/ISL-Tour-Logo.png",
-        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Football-old-copy.jpg",
-        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/140458_5956_PFC_NEUFC_FC-Web_1772450979384.jpg",
-        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/140458_5956_PFC_NEUFC_FC-App_1772450967216.jpg",
-        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/140458_CASACARDS_PARTNER_16_9_1920_1080.png"
-      },
-      "team": [
-        {
-          "name": "Punjab FC",
-          "shortName": "PFC",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-PUNJ@2x.png"
-          },
-          "isWinner": null,
-          "color": "#959490",
-          "cricketScore": null,
-          "kabaddiScore": null,
-          "footballScore": {
-            "points": 1,
-            "goals": [
-              {
-                "id": "226831",
-                "shortName": "N Effiong",
-                "isOwnGoal": false,
-                "goalTime": "63'"
-              }
-            ]
-          },
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        },
-        {
-          "name": "NorthEast United FC",
-          "shortName": "NEUFC",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-NUFC@2x.png"
-          },
-          "isWinner": null,
-          "color": "#e97272",
-          "cricketScore": null,
-          "kabaddiScore": null,
-          "footballScore": {
-            "points": 1,
-            "goals": [
-              {
-                "id": "163619",
-                "shortName": "P Gogoi",
-                "isOwnGoal": false,
-                "goalTime": "60'"
-              }
-            ]
-          },
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        }
-      ],
-      "language": "HINDI",
-      "auto_streams": [
-        {
-          "auto": "#EXTM3U\n#EXT-X-VERSION:3\n#EXT-X-STREAM-INF:BANDWIDTH=414232,AVERAGE-BANDWIDTH=414232,CODECS=\"avc1.42e015,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=426x240,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/140458_hindi_hls_e7ed3e1f1985767_1ta-di_h264/240p.m3u8?hdntl=Expires=1773150245~_GO=Generated~acl=/mumbai/140458_hindi_hls_e7ed3e1f1985767_1ta-di_h264/*~Signature=AQQqLwSqz2GC_IUj9AZ_eUrYgE8jobKs2ljfHyegrgKD4ui2jV3TT-_5apzZD6bQoKRG60iFvxMvcRUW7CMq2XRVwrkN\n#EXT-X-STREAM-INF:BANDWIDTH=669672,AVERAGE-BANDWIDTH=669672,CODECS=\"avc1.42e01e,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=640x360,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/140458_hindi_hls_e7ed3e1f1985767_1ta-di_h264/360p.m3u8?hdntl=Expires=1773150245~_GO=Generated~acl=/mumbai/140458_hindi_hls_e7ed3e1f1985767_1ta-di_h264/*~Signature=AQQqLwSqz2GC_IUj9AZ_eUrYgE8jobKs2ljfHyegrgKD4ui2jV3TT-_5apzZD6bQoKRG60iFvxMvcRUW7CMq2XRVwrkN\n#EXT-X-STREAM-INF:BANDWIDTH=990520,AVERAGE-BANDWIDTH=990520,CODECS=\"avc1.4d401e,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=854x480,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/140458_hindi_hls_e7ed3e1f1985767_1ta-di_h264/480p.m3u8?hdntl=Expires=1773150245~_GO=Generated~acl=/mumbai/140458_hindi_hls_e7ed3e1f1985767_1ta-di_h264/*~Signature=AQQqLwSqz2GC_IUj9AZ_eUrYgE8jobKs2ljfHyegrgKD4ui2jV3TT-_5apzZD6bQoKRG60iFvxMvcRUW7CMq2XRVwrkN\n#EXT-X-STREAM-INF:BANDWIDTH=1245960,AVERAGE-BANDWIDTH=1245960,CODECS=\"avc1.4d401f,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=960x540,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/140458_hindi_hls_e7ed3e1f1985767_1ta-di_h264/540p.m3u8?hdntl=Expires=1773150245~_GO=Generated~acl=/mumbai/140458_hindi_hls_e7ed3e1f1985767_1ta-di_h264/*~Signature=AQQqLwSqz2GC_IUj9AZ_eUrYgE8jobKs2ljfHyegrgKD4ui2jV3TT-_5apzZD6bQoKRG60iFvxMvcRUW7CMq2XRVwrkN\n#EXT-X-STREAM-INF:BANDWIDTH=1756808,AVERAGE-BANDWIDTH=1756808,CODECS=\"avc1.64001f,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1280x720,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/140458_hindi_hls_e7ed3e1f1985767_1ta-di_h264/720p.m3u8?hdntl=Expires=1773150245~_GO=Generated~acl=/mumbai/140458_hindi_hls_e7ed3e1f1985767_1ta-di_h264/*~Signature=AQQqLwSqz2GC_IUj9AZ_eUrYgE8jobKs2ljfHyegrgKD4ui2jV3TT-_5apzZD6bQoKRG60iFvxMvcRUW7CMq2XRVwrkN\n#EXT-X-STREAM-INF:BANDWIDTH=3289416,AVERAGE-BANDWIDTH=3289416,CODECS=\"avc1.640028,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1920x1080,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/140458_hindi_hls_e7ed3e1f1985767_1ta-di_h264/1080p.m3u8?hdntl=Expires=1773150245~_GO=Generated~acl=/mumbai/140458_hindi_hls_e7ed3e1f1985767_1ta-di_h264/*~Signature=AQQqLwSqz2GC_IUj9AZ_eUrYgE8jobKs2ljfHyegrgKD4ui2jV3TT-_5apzZD6bQoKRG60iFvxMvcRUW7CMq2XRVwrkN\n#EXT-X-STREAM-INF:BANDWIDTH=5376032,AVERAGE-BANDWIDTH=5376032,CODECS=\"avc1.64002a,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1920x1080,FRAME-RATE=50.000\nhttps://in-mc-flive.fancode.com/mumbai/140458_hindi_hls_e7ed3e1f1985767_1ta-di_h264/1080p5.m3u8?hdntl=Expires=1773150245~_GO=Generated~acl=/mumbai/140458_hindi_hls_e7ed3e1f1985767_1ta-di_h264/*~Signature=AQQqLwSqz2GC_IUj9AZ_eUrYgE8jobKs2ljfHyegrgKD4ui2jV3TT-_5apzZD6bQoKRG60iFvxMvcRUW7CMq2XRVwrkN",
-          "cookie_valid": "1773150245",
-          "expire_date": "Tuesday, March 10, 2026, 7:14:05 PM",
-          "language": "HINDI"
-        }
-      ]
-    },
-    {
-      "category": "Football",
-      "title": "Punjab Fc Vs Northeast United Fc",
-      "tournament": "ISL 2025-26",
-      "match_id": 140458,
-      "status": "COMPLETED",
-      "streamingStatus": "STARTED",
-      "startTime": "09 March 2026 07:30 PM",
-      "startDate": "01 January 1970 05:30 AM",
-      "image": "https://www.fancode.com/skillup-uploads/cms-media/140458_5956_PFC_NEUFC_FC-Web_1772450979384.jpg",
-      "image_cdn": {
-        "TATAPLAY": "https://images.fancode.com/aig/match/v1/140458_CASACARDS_PARTNER_16_9_1920_1080.png",
-        "APP": "https://www.fancode.com/skillup-uploads/cms-media/140458_5956_PFC_NEUFC_FC-Web_1772450979384.jpg",
-        "PLAYBACK": "https://www.fancode.com/skillup-uploads/cms-media/140458_5956_PFC_NEUFC_FC-Web_1772450979384.jpg",
-        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/ISL-Tour-Logo.png",
-        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Football-old-copy.jpg",
-        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/140458_5956_PFC_NEUFC_FC-Web_1772450979384.jpg",
-        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/140458_5956_PFC_NEUFC_FC-App_1772450967216.jpg",
-        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/140458_CASACARDS_PARTNER_16_9_1920_1080.png"
-      },
-      "team": [
-        {
-          "name": "Punjab FC",
-          "shortName": "PFC",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-PUNJ@2x.png"
-          },
-          "isWinner": null,
-          "color": "#959490",
-          "cricketScore": null,
-          "kabaddiScore": null,
-          "footballScore": {
-            "points": 1,
-            "goals": [
-              {
-                "id": "226831",
-                "shortName": "N Effiong",
-                "isOwnGoal": false,
-                "goalTime": "63'"
-              }
-            ]
-          },
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        },
-        {
-          "name": "NorthEast United FC",
-          "shortName": "NEUFC",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-NUFC@2x.png"
-          },
-          "isWinner": null,
-          "color": "#e97272",
-          "cricketScore": null,
-          "kabaddiScore": null,
-          "footballScore": {
-            "points": 1,
-            "goals": [
-              {
-                "id": "163619",
-                "shortName": "P Gogoi",
-                "isOwnGoal": false,
-                "goalTime": "60'"
-              }
-            ]
-          },
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        }
-      ],
-      "language": "MALAYALAM",
-      "auto_streams": [
-        {
-          "auto": "#EXTM3U\n#EXT-X-VERSION:3\n#EXT-X-STREAM-INF:BANDWIDTH=414232,AVERAGE-BANDWIDTH=414232,CODECS=\"avc1.42e015,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=426x240,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/140458_malayalam_hls_7312a9a83636901_1ta-di_h264/240p.m3u8?hdntl=Expires=1773150248~_GO=Generated~acl=/mumbai/140458_malayalam_hls_7312a9a83636901_1ta-di_h264/*~Signature=AQQqLwRIGXBmdIDqMPcNZW6IU_okTWMmvNN2PwXhAVn-LKGtT_WbEAPARVY3b7vo-4bXHtA7AHzEl_J-ta5CoGUzd3gO\n#EXT-X-STREAM-INF:BANDWIDTH=669672,AVERAGE-BANDWIDTH=669672,CODECS=\"avc1.42e01e,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=640x360,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/140458_malayalam_hls_7312a9a83636901_1ta-di_h264/360p.m3u8?hdntl=Expires=1773150248~_GO=Generated~acl=/mumbai/140458_malayalam_hls_7312a9a83636901_1ta-di_h264/*~Signature=AQQqLwRIGXBmdIDqMPcNZW6IU_okTWMmvNN2PwXhAVn-LKGtT_WbEAPARVY3b7vo-4bXHtA7AHzEl_J-ta5CoGUzd3gO\n#EXT-X-STREAM-INF:BANDWIDTH=990520,AVERAGE-BANDWIDTH=990520,CODECS=\"avc1.4d401e,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=854x480,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/140458_malayalam_hls_7312a9a83636901_1ta-di_h264/480p.m3u8?hdntl=Expires=1773150248~_GO=Generated~acl=/mumbai/140458_malayalam_hls_7312a9a83636901_1ta-di_h264/*~Signature=AQQqLwRIGXBmdIDqMPcNZW6IU_okTWMmvNN2PwXhAVn-LKGtT_WbEAPARVY3b7vo-4bXHtA7AHzEl_J-ta5CoGUzd3gO\n#EXT-X-STREAM-INF:BANDWIDTH=1245960,AVERAGE-BANDWIDTH=1245960,CODECS=\"avc1.4d401f,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=960x540,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/140458_malayalam_hls_7312a9a83636901_1ta-di_h264/540p.m3u8?hdntl=Expires=1773150248~_GO=Generated~acl=/mumbai/140458_malayalam_hls_7312a9a83636901_1ta-di_h264/*~Signature=AQQqLwRIGXBmdIDqMPcNZW6IU_okTWMmvNN2PwXhAVn-LKGtT_WbEAPARVY3b7vo-4bXHtA7AHzEl_J-ta5CoGUzd3gO\n#EXT-X-STREAM-INF:BANDWIDTH=1756808,AVERAGE-BANDWIDTH=1756808,CODECS=\"avc1.64001f,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1280x720,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/140458_malayalam_hls_7312a9a83636901_1ta-di_h264/720p.m3u8?hdntl=Expires=1773150248~_GO=Generated~acl=/mumbai/140458_malayalam_hls_7312a9a83636901_1ta-di_h264/*~Signature=AQQqLwRIGXBmdIDqMPcNZW6IU_okTWMmvNN2PwXhAVn-LKGtT_WbEAPARVY3b7vo-4bXHtA7AHzEl_J-ta5CoGUzd3gO\n#EXT-X-STREAM-INF:BANDWIDTH=3289416,AVERAGE-BANDWIDTH=3289416,CODECS=\"avc1.640028,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1920x1080,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/140458_malayalam_hls_7312a9a83636901_1ta-di_h264/1080p.m3u8?hdntl=Expires=1773150248~_GO=Generated~acl=/mumbai/140458_malayalam_hls_7312a9a83636901_1ta-di_h264/*~Signature=AQQqLwRIGXBmdIDqMPcNZW6IU_okTWMmvNN2PwXhAVn-LKGtT_WbEAPARVY3b7vo-4bXHtA7AHzEl_J-ta5CoGUzd3gO\n#EXT-X-STREAM-INF:BANDWIDTH=5376032,AVERAGE-BANDWIDTH=5376032,CODECS=\"avc1.64002a,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1920x1080,FRAME-RATE=50.000\nhttps://in-mc-flive.fancode.com/mumbai/140458_malayalam_hls_7312a9a83636901_1ta-di_h264/1080p5.m3u8?hdntl=Expires=1773150248~_GO=Generated~acl=/mumbai/140458_malayalam_hls_7312a9a83636901_1ta-di_h264/*~Signature=AQQqLwRIGXBmdIDqMPcNZW6IU_okTWMmvNN2PwXhAVn-LKGtT_WbEAPARVY3b7vo-4bXHtA7AHzEl_J-ta5CoGUzd3gO",
-          "cookie_valid": "1773150248",
-          "expire_date": "Tuesday, March 10, 2026, 7:14:08 PM",
-          "language": "MALAYALAM"
-        }
-      ]
-    },
-    {
-      "category": "Football",
-      "title": "Punjab Fc Vs Northeast United Fc",
-      "tournament": "ISL 2025-26",
-      "match_id": 140458,
-      "status": "COMPLETED",
-      "streamingStatus": "STARTED",
-      "startTime": "09 March 2026 07:30 PM",
-      "startDate": "01 January 1970 05:30 AM",
-      "image": "https://www.fancode.com/skillup-uploads/cms-media/140458_5956_PFC_NEUFC_FC-Web_1772450979384.jpg",
-      "image_cdn": {
-        "TATAPLAY": "https://images.fancode.com/aig/match/v1/140458_CASACARDS_PARTNER_16_9_1920_1080.png",
-        "APP": "https://www.fancode.com/skillup-uploads/cms-media/140458_5956_PFC_NEUFC_FC-Web_1772450979384.jpg",
-        "PLAYBACK": "https://www.fancode.com/skillup-uploads/cms-media/140458_5956_PFC_NEUFC_FC-Web_1772450979384.jpg",
-        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/ISL-Tour-Logo.png",
-        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Football-old-copy.jpg",
-        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/140458_5956_PFC_NEUFC_FC-Web_1772450979384.jpg",
-        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/140458_5956_PFC_NEUFC_FC-App_1772450967216.jpg",
-        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/140458_CASACARDS_PARTNER_16_9_1920_1080.png"
-      },
-      "team": [
-        {
-          "name": "Punjab FC",
-          "shortName": "PFC",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-PUNJ@2x.png"
-          },
-          "isWinner": null,
-          "color": "#959490",
-          "cricketScore": null,
-          "kabaddiScore": null,
-          "footballScore": {
-            "points": 1,
-            "goals": [
-              {
-                "id": "226831",
-                "shortName": "N Effiong",
-                "isOwnGoal": false,
-                "goalTime": "63'"
-              }
-            ]
-          },
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        },
-        {
-          "name": "NorthEast United FC",
-          "shortName": "NEUFC",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-NUFC@2x.png"
-          },
-          "isWinner": null,
-          "color": "#e97272",
-          "cricketScore": null,
-          "kabaddiScore": null,
-          "footballScore": {
-            "points": 1,
-            "goals": [
-              {
-                "id": "163619",
-                "shortName": "P Gogoi",
-                "isOwnGoal": false,
-                "goalTime": "60'"
-              }
-            ]
-          },
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        }
-      ],
-      "language": "BENGALI",
-      "auto_streams": [
-        {
-          "auto": "#EXTM3U\n#EXT-X-VERSION:3\n#EXT-X-STREAM-INF:BANDWIDTH=414232,AVERAGE-BANDWIDTH=414232,CODECS=\"avc1.42e015,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=426x240,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/140458_bengali_hls_a7e0e602c147475_1ta-di_h264/240p.m3u8?hdntl=Expires=1773150249~_GO=Generated~acl=/mumbai/140458_bengali_hls_a7e0e602c147475_1ta-di_h264/*~Signature=AQQqLwRaiFfjhD8ziqnFwKRSV3zAeDcCGDVsVyB6bxl6aORIfe4D_orctLwTe6xem_iDySUjwlH33LClyzb5x-Ex9HcC\n#EXT-X-STREAM-INF:BANDWIDTH=669672,AVERAGE-BANDWIDTH=669672,CODECS=\"avc1.42e01e,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=640x360,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/140458_bengali_hls_a7e0e602c147475_1ta-di_h264/360p.m3u8?hdntl=Expires=1773150249~_GO=Generated~acl=/mumbai/140458_bengali_hls_a7e0e602c147475_1ta-di_h264/*~Signature=AQQqLwRaiFfjhD8ziqnFwKRSV3zAeDcCGDVsVyB6bxl6aORIfe4D_orctLwTe6xem_iDySUjwlH33LClyzb5x-Ex9HcC\n#EXT-X-STREAM-INF:BANDWIDTH=990520,AVERAGE-BANDWIDTH=990520,CODECS=\"avc1.4d401e,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=854x480,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/140458_bengali_hls_a7e0e602c147475_1ta-di_h264/480p.m3u8?hdntl=Expires=1773150249~_GO=Generated~acl=/mumbai/140458_bengali_hls_a7e0e602c147475_1ta-di_h264/*~Signature=AQQqLwRaiFfjhD8ziqnFwKRSV3zAeDcCGDVsVyB6bxl6aORIfe4D_orctLwTe6xem_iDySUjwlH33LClyzb5x-Ex9HcC\n#EXT-X-STREAM-INF:BANDWIDTH=1245960,AVERAGE-BANDWIDTH=1245960,CODECS=\"avc1.4d401f,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=960x540,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/140458_bengali_hls_a7e0e602c147475_1ta-di_h264/540p.m3u8?hdntl=Expires=1773150249~_GO=Generated~acl=/mumbai/140458_bengali_hls_a7e0e602c147475_1ta-di_h264/*~Signature=AQQqLwRaiFfjhD8ziqnFwKRSV3zAeDcCGDVsVyB6bxl6aORIfe4D_orctLwTe6xem_iDySUjwlH33LClyzb5x-Ex9HcC\n#EXT-X-STREAM-INF:BANDWIDTH=1756808,AVERAGE-BANDWIDTH=1756808,CODECS=\"avc1.64001f,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1280x720,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/140458_bengali_hls_a7e0e602c147475_1ta-di_h264/720p.m3u8?hdntl=Expires=1773150249~_GO=Generated~acl=/mumbai/140458_bengali_hls_a7e0e602c147475_1ta-di_h264/*~Signature=AQQqLwRaiFfjhD8ziqnFwKRSV3zAeDcCGDVsVyB6bxl6aORIfe4D_orctLwTe6xem_iDySUjwlH33LClyzb5x-Ex9HcC\n#EXT-X-STREAM-INF:BANDWIDTH=3289416,AVERAGE-BANDWIDTH=3289416,CODECS=\"avc1.640028,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1920x1080,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/140458_bengali_hls_a7e0e602c147475_1ta-di_h264/1080p.m3u8?hdntl=Expires=1773150249~_GO=Generated~acl=/mumbai/140458_bengali_hls_a7e0e602c147475_1ta-di_h264/*~Signature=AQQqLwRaiFfjhD8ziqnFwKRSV3zAeDcCGDVsVyB6bxl6aORIfe4D_orctLwTe6xem_iDySUjwlH33LClyzb5x-Ex9HcC\n#EXT-X-STREAM-INF:BANDWIDTH=5376032,AVERAGE-BANDWIDTH=5376032,CODECS=\"avc1.64002a,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1920x1080,FRAME-RATE=50.000\nhttps://in-mc-flive.fancode.com/mumbai/140458_bengali_hls_a7e0e602c147475_1ta-di_h264/1080p5.m3u8?hdntl=Expires=1773150249~_GO=Generated~acl=/mumbai/140458_bengali_hls_a7e0e602c147475_1ta-di_h264/*~Signature=AQQqLwRaiFfjhD8ziqnFwKRSV3zAeDcCGDVsVyB6bxl6aORIfe4D_orctLwTe6xem_iDySUjwlH33LClyzb5x-Ex9HcC",
-          "cookie_valid": "1773150249",
-          "expire_date": "Tuesday, March 10, 2026, 7:14:09 PM",
-          "language": "BENGALI"
         }
       ]
     },
@@ -1268,6 +916,69 @@
       "auto_streams": null
     },
     {
+      "category": "Cricket",
+      "title": "New Zealand Women Vs Zimbabwe Women",
+      "tournament": "Zimbabwe Women tour of New Zealand, 2026",
+      "match_id": 140598,
+      "status": "NOT_STARTED",
+      "streamingStatus": "NOT_STARTED",
+      "startTime": "11 March 2026 03:30 AM",
+      "startDate": "01 January 1970 05:30 AM",
+      "image": "https://www.fancode.com/skillup-uploads/cms-media/NZ-vs-ZIM_ODi_fc_web_1772618590773.jpg",
+      "image_cdn": {
+        "TATAPLAY": "https://images.fancode.com/aig/match/v1/140598_CASACARDS_PARTNER_16_9_1920_1080.png",
+        "APP": "https://www.fancode.com/skillup-uploads/cms-media/NZ-vs-ZIM_ODi_fc_web_1772618590773.jpg",
+        "PLAYBACK": null,
+        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/NZ-vs-ZIM.png",
+        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_cricket-old.jpg",
+        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/NZ-vs-ZIM_ODi_fc_web_1772618590773.jpg",
+        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/NZ-vs-ZIM_ODI_fc-app_1772618591132.jpg",
+        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/140598_CASACARDS_PARTNER_16_9_1920_1080.png"
+      },
+      "team": [
+        {
+          "name": "New Zealand Women",
+          "shortName": "NZ-W",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-NZC@2x.png"
+          },
+          "isWinner": null,
+          "color": "#1d2c6b",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        },
+        {
+          "name": "Zimbabwe Women",
+          "shortName": "ZM-W",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-ZIM@2x.png"
+          },
+          "isWinner": null,
+          "color": "#dfd32c",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        }
+      ],
+      "language": "BLOODY_SWEET",
+      "auto_streams": null
+    },
+    {
       "category": "Tennis",
       "title": "C Court Feed",
       "tournament": "ATP Masters BNP Paribas Open 2026",
@@ -1693,69 +1404,6 @@
           },
           "isWinner": null,
           "color": "#FF0000",
-          "cricketScore": null,
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        }
-      ],
-      "language": "BLOODY_SWEET",
-      "auto_streams": null
-    },
-    {
-      "category": "Cricket",
-      "title": "New Zealand Women Vs Zimbabwe Women",
-      "tournament": "Zimbabwe Women tour of New Zealand, 2026",
-      "match_id": 140598,
-      "status": "NOT_STARTED",
-      "streamingStatus": "NOT_STARTED",
-      "startTime": "11 March 2026 03:30 AM",
-      "startDate": "01 January 1970 05:30 AM",
-      "image": "https://www.fancode.com/skillup-uploads/cms-media/NZ-vs-ZIM_ODi_fc_web_1772618590773.jpg",
-      "image_cdn": {
-        "TATAPLAY": "https://images.fancode.com/aig/match/v1/140598_CASACARDS_PARTNER_16_9_1920_1080.png",
-        "APP": "https://www.fancode.com/skillup-uploads/cms-media/NZ-vs-ZIM_ODi_fc_web_1772618590773.jpg",
-        "PLAYBACK": null,
-        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/NZ-vs-ZIM.png",
-        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_cricket-old.jpg",
-        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/NZ-vs-ZIM_ODi_fc_web_1772618590773.jpg",
-        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/NZ-vs-ZIM_ODI_fc-app_1772618591132.jpg",
-        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/140598_CASACARDS_PARTNER_16_9_1920_1080.png"
-      },
-      "team": [
-        {
-          "name": "New Zealand Women",
-          "shortName": "NZ-W",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-NZC@2x.png"
-          },
-          "isWinner": null,
-          "color": "#1d2c6b",
-          "cricketScore": null,
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        },
-        {
-          "name": "Zimbabwe Women",
-          "shortName": "ZM-W",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-ZIM@2x.png"
-          },
-          "isWinner": null,
-          "color": "#dfd32c",
           "cricketScore": null,
           "kabaddiScore": null,
           "footballScore": null,
@@ -2246,7 +1894,11 @@
           "footballScore": null,
           "basketBallScore": null,
           "hockeyScore": null,
-          "status": null
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
         },
         {
           "name": "Shabab Al Ahli",
@@ -2261,7 +1913,11 @@
           "footballScore": null,
           "basketBallScore": null,
           "hockeyScore": null,
-          "status": null
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
         }
       ],
       "language": "BLOODY_SWEET",
@@ -2575,6 +2231,69 @@
       "auto_streams": null
     },
     {
+      "category": "Cricket",
+      "title": "Bengal Royals Vs Mumbai Maverics",
+      "tournament": "Thunderbolt T10 League 2026",
+      "match_id": 141187,
+      "status": "NOT_STARTED",
+      "streamingStatus": "NOT_STARTED",
+      "startTime": "11 March 2026 10:10 AM",
+      "startDate": "01 January 1970 05:30 AM",
+      "image": "https://www.fancode.com/skillup-uploads/cms-media/Mini-Match-Card-(1080x810)-(8).png",
+      "image_cdn": {
+        "TATAPLAY": "https://images.fancode.com/aig/match/v1/141187_CASACARDS_PARTNER_16_9_1920_1080.png",
+        "APP": "https://www.fancode.com/skillup-uploads/cms-media/Mini-Match-Card-(1080x810)-(8).png",
+        "PLAYBACK": null,
+        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/Thunderbolt-T10-League-(1).png",
+        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_cricket-old.jpg",
+        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/Mini-Match-Card-(1080x810)-(8).png",
+        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/Old-Sporty-(1080x1440)-(8).png",
+        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/141187_CASACARDS_PARTNER_16_9_1920_1080.png"
+      },
+      "team": [
+        {
+          "name": "Bengal Royals",
+          "shortName": "BR",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-BR@2x.png"
+          },
+          "isWinner": null,
+          "color": "#ca4239",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        },
+        {
+          "name": "Mumbai Maverics",
+          "shortName": "MM",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-MVM@2x.png"
+          },
+          "isWinner": null,
+          "color": "#010160",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        }
+      ],
+      "language": "BLOODY_SWEET",
+      "auto_streams": null
+    },
+    {
       "category": "Football",
       "title": "Al Ittihad Vs Al Wahda",
       "tournament": "AFC Champions League Elite 2025-26",
@@ -2608,7 +2327,11 @@
           "footballScore": null,
           "basketBallScore": null,
           "hockeyScore": null,
-          "status": null
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
         },
         {
           "name": "Al Wahda",
@@ -2623,7 +2346,11 @@
           "footballScore": null,
           "basketBallScore": null,
           "hockeyScore": null,
-          "status": null
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
         }
       ],
       "language": "BLOODY_SWEET",
