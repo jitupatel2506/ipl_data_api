@@ -1,64 +1,72 @@
 {
   "Author": "DOCTOR_STRANGE",
   "name": "FanCode Live Matches API",
-  "last_updated": "06:42:01 AM 10-03-2026",
+  "last_updated": "10:28:02 AM 10-03-2026",
   "headers": {
     "User-Agent": "ReactNativeVideo/9.3.0 (Linux;Android 13) AndroidXMedia3/1.6.1",
     "Referer": "https://fancode.com/"
   },
   "total_matches": 38,
-  "live_matches": 7,
-  "upcoming_matches": 31,
+  "live_matches": 3,
+  "upcoming_matches": 35,
   "matches": [
     {
-      "category": "Tennis",
-      "title": "C Court Feed",
-      "tournament": "ATP Masters BNP Paribas Open 2026",
-      "match_id": 141021,
+      "category": "Cricket",
+      "title": "Mhkl Banaras Vs Ncc Odisha",
+      "tournament": "Tillo Cup 2026",
+      "match_id": 141261,
       "status": "LIVE",
       "streamingStatus": "STARTED",
-      "startTime": "09 March 2026 11:30 PM",
+      "startTime": "10 March 2026 09:30 AM",
       "startDate": "01 January 1970 05:30 AM",
-      "image": "https://www.fancode.com/skillup-uploads/cms-media/BNP_Paribas-Open_web.jpg",
+      "image": "https://www.fancode.com/skillup-uploads/cms-media/Tillo-Cup-2026-old-card-.jpg",
       "image_cdn": {
-        "TATAPLAY": "https://images.fancode.com/aig/match/v1/141021_CASACARDS_PARTNER_16_9_1920_1080.png",
-        "APP": "https://www.fancode.com/skillup-uploads/cms-media/BNP_Paribas-Open_web.jpg",
-        "PLAYBACK": "https://www.fancode.com/skillup-uploads/cms-media/BNP_Paribas-Open_web.jpg",
-        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/ATP_Tour-&-Team-Logo.png",
-        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Default_Tennis-old.jpg",
-        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/BNP_Paribas-Open_web.jpg",
-        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/BNP_Paribas-Open_app.jpg",
-        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/141021_CASACARDS_PARTNER_16_9_1920_1080.png"
+        "TATAPLAY": "https://images.fancode.com/aig/match/v1/141261_CASACARDS_PARTNER_16_9_1920_1080.png",
+        "APP": "https://www.fancode.com/skillup-uploads/cms-media/Tillo-Cup-2026-old-card-.jpg",
+        "PLAYBACK": "https://www.fancode.com/skillup-uploads/cms-media/Tillo-Cup-2026-old-card-.jpg",
+        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/Tillo-Cup.png",
+        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_cricket-old.jpg",
+        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/Tillo-Cup-2026-old-card-.jpg",
+        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/Tillo-Cup-2026-Sporty-.jpg",
+        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/141261_CASACARDS_PARTNER_16_9_1920_1080.png"
       },
       "team": [
         {
-          "name": "C Court Feed",
-          "shortName": "C Court Feed",
+          "name": "MHKL Banaras",
+          "shortName": "MHKL",
           "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/lawn-tennis-flags/FC-ATP@2x.png"
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-MHK@2x.png"
           },
           "isWinner": null,
-          "color": "#FF0000",
-          "cricketScore": null,
+          "color": "#e65e5e",
+          "cricketScore": [
+            {
+              "runs": 0,
+              "overs": "0",
+              "balls": "0",
+              "status": "IN_PROGRESS",
+              "wickets": 0
+            }
+          ],
           "kabaddiScore": null,
           "footballScore": null,
           "basketBallScore": null,
           "hockeyScore": null,
           "status": {
             "cricket": {
-              "isBatting": false
+              "isBatting": true
             }
           }
         },
         {
-          "name": "Indian, United States",
-          "shortName": "Indian, United States",
+          "name": "NCC Odisha",
+          "shortName": "NOD",
           "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/lawn-tennis-flags/FC-LOC@2x.png"
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-NOD@2x.png"
           },
           "isWinner": null,
-          "color": "#FF0000",
-          "cricketScore": null,
+          "color": "#064290",
+          "cricketScore": [],
           "kabaddiScore": null,
           "footballScore": null,
           "basketBallScore": null,
@@ -73,42 +81,42 @@
       "language": "ENGLISH",
       "auto_streams": [
         {
-          "auto": "#EXTM3U\n#EXT-X-VERSION:3\n#EXT-X-STREAM-INF:BANDWIDTH=446936,AVERAGE-BANDWIDTH=446936,CODECS=\"avc1.42e015,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=426x240,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/141021_english_hls_2d820f94d022891_1ta-di_h264/240p.m3u8?hdntl=Expires=1773179466~_GO=Generated~acl=/mumbai/141021_english_hls_2d820f94d022891_1ta-di_h264/*~Signature=AQQqLwQPkeQ6lX2pKKMFwyO6olpdWdQtS8I7qU4SeQT_rbTBt54eHxWOxZ1spAMD0980Aw1TmIkyeogVVBzkDrEc5QMP\n#EXT-X-STREAM-INF:BANDWIDTH=702376,AVERAGE-BANDWIDTH=702376,CODECS=\"avc1.42e01e,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=640x360,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/141021_english_hls_2d820f94d022891_1ta-di_h264/360p.m3u8?hdntl=Expires=1773179466~_GO=Generated~acl=/mumbai/141021_english_hls_2d820f94d022891_1ta-di_h264/*~Signature=AQQqLwQPkeQ6lX2pKKMFwyO6olpdWdQtS8I7qU4SeQT_rbTBt54eHxWOxZ1spAMD0980Aw1TmIkyeogVVBzkDrEc5QMP\n#EXT-X-STREAM-INF:BANDWIDTH=1023224,AVERAGE-BANDWIDTH=1023224,CODECS=\"avc1.4d401e,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=854x480,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/141021_english_hls_2d820f94d022891_1ta-di_h264/480p.m3u8?hdntl=Expires=1773179466~_GO=Generated~acl=/mumbai/141021_english_hls_2d820f94d022891_1ta-di_h264/*~Signature=AQQqLwQPkeQ6lX2pKKMFwyO6olpdWdQtS8I7qU4SeQT_rbTBt54eHxWOxZ1spAMD0980Aw1TmIkyeogVVBzkDrEc5QMP\n#EXT-X-STREAM-INF:BANDWIDTH=1278664,AVERAGE-BANDWIDTH=1278664,CODECS=\"avc1.4d401f,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=960x540,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/141021_english_hls_2d820f94d022891_1ta-di_h264/540p.m3u8?hdntl=Expires=1773179466~_GO=Generated~acl=/mumbai/141021_english_hls_2d820f94d022891_1ta-di_h264/*~Signature=AQQqLwQPkeQ6lX2pKKMFwyO6olpdWdQtS8I7qU4SeQT_rbTBt54eHxWOxZ1spAMD0980Aw1TmIkyeogVVBzkDrEc5QMP\n#EXT-X-STREAM-INF:BANDWIDTH=1789512,AVERAGE-BANDWIDTH=1789512,CODECS=\"avc1.64001f,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1280x720,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/141021_english_hls_2d820f94d022891_1ta-di_h264/720p.m3u8?hdntl=Expires=1773179466~_GO=Generated~acl=/mumbai/141021_english_hls_2d820f94d022891_1ta-di_h264/*~Signature=AQQqLwQPkeQ6lX2pKKMFwyO6olpdWdQtS8I7qU4SeQT_rbTBt54eHxWOxZ1spAMD0980Aw1TmIkyeogVVBzkDrEc5QMP\n#EXT-X-STREAM-INF:BANDWIDTH=3322120,AVERAGE-BANDWIDTH=3322120,CODECS=\"avc1.640028,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1920x1080,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/141021_english_hls_2d820f94d022891_1ta-di_h264/1080p.m3u8?hdntl=Expires=1773179466~_GO=Generated~acl=/mumbai/141021_english_hls_2d820f94d022891_1ta-di_h264/*~Signature=AQQqLwQPkeQ6lX2pKKMFwyO6olpdWdQtS8I7qU4SeQT_rbTBt54eHxWOxZ1spAMD0980Aw1TmIkyeogVVBzkDrEc5QMP",
-          "cookie_valid": "1773179466",
-          "expire_date": "Wednesday, March 11, 2026, 3:21:06 AM",
+          "auto": "#EXTM3U\n#EXT-X-VERSION:3\n#EXT-X-STREAM-INF:BANDWIDTH=446936,AVERAGE-BANDWIDTH=446936,CODECS=\"avc1.42e015,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=426x240,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/141261_english_hls_2c44537e4667376_1ta-di_h264/240p.m3u8?hdntl=Expires=1773200647~_GO=Generated~acl=/mumbai/141261_english_hls_2c44537e4667376_1ta-di_h264/*~Signature=AQQqLwSE8y4NkNWLuhjxcED-lUz4p_d1wx1ejdaK1wgs9nHxJA0lliqNm_otdFUVRMGl1FFnhCLIa_AQx0dd1PiwgYgO\n#EXT-X-STREAM-INF:BANDWIDTH=702376,AVERAGE-BANDWIDTH=702376,CODECS=\"avc1.42e01e,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=640x360,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/141261_english_hls_2c44537e4667376_1ta-di_h264/360p.m3u8?hdntl=Expires=1773200647~_GO=Generated~acl=/mumbai/141261_english_hls_2c44537e4667376_1ta-di_h264/*~Signature=AQQqLwSE8y4NkNWLuhjxcED-lUz4p_d1wx1ejdaK1wgs9nHxJA0lliqNm_otdFUVRMGl1FFnhCLIa_AQx0dd1PiwgYgO\n#EXT-X-STREAM-INF:BANDWIDTH=1023224,AVERAGE-BANDWIDTH=1023224,CODECS=\"avc1.4d401e,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=854x480,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/141261_english_hls_2c44537e4667376_1ta-di_h264/480p.m3u8?hdntl=Expires=1773200647~_GO=Generated~acl=/mumbai/141261_english_hls_2c44537e4667376_1ta-di_h264/*~Signature=AQQqLwSE8y4NkNWLuhjxcED-lUz4p_d1wx1ejdaK1wgs9nHxJA0lliqNm_otdFUVRMGl1FFnhCLIa_AQx0dd1PiwgYgO\n#EXT-X-STREAM-INF:BANDWIDTH=1278664,AVERAGE-BANDWIDTH=1278664,CODECS=\"avc1.4d401f,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=960x540,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/141261_english_hls_2c44537e4667376_1ta-di_h264/540p.m3u8?hdntl=Expires=1773200647~_GO=Generated~acl=/mumbai/141261_english_hls_2c44537e4667376_1ta-di_h264/*~Signature=AQQqLwSE8y4NkNWLuhjxcED-lUz4p_d1wx1ejdaK1wgs9nHxJA0lliqNm_otdFUVRMGl1FFnhCLIa_AQx0dd1PiwgYgO\n#EXT-X-STREAM-INF:BANDWIDTH=1789512,AVERAGE-BANDWIDTH=1789512,CODECS=\"avc1.64001f,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1280x720,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/141261_english_hls_2c44537e4667376_1ta-di_h264/720p.m3u8?hdntl=Expires=1773200647~_GO=Generated~acl=/mumbai/141261_english_hls_2c44537e4667376_1ta-di_h264/*~Signature=AQQqLwSE8y4NkNWLuhjxcED-lUz4p_d1wx1ejdaK1wgs9nHxJA0lliqNm_otdFUVRMGl1FFnhCLIa_AQx0dd1PiwgYgO\n#EXT-X-STREAM-INF:BANDWIDTH=3322120,AVERAGE-BANDWIDTH=3322120,CODECS=\"avc1.640028,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1920x1080,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/141261_english_hls_2c44537e4667376_1ta-di_h264/1080p.m3u8?hdntl=Expires=1773200647~_GO=Generated~acl=/mumbai/141261_english_hls_2c44537e4667376_1ta-di_h264/*~Signature=AQQqLwSE8y4NkNWLuhjxcED-lUz4p_d1wx1ejdaK1wgs9nHxJA0lliqNm_otdFUVRMGl1FFnhCLIa_AQx0dd1PiwgYgO",
+          "cookie_valid": "1773200647",
+          "expire_date": "Wednesday, March 11, 2026, 9:14:07 AM",
           "language": "ENGLISH"
         }
       ]
     },
     {
-      "category": "Tennis",
-      "title": "D Court Feed",
-      "tournament": "ATP Masters BNP Paribas Open 2026",
-      "match_id": 141020,
+      "category": "Cricket",
+      "title": "Delhi Champions Vs Punjab Lions",
+      "tournament": "Thunderbolt T10 League 2026",
+      "match_id": 141184,
       "status": "LIVE",
       "streamingStatus": "STARTED",
-      "startTime": "09 March 2026 11:30 PM",
+      "startTime": "10 March 2026 10:10 AM",
       "startDate": "01 January 1970 05:30 AM",
-      "image": "https://www.fancode.com/skillup-uploads/cms-media/BNP_Paribas-Open_web.jpg",
+      "image": "https://www.fancode.com/skillup-uploads/cms-media/Mini-Match-Card-(1080x810)-(8).png",
       "image_cdn": {
-        "TATAPLAY": "https://images.fancode.com/aig/match/v1/141020_CASACARDS_PARTNER_16_9_1920_1080.png",
-        "APP": "https://www.fancode.com/skillup-uploads/cms-media/BNP_Paribas-Open_web.jpg",
-        "PLAYBACK": "https://www.fancode.com/skillup-uploads/cms-media/BNP_Paribas-Open_web.jpg",
-        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/ATP_Tour-&-Team-Logo.png",
-        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Default_Tennis-old.jpg",
-        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/BNP_Paribas-Open_web.jpg",
-        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/BNP_Paribas-Open_app.jpg",
-        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/141020_CASACARDS_PARTNER_16_9_1920_1080.png"
+        "TATAPLAY": "https://images.fancode.com/aig/match/v1/141184_CASACARDS_PARTNER_16_9_1920_1080.png",
+        "APP": "https://www.fancode.com/skillup-uploads/cms-media/Mini-Match-Card-(1080x810)-(8).png",
+        "PLAYBACK": "https://www.fancode.com/skillup-uploads/cms-media/Mini-Match-Card-(1080x810)-(8).png",
+        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/Thunderbolt-T10-League-(1).png",
+        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_cricket-old.jpg",
+        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/Mini-Match-Card-(1080x810)-(8).png",
+        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/Old-Sporty-(1080x1440)-(8).png",
+        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/141184_CASACARDS_PARTNER_16_9_1920_1080.png"
       },
       "team": [
         {
-          "name": "D Court Feed",
-          "shortName": "D Court Feed",
+          "name": "Delhi Champions",
+          "shortName": "DC",
           "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/lawn-tennis-flags/FC-ATP@2x.png"
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-DEC@2x.png"
           },
-          "isWinner": null,
-          "color": "#FF0000",
+          "isWinner": false,
+          "color": "#890105",
           "cricketScore": null,
           "kabaddiScore": null,
           "footballScore": null,
@@ -121,13 +129,13 @@
           }
         },
         {
-          "name": "Indian, United States",
-          "shortName": "Indian, United States",
+          "name": "Punjab Lions",
+          "shortName": "PL",
           "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/lawn-tennis-flags/FC-LOC@2x.png"
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-PL@2x.png"
           },
-          "isWinner": null,
-          "color": "#FF0000",
+          "isWinner": false,
+          "color": "#38a527",
           "cricketScore": null,
           "kabaddiScore": null,
           "footballScore": null,
@@ -143,149 +151,9 @@
       "language": "ENGLISH",
       "auto_streams": [
         {
-          "auto": "#EXTM3U\n#EXT-X-VERSION:3\n#EXT-X-STREAM-INF:BANDWIDTH=446936,AVERAGE-BANDWIDTH=446936,CODECS=\"avc1.42e015,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=426x240,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/141020_english_hls_fd8522fb2483335_1ta-di_h264/240p.m3u8?hdntl=Expires=1773179469~_GO=Generated~acl=/mumbai/141020_english_hls_fd8522fb2483335_1ta-di_h264/*~Signature=AQQqLwRBpp99fvdL9epdNzFZq2VlH__YHGYbuqUS6RIGQJOmTzXrL6inarbsC92-jILj_jn4qC7lrSGIdUWxNfZ41KsA\n#EXT-X-STREAM-INF:BANDWIDTH=702376,AVERAGE-BANDWIDTH=702376,CODECS=\"avc1.42e01e,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=640x360,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/141020_english_hls_fd8522fb2483335_1ta-di_h264/360p.m3u8?hdntl=Expires=1773179469~_GO=Generated~acl=/mumbai/141020_english_hls_fd8522fb2483335_1ta-di_h264/*~Signature=AQQqLwRBpp99fvdL9epdNzFZq2VlH__YHGYbuqUS6RIGQJOmTzXrL6inarbsC92-jILj_jn4qC7lrSGIdUWxNfZ41KsA\n#EXT-X-STREAM-INF:BANDWIDTH=1023224,AVERAGE-BANDWIDTH=1023224,CODECS=\"avc1.4d401e,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=854x480,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/141020_english_hls_fd8522fb2483335_1ta-di_h264/480p.m3u8?hdntl=Expires=1773179469~_GO=Generated~acl=/mumbai/141020_english_hls_fd8522fb2483335_1ta-di_h264/*~Signature=AQQqLwRBpp99fvdL9epdNzFZq2VlH__YHGYbuqUS6RIGQJOmTzXrL6inarbsC92-jILj_jn4qC7lrSGIdUWxNfZ41KsA\n#EXT-X-STREAM-INF:BANDWIDTH=1278664,AVERAGE-BANDWIDTH=1278664,CODECS=\"avc1.4d401f,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=960x540,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/141020_english_hls_fd8522fb2483335_1ta-di_h264/540p.m3u8?hdntl=Expires=1773179469~_GO=Generated~acl=/mumbai/141020_english_hls_fd8522fb2483335_1ta-di_h264/*~Signature=AQQqLwRBpp99fvdL9epdNzFZq2VlH__YHGYbuqUS6RIGQJOmTzXrL6inarbsC92-jILj_jn4qC7lrSGIdUWxNfZ41KsA\n#EXT-X-STREAM-INF:BANDWIDTH=1789512,AVERAGE-BANDWIDTH=1789512,CODECS=\"avc1.64001f,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1280x720,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/141020_english_hls_fd8522fb2483335_1ta-di_h264/720p.m3u8?hdntl=Expires=1773179469~_GO=Generated~acl=/mumbai/141020_english_hls_fd8522fb2483335_1ta-di_h264/*~Signature=AQQqLwRBpp99fvdL9epdNzFZq2VlH__YHGYbuqUS6RIGQJOmTzXrL6inarbsC92-jILj_jn4qC7lrSGIdUWxNfZ41KsA\n#EXT-X-STREAM-INF:BANDWIDTH=3322120,AVERAGE-BANDWIDTH=3322120,CODECS=\"avc1.640028,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1920x1080,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/141020_english_hls_fd8522fb2483335_1ta-di_h264/1080p.m3u8?hdntl=Expires=1773179469~_GO=Generated~acl=/mumbai/141020_english_hls_fd8522fb2483335_1ta-di_h264/*~Signature=AQQqLwRBpp99fvdL9epdNzFZq2VlH__YHGYbuqUS6RIGQJOmTzXrL6inarbsC92-jILj_jn4qC7lrSGIdUWxNfZ41KsA",
-          "cookie_valid": "1773179469",
-          "expire_date": "Wednesday, March 11, 2026, 3:21:09 AM",
-          "language": "ENGLISH"
-        }
-      ]
-    },
-    {
-      "category": "Tennis",
-      "title": "E Court Feed",
-      "tournament": "ATP Masters BNP Paribas Open 2026",
-      "match_id": 141019,
-      "status": "LIVE",
-      "streamingStatus": "STARTED",
-      "startTime": "09 March 2026 11:30 PM",
-      "startDate": "01 January 1970 05:30 AM",
-      "image": "https://www.fancode.com/skillup-uploads/cms-media/BNP_Paribas-Open_web.jpg",
-      "image_cdn": {
-        "TATAPLAY": "https://images.fancode.com/aig/match/v1/141019_CASACARDS_PARTNER_16_9_1920_1080.png",
-        "APP": "https://www.fancode.com/skillup-uploads/cms-media/BNP_Paribas-Open_web.jpg",
-        "PLAYBACK": "https://www.fancode.com/skillup-uploads/cms-media/BNP_Paribas-Open_web.jpg",
-        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/ATP_Tour-&-Team-Logo.png",
-        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Default_Tennis-old.jpg",
-        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/BNP_Paribas-Open_web.jpg",
-        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/BNP_Paribas-Open_app.jpg",
-        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/141019_CASACARDS_PARTNER_16_9_1920_1080.png"
-      },
-      "team": [
-        {
-          "name": "E Court Feed",
-          "shortName": "E Court Feed",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/lawn-tennis-flags/FC-ATP@2x.png"
-          },
-          "isWinner": null,
-          "color": "#FF0000",
-          "cricketScore": null,
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        },
-        {
-          "name": "Indian, United States",
-          "shortName": "Indian, United States",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/lawn-tennis-flags/FC-LOC@2x.png"
-          },
-          "isWinner": null,
-          "color": "#FF0000",
-          "cricketScore": null,
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        }
-      ],
-      "language": "ENGLISH",
-      "auto_streams": [
-        {
-          "auto": "#EXTM3U\n#EXT-X-VERSION:3\n#EXT-X-STREAM-INF:BANDWIDTH=446936,AVERAGE-BANDWIDTH=446936,CODECS=\"avc1.42e015,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=426x240,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/141019_english_hls_30f1562d8498873_1ta-di_h264/240p.m3u8?hdntl=Expires=1773179471~_GO=Generated~acl=/mumbai/141019_english_hls_30f1562d8498873_1ta-di_h264/*~Signature=AQQqLwRm6KFpIIU-Kifslb5M-EsnW0ox0HEMRxjwtUEusdz6RXtSMCSZP-za1bHdeI01xdzxnJ5s0Ql9eInpDE6-tUMG\n#EXT-X-STREAM-INF:BANDWIDTH=702376,AVERAGE-BANDWIDTH=702376,CODECS=\"avc1.42e01e,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=640x360,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/141019_english_hls_30f1562d8498873_1ta-di_h264/360p.m3u8?hdntl=Expires=1773179471~_GO=Generated~acl=/mumbai/141019_english_hls_30f1562d8498873_1ta-di_h264/*~Signature=AQQqLwRm6KFpIIU-Kifslb5M-EsnW0ox0HEMRxjwtUEusdz6RXtSMCSZP-za1bHdeI01xdzxnJ5s0Ql9eInpDE6-tUMG\n#EXT-X-STREAM-INF:BANDWIDTH=1023224,AVERAGE-BANDWIDTH=1023224,CODECS=\"avc1.4d401e,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=854x480,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/141019_english_hls_30f1562d8498873_1ta-di_h264/480p.m3u8?hdntl=Expires=1773179471~_GO=Generated~acl=/mumbai/141019_english_hls_30f1562d8498873_1ta-di_h264/*~Signature=AQQqLwRm6KFpIIU-Kifslb5M-EsnW0ox0HEMRxjwtUEusdz6RXtSMCSZP-za1bHdeI01xdzxnJ5s0Ql9eInpDE6-tUMG\n#EXT-X-STREAM-INF:BANDWIDTH=1278664,AVERAGE-BANDWIDTH=1278664,CODECS=\"avc1.4d401f,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=960x540,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/141019_english_hls_30f1562d8498873_1ta-di_h264/540p.m3u8?hdntl=Expires=1773179471~_GO=Generated~acl=/mumbai/141019_english_hls_30f1562d8498873_1ta-di_h264/*~Signature=AQQqLwRm6KFpIIU-Kifslb5M-EsnW0ox0HEMRxjwtUEusdz6RXtSMCSZP-za1bHdeI01xdzxnJ5s0Ql9eInpDE6-tUMG\n#EXT-X-STREAM-INF:BANDWIDTH=1789512,AVERAGE-BANDWIDTH=1789512,CODECS=\"avc1.64001f,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1280x720,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/141019_english_hls_30f1562d8498873_1ta-di_h264/720p.m3u8?hdntl=Expires=1773179471~_GO=Generated~acl=/mumbai/141019_english_hls_30f1562d8498873_1ta-di_h264/*~Signature=AQQqLwRm6KFpIIU-Kifslb5M-EsnW0ox0HEMRxjwtUEusdz6RXtSMCSZP-za1bHdeI01xdzxnJ5s0Ql9eInpDE6-tUMG\n#EXT-X-STREAM-INF:BANDWIDTH=3322120,AVERAGE-BANDWIDTH=3322120,CODECS=\"avc1.640028,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1920x1080,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/141019_english_hls_30f1562d8498873_1ta-di_h264/1080p.m3u8?hdntl=Expires=1773179471~_GO=Generated~acl=/mumbai/141019_english_hls_30f1562d8498873_1ta-di_h264/*~Signature=AQQqLwRm6KFpIIU-Kifslb5M-EsnW0ox0HEMRxjwtUEusdz6RXtSMCSZP-za1bHdeI01xdzxnJ5s0Ql9eInpDE6-tUMG",
-          "cookie_valid": "1773179471",
-          "expire_date": "Wednesday, March 11, 2026, 3:21:11 AM",
-          "language": "ENGLISH"
-        }
-      ]
-    },
-    {
-      "category": "Tennis",
-      "title": "A Court Feed",
-      "tournament": "ATP Masters BNP Paribas Open 2026",
-      "match_id": 141252,
-      "status": "LIVE",
-      "streamingStatus": "STARTED",
-      "startTime": "09 March 2026 11:30 PM",
-      "startDate": "01 January 1970 05:30 AM",
-      "image": "https://www.fancode.com/skillup-uploads/cms-media/BNP_Paribas-Open_web.jpg",
-      "image_cdn": {
-        "TATAPLAY": "https://images.fancode.com/aig/match/v1/141252_CASACARDS_PARTNER_16_9_1920_1080.png",
-        "APP": "https://www.fancode.com/skillup-uploads/cms-media/BNP_Paribas-Open_web.jpg",
-        "PLAYBACK": "https://www.fancode.com/skillup-uploads/cms-media/BNP_Paribas-Open_web.jpg",
-        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/ATP_Tour-&-Team-Logo.png",
-        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Default_Tennis-old.jpg",
-        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/BNP_Paribas-Open_web.jpg",
-        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/BNP_Paribas-Open_app.jpg",
-        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/141252_CASACARDS_PARTNER_16_9_1920_1080.png"
-      },
-      "team": [
-        {
-          "name": "A Court Feed",
-          "shortName": "A Court Feed",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/lawn-tennis-flags/FC-ATP@2x.png"
-          },
-          "isWinner": null,
-          "color": "#FF0000",
-          "cricketScore": null,
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        },
-        {
-          "name": "Indian, United States",
-          "shortName": "Indian, United States",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/lawn-tennis-flags/FC-LOC@2x.png"
-          },
-          "isWinner": null,
-          "color": "#FF0000",
-          "cricketScore": null,
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        }
-      ],
-      "language": "ENGLISH",
-      "auto_streams": [
-        {
-          "auto": "#EXTM3U\n#EXT-X-VERSION:3\n#EXT-X-STREAM-INF:BANDWIDTH=446936,AVERAGE-BANDWIDTH=446936,CODECS=\"avc1.42e015,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=426x240,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/141252_english_hls_7b4e54cc1747300_1ta-di_h264/240p.m3u8?hdntl=Expires=1773180307~_GO=Generated~acl=/mumbai/141252_english_hls_7b4e54cc1747300_1ta-di_h264/*~Signature=AQQqLwRp93eolRwtHiLyhLHuS9AjCBNGqC9ePt8Kwg4js95jZG6eK0ohlmYzq41CtcMFiwQpCgC43Q7HTP5PvU6LgS8L\n#EXT-X-STREAM-INF:BANDWIDTH=702376,AVERAGE-BANDWIDTH=702376,CODECS=\"avc1.42e01e,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=640x360,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/141252_english_hls_7b4e54cc1747300_1ta-di_h264/360p.m3u8?hdntl=Expires=1773180307~_GO=Generated~acl=/mumbai/141252_english_hls_7b4e54cc1747300_1ta-di_h264/*~Signature=AQQqLwRp93eolRwtHiLyhLHuS9AjCBNGqC9ePt8Kwg4js95jZG6eK0ohlmYzq41CtcMFiwQpCgC43Q7HTP5PvU6LgS8L\n#EXT-X-STREAM-INF:BANDWIDTH=1023224,AVERAGE-BANDWIDTH=1023224,CODECS=\"avc1.4d401e,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=854x480,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/141252_english_hls_7b4e54cc1747300_1ta-di_h264/480p.m3u8?hdntl=Expires=1773180307~_GO=Generated~acl=/mumbai/141252_english_hls_7b4e54cc1747300_1ta-di_h264/*~Signature=AQQqLwRp93eolRwtHiLyhLHuS9AjCBNGqC9ePt8Kwg4js95jZG6eK0ohlmYzq41CtcMFiwQpCgC43Q7HTP5PvU6LgS8L\n#EXT-X-STREAM-INF:BANDWIDTH=1278664,AVERAGE-BANDWIDTH=1278664,CODECS=\"avc1.4d401f,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=960x540,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/141252_english_hls_7b4e54cc1747300_1ta-di_h264/540p.m3u8?hdntl=Expires=1773180307~_GO=Generated~acl=/mumbai/141252_english_hls_7b4e54cc1747300_1ta-di_h264/*~Signature=AQQqLwRp93eolRwtHiLyhLHuS9AjCBNGqC9ePt8Kwg4js95jZG6eK0ohlmYzq41CtcMFiwQpCgC43Q7HTP5PvU6LgS8L\n#EXT-X-STREAM-INF:BANDWIDTH=1789512,AVERAGE-BANDWIDTH=1789512,CODECS=\"avc1.64001f,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1280x720,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/141252_english_hls_7b4e54cc1747300_1ta-di_h264/720p.m3u8?hdntl=Expires=1773180307~_GO=Generated~acl=/mumbai/141252_english_hls_7b4e54cc1747300_1ta-di_h264/*~Signature=AQQqLwRp93eolRwtHiLyhLHuS9AjCBNGqC9ePt8Kwg4js95jZG6eK0ohlmYzq41CtcMFiwQpCgC43Q7HTP5PvU6LgS8L\n#EXT-X-STREAM-INF:BANDWIDTH=3322120,AVERAGE-BANDWIDTH=3322120,CODECS=\"avc1.640028,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1920x1080,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/141252_english_hls_7b4e54cc1747300_1ta-di_h264/1080p.m3u8?hdntl=Expires=1773180307~_GO=Generated~acl=/mumbai/141252_english_hls_7b4e54cc1747300_1ta-di_h264/*~Signature=AQQqLwRp93eolRwtHiLyhLHuS9AjCBNGqC9ePt8Kwg4js95jZG6eK0ohlmYzq41CtcMFiwQpCgC43Q7HTP5PvU6LgS8L",
-          "cookie_valid": "1773180307",
-          "expire_date": "Wednesday, March 11, 2026, 3:35:07 AM",
+          "auto": "#EXTM3U\n#EXT-X-VERSION:3\n#EXT-X-STREAM-INF:BANDWIDTH=446936,AVERAGE-BANDWIDTH=446936,CODECS=\"avc1.42e015,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=426x240,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/141184_english_hls_da9a75d90c28906_1ta-di_h264/240p.m3u8?hdntl=Expires=1773203168~_GO=Generated~acl=/mumbai/141184_english_hls_da9a75d90c28906_1ta-di_h264/*~Signature=AQQqLwQTi-gIVBvuweVDQdYa4W2F4MJoKvjRILCjGG_1qTVfl5Sad-Cohp-k0SWqxpNoZlldGY3nOpauVlz9BIQp4fYP\n#EXT-X-STREAM-INF:BANDWIDTH=702376,AVERAGE-BANDWIDTH=702376,CODECS=\"avc1.42e01e,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=640x360,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/141184_english_hls_da9a75d90c28906_1ta-di_h264/360p.m3u8?hdntl=Expires=1773203168~_GO=Generated~acl=/mumbai/141184_english_hls_da9a75d90c28906_1ta-di_h264/*~Signature=AQQqLwQTi-gIVBvuweVDQdYa4W2F4MJoKvjRILCjGG_1qTVfl5Sad-Cohp-k0SWqxpNoZlldGY3nOpauVlz9BIQp4fYP\n#EXT-X-STREAM-INF:BANDWIDTH=1023224,AVERAGE-BANDWIDTH=1023224,CODECS=\"avc1.4d401e,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=854x480,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/141184_english_hls_da9a75d90c28906_1ta-di_h264/480p.m3u8?hdntl=Expires=1773203168~_GO=Generated~acl=/mumbai/141184_english_hls_da9a75d90c28906_1ta-di_h264/*~Signature=AQQqLwQTi-gIVBvuweVDQdYa4W2F4MJoKvjRILCjGG_1qTVfl5Sad-Cohp-k0SWqxpNoZlldGY3nOpauVlz9BIQp4fYP\n#EXT-X-STREAM-INF:BANDWIDTH=1278664,AVERAGE-BANDWIDTH=1278664,CODECS=\"avc1.4d401f,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=960x540,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/141184_english_hls_da9a75d90c28906_1ta-di_h264/540p.m3u8?hdntl=Expires=1773203168~_GO=Generated~acl=/mumbai/141184_english_hls_da9a75d90c28906_1ta-di_h264/*~Signature=AQQqLwQTi-gIVBvuweVDQdYa4W2F4MJoKvjRILCjGG_1qTVfl5Sad-Cohp-k0SWqxpNoZlldGY3nOpauVlz9BIQp4fYP\n#EXT-X-STREAM-INF:BANDWIDTH=1789512,AVERAGE-BANDWIDTH=1789512,CODECS=\"avc1.64001f,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1280x720,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/141184_english_hls_da9a75d90c28906_1ta-di_h264/720p.m3u8?hdntl=Expires=1773203168~_GO=Generated~acl=/mumbai/141184_english_hls_da9a75d90c28906_1ta-di_h264/*~Signature=AQQqLwQTi-gIVBvuweVDQdYa4W2F4MJoKvjRILCjGG_1qTVfl5Sad-Cohp-k0SWqxpNoZlldGY3nOpauVlz9BIQp4fYP\n#EXT-X-STREAM-INF:BANDWIDTH=3322120,AVERAGE-BANDWIDTH=3322120,CODECS=\"avc1.640028,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1920x1080,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/141184_english_hls_da9a75d90c28906_1ta-di_h264/1080p.m3u8?hdntl=Expires=1773203168~_GO=Generated~acl=/mumbai/141184_english_hls_da9a75d90c28906_1ta-di_h264/*~Signature=AQQqLwQTi-gIVBvuweVDQdYa4W2F4MJoKvjRILCjGG_1qTVfl5Sad-Cohp-k0SWqxpNoZlldGY3nOpauVlz9BIQp4fYP",
+          "cookie_valid": "1773203168",
+          "expire_date": "Wednesday, March 11, 2026, 9:56:08 AM",
           "language": "ENGLISH"
         }
       ]
@@ -353,149 +221,9 @@
       "language": "ENGLISH",
       "auto_streams": [
         {
-          "auto": "#EXTM3U\n#EXT-X-VERSION:3\n#EXT-X-STREAM-INF:BANDWIDTH=446936,AVERAGE-BANDWIDTH=446936,CODECS=\"avc1.42e015,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=426x240,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/141251_english_hls_896040e10330460_1ta-di_h264/240p.m3u8?hdntl=Expires=1773180310~_GO=Generated~acl=/mumbai/141251_english_hls_896040e10330460_1ta-di_h264/*~Signature=AQQqLwQ9vtefo5-GDz0ke7VoNmXFCGA88Vqx6dzj_m8Bc_z40jSthfWrEm1XACN-O7bAAEr3T9K_VSZxIEnFnG9f7C8B\n#EXT-X-STREAM-INF:BANDWIDTH=702376,AVERAGE-BANDWIDTH=702376,CODECS=\"avc1.42e01e,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=640x360,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/141251_english_hls_896040e10330460_1ta-di_h264/360p.m3u8?hdntl=Expires=1773180310~_GO=Generated~acl=/mumbai/141251_english_hls_896040e10330460_1ta-di_h264/*~Signature=AQQqLwQ9vtefo5-GDz0ke7VoNmXFCGA88Vqx6dzj_m8Bc_z40jSthfWrEm1XACN-O7bAAEr3T9K_VSZxIEnFnG9f7C8B\n#EXT-X-STREAM-INF:BANDWIDTH=1023224,AVERAGE-BANDWIDTH=1023224,CODECS=\"avc1.4d401e,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=854x480,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/141251_english_hls_896040e10330460_1ta-di_h264/480p.m3u8?hdntl=Expires=1773180310~_GO=Generated~acl=/mumbai/141251_english_hls_896040e10330460_1ta-di_h264/*~Signature=AQQqLwQ9vtefo5-GDz0ke7VoNmXFCGA88Vqx6dzj_m8Bc_z40jSthfWrEm1XACN-O7bAAEr3T9K_VSZxIEnFnG9f7C8B\n#EXT-X-STREAM-INF:BANDWIDTH=1278664,AVERAGE-BANDWIDTH=1278664,CODECS=\"avc1.4d401f,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=960x540,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/141251_english_hls_896040e10330460_1ta-di_h264/540p.m3u8?hdntl=Expires=1773180310~_GO=Generated~acl=/mumbai/141251_english_hls_896040e10330460_1ta-di_h264/*~Signature=AQQqLwQ9vtefo5-GDz0ke7VoNmXFCGA88Vqx6dzj_m8Bc_z40jSthfWrEm1XACN-O7bAAEr3T9K_VSZxIEnFnG9f7C8B\n#EXT-X-STREAM-INF:BANDWIDTH=1789512,AVERAGE-BANDWIDTH=1789512,CODECS=\"avc1.64001f,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1280x720,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/141251_english_hls_896040e10330460_1ta-di_h264/720p.m3u8?hdntl=Expires=1773180310~_GO=Generated~acl=/mumbai/141251_english_hls_896040e10330460_1ta-di_h264/*~Signature=AQQqLwQ9vtefo5-GDz0ke7VoNmXFCGA88Vqx6dzj_m8Bc_z40jSthfWrEm1XACN-O7bAAEr3T9K_VSZxIEnFnG9f7C8B\n#EXT-X-STREAM-INF:BANDWIDTH=3322120,AVERAGE-BANDWIDTH=3322120,CODECS=\"avc1.640028,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1920x1080,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/141251_english_hls_896040e10330460_1ta-di_h264/1080p.m3u8?hdntl=Expires=1773180310~_GO=Generated~acl=/mumbai/141251_english_hls_896040e10330460_1ta-di_h264/*~Signature=AQQqLwQ9vtefo5-GDz0ke7VoNmXFCGA88Vqx6dzj_m8Bc_z40jSthfWrEm1XACN-O7bAAEr3T9K_VSZxIEnFnG9f7C8B",
-          "cookie_valid": "1773180310",
-          "expire_date": "Wednesday, March 11, 2026, 3:35:10 AM",
-          "language": "ENGLISH"
-        }
-      ]
-    },
-    {
-      "category": "Tennis",
-      "title": "F Court Feed",
-      "tournament": "ATP Masters BNP Paribas Open 2026",
-      "match_id": 141250,
-      "status": "LIVE",
-      "streamingStatus": "STARTED",
-      "startTime": "09 March 2026 11:30 PM",
-      "startDate": "01 January 1970 05:30 AM",
-      "image": "https://www.fancode.com/skillup-uploads/cms-media/BNP_Paribas-Open_web.jpg",
-      "image_cdn": {
-        "TATAPLAY": "https://images.fancode.com/aig/match/v1/141250_CASACARDS_PARTNER_16_9_1920_1080.png",
-        "APP": "https://www.fancode.com/skillup-uploads/cms-media/BNP_Paribas-Open_web.jpg",
-        "PLAYBACK": "https://www.fancode.com/skillup-uploads/cms-media/BNP_Paribas-Open_web.jpg",
-        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/ATP_Tour-&-Team-Logo.png",
-        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Default_Tennis-old.jpg",
-        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/BNP_Paribas-Open_web.jpg",
-        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/BNP_Paribas-Open_app.jpg",
-        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/141250_CASACARDS_PARTNER_16_9_1920_1080.png"
-      },
-      "team": [
-        {
-          "name": "F Court Feed",
-          "shortName": "F Court Feed",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/lawn-tennis-flags/FC-ATP@2x.png"
-          },
-          "isWinner": null,
-          "color": "#FF0000",
-          "cricketScore": null,
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        },
-        {
-          "name": "Indian, United States",
-          "shortName": "Indian, United States",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/lawn-tennis-flags/FC-LOC@2x.png"
-          },
-          "isWinner": null,
-          "color": "#FF0000",
-          "cricketScore": null,
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        }
-      ],
-      "language": "ENGLISH",
-      "auto_streams": [
-        {
-          "auto": "#EXTM3U\n#EXT-X-VERSION:3\n#EXT-X-STREAM-INF:BANDWIDTH=446936,AVERAGE-BANDWIDTH=446936,CODECS=\"avc1.42e015,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=426x240,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/141250_english_hls_a340025b8635219_1ta-di_h264/240p.m3u8?hdntl=Expires=1773180312~_GO=Generated~acl=/mumbai/141250_english_hls_a340025b8635219_1ta-di_h264/*~Signature=AQQqLwRLFy3PgKmuBpTJUcf8pdSzoMBcrE0JNLO3Ily5_09L5vhEmYCUZupvWXHhh6SFLB7_Fn0hG_Fn6VrlWQBRnEkO\n#EXT-X-STREAM-INF:BANDWIDTH=702376,AVERAGE-BANDWIDTH=702376,CODECS=\"avc1.42e01e,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=640x360,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/141250_english_hls_a340025b8635219_1ta-di_h264/360p.m3u8?hdntl=Expires=1773180312~_GO=Generated~acl=/mumbai/141250_english_hls_a340025b8635219_1ta-di_h264/*~Signature=AQQqLwRLFy3PgKmuBpTJUcf8pdSzoMBcrE0JNLO3Ily5_09L5vhEmYCUZupvWXHhh6SFLB7_Fn0hG_Fn6VrlWQBRnEkO\n#EXT-X-STREAM-INF:BANDWIDTH=1023224,AVERAGE-BANDWIDTH=1023224,CODECS=\"avc1.4d401e,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=854x480,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/141250_english_hls_a340025b8635219_1ta-di_h264/480p.m3u8?hdntl=Expires=1773180312~_GO=Generated~acl=/mumbai/141250_english_hls_a340025b8635219_1ta-di_h264/*~Signature=AQQqLwRLFy3PgKmuBpTJUcf8pdSzoMBcrE0JNLO3Ily5_09L5vhEmYCUZupvWXHhh6SFLB7_Fn0hG_Fn6VrlWQBRnEkO\n#EXT-X-STREAM-INF:BANDWIDTH=1278664,AVERAGE-BANDWIDTH=1278664,CODECS=\"avc1.4d401f,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=960x540,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/141250_english_hls_a340025b8635219_1ta-di_h264/540p.m3u8?hdntl=Expires=1773180312~_GO=Generated~acl=/mumbai/141250_english_hls_a340025b8635219_1ta-di_h264/*~Signature=AQQqLwRLFy3PgKmuBpTJUcf8pdSzoMBcrE0JNLO3Ily5_09L5vhEmYCUZupvWXHhh6SFLB7_Fn0hG_Fn6VrlWQBRnEkO\n#EXT-X-STREAM-INF:BANDWIDTH=1789512,AVERAGE-BANDWIDTH=1789512,CODECS=\"avc1.64001f,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1280x720,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/141250_english_hls_a340025b8635219_1ta-di_h264/720p.m3u8?hdntl=Expires=1773180312~_GO=Generated~acl=/mumbai/141250_english_hls_a340025b8635219_1ta-di_h264/*~Signature=AQQqLwRLFy3PgKmuBpTJUcf8pdSzoMBcrE0JNLO3Ily5_09L5vhEmYCUZupvWXHhh6SFLB7_Fn0hG_Fn6VrlWQBRnEkO\n#EXT-X-STREAM-INF:BANDWIDTH=3322120,AVERAGE-BANDWIDTH=3322120,CODECS=\"avc1.640028,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1920x1080,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/141250_english_hls_a340025b8635219_1ta-di_h264/1080p.m3u8?hdntl=Expires=1773180312~_GO=Generated~acl=/mumbai/141250_english_hls_a340025b8635219_1ta-di_h264/*~Signature=AQQqLwRLFy3PgKmuBpTJUcf8pdSzoMBcrE0JNLO3Ily5_09L5vhEmYCUZupvWXHhh6SFLB7_Fn0hG_Fn6VrlWQBRnEkO",
-          "cookie_valid": "1773180312",
-          "expire_date": "Wednesday, March 11, 2026, 3:35:12 AM",
-          "language": "ENGLISH"
-        }
-      ]
-    },
-    {
-      "category": "Tennis",
-      "title": "World Feed",
-      "tournament": "ATP Masters BNP Paribas Open 2026",
-      "match_id": 141249,
-      "status": "LIVE",
-      "streamingStatus": "STARTED",
-      "startTime": "09 March 2026 11:30 PM",
-      "startDate": "01 January 1970 05:30 AM",
-      "image": "https://www.fancode.com/skillup-uploads/cms-media/BNP_Paribas-Open_web.jpg",
-      "image_cdn": {
-        "TATAPLAY": "https://images.fancode.com/aig/match/v1/141249_CASACARDS_PARTNER_16_9_1920_1080.png",
-        "APP": "https://www.fancode.com/skillup-uploads/cms-media/BNP_Paribas-Open_web.jpg",
-        "PLAYBACK": "https://www.fancode.com/skillup-uploads/cms-media/BNP_Paribas-Open_web.jpg",
-        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/ATP_Tour-&-Team-Logo.png",
-        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Default_Tennis-old.jpg",
-        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/BNP_Paribas-Open_web.jpg",
-        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/BNP_Paribas-Open_app.jpg",
-        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/141249_CASACARDS_PARTNER_16_9_1920_1080.png"
-      },
-      "team": [
-        {
-          "name": "World Feed",
-          "shortName": "World Feed",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/lawn-tennis-flags/FC-ATP@2x.png"
-          },
-          "isWinner": null,
-          "color": "#FF0000",
-          "cricketScore": null,
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        },
-        {
-          "name": "Indian, United States",
-          "shortName": "Indian, United States",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/lawn-tennis-flags/FC-LOC@2x.png"
-          },
-          "isWinner": null,
-          "color": "#FF0000",
-          "cricketScore": null,
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        }
-      ],
-      "language": "ENGLISH",
-      "auto_streams": [
-        {
-          "auto": "#EXTM3U\n#EXT-X-VERSION:3\n#EXT-X-STREAM-INF:BANDWIDTH=446936,AVERAGE-BANDWIDTH=446936,CODECS=\"avc1.42e015,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=426x240,FRAME-RATE=25.000\nhttps://in-mc-plive.fancode.com/mumbai/141249_english_hls_f62f5bbf2628489_1ta-di_h264/240p.m3u8?hdntl=Expires=1773180317~_GO=Generated~acl=/mumbai/141249_english_hls_f62f5bbf2628489_1ta-di_h264/*~Signature=AQQqLwSBzJKjnO9lllk1ZxTQmlxDezWotfZrvLEioiVS7pgBHloB1V5eRJWm8QZeehrnMJfYnrFzyZnHOb9XZJjvliEB\n#EXT-X-STREAM-INF:BANDWIDTH=702376,AVERAGE-BANDWIDTH=702376,CODECS=\"avc1.42e01e,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=640x360,FRAME-RATE=25.000\nhttps://in-mc-plive.fancode.com/mumbai/141249_english_hls_f62f5bbf2628489_1ta-di_h264/360p.m3u8?hdntl=Expires=1773180317~_GO=Generated~acl=/mumbai/141249_english_hls_f62f5bbf2628489_1ta-di_h264/*~Signature=AQQqLwSBzJKjnO9lllk1ZxTQmlxDezWotfZrvLEioiVS7pgBHloB1V5eRJWm8QZeehrnMJfYnrFzyZnHOb9XZJjvliEB\n#EXT-X-STREAM-INF:BANDWIDTH=1023224,AVERAGE-BANDWIDTH=1023224,CODECS=\"avc1.4d401e,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=854x480,FRAME-RATE=25.000\nhttps://in-mc-plive.fancode.com/mumbai/141249_english_hls_f62f5bbf2628489_1ta-di_h264/480p.m3u8?hdntl=Expires=1773180317~_GO=Generated~acl=/mumbai/141249_english_hls_f62f5bbf2628489_1ta-di_h264/*~Signature=AQQqLwSBzJKjnO9lllk1ZxTQmlxDezWotfZrvLEioiVS7pgBHloB1V5eRJWm8QZeehrnMJfYnrFzyZnHOb9XZJjvliEB\n#EXT-X-STREAM-INF:BANDWIDTH=1278664,AVERAGE-BANDWIDTH=1278664,CODECS=\"avc1.4d401f,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=960x540,FRAME-RATE=25.000\nhttps://in-mc-plive.fancode.com/mumbai/141249_english_hls_f62f5bbf2628489_1ta-di_h264/540p.m3u8?hdntl=Expires=1773180317~_GO=Generated~acl=/mumbai/141249_english_hls_f62f5bbf2628489_1ta-di_h264/*~Signature=AQQqLwSBzJKjnO9lllk1ZxTQmlxDezWotfZrvLEioiVS7pgBHloB1V5eRJWm8QZeehrnMJfYnrFzyZnHOb9XZJjvliEB\n#EXT-X-STREAM-INF:BANDWIDTH=1789512,AVERAGE-BANDWIDTH=1789512,CODECS=\"avc1.64001f,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1280x720,FRAME-RATE=25.000\nhttps://in-mc-plive.fancode.com/mumbai/141249_english_hls_f62f5bbf2628489_1ta-di_h264/720p.m3u8?hdntl=Expires=1773180317~_GO=Generated~acl=/mumbai/141249_english_hls_f62f5bbf2628489_1ta-di_h264/*~Signature=AQQqLwSBzJKjnO9lllk1ZxTQmlxDezWotfZrvLEioiVS7pgBHloB1V5eRJWm8QZeehrnMJfYnrFzyZnHOb9XZJjvliEB\n#EXT-X-STREAM-INF:BANDWIDTH=3322120,AVERAGE-BANDWIDTH=3322120,CODECS=\"avc1.640028,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1920x1080,FRAME-RATE=25.000\nhttps://in-mc-plive.fancode.com/mumbai/141249_english_hls_f62f5bbf2628489_1ta-di_h264/1080p.m3u8?hdntl=Expires=1773180317~_GO=Generated~acl=/mumbai/141249_english_hls_f62f5bbf2628489_1ta-di_h264/*~Signature=AQQqLwSBzJKjnO9lllk1ZxTQmlxDezWotfZrvLEioiVS7pgBHloB1V5eRJWm8QZeehrnMJfYnrFzyZnHOb9XZJjvliEB",
-          "cookie_valid": "1773180317",
-          "expire_date": "Wednesday, March 11, 2026, 3:35:17 AM",
+          "auto": "#EXTM3U\n#EXT-X-VERSION:3\n#EXT-X-STREAM-INF:BANDWIDTH=446936,AVERAGE-BANDWIDTH=446936,CODECS=\"avc1.42e015,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=426x240,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/141251_english_hls_896040e10330460_1ta-di_h264/240p.m3u8?hdntl=Expires=1773195129~_GO=Generated~acl=/mumbai/141251_english_hls_896040e10330460_1ta-di_h264/*~Signature=AQQqLwTnD7MPCCw1uFYIQ-YMRN4oZE8OfBPWTtq8S2m4OPY6jjcT5ByAa_DBhL-RD4FIEUj7ihJzBATZLg7z1fgAkQwF\n#EXT-X-STREAM-INF:BANDWIDTH=702376,AVERAGE-BANDWIDTH=702376,CODECS=\"avc1.42e01e,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=640x360,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/141251_english_hls_896040e10330460_1ta-di_h264/360p.m3u8?hdntl=Expires=1773195129~_GO=Generated~acl=/mumbai/141251_english_hls_896040e10330460_1ta-di_h264/*~Signature=AQQqLwTnD7MPCCw1uFYIQ-YMRN4oZE8OfBPWTtq8S2m4OPY6jjcT5ByAa_DBhL-RD4FIEUj7ihJzBATZLg7z1fgAkQwF\n#EXT-X-STREAM-INF:BANDWIDTH=1023224,AVERAGE-BANDWIDTH=1023224,CODECS=\"avc1.4d401e,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=854x480,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/141251_english_hls_896040e10330460_1ta-di_h264/480p.m3u8?hdntl=Expires=1773195129~_GO=Generated~acl=/mumbai/141251_english_hls_896040e10330460_1ta-di_h264/*~Signature=AQQqLwTnD7MPCCw1uFYIQ-YMRN4oZE8OfBPWTtq8S2m4OPY6jjcT5ByAa_DBhL-RD4FIEUj7ihJzBATZLg7z1fgAkQwF\n#EXT-X-STREAM-INF:BANDWIDTH=1278664,AVERAGE-BANDWIDTH=1278664,CODECS=\"avc1.4d401f,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=960x540,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/141251_english_hls_896040e10330460_1ta-di_h264/540p.m3u8?hdntl=Expires=1773195129~_GO=Generated~acl=/mumbai/141251_english_hls_896040e10330460_1ta-di_h264/*~Signature=AQQqLwTnD7MPCCw1uFYIQ-YMRN4oZE8OfBPWTtq8S2m4OPY6jjcT5ByAa_DBhL-RD4FIEUj7ihJzBATZLg7z1fgAkQwF\n#EXT-X-STREAM-INF:BANDWIDTH=1789512,AVERAGE-BANDWIDTH=1789512,CODECS=\"avc1.64001f,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1280x720,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/141251_english_hls_896040e10330460_1ta-di_h264/720p.m3u8?hdntl=Expires=1773195129~_GO=Generated~acl=/mumbai/141251_english_hls_896040e10330460_1ta-di_h264/*~Signature=AQQqLwTnD7MPCCw1uFYIQ-YMRN4oZE8OfBPWTtq8S2m4OPY6jjcT5ByAa_DBhL-RD4FIEUj7ihJzBATZLg7z1fgAkQwF\n#EXT-X-STREAM-INF:BANDWIDTH=3322120,AVERAGE-BANDWIDTH=3322120,CODECS=\"avc1.640028,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1920x1080,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/141251_english_hls_896040e10330460_1ta-di_h264/1080p.m3u8?hdntl=Expires=1773195129~_GO=Generated~acl=/mumbai/141251_english_hls_896040e10330460_1ta-di_h264/*~Signature=AQQqLwTnD7MPCCw1uFYIQ-YMRN4oZE8OfBPWTtq8S2m4OPY6jjcT5ByAa_DBhL-RD4FIEUj7ihJzBATZLg7z1fgAkQwF",
+          "cookie_valid": "1773195129",
+          "expire_date": "Wednesday, March 11, 2026, 7:42:09 AM",
           "language": "ENGLISH"
         }
       ]
@@ -549,132 +277,6 @@
           "isWinner": null,
           "color": "#dfd32c",
           "cricketScore": [],
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        }
-      ],
-      "language": "BLOODY_SWEET",
-      "auto_streams": null
-    },
-    {
-      "category": "Cricket",
-      "title": "Mhkl Banaras Vs Ncc Odisha",
-      "tournament": "Tillo Cup 2026",
-      "match_id": 141261,
-      "status": "NOT_STARTED",
-      "streamingStatus": "NOT_STARTED",
-      "startTime": "10 March 2026 09:30 AM",
-      "startDate": "01 January 1970 05:30 AM",
-      "image": "https://www.fancode.com/skillup-uploads/cms-media/Tillo-Cup-2026-old-card-.jpg",
-      "image_cdn": {
-        "TATAPLAY": "https://images.fancode.com/aig/match/v1/141261_CASACARDS_PARTNER_16_9_1920_1080.png",
-        "APP": "https://www.fancode.com/skillup-uploads/cms-media/Tillo-Cup-2026-old-card-.jpg",
-        "PLAYBACK": null,
-        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/Tillo-Cup.png",
-        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_cricket-old.jpg",
-        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/Tillo-Cup-2026-old-card-.jpg",
-        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/Tillo-Cup-2026-Sporty-.jpg",
-        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/141261_CASACARDS_PARTNER_16_9_1920_1080.png"
-      },
-      "team": [
-        {
-          "name": "MHKL Banaras",
-          "shortName": "MHKL",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/DEF-CR1@2x.png"
-          },
-          "isWinner": null,
-          "color": "#e65e5e",
-          "cricketScore": [],
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        },
-        {
-          "name": "NCC Odisha",
-          "shortName": "NOD",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-NOD@2x.png"
-          },
-          "isWinner": null,
-          "color": "#064290",
-          "cricketScore": [],
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        }
-      ],
-      "language": "BLOODY_SWEET",
-      "auto_streams": null
-    },
-    {
-      "category": "Cricket",
-      "title": "Delhi Champions Vs Punjab Lions",
-      "tournament": "Thunderbolt T10 League 2026",
-      "match_id": 141184,
-      "status": "NOT_STARTED",
-      "streamingStatus": "NOT_STARTED",
-      "startTime": "10 March 2026 10:10 AM",
-      "startDate": "01 January 1970 05:30 AM",
-      "image": "https://www.fancode.com/skillup-uploads/cms-media/Mini-Match-Card-(1080x810)-(8).png",
-      "image_cdn": {
-        "TATAPLAY": "https://images.fancode.com/aig/match/v1/141184_CASACARDS_PARTNER_16_9_1920_1080.png",
-        "APP": "https://www.fancode.com/skillup-uploads/cms-media/Mini-Match-Card-(1080x810)-(8).png",
-        "PLAYBACK": null,
-        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/Thunderbolt-T10-League-(1).png",
-        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_cricket-old.jpg",
-        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/Mini-Match-Card-(1080x810)-(8).png",
-        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/Old-Sporty-(1080x1440)-(8).png",
-        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/141184_CASACARDS_PARTNER_16_9_1920_1080.png"
-      },
-      "team": [
-        {
-          "name": "Delhi Champions",
-          "shortName": "DC",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-DEC@2x.png"
-          },
-          "isWinner": null,
-          "color": "#890105",
-          "cricketScore": null,
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        },
-        {
-          "name": "Punjab Lions",
-          "shortName": "PL",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-PL@2x.png"
-          },
-          "isWinner": null,
-          "color": "#38a527",
-          "cricketScore": null,
           "kabaddiScore": null,
           "footballScore": null,
           "basketBallScore": null,
@@ -1257,6 +859,69 @@
       "auto_streams": null
     },
     {
+      "category": "Cricket",
+      "title": "Tasmania Vs New South Wales",
+      "tournament": "One Day Cup, 2025-26",
+      "match_id": 133949,
+      "status": "NOT_STARTED",
+      "streamingStatus": "NOT_STARTED",
+      "startTime": "11 March 2026 08:35 AM",
+      "startDate": "01 January 1970 05:30 AM",
+      "image": "https://www.fancode.com/skillup-uploads/cms-media/Tasmania-vs-New-South-Wales_fc-web_1772692426912.jpg",
+      "image_cdn": {
+        "TATAPLAY": "https://images.fancode.com/aig/match/v1/133949_CASACARDS_PARTNER_16_9_1920_1080.png",
+        "APP": "https://www.fancode.com/skillup-uploads/cms-media/Tasmania-vs-New-South-Wales_fc-web_1772692426912.jpg",
+        "PLAYBACK": null,
+        "LOGO": "https://fancode.com/skillup-uploads/prod-images/2024/11/One-Day-Cup.png",
+        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_cricket-old.jpg",
+        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/Tasmania-vs-New-South-Wales_fc-web_1772692426912.jpg",
+        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/Tasmania-vs-New-South-Wales_fc-app-(1).jpg",
+        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/133949_CASACARDS_PARTNER_16_9_1920_1080.png"
+      },
+      "team": [
+        {
+          "name": "Tasmania",
+          "shortName": "TAS",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-TAS@2x.png"
+          },
+          "isWinner": null,
+          "color": "#007e1e",
+          "cricketScore": [],
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        },
+        {
+          "name": "New South Wales",
+          "shortName": "NSW",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-NSW@2x.png"
+          },
+          "isWinner": null,
+          "color": "#0088e7",
+          "cricketScore": [],
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        }
+      ],
+      "language": "BLOODY_SWEET",
+      "auto_streams": null
+    },
+    {
       "category": "Football",
       "title": "Philadelphia Union Vs Club América",
       "tournament": "CONCACAF Champions Cup 2026",
@@ -1321,132 +986,6 @@
     },
     {
       "category": "Cricket",
-      "title": "Tasmania Vs New South Wales",
-      "tournament": "One Day Cup, 2025-26",
-      "match_id": 133949,
-      "status": "NOT_STARTED",
-      "streamingStatus": "NOT_STARTED",
-      "startTime": "11 March 2026 08:35 AM",
-      "startDate": "01 January 1970 05:30 AM",
-      "image": "https://www.fancode.com/skillup-uploads/cms-media/Tasmania-vs-New-South-Wales_fc-web_1772692426912.jpg",
-      "image_cdn": {
-        "TATAPLAY": "https://images.fancode.com/aig/match/v1/133949_CASACARDS_PARTNER_16_9_1920_1080.png",
-        "APP": "https://www.fancode.com/skillup-uploads/cms-media/Tasmania-vs-New-South-Wales_fc-web_1772692426912.jpg",
-        "PLAYBACK": null,
-        "LOGO": "https://fancode.com/skillup-uploads/prod-images/2024/11/One-Day-Cup.png",
-        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_cricket-old.jpg",
-        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/Tasmania-vs-New-South-Wales_fc-web_1772692426912.jpg",
-        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/Tasmania-vs-New-South-Wales_fc-app-(1).jpg",
-        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/133949_CASACARDS_PARTNER_16_9_1920_1080.png"
-      },
-      "team": [
-        {
-          "name": "Tasmania",
-          "shortName": "TAS",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-TAS@2x.png"
-          },
-          "isWinner": null,
-          "color": "#007e1e",
-          "cricketScore": null,
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        },
-        {
-          "name": "New South Wales",
-          "shortName": "NSW",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-NSW@2x.png"
-          },
-          "isWinner": null,
-          "color": "#0088e7",
-          "cricketScore": null,
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        }
-      ],
-      "language": "BLOODY_SWEET",
-      "auto_streams": null
-    },
-    {
-      "category": "Football",
-      "title": "Monterrey Vs Cruz Azul",
-      "tournament": "CONCACAF Champions Cup 2026",
-      "match_id": 141094,
-      "status": "NOT_STARTED",
-      "streamingStatus": "NOT_STARTED",
-      "startTime": "11 March 2026 06:30 AM",
-      "startDate": "01 January 1970 05:30 AM",
-      "image": "https://www.fancode.com/skillup-uploads/cms-media/141094_5954_MONT_CRU_1772957308843.png",
-      "image_cdn": {
-        "TATAPLAY": "https://images.fancode.com/aig/match/v1/141094_CASACARDS_PARTNER_16_9_1920_1080.png",
-        "APP": "https://www.fancode.com/skillup-uploads/cms-media/141094_5954_MONT_CRU_1772957308843.png",
-        "PLAYBACK": null,
-        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/Concacaf-Champions-Cup-Tour-Logo.png",
-        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Football-old-copy.jpg",
-        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/141094_5954_MONT_CRU_1772957308843.png",
-        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/141094_5954_MONT_CRU_1772958619194.png",
-        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/141094_CASACARDS_PARTNER_16_9_1920_1080.png"
-      },
-      "team": [
-        {
-          "name": "Monterrey",
-          "shortName": "MONT",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-MONT@2x.png"
-          },
-          "isWinner": null,
-          "color": "#9CF993",
-          "cricketScore": null,
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        },
-        {
-          "name": "Cruz Azul",
-          "shortName": "CRU",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-CRAZ@2x.png"
-          },
-          "isWinner": null,
-          "color": "#9CF993",
-          "cricketScore": null,
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        }
-      ],
-      "language": "BLOODY_SWEET",
-      "auto_streams": null
-    },
-    {
-      "category": "Cricket",
       "title": "Spj Cargo Vs Mhkl Banaras",
       "tournament": "Tillo Cup 2026",
       "match_id": 141263,
@@ -1474,7 +1013,7 @@
           },
           "isWinner": null,
           "color": "#1d1883",
-          "cricketScore": null,
+          "cricketScore": [],
           "kabaddiScore": null,
           "footballScore": null,
           "basketBallScore": null,
@@ -1489,11 +1028,11 @@
           "name": "MHKL Banaras",
           "shortName": "MHKL",
           "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/DEF-CR1@2x.png"
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-MHK@2x.png"
           },
           "isWinner": null,
           "color": "#e65e5e",
-          "cricketScore": null,
+          "cricketScore": [],
           "kabaddiScore": null,
           "footballScore": null,
           "basketBallScore": null,
@@ -1572,34 +1111,34 @@
       "auto_streams": null
     },
     {
-      "category": "Tennis",
-      "title": "B Court Feed",
-      "tournament": "ATP Masters BNP Paribas Open 2026",
-      "match_id": 141024,
+      "category": "Football",
+      "title": "Monterrey Vs Cruz Azul",
+      "tournament": "CONCACAF Champions Cup 2026",
+      "match_id": 141094,
       "status": "NOT_STARTED",
       "streamingStatus": "NOT_STARTED",
-      "startTime": "10 March 2026 10:30 PM",
+      "startTime": "11 March 2026 06:30 AM",
       "startDate": "01 January 1970 05:30 AM",
-      "image": "https://www.fancode.com/skillup-uploads/cms-media/BNP_Paribas-Open_web.jpg",
+      "image": "https://www.fancode.com/skillup-uploads/cms-media/141094_5954_MONT_CRU_1772957308843.png",
       "image_cdn": {
-        "TATAPLAY": "https://images.fancode.com/aig/match/v1/141024_CASACARDS_PARTNER_16_9_1920_1080.png",
-        "APP": "https://www.fancode.com/skillup-uploads/cms-media/BNP_Paribas-Open_web.jpg",
+        "TATAPLAY": "https://images.fancode.com/aig/match/v1/141094_CASACARDS_PARTNER_16_9_1920_1080.png",
+        "APP": "https://www.fancode.com/skillup-uploads/cms-media/141094_5954_MONT_CRU_1772957308843.png",
         "PLAYBACK": null,
-        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/ATP_Tour-&-Team-Logo.png",
-        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Default_Tennis-old.jpg",
-        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/BNP_Paribas-Open_web.jpg",
-        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/BNP_Paribas-Open_app.jpg",
-        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/141024_CASACARDS_PARTNER_16_9_1920_1080.png"
+        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/Concacaf-Champions-Cup-Tour-Logo.png",
+        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Football-old-copy.jpg",
+        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/141094_5954_MONT_CRU_1772957308843.png",
+        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/141094_5954_MONT_CRU_1772958619194.png",
+        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/141094_CASACARDS_PARTNER_16_9_1920_1080.png"
       },
       "team": [
         {
-          "name": "B Court Feed",
-          "shortName": "B Court Feed",
+          "name": "Monterrey",
+          "shortName": "MONT",
           "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/lawn-tennis-flags/FC-ATP@2x.png"
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-MONT@2x.png"
           },
           "isWinner": null,
-          "color": "#FF0000",
+          "color": "#9CF993",
           "cricketScore": null,
           "kabaddiScore": null,
           "footballScore": null,
@@ -1612,265 +1151,13 @@
           }
         },
         {
-          "name": "Indian, United States",
-          "shortName": "Indian, United States",
+          "name": "Cruz Azul",
+          "shortName": "CRU",
           "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/lawn-tennis-flags/FC-LOC@2x.png"
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-CRAZ@2x.png"
           },
           "isWinner": null,
-          "color": "#FF0000",
-          "cricketScore": null,
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        }
-      ],
-      "language": "BLOODY_SWEET",
-      "auto_streams": null
-    },
-    {
-      "category": "Tennis",
-      "title": "A Court Feed",
-      "tournament": "ATP Masters BNP Paribas Open 2026",
-      "match_id": 141023,
-      "status": "NOT_STARTED",
-      "streamingStatus": "NOT_STARTED",
-      "startTime": "10 March 2026 10:30 PM",
-      "startDate": "01 January 1970 05:30 AM",
-      "image": "https://www.fancode.com/skillup-uploads/cms-media/BNP_Paribas-Open_web.jpg",
-      "image_cdn": {
-        "TATAPLAY": "https://images.fancode.com/aig/match/v1/141023_CASACARDS_PARTNER_16_9_1920_1080.png",
-        "APP": "https://www.fancode.com/skillup-uploads/cms-media/BNP_Paribas-Open_web.jpg",
-        "PLAYBACK": null,
-        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/ATP_Tour-&-Team-Logo.png",
-        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Default_Tennis-old.jpg",
-        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/BNP_Paribas-Open_web.jpg",
-        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/BNP_Paribas-Open_app.jpg",
-        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/141023_CASACARDS_PARTNER_16_9_1920_1080.png"
-      },
-      "team": [
-        {
-          "name": "A Court Feed",
-          "shortName": "A Court Feed",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/lawn-tennis-flags/FC-ATP@2x.png"
-          },
-          "isWinner": null,
-          "color": "#FF0000",
-          "cricketScore": null,
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        },
-        {
-          "name": "Indian, United States",
-          "shortName": "Indian, United States",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/lawn-tennis-flags/FC-LOC@2x.png"
-          },
-          "isWinner": null,
-          "color": "#FF0000",
-          "cricketScore": null,
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        }
-      ],
-      "language": "BLOODY_SWEET",
-      "auto_streams": null
-    },
-    {
-      "category": "Tennis",
-      "title": "D Court Feed",
-      "tournament": "ATP Masters BNP Paribas Open 2026",
-      "match_id": 141022,
-      "status": "NOT_STARTED",
-      "streamingStatus": "NOT_STARTED",
-      "startTime": "10 March 2026 10:30 PM",
-      "startDate": "01 January 1970 05:30 AM",
-      "image": "https://www.fancode.com/skillup-uploads/cms-media/BNP_Paribas-Open_web.jpg",
-      "image_cdn": {
-        "TATAPLAY": "https://images.fancode.com/aig/match/v1/141022_CASACARDS_PARTNER_16_9_1920_1080.png",
-        "APP": "https://www.fancode.com/skillup-uploads/cms-media/BNP_Paribas-Open_web.jpg",
-        "PLAYBACK": null,
-        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/ATP_Tour-&-Team-Logo.png",
-        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Default_Tennis-old.jpg",
-        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/BNP_Paribas-Open_web.jpg",
-        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/BNP_Paribas-Open_app.jpg",
-        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/141022_CASACARDS_PARTNER_16_9_1920_1080.png"
-      },
-      "team": [
-        {
-          "name": "D Court Feed",
-          "shortName": "D Court Feed",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/lawn-tennis-flags/FC-ATP@2x.png"
-          },
-          "isWinner": null,
-          "color": "#FF0000",
-          "cricketScore": null,
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        },
-        {
-          "name": "Indian, United States",
-          "shortName": "Indian, United States",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/lawn-tennis-flags/FC-LOC@2x.png"
-          },
-          "isWinner": null,
-          "color": "#FF0000",
-          "cricketScore": null,
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        }
-      ],
-      "language": "BLOODY_SWEET",
-      "auto_streams": null
-    },
-    {
-      "category": "Tennis",
-      "title": "C Court Feed",
-      "tournament": "ATP Masters BNP Paribas Open 2026",
-      "match_id": 141254,
-      "status": "NOT_STARTED",
-      "streamingStatus": "NOT_STARTED",
-      "startTime": "10 March 2026 10:30 PM",
-      "startDate": "01 January 1970 05:30 AM",
-      "image": "https://www.fancode.com/skillup-uploads/cms-media/BNP_Paribas-Open_web.jpg",
-      "image_cdn": {
-        "TATAPLAY": "https://images.fancode.com/aig/match/v1/141254_CASACARDS_PARTNER_16_9_1920_1080.png",
-        "APP": "https://www.fancode.com/skillup-uploads/cms-media/BNP_Paribas-Open_web.jpg",
-        "PLAYBACK": null,
-        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/ATP_Tour-&-Team-Logo.png",
-        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Default_Tennis-old.jpg",
-        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/BNP_Paribas-Open_web.jpg",
-        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/BNP_Paribas-Open_app.jpg",
-        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/141254_CASACARDS_PARTNER_16_9_1920_1080.png"
-      },
-      "team": [
-        {
-          "name": "C Court Feed",
-          "shortName": "C Court Feed",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/lawn-tennis-flags/FC-ATP@2x.png"
-          },
-          "isWinner": null,
-          "color": "#FF0000",
-          "cricketScore": null,
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        },
-        {
-          "name": "Indian, United States",
-          "shortName": "Indian, United States",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/lawn-tennis-flags/FC-LOC@2x.png"
-          },
-          "isWinner": null,
-          "color": "#FF0000",
-          "cricketScore": null,
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        }
-      ],
-      "language": "BLOODY_SWEET",
-      "auto_streams": null
-    },
-    {
-      "category": "Tennis",
-      "title": "World Feed",
-      "tournament": "ATP Masters BNP Paribas Open 2026",
-      "match_id": 141253,
-      "status": "NOT_STARTED",
-      "streamingStatus": "NOT_STARTED",
-      "startTime": "10 March 2026 10:30 PM",
-      "startDate": "01 January 1970 05:30 AM",
-      "image": "https://www.fancode.com/skillup-uploads/cms-media/BNP_Paribas-Open_web.jpg",
-      "image_cdn": {
-        "TATAPLAY": "https://images.fancode.com/aig/match/v1/141253_CASACARDS_PARTNER_16_9_1920_1080.png",
-        "APP": "https://www.fancode.com/skillup-uploads/cms-media/BNP_Paribas-Open_web.jpg",
-        "PLAYBACK": null,
-        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/ATP_Tour-&-Team-Logo.png",
-        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Default_Tennis-old.jpg",
-        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/BNP_Paribas-Open_web.jpg",
-        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/BNP_Paribas-Open_app.jpg",
-        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/141253_CASACARDS_PARTNER_16_9_1920_1080.png"
-      },
-      "team": [
-        {
-          "name": "World Feed",
-          "shortName": "World Feed",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/lawn-tennis-flags/FC-ATP@2x.png"
-          },
-          "isWinner": null,
-          "color": "#FF0000",
-          "cricketScore": null,
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        },
-        {
-          "name": "Indian, United States",
-          "shortName": "Indian, United States",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/lawn-tennis-flags/FC-LOC@2x.png"
-          },
-          "isWinner": null,
-          "color": "#FF0000",
+          "color": "#9CF993",
           "cricketScore": null,
           "kabaddiScore": null,
           "footballScore": null,
@@ -2076,34 +1363,34 @@
       "auto_streams": null
     },
     {
-      "category": "Cricket",
-      "title": "England Lions Vs Pakistan Shaheens",
-      "tournament": "England Lions and Pakistan Shaheens tour of UAE",
-      "match_id": 140668,
-      "status": "ABANDONED",
+      "category": "Tennis",
+      "title": "B Court Feed",
+      "tournament": "ATP Masters BNP Paribas Open 2026",
+      "match_id": 141024,
+      "status": "NOT_STARTED",
       "streamingStatus": "NOT_STARTED",
-      "startTime": "09 March 2026 11:30 AM",
+      "startTime": "10 March 2026 11:30 PM",
       "startDate": "01 January 1970 05:30 AM",
-      "image": "https://www.fancode.com/skillup-uploads/cms-media/Mini-Match-Card-(1080x810)-(2)_1771323008079.png",
+      "image": "https://www.fancode.com/skillup-uploads/cms-media/BNP_Paribas-Open_web.jpg",
       "image_cdn": {
-        "TATAPLAY": "https://images.fancode.com/aig/match/v1/140668_CASACARDS_PARTNER_16_9_1920_1080.png",
-        "APP": "https://www.fancode.com/skillup-uploads/cms-media/Mini-Match-Card-(1080x810)-(2)_1771323008079.png",
+        "TATAPLAY": "https://images.fancode.com/aig/match/v1/141024_CASACARDS_PARTNER_16_9_1920_1080.png",
+        "APP": "https://www.fancode.com/skillup-uploads/cms-media/BNP_Paribas-Open_web.jpg",
         "PLAYBACK": null,
-        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/T20Series_Lion-vs-Shaheens.png",
-        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_cricket-old.jpg",
-        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/Mini-Match-Card-(1080x810)-(2)_1771323008079.png",
-        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/Old-Sporty-(1080x1440)-(2)_1771323008088.png",
-        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/140668_CASACARDS_PARTNER_16_9_1920_1080.png"
+        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/ATP_Tour-&-Team-Logo.png",
+        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Default_Tennis-old.jpg",
+        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/BNP_Paribas-Open_web.jpg",
+        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/BNP_Paribas-Open_app.jpg",
+        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/141024_CASACARDS_PARTNER_16_9_1920_1080.png"
       },
       "team": [
         {
-          "name": "England Lions",
-          "shortName": "EN-A",
+          "name": "B Court Feed",
+          "shortName": "B Court Feed",
           "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-ENG@2x.png"
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/lawn-tennis-flags/FC-ATP@2x.png"
           },
-          "isWinner": false,
-          "color": "#eb5764",
+          "isWinner": null,
+          "color": "#FF0000",
           "cricketScore": null,
           "kabaddiScore": null,
           "footballScore": null,
@@ -2116,13 +1403,265 @@
           }
         },
         {
-          "name": "Pakistan Shaheens",
-          "shortName": "PKS",
+          "name": "Indian, United States",
+          "shortName": "Indian, United States",
           "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-PKS@2x.png"
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/lawn-tennis-flags/FC-LOC@2x.png"
           },
-          "isWinner": false,
-          "color": "#d8a918",
+          "isWinner": null,
+          "color": "#FF0000",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        }
+      ],
+      "language": "BLOODY_SWEET",
+      "auto_streams": null
+    },
+    {
+      "category": "Tennis",
+      "title": "A Court Feed",
+      "tournament": "ATP Masters BNP Paribas Open 2026",
+      "match_id": 141023,
+      "status": "NOT_STARTED",
+      "streamingStatus": "NOT_STARTED",
+      "startTime": "10 March 2026 11:30 PM",
+      "startDate": "01 January 1970 05:30 AM",
+      "image": "https://www.fancode.com/skillup-uploads/cms-media/BNP_Paribas-Open_web.jpg",
+      "image_cdn": {
+        "TATAPLAY": "https://images.fancode.com/aig/match/v1/141023_CASACARDS_PARTNER_16_9_1920_1080.png",
+        "APP": "https://www.fancode.com/skillup-uploads/cms-media/BNP_Paribas-Open_web.jpg",
+        "PLAYBACK": null,
+        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/ATP_Tour-&-Team-Logo.png",
+        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Default_Tennis-old.jpg",
+        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/BNP_Paribas-Open_web.jpg",
+        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/BNP_Paribas-Open_app.jpg",
+        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/141023_CASACARDS_PARTNER_16_9_1920_1080.png"
+      },
+      "team": [
+        {
+          "name": "A Court Feed",
+          "shortName": "A Court Feed",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/lawn-tennis-flags/FC-ATP@2x.png"
+          },
+          "isWinner": null,
+          "color": "#FF0000",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        },
+        {
+          "name": "Indian, United States",
+          "shortName": "Indian, United States",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/lawn-tennis-flags/FC-LOC@2x.png"
+          },
+          "isWinner": null,
+          "color": "#FF0000",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        }
+      ],
+      "language": "BLOODY_SWEET",
+      "auto_streams": null
+    },
+    {
+      "category": "Tennis",
+      "title": "C Court Feed",
+      "tournament": "ATP Masters BNP Paribas Open 2026",
+      "match_id": 141254,
+      "status": "NOT_STARTED",
+      "streamingStatus": "NOT_STARTED",
+      "startTime": "10 March 2026 11:30 PM",
+      "startDate": "01 January 1970 05:30 AM",
+      "image": "https://www.fancode.com/skillup-uploads/cms-media/BNP_Paribas-Open_web.jpg",
+      "image_cdn": {
+        "TATAPLAY": "https://images.fancode.com/aig/match/v1/141254_CASACARDS_PARTNER_16_9_1920_1080.png",
+        "APP": "https://www.fancode.com/skillup-uploads/cms-media/BNP_Paribas-Open_web.jpg",
+        "PLAYBACK": null,
+        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/ATP_Tour-&-Team-Logo.png",
+        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Default_Tennis-old.jpg",
+        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/BNP_Paribas-Open_web.jpg",
+        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/BNP_Paribas-Open_app.jpg",
+        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/141254_CASACARDS_PARTNER_16_9_1920_1080.png"
+      },
+      "team": [
+        {
+          "name": "C Court Feed",
+          "shortName": "C Court Feed",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/lawn-tennis-flags/FC-ATP@2x.png"
+          },
+          "isWinner": null,
+          "color": "#FF0000",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        },
+        {
+          "name": "Indian, United States",
+          "shortName": "Indian, United States",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/lawn-tennis-flags/FC-LOC@2x.png"
+          },
+          "isWinner": null,
+          "color": "#FF0000",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        }
+      ],
+      "language": "BLOODY_SWEET",
+      "auto_streams": null
+    },
+    {
+      "category": "Tennis",
+      "title": "World Feed",
+      "tournament": "ATP Masters BNP Paribas Open 2026",
+      "match_id": 141253,
+      "status": "NOT_STARTED",
+      "streamingStatus": "NOT_STARTED",
+      "startTime": "10 March 2026 11:30 PM",
+      "startDate": "01 January 1970 05:30 AM",
+      "image": "https://www.fancode.com/skillup-uploads/cms-media/BNP_Paribas-Open_web.jpg",
+      "image_cdn": {
+        "TATAPLAY": "https://images.fancode.com/aig/match/v1/141253_CASACARDS_PARTNER_16_9_1920_1080.png",
+        "APP": "https://www.fancode.com/skillup-uploads/cms-media/BNP_Paribas-Open_web.jpg",
+        "PLAYBACK": null,
+        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/ATP_Tour-&-Team-Logo.png",
+        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Default_Tennis-old.jpg",
+        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/BNP_Paribas-Open_web.jpg",
+        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/BNP_Paribas-Open_app.jpg",
+        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/141253_CASACARDS_PARTNER_16_9_1920_1080.png"
+      },
+      "team": [
+        {
+          "name": "World Feed",
+          "shortName": "World Feed",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/lawn-tennis-flags/FC-ATP@2x.png"
+          },
+          "isWinner": null,
+          "color": "#FF0000",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        },
+        {
+          "name": "Indian, United States",
+          "shortName": "Indian, United States",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/lawn-tennis-flags/FC-LOC@2x.png"
+          },
+          "isWinner": null,
+          "color": "#FF0000",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        }
+      ],
+      "language": "BLOODY_SWEET",
+      "auto_streams": null
+    },
+    {
+      "category": "Tennis",
+      "title": "D Court Feed",
+      "tournament": "ATP Masters BNP Paribas Open 2026",
+      "match_id": 141022,
+      "status": "NOT_STARTED",
+      "streamingStatus": "NOT_STARTED",
+      "startTime": "11 March 2026 01:30 AM",
+      "startDate": "01 January 1970 05:30 AM",
+      "image": "https://www.fancode.com/skillup-uploads/cms-media/BNP_Paribas-Open_web.jpg",
+      "image_cdn": {
+        "TATAPLAY": "https://images.fancode.com/aig/match/v1/141022_CASACARDS_PARTNER_16_9_1920_1080.png",
+        "APP": "https://www.fancode.com/skillup-uploads/cms-media/BNP_Paribas-Open_web.jpg",
+        "PLAYBACK": null,
+        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/ATP_Tour-&-Team-Logo.png",
+        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Default_Tennis-old.jpg",
+        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/BNP_Paribas-Open_web.jpg",
+        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/BNP_Paribas-Open_app.jpg",
+        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/141022_CASACARDS_PARTNER_16_9_1920_1080.png"
+      },
+      "team": [
+        {
+          "name": "D Court Feed",
+          "shortName": "D Court Feed",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/lawn-tennis-flags/FC-ATP@2x.png"
+          },
+          "isWinner": null,
+          "color": "#FF0000",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        },
+        {
+          "name": "Indian, United States",
+          "shortName": "Indian, United States",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/lawn-tennis-flags/FC-LOC@2x.png"
+          },
+          "isWinner": null,
+          "color": "#FF0000",
           "cricketScore": null,
           "kabaddiScore": null,
           "footballScore": null,
@@ -2186,132 +1725,6 @@
           },
           "isWinner": null,
           "color": "#FF0000",
-          "cricketScore": null,
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        }
-      ],
-      "language": "BLOODY_SWEET",
-      "auto_streams": null
-    },
-    {
-      "category": "Football",
-      "title": "Tractor Vs Shabab Al Ahli",
-      "tournament": "AFC Champions League Elite 2025-26",
-      "match_id": 140855,
-      "status": "ABANDONED",
-      "streamingStatus": "NOT_STARTED",
-      "startTime": "09 March 2026 11:45 PM",
-      "startDate": "01 January 1970 05:30 AM",
-      "image": "https://www.fancode.com/skillup-uploads/cms-media/140855_5647_TFC_SAA_FC-WEB.png",
-      "image_cdn": {
-        "TATAPLAY": "https://images.fancode.com/aig/match/v1/140855_CASACARDS_PARTNER_16_9_1920_1080.png",
-        "APP": "https://www.fancode.com/skillup-uploads/cms-media/140855_5647_TFC_SAA_FC-WEB.png",
-        "PLAYBACK": null,
-        "LOGO": "https://fancode.com/skillup-uploads/prod-images/2024/09/AFC-Champions-League-Elite.png",
-        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Football-old-copy.jpg",
-        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/140855_5647_TFC_SAA_FC-WEB.png",
-        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/140855_5647_TFC_SAA_FC-App.png",
-        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/140855_CASACARDS_PARTNER_16_9_1920_1080.png"
-      },
-      "team": [
-        {
-          "name": "Tractor",
-          "shortName": "TFC",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-TFC@2x.png"
-          },
-          "isWinner": null,
-          "color": "#ff0000",
-          "cricketScore": null,
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        },
-        {
-          "name": "Shabab Al Ahli",
-          "shortName": "SAA",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-SAA@2x.png"
-          },
-          "isWinner": null,
-          "color": "#C593D6",
-          "cricketScore": null,
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        }
-      ],
-      "language": "BLOODY_SWEET",
-      "auto_streams": null
-    },
-    {
-      "category": "Football",
-      "title": "Al Ahli Saudi Fc Vs Al Duhail",
-      "tournament": "AFC Champions League Elite 2025-26",
-      "match_id": 140854,
-      "status": "ABANDONED",
-      "streamingStatus": "NOT_STARTED",
-      "startTime": "10 March 2026 02:00 AM",
-      "startDate": "01 January 1970 05:30 AM",
-      "image": "https://www.fancode.com/skillup-uploads/cms-media/140854_5647_AAS_ADH_FC-WEB.png",
-      "image_cdn": {
-        "TATAPLAY": "https://images.fancode.com/aig/match/v1/140854_CASACARDS_PARTNER_16_9_1920_1080.png",
-        "APP": "https://www.fancode.com/skillup-uploads/cms-media/140854_5647_AAS_ADH_FC-WEB.png",
-        "PLAYBACK": null,
-        "LOGO": "https://fancode.com/skillup-uploads/prod-images/2024/09/AFC-Champions-League-Elite.png",
-        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Football-old-copy.jpg",
-        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/140854_5647_AAS_ADH_FC-WEB.png",
-        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/140854_5647_AAS_ADH_FC-App.png",
-        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/140854_CASACARDS_PARTNER_16_9_1920_1080.png"
-      },
-      "team": [
-        {
-          "name": "Al-Ahli Saudi FC",
-          "shortName": "AAS",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-AAS@2x.png"
-          },
-          "isWinner": null,
-          "color": "#19ca84",
-          "cricketScore": null,
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        },
-        {
-          "name": "Al Duhail",
-          "shortName": "ADH",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-ALDUH@2x.png"
-          },
-          "isWinner": null,
-          "color": "#6f1924",
           "cricketScore": null,
           "kabaddiScore": null,
           "footballScore": null,
@@ -2392,6 +1805,368 @@
     },
     {
       "category": "Football",
+      "title": "Sanfrecce Hiroshima Vs Johor Darul Ta'zim",
+      "tournament": "AFC Champions League Elite 2025-26",
+      "match_id": 140861,
+      "status": "NOT_STARTED",
+      "streamingStatus": "NOT_STARTED",
+      "startTime": "11 March 2026 03:30 PM",
+      "startDate": "01 January 1970 05:30 AM",
+      "image": "https://www.fancode.com/skillup-uploads/cms-media/140861_5647_HIR_JDT_FC-Web.png",
+      "image_cdn": {
+        "TATAPLAY": "https://images.fancode.com/aig/match/v1/140861_CASACARDS_PARTNER_16_9_1920_1080.png",
+        "APP": "https://www.fancode.com/skillup-uploads/cms-media/140861_5647_HIR_JDT_FC-Web.png",
+        "PLAYBACK": null,
+        "LOGO": "https://fancode.com/skillup-uploads/prod-images/2024/09/AFC-Champions-League-Elite.png",
+        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Football-old-copy.jpg",
+        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/140861_5647_HIR_JDT_FC-Web.png",
+        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/140861_5647_HIR_JDT_FC-App.png",
+        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/140861_CASACARDS_PARTNER_16_9_1920_1080.png"
+      },
+      "team": [
+        {
+          "name": "Sanfrecce Hiroshima",
+          "shortName": "HIR",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-SHI@2x.png"
+          },
+          "isWinner": null,
+          "color": "#544194",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        },
+        {
+          "name": "Johor Darul Ta'zim",
+          "shortName": "JDT",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-JOHOR@2x.png"
+          },
+          "isWinner": null,
+          "color": "#f2545b",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        }
+      ],
+      "language": "BLOODY_SWEET",
+      "auto_streams": null
+    },
+    {
+      "category": "Football",
+      "title": "Vissel Kobe Vs Seoul",
+      "tournament": "AFC Champions League Elite 2025-26",
+      "match_id": 140860,
+      "status": "NOT_STARTED",
+      "streamingStatus": "NOT_STARTED",
+      "startTime": "11 March 2026 03:30 PM",
+      "startDate": "01 January 1970 05:30 AM",
+      "image": "https://www.fancode.com/skillup-uploads/cms-media/140860_5647_VIS_SE_FC-Web.png",
+      "image_cdn": {
+        "TATAPLAY": "https://images.fancode.com/aig/match/v1/140860_CASACARDS_PARTNER_16_9_1920_1080.png",
+        "APP": "https://www.fancode.com/skillup-uploads/cms-media/140860_5647_VIS_SE_FC-Web.png",
+        "PLAYBACK": null,
+        "LOGO": "https://fancode.com/skillup-uploads/prod-images/2024/09/AFC-Champions-League-Elite.png",
+        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Football-old-copy.jpg",
+        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/140860_5647_VIS_SE_FC-Web.png",
+        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/140860_5647_VIS_SE_FC-App.png",
+        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/140860_CASACARDS_PARTNER_16_9_1920_1080.png"
+      },
+      "team": [
+        {
+          "name": "Vissel Kobe",
+          "shortName": "VIS",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-VKO@2x.png"
+          },
+          "isWinner": null,
+          "color": "#761d30",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        },
+        {
+          "name": "Seoul",
+          "shortName": "SE",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-SE@2x.png"
+          },
+          "isWinner": null,
+          "color": "#FFB741",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        }
+      ],
+      "language": "BLOODY_SWEET",
+      "auto_streams": null
+    },
+    {
+      "category": "Cricket",
+      "title": "Mumbai Spartans Vs India Captains",
+      "tournament": "Legends League Cricket, 2026",
+      "match_id": 141305,
+      "status": "NOT_STARTED",
+      "streamingStatus": "NOT_STARTED",
+      "startTime": "11 March 2026 06:30 PM",
+      "startDate": "01 January 1970 05:30 AM",
+      "image": "https://images.fancode.com/aig/match/v1773065749571/141305_CASACARDS_APP.png",
+      "image_cdn": {
+        "TATAPLAY": "https://images.fancode.com/aig/match/v1/141305_CASACARDS_PARTNER_16_9_1920_1080.png",
+        "APP": "https://images.fancode.com/aig/match/v1773065749571/141305_CASACARDS_APP.png",
+        "PLAYBACK": null,
+        "LOGO": "https://fancode.com/skillup-uploads/prod-images/2024/08/Legends-League-Cricket-Tour-Size.png",
+        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_cricket-old.jpg",
+        "BG_IMAGE": "https://images.fancode.com/aig/match/v1773065749571/141305_CASACARDS_APP.png",
+        "SPORT_BY_IMAGE": "https://images.fancode.com/aig/match/v1773065749571/141305_CASACARDS_SPORTY_APP.png",
+        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/141305_CASACARDS_PARTNER_16_9_1920_1080.png"
+      },
+      "team": [
+        {
+          "name": "Mumbai Spartans",
+          "shortName": "MSP",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-MSP@2x.png"
+          },
+          "isWinner": null,
+          "color": "#D59A14",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        },
+        {
+          "name": "India Captains",
+          "shortName": "ICN",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-ICN@2x.png"
+          },
+          "isWinner": null,
+          "color": "#80081C",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        }
+      ],
+      "language": "BLOODY_SWEET",
+      "auto_streams": null
+    },
+    {
+      "category": "Cricket",
+      "title": "England Lions Vs Pakistan Shaheens",
+      "tournament": "England Lions and Pakistan Shaheens tour of UAE",
+      "match_id": 140668,
+      "status": "ABANDONED",
+      "streamingStatus": "NOT_STARTED",
+      "startTime": "09 March 2026 11:30 AM",
+      "startDate": "01 January 1970 05:30 AM",
+      "image": "https://www.fancode.com/skillup-uploads/cms-media/Mini-Match-Card-(1080x810)-(2)_1771323008079.png",
+      "image_cdn": {
+        "TATAPLAY": "https://images.fancode.com/aig/match/v1/140668_CASACARDS_PARTNER_16_9_1920_1080.png",
+        "APP": "https://www.fancode.com/skillup-uploads/cms-media/Mini-Match-Card-(1080x810)-(2)_1771323008079.png",
+        "PLAYBACK": null,
+        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/T20Series_Lion-vs-Shaheens.png",
+        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_cricket-old.jpg",
+        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/Mini-Match-Card-(1080x810)-(2)_1771323008079.png",
+        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/Old-Sporty-(1080x1440)-(2)_1771323008088.png",
+        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/140668_CASACARDS_PARTNER_16_9_1920_1080.png"
+      },
+      "team": [
+        {
+          "name": "England Lions",
+          "shortName": "EN-A",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-ENG@2x.png"
+          },
+          "isWinner": false,
+          "color": "#eb5764",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        },
+        {
+          "name": "Pakistan Shaheens",
+          "shortName": "PKS",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-PKS@2x.png"
+          },
+          "isWinner": false,
+          "color": "#d8a918",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        }
+      ],
+      "language": "BLOODY_SWEET",
+      "auto_streams": null
+    },
+    {
+      "category": "Football",
+      "title": "Tractor Vs Shabab Al Ahli",
+      "tournament": "AFC Champions League Elite 2025-26",
+      "match_id": 140855,
+      "status": "ABANDONED",
+      "streamingStatus": "NOT_STARTED",
+      "startTime": "09 March 2026 11:45 PM",
+      "startDate": "01 January 1970 05:30 AM",
+      "image": "https://www.fancode.com/skillup-uploads/cms-media/140855_5647_TFC_SAA_FC-WEB.png",
+      "image_cdn": {
+        "TATAPLAY": "https://images.fancode.com/aig/match/v1/140855_CASACARDS_PARTNER_16_9_1920_1080.png",
+        "APP": "https://www.fancode.com/skillup-uploads/cms-media/140855_5647_TFC_SAA_FC-WEB.png",
+        "PLAYBACK": null,
+        "LOGO": "https://fancode.com/skillup-uploads/prod-images/2024/09/AFC-Champions-League-Elite.png",
+        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Football-old-copy.jpg",
+        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/140855_5647_TFC_SAA_FC-WEB.png",
+        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/140855_5647_TFC_SAA_FC-App.png",
+        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/140855_CASACARDS_PARTNER_16_9_1920_1080.png"
+      },
+      "team": [
+        {
+          "name": "Tractor",
+          "shortName": "TFC",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-TFC@2x.png"
+          },
+          "isWinner": null,
+          "color": "#ff0000",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": null
+        },
+        {
+          "name": "Shabab Al Ahli",
+          "shortName": "SAA",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-SAA@2x.png"
+          },
+          "isWinner": null,
+          "color": "#C593D6",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": null
+        }
+      ],
+      "language": "BLOODY_SWEET",
+      "auto_streams": null
+    },
+    {
+      "category": "Football",
+      "title": "Al Ahli Saudi Fc Vs Al Duhail",
+      "tournament": "AFC Champions League Elite 2025-26",
+      "match_id": 140854,
+      "status": "ABANDONED",
+      "streamingStatus": "NOT_STARTED",
+      "startTime": "10 March 2026 02:00 AM",
+      "startDate": "01 January 1970 05:30 AM",
+      "image": "https://www.fancode.com/skillup-uploads/cms-media/140854_5647_AAS_ADH_FC-WEB.png",
+      "image_cdn": {
+        "TATAPLAY": "https://images.fancode.com/aig/match/v1/140854_CASACARDS_PARTNER_16_9_1920_1080.png",
+        "APP": "https://www.fancode.com/skillup-uploads/cms-media/140854_5647_AAS_ADH_FC-WEB.png",
+        "PLAYBACK": null,
+        "LOGO": "https://fancode.com/skillup-uploads/prod-images/2024/09/AFC-Champions-League-Elite.png",
+        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Football-old-copy.jpg",
+        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/140854_5647_AAS_ADH_FC-WEB.png",
+        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/140854_5647_AAS_ADH_FC-App.png",
+        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/140854_CASACARDS_PARTNER_16_9_1920_1080.png"
+      },
+      "team": [
+        {
+          "name": "Al-Ahli Saudi FC",
+          "shortName": "AAS",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-AAS@2x.png"
+          },
+          "isWinner": null,
+          "color": "#19ca84",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": null
+        },
+        {
+          "name": "Al Duhail",
+          "shortName": "ADH",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-ALDUH@2x.png"
+          },
+          "isWinner": null,
+          "color": "#6f1924",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": null
+        }
+      ],
+      "language": "BLOODY_SWEET",
+      "auto_streams": null
+    },
+    {
+      "category": "Football",
       "title": "Al Ittihad Vs Al Wahda",
       "tournament": "AFC Champions League Elite 2025-26",
       "match_id": 140859,
@@ -2424,11 +2199,7 @@
           "footballScore": null,
           "basketBallScore": null,
           "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
+          "status": null
         },
         {
           "name": "Al Wahda",
@@ -2438,6 +2209,183 @@
           },
           "isWinner": null,
           "color": "#850F3C",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": null
+        }
+      ],
+      "language": "BLOODY_SWEET",
+      "auto_streams": null
+    },
+    {
+      "category": "Football",
+      "title": "Al Hilal Sfc Vs Al Sadd",
+      "tournament": "AFC Champions League Elite 2025-26",
+      "match_id": 140858,
+      "status": "ABANDONED",
+      "streamingStatus": "NOT_STARTED",
+      "startTime": "10 March 2026 11:45 PM",
+      "startDate": "01 January 1970 05:30 AM",
+      "image": "https://www.fancode.com/skillup-uploads/cms-media/140858_5647_AHS_SDD_FC-WEB_1772186883531.png",
+      "image_cdn": {
+        "TATAPLAY": "https://images.fancode.com/aig/match/v1/140858_CASACARDS_PARTNER_16_9_1920_1080.png",
+        "APP": "https://www.fancode.com/skillup-uploads/cms-media/140858_5647_AHS_SDD_FC-WEB_1772186883531.png",
+        "PLAYBACK": null,
+        "LOGO": "https://fancode.com/skillup-uploads/prod-images/2024/09/AFC-Champions-League-Elite.png",
+        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Football-old-copy.jpg",
+        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/140858_5647_AHS_SDD_FC-WEB_1772186883531.png",
+        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/140858_5647_AHS_SDD_FC-App_1772186866850.png",
+        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/140858_CASACARDS_PARTNER_16_9_1920_1080.png"
+      },
+      "team": [
+        {
+          "name": "Al Hilal SFC",
+          "shortName": "AHS",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-AH@2x.png"
+          },
+          "isWinner": null,
+          "color": "#031537",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": null
+        },
+        {
+          "name": "Al Sadd",
+          "shortName": "SDD",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-ALSAD@2x.png"
+          },
+          "isWinner": null,
+          "color": "#beb127",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": null
+        }
+      ],
+      "language": "BLOODY_SWEET",
+      "auto_streams": null
+    },
+    {
+      "category": "Football",
+      "title": "Ratchaburi Vs Gamba Osaka",
+      "tournament": "AFC Champions League Two 2025-26",
+      "match_id": 140867,
+      "status": "NOT_STARTED",
+      "streamingStatus": "NOT_STARTED",
+      "startTime": "11 March 2026 05:45 PM",
+      "startDate": "01 January 1970 05:30 AM",
+      "image": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Football-old-copy.jpg",
+      "image_cdn": {
+        "TATAPLAY": "https://images.fancode.com/aig/match/v1/140867_CASACARDS_PARTNER_16_9_1920_1080.png",
+        "APP": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Football-old-copy.jpg",
+        "PLAYBACK": null,
+        "LOGO": "https://fancode.com/skillup-uploads/prod-images/2024/09/AFC-Champions-League-Two.png",
+        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Football-old-copy.jpg",
+        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Football-old-copy.jpg",
+        "SPORT_BY_IMAGE": "https://fancode.com/skillup-uploads/prod-images/2023/08/FC_Sports_Default_Football.jpg",
+        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/140867_CASACARDS_PARTNER_16_9_1920_1080.png"
+      },
+      "team": [
+        {
+          "name": "Ratchaburi",
+          "shortName": "RAT",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-RAB@2x.png"
+          },
+          "isWinner": null,
+          "color": "#a02c0c",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        },
+        {
+          "name": "Gamba Osaka",
+          "shortName": "OSK",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-GOS@2x.png"
+          },
+          "isWinner": null,
+          "color": "#003f76",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        }
+      ],
+      "language": "BLOODY_SWEET",
+      "auto_streams": null
+    },
+    {
+      "category": "Cricket",
+      "title": "Suriname Vs Cayman Islands",
+      "tournament": "ICC Men's T20 WC Americas Sub Regional Qualifier B",
+      "match_id": 140709,
+      "status": "NOT_STARTED",
+      "streamingStatus": "NOT_STARTED",
+      "startTime": "11 March 2026 08:00 PM",
+      "startDate": "01 January 1970 05:30 AM",
+      "image": "https://www.fancode.com/skillup-uploads/cms-media/140709_5971_SRN_CAY_fc-Web.jpg",
+      "image_cdn": {
+        "TATAPLAY": "https://images.fancode.com/aig/match/v1/140709_CASACARDS_PARTNER_16_9_1920_1080.png",
+        "APP": "https://www.fancode.com/skillup-uploads/cms-media/140709_5971_SRN_CAY_fc-Web.jpg",
+        "PLAYBACK": null,
+        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/ICC_1771925153080.png",
+        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_cricket-old.jpg",
+        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/140709_5971_SRN_CAY_fc-Web.jpg",
+        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/140709_5971_SRN_CAY_fc-App.jpg",
+        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/140709_CASACARDS_PARTNER_16_9_1920_1080.png"
+      },
+      "team": [
+        {
+          "name": "Suriname",
+          "shortName": "SRN",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/SRN-CR2@2x.png"
+          },
+          "isWinner": null,
+          "color": "#FFFFFF",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        },
+        {
+          "name": "Cayman Islands",
+          "shortName": "CAY",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-CYIS@2x.png"
+          },
+          "isWinner": null,
+          "color": "#C33637",
           "cricketScore": null,
           "kabaddiScore": null,
           "footballScore": null,
