@@ -1,7 +1,7 @@
 {
   "Author": "DOCTOR_STRANGE",
   "name": "FanCode Live Matches API",
-  "last_updated": "04:14:22 PM 10-03-2026",
+  "last_updated": "04:24:20 PM 10-03-2026",
   "headers": {
     "User-Agent": "ReactNativeVideo/9.3.0 (Linux;Android 13) AndroidXMedia3/1.6.1",
     "Referer": "https://fancode.com/"
@@ -37,7 +37,7 @@
           "flag": {
             "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-MALY@2x.png"
           },
-          "isWinner": null,
+          "isWinner": false,
           "color": "#ffd800",
           "cricketScore": [
             {
@@ -64,15 +64,15 @@
           "flag": {
             "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-BAH@2x.png"
           },
-          "isWinner": null,
+          "isWinner": true,
           "color": "#ff5142",
           "cricketScore": [
             {
-              "runs": 123,
-              "overs": "16",
-              "balls": "96",
+              "runs": 135,
+              "overs": "17.1",
+              "balls": "103",
               "status": "IN_PROGRESS",
-              "wickets": 2
+              "wickets": 3
             }
           ],
           "kabaddiScore": null,
@@ -89,9 +89,9 @@
       "language": "ENGLISH",
       "auto_streams": [
         {
-          "auto": "#EXTM3U\n#EXT-X-VERSION:3\n#EXT-X-STREAM-INF:BANDWIDTH=446936,AVERAGE-BANDWIDTH=446936,CODECS=\"avc1.42e015,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=426x240,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/141301_english_hls_5ff6d1d7e95078_1ta-di_h264/240p.m3u8?hdntl=Expires=1773211865~_GO=Generated~acl=/mumbai/141301_english_hls_5ff6d1d7e95078_1ta-di_h264/*~Signature=AQQqLwQfp739fWP7d68N1faXqqaQ1CoEm417PStP9F3OZEBopLR0f5STne7nc7awRtPmS-_6tRrG-knFuyzUGP26geUI\n#EXT-X-STREAM-INF:BANDWIDTH=702376,AVERAGE-BANDWIDTH=702376,CODECS=\"avc1.42e01e,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=640x360,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/141301_english_hls_5ff6d1d7e95078_1ta-di_h264/360p.m3u8?hdntl=Expires=1773211865~_GO=Generated~acl=/mumbai/141301_english_hls_5ff6d1d7e95078_1ta-di_h264/*~Signature=AQQqLwQfp739fWP7d68N1faXqqaQ1CoEm417PStP9F3OZEBopLR0f5STne7nc7awRtPmS-_6tRrG-knFuyzUGP26geUI\n#EXT-X-STREAM-INF:BANDWIDTH=1023224,AVERAGE-BANDWIDTH=1023224,CODECS=\"avc1.4d401e,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=854x480,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/141301_english_hls_5ff6d1d7e95078_1ta-di_h264/480p.m3u8?hdntl=Expires=1773211865~_GO=Generated~acl=/mumbai/141301_english_hls_5ff6d1d7e95078_1ta-di_h264/*~Signature=AQQqLwQfp739fWP7d68N1faXqqaQ1CoEm417PStP9F3OZEBopLR0f5STne7nc7awRtPmS-_6tRrG-knFuyzUGP26geUI\n#EXT-X-STREAM-INF:BANDWIDTH=1278664,AVERAGE-BANDWIDTH=1278664,CODECS=\"avc1.4d401f,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=960x540,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/141301_english_hls_5ff6d1d7e95078_1ta-di_h264/540p.m3u8?hdntl=Expires=1773211865~_GO=Generated~acl=/mumbai/141301_english_hls_5ff6d1d7e95078_1ta-di_h264/*~Signature=AQQqLwQfp739fWP7d68N1faXqqaQ1CoEm417PStP9F3OZEBopLR0f5STne7nc7awRtPmS-_6tRrG-knFuyzUGP26geUI\n#EXT-X-STREAM-INF:BANDWIDTH=1789512,AVERAGE-BANDWIDTH=1789512,CODECS=\"avc1.64001f,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1280x720,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/141301_english_hls_5ff6d1d7e95078_1ta-di_h264/720p.m3u8?hdntl=Expires=1773211865~_GO=Generated~acl=/mumbai/141301_english_hls_5ff6d1d7e95078_1ta-di_h264/*~Signature=AQQqLwQfp739fWP7d68N1faXqqaQ1CoEm417PStP9F3OZEBopLR0f5STne7nc7awRtPmS-_6tRrG-knFuyzUGP26geUI\n#EXT-X-STREAM-INF:BANDWIDTH=3322120,AVERAGE-BANDWIDTH=3322120,CODECS=\"avc1.640028,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1920x1080,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/141301_english_hls_5ff6d1d7e95078_1ta-di_h264/1080p.m3u8?hdntl=Expires=1773211865~_GO=Generated~acl=/mumbai/141301_english_hls_5ff6d1d7e95078_1ta-di_h264/*~Signature=AQQqLwQfp739fWP7d68N1faXqqaQ1CoEm417PStP9F3OZEBopLR0f5STne7nc7awRtPmS-_6tRrG-knFuyzUGP26geUI",
-          "cookie_valid": "1773211865",
-          "expire_date": "Wednesday, March 11, 2026, 12:21:05 PM",
+          "auto": "#EXTM3U\n#EXT-X-VERSION:3\n#EXT-X-STREAM-INF:BANDWIDTH=446936,AVERAGE-BANDWIDTH=446936,CODECS=\"avc1.42e015,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=426x240,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/141301_english_hls_5ff6d1d7e95078_1ta-di_h264/240p.m3u8?hdntl=Expires=1773226462~_GO=Generated~acl=/mumbai/141301_english_hls_5ff6d1d7e95078_1ta-di_h264/*~Signature=AQQqLwR0VLvBiSyx1wNPneDQjnLGPcTljclcNgWZmal_5jKVFJNFLKPjKKSWzWu0etUdJtWee8MA_I48endFeM6lIv0B\n#EXT-X-STREAM-INF:BANDWIDTH=702376,AVERAGE-BANDWIDTH=702376,CODECS=\"avc1.42e01e,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=640x360,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/141301_english_hls_5ff6d1d7e95078_1ta-di_h264/360p.m3u8?hdntl=Expires=1773226462~_GO=Generated~acl=/mumbai/141301_english_hls_5ff6d1d7e95078_1ta-di_h264/*~Signature=AQQqLwR0VLvBiSyx1wNPneDQjnLGPcTljclcNgWZmal_5jKVFJNFLKPjKKSWzWu0etUdJtWee8MA_I48endFeM6lIv0B\n#EXT-X-STREAM-INF:BANDWIDTH=1023224,AVERAGE-BANDWIDTH=1023224,CODECS=\"avc1.4d401e,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=854x480,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/141301_english_hls_5ff6d1d7e95078_1ta-di_h264/480p.m3u8?hdntl=Expires=1773226462~_GO=Generated~acl=/mumbai/141301_english_hls_5ff6d1d7e95078_1ta-di_h264/*~Signature=AQQqLwR0VLvBiSyx1wNPneDQjnLGPcTljclcNgWZmal_5jKVFJNFLKPjKKSWzWu0etUdJtWee8MA_I48endFeM6lIv0B\n#EXT-X-STREAM-INF:BANDWIDTH=1278664,AVERAGE-BANDWIDTH=1278664,CODECS=\"avc1.4d401f,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=960x540,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/141301_english_hls_5ff6d1d7e95078_1ta-di_h264/540p.m3u8?hdntl=Expires=1773226462~_GO=Generated~acl=/mumbai/141301_english_hls_5ff6d1d7e95078_1ta-di_h264/*~Signature=AQQqLwR0VLvBiSyx1wNPneDQjnLGPcTljclcNgWZmal_5jKVFJNFLKPjKKSWzWu0etUdJtWee8MA_I48endFeM6lIv0B\n#EXT-X-STREAM-INF:BANDWIDTH=1789512,AVERAGE-BANDWIDTH=1789512,CODECS=\"avc1.64001f,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1280x720,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/141301_english_hls_5ff6d1d7e95078_1ta-di_h264/720p.m3u8?hdntl=Expires=1773226462~_GO=Generated~acl=/mumbai/141301_english_hls_5ff6d1d7e95078_1ta-di_h264/*~Signature=AQQqLwR0VLvBiSyx1wNPneDQjnLGPcTljclcNgWZmal_5jKVFJNFLKPjKKSWzWu0etUdJtWee8MA_I48endFeM6lIv0B\n#EXT-X-STREAM-INF:BANDWIDTH=3322120,AVERAGE-BANDWIDTH=3322120,CODECS=\"avc1.640028,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1920x1080,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/141301_english_hls_5ff6d1d7e95078_1ta-di_h264/1080p.m3u8?hdntl=Expires=1773226462~_GO=Generated~acl=/mumbai/141301_english_hls_5ff6d1d7e95078_1ta-di_h264/*~Signature=AQQqLwR0VLvBiSyx1wNPneDQjnLGPcTljclcNgWZmal_5jKVFJNFLKPjKKSWzWu0etUdJtWee8MA_I48endFeM6lIv0B",
+          "cookie_valid": "1773226462",
+          "expire_date": "Wednesday, March 11, 2026, 4:24:22 PM",
           "language": "ENGLISH"
         }
       ]
@@ -316,6 +316,68 @@
     },
     {
       "category": "Football",
+      "title": "Japan Women Vs Vietnam Women",
+      "tournament": "AFC Women's Asian Cup, 2026",
+      "match_id": 140810,
+      "status": "LIVE",
+      "streamingStatus": "STARTED",
+      "startTime": "10 March 2026 02:30 PM",
+      "startDate": "01 January 1970 05:30 AM",
+      "image": "https://www.fancode.com/skillup-uploads/cms-media/140810_5979_JPN-W_VET-W_fc-Web_1772191702190.jpg",
+      "image_cdn": {
+        "TATAPLAY": "https://images.fancode.com/aig/match/v1/140810_CASACARDS_PARTNER_16_9_1920_1080.png",
+        "APP": "https://www.fancode.com/skillup-uploads/cms-media/140810_5979_JPN-W_VET-W_fc-Web_1772191702190.jpg",
+        "PLAYBACK": "https://www.fancode.com/skillup-uploads/cms-media/140810_5979_JPN-W_VET-W_fc-Web_1772191702190.jpg",
+        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/AFC_1772615510258.png",
+        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Football-old-copy.jpg",
+        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/140810_5979_JPN-W_VET-W_fc-Web_1772191702190.jpg",
+        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/140810_5979_JPN-W_VET-W_fc-App.jpg",
+        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/140810_CASACARDS_PARTNER_16_9_1920_1080.png"
+      },
+      "team": [
+        {
+          "name": "Japan Women",
+          "shortName": "JPN-W",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-JPN@2x.png"
+          },
+          "isWinner": null,
+          "color": "#9a0009",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": null
+        },
+        {
+          "name": "Vietnam Women",
+          "shortName": "VET W",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-VIET@2x.png"
+          },
+          "isWinner": null,
+          "color": "#a10d00",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": null
+        }
+      ],
+      "language": "ENGLISH",
+      "auto_streams": [
+        {
+          "auto": "#EXTM3U\n#EXT-X-VERSION:3\n#EXT-X-STREAM-INF:BANDWIDTH=446936,AVERAGE-BANDWIDTH=446936,CODECS=\"avc1.42e015,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=426x240,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/140810_english_hls_4b2cbee2c045862_1ta-di_h264/240p.m3u8?hdntl=Expires=1773218650~_GO=Generated~acl=/mumbai/140810_english_hls_4b2cbee2c045862_1ta-di_h264/*~Signature=AQQqLwRN3LnL_SKsnc7HvXpayoJGsQj6r4Y_y-croQOVeRa9XIhs67dyTqAHPuRtvan3gEVfrT0DfW3-Sb3d0iu-oTkB\n#EXT-X-STREAM-INF:BANDWIDTH=702376,AVERAGE-BANDWIDTH=702376,CODECS=\"avc1.42e01e,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=640x360,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/140810_english_hls_4b2cbee2c045862_1ta-di_h264/360p.m3u8?hdntl=Expires=1773218650~_GO=Generated~acl=/mumbai/140810_english_hls_4b2cbee2c045862_1ta-di_h264/*~Signature=AQQqLwRN3LnL_SKsnc7HvXpayoJGsQj6r4Y_y-croQOVeRa9XIhs67dyTqAHPuRtvan3gEVfrT0DfW3-Sb3d0iu-oTkB\n#EXT-X-STREAM-INF:BANDWIDTH=1023224,AVERAGE-BANDWIDTH=1023224,CODECS=\"avc1.4d401e,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=854x480,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/140810_english_hls_4b2cbee2c045862_1ta-di_h264/480p.m3u8?hdntl=Expires=1773218650~_GO=Generated~acl=/mumbai/140810_english_hls_4b2cbee2c045862_1ta-di_h264/*~Signature=AQQqLwRN3LnL_SKsnc7HvXpayoJGsQj6r4Y_y-croQOVeRa9XIhs67dyTqAHPuRtvan3gEVfrT0DfW3-Sb3d0iu-oTkB\n#EXT-X-STREAM-INF:BANDWIDTH=1278664,AVERAGE-BANDWIDTH=1278664,CODECS=\"avc1.4d401f,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=960x540,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/140810_english_hls_4b2cbee2c045862_1ta-di_h264/540p.m3u8?hdntl=Expires=1773218650~_GO=Generated~acl=/mumbai/140810_english_hls_4b2cbee2c045862_1ta-di_h264/*~Signature=AQQqLwRN3LnL_SKsnc7HvXpayoJGsQj6r4Y_y-croQOVeRa9XIhs67dyTqAHPuRtvan3gEVfrT0DfW3-Sb3d0iu-oTkB\n#EXT-X-STREAM-INF:BANDWIDTH=1789512,AVERAGE-BANDWIDTH=1789512,CODECS=\"avc1.64001f,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1280x720,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/140810_english_hls_4b2cbee2c045862_1ta-di_h264/720p.m3u8?hdntl=Expires=1773218650~_GO=Generated~acl=/mumbai/140810_english_hls_4b2cbee2c045862_1ta-di_h264/*~Signature=AQQqLwRN3LnL_SKsnc7HvXpayoJGsQj6r4Y_y-croQOVeRa9XIhs67dyTqAHPuRtvan3gEVfrT0DfW3-Sb3d0iu-oTkB\n#EXT-X-STREAM-INF:BANDWIDTH=3322120,AVERAGE-BANDWIDTH=3322120,CODECS=\"avc1.640028,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1920x1080,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/140810_english_hls_4b2cbee2c045862_1ta-di_h264/1080p.m3u8?hdntl=Expires=1773218650~_GO=Generated~acl=/mumbai/140810_english_hls_4b2cbee2c045862_1ta-di_h264/*~Signature=AQQqLwRN3LnL_SKsnc7HvXpayoJGsQj6r4Y_y-croQOVeRa9XIhs67dyTqAHPuRtvan3gEVfrT0DfW3-Sb3d0iu-oTkB",
+          "cookie_valid": "1773218650",
+          "expire_date": "Wednesday, March 11, 2026, 2:14:10 PM",
+          "language": "ENGLISH"
+        }
+      ]
+    },
+    {
+      "category": "Football",
       "title": "India Women Vs Chinese Taipei Women",
       "tournament": "AFC Women's Asian Cup, 2026",
       "match_id": 140811,
@@ -412,76 +474,6 @@
           "auto": "#EXTM3U\n#EXT-X-VERSION:3\n#EXT-X-STREAM-INF:BANDWIDTH=446936,AVERAGE-BANDWIDTH=446936,CODECS=\"avc1.42e015,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=426x240,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/140811_english_hls_8e34f18b4876339_1ta-di_h264/240p.m3u8?hdntl=Expires=1773218647~_GO=Generated~acl=/mumbai/140811_english_hls_8e34f18b4876339_1ta-di_h264/*~Signature=AQQqLwTS1SUDeqLmg77fcPJ41-_Ye6wROsVl2urZMaVhLzhL1s34sK5ak7uOUAvznqSKKNd8tYk8gI1CzVliNwR5hbMK\n#EXT-X-STREAM-INF:BANDWIDTH=702376,AVERAGE-BANDWIDTH=702376,CODECS=\"avc1.42e01e,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=640x360,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/140811_english_hls_8e34f18b4876339_1ta-di_h264/360p.m3u8?hdntl=Expires=1773218647~_GO=Generated~acl=/mumbai/140811_english_hls_8e34f18b4876339_1ta-di_h264/*~Signature=AQQqLwTS1SUDeqLmg77fcPJ41-_Ye6wROsVl2urZMaVhLzhL1s34sK5ak7uOUAvznqSKKNd8tYk8gI1CzVliNwR5hbMK\n#EXT-X-STREAM-INF:BANDWIDTH=1023224,AVERAGE-BANDWIDTH=1023224,CODECS=\"avc1.4d401e,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=854x480,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/140811_english_hls_8e34f18b4876339_1ta-di_h264/480p.m3u8?hdntl=Expires=1773218647~_GO=Generated~acl=/mumbai/140811_english_hls_8e34f18b4876339_1ta-di_h264/*~Signature=AQQqLwTS1SUDeqLmg77fcPJ41-_Ye6wROsVl2urZMaVhLzhL1s34sK5ak7uOUAvznqSKKNd8tYk8gI1CzVliNwR5hbMK\n#EXT-X-STREAM-INF:BANDWIDTH=1278664,AVERAGE-BANDWIDTH=1278664,CODECS=\"avc1.4d401f,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=960x540,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/140811_english_hls_8e34f18b4876339_1ta-di_h264/540p.m3u8?hdntl=Expires=1773218647~_GO=Generated~acl=/mumbai/140811_english_hls_8e34f18b4876339_1ta-di_h264/*~Signature=AQQqLwTS1SUDeqLmg77fcPJ41-_Ye6wROsVl2urZMaVhLzhL1s34sK5ak7uOUAvznqSKKNd8tYk8gI1CzVliNwR5hbMK\n#EXT-X-STREAM-INF:BANDWIDTH=1789512,AVERAGE-BANDWIDTH=1789512,CODECS=\"avc1.64001f,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1280x720,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/140811_english_hls_8e34f18b4876339_1ta-di_h264/720p.m3u8?hdntl=Expires=1773218647~_GO=Generated~acl=/mumbai/140811_english_hls_8e34f18b4876339_1ta-di_h264/*~Signature=AQQqLwTS1SUDeqLmg77fcPJ41-_Ye6wROsVl2urZMaVhLzhL1s34sK5ak7uOUAvznqSKKNd8tYk8gI1CzVliNwR5hbMK\n#EXT-X-STREAM-INF:BANDWIDTH=3322120,AVERAGE-BANDWIDTH=3322120,CODECS=\"avc1.640028,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1920x1080,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/140811_english_hls_8e34f18b4876339_1ta-di_h264/1080p.m3u8?hdntl=Expires=1773218647~_GO=Generated~acl=/mumbai/140811_english_hls_8e34f18b4876339_1ta-di_h264/*~Signature=AQQqLwTS1SUDeqLmg77fcPJ41-_Ye6wROsVl2urZMaVhLzhL1s34sK5ak7uOUAvznqSKKNd8tYk8gI1CzVliNwR5hbMK",
           "cookie_valid": "1773218647",
           "expire_date": "Wednesday, March 11, 2026, 2:14:07 PM",
-          "language": "ENGLISH"
-        }
-      ]
-    },
-    {
-      "category": "Football",
-      "title": "Japan Women Vs Vietnam Women",
-      "tournament": "AFC Women's Asian Cup, 2026",
-      "match_id": 140810,
-      "status": "NOT_STARTED",
-      "streamingStatus": "STARTED",
-      "startTime": "10 March 2026 02:30 PM",
-      "startDate": "01 January 1970 05:30 AM",
-      "image": "https://www.fancode.com/skillup-uploads/cms-media/140810_5979_JPN-W_VET-W_fc-Web_1772191702190.jpg",
-      "image_cdn": {
-        "TATAPLAY": "https://images.fancode.com/aig/match/v1/140810_CASACARDS_PARTNER_16_9_1920_1080.png",
-        "APP": "https://www.fancode.com/skillup-uploads/cms-media/140810_5979_JPN-W_VET-W_fc-Web_1772191702190.jpg",
-        "PLAYBACK": "https://www.fancode.com/skillup-uploads/cms-media/140810_5979_JPN-W_VET-W_fc-Web_1772191702190.jpg",
-        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/AFC_1772615510258.png",
-        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Football-old-copy.jpg",
-        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/140810_5979_JPN-W_VET-W_fc-Web_1772191702190.jpg",
-        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/140810_5979_JPN-W_VET-W_fc-App.jpg",
-        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/140810_CASACARDS_PARTNER_16_9_1920_1080.png"
-      },
-      "team": [
-        {
-          "name": "Japan Women",
-          "shortName": "JPN-W",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-JPN@2x.png"
-          },
-          "isWinner": null,
-          "color": "#9a0009",
-          "cricketScore": null,
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        },
-        {
-          "name": "Vietnam Women",
-          "shortName": "VET W",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-VIET@2x.png"
-          },
-          "isWinner": null,
-          "color": "#a10d00",
-          "cricketScore": null,
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        }
-      ],
-      "language": "ENGLISH",
-      "auto_streams": [
-        {
-          "auto": "#EXTM3U\n#EXT-X-VERSION:3\n#EXT-X-STREAM-INF:BANDWIDTH=446936,AVERAGE-BANDWIDTH=446936,CODECS=\"avc1.42e015,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=426x240,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/140810_english_hls_4b2cbee2c045862_1ta-di_h264/240p.m3u8?hdntl=Expires=1773218650~_GO=Generated~acl=/mumbai/140810_english_hls_4b2cbee2c045862_1ta-di_h264/*~Signature=AQQqLwRN3LnL_SKsnc7HvXpayoJGsQj6r4Y_y-croQOVeRa9XIhs67dyTqAHPuRtvan3gEVfrT0DfW3-Sb3d0iu-oTkB\n#EXT-X-STREAM-INF:BANDWIDTH=702376,AVERAGE-BANDWIDTH=702376,CODECS=\"avc1.42e01e,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=640x360,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/140810_english_hls_4b2cbee2c045862_1ta-di_h264/360p.m3u8?hdntl=Expires=1773218650~_GO=Generated~acl=/mumbai/140810_english_hls_4b2cbee2c045862_1ta-di_h264/*~Signature=AQQqLwRN3LnL_SKsnc7HvXpayoJGsQj6r4Y_y-croQOVeRa9XIhs67dyTqAHPuRtvan3gEVfrT0DfW3-Sb3d0iu-oTkB\n#EXT-X-STREAM-INF:BANDWIDTH=1023224,AVERAGE-BANDWIDTH=1023224,CODECS=\"avc1.4d401e,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=854x480,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/140810_english_hls_4b2cbee2c045862_1ta-di_h264/480p.m3u8?hdntl=Expires=1773218650~_GO=Generated~acl=/mumbai/140810_english_hls_4b2cbee2c045862_1ta-di_h264/*~Signature=AQQqLwRN3LnL_SKsnc7HvXpayoJGsQj6r4Y_y-croQOVeRa9XIhs67dyTqAHPuRtvan3gEVfrT0DfW3-Sb3d0iu-oTkB\n#EXT-X-STREAM-INF:BANDWIDTH=1278664,AVERAGE-BANDWIDTH=1278664,CODECS=\"avc1.4d401f,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=960x540,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/140810_english_hls_4b2cbee2c045862_1ta-di_h264/540p.m3u8?hdntl=Expires=1773218650~_GO=Generated~acl=/mumbai/140810_english_hls_4b2cbee2c045862_1ta-di_h264/*~Signature=AQQqLwRN3LnL_SKsnc7HvXpayoJGsQj6r4Y_y-croQOVeRa9XIhs67dyTqAHPuRtvan3gEVfrT0DfW3-Sb3d0iu-oTkB\n#EXT-X-STREAM-INF:BANDWIDTH=1789512,AVERAGE-BANDWIDTH=1789512,CODECS=\"avc1.64001f,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1280x720,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/140810_english_hls_4b2cbee2c045862_1ta-di_h264/720p.m3u8?hdntl=Expires=1773218650~_GO=Generated~acl=/mumbai/140810_english_hls_4b2cbee2c045862_1ta-di_h264/*~Signature=AQQqLwRN3LnL_SKsnc7HvXpayoJGsQj6r4Y_y-croQOVeRa9XIhs67dyTqAHPuRtvan3gEVfrT0DfW3-Sb3d0iu-oTkB\n#EXT-X-STREAM-INF:BANDWIDTH=3322120,AVERAGE-BANDWIDTH=3322120,CODECS=\"avc1.640028,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1920x1080,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/140810_english_hls_4b2cbee2c045862_1ta-di_h264/1080p.m3u8?hdntl=Expires=1773218650~_GO=Generated~acl=/mumbai/140810_english_hls_4b2cbee2c045862_1ta-di_h264/*~Signature=AQQqLwRN3LnL_SKsnc7HvXpayoJGsQj6r4Y_y-croQOVeRa9XIhs67dyTqAHPuRtvan3gEVfrT0DfW3-Sb3d0iu-oTkB",
-          "cookie_valid": "1773218650",
-          "expire_date": "Wednesday, March 11, 2026, 2:14:10 PM",
           "language": "ENGLISH"
         }
       ]
@@ -928,69 +920,6 @@
       "auto_streams": null
     },
     {
-      "category": "Football",
-      "title": "Philadelphia Union Vs Club América",
-      "tournament": "CONCACAF Champions Cup 2026",
-      "match_id": 141093,
-      "status": "NOT_STARTED",
-      "streamingStatus": "NOT_STARTED",
-      "startTime": "11 March 2026 04:30 AM",
-      "startDate": "01 January 1970 05:30 AM",
-      "image": "https://www.fancode.com/skillup-uploads/cms-media/141093_5954_PU_AME_1772957308825.png",
-      "image_cdn": {
-        "TATAPLAY": "https://images.fancode.com/aig/match/v1/141093_CASACARDS_PARTNER_16_9_1920_1080.png",
-        "APP": "https://www.fancode.com/skillup-uploads/cms-media/141093_5954_PU_AME_1772957308825.png",
-        "PLAYBACK": null,
-        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/Concacaf-Champions-Cup-Tour-Logo.png",
-        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Football-old-copy.jpg",
-        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/141093_5954_PU_AME_1772957308825.png",
-        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/141093_5954_PU_AME_1772958619206.png",
-        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/141093_CASACARDS_PARTNER_16_9_1920_1080.png"
-      },
-      "team": [
-        {
-          "name": "Philadelphia Union",
-          "shortName": "PU",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-PU@2x.png"
-          },
-          "isWinner": null,
-          "color": "#99E3FB",
-          "cricketScore": null,
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        },
-        {
-          "name": "Club América",
-          "shortName": "AME",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-AME@2x.png"
-          },
-          "isWinner": null,
-          "color": "#9CF993",
-          "cricketScore": null,
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        }
-      ],
-      "language": "BLOODY_SWEET",
-      "auto_streams": null
-    },
-    {
       "category": "Cricket",
       "title": "Delhi Champions Vs Gujarat Tigers",
       "tournament": "Thunderbolt T10 League 2026",
@@ -1038,6 +967,69 @@
           },
           "isWinner": null,
           "color": "#1f45bc",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        }
+      ],
+      "language": "BLOODY_SWEET",
+      "auto_streams": null
+    },
+    {
+      "category": "Football",
+      "title": "Philadelphia Union Vs Club América",
+      "tournament": "CONCACAF Champions Cup 2026",
+      "match_id": 141093,
+      "status": "NOT_STARTED",
+      "streamingStatus": "NOT_STARTED",
+      "startTime": "11 March 2026 04:30 AM",
+      "startDate": "01 January 1970 05:30 AM",
+      "image": "https://www.fancode.com/skillup-uploads/cms-media/141093_5954_PU_AME_1772957308825.png",
+      "image_cdn": {
+        "TATAPLAY": "https://images.fancode.com/aig/match/v1/141093_CASACARDS_PARTNER_16_9_1920_1080.png",
+        "APP": "https://www.fancode.com/skillup-uploads/cms-media/141093_5954_PU_AME_1772957308825.png",
+        "PLAYBACK": null,
+        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/Concacaf-Champions-Cup-Tour-Logo.png",
+        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Football-old-copy.jpg",
+        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/141093_5954_PU_AME_1772957308825.png",
+        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/141093_5954_PU_AME_1772958619206.png",
+        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/141093_CASACARDS_PARTNER_16_9_1920_1080.png"
+      },
+      "team": [
+        {
+          "name": "Philadelphia Union",
+          "shortName": "PU",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-PU@2x.png"
+          },
+          "isWinner": null,
+          "color": "#99E3FB",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        },
+        {
+          "name": "Club América",
+          "shortName": "AME",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-AME@2x.png"
+          },
+          "isWinner": null,
+          "color": "#9CF993",
           "cricketScore": null,
           "kabaddiScore": null,
           "footballScore": null,
