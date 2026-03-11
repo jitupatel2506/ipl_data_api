@@ -1,7 +1,7 @@
 {
   "Author": "DOCTOR_STRANGE",
   "name": "FanCode Live Matches API",
-  "last_updated": "02:28:01 AM 12-03-2026",
+  "last_updated": "02:56:01 AM 12-03-2026",
   "headers": {
     "User-Agent": "ReactNativeVideo/9.3.0 (Linux;Android 13) AndroidXMedia3/1.6.1",
     "Referer": "https://fancode.com/"
@@ -44,7 +44,7 @@
               "runs": 153,
               "overs": "20",
               "balls": "120",
-              "status": "IN_PROGRESS",
+              "status": "COMPLETED",
               "wickets": 4
             }
           ],
@@ -54,7 +54,7 @@
           "hockeyScore": null,
           "status": {
             "cricket": {
-              "isBatting": true
+              "isBatting": false
             }
           }
         },
@@ -66,14 +66,22 @@
           },
           "isWinner": null,
           "color": "#dc2a1b",
-          "cricketScore": [],
+          "cricketScore": [
+            {
+              "runs": 14,
+              "overs": "3.3",
+              "balls": "21",
+              "status": "IN_PROGRESS",
+              "wickets": 3
+            }
+          ],
           "kabaddiScore": null,
           "footballScore": null,
           "basketBallScore": null,
           "hockeyScore": null,
           "status": {
             "cricket": {
-              "isBatting": false
+              "isBatting": true
             }
           }
         }
@@ -120,8 +128,14 @@
           "cricketScore": null,
           "kabaddiScore": null,
           "footballScore": {
-            "points": 2,
+            "points": 3,
             "goals": [
+              {
+                "id": "51694",
+                "shortName": "M Grimes",
+                "isOwnGoal": false,
+                "goalTime": "50'"
+              },
               {
                 "id": "50455",
                 "shortName": "BT Asante",
