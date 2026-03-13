@@ -1,14 +1,14 @@
 {
   "Author": "DOCTOR_STRANGE",
   "name": "FanCode Live Matches API",
-  "last_updated": "01:14:01 AM 14-03-2026",
+  "last_updated": "01:42:03 AM 14-03-2026",
   "headers": {
     "User-Agent": "ReactNativeVideo/9.3.0 (Linux;Android 13) AndroidXMedia3/1.6.1",
     "Referer": "https://fancode.com/"
   },
   "total_matches": 38,
-  "live_matches": 8,
-  "upcoming_matches": 30,
+  "live_matches": 9,
+  "upcoming_matches": 29,
   "matches": [
     {
       "category": "Football",
@@ -64,8 +64,14 @@
           "cricketScore": null,
           "kabaddiScore": null,
           "footballScore": {
-            "points": 1,
+            "points": 2,
             "goals": [
+              {
+                "id": "174374",
+                "shortName": "V Edoa",
+                "isOwnGoal": false,
+                "goalTime": "42'"
+              },
               {
                 "id": "19451",
                 "shortName": "I Toney",
@@ -99,7 +105,7 @@
       "title": "Deportivo Alaves Vs Villarreal Cf",
       "tournament": "LALIGA 2025-26",
       "match_id": 131103,
-      "status": "NOT_STARTED",
+      "status": "LIVE",
       "streamingStatus": "STARTED",
       "startTime": "14 March 2026 01:30 AM",
       "startDate": "01 January 1970 05:30 AM",
@@ -125,7 +131,10 @@
           "color": "#537096",
           "cricketScore": null,
           "kabaddiScore": null,
-          "footballScore": null,
+          "footballScore": {
+            "points": 0,
+            "goals": []
+          },
           "basketBallScore": null,
           "hockeyScore": null,
           "status": {
@@ -144,7 +153,10 @@
           "color": "#ffc0cb",
           "cricketScore": null,
           "kabaddiScore": null,
-          "footballScore": null,
+          "footballScore": {
+            "points": 0,
+            "goals": []
+          },
           "basketBallScore": null,
           "hockeyScore": null,
           "status": {
@@ -161,6 +173,83 @@
           "cookie": "hdntl=Expires=1773516605~_GO=Generated~acl=/mumbai/131103_english_hls_fa4cedcb5039872_1ta-di_h264/*~Signature=AR77L-b3aeFMx1mI6LVUiJGbII1n_SD8wBC1VCKrzc5qmeaxoIo0GpVfjEJvi93ynpFmM2awEWVg041ib5kX4GvVV-MI",
           "cookie_valid": "1773516605",
           "expire_date": "Sunday, March 15, 2026, 1:00:05 AM",
+          "language": "ENGLISH"
+        }
+      ]
+    },
+    {
+      "category": "Football",
+      "title": "Wrexham A.f.c. Vs Swansea City A.f.c.",
+      "tournament": "EFL Championship 2025-26",
+      "match_id": 140951,
+      "status": "LIVE",
+      "streamingStatus": "STARTED",
+      "startTime": "14 March 2026 01:30 AM",
+      "startDate": "01 January 1970 05:30 AM",
+      "image": "https://www.fancode.com/skillup-uploads/cms-media/140951_5489_WRX_SWA_fc-web.jpg",
+      "image_cdn": {
+        "TATAPLAY": "https://images.fancode.com/aig/match/v1/140951_CASACARDS_PARTNER_16_9_1920_1080.png",
+        "APP": "https://www.fancode.com/skillup-uploads/cms-media/140951_5489_WRX_SWA_fc-web.jpg",
+        "PLAYBACK": "https://www.fancode.com/skillup-uploads/cms-media/140951_5489_WRX_SWA_fc-web.jpg",
+        "LOGO": "https://fancode.com/skillup-uploads/prod-images/2024/07/EFl-Championship.png",
+        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Football-old-copy.jpg",
+        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/140951_5489_WRX_SWA_fc-web.jpg",
+        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/140951_5489_WRX_SWA_fc-app.jpg",
+        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/140951_CASACARDS_PARTNER_16_9_1920_1080.png"
+      },
+      "team": [
+        {
+          "name": "Wrexham A.F.C.",
+          "shortName": "WRX",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-WRX@2x.png"
+          },
+          "isWinner": null,
+          "color": "#0fb378",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": {
+            "points": 0,
+            "goals": []
+          },
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        },
+        {
+          "name": "Swansea City A.F.C.",
+          "shortName": "SWA",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-SWN@2x.png"
+          },
+          "isWinner": null,
+          "color": "#FF0000",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": {
+            "points": 0,
+            "goals": []
+          },
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        }
+      ],
+      "language": "ENGLISH",
+      "auto_streams": [
+        {
+          "auto": "#EXTM3U\n#EXT-X-VERSION:3\n#EXT-X-STREAM-INF:BANDWIDTH=446936,AVERAGE-BANDWIDTH=446936,CODECS=\"avc1.42e015,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=426x240,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/140951_english_hls_a4dd22a16542618_1ta-di_h264/240p.m3u8?hdntl=Expires=1773517867~_GO=Generated~acl=/mumbai/140951_english_hls_a4dd22a16542618_1ta-di_h264/*~Signature=AR77L-YT-FeCquV2G4sCAVEJUndMIDyKtdz6OqjsJ70rNTdFV608wxy8468M37dM2w0vEBDoKd_2o7FerYWDCh21N0EK\n#EXT-X-STREAM-INF:BANDWIDTH=702376,AVERAGE-BANDWIDTH=702376,CODECS=\"avc1.42e01e,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=640x360,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/140951_english_hls_a4dd22a16542618_1ta-di_h264/360p.m3u8?hdntl=Expires=1773517867~_GO=Generated~acl=/mumbai/140951_english_hls_a4dd22a16542618_1ta-di_h264/*~Signature=AR77L-YT-FeCquV2G4sCAVEJUndMIDyKtdz6OqjsJ70rNTdFV608wxy8468M37dM2w0vEBDoKd_2o7FerYWDCh21N0EK\n#EXT-X-STREAM-INF:BANDWIDTH=1023224,AVERAGE-BANDWIDTH=1023224,CODECS=\"avc1.4d401e,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=854x480,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/140951_english_hls_a4dd22a16542618_1ta-di_h264/480p.m3u8?hdntl=Expires=1773517867~_GO=Generated~acl=/mumbai/140951_english_hls_a4dd22a16542618_1ta-di_h264/*~Signature=AR77L-YT-FeCquV2G4sCAVEJUndMIDyKtdz6OqjsJ70rNTdFV608wxy8468M37dM2w0vEBDoKd_2o7FerYWDCh21N0EK\n#EXT-X-STREAM-INF:BANDWIDTH=1278664,AVERAGE-BANDWIDTH=1278664,CODECS=\"avc1.4d401f,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=960x540,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/140951_english_hls_a4dd22a16542618_1ta-di_h264/540p.m3u8?hdntl=Expires=1773517867~_GO=Generated~acl=/mumbai/140951_english_hls_a4dd22a16542618_1ta-di_h264/*~Signature=AR77L-YT-FeCquV2G4sCAVEJUndMIDyKtdz6OqjsJ70rNTdFV608wxy8468M37dM2w0vEBDoKd_2o7FerYWDCh21N0EK\n#EXT-X-STREAM-INF:BANDWIDTH=1789512,AVERAGE-BANDWIDTH=1789512,CODECS=\"avc1.64001f,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1280x720,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/140951_english_hls_a4dd22a16542618_1ta-di_h264/720p.m3u8?hdntl=Expires=1773517867~_GO=Generated~acl=/mumbai/140951_english_hls_a4dd22a16542618_1ta-di_h264/*~Signature=AR77L-YT-FeCquV2G4sCAVEJUndMIDyKtdz6OqjsJ70rNTdFV608wxy8468M37dM2w0vEBDoKd_2o7FerYWDCh21N0EK\n#EXT-X-STREAM-INF:BANDWIDTH=3322120,AVERAGE-BANDWIDTH=3322120,CODECS=\"avc1.640028,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1920x1080,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/140951_english_hls_a4dd22a16542618_1ta-di_h264/1080p.m3u8?hdntl=Expires=1773517867~_GO=Generated~acl=/mumbai/140951_english_hls_a4dd22a16542618_1ta-di_h264/*~Signature=AR77L-YT-FeCquV2G4sCAVEJUndMIDyKtdz6OqjsJ70rNTdFV608wxy8468M37dM2w0vEBDoKd_2o7FerYWDCh21N0EK",
+          "cookie": "hdntl=Expires=1773517867~_GO=Generated~acl=/mumbai/140951_english_hls_a4dd22a16542618_1ta-di_h264/*~Signature=AR77L-YT-FeCquV2G4sCAVEJUndMIDyKtdz6OqjsJ70rNTdFV608wxy8468M37dM2w0vEBDoKd_2o7FerYWDCh21N0EK",
+          "cookie_valid": "1773517867",
+          "expire_date": "Sunday, March 15, 2026, 1:21:07 AM",
           "language": "ENGLISH"
         }
       ]
@@ -362,10 +451,10 @@
       "language": "ENGLISH",
       "auto_streams": [
         {
-          "auto": "#EXTM3U\n#EXT-X-VERSION:3\n#EXT-X-STREAM-INF:BANDWIDTH=446936,AVERAGE-BANDWIDTH=446936,CODECS=\"avc1.42e015,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=426x240,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/141142_english_hls_2ec91a35fe90039_1ta-di_h264/240p.m3u8?hdntl=Expires=1773504309~_GO=Generated~acl=/mumbai/141142_english_hls_2ec91a35fe90039_1ta-di_h264/*~Signature=AR77L-YBi00KhQUMOXGjU_gXpTsosJ1x9DVOA3Ydy-Etr0oZbYVhDeaEAZDkQ4mlNXGVulg26ul6ssj_p8SMnpnMFJwL\n#EXT-X-STREAM-INF:BANDWIDTH=702376,AVERAGE-BANDWIDTH=702376,CODECS=\"avc1.42e01e,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=640x360,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/141142_english_hls_2ec91a35fe90039_1ta-di_h264/360p.m3u8?hdntl=Expires=1773504309~_GO=Generated~acl=/mumbai/141142_english_hls_2ec91a35fe90039_1ta-di_h264/*~Signature=AR77L-YBi00KhQUMOXGjU_gXpTsosJ1x9DVOA3Ydy-Etr0oZbYVhDeaEAZDkQ4mlNXGVulg26ul6ssj_p8SMnpnMFJwL\n#EXT-X-STREAM-INF:BANDWIDTH=1023224,AVERAGE-BANDWIDTH=1023224,CODECS=\"avc1.4d401e,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=854x480,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/141142_english_hls_2ec91a35fe90039_1ta-di_h264/480p.m3u8?hdntl=Expires=1773504309~_GO=Generated~acl=/mumbai/141142_english_hls_2ec91a35fe90039_1ta-di_h264/*~Signature=AR77L-YBi00KhQUMOXGjU_gXpTsosJ1x9DVOA3Ydy-Etr0oZbYVhDeaEAZDkQ4mlNXGVulg26ul6ssj_p8SMnpnMFJwL\n#EXT-X-STREAM-INF:BANDWIDTH=1278664,AVERAGE-BANDWIDTH=1278664,CODECS=\"avc1.4d401f,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=960x540,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/141142_english_hls_2ec91a35fe90039_1ta-di_h264/540p.m3u8?hdntl=Expires=1773504309~_GO=Generated~acl=/mumbai/141142_english_hls_2ec91a35fe90039_1ta-di_h264/*~Signature=AR77L-YBi00KhQUMOXGjU_gXpTsosJ1x9DVOA3Ydy-Etr0oZbYVhDeaEAZDkQ4mlNXGVulg26ul6ssj_p8SMnpnMFJwL\n#EXT-X-STREAM-INF:BANDWIDTH=1789512,AVERAGE-BANDWIDTH=1789512,CODECS=\"avc1.64001f,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1280x720,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/141142_english_hls_2ec91a35fe90039_1ta-di_h264/720p.m3u8?hdntl=Expires=1773504309~_GO=Generated~acl=/mumbai/141142_english_hls_2ec91a35fe90039_1ta-di_h264/*~Signature=AR77L-YBi00KhQUMOXGjU_gXpTsosJ1x9DVOA3Ydy-Etr0oZbYVhDeaEAZDkQ4mlNXGVulg26ul6ssj_p8SMnpnMFJwL\n#EXT-X-STREAM-INF:BANDWIDTH=3322120,AVERAGE-BANDWIDTH=3322120,CODECS=\"avc1.640028,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1920x1080,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/141142_english_hls_2ec91a35fe90039_1ta-di_h264/1080p.m3u8?hdntl=Expires=1773504309~_GO=Generated~acl=/mumbai/141142_english_hls_2ec91a35fe90039_1ta-di_h264/*~Signature=AR77L-YBi00KhQUMOXGjU_gXpTsosJ1x9DVOA3Ydy-Etr0oZbYVhDeaEAZDkQ4mlNXGVulg26ul6ssj_p8SMnpnMFJwL",
-          "cookie": "hdntl=Expires=1773504309~_GO=Generated~acl=/mumbai/141142_english_hls_2ec91a35fe90039_1ta-di_h264/*~Signature=AR77L-YBi00KhQUMOXGjU_gXpTsosJ1x9DVOA3Ydy-Etr0oZbYVhDeaEAZDkQ4mlNXGVulg26ul6ssj_p8SMnpnMFJwL",
-          "cookie_valid": "1773504309",
-          "expire_date": "Saturday, March 14, 2026, 9:35:09 PM",
+          "auto": "#EXTM3U\n#EXT-X-VERSION:3\n#EXT-X-STREAM-INF:BANDWIDTH=446936,AVERAGE-BANDWIDTH=446936,CODECS=\"avc1.42e015,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=426x240,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/141142_english_hls_2ec91a35fe90039_1ta-di_h264/240p.m3u8?hdntl=Expires=1773519126~_GO=Generated~acl=/mumbai/141142_english_hls_2ec91a35fe90039_1ta-di_h264/*~Signature=AR77L-ZbP7WPJj02dpav8FGbFS-_7De5q1mg41Nghhy1z-hE1Uf8B7oGCgMciG8XUq30lCdSpAyY2b9YLQWmV5Y211kO\n#EXT-X-STREAM-INF:BANDWIDTH=702376,AVERAGE-BANDWIDTH=702376,CODECS=\"avc1.42e01e,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=640x360,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/141142_english_hls_2ec91a35fe90039_1ta-di_h264/360p.m3u8?hdntl=Expires=1773519126~_GO=Generated~acl=/mumbai/141142_english_hls_2ec91a35fe90039_1ta-di_h264/*~Signature=AR77L-ZbP7WPJj02dpav8FGbFS-_7De5q1mg41Nghhy1z-hE1Uf8B7oGCgMciG8XUq30lCdSpAyY2b9YLQWmV5Y211kO\n#EXT-X-STREAM-INF:BANDWIDTH=1023224,AVERAGE-BANDWIDTH=1023224,CODECS=\"avc1.4d401e,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=854x480,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/141142_english_hls_2ec91a35fe90039_1ta-di_h264/480p.m3u8?hdntl=Expires=1773519126~_GO=Generated~acl=/mumbai/141142_english_hls_2ec91a35fe90039_1ta-di_h264/*~Signature=AR77L-ZbP7WPJj02dpav8FGbFS-_7De5q1mg41Nghhy1z-hE1Uf8B7oGCgMciG8XUq30lCdSpAyY2b9YLQWmV5Y211kO\n#EXT-X-STREAM-INF:BANDWIDTH=1278664,AVERAGE-BANDWIDTH=1278664,CODECS=\"avc1.4d401f,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=960x540,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/141142_english_hls_2ec91a35fe90039_1ta-di_h264/540p.m3u8?hdntl=Expires=1773519126~_GO=Generated~acl=/mumbai/141142_english_hls_2ec91a35fe90039_1ta-di_h264/*~Signature=AR77L-ZbP7WPJj02dpav8FGbFS-_7De5q1mg41Nghhy1z-hE1Uf8B7oGCgMciG8XUq30lCdSpAyY2b9YLQWmV5Y211kO\n#EXT-X-STREAM-INF:BANDWIDTH=1789512,AVERAGE-BANDWIDTH=1789512,CODECS=\"avc1.64001f,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1280x720,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/141142_english_hls_2ec91a35fe90039_1ta-di_h264/720p.m3u8?hdntl=Expires=1773519126~_GO=Generated~acl=/mumbai/141142_english_hls_2ec91a35fe90039_1ta-di_h264/*~Signature=AR77L-ZbP7WPJj02dpav8FGbFS-_7De5q1mg41Nghhy1z-hE1Uf8B7oGCgMciG8XUq30lCdSpAyY2b9YLQWmV5Y211kO\n#EXT-X-STREAM-INF:BANDWIDTH=3322120,AVERAGE-BANDWIDTH=3322120,CODECS=\"avc1.640028,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1920x1080,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/141142_english_hls_2ec91a35fe90039_1ta-di_h264/1080p.m3u8?hdntl=Expires=1773519126~_GO=Generated~acl=/mumbai/141142_english_hls_2ec91a35fe90039_1ta-di_h264/*~Signature=AR77L-ZbP7WPJj02dpav8FGbFS-_7De5q1mg41Nghhy1z-hE1Uf8B7oGCgMciG8XUq30lCdSpAyY2b9YLQWmV5Y211kO",
+          "cookie": "hdntl=Expires=1773519126~_GO=Generated~acl=/mumbai/141142_english_hls_2ec91a35fe90039_1ta-di_h264/*~Signature=AR77L-ZbP7WPJj02dpav8FGbFS-_7De5q1mg41Nghhy1z-hE1Uf8B7oGCgMciG8XUq30lCdSpAyY2b9YLQWmV5Y211kO",
+          "cookie_valid": "1773519126",
+          "expire_date": "Sunday, March 15, 2026, 1:42:06 AM",
           "language": "ENGLISH"
         }
       ]
@@ -582,69 +671,6 @@
           "language": "ENGLISH"
         }
       ]
-    },
-    {
-      "category": "Football",
-      "title": "Wrexham A.f.c. Vs Swansea City A.f.c.",
-      "tournament": "EFL Championship 2025-26",
-      "match_id": 140951,
-      "status": "NOT_STARTED",
-      "streamingStatus": "NOT_STARTED",
-      "startTime": "14 March 2026 01:30 AM",
-      "startDate": "01 January 1970 05:30 AM",
-      "image": "https://www.fancode.com/skillup-uploads/cms-media/140951_5489_WRX_SWA_fc-web.jpg",
-      "image_cdn": {
-        "TATAPLAY": "https://images.fancode.com/aig/match/v1/140951_CASACARDS_PARTNER_16_9_1920_1080.png",
-        "APP": "https://www.fancode.com/skillup-uploads/cms-media/140951_5489_WRX_SWA_fc-web.jpg",
-        "PLAYBACK": null,
-        "LOGO": "https://fancode.com/skillup-uploads/prod-images/2024/07/EFl-Championship.png",
-        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Football-old-copy.jpg",
-        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/140951_5489_WRX_SWA_fc-web.jpg",
-        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/140951_5489_WRX_SWA_fc-app.jpg",
-        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/140951_CASACARDS_PARTNER_16_9_1920_1080.png"
-      },
-      "team": [
-        {
-          "name": "Wrexham A.F.C.",
-          "shortName": "WRX",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-WRX@2x.png"
-          },
-          "isWinner": null,
-          "color": "#0fb378",
-          "cricketScore": null,
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        },
-        {
-          "name": "Swansea City A.F.C.",
-          "shortName": "SWA",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-SWN@2x.png"
-          },
-          "isWinner": null,
-          "color": "#FF0000",
-          "cricketScore": null,
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        }
-      ],
-      "language": "BLOODY_SWEET",
-      "auto_streams": null
     },
     {
       "category": "Cricket",
@@ -1971,6 +1997,69 @@
     },
     {
       "category": "Football",
+      "title": "Leicester City F.c. Vs Queens Park Rangers F.c.",
+      "tournament": "EFL Championship 2025-26",
+      "match_id": 140953,
+      "status": "NOT_STARTED",
+      "streamingStatus": "NOT_STARTED",
+      "startTime": "14 March 2026 08:30 PM",
+      "startDate": "01 January 1970 05:30 AM",
+      "image": "https://www.fancode.com/skillup-uploads/cms-media/140953_5489_LEI_QPR_fc-web.jpg",
+      "image_cdn": {
+        "TATAPLAY": "https://images.fancode.com/aig/match/v1/140953_CASACARDS_PARTNER_16_9_1920_1080.png",
+        "APP": "https://www.fancode.com/skillup-uploads/cms-media/140953_5489_LEI_QPR_fc-web.jpg",
+        "PLAYBACK": null,
+        "LOGO": "https://fancode.com/skillup-uploads/prod-images/2024/07/EFl-Championship.png",
+        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Football-old-copy.jpg",
+        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/140953_5489_LEI_QPR_fc-web.jpg",
+        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/140953_5489_LEI_QPR_fc-app.jpg",
+        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/140953_CASACARDS_PARTNER_16_9_1920_1080.png"
+      },
+      "team": [
+        {
+          "name": "Leicester City F.C.",
+          "shortName": "LEI",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-LEICS@2x.png"
+          },
+          "isWinner": null,
+          "color": "#fbc32c",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        },
+        {
+          "name": "Queens Park Rangers F.C.",
+          "shortName": "QPR",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-QPRN@2x.png"
+          },
+          "isWinner": null,
+          "color": "#144a89",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        }
+      ],
+      "language": "BLOODY_SWEET",
+      "auto_streams": null
+    },
+    {
+      "category": "Football",
       "title": "Wellington Phoenix Vs Perth Glory",
       "tournament": "A League 2025-26",
       "match_id": 140912,
@@ -2017,6 +2106,69 @@
           },
           "isWinner": null,
           "color": "#ff8200",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        }
+      ],
+      "language": "BLOODY_SWEET",
+      "auto_streams": null
+    },
+    {
+      "category": "Football",
+      "title": "Atletico De Madrid Vs Getafe Cf",
+      "tournament": "LALIGA 2025-26",
+      "match_id": 131105,
+      "status": "NOT_STARTED",
+      "streamingStatus": "NOT_STARTED",
+      "startTime": "14 March 2026 08:45 PM",
+      "startDate": "01 January 1970 05:30 AM",
+      "image": "https://www.fancode.com/skillup-uploads/cms-media/131105_5427_ATL_GEF_FC-Web.png",
+      "image_cdn": {
+        "TATAPLAY": "https://images.fancode.com/aig/match/v1/131105_CASACARDS_PARTNER_16_9_1920_1080.png",
+        "APP": "https://www.fancode.com/skillup-uploads/cms-media/131105_5427_ATL_GEF_FC-Web.png",
+        "PLAYBACK": null,
+        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/LALIGA-2025-26-Tour.png",
+        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Football-old-copy.jpg",
+        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/131105_5427_ATL_GEF_FC-Web.png",
+        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/131105_5427_ATL_GEF_FC-App.png",
+        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/131105_CASACARDS_PARTNER_16_9_1920_1080.png"
+      },
+      "team": [
+        {
+          "name": "Atletico de Madrid",
+          "shortName": "ATL",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-ATLH@2x.png"
+          },
+          "isWinner": null,
+          "color": "#ca2917",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        },
+        {
+          "name": "Getafe CF",
+          "shortName": "GEF",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-GEF@2x.png"
+          },
+          "isWinner": null,
+          "color": "#e0d405",
           "cricketScore": null,
           "kabaddiScore": null,
           "footballScore": null,
@@ -2097,69 +2249,6 @@
     },
     {
       "category": "Football",
-      "title": "Leicester City F.c. Vs Queens Park Rangers F.c.",
-      "tournament": "EFL Championship 2025-26",
-      "match_id": 140953,
-      "status": "NOT_STARTED",
-      "streamingStatus": "NOT_STARTED",
-      "startTime": "14 March 2026 08:30 PM",
-      "startDate": "01 January 1970 05:30 AM",
-      "image": "https://www.fancode.com/skillup-uploads/cms-media/140953_5489_LEI_QPR_fc-web.jpg",
-      "image_cdn": {
-        "TATAPLAY": "https://images.fancode.com/aig/match/v1/140953_CASACARDS_PARTNER_16_9_1920_1080.png",
-        "APP": "https://www.fancode.com/skillup-uploads/cms-media/140953_5489_LEI_QPR_fc-web.jpg",
-        "PLAYBACK": null,
-        "LOGO": "https://fancode.com/skillup-uploads/prod-images/2024/07/EFl-Championship.png",
-        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Football-old-copy.jpg",
-        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/140953_5489_LEI_QPR_fc-web.jpg",
-        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/140953_5489_LEI_QPR_fc-app.jpg",
-        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/140953_CASACARDS_PARTNER_16_9_1920_1080.png"
-      },
-      "team": [
-        {
-          "name": "Leicester City F.C.",
-          "shortName": "LEI",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-LEICS@2x.png"
-          },
-          "isWinner": null,
-          "color": "#fbc32c",
-          "cricketScore": null,
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        },
-        {
-          "name": "Queens Park Rangers F.C.",
-          "shortName": "QPR",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-QPRN@2x.png"
-          },
-          "isWinner": null,
-          "color": "#144a89",
-          "cricketScore": null,
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        }
-      ],
-      "language": "BLOODY_SWEET",
-      "auto_streams": null
-    },
-    {
-      "category": "Football",
       "title": "China Pr Women Vs Chinese Taipei Women",
       "tournament": "AFC Women's Asian Cup, 2026",
       "match_id": 140813,
@@ -2206,69 +2295,6 @@
           },
           "isWinner": null,
           "color": "#00008D",
-          "cricketScore": null,
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        }
-      ],
-      "language": "BLOODY_SWEET",
-      "auto_streams": null
-    },
-    {
-      "category": "Football",
-      "title": "Atletico De Madrid Vs Getafe Cf",
-      "tournament": "LALIGA 2025-26",
-      "match_id": 131105,
-      "status": "NOT_STARTED",
-      "streamingStatus": "NOT_STARTED",
-      "startTime": "14 March 2026 08:45 PM",
-      "startDate": "01 January 1970 05:30 AM",
-      "image": "https://www.fancode.com/skillup-uploads/cms-media/131105_5427_ATL_GEF_FC-Web.png",
-      "image_cdn": {
-        "TATAPLAY": "https://images.fancode.com/aig/match/v1/131105_CASACARDS_PARTNER_16_9_1920_1080.png",
-        "APP": "https://www.fancode.com/skillup-uploads/cms-media/131105_5427_ATL_GEF_FC-Web.png",
-        "PLAYBACK": null,
-        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/LALIGA-2025-26-Tour.png",
-        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Football-old-copy.jpg",
-        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/131105_5427_ATL_GEF_FC-Web.png",
-        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/131105_5427_ATL_GEF_FC-App.png",
-        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/131105_CASACARDS_PARTNER_16_9_1920_1080.png"
-      },
-      "team": [
-        {
-          "name": "Atletico de Madrid",
-          "shortName": "ATL",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-ATLH@2x.png"
-          },
-          "isWinner": null,
-          "color": "#ca2917",
-          "cricketScore": null,
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        },
-        {
-          "name": "Getafe CF",
-          "shortName": "GEF",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-GEF@2x.png"
-          },
-          "isWinner": null,
-          "color": "#e0d405",
           "cricketScore": null,
           "kabaddiScore": null,
           "footballScore": null,
