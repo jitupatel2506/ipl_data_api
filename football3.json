@@ -1,14 +1,14 @@
 {
   "Author": "DOCTOR_STRANGE",
   "name": "FanCode Live Matches API",
-  "last_updated": "09:35:03 PM 14-03-2026",
+  "last_updated": "10:42:12 PM 14-03-2026",
   "headers": {
     "User-Agent": "ReactNativeVideo/9.3.0 (Linux;Android 13) AndroidXMedia3/1.6.1",
     "Referer": "https://fancode.com/"
   },
-  "total_matches": 42,
-  "live_matches": 9,
-  "upcoming_matches": 33,
+  "total_matches": 39,
+  "live_matches": 7,
+  "upcoming_matches": 32,
   "matches": [
     {
       "category": "Cricket",
@@ -68,11 +68,11 @@
           "color": "#80081C",
           "cricketScore": [
             {
-              "runs": 21,
-              "overs": "3",
-              "balls": "18",
+              "runs": 114,
+              "overs": "17.4",
+              "balls": "107",
               "status": "IN_PROGRESS",
-              "wickets": 2
+              "wickets": 5
             }
           ],
           "kabaddiScore": null,
@@ -155,11 +155,11 @@
           "color": "#80081C",
           "cricketScore": [
             {
-              "runs": 21,
-              "overs": "3",
-              "balls": "18",
+              "runs": 114,
+              "overs": "17.4",
+              "balls": "107",
               "status": "IN_PROGRESS",
-              "wickets": 2
+              "wickets": 5
             }
           ],
           "kabaddiScore": null,
@@ -218,7 +218,7 @@
               "runs": 215,
               "overs": "20",
               "balls": "120",
-              "status": "IN_PROGRESS",
+              "status": "COMPLETED",
               "wickets": 3
             }
           ],
@@ -228,7 +228,7 @@
           "hockeyScore": null,
           "status": {
             "cricket": {
-              "isBatting": true
+              "isBatting": false
             }
           }
         },
@@ -240,14 +240,22 @@
           },
           "isWinner": null,
           "color": "#dc2a1b",
-          "cricketScore": [],
+          "cricketScore": [
+            {
+              "runs": 90,
+              "overs": "14.3",
+              "balls": "87",
+              "status": "IN_PROGRESS",
+              "wickets": 4
+            }
+          ],
           "kabaddiScore": null,
           "footballScore": null,
           "basketBallScore": null,
           "hockeyScore": null,
           "status": {
             "cricket": {
-              "isBatting": false
+              "isBatting": true
             }
           }
         }
@@ -259,97 +267,6 @@
           "cookie": "hdntl=Expires=1773584353~_GO=Generated~acl=/mumbai/140713_english_hls_f13930d8c23633_1ta-di_h264/*~Signature=AR77L-bW3A49Syd0WIsbChauKWHPBKwAaWxlHqCsbYWLfsDmdf2mZ6blzV4AEJTi0ob5EMLiQnncG5JvOXh4RlpRTBwE",
           "cookie_valid": "1773584353",
           "expire_date": "Sunday, March 15, 2026, 7:49:13 PM",
-          "language": "ENGLISH"
-        }
-      ]
-    },
-    {
-      "category": "Football",
-      "title": "Leicester City F.c. Vs Queens Park Rangers F.c.",
-      "tournament": "EFL Championship 2025-26",
-      "match_id": 140953,
-      "status": "LIVE",
-      "streamingStatus": "STARTED",
-      "startTime": "14 March 2026 08:30 PM",
-      "startDate": "01 January 1970 05:30 AM",
-      "image": "https://www.fancode.com/skillup-uploads/cms-media/140953_5489_LEI_QPR_fc-web.jpg",
-      "image_cdn": {
-        "TATAPLAY": "https://images.fancode.com/aig/match/v1/140953_CASACARDS_PARTNER_16_9_1920_1080.png",
-        "APP": "https://www.fancode.com/skillup-uploads/cms-media/140953_5489_LEI_QPR_fc-web.jpg",
-        "PLAYBACK": "https://www.fancode.com/skillup-uploads/cms-media/140953_5489_LEI_QPR_fc-web.jpg",
-        "LOGO": "https://fancode.com/skillup-uploads/prod-images/2024/07/EFl-Championship.png",
-        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Football-old-copy.jpg",
-        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/140953_5489_LEI_QPR_fc-web.jpg",
-        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/140953_5489_LEI_QPR_fc-app.jpg",
-        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/140953_CASACARDS_PARTNER_16_9_1920_1080.png"
-      },
-      "team": [
-        {
-          "name": "Leicester City F.C.",
-          "shortName": "LEI",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-LEICS@2x.png"
-          },
-          "isWinner": null,
-          "color": "#fbc32c",
-          "cricketScore": null,
-          "kabaddiScore": null,
-          "footballScore": {
-            "points": 1,
-            "goals": [
-              {
-                "id": "157933",
-                "shortName": "J James",
-                "isOwnGoal": false,
-                "goalTime": "14'"
-              }
-            ]
-          },
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        },
-        {
-          "name": "Queens Park Rangers F.C.",
-          "shortName": "QPR",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-QPRN@2x.png"
-          },
-          "isWinner": null,
-          "color": "#144a89",
-          "cricketScore": null,
-          "kabaddiScore": null,
-          "footballScore": {
-            "points": 1,
-            "goals": [
-              {
-                "id": "157056",
-                "shortName": "H Vale",
-                "isOwnGoal": false,
-                "goalTime": "43'"
-              }
-            ]
-          },
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        }
-      ],
-      "language": "ENGLISH",
-      "auto_streams": [
-        {
-          "auto": "#EXTM3U\n#EXT-X-VERSION:3\n#EXT-X-STREAM-INF:BANDWIDTH=446936,AVERAGE-BANDWIDTH=446936,CODECS=\"avc1.42e015,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=426x240,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/140953_english_hls_b7b8bba21e59998_1ta-di_h264/240p.m3u8?hdntl=Expires=1773585854~_GO=Generated~acl=/mumbai/140953_english_hls_b7b8bba21e59998_1ta-di_h264/*~Signature=AR77L-ZSQ21oviUipd1Jgf2CDWkfXjWrScl6bBvYBv4MeukxB0YxV79b8OjknUZz4JdK0owG6zFDBEuQV5QTqoVA82AB\n#EXT-X-STREAM-INF:BANDWIDTH=702376,AVERAGE-BANDWIDTH=702376,CODECS=\"avc1.42e01e,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=640x360,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/140953_english_hls_b7b8bba21e59998_1ta-di_h264/360p.m3u8?hdntl=Expires=1773585854~_GO=Generated~acl=/mumbai/140953_english_hls_b7b8bba21e59998_1ta-di_h264/*~Signature=AR77L-ZSQ21oviUipd1Jgf2CDWkfXjWrScl6bBvYBv4MeukxB0YxV79b8OjknUZz4JdK0owG6zFDBEuQV5QTqoVA82AB\n#EXT-X-STREAM-INF:BANDWIDTH=1023224,AVERAGE-BANDWIDTH=1023224,CODECS=\"avc1.4d401e,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=854x480,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/140953_english_hls_b7b8bba21e59998_1ta-di_h264/480p.m3u8?hdntl=Expires=1773585854~_GO=Generated~acl=/mumbai/140953_english_hls_b7b8bba21e59998_1ta-di_h264/*~Signature=AR77L-ZSQ21oviUipd1Jgf2CDWkfXjWrScl6bBvYBv4MeukxB0YxV79b8OjknUZz4JdK0owG6zFDBEuQV5QTqoVA82AB\n#EXT-X-STREAM-INF:BANDWIDTH=1278664,AVERAGE-BANDWIDTH=1278664,CODECS=\"avc1.4d401f,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=960x540,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/140953_english_hls_b7b8bba21e59998_1ta-di_h264/540p.m3u8?hdntl=Expires=1773585854~_GO=Generated~acl=/mumbai/140953_english_hls_b7b8bba21e59998_1ta-di_h264/*~Signature=AR77L-ZSQ21oviUipd1Jgf2CDWkfXjWrScl6bBvYBv4MeukxB0YxV79b8OjknUZz4JdK0owG6zFDBEuQV5QTqoVA82AB\n#EXT-X-STREAM-INF:BANDWIDTH=1789512,AVERAGE-BANDWIDTH=1789512,CODECS=\"avc1.64001f,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1280x720,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/140953_english_hls_b7b8bba21e59998_1ta-di_h264/720p.m3u8?hdntl=Expires=1773585854~_GO=Generated~acl=/mumbai/140953_english_hls_b7b8bba21e59998_1ta-di_h264/*~Signature=AR77L-ZSQ21oviUipd1Jgf2CDWkfXjWrScl6bBvYBv4MeukxB0YxV79b8OjknUZz4JdK0owG6zFDBEuQV5QTqoVA82AB\n#EXT-X-STREAM-INF:BANDWIDTH=3322120,AVERAGE-BANDWIDTH=3322120,CODECS=\"avc1.640028,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1920x1080,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/140953_english_hls_b7b8bba21e59998_1ta-di_h264/1080p.m3u8?hdntl=Expires=1773585854~_GO=Generated~acl=/mumbai/140953_english_hls_b7b8bba21e59998_1ta-di_h264/*~Signature=AR77L-ZSQ21oviUipd1Jgf2CDWkfXjWrScl6bBvYBv4MeukxB0YxV79b8OjknUZz4JdK0owG6zFDBEuQV5QTqoVA82AB",
-          "cookie": "hdntl=Expires=1773585854~_GO=Generated~acl=/mumbai/140953_english_hls_b7b8bba21e59998_1ta-di_h264/*~Signature=AR77L-ZSQ21oviUipd1Jgf2CDWkfXjWrScl6bBvYBv4MeukxB0YxV79b8OjknUZz4JdK0owG6zFDBEuQV5QTqoVA82AB",
-          "cookie_valid": "1773585854",
-          "expire_date": "Sunday, March 15, 2026, 8:14:14 PM",
           "language": "ENGLISH"
         }
       ]
@@ -434,6 +351,77 @@
           "cookie": "hdntl=Expires=1773585858~_GO=Generated~acl=/mumbai/131105_english_hls_e7be9609d824136_1ta-di_h264/*~Signature=AR77L-bG6YoFXDaQnvEK5KHFTBe-DgxhNiFjCPWosHVFVBxhMb9WlGXtFs2e0Wh8ietpyVRGl4zqbrCwl27ft9UT0hcF",
           "cookie_valid": "1773585858",
           "expire_date": "Sunday, March 15, 2026, 8:14:18 PM",
+          "language": "ENGLISH"
+        }
+      ]
+    },
+    {
+      "category": "Football",
+      "title": "Real Oviedo Vs Valencia Cf",
+      "tournament": "LALIGA 2025-26",
+      "match_id": 131108,
+      "status": "NOT_STARTED",
+      "streamingStatus": "STARTED",
+      "startTime": "14 March 2026 11:00 PM",
+      "startDate": "01 January 1970 05:30 AM",
+      "image": "https://www.fancode.com/skillup-uploads/cms-media/131108_5427_RO_VAL_FC-Web.png",
+      "image_cdn": {
+        "TATAPLAY": "https://images.fancode.com/aig/match/v1/131108_CASACARDS_PARTNER_16_9_1920_1080.png",
+        "APP": "https://www.fancode.com/skillup-uploads/cms-media/131108_5427_RO_VAL_FC-Web.png",
+        "PLAYBACK": "https://www.fancode.com/skillup-uploads/cms-media/131108_5427_RO_VAL_FC-Web.png",
+        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/LALIGA-2025-26-Tour.png",
+        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Football-old-copy.jpg",
+        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/131108_5427_RO_VAL_FC-Web.png",
+        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/131108_5427_RO_VAL_FC-App.png",
+        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/131108_CASACARDS_PARTNER_16_9_1920_1080.png"
+      },
+      "team": [
+        {
+          "name": "Real Oviedo",
+          "shortName": "RO",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-RO@2x.png"
+          },
+          "isWinner": null,
+          "color": "#A71C10",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        },
+        {
+          "name": "Valencia CF",
+          "shortName": "VAL",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-VAL@2x.png"
+          },
+          "isWinner": null,
+          "color": "#4F7DE5",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        }
+      ],
+      "language": "ENGLISH",
+      "auto_streams": [
+        {
+          "auto": "#EXTM3U\n#EXT-X-VERSION:3\n#EXT-X-STREAM-INF:BANDWIDTH=414232,AVERAGE-BANDWIDTH=414232,CODECS=\"avc1.42e015,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=426x240,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/131108_english_hls_ad236bef6a87088_1ta-di_h264/240p.m3u8?hdntl=Expires=1773594326~_GO=Generated~acl=/mumbai/131108_english_hls_ad236bef6a87088_1ta-di_h264/*~Signature=AR77L-YuV8JY7UUwJ5U8i9qiYTVXjnj80BN_nt8croJkvZCrbDS7i_ih1HLtRcuUrHF2my7MREKDpIkVwqop4-wNi-8F\n#EXT-X-STREAM-INF:BANDWIDTH=669672,AVERAGE-BANDWIDTH=669672,CODECS=\"avc1.42e01e,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=640x360,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/131108_english_hls_ad236bef6a87088_1ta-di_h264/360p.m3u8?hdntl=Expires=1773594326~_GO=Generated~acl=/mumbai/131108_english_hls_ad236bef6a87088_1ta-di_h264/*~Signature=AR77L-YuV8JY7UUwJ5U8i9qiYTVXjnj80BN_nt8croJkvZCrbDS7i_ih1HLtRcuUrHF2my7MREKDpIkVwqop4-wNi-8F\n#EXT-X-STREAM-INF:BANDWIDTH=990520,AVERAGE-BANDWIDTH=990520,CODECS=\"avc1.4d401e,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=854x480,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/131108_english_hls_ad236bef6a87088_1ta-di_h264/480p.m3u8?hdntl=Expires=1773594326~_GO=Generated~acl=/mumbai/131108_english_hls_ad236bef6a87088_1ta-di_h264/*~Signature=AR77L-YuV8JY7UUwJ5U8i9qiYTVXjnj80BN_nt8croJkvZCrbDS7i_ih1HLtRcuUrHF2my7MREKDpIkVwqop4-wNi-8F\n#EXT-X-STREAM-INF:BANDWIDTH=1245960,AVERAGE-BANDWIDTH=1245960,CODECS=\"avc1.4d401f,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=960x540,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/131108_english_hls_ad236bef6a87088_1ta-di_h264/540p.m3u8?hdntl=Expires=1773594326~_GO=Generated~acl=/mumbai/131108_english_hls_ad236bef6a87088_1ta-di_h264/*~Signature=AR77L-YuV8JY7UUwJ5U8i9qiYTVXjnj80BN_nt8croJkvZCrbDS7i_ih1HLtRcuUrHF2my7MREKDpIkVwqop4-wNi-8F\n#EXT-X-STREAM-INF:BANDWIDTH=1756808,AVERAGE-BANDWIDTH=1756808,CODECS=\"avc1.64001f,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1280x720,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/131108_english_hls_ad236bef6a87088_1ta-di_h264/720p.m3u8?hdntl=Expires=1773594326~_GO=Generated~acl=/mumbai/131108_english_hls_ad236bef6a87088_1ta-di_h264/*~Signature=AR77L-YuV8JY7UUwJ5U8i9qiYTVXjnj80BN_nt8croJkvZCrbDS7i_ih1HLtRcuUrHF2my7MREKDpIkVwqop4-wNi-8F\n#EXT-X-STREAM-INF:BANDWIDTH=3289416,AVERAGE-BANDWIDTH=3289416,CODECS=\"avc1.640028,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1920x1080,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/131108_english_hls_ad236bef6a87088_1ta-di_h264/1080p.m3u8?hdntl=Expires=1773594326~_GO=Generated~acl=/mumbai/131108_english_hls_ad236bef6a87088_1ta-di_h264/*~Signature=AR77L-YuV8JY7UUwJ5U8i9qiYTVXjnj80BN_nt8croJkvZCrbDS7i_ih1HLtRcuUrHF2my7MREKDpIkVwqop4-wNi-8F\n#EXT-X-STREAM-INF:BANDWIDTH=5376032,AVERAGE-BANDWIDTH=5376032,CODECS=\"avc1.64002a,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1920x1080,FRAME-RATE=50.000\nhttps://in-mc-flive.fancode.com/mumbai/131108_english_hls_ad236bef6a87088_1ta-di_h264/1080p5.m3u8?hdntl=Expires=1773594326~_GO=Generated~acl=/mumbai/131108_english_hls_ad236bef6a87088_1ta-di_h264/*~Signature=AR77L-YuV8JY7UUwJ5U8i9qiYTVXjnj80BN_nt8croJkvZCrbDS7i_ih1HLtRcuUrHF2my7MREKDpIkVwqop4-wNi-8F",
+          "cookie": "hdntl=Expires=1773594326~_GO=Generated~acl=/mumbai/131108_english_hls_ad236bef6a87088_1ta-di_h264/*~Signature=AR77L-YuV8JY7UUwJ5U8i9qiYTVXjnj80BN_nt8croJkvZCrbDS7i_ih1HLtRcuUrHF2my7MREKDpIkVwqop4-wNi-8F",
+          "cookie_valid": "1773594326",
+          "expire_date": "Sunday, March 15, 2026, 10:35:26 PM",
           "language": "ENGLISH"
         }
       ]
@@ -572,10 +560,10 @@
       "language": "ENGLISH",
       "auto_streams": [
         {
-          "auto": "#EXTM3U\n#EXT-X-VERSION:3\n#EXT-X-STREAM-INF:BANDWIDTH=446936,AVERAGE-BANDWIDTH=446936,CODECS=\"avc1.42e015,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=426x240,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/141146_english_hls_fe42beb32191570_1ta-di_h264/240p.m3u8?hdntl=Expires=1773578235~_GO=Generated~acl=/mumbai/141146_english_hls_fe42beb32191570_1ta-di_h264/*~Signature=AR77L-ZNyshmkLYRif7SIoe34Bb3-RRoMhJ7kNvUTUYXySoth5lPHdc3pVdXogerIcDO7s0agh1sLt4RPGeXIT_cSbcB\n#EXT-X-STREAM-INF:BANDWIDTH=702376,AVERAGE-BANDWIDTH=702376,CODECS=\"avc1.42e01e,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=640x360,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/141146_english_hls_fe42beb32191570_1ta-di_h264/360p.m3u8?hdntl=Expires=1773578235~_GO=Generated~acl=/mumbai/141146_english_hls_fe42beb32191570_1ta-di_h264/*~Signature=AR77L-ZNyshmkLYRif7SIoe34Bb3-RRoMhJ7kNvUTUYXySoth5lPHdc3pVdXogerIcDO7s0agh1sLt4RPGeXIT_cSbcB\n#EXT-X-STREAM-INF:BANDWIDTH=1023224,AVERAGE-BANDWIDTH=1023224,CODECS=\"avc1.4d401e,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=854x480,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/141146_english_hls_fe42beb32191570_1ta-di_h264/480p.m3u8?hdntl=Expires=1773578235~_GO=Generated~acl=/mumbai/141146_english_hls_fe42beb32191570_1ta-di_h264/*~Signature=AR77L-ZNyshmkLYRif7SIoe34Bb3-RRoMhJ7kNvUTUYXySoth5lPHdc3pVdXogerIcDO7s0agh1sLt4RPGeXIT_cSbcB\n#EXT-X-STREAM-INF:BANDWIDTH=1278664,AVERAGE-BANDWIDTH=1278664,CODECS=\"avc1.4d401f,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=960x540,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/141146_english_hls_fe42beb32191570_1ta-di_h264/540p.m3u8?hdntl=Expires=1773578235~_GO=Generated~acl=/mumbai/141146_english_hls_fe42beb32191570_1ta-di_h264/*~Signature=AR77L-ZNyshmkLYRif7SIoe34Bb3-RRoMhJ7kNvUTUYXySoth5lPHdc3pVdXogerIcDO7s0agh1sLt4RPGeXIT_cSbcB\n#EXT-X-STREAM-INF:BANDWIDTH=1789512,AVERAGE-BANDWIDTH=1789512,CODECS=\"avc1.64001f,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1280x720,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/141146_english_hls_fe42beb32191570_1ta-di_h264/720p.m3u8?hdntl=Expires=1773578235~_GO=Generated~acl=/mumbai/141146_english_hls_fe42beb32191570_1ta-di_h264/*~Signature=AR77L-ZNyshmkLYRif7SIoe34Bb3-RRoMhJ7kNvUTUYXySoth5lPHdc3pVdXogerIcDO7s0agh1sLt4RPGeXIT_cSbcB\n#EXT-X-STREAM-INF:BANDWIDTH=3322120,AVERAGE-BANDWIDTH=3322120,CODECS=\"avc1.640028,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1920x1080,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/141146_english_hls_fe42beb32191570_1ta-di_h264/1080p.m3u8?hdntl=Expires=1773578235~_GO=Generated~acl=/mumbai/141146_english_hls_fe42beb32191570_1ta-di_h264/*~Signature=AR77L-ZNyshmkLYRif7SIoe34Bb3-RRoMhJ7kNvUTUYXySoth5lPHdc3pVdXogerIcDO7s0agh1sLt4RPGeXIT_cSbcB",
-          "cookie": "hdntl=Expires=1773578235~_GO=Generated~acl=/mumbai/141146_english_hls_fe42beb32191570_1ta-di_h264/*~Signature=AR77L-ZNyshmkLYRif7SIoe34Bb3-RRoMhJ7kNvUTUYXySoth5lPHdc3pVdXogerIcDO7s0agh1sLt4RPGeXIT_cSbcB",
-          "cookie_valid": "1773578235",
-          "expire_date": "Sunday, March 15, 2026, 6:07:15 PM",
+          "auto": "#EXTM3U\n#EXT-X-VERSION:3\n#EXT-X-STREAM-INF:BANDWIDTH=446936,AVERAGE-BANDWIDTH=446936,CODECS=\"avc1.42e015,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=426x240,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/141146_english_hls_fe42beb32191570_1ta-di_h264/240p.m3u8?hdntl=Expires=1773593068~_GO=Generated~acl=/mumbai/141146_english_hls_fe42beb32191570_1ta-di_h264/*~Signature=AR77L-ZlLzi_w8zbYnhiI7j16l256yMLx7CYKRqXvK_t3MLFLIQIasSJKLjfEke6LNvij0fV79ojNWvT7zEJOPt_slMO\n#EXT-X-STREAM-INF:BANDWIDTH=702376,AVERAGE-BANDWIDTH=702376,CODECS=\"avc1.42e01e,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=640x360,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/141146_english_hls_fe42beb32191570_1ta-di_h264/360p.m3u8?hdntl=Expires=1773593068~_GO=Generated~acl=/mumbai/141146_english_hls_fe42beb32191570_1ta-di_h264/*~Signature=AR77L-ZlLzi_w8zbYnhiI7j16l256yMLx7CYKRqXvK_t3MLFLIQIasSJKLjfEke6LNvij0fV79ojNWvT7zEJOPt_slMO\n#EXT-X-STREAM-INF:BANDWIDTH=1023224,AVERAGE-BANDWIDTH=1023224,CODECS=\"avc1.4d401e,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=854x480,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/141146_english_hls_fe42beb32191570_1ta-di_h264/480p.m3u8?hdntl=Expires=1773593068~_GO=Generated~acl=/mumbai/141146_english_hls_fe42beb32191570_1ta-di_h264/*~Signature=AR77L-ZlLzi_w8zbYnhiI7j16l256yMLx7CYKRqXvK_t3MLFLIQIasSJKLjfEke6LNvij0fV79ojNWvT7zEJOPt_slMO\n#EXT-X-STREAM-INF:BANDWIDTH=1278664,AVERAGE-BANDWIDTH=1278664,CODECS=\"avc1.4d401f,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=960x540,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/141146_english_hls_fe42beb32191570_1ta-di_h264/540p.m3u8?hdntl=Expires=1773593068~_GO=Generated~acl=/mumbai/141146_english_hls_fe42beb32191570_1ta-di_h264/*~Signature=AR77L-ZlLzi_w8zbYnhiI7j16l256yMLx7CYKRqXvK_t3MLFLIQIasSJKLjfEke6LNvij0fV79ojNWvT7zEJOPt_slMO\n#EXT-X-STREAM-INF:BANDWIDTH=1789512,AVERAGE-BANDWIDTH=1789512,CODECS=\"avc1.64001f,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1280x720,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/141146_english_hls_fe42beb32191570_1ta-di_h264/720p.m3u8?hdntl=Expires=1773593068~_GO=Generated~acl=/mumbai/141146_english_hls_fe42beb32191570_1ta-di_h264/*~Signature=AR77L-ZlLzi_w8zbYnhiI7j16l256yMLx7CYKRqXvK_t3MLFLIQIasSJKLjfEke6LNvij0fV79ojNWvT7zEJOPt_slMO\n#EXT-X-STREAM-INF:BANDWIDTH=3322120,AVERAGE-BANDWIDTH=3322120,CODECS=\"avc1.640028,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1920x1080,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/141146_english_hls_fe42beb32191570_1ta-di_h264/1080p.m3u8?hdntl=Expires=1773593068~_GO=Generated~acl=/mumbai/141146_english_hls_fe42beb32191570_1ta-di_h264/*~Signature=AR77L-ZlLzi_w8zbYnhiI7j16l256yMLx7CYKRqXvK_t3MLFLIQIasSJKLjfEke6LNvij0fV79ojNWvT7zEJOPt_slMO",
+          "cookie": "hdntl=Expires=1773593068~_GO=Generated~acl=/mumbai/141146_english_hls_fe42beb32191570_1ta-di_h264/*~Signature=AR77L-ZlLzi_w8zbYnhiI7j16l256yMLx7CYKRqXvK_t3MLFLIQIasSJKLjfEke6LNvij0fV79ojNWvT7zEJOPt_slMO",
+          "cookie_valid": "1773593068",
+          "expire_date": "Sunday, March 15, 2026, 10:14:28 PM",
           "language": "ENGLISH"
         }
       ]
@@ -643,396 +631,11 @@
       "language": "ENGLISH",
       "auto_streams": [
         {
-          "auto": "#EXTM3U\n#EXT-X-VERSION:3\n#EXT-X-STREAM-INF:BANDWIDTH=446936,AVERAGE-BANDWIDTH=446936,CODECS=\"avc1.42e015,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=426x240,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/141145_english_hls_d0737003e543039_1ta-di_h264/240p.m3u8?hdntl=Expires=1773579907~_GO=Generated~acl=/mumbai/141145_english_hls_d0737003e543039_1ta-di_h264/*~Signature=AR77L-Zq-SkzWjGebSbNy_MMrrwm9YRmtk62SEYmRzxHjeeL6czdlNjunUX0Mre0FUSHWjMSnN5ncIe15YDDCIHk_tgO\n#EXT-X-STREAM-INF:BANDWIDTH=702376,AVERAGE-BANDWIDTH=702376,CODECS=\"avc1.42e01e,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=640x360,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/141145_english_hls_d0737003e543039_1ta-di_h264/360p.m3u8?hdntl=Expires=1773579907~_GO=Generated~acl=/mumbai/141145_english_hls_d0737003e543039_1ta-di_h264/*~Signature=AR77L-Zq-SkzWjGebSbNy_MMrrwm9YRmtk62SEYmRzxHjeeL6czdlNjunUX0Mre0FUSHWjMSnN5ncIe15YDDCIHk_tgO\n#EXT-X-STREAM-INF:BANDWIDTH=1023224,AVERAGE-BANDWIDTH=1023224,CODECS=\"avc1.4d401e,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=854x480,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/141145_english_hls_d0737003e543039_1ta-di_h264/480p.m3u8?hdntl=Expires=1773579907~_GO=Generated~acl=/mumbai/141145_english_hls_d0737003e543039_1ta-di_h264/*~Signature=AR77L-Zq-SkzWjGebSbNy_MMrrwm9YRmtk62SEYmRzxHjeeL6czdlNjunUX0Mre0FUSHWjMSnN5ncIe15YDDCIHk_tgO\n#EXT-X-STREAM-INF:BANDWIDTH=1278664,AVERAGE-BANDWIDTH=1278664,CODECS=\"avc1.4d401f,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=960x540,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/141145_english_hls_d0737003e543039_1ta-di_h264/540p.m3u8?hdntl=Expires=1773579907~_GO=Generated~acl=/mumbai/141145_english_hls_d0737003e543039_1ta-di_h264/*~Signature=AR77L-Zq-SkzWjGebSbNy_MMrrwm9YRmtk62SEYmRzxHjeeL6czdlNjunUX0Mre0FUSHWjMSnN5ncIe15YDDCIHk_tgO\n#EXT-X-STREAM-INF:BANDWIDTH=1789512,AVERAGE-BANDWIDTH=1789512,CODECS=\"avc1.64001f,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1280x720,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/141145_english_hls_d0737003e543039_1ta-di_h264/720p.m3u8?hdntl=Expires=1773579907~_GO=Generated~acl=/mumbai/141145_english_hls_d0737003e543039_1ta-di_h264/*~Signature=AR77L-Zq-SkzWjGebSbNy_MMrrwm9YRmtk62SEYmRzxHjeeL6czdlNjunUX0Mre0FUSHWjMSnN5ncIe15YDDCIHk_tgO\n#EXT-X-STREAM-INF:BANDWIDTH=3322120,AVERAGE-BANDWIDTH=3322120,CODECS=\"avc1.640028,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1920x1080,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/141145_english_hls_d0737003e543039_1ta-di_h264/1080p.m3u8?hdntl=Expires=1773579907~_GO=Generated~acl=/mumbai/141145_english_hls_d0737003e543039_1ta-di_h264/*~Signature=AR77L-Zq-SkzWjGebSbNy_MMrrwm9YRmtk62SEYmRzxHjeeL6czdlNjunUX0Mre0FUSHWjMSnN5ncIe15YDDCIHk_tgO",
-          "cookie": "hdntl=Expires=1773579907~_GO=Generated~acl=/mumbai/141145_english_hls_d0737003e543039_1ta-di_h264/*~Signature=AR77L-Zq-SkzWjGebSbNy_MMrrwm9YRmtk62SEYmRzxHjeeL6czdlNjunUX0Mre0FUSHWjMSnN5ncIe15YDDCIHk_tgO",
-          "cookie_valid": "1773579907",
-          "expire_date": "Sunday, March 15, 2026, 6:35:07 PM",
+          "auto": "#EXTM3U\n#EXT-X-VERSION:3\n#EXT-X-STREAM-INF:BANDWIDTH=446936,AVERAGE-BANDWIDTH=446936,CODECS=\"avc1.42e015,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=426x240,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/141145_english_hls_d0737003e543039_1ta-di_h264/240p.m3u8?hdntl=Expires=1773594732~_GO=Generated~acl=/mumbai/141145_english_hls_d0737003e543039_1ta-di_h264/*~Signature=AR77L-Y1HDQN4JMGsJCOfH1Aj30lYnTaEDHdE05TqxaBEiLajjjH_QF-_2wffT2fz84GC3InED4FGR7YfnmfxKO_gvcI\n#EXT-X-STREAM-INF:BANDWIDTH=702376,AVERAGE-BANDWIDTH=702376,CODECS=\"avc1.42e01e,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=640x360,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/141145_english_hls_d0737003e543039_1ta-di_h264/360p.m3u8?hdntl=Expires=1773594732~_GO=Generated~acl=/mumbai/141145_english_hls_d0737003e543039_1ta-di_h264/*~Signature=AR77L-Y1HDQN4JMGsJCOfH1Aj30lYnTaEDHdE05TqxaBEiLajjjH_QF-_2wffT2fz84GC3InED4FGR7YfnmfxKO_gvcI\n#EXT-X-STREAM-INF:BANDWIDTH=1023224,AVERAGE-BANDWIDTH=1023224,CODECS=\"avc1.4d401e,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=854x480,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/141145_english_hls_d0737003e543039_1ta-di_h264/480p.m3u8?hdntl=Expires=1773594732~_GO=Generated~acl=/mumbai/141145_english_hls_d0737003e543039_1ta-di_h264/*~Signature=AR77L-Y1HDQN4JMGsJCOfH1Aj30lYnTaEDHdE05TqxaBEiLajjjH_QF-_2wffT2fz84GC3InED4FGR7YfnmfxKO_gvcI\n#EXT-X-STREAM-INF:BANDWIDTH=1278664,AVERAGE-BANDWIDTH=1278664,CODECS=\"avc1.4d401f,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=960x540,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/141145_english_hls_d0737003e543039_1ta-di_h264/540p.m3u8?hdntl=Expires=1773594732~_GO=Generated~acl=/mumbai/141145_english_hls_d0737003e543039_1ta-di_h264/*~Signature=AR77L-Y1HDQN4JMGsJCOfH1Aj30lYnTaEDHdE05TqxaBEiLajjjH_QF-_2wffT2fz84GC3InED4FGR7YfnmfxKO_gvcI\n#EXT-X-STREAM-INF:BANDWIDTH=1789512,AVERAGE-BANDWIDTH=1789512,CODECS=\"avc1.64001f,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1280x720,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/141145_english_hls_d0737003e543039_1ta-di_h264/720p.m3u8?hdntl=Expires=1773594732~_GO=Generated~acl=/mumbai/141145_english_hls_d0737003e543039_1ta-di_h264/*~Signature=AR77L-Y1HDQN4JMGsJCOfH1Aj30lYnTaEDHdE05TqxaBEiLajjjH_QF-_2wffT2fz84GC3InED4FGR7YfnmfxKO_gvcI\n#EXT-X-STREAM-INF:BANDWIDTH=3322120,AVERAGE-BANDWIDTH=3322120,CODECS=\"avc1.640028,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1920x1080,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/141145_english_hls_d0737003e543039_1ta-di_h264/1080p.m3u8?hdntl=Expires=1773594732~_GO=Generated~acl=/mumbai/141145_english_hls_d0737003e543039_1ta-di_h264/*~Signature=AR77L-Y1HDQN4JMGsJCOfH1Aj30lYnTaEDHdE05TqxaBEiLajjjH_QF-_2wffT2fz84GC3InED4FGR7YfnmfxKO_gvcI",
+          "cookie": "hdntl=Expires=1773594732~_GO=Generated~acl=/mumbai/141145_english_hls_d0737003e543039_1ta-di_h264/*~Signature=AR77L-Y1HDQN4JMGsJCOfH1Aj30lYnTaEDHdE05TqxaBEiLajjjH_QF-_2wffT2fz84GC3InED4FGR7YfnmfxKO_gvcI",
+          "cookie_valid": "1773594732",
+          "expire_date": "Sunday, March 15, 2026, 10:42:12 PM",
           "language": "ENGLISH"
-        }
-      ]
-    },
-    {
-      "category": "Football",
-      "title": "Bengaluru Fc Vs Mohun Bagan Super Giant",
-      "tournament": "ISL 2025-26",
-      "match_id": 140462,
-      "status": "COMPLETED",
-      "streamingStatus": "STARTED",
-      "startTime": "14 March 2026 07:30 PM",
-      "startDate": "01 January 1970 05:30 AM",
-      "image": "https://www.fancode.com/skillup-uploads/cms-media/140462_5956_BFC_MBSG_FC-Web_1772451336878.jpg",
-      "image_cdn": {
-        "TATAPLAY": "https://images.fancode.com/aig/match/v1/140462_CASACARDS_PARTNER_16_9_1920_1080.png",
-        "APP": "https://www.fancode.com/skillup-uploads/cms-media/140462_5956_BFC_MBSG_FC-Web_1772451336878.jpg",
-        "PLAYBACK": "https://www.fancode.com/skillup-uploads/cms-media/140462_5956_BFC_MBSG_FC-Web_1772451336878.jpg",
-        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/ISL-Tour-Logo.png",
-        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Football-old-copy.jpg",
-        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/140462_5956_BFC_MBSG_FC-Web_1772451336878.jpg",
-        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/140462_5956_BFC_MBSG_FC-App_1772451324741.jpg",
-        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/140462_CASACARDS_PARTNER_16_9_1920_1080.png"
-      },
-      "team": [
-        {
-          "name": "Bengaluru FC",
-          "shortName": "BFC",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-BEG@2x.png"
-          },
-          "isWinner": null,
-          "color": "#11318E",
-          "cricketScore": null,
-          "kabaddiScore": null,
-          "footballScore": {
-            "points": 0,
-            "goals": []
-          },
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        },
-        {
-          "name": "Mohun Bagan Super Giant",
-          "shortName": "MBSG",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-MOHB@2x.png"
-          },
-          "isWinner": null,
-          "color": "#187e52",
-          "cricketScore": null,
-          "kabaddiScore": null,
-          "footballScore": {
-            "points": 0,
-            "goals": []
-          },
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        }
-      ],
-      "language": "ENGLISH",
-      "auto_streams": [
-        {
-          "auto": "#EXTM3U\n#EXT-X-VERSION:3\n#EXT-X-STREAM-INF:BANDWIDTH=414232,AVERAGE-BANDWIDTH=414232,CODECS=\"avc1.42e015,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=426x240,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/140462_english_hls_03ef477ba010168_1ta-di_h264/240p.m3u8?hdntl=Expires=1773582251~_GO=Generated~acl=/mumbai/140462_english_hls_03ef477ba010168_1ta-di_h264/*~Signature=AR77L-Z5UoTTG1reigp1fr5GxayMadUO3JIX1ipipXT7X02Qu9Tpl14jjY-EXPCf6d6eTXuKzs6kKrlm073KOssHjK4C\n#EXT-X-STREAM-INF:BANDWIDTH=669672,AVERAGE-BANDWIDTH=669672,CODECS=\"avc1.42e01e,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=640x360,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/140462_english_hls_03ef477ba010168_1ta-di_h264/360p.m3u8?hdntl=Expires=1773582251~_GO=Generated~acl=/mumbai/140462_english_hls_03ef477ba010168_1ta-di_h264/*~Signature=AR77L-Z5UoTTG1reigp1fr5GxayMadUO3JIX1ipipXT7X02Qu9Tpl14jjY-EXPCf6d6eTXuKzs6kKrlm073KOssHjK4C\n#EXT-X-STREAM-INF:BANDWIDTH=990520,AVERAGE-BANDWIDTH=990520,CODECS=\"avc1.4d401e,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=854x480,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/140462_english_hls_03ef477ba010168_1ta-di_h264/480p.m3u8?hdntl=Expires=1773582251~_GO=Generated~acl=/mumbai/140462_english_hls_03ef477ba010168_1ta-di_h264/*~Signature=AR77L-Z5UoTTG1reigp1fr5GxayMadUO3JIX1ipipXT7X02Qu9Tpl14jjY-EXPCf6d6eTXuKzs6kKrlm073KOssHjK4C\n#EXT-X-STREAM-INF:BANDWIDTH=1245960,AVERAGE-BANDWIDTH=1245960,CODECS=\"avc1.4d401f,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=960x540,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/140462_english_hls_03ef477ba010168_1ta-di_h264/540p.m3u8?hdntl=Expires=1773582251~_GO=Generated~acl=/mumbai/140462_english_hls_03ef477ba010168_1ta-di_h264/*~Signature=AR77L-Z5UoTTG1reigp1fr5GxayMadUO3JIX1ipipXT7X02Qu9Tpl14jjY-EXPCf6d6eTXuKzs6kKrlm073KOssHjK4C\n#EXT-X-STREAM-INF:BANDWIDTH=1756808,AVERAGE-BANDWIDTH=1756808,CODECS=\"avc1.64001f,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1280x720,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/140462_english_hls_03ef477ba010168_1ta-di_h264/720p.m3u8?hdntl=Expires=1773582251~_GO=Generated~acl=/mumbai/140462_english_hls_03ef477ba010168_1ta-di_h264/*~Signature=AR77L-Z5UoTTG1reigp1fr5GxayMadUO3JIX1ipipXT7X02Qu9Tpl14jjY-EXPCf6d6eTXuKzs6kKrlm073KOssHjK4C\n#EXT-X-STREAM-INF:BANDWIDTH=3289416,AVERAGE-BANDWIDTH=3289416,CODECS=\"avc1.640028,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1920x1080,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/140462_english_hls_03ef477ba010168_1ta-di_h264/1080p.m3u8?hdntl=Expires=1773582251~_GO=Generated~acl=/mumbai/140462_english_hls_03ef477ba010168_1ta-di_h264/*~Signature=AR77L-Z5UoTTG1reigp1fr5GxayMadUO3JIX1ipipXT7X02Qu9Tpl14jjY-EXPCf6d6eTXuKzs6kKrlm073KOssHjK4C\n#EXT-X-STREAM-INF:BANDWIDTH=5376032,AVERAGE-BANDWIDTH=5376032,CODECS=\"avc1.64002a,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1920x1080,FRAME-RATE=50.000\nhttps://in-mc-flive.fancode.com/mumbai/140462_english_hls_03ef477ba010168_1ta-di_h264/1080p5.m3u8?hdntl=Expires=1773582251~_GO=Generated~acl=/mumbai/140462_english_hls_03ef477ba010168_1ta-di_h264/*~Signature=AR77L-Z5UoTTG1reigp1fr5GxayMadUO3JIX1ipipXT7X02Qu9Tpl14jjY-EXPCf6d6eTXuKzs6kKrlm073KOssHjK4C",
-          "cookie": "hdntl=Expires=1773582251~_GO=Generated~acl=/mumbai/140462_english_hls_03ef477ba010168_1ta-di_h264/*~Signature=AR77L-Z5UoTTG1reigp1fr5GxayMadUO3JIX1ipipXT7X02Qu9Tpl14jjY-EXPCf6d6eTXuKzs6kKrlm073KOssHjK4C",
-          "cookie_valid": "1773582251",
-          "expire_date": "Sunday, March 15, 2026, 7:14:11 PM",
-          "language": "ENGLISH"
-        }
-      ]
-    },
-    {
-      "category": "Football",
-      "title": "Bengaluru Fc Vs Mohun Bagan Super Giant",
-      "tournament": "ISL 2025-26",
-      "match_id": 140462,
-      "status": "COMPLETED",
-      "streamingStatus": "STARTED",
-      "startTime": "14 March 2026 07:30 PM",
-      "startDate": "01 January 1970 05:30 AM",
-      "image": "https://www.fancode.com/skillup-uploads/cms-media/140462_5956_BFC_MBSG_FC-Web_1772451336878.jpg",
-      "image_cdn": {
-        "TATAPLAY": "https://images.fancode.com/aig/match/v1/140462_CASACARDS_PARTNER_16_9_1920_1080.png",
-        "APP": "https://www.fancode.com/skillup-uploads/cms-media/140462_5956_BFC_MBSG_FC-Web_1772451336878.jpg",
-        "PLAYBACK": "https://www.fancode.com/skillup-uploads/cms-media/140462_5956_BFC_MBSG_FC-Web_1772451336878.jpg",
-        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/ISL-Tour-Logo.png",
-        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Football-old-copy.jpg",
-        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/140462_5956_BFC_MBSG_FC-Web_1772451336878.jpg",
-        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/140462_5956_BFC_MBSG_FC-App_1772451324741.jpg",
-        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/140462_CASACARDS_PARTNER_16_9_1920_1080.png"
-      },
-      "team": [
-        {
-          "name": "Bengaluru FC",
-          "shortName": "BFC",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-BEG@2x.png"
-          },
-          "isWinner": null,
-          "color": "#11318E",
-          "cricketScore": null,
-          "kabaddiScore": null,
-          "footballScore": {
-            "points": 0,
-            "goals": []
-          },
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        },
-        {
-          "name": "Mohun Bagan Super Giant",
-          "shortName": "MBSG",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-MOHB@2x.png"
-          },
-          "isWinner": null,
-          "color": "#187e52",
-          "cricketScore": null,
-          "kabaddiScore": null,
-          "footballScore": {
-            "points": 0,
-            "goals": []
-          },
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        }
-      ],
-      "language": "HINDI",
-      "auto_streams": [
-        {
-          "auto": "#EXTM3U\n#EXT-X-VERSION:3\n#EXT-X-STREAM-INF:BANDWIDTH=414232,AVERAGE-BANDWIDTH=414232,CODECS=\"avc1.42e015,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=426x240,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/140462_hindi_hls_00be3c1a5c89776_1ta-di_h264/240p.m3u8?hdntl=Expires=1773582252~_GO=Generated~acl=/mumbai/140462_hindi_hls_00be3c1a5c89776_1ta-di_h264/*~Signature=AR77L-YhGu_n_29tnQZWWIUC3KG9EvDkHGN0UWoRGYEThbnH2370q7bDACq4EzqoYsaDFacYmEal1Sz6n4ARWr79d3oE\n#EXT-X-STREAM-INF:BANDWIDTH=669672,AVERAGE-BANDWIDTH=669672,CODECS=\"avc1.42e01e,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=640x360,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/140462_hindi_hls_00be3c1a5c89776_1ta-di_h264/360p.m3u8?hdntl=Expires=1773582252~_GO=Generated~acl=/mumbai/140462_hindi_hls_00be3c1a5c89776_1ta-di_h264/*~Signature=AR77L-YhGu_n_29tnQZWWIUC3KG9EvDkHGN0UWoRGYEThbnH2370q7bDACq4EzqoYsaDFacYmEal1Sz6n4ARWr79d3oE\n#EXT-X-STREAM-INF:BANDWIDTH=990520,AVERAGE-BANDWIDTH=990520,CODECS=\"avc1.4d401e,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=854x480,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/140462_hindi_hls_00be3c1a5c89776_1ta-di_h264/480p.m3u8?hdntl=Expires=1773582252~_GO=Generated~acl=/mumbai/140462_hindi_hls_00be3c1a5c89776_1ta-di_h264/*~Signature=AR77L-YhGu_n_29tnQZWWIUC3KG9EvDkHGN0UWoRGYEThbnH2370q7bDACq4EzqoYsaDFacYmEal1Sz6n4ARWr79d3oE\n#EXT-X-STREAM-INF:BANDWIDTH=1245960,AVERAGE-BANDWIDTH=1245960,CODECS=\"avc1.4d401f,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=960x540,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/140462_hindi_hls_00be3c1a5c89776_1ta-di_h264/540p.m3u8?hdntl=Expires=1773582252~_GO=Generated~acl=/mumbai/140462_hindi_hls_00be3c1a5c89776_1ta-di_h264/*~Signature=AR77L-YhGu_n_29tnQZWWIUC3KG9EvDkHGN0UWoRGYEThbnH2370q7bDACq4EzqoYsaDFacYmEal1Sz6n4ARWr79d3oE\n#EXT-X-STREAM-INF:BANDWIDTH=1756808,AVERAGE-BANDWIDTH=1756808,CODECS=\"avc1.64001f,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1280x720,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/140462_hindi_hls_00be3c1a5c89776_1ta-di_h264/720p.m3u8?hdntl=Expires=1773582252~_GO=Generated~acl=/mumbai/140462_hindi_hls_00be3c1a5c89776_1ta-di_h264/*~Signature=AR77L-YhGu_n_29tnQZWWIUC3KG9EvDkHGN0UWoRGYEThbnH2370q7bDACq4EzqoYsaDFacYmEal1Sz6n4ARWr79d3oE\n#EXT-X-STREAM-INF:BANDWIDTH=3289416,AVERAGE-BANDWIDTH=3289416,CODECS=\"avc1.640028,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1920x1080,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/140462_hindi_hls_00be3c1a5c89776_1ta-di_h264/1080p.m3u8?hdntl=Expires=1773582252~_GO=Generated~acl=/mumbai/140462_hindi_hls_00be3c1a5c89776_1ta-di_h264/*~Signature=AR77L-YhGu_n_29tnQZWWIUC3KG9EvDkHGN0UWoRGYEThbnH2370q7bDACq4EzqoYsaDFacYmEal1Sz6n4ARWr79d3oE\n#EXT-X-STREAM-INF:BANDWIDTH=5376032,AVERAGE-BANDWIDTH=5376032,CODECS=\"avc1.64002a,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1920x1080,FRAME-RATE=50.000\nhttps://in-mc-flive.fancode.com/mumbai/140462_hindi_hls_00be3c1a5c89776_1ta-di_h264/1080p5.m3u8?hdntl=Expires=1773582252~_GO=Generated~acl=/mumbai/140462_hindi_hls_00be3c1a5c89776_1ta-di_h264/*~Signature=AR77L-YhGu_n_29tnQZWWIUC3KG9EvDkHGN0UWoRGYEThbnH2370q7bDACq4EzqoYsaDFacYmEal1Sz6n4ARWr79d3oE",
-          "cookie": "hdntl=Expires=1773582252~_GO=Generated~acl=/mumbai/140462_hindi_hls_00be3c1a5c89776_1ta-di_h264/*~Signature=AR77L-YhGu_n_29tnQZWWIUC3KG9EvDkHGN0UWoRGYEThbnH2370q7bDACq4EzqoYsaDFacYmEal1Sz6n4ARWr79d3oE",
-          "cookie_valid": "1773582252",
-          "expire_date": "Sunday, March 15, 2026, 7:14:12 PM",
-          "language": "HINDI"
-        }
-      ]
-    },
-    {
-      "category": "Football",
-      "title": "Bengaluru Fc Vs Mohun Bagan Super Giant",
-      "tournament": "ISL 2025-26",
-      "match_id": 140462,
-      "status": "COMPLETED",
-      "streamingStatus": "STARTED",
-      "startTime": "14 March 2026 07:30 PM",
-      "startDate": "01 January 1970 05:30 AM",
-      "image": "https://www.fancode.com/skillup-uploads/cms-media/140462_5956_BFC_MBSG_FC-Web_1772451336878.jpg",
-      "image_cdn": {
-        "TATAPLAY": "https://images.fancode.com/aig/match/v1/140462_CASACARDS_PARTNER_16_9_1920_1080.png",
-        "APP": "https://www.fancode.com/skillup-uploads/cms-media/140462_5956_BFC_MBSG_FC-Web_1772451336878.jpg",
-        "PLAYBACK": "https://www.fancode.com/skillup-uploads/cms-media/140462_5956_BFC_MBSG_FC-Web_1772451336878.jpg",
-        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/ISL-Tour-Logo.png",
-        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Football-old-copy.jpg",
-        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/140462_5956_BFC_MBSG_FC-Web_1772451336878.jpg",
-        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/140462_5956_BFC_MBSG_FC-App_1772451324741.jpg",
-        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/140462_CASACARDS_PARTNER_16_9_1920_1080.png"
-      },
-      "team": [
-        {
-          "name": "Bengaluru FC",
-          "shortName": "BFC",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-BEG@2x.png"
-          },
-          "isWinner": null,
-          "color": "#11318E",
-          "cricketScore": null,
-          "kabaddiScore": null,
-          "footballScore": {
-            "points": 0,
-            "goals": []
-          },
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        },
-        {
-          "name": "Mohun Bagan Super Giant",
-          "shortName": "MBSG",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-MOHB@2x.png"
-          },
-          "isWinner": null,
-          "color": "#187e52",
-          "cricketScore": null,
-          "kabaddiScore": null,
-          "footballScore": {
-            "points": 0,
-            "goals": []
-          },
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        }
-      ],
-      "language": "MALAYALAM",
-      "auto_streams": [
-        {
-          "auto": "#EXTM3U\n#EXT-X-VERSION:3\n#EXT-X-STREAM-INF:BANDWIDTH=414232,AVERAGE-BANDWIDTH=414232,CODECS=\"avc1.42e015,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=426x240,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/140462_malayalam_hls_152d35f80142799_1ta-di_h264/240p.m3u8?hdntl=Expires=1773582252~_GO=Generated~acl=/mumbai/140462_malayalam_hls_152d35f80142799_1ta-di_h264/*~Signature=AR77L-bptxWgCcIcPePz1ipcZlAHuNBVN2LVLiGj1IizALDXkPtGfLJ7jDlBjcAeTIQms3OQEkpFScBjAkytYXwE7doN\n#EXT-X-STREAM-INF:BANDWIDTH=669672,AVERAGE-BANDWIDTH=669672,CODECS=\"avc1.42e01e,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=640x360,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/140462_malayalam_hls_152d35f80142799_1ta-di_h264/360p.m3u8?hdntl=Expires=1773582252~_GO=Generated~acl=/mumbai/140462_malayalam_hls_152d35f80142799_1ta-di_h264/*~Signature=AR77L-bptxWgCcIcPePz1ipcZlAHuNBVN2LVLiGj1IizALDXkPtGfLJ7jDlBjcAeTIQms3OQEkpFScBjAkytYXwE7doN\n#EXT-X-STREAM-INF:BANDWIDTH=990520,AVERAGE-BANDWIDTH=990520,CODECS=\"avc1.4d401e,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=854x480,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/140462_malayalam_hls_152d35f80142799_1ta-di_h264/480p.m3u8?hdntl=Expires=1773582252~_GO=Generated~acl=/mumbai/140462_malayalam_hls_152d35f80142799_1ta-di_h264/*~Signature=AR77L-bptxWgCcIcPePz1ipcZlAHuNBVN2LVLiGj1IizALDXkPtGfLJ7jDlBjcAeTIQms3OQEkpFScBjAkytYXwE7doN\n#EXT-X-STREAM-INF:BANDWIDTH=1245960,AVERAGE-BANDWIDTH=1245960,CODECS=\"avc1.4d401f,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=960x540,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/140462_malayalam_hls_152d35f80142799_1ta-di_h264/540p.m3u8?hdntl=Expires=1773582252~_GO=Generated~acl=/mumbai/140462_malayalam_hls_152d35f80142799_1ta-di_h264/*~Signature=AR77L-bptxWgCcIcPePz1ipcZlAHuNBVN2LVLiGj1IizALDXkPtGfLJ7jDlBjcAeTIQms3OQEkpFScBjAkytYXwE7doN\n#EXT-X-STREAM-INF:BANDWIDTH=1756808,AVERAGE-BANDWIDTH=1756808,CODECS=\"avc1.64001f,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1280x720,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/140462_malayalam_hls_152d35f80142799_1ta-di_h264/720p.m3u8?hdntl=Expires=1773582252~_GO=Generated~acl=/mumbai/140462_malayalam_hls_152d35f80142799_1ta-di_h264/*~Signature=AR77L-bptxWgCcIcPePz1ipcZlAHuNBVN2LVLiGj1IizALDXkPtGfLJ7jDlBjcAeTIQms3OQEkpFScBjAkytYXwE7doN\n#EXT-X-STREAM-INF:BANDWIDTH=3289416,AVERAGE-BANDWIDTH=3289416,CODECS=\"avc1.640028,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1920x1080,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/140462_malayalam_hls_152d35f80142799_1ta-di_h264/1080p.m3u8?hdntl=Expires=1773582252~_GO=Generated~acl=/mumbai/140462_malayalam_hls_152d35f80142799_1ta-di_h264/*~Signature=AR77L-bptxWgCcIcPePz1ipcZlAHuNBVN2LVLiGj1IizALDXkPtGfLJ7jDlBjcAeTIQms3OQEkpFScBjAkytYXwE7doN\n#EXT-X-STREAM-INF:BANDWIDTH=5376032,AVERAGE-BANDWIDTH=5376032,CODECS=\"avc1.64002a,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1920x1080,FRAME-RATE=50.000\nhttps://in-mc-flive.fancode.com/mumbai/140462_malayalam_hls_152d35f80142799_1ta-di_h264/1080p5.m3u8?hdntl=Expires=1773582252~_GO=Generated~acl=/mumbai/140462_malayalam_hls_152d35f80142799_1ta-di_h264/*~Signature=AR77L-bptxWgCcIcPePz1ipcZlAHuNBVN2LVLiGj1IizALDXkPtGfLJ7jDlBjcAeTIQms3OQEkpFScBjAkytYXwE7doN",
-          "cookie": "hdntl=Expires=1773582252~_GO=Generated~acl=/mumbai/140462_malayalam_hls_152d35f80142799_1ta-di_h264/*~Signature=AR77L-bptxWgCcIcPePz1ipcZlAHuNBVN2LVLiGj1IizALDXkPtGfLJ7jDlBjcAeTIQms3OQEkpFScBjAkytYXwE7doN",
-          "cookie_valid": "1773582252",
-          "expire_date": "Sunday, March 15, 2026, 7:14:12 PM",
-          "language": "MALAYALAM"
-        }
-      ]
-    },
-    {
-      "category": "Football",
-      "title": "Bengaluru Fc Vs Mohun Bagan Super Giant",
-      "tournament": "ISL 2025-26",
-      "match_id": 140462,
-      "status": "COMPLETED",
-      "streamingStatus": "STARTED",
-      "startTime": "14 March 2026 07:30 PM",
-      "startDate": "01 January 1970 05:30 AM",
-      "image": "https://www.fancode.com/skillup-uploads/cms-media/140462_5956_BFC_MBSG_FC-Web_1772451336878.jpg",
-      "image_cdn": {
-        "TATAPLAY": "https://images.fancode.com/aig/match/v1/140462_CASACARDS_PARTNER_16_9_1920_1080.png",
-        "APP": "https://www.fancode.com/skillup-uploads/cms-media/140462_5956_BFC_MBSG_FC-Web_1772451336878.jpg",
-        "PLAYBACK": "https://www.fancode.com/skillup-uploads/cms-media/140462_5956_BFC_MBSG_FC-Web_1772451336878.jpg",
-        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/ISL-Tour-Logo.png",
-        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Football-old-copy.jpg",
-        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/140462_5956_BFC_MBSG_FC-Web_1772451336878.jpg",
-        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/140462_5956_BFC_MBSG_FC-App_1772451324741.jpg",
-        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/140462_CASACARDS_PARTNER_16_9_1920_1080.png"
-      },
-      "team": [
-        {
-          "name": "Bengaluru FC",
-          "shortName": "BFC",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-BEG@2x.png"
-          },
-          "isWinner": null,
-          "color": "#11318E",
-          "cricketScore": null,
-          "kabaddiScore": null,
-          "footballScore": {
-            "points": 0,
-            "goals": []
-          },
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        },
-        {
-          "name": "Mohun Bagan Super Giant",
-          "shortName": "MBSG",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-MOHB@2x.png"
-          },
-          "isWinner": null,
-          "color": "#187e52",
-          "cricketScore": null,
-          "kabaddiScore": null,
-          "footballScore": {
-            "points": 0,
-            "goals": []
-          },
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        }
-      ],
-      "language": "BENGALI",
-      "auto_streams": [
-        {
-          "auto": "#EXTM3U\n#EXT-X-VERSION:3\n#EXT-X-STREAM-INF:BANDWIDTH=414232,AVERAGE-BANDWIDTH=414232,CODECS=\"avc1.42e015,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=426x240,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/140462_bengali_hls_12b9da2da315269_1ta-di_h264/240p.m3u8?hdntl=Expires=1773582253~_GO=Generated~acl=/mumbai/140462_bengali_hls_12b9da2da315269_1ta-di_h264/*~Signature=AR77L-ab15DnvbIKhFiqfRv_5PSJHHE_jDBV8QrQxavsUvq5_ayRi5lbplEs1XK3QMS7CElhMJVYD345XrNPrS_bocAH\n#EXT-X-STREAM-INF:BANDWIDTH=669672,AVERAGE-BANDWIDTH=669672,CODECS=\"avc1.42e01e,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=640x360,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/140462_bengali_hls_12b9da2da315269_1ta-di_h264/360p.m3u8?hdntl=Expires=1773582253~_GO=Generated~acl=/mumbai/140462_bengali_hls_12b9da2da315269_1ta-di_h264/*~Signature=AR77L-ab15DnvbIKhFiqfRv_5PSJHHE_jDBV8QrQxavsUvq5_ayRi5lbplEs1XK3QMS7CElhMJVYD345XrNPrS_bocAH\n#EXT-X-STREAM-INF:BANDWIDTH=990520,AVERAGE-BANDWIDTH=990520,CODECS=\"avc1.4d401e,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=854x480,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/140462_bengali_hls_12b9da2da315269_1ta-di_h264/480p.m3u8?hdntl=Expires=1773582253~_GO=Generated~acl=/mumbai/140462_bengali_hls_12b9da2da315269_1ta-di_h264/*~Signature=AR77L-ab15DnvbIKhFiqfRv_5PSJHHE_jDBV8QrQxavsUvq5_ayRi5lbplEs1XK3QMS7CElhMJVYD345XrNPrS_bocAH\n#EXT-X-STREAM-INF:BANDWIDTH=1245960,AVERAGE-BANDWIDTH=1245960,CODECS=\"avc1.4d401f,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=960x540,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/140462_bengali_hls_12b9da2da315269_1ta-di_h264/540p.m3u8?hdntl=Expires=1773582253~_GO=Generated~acl=/mumbai/140462_bengali_hls_12b9da2da315269_1ta-di_h264/*~Signature=AR77L-ab15DnvbIKhFiqfRv_5PSJHHE_jDBV8QrQxavsUvq5_ayRi5lbplEs1XK3QMS7CElhMJVYD345XrNPrS_bocAH\n#EXT-X-STREAM-INF:BANDWIDTH=1756808,AVERAGE-BANDWIDTH=1756808,CODECS=\"avc1.64001f,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1280x720,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/140462_bengali_hls_12b9da2da315269_1ta-di_h264/720p.m3u8?hdntl=Expires=1773582253~_GO=Generated~acl=/mumbai/140462_bengali_hls_12b9da2da315269_1ta-di_h264/*~Signature=AR77L-ab15DnvbIKhFiqfRv_5PSJHHE_jDBV8QrQxavsUvq5_ayRi5lbplEs1XK3QMS7CElhMJVYD345XrNPrS_bocAH\n#EXT-X-STREAM-INF:BANDWIDTH=3289416,AVERAGE-BANDWIDTH=3289416,CODECS=\"avc1.640028,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1920x1080,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/140462_bengali_hls_12b9da2da315269_1ta-di_h264/1080p.m3u8?hdntl=Expires=1773582253~_GO=Generated~acl=/mumbai/140462_bengali_hls_12b9da2da315269_1ta-di_h264/*~Signature=AR77L-ab15DnvbIKhFiqfRv_5PSJHHE_jDBV8QrQxavsUvq5_ayRi5lbplEs1XK3QMS7CElhMJVYD345XrNPrS_bocAH\n#EXT-X-STREAM-INF:BANDWIDTH=5376032,AVERAGE-BANDWIDTH=5376032,CODECS=\"avc1.64002a,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1920x1080,FRAME-RATE=50.000\nhttps://in-mc-flive.fancode.com/mumbai/140462_bengali_hls_12b9da2da315269_1ta-di_h264/1080p5.m3u8?hdntl=Expires=1773582253~_GO=Generated~acl=/mumbai/140462_bengali_hls_12b9da2da315269_1ta-di_h264/*~Signature=AR77L-ab15DnvbIKhFiqfRv_5PSJHHE_jDBV8QrQxavsUvq5_ayRi5lbplEs1XK3QMS7CElhMJVYD345XrNPrS_bocAH",
-          "cookie": "hdntl=Expires=1773582253~_GO=Generated~acl=/mumbai/140462_bengali_hls_12b9da2da315269_1ta-di_h264/*~Signature=AR77L-ab15DnvbIKhFiqfRv_5PSJHHE_jDBV8QrQxavsUvq5_ayRi5lbplEs1XK3QMS7CElhMJVYD345XrNPrS_bocAH",
-          "cookie_valid": "1773582253",
-          "expire_date": "Sunday, March 15, 2026, 7:14:13 PM",
-          "language": "BENGALI"
-        }
-      ]
-    },
-    {
-      "category": "Football",
-      "title": "Bengaluru Fc Vs Mohun Bagan Super Giant",
-      "tournament": "ISL 2025-26  - Regional",
-      "match_id": 141177,
-      "status": "COMPLETED",
-      "streamingStatus": "STARTED",
-      "startTime": "14 March 2026 07:30 PM",
-      "startDate": "01 January 1970 05:30 AM",
-      "image": "https://www.fancode.com/skillup-uploads/cms-media/141177_5973_BFC_MBSG_fc-web.jpg",
-      "image_cdn": {
-        "TATAPLAY": "https://images.fancode.com/aig/match/v1/141177_CASACARDS_PARTNER_16_9_1920_1080.png",
-        "APP": "https://www.fancode.com/skillup-uploads/cms-media/141177_5973_BFC_MBSG_fc-web.jpg",
-        "PLAYBACK": "https://www.fancode.com/skillup-uploads/cms-media/141177_5973_BFC_MBSG_fc-web.jpg",
-        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/ISL-Tour-Logo.png",
-        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Football-old-copy.jpg",
-        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/141177_5973_BFC_MBSG_fc-web.jpg",
-        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/141177_5973_BFC_MBSG_fc-app.jpg",
-        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/141177_CASACARDS_PARTNER_16_9_1920_1080.png"
-      },
-      "team": [
-        {
-          "name": "Bengaluru FC",
-          "shortName": "BFC",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-BEG@2x.png"
-          },
-          "isWinner": null,
-          "color": "#11318E",
-          "cricketScore": null,
-          "kabaddiScore": null,
-          "footballScore": {
-            "points": 0,
-            "goals": []
-          },
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        },
-        {
-          "name": "Mohun Bagan Super Giant",
-          "shortName": "MBSG",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-MOHB@2x.png"
-          },
-          "isWinner": null,
-          "color": "#187e52",
-          "cricketScore": null,
-          "kabaddiScore": null,
-          "footballScore": {
-            "points": 0,
-            "goals": []
-          },
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        }
-      ],
-      "language": "BENGALI",
-      "auto_streams": [
-        {
-          "auto": "#EXTM3U\n#EXT-X-VERSION:3\n#EXT-X-STREAM-INF:BANDWIDTH=414232,AVERAGE-BANDWIDTH=414232,CODECS=\"avc1.42e015,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=426x240,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/141177_bengali_hls_32071a8e3c92196_1ta-di_h264/240p.m3u8?hdntl=Expires=1773582258~_GO=Generated~acl=/mumbai/141177_bengali_hls_32071a8e3c92196_1ta-di_h264/*~Signature=AR77L-aIrOuwK8V_EqsGka8i2MFLrDvOTjoNPR6P-QCgIWmRn9eWAbpGkM_DeYjR-IznLRz_uaHdUsANnCzEqtTu0J0J\n#EXT-X-STREAM-INF:BANDWIDTH=669672,AVERAGE-BANDWIDTH=669672,CODECS=\"avc1.42e01e,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=640x360,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/141177_bengali_hls_32071a8e3c92196_1ta-di_h264/360p.m3u8?hdntl=Expires=1773582258~_GO=Generated~acl=/mumbai/141177_bengali_hls_32071a8e3c92196_1ta-di_h264/*~Signature=AR77L-aIrOuwK8V_EqsGka8i2MFLrDvOTjoNPR6P-QCgIWmRn9eWAbpGkM_DeYjR-IznLRz_uaHdUsANnCzEqtTu0J0J\n#EXT-X-STREAM-INF:BANDWIDTH=990520,AVERAGE-BANDWIDTH=990520,CODECS=\"avc1.4d401e,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=854x480,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/141177_bengali_hls_32071a8e3c92196_1ta-di_h264/480p.m3u8?hdntl=Expires=1773582258~_GO=Generated~acl=/mumbai/141177_bengali_hls_32071a8e3c92196_1ta-di_h264/*~Signature=AR77L-aIrOuwK8V_EqsGka8i2MFLrDvOTjoNPR6P-QCgIWmRn9eWAbpGkM_DeYjR-IznLRz_uaHdUsANnCzEqtTu0J0J\n#EXT-X-STREAM-INF:BANDWIDTH=1245960,AVERAGE-BANDWIDTH=1245960,CODECS=\"avc1.4d401f,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=960x540,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/141177_bengali_hls_32071a8e3c92196_1ta-di_h264/540p.m3u8?hdntl=Expires=1773582258~_GO=Generated~acl=/mumbai/141177_bengali_hls_32071a8e3c92196_1ta-di_h264/*~Signature=AR77L-aIrOuwK8V_EqsGka8i2MFLrDvOTjoNPR6P-QCgIWmRn9eWAbpGkM_DeYjR-IznLRz_uaHdUsANnCzEqtTu0J0J\n#EXT-X-STREAM-INF:BANDWIDTH=1756808,AVERAGE-BANDWIDTH=1756808,CODECS=\"avc1.64001f,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1280x720,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/141177_bengali_hls_32071a8e3c92196_1ta-di_h264/720p.m3u8?hdntl=Expires=1773582258~_GO=Generated~acl=/mumbai/141177_bengali_hls_32071a8e3c92196_1ta-di_h264/*~Signature=AR77L-aIrOuwK8V_EqsGka8i2MFLrDvOTjoNPR6P-QCgIWmRn9eWAbpGkM_DeYjR-IznLRz_uaHdUsANnCzEqtTu0J0J\n#EXT-X-STREAM-INF:BANDWIDTH=3289416,AVERAGE-BANDWIDTH=3289416,CODECS=\"avc1.640028,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1920x1080,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/141177_bengali_hls_32071a8e3c92196_1ta-di_h264/1080p.m3u8?hdntl=Expires=1773582258~_GO=Generated~acl=/mumbai/141177_bengali_hls_32071a8e3c92196_1ta-di_h264/*~Signature=AR77L-aIrOuwK8V_EqsGka8i2MFLrDvOTjoNPR6P-QCgIWmRn9eWAbpGkM_DeYjR-IznLRz_uaHdUsANnCzEqtTu0J0J\n#EXT-X-STREAM-INF:BANDWIDTH=5376032,AVERAGE-BANDWIDTH=5376032,CODECS=\"avc1.64002a,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1920x1080,FRAME-RATE=50.000\nhttps://in-mc-flive.fancode.com/mumbai/141177_bengali_hls_32071a8e3c92196_1ta-di_h264/1080p5.m3u8?hdntl=Expires=1773582258~_GO=Generated~acl=/mumbai/141177_bengali_hls_32071a8e3c92196_1ta-di_h264/*~Signature=AR77L-aIrOuwK8V_EqsGka8i2MFLrDvOTjoNPR6P-QCgIWmRn9eWAbpGkM_DeYjR-IznLRz_uaHdUsANnCzEqtTu0J0J",
-          "cookie": "hdntl=Expires=1773582258~_GO=Generated~acl=/mumbai/141177_bengali_hls_32071a8e3c92196_1ta-di_h264/*~Signature=AR77L-aIrOuwK8V_EqsGka8i2MFLrDvOTjoNPR6P-QCgIWmRn9eWAbpGkM_DeYjR-IznLRz_uaHdUsANnCzEqtTu0J0J",
-          "cookie_valid": "1773582258",
-          "expire_date": "Sunday, March 15, 2026, 7:14:18 PM",
-          "language": "BENGALI"
         }
       ]
     },
@@ -1226,6 +829,132 @@
       "auto_streams": null
     },
     {
+      "category": "Football",
+      "title": "Real Zaragoza Vs Almería",
+      "tournament": "LALIGA Hypermotion 2025-26",
+      "match_id": 141220,
+      "status": "NOT_STARTED",
+      "streamingStatus": "NOT_STARTED",
+      "startTime": "14 March 2026 11:00 PM",
+      "startDate": "01 January 1970 05:30 AM",
+      "image": "https://images.fancode.com/aig/match/v1773431102733/141220_CASACARDS_APP.png",
+      "image_cdn": {
+        "TATAPLAY": "https://images.fancode.com/aig/match/v1/141220_CASACARDS_PARTNER_16_9_1920_1080.png",
+        "APP": "https://images.fancode.com/aig/match/v1773431102733/141220_CASACARDS_APP.png",
+        "PLAYBACK": null,
+        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/LaLiga_Hypermotionv-Tour-Logo.png",
+        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Football-old-copy.jpg",
+        "BG_IMAGE": "https://images.fancode.com/aig/match/v1773431102733/141220_CASACARDS_APP.png",
+        "SPORT_BY_IMAGE": "https://images.fancode.com/aig/match/v1773431102733/141220_CASACARDS_SPORTY_APP.png",
+        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/141220_CASACARDS_PARTNER_16_9_1920_1080.png"
+      },
+      "team": [
+        {
+          "name": "Real Zaragoza",
+          "shortName": "RZ",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-ZAR@2x.png"
+          },
+          "isWinner": null,
+          "color": "#88070C",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        },
+        {
+          "name": "Almería",
+          "shortName": "ALM",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-ALM@2x.png"
+          },
+          "isWinner": null,
+          "color": "#1278b9",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        }
+      ],
+      "language": "BLOODY_SWEET",
+      "auto_streams": null
+    },
+    {
+      "category": "Cricket",
+      "title": "Konark Suryas Odisha Vs Royal Riders Punjab",
+      "tournament": "Legends League Cricket, 2026",
+      "match_id": 141309,
+      "status": "NOT_STARTED",
+      "streamingStatus": "NOT_STARTED",
+      "startTime": "15 March 2026 07:30 PM",
+      "startDate": "01 January 1970 05:30 AM",
+      "image": "https://www.fancode.com/skillup-uploads/cms-media/141309_6002_KSO_RRP_FC-Web_1773487500736.jpg",
+      "image_cdn": {
+        "TATAPLAY": "https://images.fancode.com/aig/match/v1/141309_CASACARDS_PARTNER_16_9_1920_1080.png",
+        "APP": "https://www.fancode.com/skillup-uploads/cms-media/141309_6002_KSO_RRP_FC-Web_1773487500736.jpg",
+        "PLAYBACK": null,
+        "LOGO": "https://fancode.com/skillup-uploads/prod-images/2024/08/Legends-League-Cricket-Tour-Size.png",
+        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_cricket-old.jpg",
+        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/141309_6002_KSO_RRP_FC-Web_1773487500736.jpg",
+        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/141309_6002_KSO_RRP_FC-App_1773487500092.jpg",
+        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/141309_CASACARDS_PARTNER_16_9_1920_1080.png"
+      },
+      "team": [
+        {
+          "name": "Konark Suryas Odisha",
+          "shortName": "KSO",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-KSOL@2x.png"
+          },
+          "isWinner": null,
+          "color": "#ff3600",
+          "cricketScore": [],
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        },
+        {
+          "name": "Royal Riders Punjab",
+          "shortName": "RRP",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-RRP@2x.png"
+          },
+          "isWinner": null,
+          "color": "#80081C",
+          "cricketScore": [],
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        }
+      ],
+      "language": "BLOODY_SWEET",
+      "auto_streams": null
+    },
+    {
       "category": "Cricket",
       "title": "Cayman Islands Vs Suriname",
       "tournament": "ICC Men's T20 WC Americas Sub Regional Qualifier B",
@@ -1274,69 +1003,6 @@
           "isWinner": null,
           "color": "#FFFFFF",
           "cricketScore": [],
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        }
-      ],
-      "language": "BLOODY_SWEET",
-      "auto_streams": null
-    },
-    {
-      "category": "Football",
-      "title": "Real Oviedo Vs Valencia Cf",
-      "tournament": "LALIGA 2025-26",
-      "match_id": 131108,
-      "status": "NOT_STARTED",
-      "streamingStatus": "NOT_STARTED",
-      "startTime": "14 March 2026 11:00 PM",
-      "startDate": "01 January 1970 05:30 AM",
-      "image": "https://www.fancode.com/skillup-uploads/cms-media/131108_5427_RO_VAL_FC-Web.png",
-      "image_cdn": {
-        "TATAPLAY": "https://images.fancode.com/aig/match/v1/131108_CASACARDS_PARTNER_16_9_1920_1080.png",
-        "APP": "https://www.fancode.com/skillup-uploads/cms-media/131108_5427_RO_VAL_FC-Web.png",
-        "PLAYBACK": null,
-        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/LALIGA-2025-26-Tour.png",
-        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Football-old-copy.jpg",
-        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/131108_5427_RO_VAL_FC-Web.png",
-        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/131108_5427_RO_VAL_FC-App.png",
-        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/131108_CASACARDS_PARTNER_16_9_1920_1080.png"
-      },
-      "team": [
-        {
-          "name": "Real Oviedo",
-          "shortName": "RO",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-RO@2x.png"
-          },
-          "isWinner": null,
-          "color": "#A71C10",
-          "cricketScore": null,
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        },
-        {
-          "name": "Valencia CF",
-          "shortName": "VAL",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-VAL@2x.png"
-          },
-          "isWinner": null,
-          "color": "#4F7DE5",
-          "cricketScore": null,
           "kabaddiScore": null,
           "footballScore": null,
           "basketBallScore": null,
@@ -1478,69 +1144,6 @@
       "auto_streams": null
     },
     {
-      "category": "Football",
-      "title": "Real Madrid Vs Elche Cf",
-      "tournament": "LALIGA 2025-26",
-      "match_id": 131100,
-      "status": "NOT_STARTED",
-      "streamingStatus": "NOT_STARTED",
-      "startTime": "15 March 2026 01:30 AM",
-      "startDate": "01 January 1970 05:30 AM",
-      "image": "https://www.fancode.com/skillup-uploads/cms-media/131100_5427_RM_ELC_FC-Web.png",
-      "image_cdn": {
-        "TATAPLAY": "https://images.fancode.com/aig/match/v1/131100_CASACARDS_PARTNER_16_9_1920_1080.png",
-        "APP": "https://www.fancode.com/skillup-uploads/cms-media/131100_5427_RM_ELC_FC-Web.png",
-        "PLAYBACK": null,
-        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/LALIGA-2025-26-Tour.png",
-        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Football-old-copy.jpg",
-        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/131100_5427_RM_ELC_FC-Web.png",
-        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/131100_5427_RM_ELC_FC-App.png",
-        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/131100_CASACARDS_PARTNER_16_9_1920_1080.png"
-      },
-      "team": [
-        {
-          "name": "Real Madrid",
-          "shortName": "RM",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-RMA@2x.png"
-          },
-          "isWinner": null,
-          "color": "#004996",
-          "cricketScore": null,
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        },
-        {
-          "name": "Elche CF",
-          "shortName": "ELC",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/ELC-FT1@2x.png"
-          },
-          "isWinner": null,
-          "color": "#253611",
-          "cricketScore": null,
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        }
-      ],
-      "language": "BLOODY_SWEET",
-      "auto_streams": null
-    },
-    {
       "category": "Cricket",
       "title": "Hong Kong Cricket Club Women Vs Craigengower Cricket Club Women",
       "tournament": "Women's Premier League T20 2026",
@@ -1604,35 +1207,35 @@
       "auto_streams": null
     },
     {
-      "category": "Cricket",
-      "title": "Konark Suryas Odisha Vs Royal Riders Punjab",
-      "tournament": "Legends League Cricket, 2026",
-      "match_id": 141309,
+      "category": "Football",
+      "title": "Real Madrid Vs Elche Cf",
+      "tournament": "LALIGA 2025-26",
+      "match_id": 131100,
       "status": "NOT_STARTED",
       "streamingStatus": "NOT_STARTED",
-      "startTime": "15 March 2026 07:30 PM",
+      "startTime": "15 March 2026 01:30 AM",
       "startDate": "01 January 1970 05:30 AM",
-      "image": "https://www.fancode.com/skillup-uploads/cms-media/141309_6002_KSO_RRP_FC-Web_1773487500736.jpg",
+      "image": "https://www.fancode.com/skillup-uploads/cms-media/131100_5427_RM_ELC_FC-Web.png",
       "image_cdn": {
-        "TATAPLAY": "https://images.fancode.com/aig/match/v1/141309_CASACARDS_PARTNER_16_9_1920_1080.png",
-        "APP": "https://www.fancode.com/skillup-uploads/cms-media/141309_6002_KSO_RRP_FC-Web_1773487500736.jpg",
+        "TATAPLAY": "https://images.fancode.com/aig/match/v1/131100_CASACARDS_PARTNER_16_9_1920_1080.png",
+        "APP": "https://www.fancode.com/skillup-uploads/cms-media/131100_5427_RM_ELC_FC-Web.png",
         "PLAYBACK": null,
-        "LOGO": "https://fancode.com/skillup-uploads/prod-images/2024/08/Legends-League-Cricket-Tour-Size.png",
-        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_cricket-old.jpg",
-        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/141309_6002_KSO_RRP_FC-Web_1773487500736.jpg",
-        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/141309_6002_KSO_RRP_FC-App_1773487500092.jpg",
-        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/141309_CASACARDS_PARTNER_16_9_1920_1080.png"
+        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/LALIGA-2025-26-Tour.png",
+        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Football-old-copy.jpg",
+        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/131100_5427_RM_ELC_FC-Web.png",
+        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/131100_5427_RM_ELC_FC-App.png",
+        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/131100_CASACARDS_PARTNER_16_9_1920_1080.png"
       },
       "team": [
         {
-          "name": "Konark Suryas Odisha",
-          "shortName": "KSO",
+          "name": "Real Madrid",
+          "shortName": "RM",
           "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-KSOL@2x.png"
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-RMA@2x.png"
           },
           "isWinner": null,
-          "color": "#ff3600",
-          "cricketScore": [],
+          "color": "#004996",
+          "cricketScore": null,
           "kabaddiScore": null,
           "footballScore": null,
           "basketBallScore": null,
@@ -1644,14 +1247,14 @@
           }
         },
         {
-          "name": "Royal Riders Punjab",
-          "shortName": "RRP",
+          "name": "Elche CF",
+          "shortName": "ELC",
           "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-RRP@2x.png"
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/ELC-FT1@2x.png"
           },
           "isWinner": null,
-          "color": "#80081C",
-          "cricketScore": [],
+          "color": "#253611",
+          "cricketScore": null,
           "kabaddiScore": null,
           "footballScore": null,
           "basketBallScore": null,
@@ -2109,6 +1712,69 @@
     },
     {
       "category": "Cricket",
+      "title": "Mumbai Maverics Vs Rajasthan Emperors",
+      "tournament": "Thunderbolt T10 League 2026",
+      "match_id": 141201,
+      "status": "NOT_STARTED",
+      "streamingStatus": "NOT_STARTED",
+      "startTime": "15 March 2026 03:10 PM",
+      "startDate": "01 January 1970 05:30 AM",
+      "image": "https://www.fancode.com/skillup-uploads/cms-media/Mini-Match-Card-(1080x810)-(8).png",
+      "image_cdn": {
+        "TATAPLAY": "https://images.fancode.com/aig/match/v1/141201_CASACARDS_PARTNER_16_9_1920_1080.png",
+        "APP": "https://www.fancode.com/skillup-uploads/cms-media/Mini-Match-Card-(1080x810)-(8).png",
+        "PLAYBACK": null,
+        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/Thunderbolt-T10-League-(1).png",
+        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_cricket-old.jpg",
+        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/Mini-Match-Card-(1080x810)-(8).png",
+        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/Old-Sporty-(1080x1440)-(8).png",
+        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/141201_CASACARDS_PARTNER_16_9_1920_1080.png"
+      },
+      "team": [
+        {
+          "name": "Mumbai Maverics",
+          "shortName": "MM",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-MVM@2x.png"
+          },
+          "isWinner": null,
+          "color": "#010160",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        },
+        {
+          "name": "Rajasthan Emperors",
+          "shortName": "RE",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-REE@2x.png"
+          },
+          "isWinner": null,
+          "color": "#904819",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        }
+      ],
+      "language": "BLOODY_SWEET",
+      "auto_streams": null
+    },
+    {
+      "category": "Cricket",
       "title": "Tasmania Vs Queensland",
       "tournament": "Sheffield Shield, 2025-26",
       "match_id": 134043,
@@ -2329,132 +1995,6 @@
           "status": {
             "cricket": {
               "isBatting": true
-            }
-          }
-        }
-      ],
-      "language": "BLOODY_SWEET",
-      "auto_streams": null
-    },
-    {
-      "category": "Cricket",
-      "title": "Mumbai Maverics Vs Rajasthan Emperors",
-      "tournament": "Thunderbolt T10 League 2026",
-      "match_id": 141201,
-      "status": "NOT_STARTED",
-      "streamingStatus": "NOT_STARTED",
-      "startTime": "15 March 2026 03:10 PM",
-      "startDate": "01 January 1970 05:30 AM",
-      "image": "https://www.fancode.com/skillup-uploads/cms-media/Mini-Match-Card-(1080x810)-(8).png",
-      "image_cdn": {
-        "TATAPLAY": "https://images.fancode.com/aig/match/v1/141201_CASACARDS_PARTNER_16_9_1920_1080.png",
-        "APP": "https://www.fancode.com/skillup-uploads/cms-media/Mini-Match-Card-(1080x810)-(8).png",
-        "PLAYBACK": null,
-        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/Thunderbolt-T10-League-(1).png",
-        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_cricket-old.jpg",
-        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/Mini-Match-Card-(1080x810)-(8).png",
-        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/Old-Sporty-(1080x1440)-(8).png",
-        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/141201_CASACARDS_PARTNER_16_9_1920_1080.png"
-      },
-      "team": [
-        {
-          "name": "Mumbai Maverics",
-          "shortName": "MM",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-MVM@2x.png"
-          },
-          "isWinner": null,
-          "color": "#010160",
-          "cricketScore": null,
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        },
-        {
-          "name": "Rajasthan Emperors",
-          "shortName": "RE",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-REE@2x.png"
-          },
-          "isWinner": null,
-          "color": "#904819",
-          "cricketScore": null,
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        }
-      ],
-      "language": "BLOODY_SWEET",
-      "auto_streams": null
-    },
-    {
-      "category": "Football",
-      "title": "Real Zaragoza Vs Almería",
-      "tournament": "LALIGA Hypermotion 2025-26",
-      "match_id": 141220,
-      "status": "NOT_STARTED",
-      "streamingStatus": "NOT_STARTED",
-      "startTime": "14 March 2026 11:00 PM",
-      "startDate": "01 January 1970 05:30 AM",
-      "image": "https://images.fancode.com/aig/match/v1773431102733/141220_CASACARDS_APP.png",
-      "image_cdn": {
-        "TATAPLAY": "https://images.fancode.com/aig/match/v1/141220_CASACARDS_PARTNER_16_9_1920_1080.png",
-        "APP": "https://images.fancode.com/aig/match/v1773431102733/141220_CASACARDS_APP.png",
-        "PLAYBACK": null,
-        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/LaLiga_Hypermotionv-Tour-Logo.png",
-        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Football-old-copy.jpg",
-        "BG_IMAGE": "https://images.fancode.com/aig/match/v1773431102733/141220_CASACARDS_APP.png",
-        "SPORT_BY_IMAGE": "https://images.fancode.com/aig/match/v1773431102733/141220_CASACARDS_SPORTY_APP.png",
-        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/141220_CASACARDS_PARTNER_16_9_1920_1080.png"
-      },
-      "team": [
-        {
-          "name": "Real Zaragoza",
-          "shortName": "RZ",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-ZAR@2x.png"
-          },
-          "isWinner": null,
-          "color": "#88070C",
-          "cricketScore": null,
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        },
-        {
-          "name": "Almería",
-          "shortName": "ALM",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-ALM@2x.png"
-          },
-          "isWinner": null,
-          "color": "#1278b9",
-          "cricketScore": null,
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
             }
           }
         }
@@ -2779,6 +2319,69 @@
     },
     {
       "category": "Football",
+      "title": "Rcd Mallorca Vs Rcd Espanyol",
+      "tournament": "LALIGA 2025-26",
+      "match_id": 131101,
+      "status": "NOT_STARTED",
+      "streamingStatus": "NOT_STARTED",
+      "startTime": "15 March 2026 06:30 PM",
+      "startDate": "01 January 1970 05:30 AM",
+      "image": "https://www.fancode.com/skillup-uploads/cms-media/131101_5427_MRC_ESL_FC-Web.png",
+      "image_cdn": {
+        "TATAPLAY": "https://images.fancode.com/aig/match/v1/131101_CASACARDS_PARTNER_16_9_1920_1080.png",
+        "APP": "https://www.fancode.com/skillup-uploads/cms-media/131101_5427_MRC_ESL_FC-Web.png",
+        "PLAYBACK": null,
+        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/LALIGA-2025-26-Tour.png",
+        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Football-old-copy.jpg",
+        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/131101_5427_MRC_ESL_FC-Web.png",
+        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/131101_5427_MRC_ESL_FC-App.png",
+        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/131101_CASACARDS_PARTNER_16_9_1920_1080.png"
+      },
+      "team": [
+        {
+          "name": "RCD Mallorca",
+          "shortName": "MRC",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-MRC@2x.png"
+          },
+          "isWinner": null,
+          "color": "#FBCCD1",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        },
+        {
+          "name": "RCD Espanyol",
+          "shortName": "ESL",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-ESL@2x.png"
+          },
+          "isWinner": null,
+          "color": "#fff3db",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        }
+      ],
+      "language": "BLOODY_SWEET",
+      "auto_streams": null
+    },
+    {
+      "category": "Football",
       "title": "Japan Women Vs Philippines Women",
       "tournament": "AFC Women's Asian Cup, 2026",
       "match_id": 140815,
@@ -2841,34 +2444,34 @@
       "auto_streams": null
     },
     {
-      "category": "Football",
-      "title": "Rcd Mallorca Vs Rcd Espanyol",
-      "tournament": "LALIGA 2025-26",
-      "match_id": 131101,
+      "category": "Golf",
+      "title": "World Feed   Day 3",
+      "tournament": "THE PLAYERS Championship 2026",
+      "match_id": 141143,
       "status": "NOT_STARTED",
       "streamingStatus": "NOT_STARTED",
-      "startTime": "15 March 2026 06:30 PM",
+      "startTime": "14 March 2026 11:30 PM",
       "startDate": "01 January 1970 05:30 AM",
-      "image": "https://www.fancode.com/skillup-uploads/cms-media/131101_5427_MRC_ESL_FC-Web.png",
+      "image": "https://www.fancode.com/skillup-uploads/cms-media/The-Players_fc-web.jpg",
       "image_cdn": {
-        "TATAPLAY": "https://images.fancode.com/aig/match/v1/131101_CASACARDS_PARTNER_16_9_1920_1080.png",
-        "APP": "https://www.fancode.com/skillup-uploads/cms-media/131101_5427_MRC_ESL_FC-Web.png",
+        "TATAPLAY": "https://images.fancode.com/aig/match/v1/141143_CASACARDS_PARTNER_16_9_1920_1080.png",
+        "APP": "https://www.fancode.com/skillup-uploads/cms-media/The-Players_fc-web.jpg",
         "PLAYBACK": null,
-        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/LALIGA-2025-26-Tour.png",
-        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Football-old-copy.jpg",
-        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/131101_5427_MRC_ESL_FC-Web.png",
-        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/131101_5427_MRC_ESL_FC-App.png",
-        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/131101_CASACARDS_PARTNER_16_9_1920_1080.png"
+        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/The-Player's-Championship.png",
+        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Golf-old.jpg",
+        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/The-Players_fc-web.jpg",
+        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/The-Players_fc-app.jpg",
+        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/141143_CASACARDS_PARTNER_16_9_1920_1080.png"
       },
       "team": [
         {
-          "name": "RCD Mallorca",
-          "shortName": "MRC",
+          "name": "World Feed - Day 3",
+          "shortName": "World Feed - Day 3",
           "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-MRC@2x.png"
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/gl-flags/FC-PGA@2x.png"
           },
           "isWinner": null,
-          "color": "#FBCCD1",
+          "color": "#141414",
           "cricketScore": null,
           "kabaddiScore": null,
           "footballScore": null,
@@ -2881,13 +2484,139 @@
           }
         },
         {
-          "name": "RCD Espanyol",
-          "shortName": "ESL",
+          "name": "Ponte Vedra Beach, Florida",
+          "shortName": "Ponte Vedra Beach, Florida",
           "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-ESL@2x.png"
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/gl-flags/FC-LOC@2x.png"
           },
           "isWinner": null,
-          "color": "#fff3db",
+          "color": "#141414",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        }
+      ],
+      "language": "BLOODY_SWEET",
+      "auto_streams": null
+    },
+    {
+      "category": "Football",
+      "title": "Inter Kashi Fc Vs Mumbai City Fc",
+      "tournament": "ISL 2025-26",
+      "match_id": 140464,
+      "status": "NOT_STARTED",
+      "streamingStatus": "NOT_STARTED",
+      "startTime": "15 March 2026 07:30 PM",
+      "startDate": "01 January 1970 05:30 AM",
+      "image": "https://www.fancode.com/skillup-uploads/cms-media/140464_5956_KSHI_MCFC_FC-Web_1772451528781.jpg",
+      "image_cdn": {
+        "TATAPLAY": "https://images.fancode.com/aig/match/v1/140464_CASACARDS_PARTNER_16_9_1920_1080.png",
+        "APP": "https://www.fancode.com/skillup-uploads/cms-media/140464_5956_KSHI_MCFC_FC-Web_1772451528781.jpg",
+        "PLAYBACK": null,
+        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/ISL-Tour-Logo.png",
+        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Football-old-copy.jpg",
+        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/140464_5956_KSHI_MCFC_FC-Web_1772451528781.jpg",
+        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/140464_5956_KSHI_MCFC_FC-App_1772451515502.jpg",
+        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/140464_CASACARDS_PARTNER_16_9_1920_1080.png"
+      },
+      "team": [
+        {
+          "name": "Inter Kashi FC",
+          "shortName": "KSHI",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-KASH@2x.png"
+          },
+          "isWinner": null,
+          "color": "#d2b11e",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        },
+        {
+          "name": "Mumbai City FC",
+          "shortName": "MCFC",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-MUMCI@2x.png"
+          },
+          "isWinner": null,
+          "color": "#3d8ac6",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        }
+      ],
+      "language": "BLOODY_SWEET",
+      "auto_streams": null
+    },
+    {
+      "category": "Football",
+      "title": "Melbourne Victory Vs Macarthur",
+      "tournament": "A League 2025-26",
+      "match_id": 140915,
+      "status": "NOT_STARTED",
+      "streamingStatus": "NOT_STARTED",
+      "startTime": "15 March 2026 01:30 PM",
+      "startDate": "01 January 1970 05:30 AM",
+      "image": "https://www.fancode.com/skillup-uploads/cms-media/140915_5802_MLV_MAC_fc-web.jpg",
+      "image_cdn": {
+        "TATAPLAY": "https://images.fancode.com/aig/match/v1/140915_CASACARDS_PARTNER_16_9_1920_1080.png",
+        "APP": "https://www.fancode.com/skillup-uploads/cms-media/140915_5802_MLV_MAC_fc-web.jpg",
+        "PLAYBACK": null,
+        "LOGO": "https://fancode.com/skillup-uploads/prod-images/2024/10/A-League_Men-and-Women_Tour-Logo.png",
+        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Football-old-copy.jpg",
+        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/140915_5802_MLV_MAC_fc-web.jpg",
+        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/140915_5802_MLV_MAC_fc-app.jpg",
+        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/140915_CASACARDS_PARTNER_16_9_1920_1080.png"
+      },
+      "team": [
+        {
+          "name": "Melbourne Victory",
+          "shortName": "MLV",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-MLVA@2x.png"
+          },
+          "isWinner": null,
+          "color": "#031e2f",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        },
+        {
+          "name": "Macarthur",
+          "shortName": "MAC",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-MACA@2x.png"
+          },
+          "isWinner": null,
+          "color": "#000000",
           "cricketScore": null,
           "kabaddiScore": null,
           "footballScore": null,
