@@ -1,7 +1,7 @@
 {
   "Author": "DOCTOR_STRANGE",
   "name": "FanCode Live Matches API",
-  "last_updated": "02:07:02 PM 15-03-2026",
+  "last_updated": "02:28:02 PM 15-03-2026",
   "headers": {
     "User-Agent": "ReactNativeVideo/9.3.0 (Linux;Android 13) AndroidXMedia3/1.6.1",
     "Referer": "https://fancode.com/"
@@ -68,9 +68,9 @@
           "color": "#2d9251",
           "cricketScore": [
             {
-              "runs": 59,
-              "overs": "10.3",
-              "balls": "63",
+              "runs": 81,
+              "overs": "16",
+              "balls": "96",
               "status": "IN_PROGRESS",
               "wickets": 3
             }
@@ -128,9 +128,9 @@
           "color": "#397b46",
           "cricketScore": [
             {
-              "runs": 27,
-              "overs": "4.5",
-              "balls": "29",
+              "runs": 50,
+              "overs": "9",
+              "balls": "55",
               "status": "IN_PROGRESS",
               "wickets": 0
             }
@@ -357,9 +357,9 @@
           "color": "#064290",
           "cricketScore": [
             {
-              "runs": 33,
-              "overs": "10",
-              "balls": "60",
+              "runs": 82,
+              "overs": "17.3",
+              "balls": "105",
               "status": "IN_PROGRESS",
               "wickets": 7
             }
@@ -481,7 +481,7 @@
       "title": "Betwa Blasters Vs Ganga Warriors",
       "tournament": "Ayodhya Premier League",
       "match_id": 141363,
-      "status": "NOT_STARTED",
+      "status": "LIVE",
       "streamingStatus": "STARTED",
       "startTime": "15 March 2026 01:30 PM",
       "startDate": "01 January 1970 05:30 AM",
@@ -505,14 +505,22 @@
           },
           "isWinner": null,
           "color": "#c6af17",
-          "cricketScore": [],
+          "cricketScore": [
+            {
+              "runs": 66,
+              "overs": "10",
+              "balls": "60",
+              "status": "IN_PROGRESS",
+              "wickets": 4
+            }
+          ],
           "kabaddiScore": null,
           "footballScore": null,
           "basketBallScore": null,
           "hockeyScore": null,
           "status": {
             "cricket": {
-              "isBatting": false
+              "isBatting": true
             }
           }
         },
@@ -543,69 +551,6 @@
           "cookie": "hdntl=Expires=1773647052~_GO=Generated~acl=/mumbai/141363_english_hls_9b2736483b44954_1ta-di_h264/*~Signature=AR77L-Zyvl3gbuvAMSQ-6i7V86brKUdkmv0oUZsAc9VqS5TK4e9wSwyw3-8jhp9On_HsvXu7_MGpdIEzVaAOVoAm9bEH",
           "cookie_valid": "1773647052",
           "expire_date": "Monday, March 16, 2026, 1:14:12 PM",
-          "language": "ENGLISH"
-        }
-      ]
-    },
-    {
-      "category": "Football",
-      "title": "Melbourne Victory Vs Macarthur",
-      "tournament": "A League 2025-26",
-      "match_id": 140915,
-      "status": "LIVE",
-      "streamingStatus": "STARTED",
-      "startTime": "15 March 2026 01:30 PM",
-      "startDate": "01 January 1970 05:30 AM",
-      "image": "https://www.fancode.com/skillup-uploads/cms-media/140915_5802_MLV_MAC_fc-web.jpg",
-      "image_cdn": {
-        "TATAPLAY": "https://images.fancode.com/aig/match/v1/140915_CASACARDS_PARTNER_16_9_1920_1080.png",
-        "APP": "https://www.fancode.com/skillup-uploads/cms-media/140915_5802_MLV_MAC_fc-web.jpg",
-        "PLAYBACK": "https://www.fancode.com/skillup-uploads/cms-media/140915_5802_MLV_MAC_fc-web.jpg",
-        "LOGO": "https://fancode.com/skillup-uploads/prod-images/2024/10/A-League_Men-and-Women_Tour-Logo.png",
-        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Football-old-copy.jpg",
-        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/140915_5802_MLV_MAC_fc-web.jpg",
-        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/140915_5802_MLV_MAC_fc-app.jpg",
-        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/140915_CASACARDS_PARTNER_16_9_1920_1080.png"
-      },
-      "team": [
-        {
-          "name": "Melbourne Victory",
-          "shortName": "MLV",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-MLVA@2x.png"
-          },
-          "isWinner": null,
-          "color": "#031e2f",
-          "cricketScore": null,
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": null
-        },
-        {
-          "name": "Macarthur",
-          "shortName": "MAC",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-MACA@2x.png"
-          },
-          "isWinner": null,
-          "color": "#000000",
-          "cricketScore": null,
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": null
-        }
-      ],
-      "language": "ENGLISH",
-      "auto_streams": [
-        {
-          "auto": "#EXTM3U\n#EXT-X-VERSION:3\n#EXT-X-STREAM-INF:BANDWIDTH=446936,AVERAGE-BANDWIDTH=446936,CODECS=\"avc1.42e015,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=426x240,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/140915_english_hls_f2e3669fe419810_1ta-di_h264/240p.m3u8?hdntl=Expires=1773647054~_GO=Generated~acl=/mumbai/140915_english_hls_f2e3669fe419810_1ta-di_h264/*~Signature=AR77L-Zakx-VTtPVNu0k27RkexXqswlwEjLqwiFDug7EycKbjVfMCfNWQPgFZN9hFr8oOhLaJs_QZ0k_hFGPLD3XEIIE\n#EXT-X-STREAM-INF:BANDWIDTH=702376,AVERAGE-BANDWIDTH=702376,CODECS=\"avc1.42e01e,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=640x360,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/140915_english_hls_f2e3669fe419810_1ta-di_h264/360p.m3u8?hdntl=Expires=1773647054~_GO=Generated~acl=/mumbai/140915_english_hls_f2e3669fe419810_1ta-di_h264/*~Signature=AR77L-Zakx-VTtPVNu0k27RkexXqswlwEjLqwiFDug7EycKbjVfMCfNWQPgFZN9hFr8oOhLaJs_QZ0k_hFGPLD3XEIIE\n#EXT-X-STREAM-INF:BANDWIDTH=1023224,AVERAGE-BANDWIDTH=1023224,CODECS=\"avc1.4d401e,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=854x480,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/140915_english_hls_f2e3669fe419810_1ta-di_h264/480p.m3u8?hdntl=Expires=1773647054~_GO=Generated~acl=/mumbai/140915_english_hls_f2e3669fe419810_1ta-di_h264/*~Signature=AR77L-Zakx-VTtPVNu0k27RkexXqswlwEjLqwiFDug7EycKbjVfMCfNWQPgFZN9hFr8oOhLaJs_QZ0k_hFGPLD3XEIIE\n#EXT-X-STREAM-INF:BANDWIDTH=1278664,AVERAGE-BANDWIDTH=1278664,CODECS=\"avc1.4d401f,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=960x540,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/140915_english_hls_f2e3669fe419810_1ta-di_h264/540p.m3u8?hdntl=Expires=1773647054~_GO=Generated~acl=/mumbai/140915_english_hls_f2e3669fe419810_1ta-di_h264/*~Signature=AR77L-Zakx-VTtPVNu0k27RkexXqswlwEjLqwiFDug7EycKbjVfMCfNWQPgFZN9hFr8oOhLaJs_QZ0k_hFGPLD3XEIIE\n#EXT-X-STREAM-INF:BANDWIDTH=1789512,AVERAGE-BANDWIDTH=1789512,CODECS=\"avc1.64001f,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1280x720,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/140915_english_hls_f2e3669fe419810_1ta-di_h264/720p.m3u8?hdntl=Expires=1773647054~_GO=Generated~acl=/mumbai/140915_english_hls_f2e3669fe419810_1ta-di_h264/*~Signature=AR77L-Zakx-VTtPVNu0k27RkexXqswlwEjLqwiFDug7EycKbjVfMCfNWQPgFZN9hFr8oOhLaJs_QZ0k_hFGPLD3XEIIE\n#EXT-X-STREAM-INF:BANDWIDTH=3322120,AVERAGE-BANDWIDTH=3322120,CODECS=\"avc1.640028,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1920x1080,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/140915_english_hls_f2e3669fe419810_1ta-di_h264/1080p.m3u8?hdntl=Expires=1773647054~_GO=Generated~acl=/mumbai/140915_english_hls_f2e3669fe419810_1ta-di_h264/*~Signature=AR77L-Zakx-VTtPVNu0k27RkexXqswlwEjLqwiFDug7EycKbjVfMCfNWQPgFZN9hFr8oOhLaJs_QZ0k_hFGPLD3XEIIE",
-          "cookie": "hdntl=Expires=1773647054~_GO=Generated~acl=/mumbai/140915_english_hls_f2e3669fe419810_1ta-di_h264/*~Signature=AR77L-Zakx-VTtPVNu0k27RkexXqswlwEjLqwiFDug7EycKbjVfMCfNWQPgFZN9hFr8oOhLaJs_QZ0k_hFGPLD3XEIIE",
-          "cookie_valid": "1773647054",
-          "expire_date": "Monday, March 16, 2026, 1:14:14 PM",
           "language": "ENGLISH"
         }
       ]
@@ -700,6 +645,69 @@
           "cookie": "hdntl=Expires=1773646164~_GO=Generated~acl=/mumbai/134043_english_hls_ad224acef214446_1ta-di_h264/*~Signature=AR77L-aqM_D2sXxuqW2R4pt-36a9VfQRw4GkOMW42CscX3f2O73Jo7rEV5H5JG1PXPiWIia6KWdQAMbozWo74MskLk8H",
           "cookie_valid": "1773646164",
           "expire_date": "Monday, March 16, 2026, 12:59:24 PM",
+          "language": "ENGLISH"
+        }
+      ]
+    },
+    {
+      "category": "Football",
+      "title": "Melbourne Victory Vs Macarthur",
+      "tournament": "A League 2025-26",
+      "match_id": 140915,
+      "status": "LIVE",
+      "streamingStatus": "STARTED",
+      "startTime": "15 March 2026 01:30 PM",
+      "startDate": "01 January 1970 05:30 AM",
+      "image": "https://www.fancode.com/skillup-uploads/cms-media/140915_5802_MLV_MAC_fc-web.jpg",
+      "image_cdn": {
+        "TATAPLAY": "https://images.fancode.com/aig/match/v1/140915_CASACARDS_PARTNER_16_9_1920_1080.png",
+        "APP": "https://www.fancode.com/skillup-uploads/cms-media/140915_5802_MLV_MAC_fc-web.jpg",
+        "PLAYBACK": "https://www.fancode.com/skillup-uploads/cms-media/140915_5802_MLV_MAC_fc-web.jpg",
+        "LOGO": "https://fancode.com/skillup-uploads/prod-images/2024/10/A-League_Men-and-Women_Tour-Logo.png",
+        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Football-old-copy.jpg",
+        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/140915_5802_MLV_MAC_fc-web.jpg",
+        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/140915_5802_MLV_MAC_fc-app.jpg",
+        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/140915_CASACARDS_PARTNER_16_9_1920_1080.png"
+      },
+      "team": [
+        {
+          "name": "Melbourne Victory",
+          "shortName": "MLV",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-MLVA@2x.png"
+          },
+          "isWinner": null,
+          "color": "#031e2f",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": null
+        },
+        {
+          "name": "Macarthur",
+          "shortName": "MAC",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-MACA@2x.png"
+          },
+          "isWinner": null,
+          "color": "#000000",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": null
+        }
+      ],
+      "language": "ENGLISH",
+      "auto_streams": [
+        {
+          "auto": "#EXTM3U\n#EXT-X-VERSION:3\n#EXT-X-STREAM-INF:BANDWIDTH=446936,AVERAGE-BANDWIDTH=446936,CODECS=\"avc1.42e015,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=426x240,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/140915_english_hls_f2e3669fe419810_1ta-di_h264/240p.m3u8?hdntl=Expires=1773647054~_GO=Generated~acl=/mumbai/140915_english_hls_f2e3669fe419810_1ta-di_h264/*~Signature=AR77L-Zakx-VTtPVNu0k27RkexXqswlwEjLqwiFDug7EycKbjVfMCfNWQPgFZN9hFr8oOhLaJs_QZ0k_hFGPLD3XEIIE\n#EXT-X-STREAM-INF:BANDWIDTH=702376,AVERAGE-BANDWIDTH=702376,CODECS=\"avc1.42e01e,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=640x360,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/140915_english_hls_f2e3669fe419810_1ta-di_h264/360p.m3u8?hdntl=Expires=1773647054~_GO=Generated~acl=/mumbai/140915_english_hls_f2e3669fe419810_1ta-di_h264/*~Signature=AR77L-Zakx-VTtPVNu0k27RkexXqswlwEjLqwiFDug7EycKbjVfMCfNWQPgFZN9hFr8oOhLaJs_QZ0k_hFGPLD3XEIIE\n#EXT-X-STREAM-INF:BANDWIDTH=1023224,AVERAGE-BANDWIDTH=1023224,CODECS=\"avc1.4d401e,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=854x480,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/140915_english_hls_f2e3669fe419810_1ta-di_h264/480p.m3u8?hdntl=Expires=1773647054~_GO=Generated~acl=/mumbai/140915_english_hls_f2e3669fe419810_1ta-di_h264/*~Signature=AR77L-Zakx-VTtPVNu0k27RkexXqswlwEjLqwiFDug7EycKbjVfMCfNWQPgFZN9hFr8oOhLaJs_QZ0k_hFGPLD3XEIIE\n#EXT-X-STREAM-INF:BANDWIDTH=1278664,AVERAGE-BANDWIDTH=1278664,CODECS=\"avc1.4d401f,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=960x540,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/140915_english_hls_f2e3669fe419810_1ta-di_h264/540p.m3u8?hdntl=Expires=1773647054~_GO=Generated~acl=/mumbai/140915_english_hls_f2e3669fe419810_1ta-di_h264/*~Signature=AR77L-Zakx-VTtPVNu0k27RkexXqswlwEjLqwiFDug7EycKbjVfMCfNWQPgFZN9hFr8oOhLaJs_QZ0k_hFGPLD3XEIIE\n#EXT-X-STREAM-INF:BANDWIDTH=1789512,AVERAGE-BANDWIDTH=1789512,CODECS=\"avc1.64001f,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1280x720,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/140915_english_hls_f2e3669fe419810_1ta-di_h264/720p.m3u8?hdntl=Expires=1773647054~_GO=Generated~acl=/mumbai/140915_english_hls_f2e3669fe419810_1ta-di_h264/*~Signature=AR77L-Zakx-VTtPVNu0k27RkexXqswlwEjLqwiFDug7EycKbjVfMCfNWQPgFZN9hFr8oOhLaJs_QZ0k_hFGPLD3XEIIE\n#EXT-X-STREAM-INF:BANDWIDTH=3322120,AVERAGE-BANDWIDTH=3322120,CODECS=\"avc1.640028,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1920x1080,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/140915_english_hls_f2e3669fe419810_1ta-di_h264/1080p.m3u8?hdntl=Expires=1773647054~_GO=Generated~acl=/mumbai/140915_english_hls_f2e3669fe419810_1ta-di_h264/*~Signature=AR77L-Zakx-VTtPVNu0k27RkexXqswlwEjLqwiFDug7EycKbjVfMCfNWQPgFZN9hFr8oOhLaJs_QZ0k_hFGPLD3XEIIE",
+          "cookie": "hdntl=Expires=1773647054~_GO=Generated~acl=/mumbai/140915_english_hls_f2e3669fe419810_1ta-di_h264/*~Signature=AR77L-Zakx-VTtPVNu0k27RkexXqswlwEjLqwiFDug7EycKbjVfMCfNWQPgFZN9hFr8oOhLaJs_QZ0k_hFGPLD3XEIIE",
+          "cookie_valid": "1773647054",
+          "expire_date": "Monday, March 16, 2026, 1:14:14 PM",
           "language": "ENGLISH"
         }
       ]
@@ -1943,6 +1951,69 @@
     },
     {
       "category": "Cricket",
+      "title": "Malaysia Vs Bahrain",
+      "tournament": "Bahrain tour of Malaysia, 2026",
+      "match_id": 141304,
+      "status": "NOT_STARTED",
+      "streamingStatus": "NOT_STARTED",
+      "startTime": "16 March 2026 07:00 AM",
+      "startDate": "01 January 1970 05:30 AM",
+      "image": "https://www.fancode.com/skillup-uploads/cms-media/Bahrain-tour-of-Malaysia-old-card.jpg",
+      "image_cdn": {
+        "TATAPLAY": "https://images.fancode.com/aig/match/v1/141304_CASACARDS_PARTNER_16_9_1920_1080.png",
+        "APP": "https://www.fancode.com/skillup-uploads/cms-media/Bahrain-tour-of-Malaysia-old-card.jpg",
+        "PLAYBACK": null,
+        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/Malaysia-vs-Bahrin.png",
+        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_cricket-old.jpg",
+        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/Bahrain-tour-of-Malaysia-old-card.jpg",
+        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/Bahrain-tour-of-Malaysia-sporty.jpg",
+        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/141304_CASACARDS_PARTNER_16_9_1920_1080.png"
+      },
+      "team": [
+        {
+          "name": "Malaysia",
+          "shortName": "MAS",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-MALY@2x.png"
+          },
+          "isWinner": null,
+          "color": "#ffd800",
+          "cricketScore": [],
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        },
+        {
+          "name": "Bahrain",
+          "shortName": "BAH",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-BAH@2x.png"
+          },
+          "isWinner": null,
+          "color": "#ff5142",
+          "cricketScore": [],
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        }
+      ],
+      "language": "BLOODY_SWEET",
+      "auto_streams": null
+    },
+    {
+      "category": "Cricket",
       "title": "South Australia Vs Victoria",
       "tournament": "Sheffield Shield, 2025-26",
       "match_id": 134042,
@@ -2092,69 +2163,6 @@
           "status": {
             "cricket": {
               "isBatting": true
-            }
-          }
-        }
-      ],
-      "language": "BLOODY_SWEET",
-      "auto_streams": null
-    },
-    {
-      "category": "Cricket",
-      "title": "Malaysia Vs Bahrain",
-      "tournament": "Bahrain tour of Malaysia, 2026",
-      "match_id": 141304,
-      "status": "NOT_STARTED",
-      "streamingStatus": "NOT_STARTED",
-      "startTime": "16 March 2026 07:00 AM",
-      "startDate": "01 January 1970 05:30 AM",
-      "image": "https://www.fancode.com/skillup-uploads/cms-media/Bahrain-tour-of-Malaysia-old-card.jpg",
-      "image_cdn": {
-        "TATAPLAY": "https://images.fancode.com/aig/match/v1/141304_CASACARDS_PARTNER_16_9_1920_1080.png",
-        "APP": "https://www.fancode.com/skillup-uploads/cms-media/Bahrain-tour-of-Malaysia-old-card.jpg",
-        "PLAYBACK": null,
-        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/Malaysia-vs-Bahrin.png",
-        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_cricket-old.jpg",
-        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/Bahrain-tour-of-Malaysia-old-card.jpg",
-        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/Bahrain-tour-of-Malaysia-sporty.jpg",
-        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/141304_CASACARDS_PARTNER_16_9_1920_1080.png"
-      },
-      "team": [
-        {
-          "name": "Malaysia",
-          "shortName": "MAS",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-MALY@2x.png"
-          },
-          "isWinner": null,
-          "color": "#ffd800",
-          "cricketScore": [],
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        },
-        {
-          "name": "Bahrain",
-          "shortName": "BAH",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-BAH@2x.png"
-          },
-          "isWinner": null,
-          "color": "#ff5142",
-          "cricketScore": [],
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
             }
           }
         }
