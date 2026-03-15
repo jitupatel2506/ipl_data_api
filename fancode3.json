@@ -1,7 +1,7 @@
 {
   "Author": "DOCTOR_STRANGE",
   "name": "FanCode Live Matches API",
-  "last_updated": "03:49:03 AM 16-03-2026",
+  "last_updated": "04:00:01 AM 16-03-2026",
   "headers": {
     "User-Agent": "ReactNativeVideo/9.3.0 (Linux;Android 13) AndroidXMedia3/1.6.1",
     "Referer": "https://fancode.com/"
@@ -15,7 +15,7 @@
       "title": "Argentina Vs Cayman Islands",
       "tournament": "ICC Men's T20 WC Americas Sub Regional Qualifier B",
       "match_id": 140716,
-      "status": "LIVE",
+      "status": "COMPLETED",
       "streamingStatus": "STARTED",
       "startTime": "16 March 2026 01:00 AM",
       "startDate": "01 January 1970 05:30 AM",
@@ -37,7 +37,7 @@
           "flag": {
             "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-ARGT@2x.png"
           },
-          "isWinner": null,
+          "isWinner": false,
           "color": "#68b8f4",
           "cricketScore": [
             {
@@ -64,13 +64,13 @@
           "flag": {
             "src": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-CYIS@2x.png"
           },
-          "isWinner": null,
+          "isWinner": true,
           "color": "#C33637",
           "cricketScore": [
             {
-              "runs": 110,
-              "overs": "16.5",
-              "balls": "101",
+              "runs": 116,
+              "overs": "17",
+              "balls": "102",
               "status": "IN_PROGRESS",
               "wickets": 4
             }
@@ -131,7 +131,11 @@
           "footballScore": null,
           "basketBallScore": null,
           "hockeyScore": null,
-          "status": null
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
         },
         {
           "name": "Castellón",
@@ -146,7 +150,11 @@
           "footballScore": null,
           "basketBallScore": null,
           "hockeyScore": null,
-          "status": null
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
         }
       ],
       "language": "ENGLISH",
