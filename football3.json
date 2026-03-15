@@ -1,14 +1,14 @@
 {
   "Author": "DOCTOR_STRANGE",
   "name": "FanCode Live Matches API",
-  "last_updated": "12:56:04 AM 16-03-2026",
+  "last_updated": "01:21:04 AM 16-03-2026",
   "headers": {
     "User-Agent": "ReactNativeVideo/9.3.0 (Linux;Android 13) AndroidXMedia3/1.6.1",
     "Referer": "https://fancode.com/"
   },
   "total_matches": 38,
-  "live_matches": 6,
-  "upcoming_matches": 32,
+  "live_matches": 8,
+  "upcoming_matches": 30,
   "matches": [
     {
       "category": "Cricket",
@@ -41,11 +41,11 @@
           "color": "#68b8f4",
           "cricketScore": [
             {
-              "runs": 0,
-              "overs": "0",
-              "balls": "0",
+              "runs": 24,
+              "overs": "6",
+              "balls": "36",
               "status": "IN_PROGRESS",
-              "wickets": 0
+              "wickets": 4
             }
           ],
           "kabaddiScore": null,
@@ -91,46 +91,36 @@
     },
     {
       "category": "Football",
-      "title": "Real Betis Vs Rc Celta",
+      "title": "Real Sociedad Vs Ca Osasuna",
       "tournament": "LALIGA 2025-26",
-      "match_id": 131107,
-      "status": "LIVE",
+      "match_id": 131104,
+      "status": "NOT_STARTED",
       "streamingStatus": "STARTED",
-      "startTime": "15 March 2026 11:00 PM",
+      "startTime": "16 March 2026 01:30 AM",
       "startDate": "01 January 1970 05:30 AM",
-      "image": "https://www.fancode.com/skillup-uploads/cms-media/131107_5427_RB_CEV_FC-Web.png",
+      "image": "https://www.fancode.com/skillup-uploads/cms-media/131104_5427_RS_OSN_FC-Web.png",
       "image_cdn": {
-        "TATAPLAY": "https://images.fancode.com/aig/match/v1/131107_CASACARDS_PARTNER_16_9_1920_1080.png",
-        "APP": "https://www.fancode.com/skillup-uploads/cms-media/131107_5427_RB_CEV_FC-Web.png",
-        "PLAYBACK": "https://www.fancode.com/skillup-uploads/cms-media/131107_5427_RB_CEV_FC-Web.png",
+        "TATAPLAY": "https://images.fancode.com/aig/match/v1/131104_CASACARDS_PARTNER_16_9_1920_1080.png",
+        "APP": "https://www.fancode.com/skillup-uploads/cms-media/131104_5427_RS_OSN_FC-Web.png",
+        "PLAYBACK": "https://www.fancode.com/skillup-uploads/cms-media/131104_5427_RS_OSN_FC-Web.png",
         "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/LALIGA-2025-26-Tour.png",
         "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Football-old-copy.jpg",
-        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/131107_5427_RB_CEV_FC-Web.png",
-        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/131107_5427_RB_CEV_FC-App.png",
-        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/131107_CASACARDS_PARTNER_16_9_1920_1080.png"
+        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/131104_5427_RS_OSN_FC-Web.png",
+        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/131104_5427_RS_OSN_FC-App.png",
+        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/131104_CASACARDS_PARTNER_16_9_1920_1080.png"
       },
       "team": [
         {
-          "name": "Real Betis",
-          "shortName": "RB",
+          "name": "Real Sociedad",
+          "shortName": "RS",
           "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-REALB@2x.png"
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-RSO@2x.png"
           },
           "isWinner": null,
-          "color": "#19a661",
+          "color": "#ae7a05",
           "cricketScore": null,
           "kabaddiScore": null,
-          "footballScore": {
-            "points": 1,
-            "goals": [
-              {
-                "id": "120",
-                "shortName": "H Bellerin",
-                "isOwnGoal": false,
-                "goalTime": "49'"
-              }
-            ]
-          },
+          "footballScore": null,
           "basketBallScore": null,
           "hockeyScore": null,
           "status": {
@@ -140,26 +130,16 @@
           }
         },
         {
-          "name": "RC Celta",
-          "shortName": "CEV",
+          "name": "CA Osasuna",
+          "shortName": "OSN",
           "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-CEV@2x.png"
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-OSN@2x.png"
           },
           "isWinner": null,
-          "color": "#b1d4f5",
+          "color": "#F2DC85",
           "cricketScore": null,
           "kabaddiScore": null,
-          "footballScore": {
-            "points": 1,
-            "goals": [
-              {
-                "id": "56037",
-                "shortName": "F Jutgla",
-                "isOwnGoal": false,
-                "goalTime": "4'"
-              }
-            ]
-          },
+          "footballScore": null,
           "basketBallScore": null,
           "hockeyScore": null,
           "status": {
@@ -172,10 +152,81 @@
       "language": "ENGLISH",
       "auto_streams": [
         {
-          "auto": "#EXTM3U\n#EXT-X-VERSION:3\n#EXT-X-STREAM-INF:BANDWIDTH=414232,AVERAGE-BANDWIDTH=414232,CODECS=\"avc1.42e015,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=426x240,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/131107_english_hls_5bd74dd81b45462_1ta-di_h264/240p.m3u8?hdntl=Expires=1773680708~_GO=Generated~acl=/mumbai/131107_english_hls_5bd74dd81b45462_1ta-di_h264/*~Signature=AR77L-Y2iy473oik1reCbk0KgrKkvZ9AhCaBGCrw851DOIaC8hKUMBTuCUKn0ab7AnnC9ED8qA6WKbun32d1rBkF_moB\n#EXT-X-STREAM-INF:BANDWIDTH=669672,AVERAGE-BANDWIDTH=669672,CODECS=\"avc1.42e01e,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=640x360,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/131107_english_hls_5bd74dd81b45462_1ta-di_h264/360p.m3u8?hdntl=Expires=1773680708~_GO=Generated~acl=/mumbai/131107_english_hls_5bd74dd81b45462_1ta-di_h264/*~Signature=AR77L-Y2iy473oik1reCbk0KgrKkvZ9AhCaBGCrw851DOIaC8hKUMBTuCUKn0ab7AnnC9ED8qA6WKbun32d1rBkF_moB\n#EXT-X-STREAM-INF:BANDWIDTH=990520,AVERAGE-BANDWIDTH=990520,CODECS=\"avc1.4d401e,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=854x480,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/131107_english_hls_5bd74dd81b45462_1ta-di_h264/480p.m3u8?hdntl=Expires=1773680708~_GO=Generated~acl=/mumbai/131107_english_hls_5bd74dd81b45462_1ta-di_h264/*~Signature=AR77L-Y2iy473oik1reCbk0KgrKkvZ9AhCaBGCrw851DOIaC8hKUMBTuCUKn0ab7AnnC9ED8qA6WKbun32d1rBkF_moB\n#EXT-X-STREAM-INF:BANDWIDTH=1245960,AVERAGE-BANDWIDTH=1245960,CODECS=\"avc1.4d401f,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=960x540,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/131107_english_hls_5bd74dd81b45462_1ta-di_h264/540p.m3u8?hdntl=Expires=1773680708~_GO=Generated~acl=/mumbai/131107_english_hls_5bd74dd81b45462_1ta-di_h264/*~Signature=AR77L-Y2iy473oik1reCbk0KgrKkvZ9AhCaBGCrw851DOIaC8hKUMBTuCUKn0ab7AnnC9ED8qA6WKbun32d1rBkF_moB\n#EXT-X-STREAM-INF:BANDWIDTH=1756808,AVERAGE-BANDWIDTH=1756808,CODECS=\"avc1.64001f,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1280x720,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/131107_english_hls_5bd74dd81b45462_1ta-di_h264/720p.m3u8?hdntl=Expires=1773680708~_GO=Generated~acl=/mumbai/131107_english_hls_5bd74dd81b45462_1ta-di_h264/*~Signature=AR77L-Y2iy473oik1reCbk0KgrKkvZ9AhCaBGCrw851DOIaC8hKUMBTuCUKn0ab7AnnC9ED8qA6WKbun32d1rBkF_moB\n#EXT-X-STREAM-INF:BANDWIDTH=3289416,AVERAGE-BANDWIDTH=3289416,CODECS=\"avc1.640028,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1920x1080,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/131107_english_hls_5bd74dd81b45462_1ta-di_h264/1080p.m3u8?hdntl=Expires=1773680708~_GO=Generated~acl=/mumbai/131107_english_hls_5bd74dd81b45462_1ta-di_h264/*~Signature=AR77L-Y2iy473oik1reCbk0KgrKkvZ9AhCaBGCrw851DOIaC8hKUMBTuCUKn0ab7AnnC9ED8qA6WKbun32d1rBkF_moB\n#EXT-X-STREAM-INF:BANDWIDTH=5376032,AVERAGE-BANDWIDTH=5376032,CODECS=\"avc1.64002a,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1920x1080,FRAME-RATE=50.000\nhttps://in-mc-flive.fancode.com/mumbai/131107_english_hls_5bd74dd81b45462_1ta-di_h264/1080p5.m3u8?hdntl=Expires=1773680708~_GO=Generated~acl=/mumbai/131107_english_hls_5bd74dd81b45462_1ta-di_h264/*~Signature=AR77L-Y2iy473oik1reCbk0KgrKkvZ9AhCaBGCrw851DOIaC8hKUMBTuCUKn0ab7AnnC9ED8qA6WKbun32d1rBkF_moB",
-          "cookie": "hdntl=Expires=1773680708~_GO=Generated~acl=/mumbai/131107_english_hls_5bd74dd81b45462_1ta-di_h264/*~Signature=AR77L-Y2iy473oik1reCbk0KgrKkvZ9AhCaBGCrw851DOIaC8hKUMBTuCUKn0ab7AnnC9ED8qA6WKbun32d1rBkF_moB",
-          "cookie_valid": "1773680708",
-          "expire_date": "Monday, March 16, 2026, 10:35:08 PM",
+          "auto": "#EXTM3U\n#EXT-X-VERSION:3\n#EXT-X-STREAM-INF:BANDWIDTH=414232,AVERAGE-BANDWIDTH=414232,CODECS=\"avc1.42e015,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=426x240,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/131104_english_hls_733d12806760145_1ta-di_h264/240p.m3u8?hdntl=Expires=1773689404~_GO=Generated~acl=/mumbai/131104_english_hls_733d12806760145_1ta-di_h264/*~Signature=AR77L-YLhUL9v4CbJvnd_qRktU3MevtK0gQHnKDRVMZxgyaLu3njJ4CLnq7d01-3dT9oddpVENIC0ddqOitr4LvBM4cM\n#EXT-X-STREAM-INF:BANDWIDTH=669672,AVERAGE-BANDWIDTH=669672,CODECS=\"avc1.42e01e,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=640x360,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/131104_english_hls_733d12806760145_1ta-di_h264/360p.m3u8?hdntl=Expires=1773689404~_GO=Generated~acl=/mumbai/131104_english_hls_733d12806760145_1ta-di_h264/*~Signature=AR77L-YLhUL9v4CbJvnd_qRktU3MevtK0gQHnKDRVMZxgyaLu3njJ4CLnq7d01-3dT9oddpVENIC0ddqOitr4LvBM4cM\n#EXT-X-STREAM-INF:BANDWIDTH=990520,AVERAGE-BANDWIDTH=990520,CODECS=\"avc1.4d401e,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=854x480,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/131104_english_hls_733d12806760145_1ta-di_h264/480p.m3u8?hdntl=Expires=1773689404~_GO=Generated~acl=/mumbai/131104_english_hls_733d12806760145_1ta-di_h264/*~Signature=AR77L-YLhUL9v4CbJvnd_qRktU3MevtK0gQHnKDRVMZxgyaLu3njJ4CLnq7d01-3dT9oddpVENIC0ddqOitr4LvBM4cM\n#EXT-X-STREAM-INF:BANDWIDTH=1245960,AVERAGE-BANDWIDTH=1245960,CODECS=\"avc1.4d401f,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=960x540,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/131104_english_hls_733d12806760145_1ta-di_h264/540p.m3u8?hdntl=Expires=1773689404~_GO=Generated~acl=/mumbai/131104_english_hls_733d12806760145_1ta-di_h264/*~Signature=AR77L-YLhUL9v4CbJvnd_qRktU3MevtK0gQHnKDRVMZxgyaLu3njJ4CLnq7d01-3dT9oddpVENIC0ddqOitr4LvBM4cM\n#EXT-X-STREAM-INF:BANDWIDTH=1756808,AVERAGE-BANDWIDTH=1756808,CODECS=\"avc1.64001f,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1280x720,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/131104_english_hls_733d12806760145_1ta-di_h264/720p.m3u8?hdntl=Expires=1773689404~_GO=Generated~acl=/mumbai/131104_english_hls_733d12806760145_1ta-di_h264/*~Signature=AR77L-YLhUL9v4CbJvnd_qRktU3MevtK0gQHnKDRVMZxgyaLu3njJ4CLnq7d01-3dT9oddpVENIC0ddqOitr4LvBM4cM\n#EXT-X-STREAM-INF:BANDWIDTH=3289416,AVERAGE-BANDWIDTH=3289416,CODECS=\"avc1.640028,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1920x1080,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/131104_english_hls_733d12806760145_1ta-di_h264/1080p.m3u8?hdntl=Expires=1773689404~_GO=Generated~acl=/mumbai/131104_english_hls_733d12806760145_1ta-di_h264/*~Signature=AR77L-YLhUL9v4CbJvnd_qRktU3MevtK0gQHnKDRVMZxgyaLu3njJ4CLnq7d01-3dT9oddpVENIC0ddqOitr4LvBM4cM\n#EXT-X-STREAM-INF:BANDWIDTH=5376032,AVERAGE-BANDWIDTH=5376032,CODECS=\"avc1.64002a,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1920x1080,FRAME-RATE=50.000\nhttps://in-mc-flive.fancode.com/mumbai/131104_english_hls_733d12806760145_1ta-di_h264/1080p5.m3u8?hdntl=Expires=1773689404~_GO=Generated~acl=/mumbai/131104_english_hls_733d12806760145_1ta-di_h264/*~Signature=AR77L-YLhUL9v4CbJvnd_qRktU3MevtK0gQHnKDRVMZxgyaLu3njJ4CLnq7d01-3dT9oddpVENIC0ddqOitr4LvBM4cM",
+          "cookie": "hdntl=Expires=1773689404~_GO=Generated~acl=/mumbai/131104_english_hls_733d12806760145_1ta-di_h264/*~Signature=AR77L-YLhUL9v4CbJvnd_qRktU3MevtK0gQHnKDRVMZxgyaLu3njJ4CLnq7d01-3dT9oddpVENIC0ddqOitr4LvBM4cM",
+          "cookie_valid": "1773689404",
+          "expire_date": "Tuesday, March 17, 2026, 1:00:04 AM",
+          "language": "ENGLISH"
+        }
+      ]
+    },
+    {
+      "category": "Football",
+      "title": "Sporting De Gijón Vs Castellón",
+      "tournament": "LALIGA Hypermotion 2025-26",
+      "match_id": 141219,
+      "status": "NOT_STARTED",
+      "streamingStatus": "STARTED",
+      "startTime": "16 March 2026 01:30 AM",
+      "startDate": "01 January 1970 05:30 AM",
+      "image": "https://images.fancode.com/aig/match/v1773431102732/141219_CASACARDS_APP.png",
+      "image_cdn": {
+        "TATAPLAY": "https://images.fancode.com/aig/match/v1/141219_CASACARDS_PARTNER_16_9_1920_1080.png",
+        "APP": "https://images.fancode.com/aig/match/v1773431102732/141219_CASACARDS_APP.png",
+        "PLAYBACK": "https://images.fancode.com/aig/match/v1773431102732/141219_CASACARDS_APP.png",
+        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/LaLiga_Hypermotionv-Tour-Logo.png",
+        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Football-old-copy.jpg",
+        "BG_IMAGE": "https://images.fancode.com/aig/match/v1773431102732/141219_CASACARDS_APP.png",
+        "SPORT_BY_IMAGE": "https://images.fancode.com/aig/match/v1773431102732/141219_CASACARDS_SPORTY_APP.png",
+        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/141219_CASACARDS_PARTNER_16_9_1920_1080.png"
+      },
+      "team": [
+        {
+          "name": "Sporting de Gijón",
+          "shortName": "SG",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-SG@2x.png"
+          },
+          "isWinner": null,
+          "color": "#766100",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        },
+        {
+          "name": "Castellón",
+          "shortName": "CAS",
+          "flag": {
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-CAS@2x.png"
+          },
+          "isWinner": null,
+          "color": "#BE2729",
+          "cricketScore": null,
+          "kabaddiScore": null,
+          "footballScore": null,
+          "basketBallScore": null,
+          "hockeyScore": null,
+          "status": {
+            "cricket": {
+              "isBatting": false
+            }
+          }
+        }
+      ],
+      "language": "ENGLISH",
+      "auto_streams": [
+        {
+          "auto": "#EXTM3U\n#EXT-X-VERSION:3\n#EXT-X-STREAM-INF:BANDWIDTH=446936,AVERAGE-BANDWIDTH=446936,CODECS=\"avc1.42e015,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=426x240,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/141219_english_hls_ba2e6e605758076_1ta-di_h264/240p.m3u8?hdntl=Expires=1773690665~_GO=Generated~acl=/mumbai/141219_english_hls_ba2e6e605758076_1ta-di_h264/*~Signature=AR77L-Z3sUVaIWkhuUkL0MHCPTgdQuC-Isgp3XGNG9F5_6hwVk7gF1nu-XvJjDBdCZZlJm-AEkH3pSw_eB2XC_febN8F\n#EXT-X-STREAM-INF:BANDWIDTH=702376,AVERAGE-BANDWIDTH=702376,CODECS=\"avc1.42e01e,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=640x360,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/141219_english_hls_ba2e6e605758076_1ta-di_h264/360p.m3u8?hdntl=Expires=1773690665~_GO=Generated~acl=/mumbai/141219_english_hls_ba2e6e605758076_1ta-di_h264/*~Signature=AR77L-Z3sUVaIWkhuUkL0MHCPTgdQuC-Isgp3XGNG9F5_6hwVk7gF1nu-XvJjDBdCZZlJm-AEkH3pSw_eB2XC_febN8F\n#EXT-X-STREAM-INF:BANDWIDTH=1023224,AVERAGE-BANDWIDTH=1023224,CODECS=\"avc1.4d401e,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=854x480,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/141219_english_hls_ba2e6e605758076_1ta-di_h264/480p.m3u8?hdntl=Expires=1773690665~_GO=Generated~acl=/mumbai/141219_english_hls_ba2e6e605758076_1ta-di_h264/*~Signature=AR77L-Z3sUVaIWkhuUkL0MHCPTgdQuC-Isgp3XGNG9F5_6hwVk7gF1nu-XvJjDBdCZZlJm-AEkH3pSw_eB2XC_febN8F\n#EXT-X-STREAM-INF:BANDWIDTH=1278664,AVERAGE-BANDWIDTH=1278664,CODECS=\"avc1.4d401f,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=960x540,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/141219_english_hls_ba2e6e605758076_1ta-di_h264/540p.m3u8?hdntl=Expires=1773690665~_GO=Generated~acl=/mumbai/141219_english_hls_ba2e6e605758076_1ta-di_h264/*~Signature=AR77L-Z3sUVaIWkhuUkL0MHCPTgdQuC-Isgp3XGNG9F5_6hwVk7gF1nu-XvJjDBdCZZlJm-AEkH3pSw_eB2XC_febN8F\n#EXT-X-STREAM-INF:BANDWIDTH=1789512,AVERAGE-BANDWIDTH=1789512,CODECS=\"avc1.64001f,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1280x720,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/141219_english_hls_ba2e6e605758076_1ta-di_h264/720p.m3u8?hdntl=Expires=1773690665~_GO=Generated~acl=/mumbai/141219_english_hls_ba2e6e605758076_1ta-di_h264/*~Signature=AR77L-Z3sUVaIWkhuUkL0MHCPTgdQuC-Isgp3XGNG9F5_6hwVk7gF1nu-XvJjDBdCZZlJm-AEkH3pSw_eB2XC_febN8F\n#EXT-X-STREAM-INF:BANDWIDTH=3322120,AVERAGE-BANDWIDTH=3322120,CODECS=\"avc1.640028,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1920x1080,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/141219_english_hls_ba2e6e605758076_1ta-di_h264/1080p.m3u8?hdntl=Expires=1773690665~_GO=Generated~acl=/mumbai/141219_english_hls_ba2e6e605758076_1ta-di_h264/*~Signature=AR77L-Z3sUVaIWkhuUkL0MHCPTgdQuC-Isgp3XGNG9F5_6hwVk7gF1nu-XvJjDBdCZZlJm-AEkH3pSw_eB2XC_febN8F",
+          "cookie": "hdntl=Expires=1773690665~_GO=Generated~acl=/mumbai/141219_english_hls_ba2e6e605758076_1ta-di_h264/*~Signature=AR77L-Z3sUVaIWkhuUkL0MHCPTgdQuC-Isgp3XGNG9F5_6hwVk7gF1nu-XvJjDBdCZZlJm-AEkH3pSw_eB2XC_febN8F",
+          "cookie_valid": "1773690665",
+          "expire_date": "Tuesday, March 17, 2026, 1:21:05 AM",
           "language": "ENGLISH"
         }
       ]
@@ -466,36 +517,46 @@
     },
     {
       "category": "Football",
-      "title": "Real Sociedad Vs Ca Osasuna",
+      "title": "Real Betis Vs Rc Celta",
       "tournament": "LALIGA 2025-26",
-      "match_id": 131104,
-      "status": "NOT_STARTED",
-      "streamingStatus": "NOT_STARTED",
-      "startTime": "16 March 2026 01:30 AM",
+      "match_id": 131107,
+      "status": "COMPLETED",
+      "streamingStatus": "STARTED",
+      "startTime": "15 March 2026 11:00 PM",
       "startDate": "01 January 1970 05:30 AM",
-      "image": "https://www.fancode.com/skillup-uploads/cms-media/131104_5427_RS_OSN_FC-Web.png",
+      "image": "https://www.fancode.com/skillup-uploads/cms-media/131107_5427_RB_CEV_FC-Web.png",
       "image_cdn": {
-        "TATAPLAY": "https://images.fancode.com/aig/match/v1/131104_CASACARDS_PARTNER_16_9_1920_1080.png",
-        "APP": "https://www.fancode.com/skillup-uploads/cms-media/131104_5427_RS_OSN_FC-Web.png",
-        "PLAYBACK": null,
+        "TATAPLAY": "https://images.fancode.com/aig/match/v1/131107_CASACARDS_PARTNER_16_9_1920_1080.png",
+        "APP": "https://www.fancode.com/skillup-uploads/cms-media/131107_5427_RB_CEV_FC-Web.png",
+        "PLAYBACK": "https://www.fancode.com/skillup-uploads/cms-media/131107_5427_RB_CEV_FC-Web.png",
         "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/LALIGA-2025-26-Tour.png",
         "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Football-old-copy.jpg",
-        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/131104_5427_RS_OSN_FC-Web.png",
-        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/131104_5427_RS_OSN_FC-App.png",
-        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/131104_CASACARDS_PARTNER_16_9_1920_1080.png"
+        "BG_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/131107_5427_RB_CEV_FC-Web.png",
+        "SPORT_BY_IMAGE": "https://www.fancode.com/skillup-uploads/cms-media/131107_5427_RB_CEV_FC-App.png",
+        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/131107_CASACARDS_PARTNER_16_9_1920_1080.png"
       },
       "team": [
         {
-          "name": "Real Sociedad",
-          "shortName": "RS",
+          "name": "Real Betis",
+          "shortName": "RB",
           "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-RSO@2x.png"
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-REALB@2x.png"
           },
           "isWinner": null,
-          "color": "#ae7a05",
+          "color": "#19a661",
           "cricketScore": null,
           "kabaddiScore": null,
-          "footballScore": null,
+          "footballScore": {
+            "points": 1,
+            "goals": [
+              {
+                "id": "120",
+                "shortName": "H Bellerin",
+                "isOwnGoal": false,
+                "goalTime": "49'"
+              }
+            ]
+          },
           "basketBallScore": null,
           "hockeyScore": null,
           "status": {
@@ -505,16 +566,26 @@
           }
         },
         {
-          "name": "CA Osasuna",
-          "shortName": "OSN",
+          "name": "RC Celta",
+          "shortName": "CEV",
           "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-OSN@2x.png"
+            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-CEV@2x.png"
           },
           "isWinner": null,
-          "color": "#F2DC85",
+          "color": "#b1d4f5",
           "cricketScore": null,
           "kabaddiScore": null,
-          "footballScore": null,
+          "footballScore": {
+            "points": 1,
+            "goals": [
+              {
+                "id": "56037",
+                "shortName": "F Jutgla",
+                "isOwnGoal": false,
+                "goalTime": "4'"
+              }
+            ]
+          },
           "basketBallScore": null,
           "hockeyScore": null,
           "status": {
@@ -524,8 +595,16 @@
           }
         }
       ],
-      "language": "BLOODY_SWEET",
-      "auto_streams": null
+      "language": "ENGLISH",
+      "auto_streams": [
+        {
+          "auto": "#EXTM3U\n#EXT-X-VERSION:3\n#EXT-X-STREAM-INF:BANDWIDTH=414232,AVERAGE-BANDWIDTH=414232,CODECS=\"avc1.42e015,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=426x240,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/131107_english_hls_5bd74dd81b45462_1ta-di_h264/240p.m3u8?hdntl=Expires=1773680708~_GO=Generated~acl=/mumbai/131107_english_hls_5bd74dd81b45462_1ta-di_h264/*~Signature=AR77L-Y2iy473oik1reCbk0KgrKkvZ9AhCaBGCrw851DOIaC8hKUMBTuCUKn0ab7AnnC9ED8qA6WKbun32d1rBkF_moB\n#EXT-X-STREAM-INF:BANDWIDTH=669672,AVERAGE-BANDWIDTH=669672,CODECS=\"avc1.42e01e,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=640x360,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/131107_english_hls_5bd74dd81b45462_1ta-di_h264/360p.m3u8?hdntl=Expires=1773680708~_GO=Generated~acl=/mumbai/131107_english_hls_5bd74dd81b45462_1ta-di_h264/*~Signature=AR77L-Y2iy473oik1reCbk0KgrKkvZ9AhCaBGCrw851DOIaC8hKUMBTuCUKn0ab7AnnC9ED8qA6WKbun32d1rBkF_moB\n#EXT-X-STREAM-INF:BANDWIDTH=990520,AVERAGE-BANDWIDTH=990520,CODECS=\"avc1.4d401e,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=854x480,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/131107_english_hls_5bd74dd81b45462_1ta-di_h264/480p.m3u8?hdntl=Expires=1773680708~_GO=Generated~acl=/mumbai/131107_english_hls_5bd74dd81b45462_1ta-di_h264/*~Signature=AR77L-Y2iy473oik1reCbk0KgrKkvZ9AhCaBGCrw851DOIaC8hKUMBTuCUKn0ab7AnnC9ED8qA6WKbun32d1rBkF_moB\n#EXT-X-STREAM-INF:BANDWIDTH=1245960,AVERAGE-BANDWIDTH=1245960,CODECS=\"avc1.4d401f,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=960x540,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/131107_english_hls_5bd74dd81b45462_1ta-di_h264/540p.m3u8?hdntl=Expires=1773680708~_GO=Generated~acl=/mumbai/131107_english_hls_5bd74dd81b45462_1ta-di_h264/*~Signature=AR77L-Y2iy473oik1reCbk0KgrKkvZ9AhCaBGCrw851DOIaC8hKUMBTuCUKn0ab7AnnC9ED8qA6WKbun32d1rBkF_moB\n#EXT-X-STREAM-INF:BANDWIDTH=1756808,AVERAGE-BANDWIDTH=1756808,CODECS=\"avc1.64001f,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1280x720,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/131107_english_hls_5bd74dd81b45462_1ta-di_h264/720p.m3u8?hdntl=Expires=1773680708~_GO=Generated~acl=/mumbai/131107_english_hls_5bd74dd81b45462_1ta-di_h264/*~Signature=AR77L-Y2iy473oik1reCbk0KgrKkvZ9AhCaBGCrw851DOIaC8hKUMBTuCUKn0ab7AnnC9ED8qA6WKbun32d1rBkF_moB\n#EXT-X-STREAM-INF:BANDWIDTH=3289416,AVERAGE-BANDWIDTH=3289416,CODECS=\"avc1.640028,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1920x1080,FRAME-RATE=25.000\nhttps://in-mc-flive.fancode.com/mumbai/131107_english_hls_5bd74dd81b45462_1ta-di_h264/1080p.m3u8?hdntl=Expires=1773680708~_GO=Generated~acl=/mumbai/131107_english_hls_5bd74dd81b45462_1ta-di_h264/*~Signature=AR77L-Y2iy473oik1reCbk0KgrKkvZ9AhCaBGCrw851DOIaC8hKUMBTuCUKn0ab7AnnC9ED8qA6WKbun32d1rBkF_moB\n#EXT-X-STREAM-INF:BANDWIDTH=5376032,AVERAGE-BANDWIDTH=5376032,CODECS=\"avc1.64002a,mp4a.40.2\",PROGRAM-ID=1,RESOLUTION=1920x1080,FRAME-RATE=50.000\nhttps://in-mc-flive.fancode.com/mumbai/131107_english_hls_5bd74dd81b45462_1ta-di_h264/1080p5.m3u8?hdntl=Expires=1773680708~_GO=Generated~acl=/mumbai/131107_english_hls_5bd74dd81b45462_1ta-di_h264/*~Signature=AR77L-Y2iy473oik1reCbk0KgrKkvZ9AhCaBGCrw851DOIaC8hKUMBTuCUKn0ab7AnnC9ED8qA6WKbun32d1rBkF_moB",
+          "cookie": "hdntl=Expires=1773680708~_GO=Generated~acl=/mumbai/131107_english_hls_5bd74dd81b45462_1ta-di_h264/*~Signature=AR77L-Y2iy473oik1reCbk0KgrKkvZ9AhCaBGCrw851DOIaC8hKUMBTuCUKn0ab7AnnC9ED8qA6WKbun32d1rBkF_moB",
+          "cookie_valid": "1773680708",
+          "expire_date": "Monday, March 16, 2026, 10:35:08 PM",
+          "language": "ENGLISH"
+        }
+      ]
     },
     {
       "category": "Cricket",
@@ -576,69 +655,6 @@
           "isWinner": null,
           "color": "#082f5e",
           "cricketScore": [],
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        }
-      ],
-      "language": "BLOODY_SWEET",
-      "auto_streams": null
-    },
-    {
-      "category": "Football",
-      "title": "Sporting De Gijón Vs Castellón",
-      "tournament": "LALIGA Hypermotion 2025-26",
-      "match_id": 141219,
-      "status": "NOT_STARTED",
-      "streamingStatus": "NOT_STARTED",
-      "startTime": "16 March 2026 01:30 AM",
-      "startDate": "01 January 1970 05:30 AM",
-      "image": "https://images.fancode.com/aig/match/v1773431102732/141219_CASACARDS_APP.png",
-      "image_cdn": {
-        "TATAPLAY": "https://images.fancode.com/aig/match/v1/141219_CASACARDS_PARTNER_16_9_1920_1080.png",
-        "APP": "https://images.fancode.com/aig/match/v1773431102732/141219_CASACARDS_APP.png",
-        "PLAYBACK": null,
-        "LOGO": "https://www.fancode.com/skillup-uploads/cms-media/LaLiga_Hypermotionv-Tour-Logo.png",
-        "SPORTS": "https://www.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Football-old-copy.jpg",
-        "BG_IMAGE": "https://images.fancode.com/aig/match/v1773431102732/141219_CASACARDS_APP.png",
-        "SPORT_BY_IMAGE": "https://images.fancode.com/aig/match/v1773431102732/141219_CASACARDS_SPORTY_APP.png",
-        "CLOUDFARE": "https://d229kpbsb5jevy.cloudfront.net/vffancode2/aig/match/v1/141219_CASACARDS_PARTNER_16_9_1920_1080.png"
-      },
-      "team": [
-        {
-          "name": "Sporting de Gijón",
-          "shortName": "SG",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-SG@2x.png"
-          },
-          "isWinner": null,
-          "color": "#766100",
-          "cricketScore": null,
-          "kabaddiScore": null,
-          "footballScore": null,
-          "basketBallScore": null,
-          "hockeyScore": null,
-          "status": {
-            "cricket": {
-              "isBatting": false
-            }
-          }
-        },
-        {
-          "name": "Castellón",
-          "shortName": "CAS",
-          "flag": {
-            "src": "https://d13ir53smqqeyp.cloudfront.net/flags/ft-flags/FC-CAS@2x.png"
-          },
-          "isWinner": null,
-          "color": "#BE2729",
-          "cricketScore": null,
           "kabaddiScore": null,
           "footballScore": null,
           "basketBallScore": null,
